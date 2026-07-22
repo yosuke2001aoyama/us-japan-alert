@@ -26,7 +26,7 @@ export const sources: Source[] = [
   { name: "政策シンクタンク", url: q('(site:csis.org OR site:cfr.org OR site:brookings.edu OR site:rand.org) (Japan OR U.S.-Japan OR Indo-Pacific alliance)', "en-US", "US", "US:en"), category: "日米関係" },
 ];
 
-const decode = (s: string) => s.replace(/<!\[CDATA\[|\]\]>/g, "").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+const decode = (s: string) => s.replace(/<!\[CDATA\[|\]\]>/g, "").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&nbsp;|&#160;|\u00a0/g, " ").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 const field = (xml: string, name: string) => decode(xml.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`, "i"))?.[1] || "");
 const link = (xml: string) => field(xml, "link") || xml.match(/<link[^>]+href=["']([^"']+)/i)?.[1] || "";
 
