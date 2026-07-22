@@ -2,7 +2,7 @@ name: Monitor JP-US news
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,10 +23,11 @@ jobs:
           node-version: 22
       - name: Collect and notify
         env:
-          FEED_ENDPOINT: https://jpus-alert.yosuke2001aoyama.chatgpt.site/api/feed
+          PUBLIC_DASHBOARD_URL: ${{ vars.PUBLIC_DASHBOARD_URL }}
           GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          ALERT_ASSIGNEE: ${{ github.repository_owner }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_TO_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
+          ALERT_FROM_EMAIL: ${{ secrets.ALERT_FROM_EMAIL }}
         run: node scripts/monitor.mjs
       - name: Save latest snapshot
         run: |
