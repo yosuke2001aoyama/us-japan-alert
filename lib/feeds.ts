@@ -26,7 +26,7 @@ export const sources: Source[] = [
   { name: "政策シンクタンク", url: q('(site:csis.org OR site:cfr.org OR site:brookings.edu OR site:rand.org) (Japan OR U.S.-Japan OR Indo-Pacific alliance)', "en-US", "US", "US:en"), category: "日米関係" },
 ];
 
-const decode = (s: string) => s.replace(/<!\[CDATA\[|\]\]>/g, "").replace(/<[^>]*>/g, " ").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/\s+/g, " ").trim();
+const decode = (s: string) => s.replace(/<!\[CDATA\[|\]\]>/g, "").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 const field = (xml: string, name: string) => decode(xml.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`, "i"))?.[1] || "");
 const link = (xml: string) => field(xml, "link") || xml.match(/<link[^>]+href=["']([^"']+)/i)?.[1] || "";
 
@@ -94,7 +94,7 @@ async function readSource(source: Source) {
     const text = `${title} ${summary}`;
     if (!policyRelevant(text, !!source.official)) return null;
     const japanRelated = japanPattern.test(text);
-    return { id: Buffer.from(url).toString("base64url").slice(0, 36), title, url, source: source.name, publishedAt: new Date(publishedAt).toISOString(), summary, category: source.official && !japanRelated ? "公式発表" : classify(text, source.category), priority: score(text, !!source.official), japanRelated, official: !!source.official, english: isEnglish(title) };
+    return { id: Buffer.from(url).toString("base64url").slice(-36), title, url, source: source.name, publishedAt: new Date(publishedAt).toISOString(), summary, category: source.official && !japanRelated ? "公式発表" : classify(text, source.category), priority: score(text, !!source.official), japanRelated, official: !!source.official, english: isEnglish(title) };
   }).filter((x): x is AlertItem => !!x);
 }
 
