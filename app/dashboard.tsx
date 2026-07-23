@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 type Item = {
   id: string;
@@ -14,13 +14,14 @@ type Item = {
   japanRelated: boolean;
   official: boolean;
   english?: boolean;
+  image?: string;
 };
 
 type Feed = {
   generatedAt: string;
   mode: "live" | "snapshot";
   items: Item[];
-  sources: { ok: number; failed: number; total: number };
+  sources: { ok: number; failed: number; total: number; failedNames?: string[] };
 };
 
 const EMPTY_DATE = new Date(0).toISOString();
@@ -53,26 +54,43 @@ export default function Dashboard() {
   const [officialOnly, setOfficialOnly] = useState(false);
   const [lastRefresh, setLastRefresh] = useState<Date | null>(null);
   const [now, setNow] = useState(0);
+  const hasLiveItems = useRef(false);
 
   const refresh = useCallback(async (quiet = false) => {
     if (!quiet) setLoading(true);
     try {
       const res = await fetch(`/api/feed?t=${Date.now()}`, { cache: "no-store" });
       if (!res.ok) throw new Error("feed unavailable");
-      setFeed(await res.json());
+      const next = await res.json() as Feed;
+      setFeed(next);
+      hasLiveItems.current = next.items.length > 0;
       setLastRefresh(new Date());
       setNow(Date.now());
     } catch {
-      if (!feed.items.length) {
-        try { setFeed(await fetch("/data/feed.json", { cache: "no-store" }).then((res) => res.json())); } catch { /* keep empty state */ }
+      if (!hasLiveItems.current) {
+        try {
+          const snapshot = await fetch("/data/feed.json", { cache: "no-store" }).then((res) => res.json()) as Feed;
+          setFeed(snapshot);
+          hasLiveItems.current = snapshot.items.length > 0;
+        } catch { /* keep empty state */ }
       }
     } finally { if (!quiet) setLoading(false); }
-  }, [feed.items.length]);
+  }, []);
 
   useEffect(() => {
     const initial = window.setTimeout(() => refresh(), 0);
-    const timer = window.setInterval(() => refresh(true), 120_000);
-    return () => { window.clearTimeout(initial); window.clearInterval(timer); };
+    const timer = window.setInterval(() => refresh(true), 110_000);
+    const refreshWhenVisible = () => {
+      if (document.visibilityState === "visible") refresh(true);
+    };
+    window.addEventListener("focus", refreshWhenVisible);
+    document.addEventListener("visibilitychange", refreshWhenVisible);
+    return () => {
+      window.clearTimeout(initial);
+      window.clearInterval(timer);
+      window.removeEventListener("focus", refreshWhenVisible);
+      document.removeEventListener("visibilitychange", refreshWhenVisible);
+    };
   }, [refresh]);
 
   const filtered = useMemo(() => {
@@ -91,21 +109,23 @@ export default function Dashboard() {
 
   const important = filtered.filter((item) => item.priority >= 80).length;
   const japanCount = filtered.filter((item) => item.japanRelated).length;
+  const featured = filtered.slice(0, 3);
+  const remaining = filtered.slice(3);
 
   return (
-    <main className="shell">
+    <main className="shell" data-generated-at={feed.generatedAt}>
       <header className="topbar">
         <div className="topbar-inner">
           <div className="brand"><span className="mark">JP</span><div><strong>JPUS ALERT</strong><small>米国・日米関係 政策速報</small></div></div>
-          <div className="system-status"><span className={`pulse ${loading ? "loading" : ""}`} />{loading ? "更新中" : "LIVE"}<span className="divider" />2分ごとに自動更新</div>
+          <div className="system-status"><span className={`pulse ${loading ? "loading" : ""}`} />{loading ? "更新中" : "LIVE"}<span className="divider" />2分以内に自動更新</div>
         </div>
       </header>
 
       <section className="briefing">
         <div className="brief-copy">
-          <p className="eyebrow">EXECUTIVE POLICY MONITOR</p>
-          <h1>日米政策の動きを、<br />意思決定の速さで。</h1>
-          <p>首脳・閣僚、同盟・安保、通商、制裁、議会、重要人事。日本政府の局長・課長級がフォローすべき公開情報に限定して表示します。</p>
+          <p className="eyebrow">JPUS POLICY MONITOR</p>
+          <h1>日米政策モニター</h1>
+          <p>首脳・閣僚、同盟・安保、通商、制裁、議会、重要人事に関する公開情報</p>
         </div>
         <div className="metrics" aria-label="表示中の概要">
           <div><b>{important}</b><span>重要案件</span></div>
@@ -133,34 +153,62 @@ export default function Dashboard() {
         </div>
       </section>
 
-      <section className="content-grid">
+      <section className="content">
+        {!!featured.length && <div className="lead-grid" aria-label="主要項目">
+          {featured.map((item, index) => <LeadStory key={item.id} item={item} primary={index === 0} />)}
+        </div>}
+
         <div className="stream">
-          <div className="section-title"><div><span className="live-dot" />LATEST INTELLIGENCE</div><span>{filtered.length}件</span></div>
+          <div className="section-title"><div><span className="live-dot" />最新情報</div><span>{filtered.length}件</span></div>
           {loading && !feed.items.length && <div className="empty">政策情報を収集中…</div>}
           {!loading && filtered.length === 0 && <div className="empty">この条件に該当する重要情報はありません。</div>}
-          {filtered.map((item) => <Story key={item.id} item={item} />)}
+          {remaining.map((item) => <Story key={item.id} item={item} />)}
         </div>
-
-        <aside>
-          <div className="aside-card criteria">
-            <div className="aside-title">掲載基準</div>
-            <p>「公表されたか」ではなく、政策判断・対外説明・幹部報告に必要かで選別。</p>
-            <div className="rule"><span>日米首脳・閣僚</span><b>最優先</b></div>
-            <div className="rule"><span>同盟・安保・通商</span><b>優先</b></div>
-            <div className="rule"><span>訪米観測・議員発言</span><b>対象</b></div>
-            <div className="rule muted"><span>領事・在留・定例広報</span><b>除外</b></div>
-          </div>
-          <div className="aside-card">
-            <div className="aside-title">主な監視対象</div>
-            <ul><li>日米政府・議会の一次情報</li><li>首脳・閣僚・主要議員の発信</li><li>日米の主要紙・通信・TV</li><li>重要シンクタンク・政策媒体</li></ul>
-          </div>
-          <a className="export" href="/api/feed?format=csv">CSVを出力 <span>↗</span></a>
-          <p className="updated">最終取得 {feed.generatedAt === EMPTY_DATE ? "待機中" : new Date(feed.generatedAt).toLocaleString("ja-JP")}<br />画面更新 {lastRefresh ? lastRefresh.toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit" }) : "—"}<br />{feed.sources.ok}/{feed.sources.total || "—"} 経路正常</p>
-        </aside>
       </section>
-      <footer><span>JPUS ALERT</span> 公開情報を自動収集・整理しています。政策判断には必ず原文をご確認ください。</footer>
+      <footer>
+        <span>JPUS ALERT</span>
+        <span>取得 {feed.generatedAt === EMPTY_DATE ? "—" : new Date(feed.generatedAt).toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit", second: "2-digit" })} · {feed.sources.ok}/{feed.sources.total || "—"}経路</span>
+        <span>画面更新 {lastRefresh ? lastRefresh.toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit" }) : "—"} · 政策判断には必ず原文をご確認ください。</span>
+      </footer>
     </main>
   );
+}
+
+function Visual({ item }: { item: Item }) {
+  const [failed, setFailed] = useState(false);
+  if (item.image && !failed) return <div className="visual"><img src={item.image} alt="" onError={() => setFailed(true)} /></div>;
+  return <div className={`visual fallback cat-${item.category.replace(/[・]/g, "-")}`} aria-hidden="true"><span>{item.source.slice(0, 2).toUpperCase()}</span><small>{item.category}</small></div>;
+}
+
+function LeadStory({ item, primary }: { item: Item; primary?: boolean }) {
+  const [translation, setTranslation] = useState<string | null>(null);
+  const [translationOpen, setTranslationOpen] = useState(false);
+  const [translating, setTranslating] = useState(false);
+
+  async function toggleTranslation() {
+    if (translationOpen) return setTranslationOpen(false);
+    setTranslationOpen(true);
+    if (translation !== null) return;
+    setTranslating(true);
+    try {
+      const res = await fetch("/api/translate", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text: [item.title, item.summary].filter(Boolean).join("\n\n") }) });
+      if (!res.ok) throw new Error();
+      setTranslation((await res.json()).translation || "仮訳を取得できませんでした。");
+    } catch { setTranslation("仮訳を取得できませんでした。原文をご確認ください。"); }
+    finally { setTranslating(false); }
+  }
+
+  return <article className={`lead-story ${primary ? "primary" : ""}`}>
+    <a className="lead-visual-link" href={item.url} target="_blank" rel="noreferrer"><Visual item={item} /></a>
+    <div className="lead-content">
+      <div className="meta">{item.priority >= 80 && <b className="urgent-label">重要</b>}{item.japanRelated && <b className="jp-label">日本関連</b>}<span>{item.category}</span><time dateTime={item.publishedAt}>{relativeTime(item.publishedAt)}</time></div>
+      <h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>
+      {primary && item.summary && <p>{item.summary}</p>}
+      {translationOpen && <div className="translation" aria-live="polite"><b>仮訳</b>{translating ? <span>翻訳中…</span> : <p>{translation}</p>}<small>見出し・要旨の機械翻訳です。</small></div>}
+      <a className="lead-source" href={item.url} target="_blank" rel="noreferrer">{item.source}<span>原文を読む ↗</span></a>
+      {item.english && <button className="translate-button lead-translate" onClick={toggleTranslation}>{translationOpen ? "仮訳を閉じる" : "仮訳を表示"}</button>}
+    </div>
+  </article>;
 }
 
 function Story({ item }: { item: Item }) {
