@@ -37,7 +37,7 @@ const economyPattern =
 const legislaturePattern =
   /\b(?:congress|senate|house of representatives|lawmaker|legislation|bill|nomination|confirmation|resign|dismiss)\b|議会|上院|下院|議員|法案|指名|承認|辞任|解任|人事/i;
 const noisePattern =
-  /\b(?:nba|nfl|mlb|nhl|ncaa|knicks|lakers|celtics|warriors|dodgers|indycar|grand prix|world series|championship|baseball|basketball|soccer|tennis|athlete|player|coach|sports team|box office|celebrity|recipe|fashion|wedding|fridge|tourism|travel guide|weather forecast|gaffe|mistakenly|misspoke|islamic republic of japan|japan.{0,5}instead of iran)\b|スポーツ|野球|バスケット|サッカー|テニス|ゴルフ|選手|監督|優勝|映画|俳優|歌手|芸能|レシピ|観光案内|旅行ガイド|天気予報|冷蔵庫|失言|言い間違|誤って日本/i;
+  /\b(?:nba|nfl|mlb|nhl|ncaa|knicks|lakers|celtics|warriors|dodgers|indycar|grand prix|world series|championship|baseball|basketball|soccer|tennis|athlete|player|coach|sports team|box office|celebrity|recipe|fashion|wedding|fridge|tourism|travel guide|weather forecast|gaffe|confus(?:e|es|ed|ing)|mix(?:es|ed|ing)? up|mistak(?:e|es|en|enly|ing)|misspeak|misspeaks|misspoke|islamic republic of japan|japan.{0,12}instead of iran|conference:.{0,80}alliance at fifty)\b|スポーツ|野球|バスケット|サッカー|テニス|ゴルフ|選手|監督|優勝|映画|俳優|歌手|芸能|レシピ|観光案内|旅行ガイド|天気予報|冷蔵庫|失言|言い間違|取り違え|混同|誤って日本/i;
 const lowValuePattern =
   /\b(?:passport|routine visa|travel advisory|travel information|consular|citizen services|holiday closure|remarks at (?:a |the )?(?:reception|ceremony)|daily press briefing schedule|business meeting to consider|student exchange|youth program|presidential message on the anniversary|commemorative message|death of|mark of respect|half-staff)\b|パスポート|たびレジ|在留届|領事|休館|募集|文化交流|記念行事|定例会見|査証申請|ビザ申請|学生交流|青少年交流|TOFU.*プログラム|交流プログラム|招聘プログラム|研修プログラム|未来を考える|追悼|半旗/i;
 const genericPagePattern =
@@ -96,6 +96,9 @@ export function cleanNewsTitle(title: string, publisher = "") {
     const escaped = publisher.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     cleaned = cleaned.replace(new RegExp(`\\s[-–—]\\s${escaped}$`, "i"), "").trim();
   }
+  cleaned = cleaned
+    .replace(/^令和\s*[０-９0-9]+年\s*[０-９0-9]+月\s*[０-９0-9]+日\s+海\s*上\s*幕\s*僚\s*監\s*部\s*[（(]お知らせ[）)]\s*/u, "")
+    .trim();
   return cleaned;
 }
 
