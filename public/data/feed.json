@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T20:40:43.795Z",
+  "generatedAt": "2026-07-23T21:41:44.824Z",
   "mode": "live",
   "sources": {
     "ok": 42,
@@ -234,6 +234,20 @@
       "english": true
     },
     {
+      "id": "NWhSVzB5TjNWMVkwVkpRM0pGUWt4Qj9vYz01",
+      "title": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2pqOXFfYnhiVHBaQk5Yd3lBdGZHWE9USmFlcUdSVkFEbjZ3NGdvZVQ5c3BhdzFlUDJVemlCNjlqR0JsNVRfSlhnTUVDaFk1algySUk3eGpXdGNsbUg2UTExd0FVNTVreTVOaFM2dXdYa25hRW0yN3V1Y0VJQ3JFQkxB?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-22T15:36:00.000Z",
+      "summary": "",
+      "official": false,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "外交・安保",
+      "priority": 66,
+      "english": true
+    },
+    {
       "id": "YUVGWGVYbDFWR0pxVHpZeGNXNTVkdz9vYz01",
       "title": "Beyond Deterrence: Evolving China-Russia Military Coordination and the U.S.-Japan Alliance",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSVo2OElhSEdIeVdXZUJKOGxMRG5PTUN2blpkNWlnWWRERVNXbXViRGZyNWVINGpyRGp6eVdHV2VuMEpDbzZrMzk1Z0MxaWR6TFRfVXhkc1pmYmtBdjUwVVI5bUZDZ2hHdkhBWHdOeTdiVUxab2N0WVoxREw2Qy01cjhUZG9mdldFY05BTkhzYmJQYXFSM2VoTFhSdFRraXM1WHZTaEFXeXl1VGJqTzYxcW55dw?oc=5",
@@ -302,20 +316,6 @@
       "category": "日米関係",
       "priority": 93,
       "english": false
-    },
-    {
-      "id": "NWhSVzB5TjNWMVkwVkpRM0pGUWt4Qj9vYz01",
-      "title": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2pqOXFfYnhiVHBaQk5Yd3lBdGZHWE9USmFlcUdSVkFEbjZ3NGdvZVQ5c3BhdzFlUDJVemlCNjlqR0JsNVRfSlhnTUVDaFk1algySUk3eGpXdGNsbUg2UTExd0FVNTVreTVOaFM2dXdYa25hRW0yN3V1Y0VJQ3JFQkxB?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-22T02:43:58.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "外交・安保",
-      "priority": 66,
-      "english": true
     },
     {
       "id": "emhQWlVzd1JFSTJUemhwYUZwUVNGZz9vYz01",
@@ -531,7 +531,7 @@
       "id": "TjJoUVVITnZhRkJ0TUhCclNIVnNWdz9vYz01",
       "title": "Did Trump say he'd turn on 'giant faucet' in California to extinguish Canadian wildfires?",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43RGF1WE5kTTJvbVFXT3lZcFY4bVBZX2NLVjVnX00tQmNPR2VELUw4Sl94VVRZSHdmcl9aNnRmeGlrS2Y1aUplZ2R4QlRwakNsRGd0djlrWTdGMXhDN2hQUHNvaFBtMHBrSHVsVw?oc=5",
-      "source": "Snopes.com",
+      "source": "Snopes",
       "publishedAt": "2026-07-20T19:21:16.000Z",
       "summary": "",
       "official": false,
@@ -612,9 +612,9 @@
       "english": true
     },
     {
-      "id": "MVdVMkpmT1hORFQwVjNjbGRFTmxSWj9vYz01",
+      "id": "JuQXdZMFp5U0V0blQzYzJRbTE2ZHc_b2M9NQ",
       "title": "Trump says Canada will face tariffs over wildfire smoke, claiming ‘willful negligence’",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWURtMlcyVFFIQkhsQy1QT19zaEVDZ3NVdzVSY2g3MmRnbVZ2RGZtT0Q5X1N1NnFwSmJla19Id2hmMGQxN2hGRU9PRExNVG9EOVpvUkotRzhiS1EwTDhiRjBwV0VDNFhxZnYxazdxNkp6dkxxQk8zRnJVUGJpTjB6MzBpbnAwY0ZySEtnT3c2Qm16d9IBlwFBVV95cUxNcnB2WnR0SElMZHFzZG5PVU16OUtVNzdlMl9LdkllVXByTFoxX3dnZUg5OE9PRXNHYzdkemFsUDdnOXdzWWpXdENuSC1EUnQxNUU3eDZobXZfdEFOWi1zV09OYlZJMlNEQlR6Uno0YktqX2ZfVnhqeUxEOEtWZElDQnJHd2dwRU1WU2JfOXNDT0V3cldENlRZ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWURtMlcyVFFIQkhsQy1QT19zaEVDZ3NVdzVSY2g3MmRnbVZ2RGZtT0Q5X1N1NnFwSmJla19Id2hmMGQxN2hGRU9PRExNVG9EOVpvUkotRzhiS1EwTDhiRjBwV0VDNFhxZnYxazdxNkp6dkxxQk8zRnJVUGJpTjB6MzBpbnAwY0ZySEtnT3c2Qm16dw?oc=5",
       "source": "The Hill",
       "publishedAt": "2026-07-17T20:00:00.000Z",
       "summary": "",
@@ -687,20 +687,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUFptT251eGd3T0Vfb0xPcXE4a2dCRUlxYnZwUEhsZXNKTFcxRTItQWNBWDNVU3RjcGJvRi1EMVBfb1FoSkhuTlFTRHJfZzExNFFOX1FsaU8wVnFkeW1WLVNiRXk3WFczQUpUczFISi1aRGUtQW9ob2pWRDV3VGdJNlZrTXFhLTNR?oc=5",
       "source": "The Verge",
       "publishedAt": "2026-07-17T12:49:57.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
-    },
-    {
-      "id": "TMWMxTTJwc1NqWkNSblZZYlVSb2N3P29jPTU",
-      "title": "Trump firm plans to sell priority access to Truth Social posts, possibly his own",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRDlCd1ViY0xabGJ6U1pPeHp4eE9nbzNVakMzQTJZT2xBaGVSSklCVlZ4bDZwVW9XRGF1ZF9PUkZmSUJaZms1U2labXVvWWpsbzFUVzNQQzhmQzRSS1l2VUk5RmgyRThHR2pVcUwwdGoyWktYS1c1M2psSjZCRnVYbURocw?oc=5",
-      "source": "KCRA",
-      "publishedAt": "2026-07-17T10:26:00.000Z",
       "summary": "",
       "official": false,
       "relevant": true,
@@ -794,11 +780,11 @@
       "english": false
     },
     {
-      "id": "6QmZiRVZhWlRkU1dUbDZTbXRSYTFFP29jPTU",
-      "title": "Trump Media To Sell High Speed Access To Truth Social Posts",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlk1c2VpVXRKNURiUlotNWt1VEp1TjJjalYtRHZuQS1xSmwxUFM0YWVMQnRJZ0ZiQmg2RU1FYmdKa0h5MlUwS0JDQ21zUnNIUXdrS2hCak9aM3c1ZzNxRF9XbVBVR3VSRHlGQU5sbTd5bjItUlFZSFNQNk9VTlBiRHJyczRmOWJYLU5LbnRad0tJQzE3Vk5kaldmcWstVkh4WFHSAaoBQVVfeXFMTXlBSWIxRlhkY2dkUzMwU3JXZWs2ZlNjd0FwdWxpTWllakpTd29sb3UwdjJpM05ZWENhVXlKZW5zaXlnY2dUZzVicjA0QzlwQW1HRXBCUFN1TE5jdnJ3RzRoQ2xseHNBeFNWelJnblNaenE5MHQwUjhPeEI2Z0h0eWdyMVN1eXR2RG95dXZwTm1EZDkxazYwczlybzBfbEVaZTdSWTl6SmtRa1E?oc=5",
-      "source": "NDTV",
-      "publishedAt": "2026-07-16T22:20:55.000Z",
+      "id": "dSWVRXdzBSMm96Tld4emFsTnlVRUU_b2M9NQ",
+      "title": "Trump firm plans to sell priority access to Truth Social posts, possibly his own",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUnBoYzROZWtVQ0xoeVRvSkVOTkNsd1ZOMzNIUFdhLXBZeHg2cmU1Yk1sWmdJY2s1TFlKenFhUFVzSk83V2t3NEdoelo2bEYwX3RPTjJ0WU8ybktvZUFWclo3dTdaZ1k5b0JUdTFCQlVUd3FSZllNb1VjSW9IbkFJWXl4bktpWHAwX0V4REV1NFBVSFFhbDRNNFE1LWhTMEZiaV8yWW1vN3FUeUFVZW1qUE5GVjN5TGRYTWw0R2ozNWxzalNyUEE?oc=5",
+      "source": "AP News",
+      "publishedAt": "2026-07-16T23:50:00.000Z",
       "summary": "",
       "official": false,
       "relevant": true,
@@ -808,11 +794,11 @@
       "english": true
     },
     {
-      "id": "VemNISnFZVXRQWmxSRmRIaEtYMjVXP29jPTU",
-      "title": "Trump Media to sell fast feed of 'market-moving' posts to Wall Street",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90TU9NZm1NekVZeXRLLUVuRFpET28wSmR2eEpjdnFJVjdZQkFzMUdIdjN6cTU1c1QwZmZOS0R3LUJENE1KQ3dSc2czblUzcHJqYUtPZlRFdHhKX25W?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-07-16T22:01:19.000Z",
+      "id": "6QmZiRVZhWlRkU1dUbDZTbXRSYTFFP29jPTU",
+      "title": "Trump Media To Sell High Speed Access To Truth Social Posts",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlk1c2VpVXRKNURiUlotNWt1VEp1TjJjalYtRHZuQS1xSmwxUFM0YWVMQnRJZ0ZiQmg2RU1FYmdKa0h5MlUwS0JDQ21zUnNIUXdrS2hCak9aM3c1ZzNxRF9XbVBVR3VSRHlGQU5sbTd5bjItUlFZSFNQNk9VTlBiRHJyczRmOWJYLU5LbnRad0tJQzE3Vk5kaldmcWstVkh4WFHSAaoBQVVfeXFMTXlBSWIxRlhkY2dkUzMwU3JXZWs2ZlNjd0FwdWxpTWllakpTd29sb3UwdjJpM05ZWENhVXlKZW5zaXlnY2dUZzVicjA0QzlwQW1HRXBCUFN1TE5jdnJ3RzRoQ2xseHNBeFNWelJnblNaenE5MHQwUjhPeEI2Z0h0eWdyMVN1eXR2RG95dXZwTm1EZDkxazYwczlybzBfbEVaZTdSWTl6SmtRa1E?oc=5",
+      "source": "NDTV",
+      "publishedAt": "2026-07-16T22:20:55.000Z",
       "summary": "",
       "official": false,
       "relevant": true,
@@ -990,20 +976,6 @@
       "english": true
     },
     {
-      "id": "Rak5aZW5aM0xXTmZaR2RUYlhWT2R3P29jPTU",
-      "title": "Trump, Hegseth Speak at Defense, Innovation Summit",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jU0FpQ091V3p5alRQX3BmMzU3WXlKTmNyTDFvUmFSbm9IS0EtaEx5THVpN0pEQndhV3hDcy1JZkFkcGtjZTVOdEQ5eTRrZG5xYzRYSVd1VVpOOWxLeUxMUzVyQjNZenZ3LWNfZGdTbXVOdw?oc=5",
-      "source": "U.S. Department of War (.gov)",
-      "publishedAt": "2026-07-16T04:51:56.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 79,
-      "english": true
-    },
-    {
       "id": "YUdzdE9WbzBOVmRWYUMwMmVraEhVUT9vYz01",
       "title": "トランプ氏と20日に会談か イスラエル首相近く訪米",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lMDVadG5YWTlISUhnMEx0cllibmQ1d3BEemlaSnRqMmNhUTRGUlE5Y3FVYzE5YTAxeDJkczhQVERjRXlwMW5FR1Y2aGstOVo0NVdVaC02ekhHUQ?oc=5",
@@ -1043,6 +1015,20 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
+      "english": true
+    },
+    {
+      "id": "PQzFyZFZkM2RWaFFTVVpVVm1walFRP29jPTU",
+      "title": "Trump, Hegseth Speak at Defense, Innovation Summit",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE42Ukpfc28wMW5JMUYyRzlBQTZWclljVlNnSTlpdUVIVkQ3eTd6T29vZEVYMGdrc3M3aEVHMnZCTzZlQ3htVXZMbC1zSDhGOENDMHpDLWl1dllqcHVjbXdROHRFOC1rdVd3dVhQSUZUVmpjQQ?oc=5",
+      "source": "U.S. Department of War (.gov)",
+      "publishedAt": "2026-07-15T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 79,
       "english": true
     },
     {
@@ -1312,20 +1298,6 @@
       "english": true
     },
     {
-      "id": "SEYyZUVodExUVnpkRlZ1U1V4SmFXYz9vYz01",
-      "title": "インド訪問等についての会見 | 総理の一日",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QdVdTTmNOSVJzaGI2dnozSnd3VFg3SVpGNHJ1S2RPaDNySTd2QnFBVnBCcXpjMU4yVnl3aVNCVmpISS1wV1FpaFF6SFBGTmJvNnk2Y3hzRTJCTHF2eEhtLTVzdFVuSUxJaWc?oc=5",
-      "source": "首相官邸",
-      "publishedAt": "2026-07-01T07:00:00.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": true,
-      "category": "首脳・閣僚",
-      "priority": 79,
-      "english": false
-    },
-    {
       "id": "Rk5KYVZKU1ZHdE5OakJDUVUxck0xTT9vYz01",
       "title": "President Trump Delivers Remarks, Jul. 1, 2026",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjJEb1NaTHJadTUzbV9wZElzRGQzS29CSks2dmdBdUFxYWVla1gxUmZGSm5vcWQ0T25iREFXbjJzbXJrTXBSeHpZZk9jTk4wU09idVhHbmhSTEpuODBhMzA3UkUtUTdQWFRQZVU5SlYwQVpWZFNJaVJSVGtNNjBCQU1rM1M?oc=5",
@@ -1422,20 +1394,6 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false
-    },
-    {
-      "id": "ac1FtRjBka2g1ZEVKbFlsaHZXVTVSP29jPTU",
-      "title": "President Donald J. Trump delivers remarks at the Mack Trucks facility in Pennsylvania",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzNPdjhiYXgzanl4TnNFZFNZcGRhVGNSSDl3ODJHMkZBb3MzXzl2VG9lTk9sTS1GZ1laX0lJcXZLMmMxLUpTTml6R1dKXzlrelU2eTdOZkZhVERtbzhiZFFHN3FIYU9Sc25TaGN1MFJZeW4xS1hDMHJpZEJuWF9Lb3BVUWtHbnNWckMwTzlCWWhvRmc1VGpNa3RhNHBUYmNyUk1JYzc1UHBWVHZQdXZsQmF0dkh5dEJlYlhvWU5R?oc=5",
-      "source": "The White House (.gov)",
-      "publishedAt": "2026-06-26T19:09:05.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 72,
-      "english": true
     },
     {
       "id": "IxaFVOMk5YVW5BNU9YcGlUM2MxY3c_b2M9NQ",
