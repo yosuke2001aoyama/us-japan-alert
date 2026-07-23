@@ -30,6 +30,8 @@ type Feed = {
   };
 };
 
+type WatchTarget = { label: string; side: "US" | "JP"; terms: string[] };
+
 const EMPTY_DATE = new Date(0).toISOString();
 const fallback: Feed = { generatedAt: EMPTY_DATE, mode: "snapshot", sources: { ok: 0, failed: 0, total: 0 }, items: [] };
 const categories = ["すべて", "日米関係", "首脳・閣僚", "外交・安保", "通商・経済", "議会・政治", "公式発表"];
@@ -39,6 +41,16 @@ const windows = [
   { label: "7日", value: 7 },
   { label: "30日", value: 30 },
   { label: "すべて", value: 0 },
+];
+const watchTargets: WatchTarget[] = [
+  { label: "Trump", side: "US", terms: ["trump", "donald trump", "トランプ"] },
+  { label: "Vance", side: "US", terms: ["vance", "jd vance", "j.d. vance", "ヴァンス"] },
+  { label: "Rubio", side: "US", terms: ["rubio", "marco rubio", "ルビオ"] },
+  { label: "White House", side: "US", terms: ["white house", "ホワイトハウス"] },
+  { label: "State", side: "US", terms: ["department of state", "state department", "米国務省", "国務省"] },
+  { label: "DoD", side: "US", terms: ["department of defense", "defense.gov", "pentagon", "米国防総省", "国防総省"] },
+  { label: "首相官邸", side: "JP", terms: ["首相官邸", "kantei", "内閣総理大臣"] },
+  { label: "外務省", side: "JP", terms: ["外務省", "mofa", "ministry of foreign affairs of japan"] },
 ];
 
 function relativeTime(value: string) {
@@ -122,10 +134,15 @@ export default function Dashboard() {
 
   const priorityItems = useMemo(() => [...filtered].sort((a, b) => b.priority - a.priority || +new Date(b.publishedAt) - +new Date(a.publishedAt)).slice(0, 7), [filtered]);
   const officialItems = filtered.filter((item) => item.official).slice(0, 6);
+  const watchRows = useMemo(() => watchTargets.map((target) => {
+    const item = feed.items.find((candidate) => {
+      const haystack = `${candidate.title} ${candidate.summary} ${candidate.source}`.toLowerCase();
+      return target.terms.some((term) => haystack.includes(term.toLowerCase()));
+    });
+    return { ...target, item };
+  }), [feed.items]);
   const important = filtered.filter((item) => item.priority >= 80).length;
   const japanCount = filtered.filter((item) => item.japanRelated).length;
-  const lead = filtered[0];
-  const streamItems = filtered.slice(1);
   const healthPercent = feed.sources.total ? Math.round((feed.sources.ok / feed.sources.total) * 100) : 0;
 
   return (
@@ -180,14 +197,21 @@ export default function Dashboard() {
         </aside>
 
         <section className="main-feed panel">
-          <PanelHeading label="最新フィード" count={filtered.length} live />
+          <PanelHeading label="最新情報" count={filtered.length} live />
           {loading && !feed.items.length && <div className="empty">政策情報を収集中…</div>}
           {!loading && filtered.length === 0 && <div className="empty">この条件に該当する重要情報はありません。</div>}
-          {lead && <LeadStory item={lead} />}
-          <div className="story-list">{streamItems.map((item) => <Story key={item.id} item={item} />)}</div>
+          <div className="story-list">{filtered.map((item) => <Story key={item.id} item={item} />)}</div>
         </section>
 
         <aside className="intel-column">
+          <section className="panel watch-panel">
+            <PanelHeading label="主要人物・機関" count={watchRows.length} />
+            <div className="watch-caption">フィード内で最後に確認した発信</div>
+            <div className="watch-list">
+              {watchRows.map((row) => <WatchRow key={row.label} label={row.label} side={row.side} item={row.item} />)}
+            </div>
+          </section>
+
           <section className="panel official-panel">
             <PanelHeading label="一次情報速報" count={officialItems.length} />
             <div className="ticker-list">
@@ -235,44 +259,15 @@ function PriorityItem({ item, rank }: { item: Item; rank: number }) {
   </a>;
 }
 
+function WatchRow({ label, side, item }: { label: string; side: "US" | "JP"; item?: Item }) {
+  const content = <><span className={`watch-side ${side.toLowerCase()}`}>{side}</span><div><b>{label}</b><small>{item ? relativeTime(item.publishedAt) : "新着未確認"}</small></div><i className={item ? "seen" : "idle"} /></>;
+  return item
+    ? <a className="watch-row" href={item.url} target="_blank" rel="noreferrer" title={item.title}>{content}</a>
+    : <div className="watch-row muted" title="現在のフィード内に該当する発信がありません">{content}</div>;
+}
+
 function TickerItem({ item }: { item: Item }) {
   return <a className="ticker-item" href={item.url} target="_blank" rel="noreferrer"><time>{shortTime(item.publishedAt)}</time><div><h3>{item.title}</h3><span>{item.source}</span></div></a>;
-}
-
-function Visual({ item }: { item: Item }) {
-  const [failed, setFailed] = useState(false);
-  if (item.image && !failed) return <div className="visual"><img src={item.image} alt="" onError={() => setFailed(true)} /></div>;
-  return <div className="visual fallback" aria-hidden="true"><span>{item.source.slice(0, 2).toUpperCase()}</span><small>{item.category}</small></div>;
-}
-
-function LeadStory({ item }: { item: Item }) {
-  const [translation, setTranslation] = useState<string | null>(null);
-  const [translationOpen, setTranslationOpen] = useState(false);
-  const [translating, setTranslating] = useState(false);
-
-  async function toggleTranslation() {
-    if (translationOpen) return setTranslationOpen(false);
-    setTranslationOpen(true);
-    if (translation !== null) return;
-    setTranslating(true);
-    try {
-      const res = await fetch("/api/translate", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text: [item.title, item.summary].filter(Boolean).join("\n\n") }) });
-      if (!res.ok) throw new Error();
-      setTranslation((await res.json()).translation || "仮訳を取得できませんでした。");
-    } catch { setTranslation("仮訳を取得できませんでした。原文をご確認ください。"); }
-    finally { setTranslating(false); }
-  }
-
-  return <article className="lead-story">
-    <a className="lead-visual-link" href={item.url} target="_blank" rel="noreferrer"><Visual item={item} /></a>
-    <div className="lead-content">
-      <div className="meta">{item.priority >= 80 && <b className="urgent-label">重要</b>}{item.japanRelated && <b className="jp-label">日本関連</b>}{item.official && <b className="official-label">一次情報</b>}<span>{item.category}</span><time>{relativeTime(item.publishedAt)}</time></div>
-      <h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>
-      {item.summary && <p>{item.summary}</p>}
-      {translationOpen && <Translation text={translation} translating={translating} />}
-      <div className="lead-actions"><a href={item.url} target="_blank" rel="noreferrer">{item.source}<span>原文を読む ↗</span></a>{item.english && <button className="translate-button" onClick={toggleTranslation}>{translationOpen ? "仮訳を閉じる" : "仮訳"}</button>}</div>
-    </div>
-  </article>;
 }
 
 function Story({ item }: { item: Item }) {
