@@ -116,6 +116,7 @@ async function readFederalRegister(): Promise<AlertItem[]> {
 
 export async function collectDirectOfficial(): Promise<DirectResult> {
   const names = [...htmlSources.map((source) => source.name), "Federal Register · Direct API"];
+  // Keep every collector lazy so Promise.allSettled receives a uniform task list.
   const tasks: Array<() => Promise<AlertItem[]>> = [
     ...htmlSources.map((source) => () => readHtmlSource(source)),
     readFederalRegister,
