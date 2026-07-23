@@ -14,7 +14,6 @@ type Source = {
   name: string;
   url: string;
   official?: boolean;
-  kind?: "rss" | "truth";
   aggregate?: boolean;
 };
 
@@ -87,17 +86,6 @@ function officialPublisher(url: string) {
 async function readSource(source: Source) {
   const res = await fetch(source.url, { headers: { "user-agent": "JPUS-Alert/2.0 (+public-policy-monitor)" }, signal: AbortSignal.timeout(12_000) });
   if (!res.ok) throw new Error(`${source.name}: ${res.status}`);
-  if (source.kind === "truth") {
-    const posts = await res.json() as Array<{ id: string; url: string; created_at: string; content: string }>;
-    return posts.map((post): AlertItem | null => {
-      const text = decode(post.content);
-      const title = text.slice(0, 180) || "Truth Social post";
-      const summary = text.length > 180 ? text.slice(180, 420) : "";
-      const assessment = assessPolicyItem(title, summary, true);
-      if (!assessment.relevant) return null;
-      return { id: post.id, title, url: post.url, source: source.name, publishedAt: safeDate(post.created_at), summary, official: true, ...assessment };
-    }).filter((item): item is AlertItem => !!item);
-  }
   const xml = await res.text();
   const chunks = [...xml.matchAll(/<(item|entry)[^>]*>([\s\S]*?)<\/\1>/gi)].slice(0, 25).map((x) => x[2]);
   return chunks.map((chunk): AlertItem | null => {
