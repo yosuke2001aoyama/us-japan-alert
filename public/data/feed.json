@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T15:10:50.518Z",
+  "generatedAt": "2026-07-23T16:45:05.952Z",
   "mode": "live",
   "sources": {
     "ok": 42,
@@ -220,6 +220,20 @@
       "english": true
     },
     {
+      "id": "JYWDIxa1dYUTFiVXBSVkVac1ZVMUk_b2M9NQ",
+      "title": "Trump’s latest Iran war post slammed as ‘most disgusting thing’ a president could share by critics",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RaVpPdHF1YU82bjZPWGtLZVF1T0dScEE3M1dqRDNGM3lkN0d2R0t5SUpvVFJFX0hXcHhGTU1OUHJKRzJEVk5RcjF5R3czdlU5TUN0LWpwa29aSEdzNmdGLS1LNGRXX21kWXQ1bUpRVEZsVU1I?oc=5",
+      "source": "Indy100",
+      "publishedAt": "2026-07-22T11:22:58.000Z",
+      "summary": "",
+      "official": false,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 62,
+      "english": true
+    },
+    {
       "id": "NVFpKVWpWSlUxZG5jbVpQZEVVNFVRP29jPTU",
       "title": "【お知らせ】日仏防衛相会談について",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LZzZzZWZmcmxRZHo5UlI3aWRfM2hBNXVlekU4WmtnOTQ4b20xVzBsbWtQaFpieWtmdkFZRTZaRWZZaUZIbGI1V09kdFd3eTB6R0N2U2xIU3pJY0ZHWG5pRGxMRUNEVDJoTmp4MTZJUjVJU1dncmZPdEU4UQ?oc=5",
@@ -329,20 +343,6 @@
       "japanRelated": false,
       "category": "通商・経済",
       "priority": 79,
-      "english": true
-    },
-    {
-      "id": "1sbmVIWlZXUzFNTUhweFluTTJWams_b2M9NQ",
-      "title": "President Donald J. Trump delivers remarks at a FIFA reception in New York City",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHk1RHF3MzdaMWtxSm9MMWV0Tll1NTF0VE9xdTFYUXR2YWNXSXlBM1F6NHhJajI3SExYWWpodWVucE02WE51amV6UTBpOVR6M2g1QU5jSGV4dFJUeE5SSF83NzZ4eVlmTEtSdWNfQi1pMjZCWjJOaFU4enY3UWRycUpINGphUDF6TldLN3lFcnU4bW95emVRLVUzM0hlQ3ZCZFRyRmlneHZVWS1MMHpxYnM2Vjk?oc=5",
-      "source": "The White House (.gov)",
-      "publishedAt": "2026-07-21T15:44:29.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 72,
       "english": true
     },
     {
@@ -962,6 +962,20 @@
       "english": true
     },
     {
+      "id": "Rak5aZW5aM0xXTmZaR2RUYlhWT2R3P29jPTU",
+      "title": "Trump, Hegseth Speak at Defense, Innovation Summit",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jU0FpQ091V3p5alRQX3BmMzU3WXlKTmNyTDFvUmFSbm9IS0EtaEx5THVpN0pEQndhV3hDcy1JZkFkcGtjZTVOdEQ5eTRrZG5xYzRYSVd1VVpOOWxLeUxMUzVyQjNZenZ3LWNfZGdTbXVOdw?oc=5",
+      "source": "U.S. Department of War (.gov)",
+      "publishedAt": "2026-07-16T04:51:56.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 79,
+      "english": true
+    },
+    {
       "id": "YUdzdE9WbzBOVmRWYUMwMmVraEhVUT9vYz01",
       "title": "トランプ氏と20日に会談か イスラエル首相近く訪米",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lMDVadG5YWTlISUhnMEx0cllibmQ1d3BEemlaSnRqMmNhUTRGUlE5Y3FVYzE5YTAxeDJkczhQVERjRXlwMW5FR1Y2aGstOVo0NVdVaC02ekhHUQ?oc=5",
@@ -1001,20 +1015,6 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
-    },
-    {
-      "id": "PQzFyZFZkM2RWaFFTVVpVVm1walFRP29jPTU",
-      "title": "Trump, Hegseth Speak at Defense, Innovation Summit",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE42Ukpfc28wMW5JMUYyRzlBQTZWclljVlNnSTlpdUVIVkQ3eTd6T29vZEVYMGdrc3M3aEVHMnZCTzZlQ3htVXZMbC1zSDhGOENDMHpDLWl1dllqcHVjbXdROHRFOC1rdVd3dVhQSUZUVmpjQQ?oc=5",
-      "source": "U.S. Department of War (.gov)",
-      "publishedAt": "2026-07-15T07:00:00.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 79,
       "english": true
     },
     {
@@ -1408,20 +1408,6 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false
-    },
-    {
-      "id": "ac1FtRjBka2g1ZEVKbFlsaHZXVTVSP29jPTU",
-      "title": "President Donald J. Trump delivers remarks at the Mack Trucks facility in Pennsylvania",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzNPdjhiYXgzanl4TnNFZFNZcGRhVGNSSDl3ODJHMkZBb3MzXzl2VG9lTk9sTS1GZ1laX0lJcXZLMmMxLUpTTml6R1dKXzlrelU2eTdOZkZhVERtbzhiZFFHN3FIYU9Sc25TaGN1MFJZeW4xS1hDMHJpZEJuWF9Lb3BVUWtHbnNWckMwTzlCWWhvRmc1VGpNa3RhNHBUYmNyUk1JYzc1UHBWVHZQdXZsQmF0dkh5dEJlYlhvWU5R?oc=5",
-      "source": "The White House (.gov)",
-      "publishedAt": "2026-06-26T19:09:05.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 72,
-      "english": true
     },
     {
       "id": "IxaFVOMk5YVW5BNU9YcGlUM2MxY3c_b2M9NQ",
