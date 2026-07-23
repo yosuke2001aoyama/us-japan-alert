@@ -61,13 +61,13 @@ export const sources: Source[] = [
   { name: "防衛省 · 更新情報", url: "https://www.mod.go.jp/j/press/update.xml", coverage: "jp-security", official: true },
 
   // 日本の通商・財政（2）
-  { name: "経済産業省 · 報道発表", url: "https://www.meti.go.jp/press/atom.xml", coverage: "jp-economy", official: true },
-  { name: "財務省 · 新着情報", url: "https://www.mof.go.jp/news.rss", coverage: "jp-economy", official: true },
+  { name: "経済産業省 · 報道発表", url: q('site:meti.go.jp/press (報道発表 OR 大臣会見 OR 通商 OR 輸出管理)', "ja", "JP", "JP:ja"), coverage: "jp-economy", official: true, aggregate: true },
+  { name: "財務省 · 新着情報", url: q('site:mof.go.jp (大臣会見 OR 報道発表 OR 関税 OR 為替 OR 制裁)', "ja", "JP", "JP:ja"), coverage: "jp-economy", official: true, aggregate: true },
 
   // 米大統領府・国務省（5）
   { name: "White House · Presidential Actions", url: "https://www.whitehouse.gov/presidential-actions/feed/", coverage: "us-executive", official: true },
   { name: "White House · Briefings & Statements", url: "https://www.whitehouse.gov/briefings-statements/feed/", coverage: "us-executive", official: true },
-  { name: "White House · Remarks", url: "https://www.whitehouse.gov/remarks/feed/", coverage: "us-executive", official: true },
+  { name: "White House · Remarks", url: q('site:whitehouse.gov/remarks (Trump OR Vance OR President OR Vice President)', "en-US", "US", "US:en"), coverage: "us-executive", official: true, aggregate: true },
   { name: "U.S. Department of State", url: "https://www.state.gov/rss-feed/press-releases/feed/", coverage: "us-executive", official: true },
   { name: "U.S. Embassy Japan", url: q('site:jp.usembassy.gov (statement OR remarks OR press release OR Japan)', "en-US", "US", "US:en"), coverage: "us-executive", official: true, aggregate: true },
 

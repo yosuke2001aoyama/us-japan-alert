@@ -153,3 +153,13 @@ test("keeps public communications from monitored Japanese principals", () => {
   assert.equal(result.relevant, true);
   assert.equal(result.japanRelated, true);
 });
+
+test("drops stories about fake posts, paid access, or trading on posts", () => {
+  for (const title of [
+    "Fake Truth Social post circulates as Trump bemoans Canadian wildfire smoke",
+    "How Wall Street’s Bots Are Cashing In on Trump’s Truth Social Posts",
+    "US senator urges Wall Street to reject offer of paid early access to Trump posts",
+  ]) {
+    assert.equal(assessPrincipalCommunication(title, "", false, "us").relevant, false);
+  }
+});
