@@ -10,5 +10,9 @@ export async function GET(request: Request) {
     const csv = ["published_at,priority,japan_related,official,category,source,title,url", ...data.items.map((x) => [x.publishedAt, x.priority, x.japanRelated, x.official, x.category, x.source, x.title, x.url].map(esc).join(","))].join("\n");
     return new Response("\ufeff" + csv, { headers: { "content-type": "text/csv; charset=utf-8", "content-disposition": "attachment; filename=jpus-alert.csv" } });
   }
-  return Response.json(data, { headers: { "cache-control": "public, max-age=30, s-maxage=90, stale-while-revalidate=30" } });
+  return Response.json(data, {
+    headers: {
+      "cache-control": "public, max-age=0, s-maxage=45, stale-while-revalidate=15",
+    },
+  });
 }
