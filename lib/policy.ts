@@ -42,6 +42,37 @@ const lowValuePattern =
   /\b(?:passport|routine visa|travel advisory|travel information|consular|citizen services|holiday closure|remarks at (?:a |the )?(?:reception|ceremony)|daily press briefing schedule|business meeting to consider|student exchange|youth program|presidential message on the anniversary|commemorative message|death of|mark of respect|half-staff)\b|パスポート|たびレジ|在留届|領事|休館|募集|文化交流|記念行事|定例会見|査証申請|ビザ申請|学生交流|青少年交流|TOFU.*プログラム|交流プログラム|招聘プログラム|研修プログラム|未来を考える|追悼|半旗/i;
 const genericPagePattern =
   /\b(?:home ?page|official web ?site)\b|ホームページ|公式Webサイト|サイトトップ/i;
+const principalCommunicationPattern =
+  /\b(?:address(?:es|ed)?|announc(?:e|es|ed|ement)|brief(?:s|ed|ing)?|comment(?:s|ed)?|interview(?:s|ed)?|meet(?:s|ing)?|post(?:s|ed)?|press conference|readout|remark(?:s|ed)?|respond(?:s|ed)?|say(?:s|ing)?|said|speech|speak(?:s|ing)?|statement|testif(?:y|ies|ied)|transcript|truth social|wrote)\b|会見|会談|発言|発表|表明|談話|声明|挨拶|演説|答弁|投稿|発信|インタビュー|記者団|訓示|寄稿/i;
+const usPrincipalPattern =
+  /\b(?:donald )?trump\b|\bjd vance\b|\bmarco rubio\b|\bpete hegseth\b|\bscott bessent\b|\bhoward lutnick\b|\bjamieson greer\b|\bpresident\b|\bvice president\b|\bsecretary of state\b|\bsecretary of (?:war|defense|treasury|commerce)\b|\bu\.?s\.? trade representative\b|トランプ|ヴァンス|バンス|ルビオ|ヘグセス|ベッセント|ラトニック|グリア|米大統領|米副大統領|国務長官|国防長官|財務長官|商務長官|通商代表/i;
+const jpPrincipalPattern =
+  /高市|木原|茂木|小泉|片山|赤澤|小野田|総理|首相|官房長官|外務大臣|外相|防衛大臣|防衛相|財務大臣|財務相|経済産業大臣|経産相|経済安全保障担当大臣|経済安保相/i;
+
+export function assessPrincipalCommunication(
+  title: string,
+  summary = "",
+  official = false,
+  country: "jp" | "us" = "us",
+): PolicyAssessment {
+  const text = `${title} ${summary}`.replace(/\s+/g, " ").trim();
+  const principal = country === "jp" ? jpPrincipalPattern.test(text) : usPrincipalPattern.test(text);
+  const communication = principalCommunicationPattern.test(text);
+  const excluded = noisePattern.test(text) || genericPagePattern.test(text);
+  const relevant = !excluded && principal && communication;
+  const bilateral = bilateralPattern.test(text) || (japanPattern.test(text) && usPattern.test(text));
+  const base = assessPolicyItem(title, summary, official);
+
+  return {
+    relevant,
+    japanRelated: country === "jp" || bilateral,
+    category: base.relevant ? base.category : "首脳・閣僚",
+    priority: relevant
+      ? Math.min(99, (official ? 72 : 62) + (bilateral ? 18 : 0) + (actionPattern.test(text) ? 7 : 0))
+      : 0,
+    english: isEnglish(title),
+  };
+}
 
 export function assessPolicyItem(
   title: string,

@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {
+  assessPrincipalCommunication,
   assessPolicyItem,
   cleanNewsSummary,
   cleanNewsTitle,
@@ -128,4 +129,27 @@ test("drops a re-indexed legacy conference page and cleans Japanese PDF headers"
     cleanNewsTitle("令和８年７月２３日 海 上 幕 僚 監 部 （お知らせ） 日米共同訓練について 海上自衛隊"),
     "日米共同訓練について 海上自衛隊",
   );
+});
+
+test("keeps public communications from monitored US principals even when not Japan-specific", () => {
+  const result = assessPrincipalCommunication(
+    "Remarks by Vice President JD Vance at a manufacturing roundtable",
+    "",
+    true,
+    "us",
+  );
+  assert.equal(result.relevant, true);
+  assert.equal(result.japanRelated, false);
+  assert.equal(result.category, "首脳・閣僚");
+});
+
+test("keeps public communications from monitored Japanese principals", () => {
+  const result = assessPrincipalCommunication(
+    "高市総理大臣記者会見",
+    "高市総理は記者団の質問に答えました。",
+    true,
+    "jp",
+  );
+  assert.equal(result.relevant, true);
+  assert.equal(result.japanRelated, true);
 });
