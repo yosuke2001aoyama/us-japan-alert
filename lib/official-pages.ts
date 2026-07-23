@@ -116,7 +116,10 @@ async function readFederalRegister(): Promise<AlertItem[]> {
 
 export async function collectDirectOfficial(): Promise<DirectResult> {
   const names = [...htmlSources.map((source) => source.name), "Federal Register · Direct API"];
-  const tasks = [...htmlSources.map(readHtmlSource), () => readFederalRegister()];
+  const tasks: Array<() => Promise<AlertItem[]>> = [
+    ...htmlSources.map((source) => () => readHtmlSource(source)),
+    readFederalRegister,
+  ];
   const results = await Promise.allSettled(tasks.map((task) => task()));
   const failedNames = results.flatMap((result, index) => result.status === "rejected" ? [names[index]] : []);
   return {
