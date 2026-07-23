@@ -9,7 +9,8 @@ await mkdir("public/data", { recursive: true });
 let previous = { items: [] };
 try { previous = JSON.parse(await readFile("public/data/feed.json", "utf8")); } catch {}
 const seen = new Set(previous.items.map((item) => item.url));
-const alerts = feed.items.filter((item) => !seen.has(item.url) && (item.japanRelated || item.priority >= 80));
+const isBootstrap = !Array.isArray(previous.items) || previous.items.length === 0;
+const alerts = isBootstrap ? [] : feed.items.filter((item) => !seen.has(item.url) && (item.japanRelated || item.priority >= 80));
 await writeFile("public/data/feed.json", JSON.stringify(feed, null, 2) + "\n");
 
 if (alerts.length && process.env.GITHUB_TOKEN && process.env.GITHUB_REPOSITORY) {
@@ -28,6 +29,6 @@ if (alerts.length && process.env.RESEND_API_KEY && process.env.ALERT_TO_EMAIL &&
   const sent = await fetch("https://api.resend.com/emails", { method: "POST", headers: { authorization: `Bearer ${process.env.RESEND_API_KEY}`, "content-type": "application/json" }, body: JSON.stringify({ from: process.env.ALERT_FROM_EMAIL, to: [process.env.ALERT_TO_EMAIL], subject: `【JPUS Alert】新着 ${alerts.length}件`, html }) });
   if (!sent.ok) throw new Error(`Email failed: ${sent.status} ${await sent.text()}`);
 }
-console.log(JSON.stringify({ collected: feed.items.length, alerts: alerts.length }));
+console.log(JSON.stringify({ collected: feed.items.length, alerts: alerts.length, bootstrap: isBootstrap }));
 function escapeHtml(value) { return String(value).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]); }
 function escapeMarkdown(value) { return String(value).replace(/[\\`*_[\]<>]/g, "\\$&"); }
