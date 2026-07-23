@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JPUS Alert | 米国・日米関係速報",
+  title: "日米公開情報bot",
   description: "日米の報道と公式発表を横断する、外交・政策実務向け速報ダッシュボード。",
   other: {
     "codex-preview": "development",
