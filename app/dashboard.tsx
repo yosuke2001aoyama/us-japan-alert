@@ -21,7 +21,13 @@ type Feed = {
   generatedAt: string;
   mode: "live" | "snapshot";
   items: Item[];
-  sources: { ok: number; failed: number; total: number; failedNames?: string[] };
+  sources: {
+    ok: number;
+    failed: number;
+    total: number;
+    failedNames?: string[];
+    coverage?: Array<{ id: string; label: string; ok: number; total: number }>;
+  };
 };
 
 const EMPTY_DATE = new Date(0).toISOString();
@@ -62,6 +68,7 @@ export default function Dashboard() {
       const res = await fetch(`/api/feed?t=${Date.now()}`, { cache: "no-store" });
       if (!res.ok) throw new Error("feed unavailable");
       const next = await res.json() as Feed;
+      if (!next.items.length && next.sources.ok === 0) throw new Error("all live sources unavailable");
       setFeed(next);
       hasLiveItems.current = next.items.length > 0;
       setLastRefresh(new Date());
@@ -116,15 +123,15 @@ export default function Dashboard() {
     <main className="shell" data-generated-at={feed.generatedAt}>
       <header className="topbar">
         <div className="topbar-inner">
-          <div className="brand"><span className="mark">JP</span><div><strong>JPUS ALERT</strong><small>米国・日米関係 政策速報</small></div></div>
+          <div className="brand"><span className="mark">日米</span><div><strong>日米公開情報bot</strong><small>JP / US PUBLIC INFORMATION</small></div></div>
           <div className="system-status"><span className={`pulse ${loading ? "loading" : ""}`} />{loading ? "更新中" : "LIVE"}<span className="divider" />2分以内に自動更新</div>
         </div>
       </header>
 
       <section className="briefing">
         <div className="brief-copy">
-          <p className="eyebrow">JPUS POLICY MONITOR</p>
-          <h1>日米政策モニター</h1>
+          <p className="eyebrow">JP / US PUBLIC INFORMATION</p>
+          <h1>日米公開情報bot</h1>
           <p>首脳・閣僚、同盟・安保、通商、制裁、議会、重要人事に関する公開情報</p>
         </div>
         <div className="metrics" aria-label="表示中の概要">
@@ -166,7 +173,7 @@ export default function Dashboard() {
         </div>
       </section>
       <footer>
-        <span>JPUS ALERT</span>
+        <span>日米公開情報bot</span>
         <span>取得 {feed.generatedAt === EMPTY_DATE ? "—" : new Date(feed.generatedAt).toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit", second: "2-digit" })} · {feed.sources.ok}/{feed.sources.total || "—"}経路</span>
         <span>画面更新 {lastRefresh ? lastRefresh.toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit" }) : "—"} · 政策判断には必ず原文をご確認ください。</span>
       </footer>
