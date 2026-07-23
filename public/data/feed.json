@@ -1,14 +1,13 @@
 {
-  "generatedAt": "2026-07-23T11:26:30.730Z",
+  "generatedAt": "2026-07-23T12:58:22.931Z",
   "mode": "live",
   "sources": {
-    "ok": 41,
-    "failed": 3,
+    "ok": 42,
+    "failed": 2,
     "total": 44,
     "failedNames": [
       "防衛省 · 報道資料",
-      "防衛省 · 更新情報",
-      "経済産業省 · 報道発表"
+      "防衛省 · 更新情報"
     ],
     "coverage": [
       {
@@ -26,7 +25,7 @@
       {
         "id": "jp-economy",
         "label": "日本の通商・財政",
-        "ok": 1,
+        "ok": 2,
         "total": 2
       },
       {
@@ -81,6 +80,20 @@
   },
   "items": [
     {
+      "id": "VrTW5NMVN5MHphRTUxVGxOVlQxZEI_b2M9NQ",
+      "title": "日・フィリピン外相会談｜外務省",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iaTU5ZDJJcHFjSm9DTzQwYktpWlQwNEdmT180SVNJNzgzaWw1aFAwYUE1ZzlmUk0yMG9JS25ZLW0xQVZBajZ0TkVTME5iVmtjdEpaV0M4Tll5OVJ0d2dudE53Nk5kMnM1Sy0zaE51TlNVT1dB?oc=5",
+      "source": "mofa.go.jp",
+      "publishedAt": "2026-07-23T11:42:43.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "首脳・閣僚",
+      "priority": 79,
+      "english": false
+    },
+    {
       "id": "VIQjBTRGh2UVdSUmQyZzJhbnBKVmc_b2M9NQ",
       "title": "GOP senators criticize Trump plan to sell access to Truth Social posts",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mQTlXQUlkUUNMRHA5NnRwX082bUFQRGNCOW54TUZNaXhFZXhMUlNFQV96anJTQWQxZTJQSjY0QnJSWW5xQmJreXpYejloQzZKOUN5N2FRTkhQeS1zRkd6WnZjbzhjNjdSTWE4UHgtUlpNb3M4V09N0gF8QVVfeXFMTkJMZVVpVnJ0ZFMyaEc0RzhKb3ZLSEdmX3NRandfbVduOHd3VHZMUHVlTUxJcUZRVTdTZEZSNDg0WExRYzI4MlNPdlh0ejc5S2RmRG5TUDBzYXlHaVJ6azdkMWtJZU40S1E4ZXNQeHB0SDhvQWRRd2g2anpJVg?oc=5",
@@ -123,20 +136,6 @@
       "english": false
     },
     {
-      "id": "HZFVObFZHTkc5cVppMWZVV0ZWVTBFP29jPTU",
-      "title": "How Wall Street’s Bots Are Cashing In on Trump’s Truth Social Posts",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU3UxTnU2ZzVqX1BLUmQzdFd0SU5pN0VuTXVOajAyZHgxUEhaeVZoVVM2OEtNcktLLWltVENMZzZhSUEyU3RHenF6akQyTU9xelo2UnA4Njkzb0FMSm9PNURJVGZ6YWR3eXNiaWEzQzZSQWF4V203U1VTbmJna05pX3hxMlBDeGNoOTIzSVU1cWNrX2drM1JfTlkyc3hwaGdUNlVGNG9qZi1fUWFVU0E?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
-    },
-    {
       "id": "VFVaWlJVcFRNVU0xUVd4V2FuUlNXUT9vYz01",
       "title": "American Farmers, Workers, and Businesses are Reaping the Benefits of President Trump’s Trade Program",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQREZSNVVlQVI5M0kteE5Za0dKT21Gbm5mMldpSkJhc1pmUlNncEJ6RFlrMm5LaTRzTjJLcGpoRHE1QVc4MzMxVmEtbElDUHFucVdka1Y0TWZZLWE0VjgwNDdicEFkUmJWeGJrTkJBS0FIVjM4MXFEYWdMMHZXOGVoZ2U1STJfRkRKcGw2bDd1UUJJQXNxMFZWSlRQOUVjTFhFcGQwYjk1dHM2a1BEdGl5czNqUEdqMUhReEVzR3RGMEYtcEkyVlBNSUVEYXh6TGxMTjhCd25XXy12YjB3dHAxUjZCUXNCMXI0N0w2TUZZRUpTMUM1QWxWanRSWQ?oc=5",
@@ -148,20 +147,6 @@
       "japanRelated": false,
       "category": "通商・経済",
       "priority": 73,
-      "english": true
-    },
-    {
-      "id": "s0MGRHRk5iMng2TjIxTFYxWjFhSE0_b2M9NQ",
-      "title": "Fake Truth Social post circulates as Trump bemoans Canadian wildfire smoke",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMXJXSVYtMXhyMW1uT25jVTRVdUtGc1Bwa0R2dWZNMEd1aVQyQ1lpTE5wMGlUR1RHc3Q4alVBYk5mWlBwUVFydnZob3BLc3NmMUNsVWxST0RNa0VHN041cDBpYXZSU0lJS1E5MXc2VWdaUU01dlU2ck40dGFNb2x6N21LV1Z1aHM?oc=5",
-      "source": "Yahoo",
-      "publishedAt": "2026-07-22T20:41:19.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
       "english": true
     },
     {
@@ -204,20 +189,6 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": true
-    },
-    {
-      "id": "NWhSVzB5TjNWMVkwVkpRM0pGUWt4Qj9vYz01",
-      "title": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2pqOXFfYnhiVHBaQk5Yd3lBdGZHWE9USmFlcUdSVkFEbjZ3NGdvZVQ5c3BhdzFlUDJVemlCNjlqR0JsNVRfSlhnTUVDaFk1algySUk3eGpXdGNsbUg2UTExd0FVNTVreTVOaFM2dXdYa25hRW0yN3V1Y0VJQ3JFQkxB?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-22T15:36:00.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "外交・安保",
-      "priority": 66,
       "english": true
     },
     {
@@ -291,17 +262,17 @@
       "english": false
     },
     {
-      "id": "JNVZFWkhlV0pMWnkwdGR6TjRVRWh2P29jPTU",
-      "title": "US senator urges Wall Street to reject offer of paid early access to Trump posts",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb1RsRXJra0FrT1NMTWpXeC1mRS1VNHoyZXdaWmdNN1lZR255TUFyX1hxeUFDbmo1d3NrNjVhbFE2SnpwajdEbmdRUTZrNVhPanJqV3lURVJ0VkkxSVpaT2VESUNRaGkxcG1nUTRmYWZxU1NCUndndkNWdnVRUzB2QTdBU0RhSm05NDVLQS1GRm1NX0FJbDBiVWVQSk5fY3pwRWREanN2RmtCZVE0OEJZWlp3NDRLQjI5VEZHeWJLZy0tdzN4UEhv?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-21T19:44:00.000Z",
+      "id": "NWhSVzB5TjNWMVkwVkpRM0pGUWt4Qj9vYz01",
+      "title": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2pqOXFfYnhiVHBaQk5Yd3lBdGZHWE9USmFlcUdSVkFEbjZ3NGdvZVQ5c3BhdzFlUDJVemlCNjlqR0JsNVRfSlhnTUVDaFk1algySUk3eGpXdGNsbUg2UTExd0FVNTVreTVOaFM2dXdYa25hRW0yN3V1Y0VJQ3JFQkxB?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-22T02:43:58.000Z",
       "summary": "",
       "official": false,
       "relevant": true,
       "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
+      "category": "外交・安保",
+      "priority": 66,
       "english": true
     },
     {
@@ -571,34 +542,6 @@
       "english": true
     },
     {
-      "id": "KcmRuaHVOMjlEWldWNU5sOVNNa2R2P29jPTU",
-      "title": "Don't fall for fake Trump post ranting about Paul McCartney, The Beatles",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iQVBRRTg4LTV2cGNaWEMwbmVGa09NZkxaUm00c040c0RjdTFMQjM0X005cWJHR29PeWpuTUw0T0VoN1JneG1aRU5DU3g2T0trNjVlNGRYakRseEZpa0VBQUZGUmVpdmJrdnhuN29DZWV5Nl9SMkdv?oc=5",
-      "source": "Snopes.com",
-      "publishedAt": "2026-07-18T13:04:50.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
-    },
-    {
-      "id": "scFJZMmR2TVY5NGJFMXZhbE5NU25jP29jPTU",
-      "title": "Trump media company eyes $100,000 monthly fee for early access to Truth Social posts: Report",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVEpyc2RhQ1BSalV0ZWNlTjMzT1JQelB2bF9lbUFCWTFHNWQ1ZHZlTlBNLXFYRWRYQ0Y3TTRXVzhGMVhQTU9vS0prRmNmQzFMT0k1WlNXbWE2OXNlZzhBUmN2MG1TaGFfODBTeVVMdkp0eW9VaXNXTEpTQUxVNDN0TmhySF9rWmgtUXJMSV9EWkhPd3BILUc3YlFpNHJvZGZ5S0RKWjlOMUM2emZsNXdXZFEzVFh1RzJ5cFZfaERNREt0dkY5SFFPTURfcVVqWkZa0gHWAUFVX3lxTE1WeUFQeXpqNi1YWUxPODJGS3Bmb2x6VnM3REN3SGN3VldYeVRDcHFkWTVzcEtyVHcySXhOUjgxVFV6NkVpck1jNy1Cb1dIb2NMX2tibVVDdnFWckZBMlo0QnNxT0NUN2Q2YXVUVmRlc21MSlBOV3ZJVXh4OExVSnM3Wmt4dVlEVXpmQ1BmNFMxLVczLXVXYTc0VVJHTmZ6aTBNODlmZlM3dDFkckNGUTVnU3l1Y1RUZWM0UVdONzdlSnBkUTRXTlpRY2dvMV94bE1valNMSnc?oc=5",
-      "source": "Firstpost",
-      "publishedAt": "2026-07-18T03:18:06.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
-    },
-    {
       "id": "LWpvaW50LW1pbGl0YXJ5LWNvbW1pc3Npb24v",
       "title": "Readout of the 45th U.S.-Jordan Joint Military Commission",
       "url": "https://www.war.gov/News/Releases/Release/Article/4549596/readout-of-the-45th-us-jordan-joint-military-commission/",
@@ -702,20 +645,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRDlCd1ViY0xabGJ6U1pPeHp4eE9nbzNVakMzQTJZT2xBaGVSSklCVlZ4bDZwVW9XRGF1ZF9PUkZmSUJaZms1U2labXVvWWpsbzFUVzNQQzhmQzRSS1l2VUk5RmgyRThHR2pVcUwwdGoyWktYS1c1M2psSjZCRnVYbURocw?oc=5",
       "source": "KCRA",
       "publishedAt": "2026-07-17T10:26:00.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
-    },
-    {
-      "id": "MVFpUVUUxUGRscG1ZMnBTYzJwd2J3P29jPTU",
-      "title": "Trump Media to Sell Traders ‘the Fastest’ Access to Truth Social Posts",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUUVJR1U1WFA3c1lTd1NfYnFIdXRzRXpIbWZjTWtjMzhvdGtUWEk0eHVnN2EwZ0lNcUJQczE2Y3RRV0dUc2dEMGVWTTJZamhTNkhaNVMzM1J2djVBbW9nVE55bV9YV0o0a2dCb1BsbUYzdEsyLTZTUE1PdlpmY2pSc2pwbw?oc=5",
-      "source": "Time Magazine",
-      "publishedAt": "2026-07-17T09:30:03.000Z",
       "summary": "",
       "official": false,
       "relevant": true,
@@ -837,20 +766,6 @@
       "english": true
     },
     {
-      "id": "ZW5vMlRHTnZaV280U3pCVGJ6VTVlZz9vYz01",
-      "title": "Truth Social to sell Wall Street firms the ‘fastest’ access to Trump’s posts",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWJLYTJtemxYdk5VSWUxSUloTV84YTJpVjVyRzA2NmtFS0RHbl9NRXc1aFAyY0tLNlRRN1U1NDhaOGt1NzEtWmV5T1dtNFFpWFdQLVRoV2RXNE1aQVpNYkRlTUtXeEJ0aEZKU2Jrck9Fc3VqcHl6aHRiQVZ2b29SSTRWdzFKV3Zjeno2TGNvZWo4SzBTbzU5eg?oc=5",
-      "source": "NBC News",
-      "publishedAt": "2026-07-16T20:49:34.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
-    },
-    {
       "id": "bE0wYzI1dFdsTlhNVlZMV1dwUk9YRT9vYz01",
       "title": "Trump Media to sell high-speed access to president’s social media posts",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSXZCUlJpOG5kajZRYW15dFFPdVlkWnFuQ0NGSTZBNVJRenlYazhET1FUUjRUQjZOX0FTYmJFcTd5M0pCV0hhTm9XZ0ZxQ3d3Ry1uUUhrYlRqNURiTEdmaDBUWURSX29ZMmJyQVMwZ3JUU3pNRlM0c25tWlNXMVVLWWpROXE?oc=5",
@@ -893,39 +808,11 @@
       "english": true
     },
     {
-      "id": "ydFFjRWs1ZVc1YWVVNXBVSGN3Um1zP29jPTU",
-      "title": "Truth Social Owner Moves to Make It Easier for Wall Street to Profit Off Trump Posts",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5T2ZkbHpjbGpabWxDdFMtMGJrY0FVM2xTdjdPbURjOWIzSTAxTFM1M2pIVlI3aHJnSm1QNFdYOVc1S1VMTkFyd08xa3h2Yjl4Q09qZzhSb2tQcEk5eW5aeU5pUHcwRms?oc=5",
-      "source": "Common Dreams",
-      "publishedAt": "2026-07-16T19:09:26.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
-    },
-    {
       "id": "9XaDBlQzFCYnpsb1pFaFpjM3BRU1E_b2M9NQ",
       "title": "Full Extent of Trump’s ‘Disaster’ Truth Social Habit Exposed",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSE9ZaHhMU2dBaTF0TlVwZlVhbmowM1dLLVA0LWEzU282Zl9mN1Fsekk1djVYR0NxLUFSS2dhU2FoWmtZZlFZUWlmYjRjZ2QzQXZQNDk1dkxpT0dPcW9qMmpYQXFCcTlQeldpWE55MlFKTnREVnl5WXZTSnBLV2pmVFJJR3JTYS1jU2RtREJMbGRBWE9GOWh0eC1BbzloZEhZc3pQSQ?oc=5",
       "source": "The Daily Beast",
       "publishedAt": "2026-07-16T17:38:00.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
-    },
-    {
-      "id": "czUkhrNGRTMHpURTV1ZEdSclptRk4_b2M9NQ",
-      "title": "Trump Media launches paid data service to help Wall Street track Trump’s posts",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdDd4WENFdm10Q0Y5T2syRXdDT3NPaFpacGNCRjBrOHpQZXZ1WUZiR0NvVF90MmxaYkdXdC02OVQySWdCWUJPT0xsc0NmOHM5SVhfb3Zwcno2Q2NCSnc3al9uLUNhczFoRmlhY3ZPMDhZTHpJZU54T3NySl9LTlVIRDVnUFhSZ9IBiwFBVV95cUxQVEZ3ZmJlMGluUjRFYnRNaTdVbnRoRnY5TWdORHR6WHN5SzVyNWktM2VlYlpvbk5BZm1mU280UUlCSE5zRFhRSkdma0VsT2pTZ1pIOXpXVGxRV1Znd0RLNWo4UE5hQU11NUoxZUpzT0x6M3RYVlV4Yk54cTg3RHk4dS0zTE5udGRrZmFN?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-07-16T14:43:40.000Z",
       "summary": "",
       "official": false,
       "relevant": true,
@@ -1103,6 +990,20 @@
       "english": true
     },
     {
+      "id": "bkZFZG1aVlYwdHRSVGN4VDJkWlYwRT9vYz01",
+      "title": "イラン攻撃の法的正当性 —アメリカ大統領はいつでも戦争を始められるのか― | SPFアメリカ現状モニター | 日米関係インサイト",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT0laaVZhbWFsNXlWTC13cVZQY283cVBBYVZ5MnNpM3A3Q1NZU29QQ3ZhbHliRkJFY3MzckkzeHhhbTFqWUttUU5GU1Y0MjRRNDlOQ2IyOUJxaVQxazJEMVdvb1daak43OEIyOWVKLUdoZ2REd01KYU00U3hjXzc2TWhQLXE5SHVyRmhHOUdmdnFEdmZVV0ttRTcxT2dZV0E?oc=5",
+      "source": "笹川平和財団",
+      "publishedAt": "2026-07-14T07:00:00.000Z",
+      "summary": "",
+      "official": false,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "外交・安保",
+      "priority": 98,
+      "english": false
+    },
+    {
       "id": "hM1Z2UkhRemIwWXRkVTFKZEdOamR3P29jPTU",
       "title": "小野田内閣府特命担当大臣記者会見要旨 令和8年7月14日",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05MTk1bE5pakhsMlF5X3lHWGsxeHp6RlZhMV8zSEdqd19XRU5ZZXNIMVVqeWlsdDdkZWJFZzZHX2pscHpDazZoRFEyNFJCOXI2QzVjSmRIREZLUzJPMjF2MEdpa3VvRHQzb0YtdU1JdGNjdw?oc=5",
@@ -1115,34 +1016,6 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false
-    },
-    {
-      "id": "bkZFZG1aVlYwdHRSVGN4VDJkWlYwRT9vYz01",
-      "title": "イラン攻撃の法的正当性 —アメリカ大統領はいつでも戦争を始められるのか― | SPFアメリカ現状モニター | 日米関係インサイト",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT0laaVZhbWFsNXlWTC13cVZQY283cVBBYVZ5MnNpM3A3Q1NZU29QQ3ZhbHliRkJFY3MzckkzeHhhbTFqWUttUU5GU1Y0MjRRNDlOQ2IyOUJxaVQxazJEMVdvb1daak43OEIyOWVKLUdoZ2REd01KYU00U3hjXzc2TWhQLXE5SHVyRmhHOUdmdnFEdmZVV0ttRTcxT2dZV0E?oc=5",
-      "source": "笹川平和財団",
-      "publishedAt": "2026-07-14T01:42:55.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": true,
-      "category": "外交・安保",
-      "priority": 98,
-      "english": false
-    },
-    {
-      "id": "kVVp5MVFVRzAwZEd4alR6SmxkVEpqP29jPTU",
-      "title": "Fake Trump Post Mocks Israel",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1GTWJzRHEyOVFtTGtkcWowRDVSNmdvdC1pTjhVeV9DbWZwaUVta3VvbnZGbS1JUEJsYmRXZEFDSnBqLUZPVTlaT3ItWS1BdHZfeEYwSGNqVHZGUHFGSV9DcndHaEUyQmdUZy1QUG00dGxjTzJldTJj?oc=5",
-      "source": "NewsGuard's Reality Check",
-      "publishedAt": "2026-07-10T12:02:40.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
     },
     {
       "id": "bElTbEp4TFVaUFMxUk9NVTV2UkRoMz9vYz01",
@@ -1428,7 +1301,7 @@
       "id": "gwVnpOWmVtaE1VRGMzVVdndGNXaEs_b2M9NQ",
       "title": "“This Is Grotesque”: People Are Raising Major Alarms Over Donald Trump’s Latest Truth Social Post",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JU1dNUmxsaEw4Uml5MDg0TjAzdzdBbnQtcTMwbWRVdjlXdFdQOXExVDFhRXZyNVRkUGhqVHlfX2YwNFpvOUd6RndxTXp6dkU0TDZhSTFkRGNoWWItUGxlcWdtRUx0VzNZemhMUDc3UWgtcWhK?oc=5",
-      "source": "BuzzFeed",
+      "source": "buzzfeed.com",
       "publishedAt": "2026-07-01T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -1548,6 +1421,20 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 79,
+      "english": false
+    },
+    {
+      "id": "VXAxVkU1UmRFWjVSRlp1Y0dkUVYwMD9vYz01",
+      "title": "越智経済産業大臣政務官がゲックラー米日経済協議会会長一行による表敬を受けました",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xNEVhTEt2ZndjTkRLLTRMNTdPUTNMTTIxUXB3dy1rU1R3MjBHdGRPUVotZkd6cUtsekhHSmk1Xy1wb2RtbVEtQTBMdTZ0YUY2TlU2V3Q5SjF5SDhzU05mVEk0cUp1VE5RdEZ5RFZucGdQV00?oc=5",
+      "source": "meti.go.jp",
+      "publishedAt": "2026-06-25T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "議会・政治",
+      "priority": 89,
       "english": false
     },
     {
