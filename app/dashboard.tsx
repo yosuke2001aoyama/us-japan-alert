@@ -49,6 +49,10 @@ function relativeTime(value: string) {
   return `${Math.floor(minutes / 1440)}日前`;
 }
 
+function shortTime(value: string) {
+  return new Date(value).toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit" });
+}
+
 export default function Dashboard() {
   const [feed, setFeed] = useState<Feed>(fallback);
   const [loading, setLoading] = useState(true);
@@ -81,7 +85,9 @@ export default function Dashboard() {
           hasLiveItems.current = snapshot.items.length > 0;
         } catch { /* keep empty state */ }
       }
-    } finally { if (!quiet) setLoading(false); }
+    } finally {
+      if (!quiet) setLoading(false);
+    }
   }, []);
 
   useEffect(() => {
@@ -114,10 +120,13 @@ export default function Dashboard() {
       : +new Date(b.publishedAt) - +new Date(a.publishedAt) || b.priority - a.priority);
   }, [feed.items, query, category, japanOnly, officialOnly, days, sort, now]);
 
+  const priorityItems = useMemo(() => [...filtered].sort((a, b) => b.priority - a.priority || +new Date(b.publishedAt) - +new Date(a.publishedAt)).slice(0, 7), [filtered]);
+  const officialItems = filtered.filter((item) => item.official).slice(0, 6);
   const important = filtered.filter((item) => item.priority >= 80).length;
   const japanCount = filtered.filter((item) => item.japanRelated).length;
-  const featured = filtered.slice(0, 3);
-  const remaining = filtered.slice(3);
+  const lead = filtered[0];
+  const streamItems = filtered.slice(1);
+  const healthPercent = feed.sources.total ? Math.round((feed.sources.ok / feed.sources.total) * 100) : 0;
 
   return (
     <main className="shell" data-generated-at={feed.generatedAt}>
@@ -128,30 +137,31 @@ export default function Dashboard() {
         </div>
       </header>
 
-      <section className="briefing">
-        <div className="brief-copy">
-          <p className="eyebrow">JP / US PUBLIC INFORMATION</p>
+      <section className="command-bar">
+        <div className="command-title">
+          <p>PUBLIC INFORMATION MONITOR</p>
           <h1>日米公開情報bot</h1>
-          <p>首脳・閣僚、同盟・安保、通商、制裁、議会、重要人事に関する公開情報</p>
+          <span>首脳・閣僚、同盟・安保、通商、制裁、議会、重要人事</span>
         </div>
-        <div className="metrics" aria-label="表示中の概要">
+        <div className="command-metrics" aria-label="表示中の概要">
           <div><b>{important}</b><span>重要案件</span></div>
           <div><b>{japanCount}</b><span>日本関連</span></div>
           <div><b>{filtered.length}</b><span>表示件数</span></div>
+          <div><b>{healthPercent}%</b><span>取得稼働率</span></div>
         </div>
       </section>
 
       <section className="toolbar" aria-label="絞り込みと並べ替え">
-        <div className="toolbar-row">
+        <div className="toolbar-main">
           <label className="search"><span aria-hidden="true">⌕</span><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="人物・政策・機関を検索" /></label>
           <div className="segmented" aria-label="並べ替え">
-            <button className={sort === "time" ? "active" : ""} onClick={() => setSort("time")}>時系列順</button>
-            <button className={sort === "priority" ? "active" : ""} onClick={() => setSort("priority")}>重要度順</button>
+            <button className={sort === "time" ? "active" : ""} onClick={() => setSort("time")}>時系列</button>
+            <button className={sort === "priority" ? "active" : ""} onClick={() => setSort("priority")}>重要度</button>
           </div>
           <label className="period">期間<select value={days} onChange={(e) => setDays(Number(e.target.value))}>{windows.map((w) => <option key={w.value} value={w.value}>{w.label}</option>)}</select></label>
           <button className="refresh" onClick={() => refresh()} disabled={loading}>↻ 更新</button>
         </div>
-        <div className="toolbar-row secondary">
+        <div className="toolbar-secondary">
           <div className="chips">{categories.map((item) => <button key={item} className={category === item ? "active" : ""} onClick={() => setCategory(item)}>{item}</button>)}</div>
           <div className="toggles">
             <label><input type="checkbox" checked={japanOnly} onChange={(e) => setJapanOnly(e.target.checked)} />日本関連のみ</label>
@@ -160,34 +170,82 @@ export default function Dashboard() {
         </div>
       </section>
 
-      <section className="content">
-        {!!featured.length && <div className="lead-grid" aria-label="主要項目">
-          {featured.map((item, index) => <LeadStory key={item.id} item={item} primary={index === 0} />)}
-        </div>}
+      <section className="console">
+        <aside className="priority-panel panel">
+          <PanelHeading label="優先確認" count={priorityItems.length} />
+          <div className="priority-list">
+            {priorityItems.map((item, index) => <PriorityItem key={item.id} item={item} rank={index + 1} />)}
+            {!priorityItems.length && <div className="panel-empty">該当案件なし</div>}
+          </div>
+        </aside>
 
-        <div className="stream">
-          <div className="section-title"><div><span className="live-dot" />最新情報</div><span>{filtered.length}件</span></div>
+        <section className="main-feed panel">
+          <PanelHeading label="最新フィード" count={filtered.length} live />
           {loading && !feed.items.length && <div className="empty">政策情報を収集中…</div>}
           {!loading && filtered.length === 0 && <div className="empty">この条件に該当する重要情報はありません。</div>}
-          {remaining.map((item) => <Story key={item.id} item={item} />)}
-        </div>
+          {lead && <LeadStory item={lead} />}
+          <div className="story-list">{streamItems.map((item) => <Story key={item.id} item={item} />)}</div>
+        </section>
+
+        <aside className="intel-column">
+          <section className="panel official-panel">
+            <PanelHeading label="一次情報速報" count={officialItems.length} />
+            <div className="ticker-list">
+              {officialItems.map((item) => <TickerItem key={item.id} item={item} />)}
+              {!officialItems.length && <div className="panel-empty">一次情報なし</div>}
+            </div>
+          </section>
+
+          <section className="panel health-panel">
+            <PanelHeading label="システム稼働" />
+            <div className="health-body">
+              <div className="health-score"><strong>{feed.sources.ok}</strong><span>/ {feed.sources.total || "—"} 経路</span></div>
+              <div className="health-track"><i style={{ width: `${healthPercent}%` }} /></div>
+              <div className="health-row"><span>正常</span><b>{feed.sources.ok}</b></div>
+              <div className="health-row"><span>失敗</span><b className={feed.sources.failed ? "warn" : ""}>{feed.sources.failed}</b></div>
+              <div className="health-row"><span>取得時刻</span><b>{feed.generatedAt === EMPTY_DATE ? "—" : shortTime(feed.generatedAt)}</b></div>
+              {feed.sources.failedNames?.length ? <details><summary>失敗経路を表示</summary><p>{feed.sources.failedNames.join("、")}</p></details> : null}
+            </div>
+          </section>
+
+          <section className="panel monitor-note">
+            <b>運用上の注意</b>
+            <p>要約・分類・重要度は補助情報です。政策判断や起案には必ずリンク先の原文をご確認ください。</p>
+          </section>
+        </aside>
       </section>
+
       <footer>
         <span>日米公開情報bot</span>
-        <span>取得 {feed.generatedAt === EMPTY_DATE ? "—" : new Date(feed.generatedAt).toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit", second: "2-digit" })} · {feed.sources.ok}/{feed.sources.total || "—"}経路</span>
-        <span>画面更新 {lastRefresh ? lastRefresh.toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit" }) : "—"} · 政策判断には必ず原文をご確認ください。</span>
+        <span>取得 {feed.generatedAt === EMPTY_DATE ? "—" : shortTime(feed.generatedAt)} · {feed.sources.ok}/{feed.sources.total || "—"}経路</span>
+        <span>画面更新 {lastRefresh ? lastRefresh.toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit" }) : "—"}</span>
       </footer>
     </main>
   );
 }
 
+function PanelHeading({ label, count, live = false }: { label: string; count?: number; live?: boolean }) {
+  return <div className="panel-heading"><div>{live && <span className="live-dot" />}{label}</div>{typeof count === "number" && <span>{count}</span>}</div>;
+}
+
+function PriorityItem({ item, rank }: { item: Item; rank: number }) {
+  return <a className="priority-item" href={item.url} target="_blank" rel="noreferrer">
+    <span className="priority-rank">{String(rank).padStart(2, "0")}</span>
+    <div><div className="priority-meta"><b className={item.priority >= 80 ? "hot" : ""}>{item.priority}</b><span>{item.category}</span><time>{relativeTime(item.publishedAt)}</time></div><h3>{item.title}</h3><small>{item.source}</small></div>
+  </a>;
+}
+
+function TickerItem({ item }: { item: Item }) {
+  return <a className="ticker-item" href={item.url} target="_blank" rel="noreferrer"><time>{shortTime(item.publishedAt)}</time><div><h3>{item.title}</h3><span>{item.source}</span></div></a>;
+}
+
 function Visual({ item }: { item: Item }) {
   const [failed, setFailed] = useState(false);
   if (item.image && !failed) return <div className="visual"><img src={item.image} alt="" onError={() => setFailed(true)} /></div>;
-  return <div className={`visual fallback cat-${item.category.replace(/[・]/g, "-")}`} aria-hidden="true"><span>{item.source.slice(0, 2).toUpperCase()}</span><small>{item.category}</small></div>;
+  return <div className="visual fallback" aria-hidden="true"><span>{item.source.slice(0, 2).toUpperCase()}</span><small>{item.category}</small></div>;
 }
 
-function LeadStory({ item, primary }: { item: Item; primary?: boolean }) {
+function LeadStory({ item }: { item: Item }) {
   const [translation, setTranslation] = useState<string | null>(null);
   const [translationOpen, setTranslationOpen] = useState(false);
   const [translating, setTranslating] = useState(false);
@@ -205,15 +263,14 @@ function LeadStory({ item, primary }: { item: Item; primary?: boolean }) {
     finally { setTranslating(false); }
   }
 
-  return <article className={`lead-story ${primary ? "primary" : ""}`}>
+  return <article className="lead-story">
     <a className="lead-visual-link" href={item.url} target="_blank" rel="noreferrer"><Visual item={item} /></a>
     <div className="lead-content">
-      <div className="meta">{item.priority >= 80 && <b className="urgent-label">重要</b>}{item.japanRelated && <b className="jp-label">日本関連</b>}<span>{item.category}</span><time dateTime={item.publishedAt}>{relativeTime(item.publishedAt)}</time></div>
+      <div className="meta">{item.priority >= 80 && <b className="urgent-label">重要</b>}{item.japanRelated && <b className="jp-label">日本関連</b>}{item.official && <b className="official-label">一次情報</b>}<span>{item.category}</span><time>{relativeTime(item.publishedAt)}</time></div>
       <h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>
-      {primary && item.summary && <p>{item.summary}</p>}
-      {translationOpen && <div className="translation" aria-live="polite"><b>仮訳</b>{translating ? <span>翻訳中…</span> : <p>{translation}</p>}<small>見出し・要旨の機械翻訳です。</small></div>}
-      <a className="lead-source" href={item.url} target="_blank" rel="noreferrer">{item.source}<span>原文を読む ↗</span></a>
-      {item.english && <button className="translate-button lead-translate" onClick={toggleTranslation}>{translationOpen ? "仮訳を閉じる" : "仮訳を表示"}</button>}
+      {item.summary && <p>{item.summary}</p>}
+      {translationOpen && <Translation text={translation} translating={translating} />}
+      <div className="lead-actions"><a href={item.url} target="_blank" rel="noreferrer">{item.source}<span>原文を読む ↗</span></a>{item.english && <button className="translate-button" onClick={toggleTranslation}>{translationOpen ? "仮訳を閉じる" : "仮訳"}</button>}</div>
     </div>
   </article>;
 }
@@ -237,22 +294,18 @@ function Story({ item }: { item: Item }) {
     finally { setTranslating(false); }
   }
 
-  return (
-    <article className={`story ${urgent ? "urgent" : ""}`}>
-      <div className="story-rail"><span>{item.priority}</span><small>重要度</small></div>
-      <div className="story-body">
-        <div className="meta">
-          {urgent && <b className="urgent-label">重要</b>}{item.japanRelated && <b className="jp-label">日本関連</b>}{item.official && <b className="official-label">一次情報</b>}
-          <span>{item.category}</span><span>·</span><time dateTime={item.publishedAt}>{relativeTime(item.publishedAt)}</time>
-        </div>
-        <h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>
-        {item.summary && <p>{item.summary}</p>}
-        {translationOpen && <div className="translation" aria-live="polite"><b>仮訳</b>{translating ? <span>翻訳中…</span> : <p>{translation}</p>}<small>見出し・要旨の機械翻訳です。</small></div>}
-        <div className="story-footer">
-          <a className="source-link" href={item.url} target="_blank" rel="noreferrer"><span>{item.source.slice(0, 2).toUpperCase()}</span>{item.source}<i>原文 ↗</i></a>
-          {item.english && <button className="translate-button" onClick={toggleTranslation}>{translationOpen ? "仮訳を閉じる" : "仮訳"}</button>}
-        </div>
-      </div>
-    </article>
-  );
+  return <article className={`story ${urgent ? "urgent" : ""}`}>
+    <div className="story-score"><span>{item.priority}</span><small>PRI</small></div>
+    <div className="story-body">
+      <div className="meta">{urgent && <b className="urgent-label">重要</b>}{item.japanRelated && <b className="jp-label">日本関連</b>}{item.official && <b className="official-label">一次情報</b>}<span>{item.category}</span><time>{relativeTime(item.publishedAt)}</time></div>
+      <h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>
+      {item.summary && <p>{item.summary}</p>}
+      {translationOpen && <Translation text={translation} translating={translating} />}
+      <div className="story-footer"><a className="source-link" href={item.url} target="_blank" rel="noreferrer"><span>{item.source.slice(0, 2).toUpperCase()}</span>{item.source}<i>原文 ↗</i></a>{item.english && <button className="translate-button" onClick={toggleTranslation}>{translationOpen ? "仮訳を閉じる" : "仮訳"}</button>}</div>
+    </div>
+  </article>;
+}
+
+function Translation({ text, translating }: { text: string | null; translating: boolean }) {
+  return <div className="translation" aria-live="polite"><b>仮訳</b>{translating ? <span>翻訳中…</span> : <p>{text}</p>}<small>見出し・要旨の機械翻訳です。</small></div>;
 }
