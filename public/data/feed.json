@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:41:44.824Z",
+  "generatedAt": "2026-07-23T22:38:03.230Z",
   "mode": "live",
   "sources": {
     "ok": 42,
@@ -79,6 +79,20 @@
     ]
   },
   "items": [
+    {
+      "id": "ZwaVgyMUtaMHRWWTFWb1JVZExRVEE_b2M9NQ",
+      "title": "President Trump Makes an Announcement on the Ratepayer Protection Pledge",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUUV2aHVrUTU3ak9KLW5HNUpuY1ZZZ0Zia1NYSVppaktGcWpZbnNqMXJ0eUpsRERjaE5jSFlHRVJhTm5GZmRVczJjLTNrcm1rbFlLSnlMOWVIQ3RrdlNPUk43azY0MzQ4T0lIdUlOMG9Gcmt4d2dBclRMdjcxSVlEUmNoUHoyeGpUeHQyUzZjOER6eUxBQkc4Yy1XeVpiX21KZ0tVY1VoRUdLQTA?oc=5",
+      "source": "The White House (.gov)",
+      "publishedAt": "2026-07-23T18:59:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true
+    },
     {
       "id": "VVZFM016ZDBjako1ZEdsNVpuVk1adz9vYz01",
       "title": "Trump Media's Plan to Sell 'Real-Time' Access to His Truth Social Posts Draws GOP Rebukes",
@@ -182,7 +196,7 @@
       "title": "H.Con.Res.86 - Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWEswX0x6T0pmeVJjUkhfYnhxNjJGREdQaUFyaXYxVGNOdUhSTjRJSmNMdldySXVZVHFRRTBDN283T2g3RVZ5b0VtcG5uRFZYaE9fOXljbG9EdEl5N3F0LVlwVmFlZ3hLMWxOYTZnVVBKbGFvdlZpdkF4NE9vWm1RQg?oc=5",
       "source": "Congress.gov",
-      "publishedAt": "2026-07-22T17:57:53.000Z",
+      "publishedAt": "2026-07-22T19:07:56.000Z",
       "summary": "",
       "official": true,
       "relevant": true,
@@ -231,20 +245,6 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": true
-    },
-    {
-      "id": "NWhSVzB5TjNWMVkwVkpRM0pGUWt4Qj9vYz01",
-      "title": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2pqOXFfYnhiVHBaQk5Yd3lBdGZHWE9USmFlcUdSVkFEbjZ3NGdvZVQ5c3BhdzFlUDJVemlCNjlqR0JsNVRfSlhnTUVDaFk1algySUk3eGpXdGNsbUg2UTExd0FVNTVreTVOaFM2dXdYa25hRW0yN3V1Y0VJQ3JFQkxB?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-22T15:36:00.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "外交・安保",
-      "priority": 66,
       "english": true
     },
     {
@@ -316,6 +316,20 @@
       "category": "日米関係",
       "priority": 93,
       "english": false
+    },
+    {
+      "id": "NWhSVzB5TjNWMVkwVkpRM0pGUWt4Qj9vYz01",
+      "title": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2pqOXFfYnhiVHBaQk5Yd3lBdGZHWE9USmFlcUdSVkFEbjZ3NGdvZVQ5c3BhdzFlUDJVemlCNjlqR0JsNVRfSlhnTUVDaFk1algySUk3eGpXdGNsbUg2UTExd0FVNTVreTVOaFM2dXdYa25hRW0yN3V1Y0VJQ3JFQkxB?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-22T02:43:58.000Z",
+      "summary": "",
+      "official": false,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "外交・安保",
+      "priority": 66,
+      "english": true
     },
     {
       "id": "emhQWlVzd1JFSTJUemhwYUZwUVNGZz9vYz01",
@@ -531,7 +545,7 @@
       "id": "TjJoUVVITnZhRkJ0TUhCclNIVnNWdz9vYz01",
       "title": "Did Trump say he'd turn on 'giant faucet' in California to extinguish Canadian wildfires?",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43RGF1WE5kTTJvbVFXT3lZcFY4bVBZX2NLVjVnX00tQmNPR2VELUw4Sl94VVRZSHdmcl9aNnRmeGlrS2Y1aUplZ2R4QlRwakNsRGd0djlrWTdGMXhDN2hQUHNvaFBtMHBrSHVsVw?oc=5",
-      "source": "Snopes",
+      "source": "Snopes.com",
       "publishedAt": "2026-07-20T19:21:16.000Z",
       "summary": "",
       "official": false,
@@ -612,9 +626,9 @@
       "english": true
     },
     {
-      "id": "JuQXdZMFp5U0V0blQzYzJRbTE2ZHc_b2M9NQ",
+      "id": "MVdVMkpmT1hORFQwVjNjbGRFTmxSWj9vYz01",
       "title": "Trump says Canada will face tariffs over wildfire smoke, claiming ‘willful negligence’",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWURtMlcyVFFIQkhsQy1QT19zaEVDZ3NVdzVSY2g3MmRnbVZ2RGZtT0Q5X1N1NnFwSmJla19Id2hmMGQxN2hGRU9PRExNVG9EOVpvUkotRzhiS1EwTDhiRjBwV0VDNFhxZnYxazdxNkp6dkxxQk8zRnJVUGJpTjB6MzBpbnAwY0ZySEtnT3c2Qm16dw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWURtMlcyVFFIQkhsQy1QT19zaEVDZ3NVdzVSY2g3MmRnbVZ2RGZtT0Q5X1N1NnFwSmJla19Id2hmMGQxN2hGRU9PRExNVG9EOVpvUkotRzhiS1EwTDhiRjBwV0VDNFhxZnYxazdxNkp6dkxxQk8zRnJVUGJpTjB6MzBpbnAwY0ZySEtnT3c2Qm16d9IBlwFBVV95cUxNcnB2WnR0SElMZHFzZG5PVU16OUtVNzdlMl9LdkllVXByTFoxX3dnZUg5OE9PRXNHYzdkemFsUDdnOXdzWWpXdENuSC1EUnQxNUU3eDZobXZfdEFOWi1zV09OYlZJMlNEQlR6Uno0YktqX2ZfVnhqeUxEOEtWZElDQnJHd2dwRU1WU2JfOXNDT0V3cldENlRZ?oc=5",
       "source": "The Hill",
       "publishedAt": "2026-07-17T20:00:00.000Z",
       "summary": "",
@@ -687,6 +701,20 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUFptT251eGd3T0Vfb0xPcXE4a2dCRUlxYnZwUEhsZXNKTFcxRTItQWNBWDNVU3RjcGJvRi1EMVBfb1FoSkhuTlFTRHJfZzExNFFOX1FsaU8wVnFkeW1WLVNiRXk3WFczQUpUczFISi1aRGUtQW9ob2pWRDV3VGdJNlZrTXFhLTNR?oc=5",
       "source": "The Verge",
       "publishedAt": "2026-07-17T12:49:57.000Z",
+      "summary": "",
+      "official": false,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 62,
+      "english": true
+    },
+    {
+      "id": "TMWMxTTJwc1NqWkNSblZZYlVSb2N3P29jPTU",
+      "title": "Trump firm plans to sell priority access to Truth Social posts, possibly his own",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRDlCd1ViY0xabGJ6U1pPeHp4eE9nbzNVakMzQTJZT2xBaGVSSklCVlZ4bDZwVW9XRGF1ZF9PUkZmSUJaZms1U2labXVvWWpsbzFUVzNQQzhmQzRSS1l2VUk5RmgyRThHR2pVcUwwdGoyWktYS1c1M2psSjZCRnVYbURocw?oc=5",
+      "source": "KCRA",
+      "publishedAt": "2026-07-17T10:26:00.000Z",
       "summary": "",
       "official": false,
       "relevant": true,
@@ -778,20 +806,6 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false
-    },
-    {
-      "id": "dSWVRXdzBSMm96Tld4emFsTnlVRUU_b2M9NQ",
-      "title": "Trump firm plans to sell priority access to Truth Social posts, possibly his own",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUnBoYzROZWtVQ0xoeVRvSkVOTkNsd1ZOMzNIUFdhLXBZeHg2cmU1Yk1sWmdJY2s1TFlKenFhUFVzSk83V2t3NEdoelo2bEYwX3RPTjJ0WU8ybktvZUFWclo3dTdaZ1k5b0JUdTFCQlVUd3FSZllNb1VjSW9IbkFJWXl4bktpWHAwX0V4REV1NFBVSFFhbDRNNFE1LWhTMEZiaV8yWW1vN3FUeUFVZW1qUE5GVjN5TGRYTWw0R2ozNWxzalNyUEE?oc=5",
-      "source": "AP News",
-      "publishedAt": "2026-07-16T23:50:00.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true
     },
     {
       "id": "6QmZiRVZhWlRkU1dUbDZTbXRSYTFFP29jPTU",
@@ -1001,20 +1015,6 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
-    },
-    {
-      "id": "prV1ZZNU5HRlFYM3BzTkVwSVIyZDM_b2M9NQ",
-      "title": "Treasury Announces Frank Bisignano to Lead Next Phase of Trump Accounts Expansion",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMeGpWLVB2eGRLSnFNRE1xckRNeEI5akVzSmpCaUp5ZUtNVnM0T1dEUFJQZVRSTklrWXllaFdvZ0ktc2FfUTRyUmdMU0E0dDFpTDZkWVY5NGFQX3psNEpIR2d3?oc=5",
-      "source": "U.S. Department of the Treasury (.gov)",
-      "publishedAt": "2026-07-15T11:49:14.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 72,
       "english": true
     },
     {
@@ -1298,6 +1298,20 @@
       "english": true
     },
     {
+      "id": "SEYyZUVodExUVnpkRlZ1U1V4SmFXYz9vYz01",
+      "title": "インド訪問等についての会見 | 総理の一日",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QdVdTTmNOSVJzaGI2dnozSnd3VFg3SVpGNHJ1S2RPaDNySTd2QnFBVnBCcXpjMU4yVnl3aVNCVmpISS1wV1FpaFF6SFBGTmJvNnk2Y3hzRTJCTHF2eEhtLTVzdFVuSUxJaWc?oc=5",
+      "source": "首相官邸",
+      "publishedAt": "2026-07-01T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "首脳・閣僚",
+      "priority": 79,
+      "english": false
+    },
+    {
       "id": "Rk5KYVZKU1ZHdE5OakJDUVUxck0xTT9vYz01",
       "title": "President Trump Delivers Remarks, Jul. 1, 2026",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjJEb1NaTHJadTUzbV9wZElzRGQzS29CSks2dmdBdUFxYWVla1gxUmZGSm5vcWQ0T25iREFXbjJzbXJrTXBSeHpZZk9jTk4wU09idVhHbmhSTEpuODBhMzA3UkUtUTdQWFRQZVU5SlYwQVpWZFNJaVJSVGtNNjBCQU1rM1M?oc=5",
@@ -1478,6 +1492,20 @@
       "category": "通商・経済",
       "priority": 79,
       "english": true
+    },
+    {
+      "id": "WkpPVlExU200M1ZWbGhiamgzUlZaND9vYz01",
+      "title": "令和8年6月25日（木）午後 | 内閣官房長官記者会見",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tdTFKTWh4SzlONXlRWldIanJTaURRWEdLeG4wSDc3SWxPT05MOGF6QWhDWWRzSWlZWHBfNkJxV0d1MHdWUVF2QTJ2V1ZKbGQwTVFTRGxPT1ZJOVQ1Sm43VVlhbjh3RVZ4?oc=5",
+      "source": "首相官邸",
+      "publishedAt": "2026-06-25T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": false
     },
     {
       "id": "VkpaTm1Kd1QwRlNTRGhyUVV4SFZVRT9vYz01",
