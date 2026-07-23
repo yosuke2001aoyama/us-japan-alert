@@ -86,6 +86,10 @@ test("drops reports whose only Japan reference is a verbal gaffe", () => {
     assessPolicyItem("Trump says ‘Japan’ instead of Iran at meeting in Ankara").relevant,
     false,
   );
+  assert.equal(
+    assessPolicyItem("Trump confuses Iran, Japan in missile attack claim at NATO summit").relevant,
+    false,
+  );
 });
 
 test("drops ceremonial and exchange-program notices", () => {
@@ -112,5 +116,16 @@ test("removes Google News publisher suffixes and duplicate pseudo-summaries", ()
       "Reuters",
     ),
     "",
+  );
+});
+
+test("drops a re-indexed legacy conference page and cleans Japanese PDF headers", () => {
+  assert.equal(
+    assessPolicyItem('Pacific Forum CSIS Conference: "The Japan-U.S. Alliance at Fifty"').relevant,
+    false,
+  );
+  assert.equal(
+    cleanNewsTitle("令和８年７月２３日 海 上 幕 僚 監 部 （お知らせ） 日米共同訓練について 海上自衛隊"),
+    "日米共同訓練について 海上自衛隊",
   );
 });
