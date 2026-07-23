@@ -14,7 +14,8 @@ const htmlSources: HtmlSource[] = [
   { name: "White House · News Direct", url: "https://www.whitehouse.gov/news/", host: "https://www.whitehouse.gov", paths: /^\/(?:presidential-actions|fact-sheets|briefings-statements|remarks|releases)\//i },
   { name: "White House · Presidential Actions Direct", url: "https://www.whitehouse.gov/presidential-actions/", host: "https://www.whitehouse.gov", paths: /^\/presidential-actions\//i },
   { name: "White House · Fact Sheets Direct", url: "https://www.whitehouse.gov/fact-sheets/", host: "https://www.whitehouse.gov", paths: /^\/fact-sheets\//i },
-  { name: "USTR · Press Releases Direct", url: "https://ustr.gov/about-us/policy-offices/press-office/press-releases", host: "https://ustr.gov", paths: /\/about-us\/policy-offices\/press-office\/press-releases\//i },
+  { name: "USTR · July Releases Direct", url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july", host: "https://ustr.gov", paths: /^\/about\/policy-offices\/press-office\/(?:press-releases|fact-sheets)\/2026\//i },
+  { name: "USTR · Press Office Direct", url: "https://ustr.gov/about/policy-offices/press-office/press-releases", host: "https://ustr.gov", paths: /^\/about\/policy-offices\/press-office\/(?:press-releases|fact-sheets)\//i },
   { name: "Commerce · Press Releases Direct", url: "https://www.commerce.gov/news/press-releases", host: "https://www.commerce.gov", paths: /\/news\/press-releases\//i },
 ];
 
@@ -35,15 +36,24 @@ function safeDate(value?: string) {
 }
 
 function dateNear(html: string, offset: number) {
-  const sample = strip(html.slice(Math.max(0, offset - 600), Math.min(html.length, offset + 900)));
+  const sample = strip(html.slice(Math.max(0, offset - 900), Math.min(html.length, offset + 1200)));
   const match = sample.match(/(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+20\d{2}/i)
     || sample.match(/20\d{2}-\d{2}-\d{2}/);
   return safeDate(match?.[0]);
 }
 
+function boostDirectPriority(item: AlertItem): AlertItem {
+  const text = `${item.title} ${item.summary}`;
+  const tariff = /tariff|dut(?:y|ies)|section 301|section 232|section 338|関税|追加税/i.test(text);
+  const broadAction = /all products|60 econom|global|worldwide|all countries|全品目|60か国|60の国/i.test(text);
+  const action = /impos|final action|determin|announc|proclamation|executive order|発動|決定|発表/i.test(text);
+  const priority = Math.min(99, Math.max(item.priority, tariff && action ? 94 : item.priority, tariff && broadAction ? 98 : item.priority));
+  return { ...item, priority };
+}
+
 async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
   const response = await fetch(source.url, {
-    headers: { "user-agent": "JPUS-Alert/3.0 (+direct-official-monitor)" },
+    headers: { "user-agent": "JPUS-Alert/3.1 (+direct-official-monitor)" },
     signal: AbortSignal.timeout(12_000),
     cache: "no-store",
   });
@@ -63,7 +73,7 @@ async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
     const assessment = assessPolicyItem(title, "", true);
     if (!assessment.relevant) continue;
     seen.add(url.href);
-    items.push({
+    items.push(boostDirectPriority({
       id: Buffer.from(url.href).toString("base64url").slice(-36),
       title,
       url: url.href,
@@ -72,14 +82,14 @@ async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
       summary: "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
       official: true,
       ...assessment,
-    });
-    if (items.length >= 30) break;
+    }));
+    if (items.length >= 40) break;
   }
   return items;
 }
 
 async function readFederalRegister(): Promise<AlertItem[]> {
-  const terms = ["tariff", "trade", "sanctions", "export control", "Japan", "China", "Taiwan", "Indo-Pacific"];
+  const terms = ["tariff", "trade", "sanctions", "export control", "Section 301", "Section 232", "Section 338", "Japan", "China", "Taiwan", "Indo-Pacific"];
   const url = new URL("https://www.federalregister.gov/api/v1/documents.json");
   url.searchParams.set("per_page", "100");
   url.searchParams.set("order", "newest");
@@ -91,7 +101,7 @@ async function readFederalRegister(): Promise<AlertItem[]> {
     if (!entry.title || !entry.html_url) return [];
     const assessment = assessPolicyItem(entry.title, entry.abstract || "", true);
     if (!assessment.relevant) return [];
-    return [{
+    return [boostDirectPriority({
       id: Buffer.from(entry.html_url).toString("base64url").slice(-36),
       title: cleanNewsTitle(entry.title),
       url: entry.html_url,
@@ -100,8 +110,8 @@ async function readFederalRegister(): Promise<AlertItem[]> {
       summary: strip(entry.abstract || entry.type || "Federal Register掲載文書"),
       official: true,
       ...assessment,
-    } satisfies AlertItem];
-  }).slice(0, 40);
+    } satisfies AlertItem)];
+  }).slice(0, 50);
 }
 
 export async function collectDirectOfficial(): Promise<DirectResult> {
