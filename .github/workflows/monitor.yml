@@ -23,8 +23,9 @@ jobs:
           node-version: 22
       - name: Collect and notify
         env:
-          PUBLIC_DASHBOARD_URL: ${{ vars.PUBLIC_DASHBOARD_URL }}
+          PUBLIC_DASHBOARD_URL: ${{ vars.PUBLIC_DASHBOARD_URL || 'https://us-japan-alert.vercel.app' }}
           GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           ALERT_TO_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
           ALERT_FROM_EMAIL: ${{ secrets.ALERT_FROM_EMAIL }}
