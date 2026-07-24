@@ -31,15 +31,22 @@ const strip = (value: string) => value
   .trim();
 
 function safeDate(value?: string) {
-  const date = value ? new Date(value) : new Date();
-  return Number.isFinite(date.getTime()) ? date.toISOString() : new Date().toISOString();
+  if (!value) return undefined;
+  const date = new Date(value);
+  return Number.isFinite(date.getTime()) ? date.toISOString() : undefined;
 }
 
 function dateNear(html: string, offset: number) {
-  const sample = strip(html.slice(Math.max(0, offset - 900), Math.min(html.length, offset + 1200)));
+  const sample = strip(html.slice(Math.max(0, offset - 1400), Math.min(html.length, offset + 1800)));
   const match = sample.match(/(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+20\d{2}/i)
-    || sample.match(/20\d{2}-\d{2}-\d{2}/);
+    || sample.match(/20\d{2}-\d{2}-\d{2}/)
+    || sample.match(/\d{1,2}\/\d{1,2}\/20\d{2}/);
   return safeDate(match?.[0]);
+}
+
+function isRecent(value: string, days = 14) {
+  const time = new Date(value).getTime();
+  return Number.isFinite(time) && time >= Date.now() - days * 86_400_000 && time <= Date.now() + 86_400_000;
 }
 
 function boostDirectPriority(item: AlertItem): AlertItem {
@@ -53,7 +60,7 @@ function boostDirectPriority(item: AlertItem): AlertItem {
 
 async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
   const response = await fetch(source.url, {
-    headers: { "user-agent": "JPUS-Alert/3.1 (+direct-official-monitor)" },
+    headers: { "user-agent": "JPUS-Alert/3.2 (+direct-official-monitor)" },
     signal: AbortSignal.timeout(12_000),
     cache: "no-store",
   });
@@ -70,6 +77,10 @@ async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
     if (url.hostname !== new URL(source.host).hostname || !source.paths.test(url.pathname)) continue;
     const title = cleanNewsTitle(strip(match[2]));
     if (title.length < 18 || seen.has(url.href)) continue;
+    const publishedAt = dateNear(html, match.index || 0);
+    // An undated archive link must never be stamped with the current time: that
+    // would make an old item reappear as a brand-new alert on every refresh.
+    if (!publishedAt || !isRecent(publishedAt)) continue;
     const assessment = assessPolicyItem(title, "", true);
     if (!assessment.relevant) continue;
     seen.add(url.href);
@@ -78,7 +89,7 @@ async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
       title,
       url: url.href,
       source: source.name.replace(" Direct", ""),
-      publishedAt: dateNear(html, match.index || 0),
+      publishedAt,
       summary: "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
       official: true,
       ...assessment,
@@ -99,6 +110,8 @@ async function readFederalRegister(): Promise<AlertItem[]> {
   const data = await response.json() as { results?: Array<{ title?: string; html_url?: string; publication_date?: string; abstract?: string; type?: string }> };
   return (data.results || []).flatMap((entry) => {
     if (!entry.title || !entry.html_url) return [];
+    const publishedAt = safeDate(entry.publication_date);
+    if (!publishedAt || !isRecent(publishedAt)) return [];
     const assessment = assessPolicyItem(entry.title, entry.abstract || "", true);
     if (!assessment.relevant) return [];
     return [boostDirectPriority({
@@ -106,7 +119,7 @@ async function readFederalRegister(): Promise<AlertItem[]> {
       title: cleanNewsTitle(entry.title),
       url: entry.html_url,
       source: "Federal Register · Direct API",
-      publishedAt: safeDate(entry.publication_date),
+      publishedAt,
       summary: strip(entry.abstract || entry.type || "Federal Register掲載文書"),
       official: true,
       ...assessment,
@@ -116,7 +129,6 @@ async function readFederalRegister(): Promise<AlertItem[]> {
 
 export async function collectDirectOfficial(): Promise<DirectResult> {
   const names = [...htmlSources.map((source) => source.name), "Federal Register · Direct API"];
-  // Keep every collector lazy so Promise.allSettled receives a uniform task list.
   const tasks: Array<() => Promise<AlertItem[]>> = [
     ...htmlSources.map((source) => () => readHtmlSource(source)),
     readFederalRegister,
