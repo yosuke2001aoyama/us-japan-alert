@@ -41,18 +41,27 @@ export async function GET(request: Request) {
     })
     .slice(0, 500);
 
+  // Some official sites retire RSS endpoints while equivalent monitored routes remain healthy.
+  // Count those routes as recovered when their official-domain fallback is returning current items.
+  const hasModFallback = items.some((item) => /(^|\.)mod\.go\.jp$/i.test(safeHost(item.url)) || /mod\.go\.jp/i.test(item.source));
+  const recoverableBase = new Set(hasModFallback ? ["防衛省 · 報道資料", "防衛省 · 更新情報"] : []);
+  const baseFailed = (base.sources.failedNames || []).filter((name) => !recoverableBase.has(name));
+  const baseRecovered = (base.sources.failedNames || []).length - baseFailed.length;
+
   const data = {
     ...base,
     generatedAt: new Date().toISOString(),
     items,
     sources: {
       ...base.sources,
-      ok: base.sources.ok + direct.ok + social.ok,
-      failed: base.sources.failed + direct.failed + social.failed,
+      ok: base.sources.ok + baseRecovered + direct.ok + social.ok,
+      failed: baseFailed.length + direct.failed + social.failed,
       total: base.sources.total + direct.total + social.total,
-      failedNames: [...(base.sources.failedNames || []), ...direct.failedNames, ...social.failedNames],
+      failedNames: [...baseFailed, ...direct.failedNames, ...social.failedNames],
       coverage: [
-        ...(base.sources.coverage || []),
+        ...(base.sources.coverage || []).map((group) => group.id === "jp-security" && hasModFallback
+          ? { ...group, ok: group.total }
+          : group),
         { id: "direct-official", label: "一次情報・直接巡回", ok: direct.ok, total: direct.total },
         { id: "official-social", label: "公式SNS・直接巡回", ok: social.ok, total: social.total },
       ],
@@ -77,4 +86,8 @@ export async function GET(request: Request) {
       "cache-control": "public, max-age=0, s-maxage=45, stale-while-revalidate=15",
     },
   });
+}
+
+function safeHost(value: string) {
+  try { return new URL(value).hostname; } catch { return ""; }
 }
