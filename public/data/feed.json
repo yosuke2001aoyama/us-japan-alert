@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-07-23T23:34:34.274Z",
+  "generatedAt": "2026-07-24T01:02:57.205Z",
   "mode": "live",
   "sources": {
-    "ok": 42,
-    "failed": 2,
-    "total": 44,
+    "ok": 47,
+    "failed": 4,
+    "total": 51,
     "failedNames": [
       "防衛省 · 報道資料",
-      "防衛省 · 更新情報"
+      "防衛省 · 更新情報",
+      "USTR · Press Office Direct",
+      "Commerce · Press Releases Direct"
     ],
     "coverage": [
       {
@@ -75,10 +77,84 @@
         "label": "政策分析・調査",
         "ok": 3,
         "total": 3
+      },
+      {
+        "id": "direct-official",
+        "label": "一次情報・直接巡回",
+        "ok": 5,
+        "total": 7
       }
     ]
   },
   "items": [
+    {
+      "id": "9sZC10YXJpZmYtYWN0aW9uLXJlZ2FyZGluZw",
+      "title": "American Farmers, Loggers, and Industry Leaders Applaud President Trump’s Bold Tariff Action Regarding Brazil’s Unreasonable Acts, Policies, and Practices",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/american-farmers-loggers-and-industry-leaders-applaud-president-trumps-bold-tariff-action-regarding",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-07-24T01:02:56.901Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 73,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "ItZ3JlZXItam9pbnMtZmlyZXNpZGUtY2hhdA",
+      "title": "America First Trade is Fast-Tracking Our Industrial Resurgence: Ambassador Greer Joins Fireside Chat with Blue-Collar Manufacturing Workers at the Great American State Fair",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/america-first-trade-fast-tracking-our-industrial-resurgence-ambassador-greer-joins-fireside-chat",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-07-24T01:02:56.901Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 73,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "LWFncmVlbWVudC1yZWNpcHJvY2FsLXRyYWRl",
+      "title": "Ambassador Greer Signs the U.S.-Jordan Agreement on Reciprocal Trade",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-signs-us-jordan-agreement-reciprocal-trade",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-07-24T01:02:56.896Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "zaWRlbnQtdHJ1bXBzLXRyYWRlLXByb2dyYW0",
+      "title": "American Farmers, Workers, and Businesses are Reaping the Benefits of President Trump’s Trade Program",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/american-farmers-workers-and-businesses-are-reaping-benefits-president-trumps-trade-program",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-07-24T01:02:56.896Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 73,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
     {
       "id": "ZwaVgyMUtaMHRWWTFWb1JVZExRVEE_b2M9NQ",
       "title": "President Trump Makes an Announcement on the Ratepayer Protection Pledge",
@@ -91,7 +167,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "VVZFM016ZDBjako1ZEdsNVpuVk1adz9vYz01",
@@ -105,7 +184,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 69,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "VrTW5NMVN5MHphRTUxVGxOVlQxZEI_b2M9NQ",
@@ -119,7 +201,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "VIQjBTRGh2UVdSUmQyZzJhbnBKVmc_b2M9NQ",
@@ -133,7 +218,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 69,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "JOT0hsUlVHMUtZbWd3UTAwd2NVZ3o_b2M9NQ",
@@ -147,7 +235,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "ZMVZESkdOMEUzVVRGemRqZzBkRzlqP29jPTU",
@@ -161,7 +252,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "HZFVObFZHTkc5cVppMWZVV0ZWVTBFP29jPTU",
@@ -175,21 +269,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
-    },
-    {
-      "id": "VFVaWlJVcFRNVU0xUVd4V2FuUlNXUT9vYz01",
-      "title": "American Farmers, Workers, and Businesses are Reaping the Benefits of President Trump’s Trade Program",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQREZSNVVlQVI5M0kteE5Za0dKT21Gbm5mMldpSkJhc1pmUlNncEJ6RFlrMm5LaTRzTjJLcGpoRHE1QVc4MzMxVmEtbElDUHFucVdka1Y0TWZZLWE0VjgwNDdicEFkUmJWeGJrTkJBS0FIVjM4MXFEYWdMMHZXOGVoZ2U1STJfRkRKcGw2bDd1UUJJQXNxMFZWSlRQOUVjTFhFcGQwYjk1dHM2a1BEdGl5czNqUEdqMUhReEVzR3RGMEYtcEkyVlBNSUVEYXh6TGxMTjhCd25XXy12YjB3dHAxUjZCUXNCMXI0N0w2TUZZRUpTMUM1QWxWanRSWQ?oc=5",
-      "source": "United States Trade Representative (.gov)",
-      "publishedAt": "2026-07-22T22:30:59.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "通商・経済",
-      "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "JHRnZkbFpwZGtGNE5FOXZXbTFSUWc_b2M9NQ",
@@ -203,7 +286,10 @@
       "japanRelated": false,
       "category": "公式発表",
       "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "kRzQ0TFhOdVdIZFpSbVJqUzJOUmJ3P29jPTU",
@@ -217,7 +303,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 78,
-      "english": false
+      "english": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "5SdmRIaFlNVEZLWXkxa2IxVkxPRTA_b2M9NQ",
@@ -231,7 +320,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 78,
-      "english": false
+      "english": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "ZZYld0SlJVbHpYMDh4T1RkMk0xWkI_b2M9NQ",
@@ -245,21 +337,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": true
-    },
-    {
-      "id": "NWhSVzB5TjNWMVkwVkpRM0pGUWt4Qj9vYz01",
-      "title": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2pqOXFfYnhiVHBaQk5Yd3lBdGZHWE9USmFlcUdSVkFEbjZ3NGdvZVQ5c3BhdzFlUDJVemlCNjlqR0JsNVRfSlhnTUVDaFk1algySUk3eGpXdGNsbUg2UTExd0FVNTVreTVOaFM2dXdYa25hRW0yN3V1Y0VJQ3JFQkxB?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-22T15:36:00.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "外交・安保",
-      "priority": 66,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "YUVGWGVYbDFWR0pxVHpZeGNXNTVkdz9vYz01",
@@ -273,7 +354,10 @@
       "japanRelated": true,
       "category": "外交・安保",
       "priority": 78,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "MW5UbEZQVGt4VmVGb3lOVEE0TmxOQj9vYz01",
@@ -287,7 +371,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 78,
-      "english": false
+      "english": false,
+      "verification": "reported-observation",
+      "verificationLabel": "報道・観測",
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
     },
     {
       "id": "NVFpKVWpWSlUxZG5jbVpQZEVVNFVRP29jPTU",
@@ -301,7 +388,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "JM1MxbzNRMWxmUkd0cmJrSlZjR1ZuP29jPTU",
@@ -315,7 +405,10 @@
       "japanRelated": true,
       "category": "日米関係",
       "priority": 99,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "ZW5kWlIwaFpaakIwU0ZsSGJVMUdRdz9vYz01",
@@ -329,7 +422,27 @@
       "japanRelated": true,
       "category": "日米関係",
       "priority": 93,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "NWhSVzB5TjNWMVkwVkpRM0pGUWt4Qj9vYz01",
+      "title": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2pqOXFfYnhiVHBaQk5Yd3lBdGZHWE9USmFlcUdSVkFEbjZ3NGdvZVQ5c3BhdzFlUDJVemlCNjlqR0JsNVRfSlhnTUVDaFk1algySUk3eGpXdGNsbUg2UTExd0FVNTVreTVOaFM2dXdYa25hRW0yN3V1Y0VJQ3JFQkxB?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-22T02:43:58.000Z",
+      "summary": "",
+      "official": false,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "外交・安保",
+      "priority": 66,
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "emhQWlVzd1JFSTJUemhwYUZwUVNGZz9vYz01",
@@ -343,21 +456,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
-    },
-    {
-      "id": "JeGRERlhNVk4wTjI4d1RWaDVXRjlMP29jPTU",
-      "title": "Ambassador Greer Signs the U.S.-Jordan Agreement on Reciprocal Trade",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQVRjM2lwVjJPcm1ueld1dXhubTlqVFpESjN2aVd6Sy1BVnRxR1U1ZDlDQTM0US1xVWhXTTktSG10Vk9sa3NRd1NFbjEzZV9YUmZIbGtFZTlsV29LQlJodXk0WjI2dmw4aUV2QVJFVlFuYUZCS0dYbUVPUEQ1NVBhS2s5NVlGcFZmTlQ2UlBPUFc0NHZBVEdnMk5ZaXhIMW0zM3NxOXAxTlhrekxpXzlaWVFQYmtQYW1sOVBjMGhJVTIxdDFXMVN0N28wTVh5WF9L?oc=5",
-      "source": "United States Trade Representative (.gov)",
-      "publishedAt": "2026-07-21T16:32:49.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "通商・経済",
-      "priority": 91,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "xZDRhM0JFU2pocFJrbHZWbVJZWTBFP29jPTU",
@@ -371,7 +473,10 @@
       "japanRelated": false,
       "category": "通商・経済",
       "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "am9yZGFuLW9uLXJlY2lwcm9jYWwtdHJhZGUv",
@@ -385,7 +490,10 @@
       "japanRelated": false,
       "category": "通商・経済",
       "priority": 79,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "rMXBiVGhVZGpSc2VIQlZabTkyWVV3P29jPTU",
@@ -399,7 +507,10 @@
       "japanRelated": true,
       "category": "日米関係",
       "priority": 93,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "WbmhCWTBGbVlsRlhiVTFGYjNObVFRP29jPTU",
@@ -413,7 +524,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "VnBWYmxrM05qUXRXbGxHTUZndGJrRT9vYz01",
@@ -427,7 +541,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "UWs4eWFXNTBaME5CWm1Gbk9FTkdOQT9vYz01",
@@ -441,7 +558,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "yeDBVbkExVUZadVlWQlRRbWxsVUZFP29jPTU",
@@ -455,7 +575,10 @@
       "japanRelated": true,
       "category": "議会・政治",
       "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "VsRmNYSjVOSGxVYjJoc2R6VkpURVU_b2M9NQ",
@@ -469,7 +592,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "1yZXNwZWN0LXRvLW1vdG9yLXZlaGljbGVzLw",
@@ -483,7 +609,10 @@
       "japanRelated": false,
       "category": "通商・経済",
       "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "ZWN0LXRvLWFsY29ob2xpYy1iZXZlcmFnZXMv",
@@ -497,7 +626,10 @@
       "japanRelated": false,
       "category": "通商・経済",
       "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "F0ZXMtd2l0aC1yZXNwZWN0LXRvLWRhaXJ5Lw",
@@ -511,7 +643,10 @@
       "japanRelated": false,
       "category": "通商・経済",
       "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "51bS1pbnRvLXRoZS11bml0ZWQtc3RhdGVzLw",
@@ -525,7 +660,10 @@
       "japanRelated": false,
       "category": "通商・経済",
       "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "0aW9uLW9mLWNyaXRpY2FsLW1hdGVyaWFscy8",
@@ -539,7 +677,10 @@
       "japanRelated": false,
       "category": "外交・安保",
       "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "TjJoUVVITnZhRkJ0TUhCclNIVnNWdz9vYz01",
@@ -553,21 +694,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
-    },
-    {
-      "id": "vNFdESm1XR3RVVkZOdFdUSlRWM0IzP29jPTU",
-      "title": "American Farmers, Loggers, and Industry Leaders Applaud President Trump’s Bold Tariff Action Regarding Brazil’s Unreasonable Acts, Policies, and Practices",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOR2stTEtJWk02U0ZoNUlNTnVkOWdaMzdvZjR4VzBLaUFiOVNDREFkckxYdDRDVkM4dEx0dWIyY1VOMHBRWDNNNzdBWDVJNjYybmRlUS1PWm1jMEtORXY5WDk2bm1VZTBWWGZTVEJVN3RfdUFERTg3WHFfWDBaaVZpbU50Uk53S2JNeFE4NFBfd29hWl9iZ1FKd3FzS24zTUppaG14U2lIY3c0QmFDUnpVSUk4a2xHV2U5S09IZ2VualZ5S1FpeFRwX2phWkZKSC1fRGZlM1BMMG05ZXhMQUl3WS1UOWVGOWMtV0dZUlVONmlhbEphR0o4WDJmWGtUVFNtWTJTV3B3?oc=5",
-      "source": "United States Trade Representative (.gov)",
-      "publishedAt": "2026-07-19T20:51:24.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "通商・経済",
-      "priority": 73,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "jREpaV0MxWFRHcDZTV0Z4VlRoaFVnP29jPTU",
@@ -581,7 +711,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "reported-observation",
+      "verificationLabel": "報道・観測",
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
     },
     {
       "id": "OW9iV05xU0d0MGRtTkRSMnRDWkcwdz9vYz01",
@@ -595,7 +728,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "LWpvaW50LW1pbGl0YXJ5LWNvbW1pc3Npb24v",
@@ -609,7 +745,10 @@
       "japanRelated": false,
       "category": "外交・安保",
       "priority": 79,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "NMmRHa3RPV3BCU0Vka1puRlBNakJuP29jPTU",
@@ -623,7 +762,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "MVdVMkpmT1hORFQwVjNjbGRFTmxSWj9vYz01",
@@ -637,7 +779,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "ROVlFuVllSbGwyVjJoTVNEWlJia00_b2M9NQ",
@@ -651,7 +796,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "a0ZCT0ZWTU4zZHZNMWhwYVdabFpWZz9vYz01",
@@ -665,7 +813,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "QXhjVEF0UlVOeVl6aFZPVFJhYjBvej9vYz01",
@@ -679,7 +830,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "wV1JEVjNWR2RKTmxaclRYRmhMVE5SP29jPTU",
@@ -693,7 +847,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "TMWMxTTJwc1NqWkNSblZZYlVSb2N3P29jPTU",
@@ -707,7 +864,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "RzUwU0ZwM1YwNVVSakZTZVVSRlp6QT9vYz01",
@@ -721,7 +881,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "xFemMycHhkak5ZZERWcFZGWkVlbWM_b2M9NQ",
@@ -735,7 +898,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "WQldOREpMWW1waldrTnlibkJaV0c4P29jPTU",
@@ -749,7 +915,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "NFTTRZbTVYVm1OeVNXMVFNblo0Wnc_b2M9NQ",
@@ -763,7 +932,10 @@
       "japanRelated": true,
       "category": "外交・安保",
       "priority": 91,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "PWFJhUzJwQlptSk9XRlEyYVVaMVp3P29jPTU",
@@ -777,7 +949,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "iMmRHUlVZdGNsRnFURVpmWDJ4a01RP29jPTU",
@@ -791,7 +966,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "6QmZiRVZhWlRkU1dUbDZTbXRSYTFFP29jPTU",
@@ -805,7 +983,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "VZElaWHBpUTFkVloyUjJPV3MxZDJjP29jPTU",
@@ -819,7 +1000,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "bE0wYzI1dFdsTlhNVlZMV1dwUk9YRT9vYz01",
@@ -833,7 +1017,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "xYYzVVMDlVYlZWNlJsaExPV1kxT0E_b2M9NQ",
@@ -847,7 +1034,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "A0ZHpkWWVtTlVWa05FTnpONVZYVkI_b2M9NQ",
@@ -861,7 +1051,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "9XaDBlQzFCYnpsb1pFaFpjM3BRU1E_b2M9NQ",
@@ -875,7 +1068,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "YkRoSlZrNXZNV3RQUTI0ellrbEhVUT9vYz01",
@@ -889,7 +1085,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "UzNKMU1VeFZNSFJxWW5kbWVHOUROQT9vYz01",
@@ -903,7 +1102,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 68,
-      "english": false
+      "english": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "UTE5bVNUTklTVVF0TlVsRE9EUlNadz9vYz01",
@@ -917,7 +1119,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "VzVyVG1waldESndRVXRPVm0xRk4yOD9vYz01",
@@ -931,7 +1136,10 @@
       "japanRelated": true,
       "category": "外交・安保",
       "priority": 86,
-      "english": false
+      "english": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "RkRRVVJqVTA1aUxWYzNZa042VWtGVj9vYz01",
@@ -945,7 +1153,10 @@
       "japanRelated": true,
       "category": "議会・政治",
       "priority": 75,
-      "english": false
+      "english": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "FdDNaa05zYWtOT2NYcDBPSEE1WkVrP29jPTU",
@@ -959,7 +1170,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 83,
-      "english": false
+      "english": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "k1ZFhVMmNUaGplbUpKYzFOaExXaG4_b2M9NQ",
@@ -973,7 +1187,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "RTl2TkZWblF6TlNiRUpXYUhkdVgwcz9vYz01",
@@ -987,7 +1204,10 @@
       "japanRelated": true,
       "category": "公式発表",
       "priority": 84,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "YUdzdE9WbzBOVmRWYUMwMmVraEhVUT9vYz01",
@@ -1001,7 +1221,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 68,
-      "english": false
+      "english": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "I1blgzQkpUR1oyV2xaVVkyTmlaRkU_b2M9NQ",
@@ -1015,7 +1238,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "ROMlRFTmFWWEJoYTJoR1RYSnRVMWs_b2M9NQ",
@@ -1029,7 +1255,27 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "VMFpmU1U1dFduaDJNa0pQU0c4d1JRP29jPTU",
+      "title": "Japan’s Evolving Defense Policy and the U.S.Japan Alliance",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1iSV9uc2ZhcEQxOV9OMWFsNXVYS3RLN0Z1cEhXX0F1SFhYRndnc1E3U3FXUXprNlZCX0ZDTTJkUTVOOVFKakFJU0ZfSU5tWnh2MkJPSG8wRQ?oc=5",
+      "source": "Congress.gov",
+      "publishedAt": "2026-07-14T15:14:27.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "外交・安保",
+      "priority": 86,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "bkZFZG1aVlYwdHRSVGN4VDJkWlYwRT9vYz01",
@@ -1043,7 +1289,10 @@
       "japanRelated": true,
       "category": "外交・安保",
       "priority": 98,
-      "english": false
+      "english": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "hM1Z2UkhRemIwWXRkVTFKZEdOamR3P29jPTU",
@@ -1057,7 +1306,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "bElTbEp4TFVaUFMxUk9NVTV2UkRoMz9vYz01",
@@ -1071,7 +1323,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "WVWgwYVZGV1ZsaEtSMUZsWlVaS1p3P29jPTU",
@@ -1085,7 +1340,27 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "Bvd2VyaW5nLWFtZXJpY2FuLWluZHVzdHJ5Lw",
+      "title": "Fact Sheet: President Donald J. Trump Secures Historic Defense Investment from NATO Allies, Powering American Industry",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-secures-historic-defense-investment-from-nato-allies-powering-american-industry/",
+      "source": "White House · Fact Sheets",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 73,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "qRmtaMUpPYTJaR1ZqWm9MVUV5U1c4P29jPTU",
@@ -1099,7 +1374,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "VkUxQ1NtRTVSMDVyZDFjME5VNHpVUT9vYz01",
@@ -1113,7 +1391,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "VGxUWDBjeVZub3RiRUpqVnpsTlltYz9vYz01",
@@ -1127,7 +1408,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "sOVhNRkZrYlV4cGJIRnhlVVUwUjNZP29jPTU",
@@ -1141,7 +1425,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "Snpha0pXTjBRMFZIRmxaMWx1YjJGRj9vYz01",
@@ -1155,7 +1442,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "RUpZZG5KYU5VbEZkRUZaTVc0NVdYYz9vYz01",
@@ -1169,7 +1459,10 @@
       "japanRelated": true,
       "category": "外交・安保",
       "priority": 86,
-      "english": false
+      "english": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "yNURUSGMwWW01clowbHJYMmgxV2trP29jPTU",
@@ -1183,7 +1476,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "1rOXljbXBPVmpnNFFsOUNTMVpRZGc_b2M9NQ",
@@ -1197,7 +1493,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "bENUVnB2UjBoNFRFeEZPVFYxWDBvND9vYz01",
@@ -1211,7 +1510,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "NEWkZRVU5aTlVocGRIQndlSE5FWnc_b2M9NQ",
@@ -1225,7 +1527,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "U0YUVKNFJFcENOMmx2WW5Cb1FtRkI_b2M9NQ",
@@ -1239,7 +1544,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "qVkRNbk5rTUVoQmREQlZjbU5xYkZZP29jPTU",
@@ -1253,7 +1561,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "HOVRVV0p5Ulhka1IyTmxhMEk1ZVhjP29jPTU",
@@ -1267,7 +1578,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "VzFEZUhkVFFVTlhUbTFKYW1wNGNFRT9vYz01",
@@ -1281,7 +1595,27 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "SEYyZUVodExUVnpkRlZ1U1V4SmFXYz9vYz01",
+      "title": "インド訪問等についての会見 | 総理の一日",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QdVdTTmNOSVJzaGI2dnozSnd3VFg3SVpGNHJ1S2RPaDNySTd2QnFBVnBCcXpjMU4yVnl3aVNCVmpISS1wV1FpaFF6SFBGTmJvNnk2Y3hzRTJCTHF2eEhtLTVzdFVuSUxJaWc?oc=5",
+      "source": "首相官邸",
+      "publishedAt": "2026-07-01T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "首脳・閣僚",
+      "priority": 79,
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "Rk5KYVZKU1ZHdE5OakJDUVUxck0xTT9vYz01",
@@ -1295,7 +1629,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "MwV1ZOTGR6YzRXVWREWW5CQ05UbDM_b2M9NQ",
@@ -1309,7 +1646,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "gwVnpOWmVtaE1VRGMzVVdndGNXaEs_b2M9NQ",
@@ -1323,7 +1663,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "ZIVkVvM1RtTnRSbEZWVVY5WFdFMXY_b2M9NQ",
@@ -1337,7 +1680,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "YxV2xGRkxYa3lWMGhVZUdKVmRtcG4_b2M9NQ",
@@ -1351,7 +1697,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "MVlJ0U0hKNWEwUTNORFY2TWtaRk5RP29jPTU",
@@ -1365,7 +1714,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "SnJjbWxXYWxOTVZWVkJWelJPYWtaVz9vYz01",
@@ -1379,21 +1731,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
-    },
-    {
-      "id": "ac1FtRjBka2g1ZEVKbFlsaHZXVTVSP29jPTU",
-      "title": "President Donald J. Trump delivers remarks at the Mack Trucks facility in Pennsylvania",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzNPdjhiYXgzanl4TnNFZFNZcGRhVGNSSDl3ODJHMkZBb3MzXzl2VG9lTk9sTS1GZ1laX0lJcXZLMmMxLUpTTml6R1dKXzlrelU2eTdOZkZhVERtbzhiZFFHN3FIYU9Sc25TaGN1MFJZeW4xS1hDMHJpZEJuWF9Lb3BVUWtHbnNWckMwTzlCWWhvRmc1VGpNa3RhNHBUYmNyUk1JYzc1UHBWVHZQdXZsQmF0dkh5dEJlYlhvWU5R?oc=5",
-      "source": "The White House (.gov)",
-      "publishedAt": "2026-06-26T19:09:05.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 72,
-      "english": true
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "IxaFVOMk5YVW5BNU9YcGlUM2MxY3c_b2M9NQ",
@@ -1407,7 +1748,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "TkJNREJLUTNCMFdUWnNhV2hEUTNkWD9vYz01",
@@ -1421,7 +1765,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "MDVyVVVWdlJXVm5abTU1Umt4QmMzYz9vYz01",
@@ -1435,7 +1782,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "TlpXSEZEY1hSMlNEaENVbkJ1YjJOWD9vYz01",
@@ -1449,7 +1799,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "VXAxVkU1UmRFWjVSRlp1Y0dkUVYwMD9vYz01",
@@ -1463,7 +1816,10 @@
       "japanRelated": true,
       "category": "議会・政治",
       "priority": 89,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "SS1owdEllRFo1ZVVOWFNVbGxOWEpCP29jPTU",
@@ -1477,7 +1833,10 @@
       "japanRelated": false,
       "category": "通商・経済",
       "priority": 79,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "WkpPVlExU200M1ZWbGhiamgzUlZaND9vYz01",
@@ -1491,7 +1850,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "VkpaTm1Kd1QwRlNTRGhyUVV4SFZVRT9vYz01",
@@ -1505,7 +1867,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "ZSZEhoSVUzcHNlSFF4VURCNFNEUm4_b2M9NQ",
@@ -1519,7 +1884,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 79,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "U1ZSS2NGRlpkbVZuTjJkNVJIRmFTUT9vYz01",
@@ -1533,7 +1901,10 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": true
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "WnhjMVpRY1ZjeVdXbHBNV2hwVVhNNT9vYz01",
@@ -1547,7 +1918,10 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 72,
-      "english": false
+      "english": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "ZoM2NtRlhiRUYyYldwV2IwOXhSMjQ_b2M9NQ",
@@ -1561,7 +1935,299 @@
       "japanRelated": false,
       "category": "首脳・閣僚",
       "priority": 62,
-      "english": true
+      "english": true,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "YXRlci1tYXJrZXQtYWNjZXNzLWFtZXJpY2Fu",
+      "title": "President Trump’s State Visit to China Delivers Historic Deals and Greater Market Access for American Farmers, Ranchers, Workers, and Businesses",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/may/president-trumps-state-visit-china-delivers-historic-deals-and-greater-market-access-american",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-05-18T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "dGlvbi1wbGFuLWNyaXRpY2FsLW1pbmVyYWxz",
+      "title": "Ambassador Jamieson Greer Announces United States-European Union Action Plan for Critical Minerals Supply Chain Resilience",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/april/ambassador-jamieson-greer-announces-united-states-european-union-action-plan-critical-minerals",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-04-24T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "1kZWxpdmVyaW5nLWFtZXJpY2FuLXBlb3BsZQ",
+      "title": "President Trump’s Trade Policy is Delivering for the American People",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/april/president-trumps-trade-policy-delivering-american-people",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-04-24T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 73,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "Rpb24tcGxhbi1jcml0aWNhbC1taW5lcmFscw",
+      "title": "Ambassador Jamieson Greer Announces U.S.-Japan Action Plan on Critical Minerals",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ambassador-jamieson-greer-announces-us-japan-action-plan-critical-minerals",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-03-23T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "日米関係",
+      "priority": 99,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "1hZ3JlZW1lbnQtcmVjaXByb2NhbC10cmFkZQ",
+      "title": "Ambassador Greer Signs the United States-Ecuador Agreement on Reciprocal Trade",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ambassador-greer-signs-united-states-ecuador-agreement-reciprocal-trade",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-03-13T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "1bmNpbmctdHJhZGUtZGVhbC1pbmRvbmVzaWE",
+      "title": "Ambassador Greer Issues Statement on President Trump Announcing a Trade Deal with Indonesia",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/february/ambassador-greer-issues-statement-president-trump-announcing-trade-deal-indonesia",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-02-20T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 73,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "LWFncmVlbWVudC1yZWNpcHJvY2FsLXRyYWRl",
+      "title": "Ambassador Greer Oversees Signing of U.S.-Taiwan Agreement on Reciprocal Trade",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/february/ambassador-greer-oversees-signing-us-taiwan-agreement-reciprocal-trade",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-02-12T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "tYWdyZWVtZW50LXJlY2lwcm9jYWwtdHJhZGU",
+      "title": "Fact Sheet: The United States and North Macedonia Reach a Framework for Agreement on Reciprocal Trade",
+      "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-united-states-and-north-macedonia-reach-framework-agreement-reciprocal-trade",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-02-12T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 79,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "1hZ3JlZW1lbnQtcmVjaXByb2NhbC10cmFkZQ",
+      "title": "Fact Sheet on U.S.-Taiwan Agreement on Reciprocal Trade",
+      "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-us-taiwan-agreement-reciprocal-trade",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-02-12T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 79,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "dHJhZGUtZGVhbHMtcGFydG5lcnMtYWNyb3Nz",
+      "title": "American Farmers, Industry Leaders, and Lawmakers Applaud President Trump’s Trade Deals with Partners Across the Globe",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/february/american-farmers-industry-leaders-and-lawmakers-applaud-president-trumps-trade-deals-partners-across",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-02-12T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 73,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "1hZ3JlZW1lbnQtcmVjaXByb2NhbC10cmFkZQ",
+      "title": "Ambassador Greer Signs the United States-Bangladesh Agreement on Reciprocal Trade",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/february/ambassador-greer-signs-united-states-bangladesh-agreement-reciprocal-trade",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-02-09T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "tYWdyZWVtZW50LXJlY2lwcm9jYWwtdHJhZGU",
+      "title": "Fact Sheet: The United States and Bangladesh Reach an Agreement on Reciprocal Trade",
+      "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-united-states-and-bangladesh-reach-agreement-reciprocal-trade",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-02-09T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 79,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "cHJvY2FsLXRyYWRlLWFuZC1pbnZlc3RtZW50",
+      "title": "Ambassador Greer Signs the United States–Argentina Agreement on Reciprocal Trade and Investment",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/february/ambassador-greer-signs-united-states-argentina-agreement-reciprocal-trade-and-investment",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-02-06T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "tYWdyZWVtZW50LXJlY2lwcm9jYWwtdHJhZGU",
+      "title": "Ambassador Greer Signs the United States-Guatemala Agreement on Reciprocal Trade",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/january/ambassador-greer-signs-united-states-guatemala-agreement-reciprocal-trade",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-01-30T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "tYWdyZWVtZW50LXJlY2lwcm9jYWwtdHJhZGU",
+      "title": "Ambassador Greer Signs the U.S.–El Salvador Agreement on Reciprocal Trade",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/january/ambassador-greer-signs-us-el-salvador-agreement-reciprocal-trade",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-01-30T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "Nhcy1oaXN0b3JpYy10cmFkZS1wbGF5Ym9vaw",
+      "title": "Ambassador Jamieson Greer Outlines How President Trump is Reviving America’s Historic Trade Playbook to Forge a Balanced International Economic Order",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/january/ambassador-jamieson-greer-outlines-how-president-trump-reviving-americas-historic-trade-playbook",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-01-23T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 91,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "vbGljaWVzLWRlbGl2ZXJpbmctYW1lcmljYW4",
+      "title": "Ambassador Jamieson Greer Reflects on the Trade Victories and Pro-Growth Policies Delivering for American Workers One Year into the Second Trump Administration",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/january/ambassador-jamieson-greer-reflects-trade-victories-and-pro-growth-policies-delivering-american",
+      "source": "USTR · July Releases",
+      "publishedAt": "2026-01-20T00:00:00.000Z",
+      "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 73,
+      "english": true,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     }
   ]
 }
