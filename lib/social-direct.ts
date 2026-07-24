@@ -12,15 +12,28 @@ type XPost = { id: string; text: string; created_at?: string };
 const truthAccounts = ["realDonaldTrump"];
 const xAccounts = ["WhiteHouse", "POTUS", "VP", "SecRubio", "DeptofDefense", "StateDept", "USTradeRep", "USTreasury", "CommerceGov", "JPN_PMO", "MofaJapan_en", "ModJapan_en"];
 
-const stripHtml = (value = "") => value
-  .replace(/<br\s*\/?>/gi, "\n")
-  .replace(/<[^>]+>/g, " ")
+const browserHeaders = {
+  "user-agent": "Mozilla/5.0 (compatible; JPUS-Alert/4.1; +https://us-japan-alert.vercel.app)",
+  accept: "application/json, application/xml, text/xml, text/html;q=0.9, */*;q=0.8",
+  "accept-language": "en-US,en;q=0.9",
+};
+
+const decodeXml = (value = "") => value
+  .replace(/<!\[CDATA\[|\]\]>/g, "")
+  .replace(/&lt;/g, "<")
+  .replace(/&gt;/g, ">")
   .replace(/&amp;/g, "&")
   .replace(/&quot;/g, '"')
   .replace(/&#(?:x27|39);/gi, "'")
-  .replace(/&nbsp;|&#160;/gi, " ")
+  .replace(/&nbsp;|&#160;/gi, " ");
+
+const stripHtml = (value = "") => decodeXml(value)
+  .replace(/<br\s*\/?>/gi, "\n")
+  .replace(/<[^>]+>/g, " ")
   .replace(/\s+/g, " ")
   .trim();
+
+const xmlField = (xml: string, name: string) => decodeXml(xml.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`, "i"))?.[1] || "").trim();
 
 function socialItem(args: { text: string; url: string; source: string; publishedAt?: string; side: "jp" | "us" }): AlertItem | null {
   const text = stripHtml(args.text);
@@ -39,19 +52,23 @@ function socialItem(args: { text: string; url: string; source: string; published
   };
 }
 
-async function readTruthAccount(acct: string): Promise<AlertItem[]> {
+async function readTruthApi(acct: string): Promise<AlertItem[]> {
   const lookup = await fetch(`https://truthsocial.com/api/v1/accounts/lookup?acct=${encodeURIComponent(acct)}`, {
-    headers: { "user-agent": "JPUS-Alert/4.0 (+official-social-monitor)" },
+    headers: browserHeaders,
     signal: AbortSignal.timeout(12_000), cache: "no-store",
   });
-  if (!lookup.ok) throw new Error(`Truth Social @${acct}: lookup ${lookup.status}`);
+  if (!lookup.ok) throw new Error(`lookup ${lookup.status}`);
   const account = await lookup.json() as TruthAccount;
+  if (!account.id) throw new Error("lookup missing account id");
+
   const statuses = await fetch(`https://truthsocial.com/api/v1/accounts/${account.id}/statuses?exclude_replies=true&exclude_reblogs=true&limit=30`, {
-    headers: { "user-agent": "JPUS-Alert/4.0 (+official-social-monitor)" },
+    headers: browserHeaders,
     signal: AbortSignal.timeout(12_000), cache: "no-store",
   });
-  if (!statuses.ok) throw new Error(`Truth Social @${acct}: statuses ${statuses.status}`);
+  if (!statuses.ok) throw new Error(`statuses ${statuses.status}`);
   const data = await statuses.json() as TruthStatus[];
+  if (!Array.isArray(data)) throw new Error("statuses malformed");
+
   return data.flatMap((status) => {
     if (status.reblog) return [];
     const item = socialItem({
@@ -65,16 +82,67 @@ async function readTruthAccount(acct: string): Promise<AlertItem[]> {
   });
 }
 
+async function readTruthArchive(acct: string): Promise<AlertItem[]> {
+  if (acct.toLowerCase() !== "realdonaldtrump") throw new Error("archive unavailable");
+  const response = await fetch("https://www.trumpstruth.org/feed", {
+    headers: browserHeaders,
+    signal: AbortSignal.timeout(12_000), cache: "no-store",
+  });
+  if (!response.ok) throw new Error(`archive ${response.status}`);
+  const xml = await response.text();
+  const entries = [...xml.matchAll(/<(?:item|entry)[^>]*>([\s\S]*?)<\/(?:item|entry)>/gi)].slice(0, 40).map((match) => match[1]);
+  if (!entries.length) throw new Error("archive empty");
+
+  return entries.flatMap((entry) => {
+    const title = xmlField(entry, "title");
+    const description = xmlField(entry, "description") || xmlField(entry, "content:encoded") || xmlField(entry, "summary");
+    const pageLink = xmlField(entry, "link") || entry.match(/<link[^>]+href=["']([^"']+)/i)?.[1] || "";
+    const combined = `${title} ${description}`;
+    const originalUrl = combined.match(/https:\/\/truthsocial\.com\/(?:@|users\/)(?:realDonaldTrump)(?:\/statuses)?\/\d+/i)?.[0]
+      ?.replace("/users/realDonaldTrump/statuses/", "/@realDonaldTrump/");
+    const id = originalUrl?.match(/\/(\d+)(?:\?.*)?$/)?.[1];
+    const url = originalUrl || (id ? `https://truthsocial.com/@realDonaldTrump/${id}` : pageLink);
+    if (!url) return [];
+    const text = stripHtml(description || title)
+      .replace(/^Donald J\. Trump:\s*["“]?/i, "")
+      .replace(/["”]\s*$/, "")
+      .replace(/^RT:\s*https:\/\/truthsocial\.com\/\S+\s*/i, "")
+      .trim();
+    const item = socialItem({
+      text,
+      url,
+      source: "Truth Social · @realDonaldTrump",
+      publishedAt: xmlField(entry, "pubDate") || xmlField(entry, "published") || xmlField(entry, "updated"),
+      side: "us",
+    });
+    return item ? [item] : [];
+  });
+}
+
+async function readTruthAccount(acct: string): Promise<AlertItem[]> {
+  try {
+    return await readTruthApi(acct);
+  } catch (apiError) {
+    try {
+      return await readTruthArchive(acct);
+    } catch (archiveError) {
+      const apiMessage = apiError instanceof Error ? apiError.message : String(apiError);
+      const archiveMessage = archiveError instanceof Error ? archiveError.message : String(archiveError);
+      throw new Error(`Truth Social @${acct}: API ${apiMessage}; fallback ${archiveMessage}`);
+    }
+  }
+}
+
 async function readXAccount(username: string, bearer: string): Promise<AlertItem[]> {
   const userRes = await fetch(`https://api.x.com/2/users/by/username/${encodeURIComponent(username)}`, {
-    headers: { authorization: `Bearer ${bearer}`, "user-agent": "JPUS-Alert/4.0" },
+    headers: { authorization: `Bearer ${bearer}`, "user-agent": "JPUS-Alert/4.1" },
     signal: AbortSignal.timeout(12_000), cache: "no-store",
   });
   if (!userRes.ok) throw new Error(`X @${username}: user ${userRes.status}`);
   const user = (await userRes.json() as { data?: XUser }).data;
   if (!user) throw new Error(`X @${username}: user missing`);
   const postsRes = await fetch(`https://api.x.com/2/users/${user.id}/tweets?max_results=20&exclude=replies,retweets&tweet.fields=created_at`, {
-    headers: { authorization: `Bearer ${bearer}`, "user-agent": "JPUS-Alert/4.0" },
+    headers: { authorization: `Bearer ${bearer}`, "user-agent": "JPUS-Alert/4.1" },
     signal: AbortSignal.timeout(12_000), cache: "no-store",
   });
   if (!postsRes.ok) throw new Error(`X @${username}: posts ${postsRes.status}`);
