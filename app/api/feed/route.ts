@@ -1,6 +1,7 @@
 import { collect } from "../../../lib/feeds";
 import { collectDirectOfficial } from "../../../lib/official-pages";
 import { collectDirectSocial } from "../../../lib/social-direct";
+import { collectJapaneseTariffMedia } from "../../../lib/japanese-tariff-media";
 import { canonicalHeadline } from "../../../lib/policy";
 
 export const dynamic = "force-dynamic";
@@ -8,10 +9,12 @@ export const dynamic = "force-dynamic";
 const observationPattern = /調整|検討|見通し|予定|方向|政府筋|関係者|複数の関係者|sources?|officials?|expected|planning|considering|likely|may visit|visit planned|in talks/i;
 
 export async function GET(request: Request) {
-  const [base, direct, social] = await Promise.all([collect(), collectDirectOfficial(), collectDirectSocial()]);
+  const [base, direct, social, tariffMedia] = await Promise.all([
+    collect(), collectDirectOfficial(), collectDirectSocial(), collectJapaneseTariffMedia(),
+  ]);
   const seenUrls = new Set<string>();
   const seenTitles = new Set<string>();
-  const items = [...social.items, ...direct.items, ...base.items]
+  const items = [...social.items, ...direct.items, ...tariffMedia.items, ...base.items]
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt) || b.priority - a.priority)
     .filter((item) => {
       const urlKey = item.url.replace(/[?&](utm_[^=]+|oc)=[^&]+/g, "");
@@ -39,10 +42,8 @@ export async function GET(request: Request) {
               : "報道機関による記事です。一次情報の有無を継続確認します。",
       };
     })
-    .slice(0, 500);
+    .slice(0, 700);
 
-  // Some official sites retire RSS endpoints while equivalent monitored routes remain healthy.
-  // Count those routes as recovered when their official-domain fallback is returning current items.
   const hasModFallback = items.some((item) => /(^|\.)mod\.go\.jp$/i.test(safeHost(item.url)) || /mod\.go\.jp/i.test(item.source));
   const recoverableBase = new Set(hasModFallback ? ["防衛省 · 報道資料", "防衛省 · 更新情報"] : []);
   const baseFailed = (base.sources.failedNames || []).filter((name) => !recoverableBase.has(name));
@@ -54,16 +55,15 @@ export async function GET(request: Request) {
     items,
     sources: {
       ...base.sources,
-      ok: base.sources.ok + baseRecovered + direct.ok + social.ok,
-      failed: baseFailed.length + direct.failed + social.failed,
-      total: base.sources.total + direct.total + social.total,
-      failedNames: [...baseFailed, ...direct.failedNames, ...social.failedNames],
+      ok: base.sources.ok + baseRecovered + direct.ok + social.ok + tariffMedia.ok,
+      failed: baseFailed.length + direct.failed + social.failed + tariffMedia.failed,
+      total: base.sources.total + direct.total + social.total + tariffMedia.total,
+      failedNames: [...baseFailed, ...direct.failedNames, ...social.failedNames, ...tariffMedia.failedNames],
       coverage: [
-        ...(base.sources.coverage || []).map((group) => group.id === "jp-security" && hasModFallback
-          ? { ...group, ok: group.total }
-          : group),
+        ...(base.sources.coverage || []).map((group) => group.id === "jp-security" && hasModFallback ? { ...group, ok: group.total } : group),
         { id: "direct-official", label: "一次情報・直接巡回", ok: direct.ok, total: direct.total },
         { id: "official-social", label: "公式SNS・直接巡回", ok: social.ok, total: social.total },
+        { id: "jp-tariff-media", label: "日本主要メディア・関税報道", ok: tariffMedia.ok, total: tariffMedia.total },
       ],
       capabilities: {
         truthSocial: true,
@@ -81,11 +81,7 @@ export async function GET(request: Request) {
     ].join("\n");
     return new Response("\ufeff" + csv, { headers: { "content-type": "text/csv; charset=utf-8", "content-disposition": "attachment; filename=jpus-alert.csv" } });
   }
-  return Response.json(data, {
-    headers: {
-      "cache-control": "public, max-age=0, s-maxage=45, stale-while-revalidate=15",
-    },
-  });
+  return Response.json(data, { headers: { "cache-control": "public, max-age=0, s-maxage=45, stale-while-revalidate=15" } });
 }
 
 function safeHost(value: string) {
