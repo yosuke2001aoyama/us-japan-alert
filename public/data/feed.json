@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-24T06:44:39.602Z",
+  "generatedAt": "2026-07-24T09:11:32.399Z",
   "mode": "live",
   "sources": {
-    "ok": 47,
+    "ok": 48,
     "failed": 4,
-    "total": 51,
+    "total": 52,
     "failedNames": [
       "防衛省 · 報道資料",
       "防衛省 · 更新情報",
@@ -83,8 +83,18 @@
         "label": "一次情報・直接巡回",
         "ok": 5,
         "total": 7
+      },
+      {
+        "id": "official-social",
+        "label": "公式SNS・直接巡回",
+        "ok": 1,
+        "total": 1
       }
-    ]
+    ],
+    "capabilities": {
+      "truthSocial": true,
+      "xDirect": false
+    }
   },
   "items": [
     {
@@ -92,7 +102,7 @@
       "title": "Ambassador Greer Signs the U.S.-Jordan Agreement on Reciprocal Trade",
       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-signs-us-jordan-agreement-reciprocal-trade",
       "source": "USTR · July Releases",
-      "publishedAt": "2026-07-24T06:44:39.269Z",
+      "publishedAt": "2026-07-24T09:11:32.201Z",
       "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
       "official": true,
       "relevant": true,
@@ -100,6 +110,7 @@
       "category": "通商・経済",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -109,7 +120,7 @@
       "title": "American Farmers, Loggers, and Industry Leaders Applaud President Trump’s Bold Tariff Action Regarding Brazil’s Unreasonable Acts, Policies, and Practices",
       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/american-farmers-loggers-and-industry-leaders-applaud-president-trumps-bold-tariff-action-regarding",
       "source": "USTR · July Releases",
-      "publishedAt": "2026-07-24T06:44:39.269Z",
+      "publishedAt": "2026-07-24T09:11:32.201Z",
       "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
       "official": true,
       "relevant": true,
@@ -117,6 +128,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -126,7 +138,7 @@
       "title": "America First Trade is Fast-Tracking Our Industrial Resurgence: Ambassador Greer Joins Fireside Chat with Blue-Collar Manufacturing Workers at the Great American State Fair",
       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/america-first-trade-fast-tracking-our-industrial-resurgence-ambassador-greer-joins-fireside-chat",
       "source": "USTR · July Releases",
-      "publishedAt": "2026-07-24T06:44:39.269Z",
+      "publishedAt": "2026-07-24T09:11:32.201Z",
       "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
       "official": true,
       "relevant": true,
@@ -134,6 +146,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -143,7 +156,7 @@
       "title": "American Farmers, Workers, and Businesses are Reaping the Benefits of President Trump’s Trade Program",
       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/american-farmers-workers-and-businesses-are-reaping-benefits-president-trumps-trade-program",
       "source": "USTR · July Releases",
-      "publishedAt": "2026-07-24T06:44:39.268Z",
+      "publishedAt": "2026-07-24T09:11:32.200Z",
       "summary": "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
       "official": true,
       "relevant": true,
@@ -151,6 +164,43 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "SEZHY1hZeFNWcEtSRFF5UTB4MmFFMD9vYz01",
+      "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年7月24日(金曜日))",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xOGtIaUpNTXh3bV9vVDBfSjgyZ19Bb2tBSFZXUFU2eGJJMFhqYkZ5SjY3bUpvbFpwdTZiVDdBMmdpWkdidGRiWkVxT2w4eVhZTW1YWE9ZUXIwOUtCM2kxN204SHFGcXYxSVpKRDQyQ0x2aE0?oc=5",
+      "source": "mof.go.jp",
+      "publishedAt": "2026-07-24T08:51:37.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": false,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "ZCaVVIZHRNWEJEUzFGa05VUndWMEU_b2M9NQ",
+      "title": "茂木外務大臣会見記録",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11dC1aWk5iYS1IM2h4MnRUZnhLbzRodjU2SFY4TnhTbEpFNjRVYnRJck92REhwc2NRYm93LWVRc3lPUVVnRUd6OWJkU2RuOEJNeUd6TWE0WlV0bkh5cTFsR1pxWEp1eVBiUHdtMXBDS1FkNURwV0E?oc=5",
+      "source": "mofa.go.jp",
+      "publishedAt": "2026-07-24T02:51:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -168,6 +218,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -185,9 +236,28 @@
       "category": "外交・安保",
       "priority": 86,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "hbGRUcnVtcC8xMTY5NzIyNDE1NDI0NjgxNTU",
+      "title": "Very good!!! President DJT",
+      "url": "https://truthsocial.com/@realDonaldTrump/116972241542468155",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-24T01:00:18.000Z",
+      "summary": "Very good!!! President DJT",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
     },
     {
       "id": "UVUUxVVV0Q2N6UlhSRk5pVUhkRVJBP29jPTU",
@@ -202,9 +272,64 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjIx",
+      "title": "Rick Jackson, from the Great State of Georgia, very successfully campaigned for Governor, on being strong with “TRUMP,” and won, against a field of very talented and popular opp…",
+      "url": "https://www.trumpstruth.org/statuses/40221",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-23T23:23:36.000Z",
+      "summary": "Rick Jackson, from the Great State of Georgia, very successfully campaigned for Governor, on being strong with “TRUMP,” and won, against a field of very talented and popular opponents, including an incredible guy, Burt Jones, who has a truly bright future ahead of him! Rick has been a very successful Businessman and Entrepreneur, and will now be a tremendous Governor, who will work tirelessly to Grow the Economy, Cut Taxes and Regulations, Promote MADE IN THE U.S.A., Unleash American Energy DOMINANCE, Strengthen our Military/Veterans, Keep our Border SECURE, Ensure LAW AND ORDER, Safeguard our Elections, and Protect our always under siege Second Amendment. Now is the time for all Republicans to unite behind Rick to ensure he has a tremendous Victory in November! Rick will work closely with me to enact America First Policies. He is a FANTASTIC person who everyone is very proud of, as am I. Rick Jackson has my Complete and Total Endorsement to be the next Governor of Georgia – HE WILL NEVER LET YOU DOWN!",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "外交・安保",
+      "priority": 79,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjIy",
+      "title": "It is my Great Honor to endorse MAGA Patriot, Tim Fleming, who is running to be the next Secretary of State of the Incredible State of Georgia! A Highly Respected State Represen…",
+      "url": "https://www.trumpstruth.org/statuses/40222",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-23T23:23:27.000Z",
+      "summary": "It is my Great Honor to endorse MAGA Patriot, Tim Fleming, who is running to be the next Secretary of State of the Incredible State of Georgia! A Highly Respected State Representative and Civic Leader, prior to running for Secretary of State, Tim has a strong record of being an America First Fighter for Election Integrity! A true MAGA Warrior, Tim understands that, ALL VOTERS MUST SHOW PHOTO VOTER I.D. (IDENTIFICATION!) AND, ALL VOTERS MUST SHOW PROOF OF CITIZENSHIP IN ORDER TO VOTE! The Dumocrats love to CHEAT, and Tim will work tirelessly to Safeguard Georgia’s Elections. Tim will also focus on helping us continue to Grow the Economy, Promote our Amazing Farmers and Ranchers, Stop Migrant Crime, Keep Men out of Women’s Sports, and Defend our always under siege Second Amendment. Tim Fleming has my Complete and Total Endorsement to be the next Secretary of State of Georgia – HE WILL DO A FANTASTIC JOB, AND NEVER LET YOU DOWN!",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 79,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjIw",
+      "title": "Please let this statement serve to represent, until further notice, that from this point forth, any and all damages done to Ships, Cargo, or anything related thereto, will be pa…",
+      "url": "https://www.trumpstruth.org/statuses/40220",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-23T22:04:55.000Z",
+      "summary": "Please let this statement serve to represent, until further notice, that from this point forth, any and all damages done to Ships, Cargo, or anything related thereto, will be paid for by Iranian Money that the United States has in its possession, and controls. These damages may be very substantial but, nevertheless, this is the fair and equitable thing to do. Thank you for your attention to this matter! President DONALD J. TRUMP",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
     },
     {
       "id": "ZwaVgyMUtaMHRWWTFWb1JVZExRVEE_b2M9NQ",
@@ -219,6 +344,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -236,9 +362,46 @@
       "category": "首脳・閣僚",
       "priority": 69,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjE5",
+      "title": "A year ago the United States of America attacked, very powerfully, the Houthis, for their interference with commerce and trade, by shooting at ships. Since that time, and during…",
+      "url": "https://www.trumpstruth.org/statuses/40219",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-23T12:16:49.000Z",
+      "summary": "A year ago the United States of America attacked, very powerfully, the Houthis, for their interference with commerce and trade, by shooting at ships. Since that time, and during our conflict with Iran, they have acted very responsibly. Unfortunately, now they are starting up again, shooting at two Saudi Arabian ships last night. Please let this TRUTH serve to represent that if they do this again, the U.S. will hold Iran responsible, in that the Houthis are a Surrogate and/or Proxy of Iran, and major military punishment will be inflicted upon Iran and, of course, the Houthis, themselves, who I am very disappointed with in that they have, until now, acted very professionally and smart. Thank you for your attention to this matter! President DONALD J. TRUMP",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 72,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjE4",
+      "title": "The Civil Nuclear Deal (There will be no enrichment of material!) being made between the United States Department of Energy and Saudi Arabia, which pertains only to non-military…",
+      "url": "https://www.trumpstruth.org/statuses/40218",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-23T11:52:51.000Z",
+      "summary": "The Civil Nuclear Deal (There will be no enrichment of material!) being made between the United States Department of Energy and Saudi Arabia, which pertains only to non-military use such as the ones that Iran and UAE (and others) already have, will be approved, but is totally subject to Saudi Arabia joining the very respected and successful Abraham Accords. The United States is not opposed to Civil (Non-Enriched) Nuclear Facilities. Thank you for your attention to this matter! President DONALD J. TRUMP",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "外交・安保",
+      "priority": 72,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
     },
     {
       "id": "VrTW5NMVN5MHphRTUxVGxOVlQxZEI_b2M9NQ",
@@ -253,6 +416,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -270,6 +434,7 @@
       "category": "首脳・閣僚",
       "priority": 69,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -287,6 +452,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -304,9 +470,28 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjE1",
+      "title": "Exclusive — Cyprus Energy Minister: Trump’s ‘Energy Security’ Engagement ‘Vital’ to Future of West: https://www. breitbart.com/politics/2026/07 /22/exclusive-cyprus-energy-minis…",
+      "url": "https://www.trumpstruth.org/statuses/40215",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-23T01:40:40.000Z",
+      "summary": "Exclusive — Cyprus Energy Minister: Trump’s ‘Energy Security’ Engagement ‘Vital’ to Future of West: https://www. breitbart.com/politics/2026/07 /22/exclusive-cyprus-energy-minister-trumps-energy-security-engagement-vital-to-future-of-west/",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
     },
     {
       "id": "HZFVObFZHTkc5cVppMWZVV0ZWVTBFP29jPTU",
@@ -321,6 +506,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -338,6 +524,7 @@
       "category": "公式発表",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -355,6 +542,7 @@
       "category": "首脳・閣僚",
       "priority": 78,
       "english": false,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -372,6 +560,7 @@
       "category": "首脳・閣僚",
       "priority": 78,
       "english": false,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -389,6 +578,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -406,9 +596,64 @@
       "category": "外交・安保",
       "priority": 78,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjEy",
+      "title": "From this point forward, any time the Islamic Republic of Iran shoots at a ship in the Strait of Hormuz, whether it be by Missile, Rocket, Drone, or any other device or weapon, …",
+      "url": "https://www.trumpstruth.org/statuses/40212",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-22T12:56:52.000Z",
+      "summary": "From this point forward, any time the Islamic Republic of Iran shoots at a ship in the Strait of Hormuz, whether it be by Missile, Rocket, Drone, or any other device or weapon, the United States will bomb and destroy ONE BRIDGE OR POWER PLANT, including those located next to, or in, the Capital City of Tehran. Thank you for your attention to this matter! President DONALD J. TRUMP",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "外交・安保",
+      "priority": 72,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjEw",
+      "title": "Heading to Dover Air Force Base to HONOR OUR HEROES! President DJT",
+      "url": "https://www.trumpstruth.org/statuses/40210",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-22T12:34:42.000Z",
+      "summary": "Heading to Dover Air Force Base to HONOR OUR HEROES! President DJT",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjEx",
+      "title": "MAGA CANDIDATES WON EVERYTHING LAST NIGHT IN ARIZONA, A COMPLETE SWEEP!!! I WON ARIZONA 18 MONTHS AGO. THE DUMOCRATS ARE DUMBFOUNDED. AFTER DECADES, ARIZONA IS BECOMING A REPUBL…",
+      "url": "https://www.trumpstruth.org/statuses/40211",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-22T12:31:53.000Z",
+      "summary": "MAGA CANDIDATES WON EVERYTHING LAST NIGHT IN ARIZONA, A COMPLETE SWEEP!!! I WON ARIZONA 18 MONTHS AGO. THE DUMOCRATS ARE DUMBFOUNDED. AFTER DECADES, ARIZONA IS BECOMING A REPUBLICAN STATE. CONGRATULATIONS TO ALL! President DONALD J. TRUMP",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
     },
     {
       "id": "MW5UbEZQVGt4VmVGb3lOVEE0TmxOQj9vYz01",
@@ -423,9 +668,28 @@
       "category": "首脳・閣僚",
       "priority": 78,
       "english": false,
+      "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
       "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+    },
+    {
+      "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwMjAw",
+      "title": "Congratulations to Congressman Andy Biggs, who will be a GREAT Governor. Must now defeat a Radical Left Dumocrat, one of the worst governors in the Country, Katie Hobbs, who is …",
+      "url": "https://www.trumpstruth.org/statuses/40200",
+      "source": "Truth Social · @realDonaldTrump",
+      "publishedAt": "2026-07-22T09:47:24.000Z",
+      "summary": "Congratulations to Congressman Andy Biggs, who will be a GREAT Governor. Must now defeat a Radical Left Dumocrat, one of the worst governors in the Country, Katie Hobbs, who is weak on Crime, but strong on Raising Taxes. Go Andy, Go!!! President DJT",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
     },
     {
       "id": "NVFpKVWpWSlUxZG5jbVpQZEVVNFVRP29jPTU",
@@ -440,6 +704,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -457,6 +722,7 @@
       "category": "日米関係",
       "priority": 99,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -474,6 +740,7 @@
       "category": "日米関係",
       "priority": 93,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -491,6 +758,7 @@
       "category": "外交・安保",
       "priority": 66,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -508,6 +776,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -525,6 +794,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -542,6 +812,7 @@
       "category": "通商・経済",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -559,6 +830,7 @@
       "category": "日米関係",
       "priority": 93,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -576,6 +848,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -593,6 +866,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -610,6 +884,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -627,6 +902,7 @@
       "category": "議会・政治",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -644,6 +920,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -661,6 +938,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -678,6 +956,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -695,6 +974,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -712,6 +992,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -729,6 +1010,7 @@
       "category": "外交・安保",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -737,7 +1019,7 @@
       "id": "TjJoUVVITnZhRkJ0TUhCclNIVnNWdz9vYz01",
       "title": "Did Trump say he'd turn on 'giant faucet' in California to extinguish Canadian wildfires?",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43RGF1WE5kTTJvbVFXT3lZcFY4bVBZX2NLVjVnX00tQmNPR2VELUw4Sl94VVRZSHdmcl9aNnRmeGlrS2Y1aUplZ2R4QlRwakNsRGd0djlrWTdGMXhDN2hQUHNvaFBtMHBrSHVsVw?oc=5",
-      "source": "Snopes",
+      "source": "Snopes.com",
       "publishedAt": "2026-07-20T19:21:16.000Z",
       "summary": "",
       "official": false,
@@ -746,6 +1028,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -763,6 +1046,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
       "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
@@ -780,6 +1064,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -797,6 +1082,7 @@
       "category": "外交・安保",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -814,6 +1100,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -831,6 +1118,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -848,6 +1136,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -865,23 +1154,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
-      "id": "QXhjVEF0UlVOeVl6aFZPVFJhYjBvej9vYz01",
-      "title": "Trump’s social media company Truth Social to sell faster access to president’s posts",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbUMtd0VVdTZobDczejQ1ekJmTGJKajBLbVVzakpLZGVfZFhYUnFOQ2hlbDh1QmhDXy0wajlweDlkVktGSGpNYkdLMkFWcjJhRDFKbThiRDJ4XzFLSUFWaWhLZlpQcXdyaVdmb2swbFc2ZGllRUlmY0d0QkpZUndkX2FHR0R1WV9NWGpNX3Q2TmtyQWU0b3R0UDEwY2VlOVdoT19LZGpRREloQ254Q0tBa2o4TGhuZnYtdDNDaXNrUVpNcm5CUGdITWpBXzAxcTAtRUNyYzhVOTRab0oz?oc=5",
-      "source": "MS NOW",
-      "publishedAt": "2026-07-17T13:31:46.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -899,6 +1172,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -916,6 +1190,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -933,6 +1208,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -950,6 +1226,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -967,6 +1244,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -984,6 +1262,7 @@
       "category": "外交・安保",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1001,6 +1280,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1018,6 +1298,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1035,6 +1316,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1052,6 +1334,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1069,6 +1352,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1086,6 +1370,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1103,6 +1388,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1120,6 +1406,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1137,6 +1424,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1154,6 +1442,7 @@
       "category": "首脳・閣僚",
       "priority": 68,
       "english": false,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1171,6 +1460,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1188,6 +1478,7 @@
       "category": "外交・安保",
       "priority": 86,
       "english": false,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1205,6 +1496,7 @@
       "category": "議会・政治",
       "priority": 75,
       "english": false,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1222,6 +1514,7 @@
       "category": "首脳・閣僚",
       "priority": 83,
       "english": false,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1239,6 +1532,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1256,6 +1550,7 @@
       "category": "公式発表",
       "priority": 84,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1273,6 +1568,7 @@
       "category": "首脳・閣僚",
       "priority": 68,
       "english": false,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1290,6 +1586,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1307,6 +1604,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1324,6 +1622,7 @@
       "category": "外交・安保",
       "priority": 86,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1341,6 +1640,7 @@
       "category": "外交・安保",
       "priority": 98,
       "english": false,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1358,6 +1658,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1375,6 +1676,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1392,6 +1694,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1409,6 +1712,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1426,6 +1730,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1443,6 +1748,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1460,6 +1766,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1477,6 +1784,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1494,6 +1802,7 @@
       "category": "外交・安保",
       "priority": 86,
       "english": false,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1511,6 +1820,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1528,6 +1838,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1545,6 +1856,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1562,6 +1874,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1579,6 +1892,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1596,6 +1910,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1613,6 +1928,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1630,6 +1946,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1647,6 +1964,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1664,6 +1982,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1681,6 +2000,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1698,6 +2018,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1715,6 +2036,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1732,6 +2054,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1749,6 +2072,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -1766,6 +2090,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1783,6 +2108,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1800,6 +2126,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1817,6 +2144,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1834,6 +2162,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1851,6 +2180,7 @@
       "category": "首脳・閣僚",
       "priority": 79,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1868,6 +2198,7 @@
       "category": "議会・政治",
       "priority": 89,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1885,6 +2216,7 @@
       "category": "通商・経済",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1902,6 +2234,7 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -1919,67 +2252,17 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "ZSZEhoSVUzcHNlSFF4VURCNFNEUm4_b2M9NQ",
-      "title": "Remarks by Treasury Secretary Scott Bessent before the American Academy of Achievement’s International Achievement Summit",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYSk1KOUV2OERvZnVnRUV0bUtDVTRuQTAtampjTHdHZUZJQjBlWW4wNDBkVmJ3T1UxQURRZUM1eVY0aVh4SGtpT1J4TlB2RVZwZTVRdHhIU3pseHQxUDB4SDRn?oc=5",
-      "source": "U.S. Department of the Treasury (.gov)",
-      "publishedAt": "2026-06-24T07:00:00.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 79,
-      "english": true,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
-      "id": "U1ZSS2NGRlpkbVZuTjJkNVJIRmFTUT9vYz01",
-      "title": "President Trump Participates in a Meeting with the Secretary General of NATO",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWJjdVoxYWZackw3bkFiSF9FcmpvZllUQ0NNM3dsaVlEY1FDVmdqQnR0UTl1ejBTX2dVX0Ryb0xWUGtsR1BXS1BPRHlWbHRIVWlNYXVOa095R1ZBU0liaTVwVEFVdkVtd3Q5dHhKc1pkY2RRbXlFSGRycXNKdFZIUVJkcUZjRGF0Yi05VzQ3XzN1aDJDVlpJdkMwUWs0STAzcDJ5SVRKcFFZdmVnN2d5RHFaSQ?oc=5",
-      "source": "The White House (.gov)",
-      "publishedAt": "2026-06-24T07:00:00.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 72,
-      "english": true,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
-      "id": "WnhjMVpRY1ZjeVdXbHBNV2hwVVhNNT9vYz01",
-      "title": "令和8年6月24日（水）午後 | 内閣官房長官記者会見",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrclJNY1FHclgwU0gxeVc2UTk0UHJtWUtrZE1KUHZnakVEVmZEV180RHY3eVNQT1E0OFhzbFhENUZSZEdud0FGUU54MlhYR2tNZmNxME5hODZxc1ZQcVcyWWlpMWhpUXM5?oc=5",
-      "source": "首相官邸",
-      "publishedAt": "2026-06-24T07:00:00.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": true,
-      "category": "首脳・閣僚",
-      "priority": 72,
-      "english": false,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
-      "id": "ZoM2NtRlhiRUYyYldwV2IwOXhSMjQ_b2M9NQ",
-      "title": "Trump says US will never be ‘Communist Country’ after Mamdani-backed candidates’ wins",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSmRqQ1EyTjlSa0c0ZWlBODRpWWdRdU5RMHR3RUJZbzA0SUVKQWFsM0hTcEV0QnVfM0lVcGlwS2R4a1U0NU5NeW1jSkFROHVHNlVHLWlTNU1ranpxUlVXWHZRMzktT0NkeHl2cTZxOGY5NXhRYkI4R25Gb1plWXBPa3FDN0pyaDlPUlJxNEtZQk5WUE5PVDhuQkFHYzY0ZlFNZktTaldjRk10OWPSAbABQVVfeXFMUG8yRzFVb0UtZ3hwbnF1SzU4Nm9MNXY4cWFhd2FXWEsyRl91MnNjejE0TDhPV0pHVThCUTRqLTVHYmVlNkZuMmlaalA4OTRUSWtLSHUydFpZT1pnVVZxMGZWcmk4cUJQTjZVbDNMUVNia0JNNDl2VElMVnBDa2N2akd1X05adHlEdktZdnpucmlkbG5saFVnTUxSeUxZZ2w2UFh3cmFXbEF2bWpWb09xR24?oc=5",
-      "source": "The Hill",
-      "publishedAt": "2026-06-24T07:00:00.000Z",
+      "id": "JqbElNSEpRWWpjMmNYWjBNRmRxT0E_b2M9NQ",
+      "title": "Trump Media Stock Falls to Record Low as Truth Social Parent Company Struggles",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVDV5SVZWX2F1U2o5dW9fbU80eVc3NmlITHVBLTdyano5bWVQYVJLOWxzV2s4R3k5WFYtT0RVTzlvandFeGJsMlVKWDdZUkM4Unp0N0F6aW5iNFZ3SjRwTktMaUEteExCdU1LeXo1QW10UEFPWjAwUkhhSURGa0wtaV9wQWJKSXp2UjFvRjlIMHJQYjc2cXZ0MFdqOA?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-25T07:00:00.000Z",
       "summary": "",
       "official": false,
       "relevant": true,
@@ -1987,6 +2270,7 @@
       "category": "首脳・閣僚",
       "priority": 62,
       "english": true,
+      "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
@@ -2004,6 +2288,7 @@
       "category": "首脳・閣僚",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2021,6 +2306,7 @@
       "category": "通商・経済",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2038,6 +2324,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2055,6 +2342,7 @@
       "category": "日米関係",
       "priority": 99,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2072,6 +2360,7 @@
       "category": "通商・経済",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2089,6 +2378,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2106,6 +2396,7 @@
       "category": "通商・経済",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2123,6 +2414,7 @@
       "category": "通商・経済",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2140,6 +2432,7 @@
       "category": "通商・経済",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2157,6 +2450,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2174,6 +2468,7 @@
       "category": "通商・経済",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2191,6 +2486,7 @@
       "category": "通商・経済",
       "priority": 79,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2208,6 +2504,7 @@
       "category": "通商・経済",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2225,6 +2522,7 @@
       "category": "通商・経済",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2242,6 +2540,7 @@
       "category": "通商・経済",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2259,6 +2558,7 @@
       "category": "通商・経済",
       "priority": 91,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
@@ -2276,6 +2576,7 @@
       "category": "通商・経済",
       "priority": 73,
       "english": true,
+      "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
