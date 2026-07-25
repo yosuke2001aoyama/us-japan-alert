@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T20:34:45.181Z",
+  "generatedAt": "2026-07-25T21:30:09.773Z",
   "mode": "live",
   "sources": {
     "ok": 60,
@@ -101,6 +101,23 @@
     }
   },
   "items": [
+    {
+      "id": "ZGhWSFZHVnpZd1NXcE5PRVZaVUZCaT9vYz01",
+      "title": "トランプ新関税、米国の２社提訴 差し止めと返還求める",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hZDlFOU5pRU9sS2xnck03ZjRlMFNuQ19fMDhzTFVTOHRWR3EyTTVGVlgzeUlTc3c4QUlxNmJVdjY3Wk94MmVQNjhnMFdhVHVGVzYwSWpNOEVZUFBi?oc=5",
+      "source": "朝日新聞",
+      "publishedAt": "2026-07-25T20:00:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hZDlFOU5pRU9sS2xnck03ZjRlMFNuQ19fMDhzTFVTOHRWR3EyTTVGVlgzeUlTc3c4QUlxNmJVdjY3Wk94MmVQNjhnMFdhVHVGVzYwSWpNOEVZUFBi?oc=5\" target=\"_blank\"&gt;トランプ新関税、米国の２社提訴 差し止めと返還求める&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;朝日新聞&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 78,
+      "japanRelated": false,
+      "official": false,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
     {
       "id": "TnFhVTFOWmpGUWFqQllabG8yVDAxSz9vYz01",
       "title": "ＥＵに新関税、表明 トランプ氏、グーグル制裁に報復",
@@ -239,12 +256,12 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "YVVwcWNFNDJTalZLU1hoUmJtVkdNQT9vYz01",
+      "id": "Wb2QzZHRUSGMyVVZCNVRYWk9jRTlsP29jPTU",
       "title": "「認められた権限を越えている」トランプ政権の日本などへの追加関税めぐり米中小企業2社が提訴 差し止めと返金を求める",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mMWNMbXZVdmk0RUw3NkVaRVBqYXdYZEJhclRveTV6NlRUS2w5bXRKTjB6VGI3T2xaUW1JRk5DeU9GN2VQVDNNaUpqcE42SjVKSXhRbmVGMA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53VUFWLWt0R29jTDVMQ0N5RVNOR0Q3b0JIVnRPcVZCWVB2OUhUeWQ0dDI5UlhLa1pBLWtiTHJuNjBFLXJvdWN5RkExbmMtUlJGel9MLTRqSFlweE5LX2NsYzItWGVod3dtTHc2UVB5TXZOcE9l?oc=5",
       "source": "TBS NEWS DIG",
       "publishedAt": "2026-07-25T08:52:19.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mMWNMbXZVdmk0RUw3NkVaRVBqYXdYZEJhclRveTV6NlRUS2w5bXRKTjB6VGI3T2xaUW1JRk5DeU9GN2VQVDNNaUpqcE42SjVKSXhRbmVGMA?oc=5\" target=\"_blank\"&gt;「認められた権限を越えている」トランプ政権の日本などへの追加関税めぐり米中小企業2社が提訴 差し止めと返金を求める&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE53VUFWLWt0R29jTDVMQ0N5RVNOR0Q3b0JIVnRPcVZCWVB2OUhUeWQ0dDI5UlhLa1pBLWtiTHJuNjBFLXJvdWN5RkExbmMtUlJGel9MLTRqSFlweE5LX2NsYzItWGVod3dtTHc2UVB5TXZOcE9l?oc=5\" target=\"_blank\"&gt;「認められた権限を越えている」トランプ政権の日本などへの追加関税めぐり米中小企業2社が提訴 差し止めと返金を求める&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/f",
       "category": "通商・経済",
       "priority": 92,
       "japanRelated": true,
@@ -4026,7 +4043,7 @@
       "id": "TjJoUVVITnZhRkJ0TUhCclNIVnNWdz9vYz01",
       "title": "Did Trump say he'd turn on 'giant faucet' in California to extinguish Canadian wildfires?",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43RGF1WE5kTTJvbVFXT3lZcFY4bVBZX2NLVjVnX00tQmNPR2VELUw4Sl94VVRZSHdmcl9aNnRmeGlrS2Y1aUplZ2R4QlRwakNsRGd0djlrWTdGMXhDN2hQUHNvaFBtMHBrSHVsVw?oc=5",
-      "source": "Snopes",
+      "source": "Snopes.com",
       "publishedAt": "2026-07-20T19:21:16.000Z",
       "summary": "",
       "official": false,
@@ -4973,6 +4990,24 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
+      "id": "RFVnlZVVF6VEZSUVZtcFZVR2xIYXc_b2M9NQ",
+      "title": "Vice President JD Vance Delivers Remarks Aboard the USS Kearsarge in New York Harbor, NY",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRWZ5U0U5TVpEYzRpdzJ0SXhHc1dfUXEtWUxYdGdWdUtnZ3Y1Rmp4bXlkdjBfd1FhZF96OV9DcENKVFE4bDJ2dzhGWlVWNDZZc0xVZFJ4OW1fQTg3aW1fLXpoektWcmJuZTRSLTM0eUZzY1FIb3BlYzU3ODVjcE9OOFU4endjTWdLaEtIRUxhYWlicWxTRzlXeElrYUl3NDlEVHlJZjJ6aHREUk9OOWFZTEVyYUQzTFRQVmpVUGlHaw?oc=5",
+      "source": "The White House (.gov)",
+      "publishedAt": "2026-07-04T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
       "id": "qVkRNbk5rTUVoQmREQlZjbU5xYkZZP29jPTU",
       "title": "President Trump Delivers Remarks at Mount Rushmore, Jul. 3, 2026",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZUh2a3cteldvVzU3NS0wbFVqenB5LWoteWRxMlNKUmZtWkZndkVENjVaa1hvanNWMlNoY3NmbU5QdVJrUFNxUElRWExZR0x5eWwxYllIZFJqaFhwNkY1NER6eGlYUWN1RDNEVnU1WnpQSnFjU1VhTk5VNzgwOVdWQjM4dDc2cExVOENyTjVDMnNkMEhBdDBVcmNqbFY?oc=5",
@@ -5045,6 +5080,24 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
+      "id": "5S1J6QjBOMGhCUzBOb1dHaERWMlozP29jPTU",
+      "title": "Vice President Vance Delivers Remarks at Naval Air Station Oceana in Virginia Beach, VA",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTDUyOElzOWllY2tXR1NBbTR1U2liSnVSc1pXX0Z1MXp4SV9weWhLQU1JMDNWMTZQSTBhYlY0ZGozNFFybTVLc2lSVGVsdUN6TlpuSkgwbjZySlVzWHFjeF93OVNGbVFwMVZhU0dzTXlubnFQalhGREFpaHN0bjNSUmZDWE1uQlg1dmZZbHFIcFk2eXVLZkYzejEyVVBXUnRhR1I1T1hCU2NDRVZkaE9KRzB0N0hBS0NoWGhDV2Z3?oc=5",
+      "source": "The White House (.gov)",
+      "publishedAt": "2026-07-01T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
       "id": "MwV1ZOTGR6YzRXVWREWW5CQ05UbDM_b2M9NQ",
       "title": "Trump’s focus on his construction projects has increased, Post analysis finds",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmNUVEQ1YXNuMzlReXo5VWFWZUxtUUYteG1MNW1nZC1MbjQ5djYxc0l0SmlCVlZjNnFCN3Bia0p5bl84c1F6eUZPb0NRTXpIX0NDZmNWbEhSODVYZldtVmN5WWFJODQ4MkM4RlM0blhIb2pfUS02T1ItUWltN0tvNnprQjVaRWR6WE9FaHF3WjNkckw0SXpPUXRNZTBuTUdzWGc0WVNLdzc4WUdDYnBCNTl3?oc=5",
@@ -5079,6 +5132,24 @@
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "ZEdNRWRYY25CbU1FdDVPV3h0WlVaQj9vYz01",
+      "title": "令和8年6月30日（火）午前 | 内閣官房長官記者会見",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pcGJQMEhXTVFXQldXTjJla09yYVV5Nl9zNjVLblpIeFF0aWdGZHMtVFFhdUszVW1OTWdGSXhaeFN5Q0VZREVkdHJPSW0zOHNxdmJ4SURDTTdGMEdXcnBmMEt5OWxtZUZB?oc=5",
+      "source": "首相官邸",
+      "publishedAt": "2026-06-30T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": false,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "UkJlRnBtY0hCb2IxVkRiVGRrTm5Jdz9vYz01",
@@ -5183,6 +5254,24 @@
       "category": "首脳・閣僚",
       "priority": 72,
       "english": false,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "ac1FtRjBka2g1ZEVKbFlsaHZXVTVSP29jPTU",
+      "title": "President Donald J. Trump delivers remarks at the Mack Trucks facility in Pennsylvania",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzNPdjhiYXgzanl4TnNFZFNZcGRhVGNSSDl3ODJHMkZBb3MzXzl2VG9lTk9sTS1GZ1laX0lJcXZLMmMxLUpTTml6R1dKXzlrelU2eTdOZkZhVERtbzhiZFFHN3FIYU9Sc25TaGN1MFJZeW4xS1hDMHJpZEJuWF9Lb3BVUWtHbnNWckMwTzlCWWhvRmc1VGpNa3RhNHBUYmNyUk1JYzc1UHBWVHZQdXZsQmF0dkh5dEJlYlhvWU5R?oc=5",
+      "source": "The White House (.gov)",
+      "publishedAt": "2026-06-26T19:09:05.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
