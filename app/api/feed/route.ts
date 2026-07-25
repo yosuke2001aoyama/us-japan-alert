@@ -3,6 +3,7 @@ import { collectDirectOfficial } from "../../../lib/official-pages";
 import { collectDirectSocial } from "../../../lib/social-direct";
 import { collectJapaneseTariffMedia } from "../../../lib/japanese-tariff-media";
 import { canonicalHeadline } from "../../../lib/policy";
+import { passesFinalRelevanceGuard } from "../../../lib/relevance-guard";
 
 export const dynamic = "force-dynamic";
 
@@ -15,6 +16,7 @@ export async function GET(request: Request) {
   const seenUrls = new Set<string>();
   const seenTitles = new Set<string>();
   const items = [...social.items, ...direct.items, ...tariffMedia.items, ...base.items]
+    .filter(passesFinalRelevanceGuard)
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt) || b.priority - a.priority)
     .filter((item) => {
       const urlKey = item.url.replace(/[?&](utm_[^=]+|oc)=[^&]+/g, "");
