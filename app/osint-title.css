@@ -1,0 +1,1 @@
+.command-title h1{font-size:0!important}.command-title h1::after{content:"日米政策OSINT・タイムライン";display:block;font:800 30px/1.15 var(--sans);letter-spacing:-.035em}@media(max-width:1180px){.command-title h1::after{font-size:26px}}@media(max-width:860px){.command-title h1::after{font-size:24px}}@media(max-width:520px){.command-title h1::after{font-size:21px}}
