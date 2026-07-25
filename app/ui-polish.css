@@ -1,7 +1,48 @@
-/* Final brand, status and typography polish */
-.brand .mark{display:none!important}.brand{gap:0!important}.brand strong{font-size:18px!important;letter-spacing:-.025em;font-weight:800!important}.brand small{margin-top:4px!important;letter-spacing:.13em!important}
-.system-status{font-size:0!important;gap:8px!important;padding:8px 12px;border:1px solid #dbe7e6;border-radius:999px;background:#f7fbfa;white-space:nowrap}.system-status .pulse{display:inline-block!important;width:9px!important;height:9px!important}.system-status .divider{display:none!important}.system-status:after{content:"稼働中 · 自動更新";font-size:10px;color:#587086;font-weight:700;letter-spacing:.02em}
-.command-title p{font-size:0!important;letter-spacing:0!important}.command-title p:after{content:"OSINT MONITOR";font:800 11px/1 var(--font-geist-mono),ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;color:#16858c}.command-title h1{font-weight:820!important;letter-spacing:-.045em!important}.command-title>span{letter-spacing:.005em}.command-metrics b{font-variant-numeric:tabular-nums}.command-metrics div:nth-child(4) b{font-size:0!important}.command-metrics div:nth-child(4) b:after{content:"稼働中";font-size:25px;color:#1f9d72}.command-metrics div:nth-child(4) span{font-size:0!important}.command-metrics div:nth-child(4) span:after{content:"監視ステータス";font-size:9px;color:#8794a5}
-.health-score strong,.health-score span,.health-track{display:none!important}.health-score:after{content:"主要監視は正常稼働中";display:block;color:#1f9d72;font:800 15px var(--sans)}.health-body:before{content:"複数経路を冗長化して監視しています。個別経路の一時停止は、代替経路が動作している限りサービス障害として扱いません。";display:block;margin-bottom:12px;color:#64758a;font-size:10px;line-height:1.65}.health-row:first-of-type span{font-size:0}.health-row:first-of-type span:after{content:"有効経路";font-size:8px}.health-row:nth-of-type(2) span{font-size:0}.health-row:nth-of-type(2) span:after{content:"要確認経路";font-size:8px}
-.timeline-card h2,.timeline-card>p,.source-option,.panel-heading,.chips button,.segmented button,.refresh,.period,.toggles{font-family:var(--font-geist-sans),"Noto Sans JP",system-ui,sans-serif!important}.timeline-card h2{letter-spacing:-.015em}.timeline-card>p{letter-spacing:.005em}.timeline-meta,.timeline-source,.item-tags button,.tag-cloud button{font-family:var(--font-geist-sans),"Noto Sans JP",system-ui,sans-serif!important}.panel-heading{letter-spacing:.035em!important}.source-option{letter-spacing:0}.timeline-time time{font-variant-numeric:tabular-nums}.timeline-item{content-visibility:auto;contain-intrinsic-size:142px}.toolbar button,.source-option,.tag-cloud button,.item-tags button,.translate-button{transition:background-color .16s ease,border-color .16s ease,color .16s ease,transform .16s ease}.toolbar button:active,.source-option:active,.tag-cloud button:active,.item-tags button:active,.translate-button:active{transform:translateY(1px)}
-@media(max-width:520px){.brand strong{font-size:15px!important}.system-status{padding:7px 9px}.system-status:after{font-size:9px}.command-title p:after{font-size:9px;letter-spacing:.12em}.command-metrics div:nth-child(4) b:after{font-size:21px}}
+/* JPUS OSINT product redesign */
+:root{--ink:#0f172a;--sub:#64748b;--accent:#0f766e;--accent-soft:#ecf8f6;--canvas:#f6f8fb;--hairline:#e5eaf0}
+html,body{background:var(--canvas)!important;color:var(--ink)!important}
+.shell{background:linear-gradient(180deg,#fff 0,#f8fafc 190px,#f6f8fb 100%)!important}
+
+/* Brand: text-first, no placeholder logo */
+.topbar{height:58px!important;background:rgba(255,255,255,.96)!important;box-shadow:none!important;border-bottom:1px solid var(--hairline)!important}
+.topbar:before{display:none!important}.topbar-inner{padding:0 30px!important}
+.brand .mark{display:none!important}.brand{gap:0!important}.brand strong{font-size:0!important}.brand strong:after{content:"JPUS OSINT";font:800 18px/1 var(--font-geist-sans),system-ui,sans-serif;letter-spacing:-.035em;color:var(--ink)}
+.brand small{font-size:0!important;margin-top:5px!important}.brand small:after{content:"Open-source policy monitoring for Japan and the United States";font:500 10px/1.2 var(--font-geist-sans),system-ui,sans-serif;letter-spacing:.015em;color:#7b8798}
+.system-status{display:none!important}
+
+/* Compact editorial hero */
+.command-bar{width:min(calc(100% - 48px),1680px)!important;margin-top:18px!important;min-height:0!important;border:1px solid var(--hairline)!important;border-radius:16px!important;background:#fff!important;box-shadow:0 10px 30px rgba(15,23,42,.05)!important;display:block!important}
+.command-title{padding:22px 28px 23px!important;border:0!important}.command-title:before{left:0!important;top:18px!important;bottom:18px!important;width:3px!important;background:var(--accent)!important}
+.command-title p{font-size:0!important;letter-spacing:0!important}.command-title p:after{content:"JPUS OSINT / POLICY TIMELINE";font:700 10px/1 var(--font-geist-mono),ui-monospace,monospace;letter-spacing:.08em;color:var(--accent)}
+.command-title h1{margin:9px 0 6px!important;font-size:0!important}.command-title h1:after{content:"日米政策OSINTタイムライン"!important;display:block;font:800 28px/1.18 var(--font-geist-sans),system-ui,sans-serif!important;letter-spacing:-.045em!important;color:var(--ink)}
+.command-title>span{font:500 12px/1.6 var(--font-geist-sans),system-ui,sans-serif!important;color:var(--sub)!important;letter-spacing:0!important}
+.command-metrics{display:none!important}
+
+/* Controls */
+.toolbar{width:min(calc(100% - 48px),1680px)!important;top:58px!important;margin:10px auto 12px!important;border:1px solid var(--hairline)!important;border-radius:13px!important;box-shadow:0 6px 20px rgba(15,23,42,.04)!important}
+.toolbar-main,.toolbar-secondary{padding:9px 11px!important}.search{background:#f8fafc!important;border-color:#e2e8f0!important}.search input{font-size:12px!important}.segmented button,.chips button,.refresh,.period select{border-radius:8px!important}.segmented button.active,.chips button.active{background:var(--accent)!important;border-color:var(--accent)!important;box-shadow:none!important}
+
+/* Timeline-first layout; operations data is removed from the reading surface */
+.workspace{width:min(calc(100% - 48px),1680px)!important;grid-template-columns:210px minmax(0,1fr)!important;gap:12px!important;align-items:start!important}
+.status-sidebar{display:none!important}.filter-sidebar{top:132px!important;max-height:calc(100vh - 150px)!important}.timeline-panel{min-height:680px!important}
+.panel{border:1px solid var(--hairline)!important;border-radius:14px!important;box-shadow:0 8px 24px rgba(15,23,42,.045)!important}.panel-heading{height:42px!important;background:#fff!important;color:#475569!important;border-bottom-color:#edf1f5!important;font-size:10px!important;letter-spacing:.02em!important}
+.source-option{height:38px!important}.source-option.active{background:var(--accent-soft)!important;color:var(--accent)!important;box-shadow:inset 3px 0 var(--accent)!important}
+
+/* Dense, readable news rows */
+.timeline-date{height:34px!important;background:#f8fafc!important}.timeline-date span{margin-left:82px!important;font-size:10px!important;color:#64748b!important}
+.timeline-item{grid-template-columns:82px minmax(0,1fr)!important;min-height:124px!important}.timeline-time{padding:17px 12px!important;background:#fbfcfd!important}.timeline-time time{font:750 12px/1.2 var(--font-geist-mono),ui-monospace,monospace!important;color:var(--accent)!important}.timeline-time small{font-size:8px!important;color:#94a3b8!important}
+.timeline-card{padding:15px 19px 16px!important}.timeline-meta{font-size:9px!important;gap:6px!important}.timeline-card h2{margin:8px 0 5px!important;font:700 16px/1.42 var(--font-geist-sans),"Noto Sans JP",system-ui,sans-serif!important;letter-spacing:-.018em!important;color:var(--ink)!important}.timeline-card>p{font:400 11px/1.65 var(--font-geist-sans),"Noto Sans JP",system-ui,sans-serif!important;color:#64748b!important}.timeline-bottom{margin-top:8px!important}.timeline-source{font-size:9px!important}.item-tags button,.tag-cloud button{font-size:8px!important}
+.timeline-item.urgent{box-shadow:inset 3px 0 #c2414f!important}.official-label{background:#e8f5f3!important;color:#0f766e!important}.jp-label{background:#eef4fb!important;color:#3b6f9f!important}
+.translate-button{background:#fff!important;border-color:#cbd5e1!important;color:#475569!important}.translate-button:hover{background:#f8fafc!important}
+
+/* Footer becomes unobtrusive */
+footer{width:min(calc(100% - 48px),1680px)!important;background:transparent!important;border:0!important;box-shadow:none!important;color:#94a3b8!important;padding:16px 2px!important}
+footer span:first-child{font-size:0}footer span:first-child:after{content:"JPUS OSINT";font-size:10px;font-weight:700;color:#64748b}
+
+/* Typography consistency */
+.timeline-card h2,.timeline-card>p,.source-option,.panel-heading,.chips button,.segmented button,.refresh,.period,.toggles,.brand{font-family:var(--font-geist-sans),"Noto Sans JP",system-ui,sans-serif!important}
+.timeline-time time,.command-title p:after{font-variant-numeric:tabular-nums}.timeline-item{content-visibility:auto;contain-intrinsic-size:124px}
+.toolbar button,.source-option,.tag-cloud button,.item-tags button,.translate-button{transition:background-color .14s ease,border-color .14s ease,color .14s ease,transform .14s ease}.toolbar button:active,.source-option:active,.tag-cloud button:active,.item-tags button:active,.translate-button:active{transform:translateY(1px)}
+
+@media(max-width:980px){.workspace{grid-template-columns:1fr!important}.filter-sidebar{position:static!important;max-height:none!important;order:2}.timeline-panel{order:1}.command-title h1:after{font-size:25px!important}}
+@media(max-width:620px){.topbar-inner{padding:0 16px!important}.brand small{display:none!important}.command-bar,.toolbar,.workspace,footer{width:calc(100% - 20px)!important}.command-title{padding:20px!important}.command-title h1:after{font-size:22px!important}.timeline-item{grid-template-columns:64px minmax(0,1fr)!important}.timeline-date span{margin-left:64px!important}.timeline-time{padding-inline:7px!important}.timeline-card{padding:13px 12px 14px!important}.timeline-card h2{font-size:15px!important}}
