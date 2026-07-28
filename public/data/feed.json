@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-07-28T11:06:15.603Z",
+  "generatedAt": "2026-07-28T13:00:08.242Z",
   "mode": "live",
   "sources": {
-    "ok": 60,
-    "failed": 2,
+    "ok": 59,
+    "failed": 3,
     "total": 62,
     "failedNames": [
       "USTR · Press Office Direct",
-      "Commerce · Press Releases Direct"
+      "Commerce · Press Releases Direct",
+      "Federal Register · Direct API"
     ],
     "coverage": [
       {
@@ -79,7 +80,7 @@
       {
         "id": "direct-official",
         "label": "一次情報・直接巡回",
-        "ok": 5,
+        "ok": 4,
         "total": 7
       },
       {
@@ -346,6 +347,23 @@
       "japanRelated": true,
       "category": "首脳・閣僚",
       "priority": 83,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "ZrRmliSGx0WlcxWU5GSnJVVzVYVlE_b2M9NQ",
+      "title": "フォード、米軍向けトラック開発参入 米自動車大手の軍需頼み鮮明",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuTVBmREpBUUJMUDZjSjRQbkNTWkIwRm8xQi1OOGI5S1JkaTNDbTBNekVZc3Q2SFc4VFV6VVVWMkpYemVBWVdIY3RDQk1lNWFXVnZJVWVmY1pXNk9aVkFibHltZW1YNFJrUW5XVQ?oc=5",
+      "source": "日本経済新聞",
+      "publishedAt": "2026-07-27T21:43:32.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFBuTVBmREpBUUJMUDZjSjRQbkNTWkIwRm8xQi1OOGI5S1JkaTNDbTBNekVZc3Q2SFc4VFV6VVVWMkpYemVBWVdIY3RDQk1lNWFXVnZJVWVmY1pXNk9aVkFibHltZW1YNFJrUW5XVQ?oc=5\" target=\"_blank\"&gt;フォード、米軍向けトラック開発参入 米自動車大手の軍需頼み鮮明&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;日本経済新聞&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 92,
+      "japanRelated": true,
+      "official": false,
       "english": false,
       "socialPost": false,
       "verification": "media-report",
@@ -737,6 +755,23 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
+      "id": "lVUk5kbkl0T0U4eFgybGhWbkphWWc_b2M9NQ",
+      "title": "中東危機再燃も上がらぬアルミ 中国輸出急増、欧米で再稼働機運",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PVVpPdzIyN1Q0RTFac3o0WjNTb1dPcU1HdXVxV0gzbUxFYmFobHpUVWJNc0dQNUx5b1c3QUpucFEyZks5Vmh2XzZKVUNjaU8zRjZjMkx4bWJIN2xoYURNdnItOE8xX2lhVnJaYg?oc=5",
+      "source": "日本経済新聞",
+      "publishedAt": "2026-07-27T05:00:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9PVVpPdzIyN1Q0RTFac3o0WjNTb1dPcU1HdXVxV0gzbUxFYmFobHpUVWJNc0dQNUx5b1c3QUpucFEyZks5Vmh2XzZKVUNjaU8zRjZjMkx4bWJIN2xoYURNdnItOE8xX2lhVnJaYg?oc=5\" target=\"_blank\"&gt;中東危機再燃も上がらぬアルミ 中国輸出急増、欧米で再稼働機運&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;日本経済新聞&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 92,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
       "id": "VXRm1SSEZ2Yld4eVNUQkZZVXRNUVE_b2M9NQ",
       "title": "Donald Trump Goes On Wild Truth Social Posting Spree",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX0FxbWRHUTFSN3E0andFdk1sRVlZV3l6ZmQ3ckFRTXFfcU9GelRDSDNZNnFteW9HLUxBY0NudXgybFlmTkRTVTY0NEVDZjV2V2NNdmN0VnEwUUkwTzhpSEhmZ2pRSW50NGZvWnBsYjVidWwtb0JZbFllWjF2WVdhVDRxUWFmRHFvbWxySTBFYUtMQQ?oc=5",
@@ -790,10 +825,10 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "TWxGU2NVRnVPRzFETjBSaGQweGtNQT9vYz01",
+      "id": "MWxaMEprZDNwRVJsa3pZMU5TYVhaQj9vYz01",
       "title": "イスラエル、ガザへの国際部隊受け入れ容認へ 首相訪米控え表明",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pVVB6OWpjaEZvbzdFektETTNicHBtQjMzNHd3ZjNxeFNCY09rbi1ZR1dUcnJONlFpMmxPX2x4aVloVWJNWjB6ZVVsaW5waHhFRHhYQXMtRV9oNmpQR0Y0Mm94TkRUTHJkRk16a0ZSRDhsMjk3UkRnZm5LQ0JGQdIBgwFBVV95cUxPdDloZ3FtSGJQYW1TSk56cjg0V2ZwVUp1R1RBRV9WSUEwMW9USUtDQkZ2bjJMcE91QTh6OFFJdHREenRfcjdTM3BaV3NJd1pSVFpBNUVmbDNaQkpjWWpsa3gtUGNZdTFndGl6MGMyYkVZWUd5MlFScUFuOG1DN0Rhd0xkMA?oc=5",
-      "source": "ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUnVaYnBCWi13b1FFOUVwNzdSQVJmdlBOLWozSUFPNEE5RFYyMVZRLWlwaS0zdzkxUTZSa1RRSEhDM1pGcWdNcVZBVXI4YkVBcTdJWWxuQXRjc0szZTMzRkV2cE9mZktMdlJpTGQ3VlgyWE1lZ0Jkd3pERlkzY1NSaXZB?oc=5",
+      "source": "ロイター",
       "publishedAt": "2026-07-27T00:13:00.000Z",
       "summary": "",
       "official": false,
@@ -2571,12 +2606,12 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "URUYyVm13eFoyNVlaV05vTUhoMlRBP29jPTU",
+      "id": "halV5T0VWcWRGaExaM3A0UTFneFVRP29jPTU",
       "title": "対日関税、上限１２．５％ ２４日発動、軽減措置を明記―米政府",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQV01FaWFNVFoyazl1SFdidGRiYk5UOHlCRzVUVlJIRDh2SG8xeFBCUnpuMmpZNktTNXU3eFlWYUcxekZBUkM5eGh1c1pSU05SOGdxVkUtSHBQaUtGQ0VMd2ljam1ieVFiaVdjV3ZTelJRTEF2VmwxZ25YZWNoMHh2TA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUElBdWNvUG5jT3czWGRvZm56VVZmUDlXRnNPWG45WmlNNWVtb3luaDlMcUR5a2ZPNlBRLTgzZmQtd1NKWkxMNGtDTXhHSjNuLVdrRHF6R1NKM0VfUVdpcnVNR1BuUVFrZUFvZF9obW1majUyOEVqdFhLZ3p4Q1gxUQ?oc=5",
       "source": "時事ドットコム",
       "publishedAt": "2026-07-24T00:32:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQV01FaWFNVFoyazl1SFdidGRiYk5UOHlCRzVUVlJIRDh2SG8xeFBCUnpuMmpZNktTNXU3eFlWYUcxekZBUkM5eGh1c1pSU05SOGdxVkUtSHBQaUtGQ0VMd2ljam1ieVFiaVdjV3ZTelJRTEF2VmwxZ25YZWNoMHh2TA?oc=5\" target=\"_blank\"&gt;対日関税、上限１２．５％ ２４日発動、軽減措置を明記―米政府&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事ドットコム&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQUElBdWNvUG5jT3czWGRvZm56VVZmUDlXRnNPWG45WmlNNWVtb3luaDlMcUR5a2ZPNlBRLTgzZmQtd1NKWkxMNGtDTXhHSjNuLVdrRHF6R1NKM0VfUVdpcnVNR1BuUVFrZUFvZF9obW1majUyOEVqdFhLZ3p4Q1gxUQ?oc=5\" target=\"_blank\"&gt;対日関税、上限１２．５％ ２４日発動、軽減措置を明記―米政府&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事ドットコム&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 78,
       "japanRelated": false,
@@ -3137,12 +3172,12 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "a3huVjBGMGJEaFpWREY0Wm1WalFWRT9vYz01",
+      "id": "PSEp6WmxGcFRVdDBkMnd4Um05RFFRP29jPTU",
       "title": "◎１０％代替関税、２４日失効",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIRmhvdGtjM2hDLW5zSjlqNkZhd1g2Z25Pd1lKRHczTGNxeWNDeE5kQXZzRnVVem5JNjZnQU1nOTVwbnpXeWo4VXpJUUNQNkxnV0F0bDhZVDF4ZmVjQVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByMGFudXA3SnJRZlY3a3JwVFJWY0V5d09pa1kzWEZaeDFDUERueGlwZi1GNk8yVGVmVVNQNG53OG5rRVc4OHJzZlFpTUt0d2wxRm9DQQ?oc=5",
       "source": "時事通信ニュース",
       "publishedAt": "2026-07-23T06:17:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIRmhvdGtjM2hDLW5zSjlqNkZhd1g2Z25Pd1lKRHczTGNxeWNDeE5kQXZzRnVVem5JNjZnQU1nOTVwbnpXeWo4VXpJUUNQNkxnV0F0bDhZVDF4ZmVjQVE?oc=5\" target=\"_blank\"&gt;◎１０％代替関税、２４日失効&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事通信ニュース&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFByMGFudXA3SnJRZlY3a3JwVFJWY0V5d09pa1kzWEZaeDFDUERueGlwZi1GNk8yVGVmVVNQNG53OG5rRVc4OHJzZlFpTUt0d2wxRm9DQQ?oc=5\" target=\"_blank\"&gt;◎１０％代替関税、２４日失効&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事通信ニュース&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 78,
       "japanRelated": false,
@@ -3901,40 +3936,6 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "EzazFPV3d5UmpKbmFFeGtlVzAwYnc_b2M9NQ",
-      "title": "米投資でアルミ関税半減へ、国内回帰促し生産能力向上",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XeVNRZktKZTNQOTNTWWwzc3BJcXRSZ2czMjFadUJmSENBdkhTTmlvenEwNW96WmdqVm9XWmFWZDBwQjdMUTlYTkxvWmhIdHpLSzhCN1ZSMG5jOUpxa3k1OWwyRjJnaExkeW00bw?oc=5",
-      "source": "日本経済新聞",
-      "publishedAt": "2026-07-21T12:02:17.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5XeVNRZktKZTNQOTNTWWwzc3BJcXRSZ2czMjFadUJmSENBdkhTTmlvenEwNW96WmdqVm9XWmFWZDBwQjdMUTlYTkxvWmhIdHpLSzhCN1ZSMG5jOUpxa3k1OWwyRjJnaExkeW00bw?oc=5\" target=\"_blank\"&gt;米投資でアルミ関税半減へ、国内回帰促し生産能力向上&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;日本経済新聞&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 92,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
-      "id": "RqVjZlRXRYV25sRk5GbElSVEJvVEE_b2M9NQ",
-      "title": "GM、26年の利益800億円上方修正 関税還付と高単価車が寄与",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hUUxoTUxxZi1PYzBLbnFGX2wyWDRucllUa3dpbktmZFpOc0NrSWo0Um83RTkzakhibmlnanZ2UW5oM3ZROExXMUJudUxMcm81eEdTZVBmZS1lVlM1djV6eEtXWnlFNFlIRTBoTA?oc=5",
-      "source": "日本経済新聞",
-      "publishedAt": "2026-07-21T11:54:43.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5hUUxoTUxxZi1PYzBLbnFGX2wyWDRucllUa3dpbktmZFpOc0NrSWo0Um83RTkzakhibmlnanZ2UW5oM3ZROExXMUJudUxMcm81eEdTZVBmZS1lVlM1djV6eEtXWnlFNFlIRTBoTA?oc=5\" target=\"_blank\"&gt;GM、26年の利益800億円上方修正 関税還付と高単価車が寄与&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;日本経済新聞&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 92,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
       "id": "VnBWYmxrM05qUXRXbGxHTUZndGJrRT9vYz01",
       "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年7月21日(火曜日))",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBZVFNJZE1KZmxoNXhVajZMS2lTcFlvV0Nxc3FSelJyU1kwOWNMMkVQTC0xWnhSd0RLYlRocFJXMFJUQ1lHLUJab1F3M0hfTDFKNmJqdlFjVUpERVpnREdsVGl2aVpVblk3NjQtWllGMFgtbkE?oc=5",
@@ -4169,9 +4170,9 @@
       "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
     },
     {
-      "id": "NMmRHa3RPV3BCU0Vka1puRlBNakJuP29jPTU",
+      "id": "NGRGJFbHlaR1F5TjJ4eVFXWjBOMFE_b2M9NQ",
       "title": "Trump Media reportedly mulling fee for first access to social media posts",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNczJtYjIwZGVlb0wtcFl1VVBWSmZxdXpGZnVMaTdaSnNkYTh2MlFmQWFkNEFBM0hNRTBiSldCYUxCaUdfajVUeXAwOENZNGtiOFhuOHpiYTJydFZ6QWhSNkU3cFhLWWsxcUExNXVzSmxJQUdRYTNrdzY1cTZsTlU2VzFkSzJuSUgxSU1SOGNnZF9aeEZnZjRUVUVrNG9mZVl2UDJ6N3FDbElyZGQyN2xyQWZ0N0TSAboBQVVfeXFMTnI3cVdTcTVpNXhSMl9MR3I4NENBQzJISnRMSm9fUDdmT0NYbTI3dTAzc293RG1rdXpnN1NZSk5yRTZNSjNVMmxmM2dMejBwbHMxYUFReXBzel9IRVgxOTFMeENwanpfTEZucVNiWFFGRDNNa3NxdlpSVnFxV1k1SHR0VUZTblVmbGtzdnNPVzQ5QUpKTDlPX3ZfZEFxMVVNWGI0QkdVQXctWDM2dGktOWpBSEdkZnFPMjBn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNczJtYjIwZGVlb0wtcFl1VVBWSmZxdXpGZnVMaTdaSnNkYTh2MlFmQWFkNEFBM0hNRTBiSldCYUxCaUdfajVUeXAwOENZNGtiOFhuOHpiYTJydFZ6QWhSNkU3cFhLWWsxcUExNXVzSmxJQUdRYTNrdzY1cTZsTlU2VzFkSzJuSUgxSU1SOGNnZF9aeEZnZjRUVUVrNG9mZVl2UDJ6N3FDbElyZGQyN2xyQWZ0N0Q?oc=5",
       "source": "Al Jazeera",
       "publishedAt": "2026-07-18T07:00:00.000Z",
       "summary": "",
@@ -4281,24 +4282,6 @@
       "title": "Trump is selling high-speed access to his market-moving Truth Social posts",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUFptT251eGd3T0Vfb0xPcXE4a2dCRUlxYnZwUEhsZXNKTFcxRTItQWNBWDNVU3RjcGJvRi1EMVBfb1FoSkhuTlFTRHJfZzExNFFOX1FsaU8wVnFkeW1WLVNiRXk3WFczQUpUczFISi1aRGUtQW9ob2pWRDV3VGdJNlZrTXFhLTNR?oc=5",
       "source": "The Verge",
-      "publishedAt": "2026-07-17T07:00:00.000Z",
-      "summary": "",
-      "official": false,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 62,
-      "english": true,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
-      "id": "kMnh2UVY4eGNUbDVaM2hvV1RGa05BP29jPTU",
-      "title": "Trump Media proposes $100K monthly fee for ultrafast 'Truth Social' feed",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTU5uRWN6cUJhY3Y5NExlcHlwXzVjUUlSMmlJQk5UTGpiWFctVlo1MXpFV3EtVWZqUUZwdmZVX21RWTB3UC1XSkV3QjBXdDJpYlFQS0FvRmZuMzAtLWN5OGFzOThPb2tRb0k1aXFpTDU1NTFfSzRoUE9IVEhjdU5ONDJfU0JTbTNpM0FtYXFoajR4SDI3M0Jwdi10UWdsTURrd2xvQV8xcTl5Z3hoWTFkNA?oc=5",
-      "source": "The News International",
       "publishedAt": "2026-07-17T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -4565,24 +4548,6 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "prV1ZZNU5HRlFYM3BzTkVwSVIyZDM_b2M9NQ",
-      "title": "Treasury Announces Frank Bisignano to Lead Next Phase of Trump Accounts Expansion",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMeGpWLVB2eGRLSnFNRE1xckRNeEI5akVzSmpCaUp5ZUtNVnM0T1dEUFJQZVRSTklrWXllaFdvZ0ktc2FfUTRyUmdMU0E0dDFpTDZkWVY5NGFQX3psNEpIR2d3?oc=5",
-      "source": "U.S. Department of the Treasury (.gov)",
-      "publishedAt": "2026-07-15T07:00:00.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 72,
-      "english": true,
-      "socialPost": false,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
       "id": "ZhV0d0Qk9EVXpSRlpKZEZsa2JHeGo_b2M9NQ",
       "title": "トランプ氏と20日に会談か イスラエル首相近く訪米",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwNU5xTWltenlOLWY1dmJMS1JqZ0FBS2dFYXl2YVRFQkREMjhRRmY5Z3dUYVNMZXBTRDV2bGFpaHU5T0FfOTV1b1QtZUVQUFIzM0Z5UWQxRzFPRFFaWGtBODUzRFZJdFlkbGxj?oc=5",
@@ -4709,9 +4674,9 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "V2x1VmpVNFNuWlNkV1oxVVZCVmNGRT9vYz01",
-      "title": "President Trump Participates in a Bilateral Meeting with the President of Ukraine",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSHh5VGhxWGlsUldNNU9Fdk1KQWhiWnpha1NoV2txeUZNbHlaSlRnOXNVS1p6UlY1VzExNGRteFpVa3RCUEc2cTA5NlU2ZXRFY0h3aEl2NmJJZHN0TXVBMkllV290NUhpeTZTdUw2R3hVTjI2RGlYeFJJVDFsMUhhbTN4andGM09uTFItbWlOa1owbmlZX3hORFN0cU5XMzFONFZPc0NJd1hzTWluVjU4SnZSdWZ1UVBVcFE?oc=5",
+      "id": "VkUxQ1NtRTVSMDVyZDFjME5VNHpVUT9vYz01",
+      "title": "President Trump Participates in a Bilateral Meeting with the President of the Syrian Arab Republic",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeGV1UEVLM05tQURxaXhNekxkbGR2NkczQkppOUlmVXFsTU5VczBvc3JndmdFY2Z0dnFfNlZvNFVNRFhkUlkteGVSZFhpTTliRlRPOElrV0RBclR0U3hzZ3hxbWxDVEk1eHRwakxMaFpfTUxhWnpwNXNOLXpTRkk5N2V5blRUeWVPd1dBZTFkb3hpWGxDMV9KdmdzQzhaUzZoVkJTdEo4cVRvYVhfQW82ZzNKQWx2WVJfM3VmbWUxVE1CSmE5R05rd1c0NU4zUQ?oc=5",
       "source": "The White House (.gov)",
       "publishedAt": "2026-07-08T07:00:00.000Z",
       "summary": "",
@@ -4743,6 +4708,24 @@
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "ZFRKa2RYUkhYMDB0VVV0NmRWQnZadz9vYz01",
+      "title": "President Trump Participates in a Bilateral Meeting with the President of the Republic of Turkey",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVTgzQXM0a1hSdUJPNnJhRTl0Q2I1X2VaRTJkT0hsYVRYSzZOR2tlbXg4VUYyR2E2M2RXTGFyeFlzLXkwZ1NISGE2eHh5ZWZJZFFuSHlhZXNFZ3BaUjJpQVVaZVA1X3lkYmFreVRVS1dLVWhZU1F1bUVyRFFtYmEyRXZkQzhiei0wYUFHTEd6SUVOSlNrODZleDMtWVJnVThjWmdJeGFXRl9pR0hVUWJDM0VmcG5uaWcycmJVNnlpdTJkdXRHX00tUUt6dVBvZw?oc=5",
+      "source": "The White House (.gov)",
+      "publishedAt": "2026-07-07T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": true,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "rUlBZbVp4Y0VWalZrMU9aVFkwV2pBP29jPTU",
