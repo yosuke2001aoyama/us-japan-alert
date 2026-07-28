@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T19:55:02.904Z",
+  "generatedAt": "2026-07-28T21:02:51.454Z",
   "mode": "live",
   "sources": {
     "ok": 60,
@@ -620,23 +620,6 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "teGxRVkZ5VmpsRlFXTkVMVUo2YmpnP29jPTU",
-      "title": "トランプ関税、将来の政権でも維持の可能性－交渉の切り札・税収源に フォトギャラリー | TBS CROSS DIG with Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXNfVHpoNEJ4aGhSSlJxWDdOSVN6Ymc0NmFRb2p4RmdBbnFHN3NLNzFBeW5xbnd3LTN0bG83cVV2U1RBNFZGT1NxR3NhNXliUzY1WTY2ZW4wNG9TcEZxSjhrZ1NGc2FTZ0xmX3B1bDBJQjVLUlpMQmxlQVFyVjlFQWNELUJ6bjg?oc=5",
-      "source": "TBS NEWS DIG",
-      "publishedAt": "2026-07-27T13:48:11.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXNfVHpoNEJ4aGhSSlJxWDdOSVN6Ymc0NmFRb2p4RmdBbnFHN3NLNzFBeW5xbnd3LTN0bG83cVV2U1RBNFZGT1NxR3NhNXliUzY1WTY2ZW4wNG9TcEZxSjhrZ1NGc2FTZ0xmX3B1bDBJQjVLUlpMQmxlQVFyVjlFQWNELUJ6bjg?oc=5\" target=\"_blank\"&gt;トランプ関税、将来の政権でも維持の可能性－交渉の切り札・税収源に フォトギャラリー | TBS CROSS DIG with Bloomberg&lt;/a&gt;&nbsp;&nbsp;&lt;",
-      "category": "通商・経済",
-      "priority": 78,
-      "japanRelated": false,
-      "official": false,
-      "english": false,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
       "id": "h6TTRlRGhOZVU1bVYzVmFRbUpxTXc_b2M9NQ",
       "title": "中国、米追加関税の撤回要求 「強制労働」否定",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BMFRtNVFOd0VlY2ZiSlNWTjViSmlMOG1UemhjMlJhTGlzUTNEci1ma2twcTlONDBwWHVoTDI4WnltR3RoM3g0YzJYaW15WHdhVE4wVUUwUGctXzNYXzM4eDhNeU5mV3VaQmJqMw?oc=5",
@@ -783,6 +766,23 @@
       "category": "通商・経済",
       "priority": 92,
       "japanRelated": true,
+      "official": false,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "RkZRTlY4MGNrSmpUR1kzVVhVNVEwST9vYz01",
+      "title": "トランプ関税、将来の政権でも維持の可能性－交渉の切り札・税収源に フォトギャラリー | TBS CROSS DIG with Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPVkhEVE8wejdzT01QcXVLcHRxdDlWTnZGYTlSODVOeGQ2Y29yVnFMbjR1Y3A1Q19RVUYwUndqb0EwOWdnN3F4M1hDc2FFZTdlaVRmM0RyakVyTE5hSmhZd0FqWWs0ZnYxNjFiQzBlNEZsNXN0NWFmMGgtT0Ywd19iUTlKcXozSkVNb3ViX256R3EwejlhUVJwRkxaallUWGVGekRtVnRHYmJmWktyM0VIMEtjdmdlOG44T1ladGVwNVhxVzV6andqYkRHQUYybWh3ZmRfY1hiU0ZmaFBRcWFsM1BqdmpmV0ZIMG9GVVFkdDEzRWdRR2xhVFFQNV80ckJjTGY3UXU5Q0I?oc=5",
+      "source": "TBS NEWS DIG",
+      "publishedAt": "2026-07-27T06:28:19.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiAJBVV95cUxPVkhEVE8wejdzT01QcXVLcHRxdDlWTnZGYTlSODVOeGQ2Y29yVnFMbjR1Y3A1Q19RVUYwUndqb0EwOWdnN3F4M1hDc2FFZTdlaVRmM0RyakVyTE5hSmhZd0FqWWs0ZnYxNjFiQzBlNEZsNXN0NWFmMGgtT0Ywd19iUTlKcXozSkVNb3ViX256R3EwejlhUVJwRkxaallUWGVGekRtVnRHYmJmWktyM0VIMEtjdmdlOG44T1ladGVwNVhxVzV6andqYkRHQUYybWh3ZmRfY1hiU0ZmaFBRcWFsM1Bqdmp",
+      "category": "通商・経済",
+      "priority": 78,
+      "japanRelated": false,
       "official": false,
       "english": false,
       "socialPost": false,
@@ -3868,23 +3868,6 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "WjRhRWR3Y2pWT1RXaEdUbGwxTkVOdz9vYz01",
-      "title": "米追加関税５０％、カナダに適用へ 高官「山火事とは無関係」",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wQS1Pc3VMMm5rQ05QQUdTQXhhOVFzenpWOU9ZV0JqVXFZcTdhSTBYYjdsWlN2ZldEbV9IaExHaEt5d2RKRGpobWIzcjZ4aEdwcjVOTWhGTll1NENw?oc=5",
-      "source": "朝日新聞",
-      "publishedAt": "2026-07-21T20:00:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wQS1Pc3VMMm5rQ05QQUdTQXhhOVFzenpWOU9ZV0JqVXFZcTdhSTBYYjdsWlN2ZldEbV9IaExHaEt5d2RKRGpobWIzcjZ4aEdwcjVOTWhGTll1NENw?oc=5\" target=\"_blank\"&gt;米追加関税５０％、カナダに適用へ 高官「山火事とは無関係」&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;朝日新聞&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 78,
-      "japanRelated": false,
-      "official": false,
-      "english": false,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
       "id": "am9yZGFuLW9uLXJlY2lwcm9jYWwtdHJhZGUv",
       "title": "AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON RECIPROCAL TRADE",
       "url": "https://www.whitehouse.gov/briefings-statements/2026/07/agreement-between-the-united-states-of-america-and-the-hashemite-kingdom-of-jordan-on-reciprocal-trade/",
@@ -4513,24 +4496,6 @@
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
-      "id": "PQzFyZFZkM2RWaFFTVVpVVm1walFRP29jPTU",
-      "title": "Trump, Hegseth Speak at Defense, Innovation Summit",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE42Ukpfc28wMW5JMUYyRzlBQTZWclljVlNnSTlpdUVIVkQ3eTd6T29vZEVYMGdrc3M3aEVHMnZCTzZlQ3htVXZMbC1zSDhGOENDMHpDLWl1dllqcHVjbXdROHRFOC1rdVd3dVhQSUZUVmpjQQ?oc=5",
-      "source": "U.S. Department of War (.gov)",
-      "publishedAt": "2026-07-15T07:00:00.000Z",
-      "summary": "",
-      "official": true,
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 79,
-      "english": true,
-      "socialPost": false,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "prV1ZZNU5HRlFYM3BzTkVwSVIyZDM_b2M9NQ",
