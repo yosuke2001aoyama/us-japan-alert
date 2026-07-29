@@ -21,20 +21,25 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Collect and notify
+      - name: Collect and send one-event breaking alerts
         env:
           PUBLIC_DASHBOARD_URL: ${{ vars.PUBLIC_DASHBOARD_URL || 'https://us-japan-alert.vercel.app' }}
+          ALERT_MIN_PRIORITY: ${{ vars.ALERT_MIN_PRIORITY || '90' }}
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           ALERT_TO_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
           ALERT_FROM_EMAIL: ${{ secrets.ALERT_FROM_EMAIL }}
         run: node scripts/monitor.mjs
-      - name: Save latest snapshot
+      - name: Save feed and notification history
+        if: always()
         run: |
-          if git diff --quiet -- public/data/feed.json; then exit 0; fi
+          git add public/data/feed.json
+          if [ -f public/data/notified-events.json ]; then
+            git add public/data/notified-events.json
+          fi
+          if git diff --cached --quiet; then exit 0; fi
           git config user.name "jpus-alert[bot]"
           git config user.email "jpus-alert[bot]@users.noreply.github.com"
-          git add public/data/feed.json
-          git commit -m "data: refresh alert feed"
+          git commit -m "data: refresh feed and alert state"
           git push
