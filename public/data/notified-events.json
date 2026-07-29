@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-07-29T20:27:11.439Z",
+  "updatedAt": "2026-07-29T21:26:01.093Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -354,6 +354,73 @@
         "color",
         "6f6f6f",
         "経済新聞"
+      ]
+    },
+    {
+      "id": "1fe13c38a250f1914491f25a",
+      "title": "Holy cow this means that Independent Senate candidate @Achilles4Idaho has a one-on-one matchup with 83-year old Republican incumbent Jim Risch and Idaho just became a competitiv…",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5M05nYV9SMllCaTZMOEZPM2w2eDNXQXM2VnI5NExFQXViNy1Nb0ZyS3hRWXVWQ0dyNXlrQmNrNnJ0R1h6ejJaR0IxcTJNMXE4Qi03VDNMcDlYb1VMYVJKdQ?oc=5",
+      "category": "議会・政治",
+      "priority": 90,
+      "publishedAt": "2026-07-29T01:29:43.000Z",
+      "notifiedAt": "2026-07-29T21:26:01.093Z",
+      "baseline": false,
+      "stage": "",
+      "canonical": "holy cow this means that independent senate candidate achilles4idaho has a one on one matchup with 83 year old republican incumbent jim risch and idaho just became a competitiv holy cow this means that independent senate candidate achilles4idaho has a one on one matchup with 83 year old republican incumbent jim risch and idaho just became a competitive senate seat x com holy cow this means that independent senate candidate achilles4idaho has a one on one matchup with 83 year old republican incumbent jim risch and idaho just became a competitive senate seat x com",
+      "tokens": [
+        "holy",
+        "cow",
+        "this",
+        "means",
+        "that",
+        "independent",
+        "senate",
+        "candidate",
+        "achilles4idaho",
+        "one",
+        "matchup",
+        "year",
+        "old",
+        "republican",
+        "incumbent",
+        "jim",
+        "risch",
+        "idaho",
+        "just",
+        "became",
+        "competitiv",
+        "competitive",
+        "seat",
+        "com"
+      ]
+    },
+    {
+      "id": "088bfba4c8db6e42f9f2ce2c",
+      "title": "Ranking Member Shaheen Speaks on Senate Floor in Support of the Sanctioning Russia and Iran Act - Senate Committee on Foreign Relations (.gov). Ranking Member Shaheen Speaks on …",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRmlxY2FUZ1YzdW5URU9WcmVNT2h0MzllaE1QT1JMbHZyeTZBMS1MdWdPSnFWcVBqQktaT3l0ZU56SzFMVnhVRkxzMVcwVzJvSHY0TG9CdWV0NWZLWjY1d3h4ZXJ1WlFHODhIWG1uV0p5bmJta3VLb2VIWXE5Y05qVGR2bjIxeGVObG5ETXNVTTdCdnFmdjV4WmVvQWxEWGQ1a24ydDhHR0hMa2Jza1YzcEFhVDFHdU83MmhYdEZZXzhIM1FTb1NqTmJGV1JJbDlsSlFIdGZlSmx4RHVE?oc=5",
+      "category": "議会・政治",
+      "priority": 90,
+      "publishedAt": "2026-07-29T00:25:00.000Z",
+      "notifiedAt": "2026-07-29T21:26:01.093Z",
+      "baseline": false,
+      "stage": "response",
+      "canonical": "ranking member shaheen speaks on senate floor in support of the sanctioning russia and iran act senate committee on foreign relations gov ranking member shaheen speaks on ranking member shaheen speaks on senate floor in support of the sanctioning russia and iran act senate committee on foreign relations gov ranking member shaheen speaks on senate floor in support of the sanctioning russia and iran act senate committee on foreign relations gov",
+      "tokens": [
+        "ranking",
+        "member",
+        "shaheen",
+        "speaks",
+        "senate",
+        "floor",
+        "support",
+        "sanctioning",
+        "russia",
+        "iran",
+        "act",
+        "committee",
+        "foreign",
+        "relations",
+        "gov"
       ]
     }
   ]
