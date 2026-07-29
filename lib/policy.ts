@@ -18,6 +18,8 @@ const bilateralPattern =
   /\b(?:u\.?s\.?|united states)[-–—\s]+japan(?:ese)?\b|\bjapan(?:ese)?[-–—\s]+(?:u\.?s\.?|united states)\b|日米|米日|日・米|米・日/i;
 const japanPattern =
   /\bjapan(?:ese)?\b|\btokyo\b|\bokinawa\b|日本|東京|沖縄|高市|石破|岸田|総理|日本の首相|外務省|防衛省|経産省/i;
+const japanRemembrancePattern =
+  /\b(?:kumamoto|hiroshima|nagasaki|hibakusha|atomic bomb(?:ing)?|pacific war|v-?j day|victory over japan|japan(?:ese)? surrender|surrender of japan)\b|熊本|広島|長崎|被爆者|原爆|核廃絶|太平洋戦争|第二次世界大戦|終戦|日本降伏/i;
 const usPattern =
   /\b(?:u\.?s\.?a?|united states|america(?:n)?|washington|white house|pentagon|state department|department of state|department of defense|congress|senate|trump|rubio|hegseth)\b|米国|アメリカ|米政府|米大統領|米政権|ホワイトハウス|国務省|国防総省|米議会|米上院|米下院|トランプ|ルビオ|ヘグセス|米軍|米中|米露|米韓|訪米|対米/i;
 const leadershipPattern =
@@ -62,7 +64,8 @@ export function assessPrincipalCommunication(
   const communication = principalCommunicationPattern.test(text);
   const excluded = noisePattern.test(text) || genericPagePattern.test(text) || postMetaNoisePattern.test(text);
   const relevant = !excluded && principal && communication;
-  const bilateral = bilateralPattern.test(text) || (japanPattern.test(text) && usPattern.test(text));
+  const japanContext = japanPattern.test(text) || japanRemembrancePattern.test(text);
+  const bilateral = bilateralPattern.test(text) || (japanContext && usPattern.test(text));
   const base = assessPolicyItem(title, summary, official);
 
   return {
@@ -83,7 +86,7 @@ export function assessPolicyItem(
 ): PolicyAssessment {
   const text = `${title} ${summary}`.replace(/\s+/g, " ").trim();
   const bilateral = bilateralPattern.test(text);
-  const japan = japanPattern.test(text);
+  const japan = japanPattern.test(text) || japanRemembrancePattern.test(text);
   const us = usPattern.test(text);
   const senior = leadershipPattern.test(text);
   const institution = institutionPattern.test(text);
