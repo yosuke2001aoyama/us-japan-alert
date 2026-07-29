@@ -20,18 +20,20 @@ const japanPattern =
   /\bjapan(?:ese)?\b|\btokyo\b|\bokinawa\b|日本|東京|沖縄|高市|石破|岸田|総理|日本の首相|外務省|防衛省|経産省/i;
 const japanRemembrancePattern =
   /\b(?:kumamoto|hiroshima|nagasaki|hibakusha|atomic bomb(?:ing)?|pacific war|v-?j day|victory over japan|japan(?:ese)? surrender|surrender of japan)\b|熊本|広島|長崎|被爆者|原爆|核廃絶|太平洋戦争|第二次世界大戦|終戦|日本降伏/i;
+const japanDisasterPattern =
+  /\b(?:(?:kumamoto(?: prefecture| region)?|kyushu|southern japan|southwestern japan|japan(?:ese)?).{0,100}(?:earthquake|tsunami|aftershock|tremor|seismic)|(?:earthquake|tsunami|aftershock|tremor|seismic).{0,100}(?:kumamoto(?: prefecture| region)?|kyushu|southern japan|southwestern japan|japan(?:ese)?))\b|(?:熊本|九州|日本).{0,50}(?:地震|津波|余震|強い揺れ)|(?:地震|津波|余震|強い揺れ).{0,50}(?:熊本|九州|日本)/i;
 const usPattern =
   /\b(?:u\.?s\.?a?|united states|america(?:n)?|washington|white house|pentagon|state department|department of state|department of defense|congress|senate|trump|rubio|hegseth)\b|米国|アメリカ|米政府|米大統領|米政権|ホワイトハウス|国務省|国防総省|米議会|米上院|米下院|トランプ|ルビオ|ヘグセス|米軍|米中|米露|米韓|訪米|対米/i;
 const leadershipPattern =
   /\b(?:president|prime minister|vice president|secretary of state|secretary of defense|foreign minister|defen[cs]e minister|commerce secretary|treasury secretary|cabinet|senator|congress(?:man|woman)|ambassador|special envoy|director|chief)\b|大統領|副大統領|首相|総理|国務長官|国防長官|外相|外務大臣|防衛大臣|経産大臣|財務大臣|閣僚|上院議員|下院議員|大使|特使|長官|トップ/i;
 const institutionPattern =
-  /\b(?:white house|state department|department of state|pentagon|department of defense|congress|senate|house of representatives|national security council|nsc)\b|ホワイトハウス|国務省|国防総省|米議会|国家安全保障会議|首相官邸|外務省|防衛省|経産省/i;
+  /\b(?:white house|state department|department of state|pentagon|department of defense|congress|senate|house of representatives|national security council|nsc|prime minister'?s office of japan)\b|ホワイトハウス|国務省|国防総省|米議会|国家安全保障会議|首相官邸|外務省|防衛省|経産省|日本政府/i;
 const strategicPattern =
   /\b(?:alliance|indo-pacific|china|taiwan|north korea|russia|iran|security|defen[cs]e|military|nuclear|missile|base|deterrence|arms|ceasefire|trade|tariff|sanction|export control|semiconductor|critical mineral|currency|forex|investment screening|economic security|supply chain|technology transfer|visa policy)\b|同盟|インド太平洋|中国|台湾|北朝鮮|ロシア|イラン|米中|米露|米韓|安全保障|防衛|軍事|核|ミサイル|基地|抑止|武器|停戦|通商|貿易|関税|制裁|輸出管理|輸出規制|半導体|重要鉱物|為替|対米投資|投資審査|経済安全保障|サプライチェーン|技術移転|査証政策/i;
 const externalPolicyPattern =
   /\b(?:alliance|indo-pacific|foreign policy|diplomat|bilateral|multilateral|nato|g7|g20|china|taiwan|north korea|russia|ukraine|iran|israel|middle east|european union|asean|military|nuclear|missile|base|deterrence|arms|ceasefire|trade|tariff|sanction|export control|semiconductor|critical mineral|investment screening|economic security|supply chain|technology transfer|import|export)\b|同盟|インド太平洋|外交|二国間|多国間|NATO|G7|G20|中国|台湾|北朝鮮|ロシア|ウクライナ|イラン|イスラエル|中東|欧州連合|ASEAN|米中|米露|米韓|軍事|核|ミサイル|基地|抑止|武器|停戦|通商|貿易|関税|制裁|輸出管理|輸出規制|半導体|重要鉱物|投資審査|経済安全保障|サプライチェーン|技術移転|輸入|輸出/i;
 const actionPattern =
-  /\b(?:announc|approv|authoriz|ban(?:ned)?|block|cancel|confirm|consider|decid|deploy|designat|dismiss|fir(?:e|ed)|impos|launch|lift|meet|negotiat|nominat|order|plan|prepar|propos|reach(?:ed)? (?:an? )?(?:deal|agreement)|resign|restrict|sign|strike|suspend|threaten|visit|vote|warn|joint statement|readout|agreement|talks?|summit|executive order|legislation)\b|発表|表明|合意|決定|検討|調整|見通し|指名|承認|発動|会談|協議|訪問|訪米|辞任|解任|派遣|攻撃|署名|声明|方針|要請|警告|法案|可決|否決|訓練|共同声明/i;
+  /\b(?:announc|approv|authoriz|ban(?:ned)?|block|cancel|confirm|consider|decid|deploy|designat|dismiss|fir(?:e|ed)|impos|launch|lift|meet|negotiat|nominat|order|plan|prepar|propos|reach(?:ed)? (?:an? )?(?:deal|agreement)|resign|restrict|sign|strike|suspend|threaten|visit|vote|warn|joint statement|readout|agreement|talks?|summit|executive order|legislation|direct(?:s|ed)?|respond(?:s|ed|ing)?)\b|発表|表明|合意|決定|検討|調整|見通し|指名|承認|発動|会談|協議|訪問|訪米|辞任|解任|派遣|攻撃|署名|声明|方針|要請|警告|法案|可決|否決|訓練|共同声明|指示|対応|救命|救助/i;
 const defensePattern =
   /\b(?:alliance|indo-pacific|security|defen[cs]e|military|pentagon|navy|army|air force|nuclear|missile|base|deterrence|arms|ceasefire|attack|strike)\b|同盟|インド太平洋|安全保障|防衛|軍事|米軍|核|ミサイル|基地|抑止|武器|停戦|攻撃|共同訓練/i;
 const economyPattern =
@@ -47,11 +49,11 @@ const genericPagePattern =
 const postMetaNoisePattern =
   /\b(?:fake|fabricated|hoax).{0,30}(?:truth social|social media|post)|(?:bots?|traders?|wall street).{0,50}(?:cashing in|trade|trading|posts?)|(?:paid|early) access.{0,40}(?:truth social|posts?)|circulat(?:e|es|ed|ing).{0,30}(?:fake|post)|platform (?:policy|access|subscription)\b|偽(?:の|情報)?.{0,20}(?:投稿|SNS)|投稿への有料アクセス|投稿を利用した取引/i;
 const principalCommunicationPattern =
-  /\b(?:address(?:es|ed)?|announc(?:e|es|ed|ement)|brief(?:s|ed|ing)?|comment(?:s|ed)?|interview(?:s|ed)?|meet(?:s|ing)?|post(?:s|ed)?|press conference|readout|remark(?:s|ed)?|respond(?:s|ed)?|say(?:s|ing)?|said|speech|speak(?:s|ing)?|statement|testif(?:y|ies|ied)|transcript|truth social|wrote)\b|会見|会談|発言|発表|表明|談話|声明|挨拶|演説|答弁|投稿|発信|インタビュー|記者団|訓示|寄稿/i;
+  /\b(?:address(?:es|ed)?|announc(?:e|es|ed|ement)|brief(?:s|ed|ing)?|comment(?:s|ed)?|interview(?:s|ed)?|meet(?:s|ing)?|post(?:s|ed)?|press conference|readout|remark(?:s|ed)?|respond(?:s|ed)?|say(?:s|ing)?|said|speech|speak(?:s|ing)?|statement|testif(?:y|ies|ied)|transcript|truth social|wrote|condolences?|pray(?:s|ed|ing|ers)?|commemorat(?:e|es|ed|ing)|remember(?:s|ed|ing)?|mourn(?:s|ed|ing)?|stands? with|solidarity)\b|会見|会談|発言|発表|表明|談話|声明|挨拶|演説|答弁|投稿|発信|インタビュー|記者団|訓示|寄稿|お見舞い|哀悼|祈り|連帯/i;
 const usPrincipalPattern =
   /\b(?:donald )?trump\b|\bjd vance\b|\bmarco rubio\b|\bpete hegseth\b|\bscott bessent\b|\bhoward lutnick\b|\bjamieson greer\b|\btammy duckworth\b|\brick scott\b|\bmazie hirono\b|\bdan sullivan\b|\bbill hagerty\b|\bjim risch\b|\bjeanne shaheen\b|\bed markey\b|\byoung kim\b|\bami bera\b|\bjohn moolenaar\b|\bpresident\b|\bvice president\b|\bsecretary of state\b|\bsecretary of (?:war|defense|treasury|commerce)\b|\bu\.?s\.? trade representative\b|\bu\.?s\.? senator\b|\bsenator\b|\bu\.?s\.? representative\b|\brepresentative\b|\bcongress(?:man|woman)\b|\bmember of congress\b|\bu\.?s\.? congress\b|\bsenate foreign relations committee\b|\bhouse foreign affairs committee\b|トランプ|ヴァンス|バンス|ルビオ|ヘグセス|ベッセント|ラトニック|グリア|米大統領|米副大統領|国務長官|国防長官|財務長官|商務長官|通商代表|米上院議員|米下院議員|米国議員|米議員|米議会|上院外交委員会|下院外交委員会/i;
 const jpPrincipalPattern =
-  /高市|木原|茂木|小泉|片山|赤澤|小野田|総理|首相|官房長官|外務大臣|外相|防衛大臣|防衛相|財務大臣|財務相|経済産業大臣|経産相|経済安全保障担当大臣|経済安保相/i;
+  /\b(?:sanae takaichi|prime minister(?: of japan)?|chief cabinet secretary|foreign minister|defen[cs]e minister|finance minister|economy minister)\b|高市|木原|茂木|小泉|片山|赤澤|小野田|総理|首相|官房長官|首相官邸|外務大臣|外相|防衛大臣|防衛相|財務大臣|財務相|経済産業大臣|経産相|経済安全保障担当大臣|経済安保相/i;
 
 export function assessPrincipalCommunication(
   title: string,
@@ -64,7 +66,7 @@ export function assessPrincipalCommunication(
   const communication = principalCommunicationPattern.test(text);
   const excluded = noisePattern.test(text) || genericPagePattern.test(text) || postMetaNoisePattern.test(text);
   const relevant = !excluded && principal && communication;
-  const japanContext = japanPattern.test(text) || japanRemembrancePattern.test(text);
+  const japanContext = japanPattern.test(text) || japanRemembrancePattern.test(text) || japanDisasterPattern.test(text);
   const bilateral = bilateralPattern.test(text) || (japanContext && usPattern.test(text));
   const base = assessPolicyItem(title, summary, official);
 
@@ -86,7 +88,8 @@ export function assessPolicyItem(
 ): PolicyAssessment {
   const text = `${title} ${summary}`.replace(/\s+/g, " ").trim();
   const bilateral = bilateralPattern.test(text);
-  const japan = japanPattern.test(text) || japanRemembrancePattern.test(text);
+  const japanEmergency = japanDisasterPattern.test(text);
+  const japan = japanPattern.test(text) || japanRemembrancePattern.test(text) || japanEmergency;
   const us = usPattern.test(text);
   const senior = leadershipPattern.test(text);
   const institution = institutionPattern.test(text);
@@ -98,17 +101,19 @@ export function assessPolicyItem(
   const directJapanUS = (bilateral || (japan && us)) && (strategic || senior || action || institution);
   const majorUSPolicy = us && action && external && (strategic || senior || institution);
   const officialStrategicAction = official && us && external && strategic && (action || senior);
-  const relevant = !excluded && (directJapanUS || majorUSPolicy || officialStrategicAction);
+  const officialJapanEmergency = official && japanEmergency && (senior || institution || action);
+  const relevant = !excluded && (directJapanUS || majorUSPolicy || officialStrategicAction || officialJapanEmergency);
 
   let category: PolicyCategory = official ? "公式発表" : "議会・政治";
   if (bilateral) category = "日米関係";
   if (defensePattern.test(text)) category = "外交・安保";
   if (economyPattern.test(text)) category = "通商・経済";
   if (legislaturePattern.test(text)) category = "議会・政治";
-  if (senior && /\b(?:summit|visit|meet|talks?)\b|首脳会談|会談|訪米|訪問/i.test(text)) category = "首脳・閣僚";
+  if (senior && (/\b(?:summit|visit|meet|talks?)\b|首脳会談|会談|訪米|訪問/i.test(text) || officialJapanEmergency)) category = "首脳・閣僚";
 
   let priority = official ? 48 : 38;
-  if (bilateral) priority += 30;
+  if (officialJapanEmergency) priority += 38;
+  else if (bilateral) priority += 30;
   else if (japan && us) priority += 25;
   else if (majorUSPolicy) priority += 10;
   if (senior) priority += 12;
