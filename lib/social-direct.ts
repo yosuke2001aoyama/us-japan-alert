@@ -6,40 +6,46 @@ type TruthAccount = { id: string; acct?: string; display_name?: string };
 type TruthStatus = { id: string; created_at: string; content?: string; url?: string; reblog?: unknown; account?: TruthAccount };
 type XUser = { id: string; username: string; name: string };
 type XPost = { id: string; text: string; created_at?: string };
-type PublicFigure = { username: string; label: string; side: "jp" | "us"; searchTerms: string[] };
+type PublicFigure = {
+  username: string;
+  label: string;
+  side: "jp" | "us";
+  searchTerms: string[];
+  officialDomains?: string[];
+};
 
 const truthAccounts = ["realDonaldTrump"];
 
 const publicFigures: PublicFigure[] = [
-  { username: "WhiteHouse", label: "White House", side: "us", searchTerms: ["White House"] },
-  { username: "POTUS", label: "President of the United States", side: "us", searchTerms: ["POTUS", "President Trump"] },
-  { username: "VP", label: "Vice President", side: "us", searchTerms: ["Vice President Vance"] },
-  { username: "SecRubio", label: "Secretary Marco Rubio", side: "us", searchTerms: ["Marco Rubio", "Secretary Rubio"] },
-  { username: "DeptofDefense", label: "U.S. Department of Defense", side: "us", searchTerms: ["Department of Defense", "Pentagon"] },
-  { username: "StateDept", label: "U.S. Department of State", side: "us", searchTerms: ["State Department"] },
-  { username: "USTradeRep", label: "U.S. Trade Representative", side: "us", searchTerms: ["USTR", "Trade Representative"] },
-  { username: "USTreasury", label: "U.S. Treasury", side: "us", searchTerms: ["U.S. Treasury"] },
-  { username: "CommerceGov", label: "U.S. Commerce Department", side: "us", searchTerms: ["Commerce Department"] },
+  { username: "WhiteHouse", label: "White House", side: "us", searchTerms: ["White House"], officialDomains: ["whitehouse.gov"] },
+  { username: "POTUS", label: "President of the United States", side: "us", searchTerms: ["POTUS", "President Trump"], officialDomains: ["whitehouse.gov"] },
+  { username: "VP", label: "Vice President", side: "us", searchTerms: ["Vice President Vance"], officialDomains: ["whitehouse.gov"] },
+  { username: "SecRubio", label: "Secretary Marco Rubio", side: "us", searchTerms: ["Marco Rubio", "Secretary Rubio"], officialDomains: ["state.gov"] },
+  { username: "DeptofDefense", label: "U.S. Department of Defense", side: "us", searchTerms: ["Department of Defense", "Pentagon"], officialDomains: ["defense.gov"] },
+  { username: "StateDept", label: "U.S. Department of State", side: "us", searchTerms: ["State Department"], officialDomains: ["state.gov"] },
+  { username: "USTradeRep", label: "U.S. Trade Representative", side: "us", searchTerms: ["USTR", "Trade Representative"], officialDomains: ["ustr.gov"] },
+  { username: "USTreasury", label: "U.S. Treasury", side: "us", searchTerms: ["U.S. Treasury"], officialDomains: ["home.treasury.gov", "treasury.gov"] },
+  { username: "CommerceGov", label: "U.S. Commerce Department", side: "us", searchTerms: ["Commerce Department"], officialDomains: ["commerce.gov"] },
 
   // Japan-focused members and congressional foreign-policy leadership.
-  { username: "SenDuckworth", label: "U.S. Senator Tammy Duckworth", side: "us", searchTerms: ["Tammy Duckworth", "Senator Duckworth"] },
-  { username: "SenRickScott", label: "U.S. Senator Rick Scott", side: "us", searchTerms: ["Rick Scott", "Senator Rick Scott"] },
-  { username: "SenatorHirono", label: "U.S. Senator Mazie Hirono", side: "us", searchTerms: ["Mazie Hirono", "Senator Hirono"] },
-  { username: "SenDanSullivan", label: "U.S. Senator Dan Sullivan", side: "us", searchTerms: ["Dan Sullivan", "Senator Sullivan"] },
-  { username: "SenBillHagerty", label: "U.S. Senator Bill Hagerty", side: "us", searchTerms: ["Bill Hagerty", "Senator Hagerty"] },
-  { username: "SenatorRisch", label: "U.S. Senator Jim Risch", side: "us", searchTerms: ["Jim Risch", "Senator Risch"] },
-  { username: "SenatorShaheen", label: "U.S. Senator Jeanne Shaheen", side: "us", searchTerms: ["Jeanne Shaheen", "Senator Shaheen"] },
-  { username: "SenMarkey", label: "U.S. Senator Ed Markey", side: "us", searchTerms: ["Ed Markey", "Senator Markey"] },
-  { username: "RepYoungKim", label: "U.S. Representative Young Kim", side: "us", searchTerms: ["Young Kim", "Representative Young Kim"] },
-  { username: "RepBera", label: "U.S. Representative Ami Bera", side: "us", searchTerms: ["Ami Bera", "Representative Bera"] },
-  { username: "RepMoolenaar", label: "U.S. Representative John Moolenaar", side: "us", searchTerms: ["John Moolenaar", "Representative Moolenaar"] },
-  { username: "SFRCdems", label: "Senate Foreign Relations Committee Democrats", side: "us", searchTerms: ["Senate Foreign Relations Committee"] },
-  { username: "SenateForeign", label: "Senate Foreign Relations Committee", side: "us", searchTerms: ["Senate Foreign Relations Committee"] },
-  { username: "HouseForeignGOP", label: "House Foreign Affairs Committee", side: "us", searchTerms: ["House Foreign Affairs Committee"] },
+  { username: "SenDuckworth", label: "U.S. Senator Tammy Duckworth", side: "us", searchTerms: ["Tammy Duckworth", "Senator Duckworth"], officialDomains: ["duckworth.senate.gov"] },
+  { username: "SenRickScott", label: "U.S. Senator Rick Scott", side: "us", searchTerms: ["Rick Scott", "Senator Rick Scott"], officialDomains: ["rickscott.senate.gov"] },
+  { username: "SenatorHirono", label: "U.S. Senator Mazie Hirono", side: "us", searchTerms: ["Mazie Hirono", "Senator Hirono"], officialDomains: ["hirono.senate.gov"] },
+  { username: "SenDanSullivan", label: "U.S. Senator Dan Sullivan", side: "us", searchTerms: ["Dan Sullivan", "Senator Sullivan"], officialDomains: ["sullivan.senate.gov"] },
+  { username: "SenBillHagerty", label: "U.S. Senator Bill Hagerty", side: "us", searchTerms: ["Bill Hagerty", "Senator Hagerty"], officialDomains: ["hagerty.senate.gov"] },
+  { username: "SenatorRisch", label: "U.S. Senator Jim Risch", side: "us", searchTerms: ["Jim Risch", "Senator Risch"], officialDomains: ["risch.senate.gov"] },
+  { username: "SenatorShaheen", label: "U.S. Senator Jeanne Shaheen", side: "us", searchTerms: ["Jeanne Shaheen", "Senator Shaheen"], officialDomains: ["shaheen.senate.gov"] },
+  { username: "SenMarkey", label: "U.S. Senator Ed Markey", side: "us", searchTerms: ["Ed Markey", "Senator Markey"], officialDomains: ["markey.senate.gov"] },
+  { username: "RepYoungKim", label: "U.S. Representative Young Kim", side: "us", searchTerms: ["Young Kim", "Representative Young Kim"], officialDomains: ["youngkim.house.gov"] },
+  { username: "RepBera", label: "U.S. Representative Ami Bera", side: "us", searchTerms: ["Ami Bera", "Representative Bera"], officialDomains: ["bera.house.gov"] },
+  { username: "RepMoolenaar", label: "U.S. Representative John Moolenaar", side: "us", searchTerms: ["John Moolenaar", "Representative Moolenaar"], officialDomains: ["moolenaar.house.gov"] },
+  { username: "SFRCdems", label: "Senate Foreign Relations Committee Democrats", side: "us", searchTerms: ["Senate Foreign Relations Committee"], officialDomains: ["foreign.senate.gov"] },
+  { username: "SenateForeign", label: "Senate Foreign Relations Committee", side: "us", searchTerms: ["Senate Foreign Relations Committee"], officialDomains: ["foreign.senate.gov"] },
+  { username: "HouseForeignGOP", label: "House Foreign Affairs Committee", side: "us", searchTerms: ["House Foreign Affairs Committee"], officialDomains: ["foreignaffairs.house.gov"] },
 
-  { username: "JPN_PMO", label: "Prime Minister's Office of Japan", side: "jp", searchTerms: ["Prime Minister's Office of Japan"] },
-  { username: "MofaJapan_en", label: "Ministry of Foreign Affairs of Japan", side: "jp", searchTerms: ["MOFA Japan"] },
-  { username: "ModJapan_en", label: "Ministry of Defense of Japan", side: "jp", searchTerms: ["MOD Japan"] },
+  { username: "JPN_PMO", label: "Prime Minister's Office of Japan", side: "jp", searchTerms: ["Prime Minister's Office of Japan"], officialDomains: ["kantei.go.jp"] },
+  { username: "MofaJapan_en", label: "Ministry of Foreign Affairs of Japan", side: "jp", searchTerms: ["MOFA Japan"], officialDomains: ["mofa.go.jp"] },
+  { username: "ModJapan_en", label: "Ministry of Defense of Japan", side: "jp", searchTerms: ["MOD Japan"], officialDomains: ["mod.go.jp"] },
 ];
 
 const browserHeaders = {
@@ -142,8 +148,9 @@ async function readXAccount(figure: PublicFigure, bearer: string): Promise<Alert
 
 async function readIndexedFigurePosts(figure: PublicFigure): Promise<AlertItem[]> {
   const identity = figure.searchTerms.map((term) => `"${term}"`).join(" OR ");
-  const japanTopics = '(Japan OR Japanese OR Tokyo OR Okinawa OR Kumamoto OR earthquake OR tsunami OR Hiroshima OR Nagasaki OR "atomic bombing" OR "World War II" OR "Pacific War" OR "V-J Day" OR "end of war" OR 終戦 OR 原爆)';
-  const query = `(site:x.com OR site:twitter.com OR site:${figure.username.toLowerCase()}.senate.gov OR site:house.gov OR site:senate.gov) (${identity}) ${japanTopics} when:14d`;
+  const japanTopics = '(Japan OR Japanese OR Tokyo OR Okinawa OR Kumamoto OR earthquake OR tsunami OR Hiroshima OR Nagasaki OR hibakusha OR "atomic bombing" OR "nuclear abolition" OR "World War II" OR "Pacific War" OR "V-J Day" OR "end of war" OR "Japan surrender" OR 終戦 OR 原爆 OR 被爆者)';
+  const siteClauses = ["site:x.com", "site:twitter.com", ...(figure.officialDomains || []).map((domain) => `site:${domain}`)];
+  const query = `(${siteClauses.join(" OR ")}) (${identity}) ${japanTopics} when:14d`;
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
   const response = await fetch(url, { headers: browserHeaders, signal: AbortSignal.timeout(12_000), cache: "no-store" });
   if (!response.ok) throw new Error(`indexed ${response.status}`);
@@ -160,7 +167,7 @@ async function readIndexedFigurePosts(figure: PublicFigure): Promise<AlertItem[]
 }
 
 async function readJapanRemembranceSignals(): Promise<AlertItem[]> {
-  const query = '(site:senate.gov OR site:house.gov OR site:whitehouse.gov OR site:state.gov OR site:x.com) (Hiroshima OR Nagasaki OR "atomic bombing" OR hibakusha OR "Pacific War" OR "World War II" OR "V-J Day" OR "end of war" OR Japan surrender OR 終戦 OR 原爆) (statement OR remarks OR commemorates OR remembers OR anniversary OR post) when:30d';
+  const query = '(site:senate.gov OR site:house.gov OR site:whitehouse.gov OR site:state.gov OR site:defense.gov OR site:x.com) (Hiroshima OR Nagasaki OR "atomic bombing" OR hibakusha OR "nuclear abolition" OR "Pacific War" OR "World War II" OR "V-J Day" OR "end of war" OR "Japan surrender" OR 終戦 OR 原爆 OR 被爆者) (statement OR remarks OR commemorates OR remembers OR anniversary OR post) when:30d';
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
   const response = await fetch(url, { headers: browserHeaders, signal: AbortSignal.timeout(12_000), cache: "no-store" });
   if (!response.ok) throw new Error(`remembrance ${response.status}`);
