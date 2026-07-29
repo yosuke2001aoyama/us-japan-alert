@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-07-29T22:28:11.226Z",
+  "updatedAt": "2026-07-29T23:31:07.330Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -421,6 +421,34 @@
         "foreign",
         "relations",
         "gov"
+      ]
+    },
+    {
+      "id": "12e3ca90962ab8e6c1a03ada",
+      "title": "I’ll be live on r/massachusetts at 12pm answering your questions and talking about the fights of our time. Ask me anything! - x.com. I’ll be live on r/massachusetts at 12pm answ…",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUTTNLOVhVOENISVJzYlQ4ZFJPOTFWWmJBd0RVQkZfYzFILVdpNUthb0RQdDRGZEZjYjg3a2JsTkt2WGtrVVZoS21MQzVxUmNPUDRxWlFBQXo0Q1BxVWc?oc=5",
+      "category": "議会・政治",
+      "priority": 90,
+      "publishedAt": "2026-07-29T14:11:48.000Z",
+      "notifiedAt": "2026-07-29T23:31:07.330Z",
+      "baseline": false,
+      "stage": "",
+      "canonical": "i ll be on r massachusetts at 12pm answering your questions and talking about the fights of our time ask me anything x com i ll be on r massachusetts at 12pm answ i ll be on r massachusetts at 12pm answering your questions and talking about the fights of our time ask me anything x com i ll be on r massachusetts at 12pm answering your questions and talking about the fights of our time ask me anything x com",
+      "tokens": [
+        "massachusetts",
+        "12pm",
+        "answering",
+        "your",
+        "questions",
+        "talking",
+        "about",
+        "fights",
+        "our",
+        "time",
+        "ask",
+        "anything",
+        "com",
+        "answ"
       ]
     }
   ]
