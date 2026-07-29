@@ -47,7 +47,7 @@ const postMetaNoisePattern =
 const principalCommunicationPattern =
   /\b(?:address(?:es|ed)?|announc(?:e|es|ed|ement)|brief(?:s|ed|ing)?|comment(?:s|ed)?|interview(?:s|ed)?|meet(?:s|ing)?|post(?:s|ed)?|press conference|readout|remark(?:s|ed)?|respond(?:s|ed)?|say(?:s|ing)?|said|speech|speak(?:s|ing)?|statement|testif(?:y|ies|ied)|transcript|truth social|wrote)\b|会見|会談|発言|発表|表明|談話|声明|挨拶|演説|答弁|投稿|発信|インタビュー|記者団|訓示|寄稿/i;
 const usPrincipalPattern =
-  /\b(?:donald )?trump\b|\bjd vance\b|\bmarco rubio\b|\bpete hegseth\b|\bscott bessent\b|\bhoward lutnick\b|\bjamieson greer\b|\bpresident\b|\bvice president\b|\bsecretary of state\b|\bsecretary of (?:war|defense|treasury|commerce)\b|\bu\.?s\.? trade representative\b|トランプ|ヴァンス|バンス|ルビオ|ヘグセス|ベッセント|ラトニック|グリア|米大統領|米副大統領|国務長官|国防長官|財務長官|商務長官|通商代表/i;
+  /\b(?:donald )?trump\b|\bjd vance\b|\bmarco rubio\b|\bpete hegseth\b|\bscott bessent\b|\bhoward lutnick\b|\bjamieson greer\b|\btammy duckworth\b|\brick scott\b|\bmazie hirono\b|\bdan sullivan\b|\bbill hagerty\b|\bjim risch\b|\bjeanne shaheen\b|\bed markey\b|\byoung kim\b|\bami bera\b|\bjohn moolenaar\b|\bpresident\b|\bvice president\b|\bsecretary of state\b|\bsecretary of (?:war|defense|treasury|commerce)\b|\bu\.?s\.? trade representative\b|\bu\.?s\.? senator\b|\bsenator\b|\bu\.?s\.? representative\b|\brepresentative\b|\bcongress(?:man|woman)\b|\bmember of congress\b|\bu\.?s\.? congress\b|\bsenate foreign relations committee\b|\bhouse foreign affairs committee\b|トランプ|ヴァンス|バンス|ルビオ|ヘグセス|ベッセント|ラトニック|グリア|米大統領|米副大統領|国務長官|国防長官|財務長官|商務長官|通商代表|米上院議員|米下院議員|米国議員|米議員|米議会|上院外交委員会|下院外交委員会/i;
 const jpPrincipalPattern =
   /高市|木原|茂木|小泉|片山|赤澤|小野田|総理|首相|官房長官|外務大臣|外相|防衛大臣|防衛相|財務大臣|財務相|経済産業大臣|経産相|経済安全保障担当大臣|経済安保相/i;
 
