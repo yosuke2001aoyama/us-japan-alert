@@ -1,4 +1,4 @@
-import { assessPrincipalCommunication, cleanNewsTitle } from "./policy.ts";
+import { assessDirectPrincipalPost, assessPrincipalCommunication, cleanNewsTitle } from "./policy.ts";
 import type { AlertItem } from "./feeds.ts";
 
 type SocialResult = { items: AlertItem[]; ok: number; failed: number; failedNames: string[]; total: number };
@@ -36,6 +36,10 @@ export const publicFigures: PublicFigure[] = [
   { username: "POTUS", label: "President of the United States", side: "us", searchTerms: ["POTUS", "President Trump"], officialDomains: ["whitehouse.gov"] },
   { username: "VP", label: "Vice President", side: "us", searchTerms: ["Vice President Vance"], officialDomains: ["whitehouse.gov"] },
   { username: "SecRubio", label: "Secretary Marco Rubio", side: "us", searchTerms: ["Marco Rubio", "Secretary Rubio"], officialDomains: ["state.gov"] },
+  { username: "SecWar", label: "Secretary of War Pete Hegseth", side: "us", searchTerms: ["Pete Hegseth", "Secretary Hegseth", "SecWar"], officialDomains: ["defense.gov", "war.gov"] },
+  { username: "SecScottBessent", label: "Treasury Secretary Scott Bessent", side: "us", searchTerms: ["Scott Bessent", "Secretary Bessent"], officialDomains: ["home.treasury.gov", "treasury.gov"] },
+  { username: "howardlutnick", label: "Commerce Secretary Howard Lutnick", side: "us", searchTerms: ["Howard Lutnick", "Secretary Lutnick"], officialDomains: ["commerce.gov"] },
+  { username: "jamiesongreer", label: "U.S. Trade Representative Jamieson Greer", side: "us", searchTerms: ["Jamieson Greer", "Trade Representative Greer"], officialDomains: ["ustr.gov"] },
   { username: "DeptofDefense", label: "U.S. Department of Defense", side: "us", searchTerms: ["Department of Defense", "Department of War", "Pentagon"], officialDomains: ["defense.gov", "war.gov"] },
   { username: "StateDept", label: "U.S. Department of State", side: "us", searchTerms: ["State Department", "Department of State"], officialDomains: ["state.gov"] },
   { username: "USAmbJapan", label: "U.S. Ambassador to Japan George Glass", side: "us", searchTerms: ["George Glass", "U.S. Ambassador to Japan", "USAmbJapan"], officialDomains: ["jp.usembassy.gov", "state.gov"] },
@@ -60,8 +64,12 @@ export const publicFigures: PublicFigure[] = [
   { username: "HouseForeignGOP", label: "House Foreign Affairs Committee", side: "us", searchTerms: ["House Foreign Affairs Committee"], officialDomains: ["foreignaffairs.house.gov"] },
 
   { username: "JPN_PMO", label: "Prime Minister's Office of Japan", side: "jp", searchTerms: ["Prime Minister's Office of Japan"], officialDomains: ["kantei.go.jp"] },
+  { username: "takaichi_sanae", label: "Prime Minister Sanae Takaichi", side: "jp", searchTerms: ["Sanae Takaichi", "高市早苗", "高市総理"], officialDomains: ["kantei.go.jp"] },
   { username: "MofaJapan_en", label: "Ministry of Foreign Affairs of Japan", side: "jp", searchTerms: ["MOFA Japan"], officialDomains: ["mofa.go.jp"] },
   { username: "ModJapan_en", label: "Ministry of Defense of Japan", side: "jp", searchTerms: ["MOD Japan"], officialDomains: ["mod.go.jp"] },
+  { username: "shinjirokoiz", label: "Defense Minister Shinjiro Koizumi", side: "jp", searchTerms: ["Shinjiro Koizumi", "小泉進次郎", "小泉防衛相"], officialDomains: ["mod.go.jp"] },
+  { username: "satsukikatayama", label: "Finance Minister Satsuki Katayama", side: "jp", searchTerms: ["Satsuki Katayama", "片山さつき", "片山財務相"], officialDomains: ["mof.go.jp"] },
+  { username: "onoda_kimi", label: "Economic Security Minister Kimi Onoda", side: "jp", searchTerms: ["Kimi Onoda", "小野田紀美", "小野田経済安保相"], officialDomains: ["cao.go.jp"] },
 ];
 
 // These searches are deliberately role- and domain-based so coverage survives personnel changes.
@@ -185,11 +193,14 @@ function socialItem(args: {
   publishedAt?: string;
   side: "jp" | "us";
   verifiedAuthor?: boolean;
+  directPost?: boolean;
 }): AlertItem | null {
   const text = stripHtml(args.text);
   if (!text) return null;
-  const assessment = assessPrincipalCommunication(text, "", Boolean(args.verifiedAuthor), args.side, Boolean(args.verifiedAuthor));
-  if (!assessment.relevant || !assessment.japanRelated) return null;
+  const assessment = args.directPost
+    ? assessDirectPrincipalPost(text, "", args.side)
+    : assessPrincipalCommunication(text, "", Boolean(args.verifiedAuthor), args.side, Boolean(args.verifiedAuthor));
+  if (!assessment.relevant || (!args.directPost && !assessment.japanRelated)) return null;
   return {
     id: Buffer.from(args.url).toString("base64url").slice(-36),
     title: cleanNewsTitle(text.length > 180 ? `${text.slice(0, 177)}…` : text),
@@ -227,6 +238,7 @@ async function readTruthApi(acct: string): Promise<AlertItem[]> {
       publishedAt: status.created_at,
       side: "us",
       verifiedAuthor: true,
+      directPost: true,
     });
     return item ? [item] : [];
   });
@@ -267,6 +279,7 @@ async function readTruthArchive(acct: string): Promise<AlertItem[]> {
       publishedAt: xmlField(entry, "pubDate") || xmlField(entry, "published") || xmlField(entry, "updated"),
       side: "us",
       verifiedAuthor: true,
+      directPost: true,
     });
     return item ? [item] : [];
   });
@@ -307,6 +320,7 @@ async function readXAccount(figure: PublicFigure, bearer: string): Promise<Alert
       publishedAt: post.created_at,
       side: figure.side,
       verifiedAuthor: true,
+      directPost: true,
     });
     return item ? [item] : [];
   });
@@ -323,6 +337,8 @@ async function readIndexedFigurePosts(figure: PublicFigure): Promise<AlertItem[]
     allowedDomains: ["x.com", "twitter.com", ...(figure.officialDomains || [])],
     identityTerms: [figure.username || "", ...figure.searchTerms].filter(Boolean),
     maxAgeDays: 14,
+    expectedUsername: figure.username,
+    directSource: figure.username ? `X · @${figure.username} · ${figure.label}` : undefined,
   });
 }
 
@@ -340,6 +356,8 @@ export type IndexedOptions = {
   allowedDomains: string[];
   identityTerms?: string[];
   maxAgeDays: number;
+  expectedUsername?: string;
+  directSource?: string;
 };
 
 export function isExpectedIndexedSource(
@@ -361,6 +379,74 @@ export function isWithinDays(value: string, days: number, now = Date.now()) {
     && published >= now - days * 24 * 60 * 60 * 1_000;
 }
 
+export function isExpectedXAccountUrl(value: string, username: string) {
+  try {
+    const url = new URL(value);
+    const host = url.hostname.toLowerCase().replace(/^www\./, "");
+    if (!isSocialHost(host)) return false;
+    const [account, route, id] = url.pathname.split("/").filter(Boolean);
+    return account?.toLowerCase() === username.toLowerCase()
+      && route === "status"
+      && /^\d+$/.test(id || "");
+  } catch {
+    return false;
+  }
+}
+
+async function resolveGoogleNewsUrl(value: string) {
+  let url: URL;
+  try { url = new URL(value); }
+  catch { return value; }
+  if (url.hostname !== "news.google.com" || !/\/(?:rss\/)?articles\//.test(url.pathname)) return value;
+
+  const page = await fetch(value, {
+    headers: browserHeaders,
+    signal: AbortSignal.timeout(12_000),
+    cache: "no-store",
+  });
+  if (!page.ok) throw new Error(`Google News decode page ${page.status}`);
+  const html = await page.text();
+  const id = html.match(/data-n-a-id=["']([^"']+)/i)?.[1];
+  const timestamp = html.match(/data-n-a-ts=["'](\d+)/i)?.[1];
+  const signature = html.match(/data-n-a-sg=["']([^"']+)/i)?.[1];
+  if (!id || !timestamp || !signature) throw new Error("Google News decode parameters missing");
+
+  const request = [
+    "garturlreq",
+    [
+      ["X", "X", ["X", "X"], null, null, 1, 1, "US:en", null, 1, null, null, null, null, null, 0, 1],
+      "X", "X", 1, [1, 1, 1], 1, 1, null, 0, 0, null, 0,
+    ],
+    id,
+    Number(timestamp),
+    signature,
+  ];
+  const body = new URLSearchParams({
+    "f.req": JSON.stringify([[["Fbv4je", JSON.stringify(request), null, "generic"]]]),
+  });
+  const decoded = await fetch("https://news.google.com/_/DotsSplashUi/data/batchexecute", {
+    method: "POST",
+    headers: {
+      "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+      referer: "https://news.google.com/",
+      "user-agent": browserHeaders["user-agent"],
+    },
+    body,
+    signal: AbortSignal.timeout(12_000),
+    cache: "no-store",
+  });
+  if (!decoded.ok) throw new Error(`Google News decode ${decoded.status}`);
+  const responseText = await decoded.text();
+  const jsonStart = responseText.indexOf("[[");
+  if (jsonStart < 0) throw new Error("Google News decode response malformed");
+  const rows = JSON.parse(responseText.slice(jsonStart)) as unknown[][];
+  const payload = rows.find((row) => row[0] === "wrb.fr" && row[1] === "Fbv4je")?.[2];
+  if (typeof payload !== "string") throw new Error("Google News decode result missing");
+  const result = JSON.parse(payload) as unknown[];
+  if (result[0] !== "garturlres" || typeof result[1] !== "string") throw new Error("Google News decode URL missing");
+  return result[1];
+}
+
 async function readGoogleNews(
   query: string,
   source: string,
@@ -373,27 +459,49 @@ async function readGoogleNews(
   if (!response.ok) throw new Error(`indexed ${response.status}`);
   const xml = await response.text();
   const entries = [...xml.matchAll(/<item[^>]*>([\s\S]*?)<\/item>/gi)].slice(0, limit).map((m) => m[1]);
-  return entries.flatMap((entry) => {
+  const items: AlertItem[] = [];
+  let xCandidatesChecked = 0;
+  for (const entry of entries) {
     const title = stripHtml(xmlField(entry, "title"));
     const link = xmlField(entry, "link");
     const description = stripHtml(xmlField(entry, "description"));
     const publisherUrl = xmlAttribute(entry, "source", "url");
     const publishedAt = xmlField(entry, "pubDate");
     const combined = `${title}. ${description}`;
-    if (!title || !link) return [];
-    if (!isWithinDays(publishedAt, options.maxAgeDays)) return [];
-    if (!isExpectedIndexedSource(combined, publisherUrl, options)) return [];
-    const verifiedAuthor = !isSocialHost(safeHost(publisherUrl));
+    if (!title || !link) continue;
+    if (!isWithinDays(publishedAt, options.maxAgeDays)) continue;
+
+    const publisherHost = safeHost(publisherUrl);
+    let itemUrl = link;
+    let itemSource = source;
+    let verifiedAuthor = !isSocialHost(publisherHost);
+    let directPost = false;
+
+    if (isSocialHost(publisherHost) && options.expectedUsername) {
+      if (xCandidatesChecked >= 6) continue;
+      xCandidatesChecked += 1;
+      try { itemUrl = await resolveGoogleNewsUrl(link); }
+      catch { continue; }
+      if (!isExpectedXAccountUrl(itemUrl, options.expectedUsername)) continue;
+      verifiedAuthor = true;
+      directPost = true;
+      itemSource = options.directSource || `X · @${options.expectedUsername}`;
+    } else if (!isExpectedIndexedSource(combined, publisherUrl, options)) {
+      continue;
+    }
+
     const item = socialItem({
       text: combined,
-      url: link,
-      source: verifiedAuthor ? source : "公開検索 · X",
+      url: itemUrl,
+      source: verifiedAuthor ? itemSource : "公開検索 · X",
       publishedAt,
       side,
       verifiedAuthor,
+      directPost,
     });
-    return item ? [item] : [];
-  });
+    if (item) items.push(item);
+  }
+  return items;
 }
 
 async function readJapanRemembranceSignals(): Promise<AlertItem[]> {
