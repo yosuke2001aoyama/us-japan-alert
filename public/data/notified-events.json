@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-07-30T18:04:11.350Z",
+  "updatedAt": "2026-07-30T19:46:15.927Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -1036,6 +1036,20 @@
         "servic",
         "com"
       ]
+    },
+    {
+      "id": "482a370ca23f5def8ac5a9b0",
+      "title": "NYダウ1153ドル安、関税ショック以来の下落 30年金利19年ぶり高さ",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZeDREYllndmhRa3ZwckplSmxQU0pEWlptekxTOEZJcTNpOEoyMzMta0hEY1NwVHhsMlJEMDl3TDNfWW9yUUJ5cFJNMUNvTDhsY2I3WU5IUWVrak5IZkJoTDZNXzlLSWhfcjZpRw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-07-29T20:47:34.000Z",
+      "notifiedAt": "2026-07-30T19:46:15.927Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZeDREYllndmhRa3ZwckplSmxQU0pEWlptekxTOEZJcTNpOEoyMzMta0hEY1NwVHhsMlJEMDl3TDNfWW9yUUJ5cFJNMUNvTDhsY2I3WU5IUWVrak5IZkJoTDZNXzlLSWhfcjZpRw",
+      "articleTitleKey": "nyダウ1153ドル安 関税ショック以来の下落 30年金利19年ぶり高さ",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
