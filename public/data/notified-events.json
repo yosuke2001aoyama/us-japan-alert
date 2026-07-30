@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-07-29T23:31:07.330Z",
+  "updatedAt": "2026-07-30T00:55:41.475Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -449,6 +449,38 @@
         "anything",
         "com",
         "answ"
+      ]
+    },
+    {
+      "id": "08a8e7fd4f77f601a7b80a62",
+      "title": "マキタ、純利益19%増 4～6月 関税還付で原価率改善",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95TGVTaHdrTmdhdHNwRFJjMTIyLTFSbVR4RHpWVGFqeEZvaTBZd29Td3JUVElzWjl6NVJ5clp5c21FdE9rR3dGSzVNclMwT1FpMlNkZzFyLXdEXzNTaDZOV0RiVzlqdTFSWHkzZw?oc=5",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-07-29T17:00:00.000Z",
+      "notifiedAt": "2026-07-30T00:55:41.475Z",
+      "baseline": false,
+      "stage": "",
+      "canonical": "マキタ 純利益19 増 4 6月 関税還付で原価率改善 lt a href target blank gt マキタ 純利益19 増 4 6月 関税還付で原価率改善 lt a gt nbsp nbsp lt font color 6f6f6f gt 日本経済新聞 lt font gt",
+      "tokens": [
+        "マキタ",
+        "純利益",
+        "関税還",
+        "税還付",
+        "還付で",
+        "付で原",
+        "で原価",
+        "原価率",
+        "価率改",
+        "率改善",
+        "href",
+        "target",
+        "blank",
+        "nbsp",
+        "font",
+        "color",
+        "6f6f6f",
+        "経済新聞"
       ]
     }
   ]
