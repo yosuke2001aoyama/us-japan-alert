@@ -29,19 +29,19 @@ const leadershipPattern =
 const institutionPattern =
   /\b(?:white house|state department|department of state|pentagon|department of defense|department of war|congress|senate|house of representatives|national security council|nsc|u\.?s\.? embassy|u\.?s\.? mission japan|u\.?s\.? forces japan|usfj|u\.?s\.? pacific command|uspacom|usindopacom|prime minister'?s office of japan)\b|ホワイトハウス|国務省|国防総省|米議会|国家安全保障会議|在日米国大使館|在日米軍|米太平洋軍|首相官邸|外務省|防衛省|経産省|日本政府/i;
 const strategicPattern =
-  /\b(?:alliance|indo-pacific|china|taiwan|north korea|russia|iran|international criminal court|icc|security|defen[cs]e|military|nuclear|atomic bomb(?:ing)?|a-?bomb|missile|base|deterrence|arms|ceasefire|trade|tariff|sanction|export control|semiconductor|critical mineral|currency|forex|investment screening|economic security|supply chain|technology transfer|visa policy)\b|同盟|戦略|インド太平洋|中国|台湾|北朝鮮|ロシア|イラン|国際刑事裁判所|ICC|米中|米露|米韓|安全保障|防衛|軍事|核|原爆|被爆|ミサイル|基地|抑止|武器|停戦|通商|貿易|関税|制裁|輸出管理|輸出規制|半導体|重要鉱物|為替|対米投資|投資審査|経済安全保障|サプライチェーン|技術移転|査証政策/i;
+  /\b(?:alliance|indo-pacific|china|taiwan|north korea|russia|iran|international criminal court|icc|security|defen[cs]e|military|nuclear|atomic bomb(?:ing)?|a-?bomb|missile|base|deterrence|arms|ceasefire|trade|tariffs?|sanction|export control|semiconductor|critical mineral|currency|forex|investment screening|economic security|supply chain|technology transfer|visa policy)\b|同盟|戦略|インド太平洋|中国|台湾|北朝鮮|ロシア|イラン|国際刑事裁判所|米中|米露|米韓|安全保障|防衛|軍事|核|原爆|被爆|ミサイル|基地|抑止|武器|停戦|通商|貿易|関税|制裁|輸出管理|輸出規制|半導体|重要鉱物|為替|対米投資|投資審査|経済安全保障|サプライチェーン|技術移転|査証政策/i;
 const externalPolicyPattern =
-  /\b(?:alliance|indo-pacific|foreign policy|diplomat|bilateral|multilateral|nato|g7|g20|china|taiwan|north korea|russia|ukraine|iran|israel|middle east|european union|asean|military|nuclear|missile|base|deterrence|arms|ceasefire|trade|tariff|sanction|export control|semiconductor|critical mineral|investment screening|economic security|supply chain|technology transfer|import|export)\b|同盟|インド太平洋|外交|二国間|多国間|NATO|G7|G20|中国|台湾|北朝鮮|ロシア|ウクライナ|イラン|イスラエル|中東|欧州連合|ASEAN|米中|米露|米韓|軍事|核|ミサイル|基地|抑止|武器|停戦|通商|貿易|関税|制裁|輸出管理|輸出規制|半導体|重要鉱物|投資審査|経済安全保障|サプライチェーン|技術移転|輸入|輸出/i;
+  /\b(?:alliance|indo-pacific|foreign policy|diplomat|bilateral|multilateral|nato|g7|g20|china|taiwan|north korea|russia|ukraine|iran|israel|middle east|european union|e\.?u\.?|asean|military|nuclear|missile|base|deterrence|arms|ceasefire|trade|tariffs?|sanction|export control|semiconductor|critical mineral|investment screening|economic security|supply chain|technology transfer|import|export)\b|同盟|インド太平洋|外交|二国間|多国間|中国|台湾|北朝鮮|ロシア|ウクライナ|イラン|イスラエル|中東|欧州連合|米中|米露|米韓|軍事|核|ミサイル|基地|抑止|武器|停戦|通商|貿易|関税|制裁|輸出管理|輸出規制|半導体|重要鉱物|投資審査|経済安全保障|サプライチェーン|技術移転|輸入|輸出/i;
 const systemicPolicyPattern =
-  /\b(?:china|taiwan|north korea|russia|ukraine|iran|israel|middle east|european union|nato|g7|g20|indo-pacific|nuclear|missile|ceasefire|sanction|export control|semiconductor|critical mineral|economic security|supply chain|motor vehicle|automotive|steel|aluminum)\b|中国|台湾|北朝鮮|ロシア|ウクライナ|イラン|イスラエル|中東|欧州連合|米中|米露|米韓|EU|NATO|G7|G20|インド太平洋|核|ミサイル|停戦|制裁|輸出管理|輸出規制|半導体|重要鉱物|経済安全保障|サプライチェーン|自動車|鉄鋼|アルミ/i;
+  /\b(?:china|taiwan|north korea|russia|ukraine|iran|israel|middle east|european union|e\.?u\.?|nato|g7|g20|indo-pacific|nuclear|missile|ceasefire|sanction|export control|semiconductor|critical mineral|economic security|supply chain|motor vehicle|automotive|steel|aluminum)\b|中国|台湾|北朝鮮|ロシア|ウクライナ|イラン|イスラエル|中東|欧州連合|米中|米露|米韓|インド太平洋|核|ミサイル|停戦|制裁|輸出管理|輸出規制|半導体|重要鉱物|経済安全保障|サプライチェーン|自動車|鉄鋼|アルミ/i;
 const actionPattern =
   /\b(?:announc|approv|authoriz|ban(?:ned)?|block|cancel|confirm|consider|decid|deploy|designat|disclos|dismiss|fir(?:e|ed)|impos|launch|lift|meet|negotiat|nominat|order|plan|prepar|propos|reach(?:ed)? (?:an? )?(?:deal|agreement)|resign|restrict|reveal|sign|strike|suspend|threaten|told reporters?|visit|vote|warn|joint statement|readout|agreement|talks?|summit|executive order|legislation|direct(?:s|ed)?|respond(?:s|ed|ing)?)\b|発表|表明|合意|決定|検討|調整|見通し|明らかにした|述べた|語った|記者団|取材|インタビュー|指名|承認|発動|会談|協議|訪問|訪米|辞任|解任|派遣|攻撃|署名|声明|方針|要請|警告|法案|可決|否決|訓練|共同声明|指示|対応|救命|救助/i;
 const hardActionPattern =
-  /\b(?:attack|strike|deploy|impos(?:e|es|ed|ing)|ban(?:s|ned|ning)?|block|restrict|suspend|lift(?:s|ed|ing)?|sanction|export control|ceasefire|tariff|executive order|sign(?:s|ed|ing)? (?:an? )?(?:agreement|order|bill)|secur(?:e|es|ed|ing))\b|攻撃|派遣|発動|制裁|輸出管理|輸出規制|関税|大統領令|署名|禁止|停止|解除|封鎖/i;
+  /\b(?:attack|strike|deploy|impos(?:e|es|ed|ing)|ban(?:s|ned|ning)?|block|restrict|suspend|lift(?:s|ed|ing)?|sanction|export control|ceasefire|tariffs?|executive order|sign(?:s|ed|ing)? (?:an? )?(?:agreement|order|bill)|secur(?:e|es|ed|ing))\b|攻撃|派遣|発動|制裁|輸出管理|輸出規制|関税|大統領令|署名|禁止|停止|解除|封鎖/i;
 const defensePattern =
   /\b(?:alliance|indo-pacific|security|defen[cs]e|military|pentagon|navy|army|air force|nuclear|missile|base|deterrence|arms|ceasefire|attack|strike)\b|同盟|インド太平洋|安全保障|防衛|軍事|米軍|核|ミサイル|基地|抑止|武器|停戦|攻撃|共同訓練/i;
 const economyPattern =
-  /\b(?:econom|trade|tariff|market|currency|forex|sanction|export control|semiconductor|critical mineral|investment|supply chain)\b|経済|通商|貿易|関税|市場|為替|制裁|輸出管理|輸出規制|半導体|重要鉱物|投資|サプライチェーン/i;
+  /\b(?:econom|trade|tariffs?|market|currency|forex|sanction|export control|semiconductor|critical mineral|investment|supply chain)\b|経済|通商|貿易|関税|市場|為替|制裁|輸出管理|輸出規制|半導体|重要鉱物|投資|サプライチェーン/i;
 const legislaturePattern =
   /\b(?:congress|senate|house of representatives|lawmaker|legislation|bill|nomination|confirmation|resign|dismiss)\b|議会|上院|下院|議員|法案|指名|承認|辞任|解任|人事/i;
 const noisePattern =
@@ -52,6 +52,8 @@ const genericPagePattern =
   /\b(?:home ?page|official web ?site|ambassador archives?|biograph(?:y|ies)|leadership profile)\b|ホームページ|公式Webサイト|サイトトップ|略歴|プロフィール/i;
 const postMetaNoisePattern =
   /\b(?:fake|fabricated|hoax).{0,30}(?:truth social|social media|post)|(?:bots?|traders?|wall street).{0,50}(?:cashing in|trade|trading|posts?)|(?:paid|early) access.{0,40}(?:truth social|posts?)|circulat(?:e|es|ed|ing).{0,30}(?:fake|post)|platform (?:policy|access|subscription)\b|偽(?:の|情報)?.{0,20}(?:投稿|SNS)|投稿への有料アクセス|投稿を利用した取引/i;
+const domesticCampaignPattern =
+  /\b(?:complete and total endorsement|endorse(?:ment|s|d)?|running to represent|congressional district|primary election|reelect(?:ion|s|ed)?|campaign rally)\b|全面的に支持|選挙区|予備選|再選支持|推薦候補/i;
 const principalCommunicationPattern =
   /\b(?:address(?:es|ed)?|announc(?:e|es|ed|ement)|brief(?:s|ed|ing)?|comment(?:s|ed)?|interview(?:s|ed)?|meet(?:s|ing)?|post(?:s|ed)?|press conference|press release|readout|remark(?:s|ed)?|respond(?:s|ed)?|say(?:s|ing)?|said|speech|speak(?:s|ing)?|statement|testif(?:y|ies|ied)|transcript|truth social|wrote|condolences?|pray(?:s|ed|ing|ers)?|commemorat(?:e|es|ed|ing)|remember(?:s|ed|ing)?|mourn(?:s|ed|ing)?|stands? with|solidarity)\b|会見|会談|発言|発表|表明|談話|声明|挨拶|演説|答弁|投稿|発信|報道発表|インタビュー|記者団|訓示|寄稿|お見舞い|哀悼|祈り|連帯/i;
 const policyStatementPattern =
@@ -60,6 +62,12 @@ const usPrincipalPattern =
   /\b(?:donald )?trump\b|\bjd vance\b|\b(?:secretary )?(?:marco )?rubio\b|\b(?:secretary )?(?:pete )?hegseth\b|\bscott bessent\b|\bhoward lutnick\b|\bjamieson greer\b|\bgeorge glass\b|\bsamuel (?:j\. )?paparo\b|\bstephen jost\b|\bgeorge (?:b\. )?rowell\b|\b(?:tammy )?duckworth\b|\b(?:rick )?scott\b|\b(?:mazie )?hirono\b|\b(?:dan )?sullivan\b|\b(?:bill )?hagerty\b|\b(?:jim )?risch\b|\b(?:jeanne )?shaheen\b|\b(?:ed )?markey\b|\b(?:young )?kim\b|\b(?:ami )?bera\b|\b(?:john )?moolenaar\b|\bpresident (?:donald )?trump\b|\bvice president (?:jd )?vance\b|\bsecretary of state\b|\bu\.?s\.? secretary of (?:war|defense|treasury|commerce)\b|\bu\.?s\.? trade representative\b|\bu\.?s\.? ambassador(?: to japan)?\b|\bu\.?s\.? deputy chief of mission\b|\bu\.?s\.? (?:deputy )?assistant secretary\b|\bu\.?s\.? national security advisor\b|\bu\.?s\.? senior director\b|\bu\.?s\.? (?:deputy )?commander\b|\bu\.?s\.? senator\b|\bu\.?s\.? representative\b|\bu\.?s\.? congress(?:man|woman)\b|\bmember of (?:the )?u\.?s\.? congress\b|\bu\.?s\.? congress\b|\bsenate foreign relations committee\b|\bhouse foreign affairs committee\b|トランプ|ヴァンス|バンス|ルビオ|ヘグセス|ベッセント|ラトニック|グリア|グラス大使|米大統領|米副大統領|国務長官|国防長官|財務長官|商務長官|通商代表|駐日米国大使|米国大使|米首席公使|米次官補|米国家安全保障担当補佐官|米軍司令官|米軍副司令官|米上院議員|米下院議員|米国議員|米議員|米議会|上院外交委員会|下院外交委員会/i;
 const jpPrincipalPattern =
   /\b(?:sanae takaichi|prime minister of japan|japan(?:ese)? chief cabinet secretary|japan(?:ese)? foreign minister|japan(?:ese)? defen[cs]e minister|japan(?:ese)? finance minister|japan(?:ese)? economy minister|japan(?:ese)? national security secretariat)\b|高市|木原|茂木|小泉|片山|赤澤|小野田|総理|首相|官房長官|首相官邸|外務大臣|外相|防衛大臣|防衛相|財務大臣|財務相|経済産業大臣|経産相|経済安全保障担当大臣|経済安保相|国家安全保障局長/i;
+const seniorPersonnelPattern =
+  /\b(?:director of national intelligence|national security advisor|secretary of state|secretary of (?:defense|war|treasury|commerce)|trade representative|ambassador to japan|chief cabinet secretary|foreign minister|defen[cs]e minister|finance minister|economy minister)\b|国家情報長官|国家安全保障担当補佐官|国務長官|国防長官|財務長官|商務長官|通商代表|駐日米国大使|官房長官|外務大臣|外相|防衛大臣|防衛相|財務大臣|財務相|経済産業大臣|経産相/i;
+const personnelActionPattern =
+  /\b(?:appoint(?:s|ed|ment)?|confirm(?:s|ed|ation)?|dismiss(?:es|ed|al)?|fire[sd]?|nominat(?:e|es|ed|ion)|resign(?:s|ed|ation)?)\b|任命|指名|承認|就任|辞任|解任|更迭/i;
+const foreignLeaderPattern =
+  /\b(?:netanyahu|zelenskyy?|xi jinping|vladimir putin|kim jong un|modi|starmer|macron|mer[zt]|foreign (?:president|prime minister)|president of (?:china|russia|ukraine|south korea|taiwan)|prime minister of (?:israel|india|the united kingdom|australia))\b|ネタニヤフ|ゼレンスキー|習近平|プーチン|金正恩|モディ|スターマー|マクロン|外国首脳/i;
 
 export function assessPrincipalCommunication(
   title: string,
@@ -88,6 +96,57 @@ export function assessPrincipalCommunication(
     priority: relevant
       ? Math.min(99, (official ? 72 : 62) + (bilateral ? 18 : 0) + (actionPattern.test(text) ? 7 : 0))
       : 0,
+    english: isEnglish(title),
+  };
+}
+
+export function assessDirectPrincipalPost(
+  title: string,
+  summary = "",
+  country: "jp" | "us" = "us",
+): PolicyAssessment {
+  const text = `${title} ${summary}`.replace(/\s+/g, " ").trim();
+  const japan = japanPattern.test(text) || japanRemembrancePattern.test(text) || japanDisasterPattern.test(text);
+  const bilateral = bilateralPattern.test(text) || (country === "us" && japan);
+  const strategic = strategicPattern.test(text);
+  const external = externalPolicyPattern.test(text);
+  const systemic = systemicPolicyPattern.test(text);
+  const action = actionPattern.test(text);
+  const hardAction = hardActionPattern.test(text);
+  const seniorPersonnel = seniorPersonnelPattern.test(text) && personnelActionPattern.test(text);
+  const foreignLeader = foreignLeaderPattern.test(text);
+  const excluded = noisePattern.test(text)
+    || lowValuePattern.test(text)
+    || genericPagePattern.test(text)
+    || postMetaNoisePattern.test(text)
+    || (domesticCampaignPattern.test(text) && !japan);
+
+  // The post itself is the communication. Do not require words such as
+  // "said", "posted", or "statement" inside a verified first-party post.
+  const directJapanSignal = japan && (strategic || external || action || japanRemembrancePattern.test(text));
+  const majorUSSignal = country === "us" && (
+    (external && (systemic || hardAction || action))
+    || (foreignLeader && (action || leadershipPattern.test(text)))
+  );
+  const japanesePolicySignal = country === "jp" && (strategic || external || japanDisasterPattern.test(text));
+  const relevant = !excluded && (directJapanSignal || majorUSSignal || japanesePolicySignal || seniorPersonnel);
+  const base = assessPolicyItem(`${country === "jp" ? "Japan" : "United States"} ${title}`, summary, true);
+
+  let category = base.relevant ? base.category : ("首脳・閣僚" as PolicyCategory);
+  if (defensePattern.test(text)) category = "外交・安保";
+  if (economyPattern.test(text)) category = "通商・経済";
+  if (legislaturePattern.test(text)) category = "議会・政治";
+
+  let priority = relevant ? 82 : 0;
+  if (bilateral || country === "jp") priority += 8;
+  if (hardAction || seniorPersonnel) priority += 5;
+  if (japanRemembrancePattern.test(text)) priority += 5;
+
+  return {
+    relevant,
+    japanRelated: country === "jp" || japan || bilateral,
+    category,
+    priority: Math.min(99, priority),
     english: isEnglish(title),
   };
 }
