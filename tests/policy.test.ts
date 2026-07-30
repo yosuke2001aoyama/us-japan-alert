@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {
+  assessDirectPrincipalPost,
   assessPrincipalCommunication,
   assessPolicyItem,
   cleanNewsSummary,
@@ -224,6 +225,48 @@ test("keeps public communications from monitored Japanese principals", () => {
   assert.equal(result.japanRelated, true);
 });
 
+test("treats verified principal posts as communications without attribution words", () => {
+  const tariffPost = assessDirectPrincipalPost(
+    "The Supreme Court has cost our Nation TRILLIONS with its negative ruling on TARIFFS.",
+    "",
+    "us",
+  );
+  assert.equal(tariffPost.relevant, true);
+  assert.equal(tariffPost.category, "通商・経済");
+  assert.ok(tariffPost.priority >= 82);
+
+  const diplomacyPost = assessDirectPrincipalPost(
+    "Prime Minister Netanyahu and I had a very good meeting. Many important subjects were discussed.",
+    "",
+    "us",
+  );
+  assert.equal(diplomacyPost.relevant, true);
+  assert.equal(diplomacyPost.japanRelated, false);
+
+  const domesticPraise = assessDirectPrincipalPost(
+    "Todd Blanche is a STAR, and everyone knows it!",
+    "",
+    "us",
+  );
+  assert.equal(domesticPraise.relevant, false);
+  assert.equal(
+    assessDirectPrincipalPost(
+      "Senator Ron Johnson is working with Senate leadership on a budget resolution funding our troops and farmers.",
+      "",
+      "us",
+    ).relevant,
+    false,
+  );
+  assert.equal(
+    assessDirectPrincipalPost(
+      "I endorse Amir Hassan for Congress. He served in the U.S. Navy, will strengthen our military, keep our border SECURE, and fight for Michigan.",
+      "",
+      "us",
+    ).relevant,
+    false,
+  );
+});
+
 test("treats an obscure lawmaker atomic-bomb remark as a critical Japan signal", () => {
   const result = assessPrincipalCommunication(
     "U.S. Senator issues remarks questioning the atomic bombing of Hiroshima",
@@ -339,6 +382,18 @@ test("keeps high-value reports and direct disclosures that officials may be aske
       summary: "The official met U.S. senators and administration officials to discuss Iran policy.",
       source: "Reuters",
       priority: 78,
+    })),
+    true,
+  );
+  assert.equal(
+    passesFinalRelevanceGuard(item({
+      title: "The Supreme Court has cost our Nation TRILLIONS with its negative ruling on TARIFFS.",
+      summary: "The Supreme Court has cost our Nation TRILLIONS with its negative ruling on TARIFFS.",
+      source: "Truth Social · @realDonaldTrump · President Donald Trump",
+      official: true,
+      verifiedSource: true,
+      actorCountry: "us",
+      priority: 87,
     })),
     true,
   );
