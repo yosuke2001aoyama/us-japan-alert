@@ -48,6 +48,8 @@ export async function GET(request: Request) {
     .slice(0, 700);
 
   const hasModFallback = items.some((item) => /(^|\.)mod\.go\.jp$/i.test(safeHost(item.url)) || /mod\.go\.jp/i.test(item.source));
+  const truthSocialItems = items.filter((item) => item.source.startsWith("Truth Social · @")).length;
+  const xDirectItems = items.filter((item) => item.source.startsWith("X · @")).length;
   const recoverableBase = new Set(hasModFallback ? ["防衛省 · 報道資料", "防衛省 · 更新情報"] : []);
   const baseFailed = (base.sources.failedNames || []).filter((name) => !recoverableBase.has(name));
   const baseRecovered = (base.sources.failedNames || []).length - baseFailed.length;
@@ -70,7 +72,9 @@ export async function GET(request: Request) {
       ],
       capabilities: {
         truthSocial: true,
-        xDirect: Boolean(process.env.X_BEARER_TOKEN?.trim()),
+        xDirect: true,
+        truthSocialItems,
+        xDirectItems,
       },
     },
   };
