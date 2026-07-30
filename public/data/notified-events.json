@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-07-30T03:53:11.406Z",
+  "updatedAt": "2026-07-30T06:17:18.500Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -555,6 +555,26 @@
         "cultural",
         "characteristics",
         "com"
+      ]
+    },
+    {
+      "id": "374f4d5aa684d9319983eac1",
+      "title": "National Security Archives - U.S. Senator Roger Wicker (.gov). National Security Archives U.S. Senator Roger Wicker (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hSzFhcWYtZTAzYXA3cnhVQlJqVTlyR291MjFnck1kOUNjeGNYRmZtbXpQSHhFVGU5Umg4VFlibHhrOWxQR1JWUE94V3FkMFA3aVJScFRWMm5IekRUSjF1Ql9JeTl1ZE03ZGdhR2FON0RUdy1lNzZ4Q3o3SDE?oc=5",
+      "category": "議会・政治",
+      "priority": 90,
+      "publishedAt": "2026-07-29T12:12:11.000Z",
+      "notifiedAt": "2026-07-30T06:17:18.500Z",
+      "baseline": false,
+      "stage": "",
+      "canonical": "national security archives u s senator roger wicker gov national security archives u s senator roger wicker gov national security archives u s senator roger wicker gov national security archives u s senator roger wicker gov",
+      "tokens": [
+        "national",
+        "security",
+        "archives",
+        "roger",
+        "wicker",
+        "gov"
       ]
     }
   ]
