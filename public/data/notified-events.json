@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-07-30T06:17:18.500Z",
+  "updatedAt": "2026-07-30T09:07:04.841Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -575,6 +575,48 @@
         "roger",
         "wicker",
         "gov"
+      ]
+    },
+    {
+      "id": "41ab29d9308708610501b74e",
+      "title": "A photo of the destroyed Philip Morris factory in Kharkiv was shown in the U.S. Senate as an example of Russian attacks on American businesses. Senator Jeanne Shaheen stated tha…",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6aE5lLVNYVFg2OWMyNU0zYWhra0NnV3ExMmdocjVBYmNJeS03eENOak8ybFZRcjlCN2dxVHR2WDE2SmFPdE9ERkdUVVVLSUwwU1h5OG9pMEo4bXZPTGc?oc=5",
+      "category": "議会・政治",
+      "priority": 90,
+      "publishedAt": "2026-07-29T13:55:02.000Z",
+      "notifiedAt": "2026-07-30T09:07:04.841Z",
+      "baseline": false,
+      "stage": "",
+      "canonical": "a photo of the destroyed philip morris factory in kharkiv was shown in the u s senate as an example of russian attacks on american businesses senator jeanne shaheen stated tha a photo of the destroyed philip morris factory in kharkiv was shown in the u s senate as an example of russian attacks on american businesses senator jeanne shaheen stated that russian strikes affect not only ukraine but also american companies oper x com a photo of the destroyed philip morris factory in kharkiv was shown in the u s senate as an example of russian attacks on american businesses senator jeanne shaheen stated that russian strikes affect not only ukraine but also american companies oper x com",
+      "tokens": [
+        "photo",
+        "destroyed",
+        "philip",
+        "morris",
+        "factory",
+        "kharkiv",
+        "shown",
+        "senate",
+        "example",
+        "russian",
+        "attacks",
+        "american",
+        "businesses",
+        "jeanne",
+        "shaheen",
+        "stated",
+        "tha",
+        "that",
+        "strikes",
+        "affect",
+        "not",
+        "only",
+        "ukraine",
+        "but",
+        "also",
+        "companies",
+        "oper",
+        "com"
       ]
     }
   ]
