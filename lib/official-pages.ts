@@ -90,7 +90,7 @@ async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
       url: url.href,
       source: source.name.replace(" Direct", ""),
       publishedAt,
-      summary: "一次情報ページを直接巡回して検知しました。詳細は原文をご確認ください。",
+      summary: "公式ページの更新を検知。",
       official: true,
       ...assessment,
     }));

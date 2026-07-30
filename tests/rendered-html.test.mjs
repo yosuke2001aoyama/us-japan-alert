@@ -27,7 +27,7 @@ test("renders finished product and social metadata", async () => {
     /^text\/html\b/i,
   );
   const html = await response.text();
-  assert.match(html, /<title>JPUS SIGNAL DESK｜日米政策シグナル監視<\/title>/i);
+  assert.match(html, /<title>日米政策OSINTタイムライン｜JPUS OSINT<\/title>/i);
   assert.match(html, /<meta(?=[^>]*\bproperty=["']og:image["'])(?=[^>]*\bcontent=["']https:\/\/[^"']+\/og\.png["'])[^>]*>/i);
   assert.doesNotMatch(html, /\bcodex-preview\b/i);
 });

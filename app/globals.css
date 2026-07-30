@@ -122,20 +122,13 @@ footer {
   letter-spacing: 0.08em;
 }
 
-.brand strong,
-.brand small {
+.brand strong {
   display: block;
 }
 
 .brand strong {
   font-size: 14px;
   letter-spacing: 0.035em;
-}
-
-.brand small {
-  margin-top: 3px;
-  color: #9daaba;
-  font-size: 9px;
 }
 
 .system-status {
@@ -169,31 +162,29 @@ footer {
 }
 
 .hero {
-  margin-top: 22px;
-  display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(480px, 0.85fr);
+  margin-top: 18px;
   overflow: hidden;
   background: var(--paper);
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: 14px;
   box-shadow: var(--shadow);
 }
 
 .hero-copy {
   position: relative;
-  padding: 28px 34px 25px 37px;
+  padding: 22px 28px 23px 31px;
 }
 
 .hero-copy::before {
   content: "";
   position: absolute;
-  inset: 0 auto 0 0;
-  width: 5px;
+  inset: 18px auto 18px 0;
+  width: 3px;
   background: var(--teal);
 }
 
 .eyebrow {
-  margin: 0 0 10px;
+  margin: 0 0 9px;
   color: var(--teal);
   font: 700 10px var(--mono);
   letter-spacing: 0.12em;
@@ -202,85 +193,9 @@ footer {
 .hero h1 {
   margin: 0;
   color: var(--navy);
-  font-size: clamp(29px, 3vw, 44px);
-  line-height: 1.16;
+  font-size: clamp(24px, 2.2vw, 30px);
+  line-height: 1.18;
   letter-spacing: -0.05em;
-}
-
-.hero-description {
-  max-width: 790px;
-  margin: 13px 0 16px;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.75;
-}
-
-.scope-line {
-  display: flex;
-  gap: 7px;
-  flex-wrap: wrap;
-}
-
-.scope-line span {
-  padding: 5px 8px;
-  background: #f3f6f8;
-  border: 1px solid #e2e7ec;
-  border-radius: 5px;
-  color: #5c6a7b;
-  font-size: 9px;
-}
-
-.hero-metrics {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background: #f5f7f9;
-  border-left: 1px solid var(--line);
-}
-
-.metric {
-  min-height: 91px;
-  padding: 16px 19px;
-  display: grid;
-  align-content: center;
-  text-align: left;
-  background: transparent;
-  border: 0;
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  color: var(--ink);
-}
-
-.metric:nth-child(2n) {
-  border-right: 0;
-}
-
-.metric:nth-child(n + 3) {
-  border-bottom: 0;
-}
-
-button.metric:hover {
-  background: #fff;
-}
-
-.metric strong {
-  font: 800 26px/1 var(--mono);
-  font-variant-numeric: tabular-nums;
-}
-
-.metric span {
-  margin-top: 8px;
-  color: var(--muted);
-  font-size: 10px;
-  font-weight: 650;
-}
-
-.metric.critical strong {
-  color: var(--red);
-}
-
-.metric.freshness strong {
-  color: var(--teal);
-  font-size: 20px;
 }
 
 .toolbar {
@@ -542,9 +457,10 @@ button.metric:hover {
 
 .watchlist button {
   width: 100%;
-  padding: 8px 9px;
-  display: grid;
-  gap: 3px;
+  min-height: 34px;
+  padding: 7px 9px;
+  display: flex;
+  align-items: center;
   background: transparent;
   border: 1px solid transparent;
   border-radius: 6px;
@@ -565,16 +481,6 @@ button.metric:hover {
 .watchlist span {
   font-size: 10px;
   font-weight: 700;
-}
-
-.watchlist small {
-  color: #8a96a5;
-  font-size: 8px;
-  line-height: 1.45;
-}
-
-.watchlist button.active small {
-  color: #9a6c34;
 }
 
 .reset-filters {
@@ -612,13 +518,6 @@ button.metric:hover {
   font: 800 20px var(--mono);
 }
 
-.coverage-card p {
-  margin: 8px 0 0;
-  color: #aeb9c7;
-  font-size: 8px;
-  line-height: 1.65;
-}
-
 .coverage-card details {
   margin-top: 9px;
   padding-top: 8px;
@@ -652,20 +551,13 @@ button.metric:hover {
   gap: 11px;
 }
 
-.timeline-heading strong,
-.timeline-heading small {
+.timeline-heading strong {
   display: block;
 }
 
 .timeline-heading strong {
   color: var(--navy);
   font-size: 13px;
-}
-
-.timeline-heading small {
-  margin-top: 3px;
-  color: var(--muted);
-  font-size: 9px;
 }
 
 .timeline-heading > span {
@@ -676,15 +568,6 @@ button.metric:hover {
   color: #4f6074;
   font: 700 10px var(--mono);
   text-align: center;
-}
-
-.candidate-note {
-  padding: 8px 16px;
-  background: #f7f9fb;
-  border-bottom: 1px solid var(--line-soft);
-  color: #7a8797;
-  font-size: 8px;
-  line-height: 1.5;
 }
 
 .timeline-date {
@@ -834,18 +717,6 @@ button.metric:hover {
   color: #8a96a5;
   font-family: var(--mono);
   font-weight: 600 !important;
-}
-
-.signal-reason {
-  margin: 9px 0 0;
-  color: var(--teal);
-  font-size: 9px;
-  font-weight: 700;
-}
-
-.signal-reason span {
-  margin-right: 6px;
-  color: #92a1af;
 }
 
 .signal-content h2 {
@@ -1013,11 +884,6 @@ button.metric:hover {
   font-size: 14px;
 }
 
-.empty p {
-  margin: 9px 0 0;
-  font-size: 10px;
-}
-
 .timeline-skeleton > div {
   min-height: 155px;
   display: grid;
@@ -1079,16 +945,8 @@ footer span:first-child {
 }
 
 @media (max-width: 1120px) {
-  .hero {
-    grid-template-columns: minmax(0, 1fr) 420px;
-  }
-
-  .hero-copy {
-    padding-right: 24px;
-  }
-
   .hero h1 {
-    font-size: 34px;
+    font-size: 27px;
   }
 
   .toolbar-main {
@@ -1118,15 +976,6 @@ footer span:first-child {
 
   .system-status span:last-child {
     display: none;
-  }
-
-  .hero {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-metrics {
-    border-top: 1px solid var(--line);
-    border-left: 0;
   }
 
   .workspace {
@@ -1174,10 +1023,6 @@ footer span:first-child {
     width: calc(100% - 20px);
   }
 
-  .brand small {
-    display: none;
-  }
-
   .system-status {
     gap: 7px;
     font-size: 8px;
@@ -1193,24 +1038,11 @@ footer span:first-child {
   }
 
   .hero-copy {
-    padding: 22px 18px 20px 22px;
+    padding: 20px 18px 20px 22px;
   }
 
   .hero h1 {
-    font-size: 29px;
-  }
-
-  .hero-description {
-    font-size: 11px;
-  }
-
-  .metric {
-    min-height: 77px;
-    padding: 12px;
-  }
-
-  .metric strong {
-    font-size: 21px;
+    font-size: 22px;
   }
 
   .toolbar {
@@ -1240,11 +1072,6 @@ footer span:first-child {
 
   .timeline-heading {
     padding-inline: 12px;
-  }
-
-  .timeline-heading small,
-  .candidate-note {
-    display: none;
   }
 
   .signal-card {

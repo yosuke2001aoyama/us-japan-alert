@@ -22,8 +22,8 @@ export async function generateMetadata(): Promise<Metadata> {
     .split(",")[0]
     .trim();
   const origin = `${protocol}://${host}`;
-  const title = "JPUS SIGNAL DESK｜日米政策シグナル監視";
-  const description = "全米議員の公式発信・政府一次情報・公式SNS・主要報道を横断し、報道前に確認すべき日米政策シグナルを集約します。";
+  const title = "日米政策OSINTタイムライン｜JPUS OSINT";
+  const description = "日米の政府一次情報、公式SNS、主要報道を集約する政策OSINTタイムライン。";
   const image = `${origin}/og.png`;
 
   return {
@@ -40,8 +40,8 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       url: origin,
       locale: "ja_JP",
-      siteName: "JPUS SIGNAL DESK",
-      images: [{ url: image, width: 1734, height: 907, alt: "JPUS SIGNAL DESK — 重要発言を、ニュースになる前に。" }],
+      siteName: "JPUS OSINT",
+      images: [{ url: image, width: 1734, height: 907, alt: "JPUS OSINT — 日米政策OSINTタイムライン" }],
     },
     twitter: {
       card: "summary_large_image",

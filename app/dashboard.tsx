@@ -56,11 +56,11 @@ const windows = [
   { label: "30日", value: 30 },
   { label: "すべて", value: 0 },
 ];
-const deskModes: Array<{ id: DeskMode; label: string; description: string }> = [
-  { id: "attention", label: "要確認", description: "重要度と一次性から、先に見るべき情報" },
-  { id: "early", label: "報道前候補", description: "公式発信・一次情報・発表前の観測" },
-  { id: "unreviewed", label: "未確認", description: "この端末でまだ確認済みにしていない情報" },
-  { id: "all", label: "すべて", description: "条件に合う全件" },
+const deskModes: Array<{ id: DeskMode; label: string }> = [
+  { id: "attention", label: "要確認" },
+  { id: "early", label: "報道前候補" },
+  { id: "unreviewed", label: "未確認" },
+  { id: "all", label: "すべて" },
 ];
 const sourceFilters: SourceFilter[] = [
   { id: "social", label: "公式SNS", terms: ["truth social", "x ·", "公開検索 ·"] },
@@ -88,37 +88,31 @@ const watchlists = [
   {
     id: "war-memory",
     label: "原爆・戦争認識",
-    description: "広島・長崎、被爆、終戦、日本降伏など",
     test: (item: Item) => warMemoryPattern.test(itemText(item)),
   },
   {
     id: "lawmakers",
     label: "米議員発言",
-    description: "全米議員サイト・議会委員会・議員SNS",
     test: (item: Item) => lawmakerPattern.test(itemText(item)),
   },
   {
     id: "official-social",
     label: "公式SNS",
-    description: "Truth Social・X・公開検索で拾った公式発信",
     test: (item: Item) => Boolean(item.socialPost) || /truth social|^x ·|公開検索 ·/i.test(item.source),
   },
   {
     id: "security",
     label: "同盟・安保",
-    description: "基地、抑止、台湾、中国、ミサイルを含む",
     test: (item: Item) => securityPattern.test(itemText(item)),
   },
   {
     id: "economy",
     label: "通商・制裁",
-    description: "関税、制裁、輸出管理、投資審査など",
     test: (item: Item) => economyPattern.test(itemText(item)),
   },
   {
     id: "personnel",
     label: "人事・辞任",
-    description: "政策転換につながる指名・辞任・解任",
     test: (item: Item) => personnelPattern.test(itemText(item)),
   },
 ];
@@ -201,18 +195,6 @@ function signalTier(item: Item): SignalTier {
   if (item.priority >= 90 || (item.priority >= 84 && isEarlySignal(item) && highConsequence)) return "critical";
   if (item.priority >= 80 || (isEarlySignal(item) && item.japanRelated)) return "review";
   return "monitor";
-}
-
-function reasonFor(item: Item) {
-  const text = itemText(item);
-  if (warMemoryPattern.test(text) && lawmakerPattern.test(text)) return "米議員による原爆・戦争認識の発信を検知";
-  if (warMemoryPattern.test(text)) return "原爆・戦争認識に関する発信を検知";
-  if (item.socialPost) return "本人・政府機関の公式SNSを直接検知";
-  if (item.official && lawmakerPattern.test(text)) return "議員・議会委員会の一次発信";
-  if (item.verification === "reported-observation") return "公式発表前の観測・関係者情報を含む";
-  if (item.official) return "政府・公的機関の一次情報";
-  if (item.japanRelated && item.priority >= 80) return "日本への政策波及が大きい重要報道";
-  return "日米政策への関連性を検知";
 }
 
 function tierLabel(tier: SignalTier) {
@@ -339,7 +321,7 @@ export default function Dashboard() {
     } catch {
       setTranslations((current) => ({
         ...current,
-        [item.id]: "仮訳を取得できませんでした。原文をご確認ください。",
+        [item.id]: "仮訳を取得できませんでした。",
       }));
     } finally {
       setTranslating((current) => ({ ...current, [item.id]: false }));
@@ -422,10 +404,7 @@ export default function Dashboard() {
         <div className="topbar-inner">
           <div className="brand">
             <span className="brand-mark" aria-hidden="true">JP</span>
-            <div>
-              <strong>JPUS SIGNAL DESK</strong>
-              <small>報道前の政策シグナルを拾う監視卓</small>
-            </div>
+            <strong>JPUS OSINT</strong>
           </div>
           <div className="system-status" aria-live="polite">
             <span className={`pulse ${loading ? "loading" : ""}`} />
@@ -438,37 +417,8 @@ export default function Dashboard() {
 
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">EARLY SIGNAL MONITORING / JAPAN × UNITED STATES</p>
-          <h1>重要発言を、ニュースになる前に。</h1>
-          <p className="hero-description">
-            全米議員の公式サイト・公式SNS・政府一次情報・主要報道を横断し、
-            官僚と報道実務者が先に確認すべき情報を上に集約します。
-          </p>
-          <div className="scope-line">
-            <span>原爆・戦争認識</span>
-            <span>議員発言</span>
-            <span>日米安保</span>
-            <span>通商・制裁</span>
-            <span>重要人事</span>
-          </div>
-        </div>
-        <div className="hero-metrics" aria-label="現在の確認状況">
-          <button type="button" className="metric critical" onClick={() => setDeskMode("attention")}>
-            <strong>{counts.critical}</strong>
-            <span>今すぐ確認</span>
-          </button>
-          <button type="button" className="metric" onClick={() => setDeskMode("early")}>
-            <strong>{counts.early}</strong>
-            <span>報道前候補</span>
-          </button>
-          <button type="button" className="metric" onClick={() => setDeskMode("unreviewed")}>
-            <strong>{counts.unreviewed}</strong>
-            <span>未確認</span>
-          </button>
-          <div className="metric freshness">
-            <strong>{feed.generatedAt === EMPTY_DATE ? "—" : shortTime(feed.generatedAt)}</strong>
-            <span>データ取得 JST</span>
-          </div>
+          <p className="eyebrow">JPUS OSINT / POLICY TIMELINE</p>
+          <h1>日米政策OSINTタイムライン</h1>
         </div>
       </section>
 
@@ -525,7 +475,6 @@ export default function Dashboard() {
                   key={mode.id}
                   className={deskMode === mode.id ? "active" : ""}
                   onClick={() => setDeskMode(mode.id)}
-                  title={mode.description}
                 >
                   <span>{mode.label}</span>
                   <b>{counts[mode.id]}</b>
@@ -545,7 +494,6 @@ export default function Dashboard() {
                   onClick={() => setSelectedWatch((current) => current === watch.id ? "" : watch.id)}
                 >
                   <span>{watch.label}</span>
-                  <small>{watch.description}</small>
                 </button>
               ))}
             </div>
@@ -581,10 +529,6 @@ export default function Dashboard() {
               <span>監視経路</span>
               <strong>{healthPercent}%</strong>
             </div>
-            <p>
-              Truth Socialは直接監視。
-              Xは{feed.sources.capabilities?.xDirect ? "APIで直接監視中" : "公開検索経由で補完中"}。
-            </p>
             {feed.sources.failed > 0 && (
               <details>
                 <summary>{feed.sources.failed}経路で取得失敗</summary>
@@ -600,19 +544,14 @@ export default function Dashboard() {
               <span className="live-dot" />
               <div>
                 <strong>{deskModes.find((mode) => mode.id === deskMode)?.label}</strong>
-                <small>{deskModes.find((mode) => mode.id === deskMode)?.description}</small>
               </div>
             </div>
             <span>{filtered.length}件</span>
           </div>
-          <div className="candidate-note">
-            「報道前候補」は一次性を示すラベルで、未報道を保証するものではありません。判断前に原文と時刻を確認してください。
-          </div>
           {loading && !feed.items.length && <TimelineSkeleton />}
           {!loading && !filtered.length && (
             <div className="empty">
-              <strong>確認待ちの情報はありません</strong>
-              <p>期間・重点ウォッチ・発信元を広げるか、「すべて」を選んでください。</p>
+              <strong>該当情報はありません</strong>
             </div>
           )}
           <div className="timeline-list">
@@ -646,9 +585,8 @@ export default function Dashboard() {
       </section>
 
       <footer>
-        <span>JPUS SIGNAL DESK</span>
+        <span>JPUS OSINT</span>
         <span>取得 {feed.generatedAt === EMPTY_DATE ? "—" : exactTime(feed.generatedAt)} JST · {feed.sources.ok}/{feed.sources.total || "—"}経路</span>
-        <span>重要度と分類は補助情報です。政策判断・報道前に必ず原文をご確認ください。</span>
       </footer>
     </main>
   );
@@ -700,12 +638,11 @@ function SignalCard({
         <div className="signal-badges">
           <span className={`tier-badge ${tier}`}>{tierLabel(tier)}</span>
           {early && <span className="early-badge">報道前候補</span>}
-          <span className="verification-badge" title={item.verificationNote}>{verificationLabel(item)}</span>
+          <span className="verification-badge">{verificationLabel(item)}</span>
           {item.japanRelated && <span className="japan-badge">日本関連</span>}
           <span className="category-label">{item.category}</span>
           <span className="priority-score">判断スコア {item.priority}</span>
         </div>
-        <p className="signal-reason"><span aria-hidden="true">↳</span>{reasonFor(item)}</p>
         <h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>
         {item.summary && <p className="signal-summary">{item.summary}</p>}
         {translation && (
