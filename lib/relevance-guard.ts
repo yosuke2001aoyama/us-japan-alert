@@ -1,5 +1,5 @@
 import type { AlertItem } from "./feeds.ts";
-import { assessPolicyItem, assessPrincipalCommunication } from "./policy.ts";
+import { assessDirectPrincipalPost, assessPolicyItem, assessPrincipalCommunication } from "./policy.ts";
 
 // Final safety gate applied after all collectors. It prevents generic domestic
 // breaking news from entering either the dashboard or notification pipeline.
@@ -21,6 +21,10 @@ export function passesFinalRelevanceGuard(item: AlertItem): boolean {
     ? item.actorCountry === "jp" ? "Japan" : item.actorCountry === "us" ? "United States" : ""
     : "";
   const executiveAssessment = assessPolicyItem(`${countryContext} ${title}`.trim(), item.summary || "", item.official);
+  const verifiedDirectSocial = item.verifiedSource && /^(?:Truth Social|X) · @/i.test(item.source);
+  const directSocialAssessment = verifiedDirectSocial
+    ? assessDirectPrincipalPost(title, item.summary || "", item.actorCountry === "jp" ? "jp" : "us")
+    : null;
   const indexedCountry = item.source.startsWith("日本政府・主要閣僚") || /Prime Minister|Ministry of .*Japan/.test(item.source)
     ? "jp"
     : "us";
@@ -42,5 +46,5 @@ export function passesFinalRelevanceGuard(item: AlertItem): boolean {
 
   // A source lane or search query is not evidence of relevance. Reassess only the
   // actual headline/summary, adding a country context solely for verified authors.
-  return executiveAssessment.relevant || officialJapanEmergency;
+  return executiveAssessment.relevant || Boolean(directSocialAssessment?.relevant) || officialJapanEmergency;
 }
