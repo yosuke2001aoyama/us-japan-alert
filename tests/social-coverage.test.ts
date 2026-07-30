@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { indexedSweeps, publicFigures } from "../lib/social-direct.ts";
+import { indexedSweeps, isExpectedIndexedSource, isWithinDays, publicFigures } from "../lib/social-direct.ts";
 import { assessPrincipalCommunication } from "../lib/policy.ts";
 
 test("covers every U.S. lawmaker through official Senate and House domains", () => {
@@ -16,6 +16,7 @@ test("covers Hagerty and core bilateral operators", () => {
     "Bill Hagerty",
     "George Glass",
     "U.S. Mission Japan",
+    "USAmbJapan",
     "Office of Japanese Affairs",
     "Samuel Paparo",
     "Stephen Jost",
@@ -24,6 +25,54 @@ test("covers Hagerty and core bilateral operators", () => {
   ]) {
     assert.match(corpus, new RegExp(expected.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   }
+});
+
+test("indexed social results must prove the expected author", () => {
+  const embassyOptions = {
+    allowedDomains: ["jp.usembassy.gov", "state.gov", "x.com", "twitter.com"],
+    identityTerms: ["George Glass", "U.S. Ambassador to Japan", "U.S. Mission Japan", "Embassy Tokyo", "USAmbJapan"],
+    maxAgeDays: 21,
+  };
+
+  assert.equal(
+    isExpectedIndexedSource(
+      "Ambassador Yousef Mohammed Albalawi met with the First Lady of Nigeria during a courtesy visit.",
+      "https://x.com",
+      embassyOptions,
+    ),
+    false,
+  );
+  assert.equal(
+    isExpectedIndexedSource(
+      "U.S. Ambassador to Japan George Glass issued a statement on the alliance.",
+      "https://x.com",
+      embassyOptions,
+    ),
+    true,
+  );
+  assert.equal(
+    isExpectedIndexedSource(
+      "Statement on U.S.-Japan relations",
+      "https://jp.usembassy.gov",
+      embassyOptions,
+    ),
+    true,
+  );
+  assert.equal(
+    isExpectedIndexedSource(
+      "Unrelated third-country embassy statement",
+      "https://example.com",
+      embassyOptions,
+    ),
+    false,
+  );
+});
+
+test("indexed results must fall inside their actual collection window", () => {
+  const now = Date.parse("2026-07-30T17:00:00.000Z");
+  assert.equal(isWithinDays("2026-07-29T12:00:00.000Z", 14, now), true);
+  assert.equal(isWithinDays("2025-07-29T12:00:00.000Z", 14, now), false);
+  assert.equal(isWithinDays("2026-07-30T18:00:00.000Z", 14, now), false);
 });
 
 test("accepts ambassador and military commander statements about Japan", () => {

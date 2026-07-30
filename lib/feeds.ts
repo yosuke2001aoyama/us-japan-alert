@@ -2,6 +2,7 @@ import {
   assessPrincipalCommunication,
   assessPolicyItem,
   canonicalHeadline,
+  canonicalPublisher,
   cleanNewsSummary,
   cleanNewsTitle,
 } from "./policy.ts";
@@ -9,6 +10,9 @@ import {
 export type AlertItem = {
   id: string; title: string; url: string; source: string; publishedAt: string;
   summary: string; category: string; priority: number; japanRelated: boolean; official: boolean; english: boolean; image?: string;
+  verifiedSource?: boolean;
+  actorCountry?: "jp" | "us";
+  coverage?: CoverageGroup;
 };
 
 export type CoverageGroup =
@@ -147,6 +151,13 @@ function safeDate(value: string) {
   return Number.isFinite(date.getTime()) ? date.toISOString() : new Date().toISOString();
 }
 
+function isRecentAggregate(value: string, now = Date.now()) {
+  const published = new Date(value).getTime();
+  return Number.isFinite(published)
+    && published <= now + 5 * 60 * 1_000
+    && published >= now - 35 * 24 * 60 * 60 * 1_000;
+}
+
 function officialPublisher(url: string) {
   try {
     const host = new URL(url).hostname.toLowerCase();
@@ -179,11 +190,12 @@ async function readSource(source: Source) {
     const rawSummary = field(chunk, "description").slice(0, 500);
     const summary = source.aggregate ? cleanNewsSummary(rawSummary, title, publisher) : rawSummary.slice(0, 360);
     const itemOfficial = !!source.official && (!source.aggregate || officialPublisher(publisherUrl));
+    const publishedAt = field(chunk, "pubDate") || field(chunk, "published") || field(chunk, "updated") || "";
+    if (source.aggregate && !isRecentAggregate(publishedAt)) return null;
     const assessment = source.principal
       ? assessPrincipalCommunication(title, summary, itemOfficial, source.principal)
       : assessPolicyItem(title, summary, itemOfficial);
     if (!assessment.relevant) return null;
-    const publishedAt = field(chunk, "pubDate") || field(chunk, "published") || field(chunk, "updated") || new Date().toISOString();
     const imageUrl = image(chunk);
     return {
       id: Buffer.from(url).toString("base64url").slice(-36),
@@ -193,6 +205,7 @@ async function readSource(source: Source) {
       publishedAt: safeDate(publishedAt),
       summary,
       official: itemOfficial,
+      coverage: source.coverage,
       ...assessment,
       ...(imageUrl ? { image: imageUrl } : {}),
     };
@@ -209,11 +222,11 @@ export async function collect() {
   const unique: AlertItem[] = [];
   for (const item of sorted) {
     const urlKey = item.url.replace(/[?&](utm_[^=]+|oc)=[^&]+/g, "");
-    const titleKey = canonicalHeadline(item.title);
-    const sourceGroup = item.source.startsWith("White House") ? "White House" : item.source;
+    const sourceGroup = canonicalPublisher(item.source);
+    const titleKey = `${sourceGroup}|${canonicalHeadline(item.title)}`;
     const sourceCount = sourceCounts.get(sourceGroup) || 0;
     if (sourceCount >= 60) continue;
-    if (seenUrls.has(urlKey) || (titleKey.length > 20 && seenTitles.has(titleKey))) continue;
+    if (seenUrls.has(urlKey) || (canonicalHeadline(item.title).length > 20 && seenTitles.has(titleKey))) continue;
     seenUrls.add(urlKey);
     if (titleKey) seenTitles.add(titleKey);
     sourceCounts.set(sourceGroup, sourceCount + 1);

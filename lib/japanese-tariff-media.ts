@@ -29,7 +29,11 @@ async function readOutlet([label, query]: typeof outlets[number]) {
     const published = field(chunk, "pubDate") || field(chunk, "published") || field(chunk, "updated");
     if (!rawTitle || !url || !published) return null;
     const date = new Date(published);
-    if (!Number.isFinite(date.getTime())) return null;
+    if (
+      !Number.isFinite(date.getTime())
+      || date.getTime() > Date.now() + 5 * 60 * 1_000
+      || date.getTime() < Date.now() - 8 * 24 * 60 * 60 * 1_000
+    ) return null;
     const title = rawTitle.replace(/\s+-\s+[^-]+$/, "").trim();
     const text = `${title} ${field(chunk, "description")}`;
     if (!/関税|tariff|通商|trade|自動車|輸出|輸入/i.test(text)) return null;

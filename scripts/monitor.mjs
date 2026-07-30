@@ -1,5 +1,11 @@
 import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import {
+  articleSourceKey,
+  canonicalArticleTitle,
+  canonicalArticleUrl,
+  isSameArticle,
+} from "./article-identity.mjs";
 
 const DASHBOARD_URL = process.env.PUBLIC_DASHBOARD_URL || "https://us-japan-alert.vercel.app";
 const endpoint = process.env.FEED_ENDPOINT || `${DASHBOARD_URL}/api/feed`;
@@ -7,7 +13,6 @@ const STATE_PATH = "public/data/notified-events.json";
 const FEED_PATH = "public/data/feed.json";
 const MAX_ALERT_AGE_MS = 24 * 60 * 60 * 1000;
 const HISTORY_RETENTION_MS = 14 * 24 * 60 * 60 * 1000;
-const DUPLICATE_WINDOW_MS = 72 * 60 * 60 * 1000;
 const MIN_PRIORITY = Number(process.env.ALERT_MIN_PRIORITY || 90);
 const EARLY_SIGNAL_PRIORITY = Number(process.env.ALERT_EARLY_SIGNAL_PRIORITY || 82);
 const warMemoryTrigger = /hiroshima|nagasaki|hibakusha|a-?bomb|atomic bomb(?:ing)?|atomic weapons?|nuclear weapons?|enola gay|pearl harbor|v-?j day|japan(?:ese)? surrender|広島|長崎|被爆|被爆者|原爆|核兵器|真珠湾|終戦|日本降伏/i;
@@ -50,7 +55,7 @@ state.events = state.events.filter((event) => {
 
 const pending = clusters
   .map(selectRepresentative)
-  .filter((item) => !state.events.some((event) => isSameEvent(item, event)));
+  .filter((item) => !state.events.some((event) => isSameArticle(item, event)));
 
 const delivery = selectDeliveryChannel();
 const delivered = [];
@@ -105,7 +110,7 @@ function isFreshBreakingItem(item) {
 function clusterItems(items) {
   const clusters = [];
   for (const item of items) {
-    const match = clusters.find((cluster) => cluster.some((candidate) => isSameEvent(item, candidate)));
+    const match = clusters.find((cluster) => cluster.some((candidate) => isSameArticle(item, candidate)));
     if (match) match.push(item);
     else clusters.push([item]);
   }
@@ -122,96 +127,24 @@ function compareRepresentative(a, b) {
     || Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0);
 }
 
-function isSameEvent(left, right) {
-  const leftPublished = Date.parse(left.publishedAt || left.notifiedAt || "");
-  const rightPublished = Date.parse(right.publishedAt || right.notifiedAt || "");
-  if (!Number.isFinite(leftPublished) || !Number.isFinite(rightPublished)) return false;
-  if (Math.abs(leftPublished - rightPublished) > DUPLICATE_WINDOW_MS) return false;
-
-  const leftStage = eventStage(`${left.title || ""} ${left.summary || ""}`);
-  const rightStage = right.stage || eventStage(`${right.title || ""} ${right.summary || ""}`);
-  if (leftStage && rightStage && leftStage !== rightStage) return false;
-
-  const leftCanonical = canonicalText(`${left.title || ""} ${left.summary || ""}`);
-  const rightCanonical = right.canonical || canonicalText(`${right.title || ""} ${right.summary || ""}`);
-  if (leftCanonical && leftCanonical === rightCanonical) return true;
-
-  const leftTokens = tokenSet(leftCanonical);
-  const rightTokens = new Set(Array.isArray(right.tokens) ? right.tokens : tokenSet(rightCanonical));
-  if (!leftTokens.size || !rightTokens.size) return false;
-
-  const intersection = [...leftTokens].filter((token) => rightTokens.has(token)).length;
-  const union = new Set([...leftTokens, ...rightTokens]).size;
-  const jaccard = union ? intersection / union : 0;
-  const containment = intersection / Math.min(leftTokens.size, rightTokens.size);
-  const sameCategory = Boolean(left.category && right.category && left.category === right.category);
-
-  return containment >= 0.78
-    || (containment >= 0.66 && jaccard >= 0.46 && sameCategory)
-    || (jaccard >= 0.58 && sameCategory);
-}
-
-function canonicalText(value) {
-  return String(value || "")
-    .normalize("NFKC")
-    .toLowerCase()
-    .replace(/https?:\/\/\S+/g, " ")
-    .replace(/\b(?:reuters|associated press|ap news|bloomberg|cnn|fox news|nhk|共同通信|時事通信)\b/gi, " ")
-    .replace(/\b(?:breaking|exclusive|update|live|速報|詳報|更新)\b/gi, " ")
-    .replace(/[\p{P}\p{S}]+/gu, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function tokenSet(value) {
-  const stop = new Set([
-    "the", "a", "an", "and", "or", "of", "to", "in", "on", "for", "with", "by", "from", "at", "as", "is", "are", "was", "were", "be", "has", "have", "had",
-    "says", "said", "statement", "remarks", "press", "release", "official", "officials", "secretary", "senator", "representative", "president", "minister", "department",
-    "japan", "japanese", "united", "states", "u", "s", "日米", "日本", "米国", "発表", "声明", "会見", "について", "による", "との", "および",
-  ]);
-  const tokens = new Set();
-  for (const token of String(value || "").match(/[a-z0-9][a-z0-9'-]{1,}|[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]{2,}/gu) || []) {
-    if (/^[a-z0-9]/.test(token)) {
-      if (token.length > 2 && !stop.has(token)) tokens.add(token);
-      continue;
-    }
-    const compact = token.replace(/(?:について|による|として|および|または|発表|声明|会見|日本|米国|日米)/g, "");
-    if (compact.length <= 6) {
-      if (compact.length >= 2 && !stop.has(compact)) tokens.add(compact);
-      continue;
-    }
-    for (let index = 0; index <= compact.length - 3; index += 1) tokens.add(compact.slice(index, index + 3));
-  }
-  return tokens;
-}
-
-function eventStage(value) {
-  const text = String(value || "").normalize("NFKC").toLowerCase();
-  const stages = [
-    ["proposal", /\b(?:plan|plans|planning|consider|considering|proposal|propose|scheduled|expected|may|could)\b|調整|検討|予定|見通し|提案/],
-    ["meeting", /\b(?:meet|meets|meeting|met|talks|held talks|visit|visited)\b|会談|協議|訪問|面会/],
-    ["agreement", /\b(?:agree|agreed|agreement|deal|announce|announced|sign|signed|finalize|finalized)\b|合意|妥結|署名|決定|発表/],
-    ["action", /\b(?:impose|imposed|launch|launched|order|ordered|approve|approved|enact|enacted|pass|passed)\b|発動|実施|命令|承認|成立|可決/],
-    ["response", /\b(?:condemn|condemned|welcome|welcomed|mourn|mourns|tribute|commemorate|commemorates|response|support)\b|非難|歓迎|哀悼|追悼|慰霊|支援|お見舞い/],
-  ];
-  return stages.find(([, pattern]) => pattern.test(text))?.[0] || "";
-}
-
 function toHistoryRecord(item, baseline) {
-  const canonical = canonicalText(`${item.title || ""} ${item.summary || ""}`);
   const notifiedAt = new Date(now).toISOString();
+  const articleUrlKey = canonicalArticleUrl(item.url);
+  const articleTitleKey = canonicalArticleTitle(item.title);
+  const sourceKey = articleSourceKey(item);
   return {
-    id: createHash("sha256").update(`${canonical}|${item.publishedAt || notifiedAt}`).digest("hex").slice(0, 24),
+    id: createHash("sha256").update(articleUrlKey || `${sourceKey}|${articleTitleKey}`).digest("hex").slice(0, 24),
     title: item.title,
     url: item.url,
+    source: item.source || "",
     category: item.category || "",
     priority: Number(item.priority || 0),
     publishedAt: item.publishedAt,
     notifiedAt,
     baseline,
-    stage: eventStage(`${item.title || ""} ${item.summary || ""}`),
-    canonical,
-    tokens: [...tokenSet(canonical)].slice(0, 80),
+    articleUrlKey,
+    articleTitleKey,
+    articleSourceKey: sourceKey,
   };
 }
 
@@ -250,7 +183,7 @@ async function createGitHubIssue(item) {
     `[原文を開く](${item.url}) · [公開ダッシュボードを開く](${DASHBOARD_URL})`,
     "",
     "---",
-    "1イベントにつき1回だけ送信する自動速報です。24時間を超えた情報は通知対象外です。政策判断には原文をご確認ください。",
+    "同じ記事の再通知は行いません。24時間を超えた情報は通知対象外です。政策判断には原文をご確認ください。",
   ].filter(Boolean).join("\n");
   const created = await fetch(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/issues`, {
     method: "POST",
@@ -261,7 +194,7 @@ async function createGitHubIssue(item) {
 }
 
 async function sendResendAlert(item) {
-  const html = `<h2>${escapeHtml(item.title)}</h2><p><b>重要度:</b> ${Number(item.priority || 0)}<br><b>発信元:</b> ${escapeHtml(item.source || "不明")}<br><b>公表時刻:</b> ${escapeHtml(item.publishedAt || "不明")}</p>${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ""}<p><a href="${escapeHtml(item.url)}">原文を開く</a> · <a href="${escapeHtml(DASHBOARD_URL)}">公開ダッシュボード</a></p><hr><p>1イベントにつき1回だけ送信する自動速報です。24時間を超えた情報は通知対象外です。</p>`;
+  const html = `<h2>${escapeHtml(item.title)}</h2><p><b>重要度:</b> ${Number(item.priority || 0)}<br><b>発信元:</b> ${escapeHtml(item.source || "不明")}<br><b>公表時刻:</b> ${escapeHtml(item.publishedAt || "不明")}</p>${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ""}<p><a href="${escapeHtml(item.url)}">原文を開く</a> · <a href="${escapeHtml(DASHBOARD_URL)}">公開ダッシュボード</a></p><hr><p>同じ記事の再通知は行いません。24時間を超えた情報は通知対象外です。</p>`;
   const sent = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: { authorization: `Bearer ${process.env.RESEND_API_KEY}`, "content-type": "application/json" },

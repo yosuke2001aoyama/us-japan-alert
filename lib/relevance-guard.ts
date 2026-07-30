@@ -1,4 +1,5 @@
-import type { AlertItem } from "./feeds";
+import type { AlertItem } from "./feeds.ts";
+import { assessPolicyItem, assessPrincipalCommunication } from "./policy.ts";
 
 // Final safety gate applied after all collectors. It prevents generic domestic
 // breaking news from entering either the dashboard or notification pipeline.
@@ -10,11 +11,21 @@ const japanNationalEmergency = /\b(?:(?:kumamoto(?: prefecture| region)?|kyushu|
 const japaneseOfficialResponse = /\b(?:prime minister(?: of japan)?|chief cabinet secretary|prime minister'?s office of japan|government of japan)\b|高市|総理|首相|官房長官|首相官邸|日本政府|政府.{0,30}(?:指示|対応)|救命|救助|災害対策本部|自衛隊/i;
 
 const genericBreakingPrefix = /^(?:【?(?:速報|続報|独自|緊急)】?[\s　]*)+/i;
+const indexedPrincipalLane = /^(?:公開検索 ·|米連邦議員公式発信 ·|日米関係重要議員 ·|米議会委員会・日米議連 ·|駐日米国大使館 ·|米国務省EAP・日本部 ·|ホワイトハウスNSC ·|米太平洋軍・在日米軍 ·|米通商・財務・商務 ·|日本政府・主要閣僚 ·|米政府・議会 · 日本戦争記憶関連発信 ·)/;
+const consequentialAnalysis = /\b(?:new report|study finds?|survey finds?|war game|simulation finds?|concludes?|warns?|recommends?|testif(?:y|ies|ied)|launches?|releases?)\b|報告書|調査結果|研究結果|試算|シミュレーション|提言|勧告|警告|公表|発表/i;
+const MIN_EXECUTIVE_PRIORITY = 72;
 
 export function passesFinalRelevanceGuard(item: AlertItem): boolean {
   const title = item.title.replace(genericBreakingPrefix, "").trim();
   const text = `${title} ${item.summary || ""}`;
   const officialJapanEmergency = item.official && japanNationalEmergency.test(text) && japaneseOfficialResponse.test(text);
+  const countryContext = item.verifiedSource
+    ? item.actorCountry === "jp" ? "Japan" : item.actorCountry === "us" ? "United States" : ""
+    : "";
+  const executiveAssessment = assessPolicyItem(`${countryContext} ${title}`.trim(), item.summary || "", item.official);
+  const indexedCountry = item.source.startsWith("日本政府・主要閣僚") || /Prime Minister|Ministry of .*Japan/.test(item.source)
+    ? "jp"
+    : "us";
 
   // Generic disasters remain excluded. The only exception is a verified Japanese
   // government or senior-official response to a major national emergency.
@@ -23,5 +34,21 @@ export function passesFinalRelevanceGuard(item: AlertItem): boolean {
   // Extremely short generic breaking-news headlines must contain real policy substance.
   if (genericBreakingPrefix.test(item.title) && !policySubstance.test(text) && !officialJapanEmergency) return false;
 
-  return true;
+  // Routine commentary and evergreen explainers are reference material, not an
+  // executive alert. Keep analyses only when they contain a new finding, warning,
+  // recommendation, testimony, or report that could itself prompt questions.
+  if (item.coverage === "policy-analysis" && !consequentialAnalysis.test(text)) return false;
+
+  // Indexed search results must identify the expected principal in their own
+  // content unless the publisher/account was independently verified.
+  if (
+    indexedPrincipalLane.test(item.source)
+    && !item.verifiedSource
+    && !assessPrincipalCommunication(title, item.summary || "", false, indexedCountry).relevant
+  ) return false;
+
+  // A source lane or search query is not evidence of relevance. Reassess only the
+  // actual headline/summary, adding a country context solely for verified authors.
+  if (!executiveAssessment.relevant && !officialJapanEmergency) return false;
+  return officialJapanEmergency || executiveAssessment.priority >= MIN_EXECUTIVE_PRIORITY;
 }

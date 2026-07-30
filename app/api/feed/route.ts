@@ -2,7 +2,7 @@ import { collect } from "../../../lib/feeds";
 import { collectDirectOfficial } from "../../../lib/official-pages";
 import { collectDirectSocial } from "../../../lib/social-direct";
 import { collectJapaneseTariffMedia } from "../../../lib/japanese-tariff-media";
-import { canonicalHeadline } from "../../../lib/policy";
+import { canonicalHeadline, canonicalPublisher } from "../../../lib/policy";
 import { passesFinalRelevanceGuard } from "../../../lib/relevance-guard";
 
 export const dynamic = "force-dynamic";
@@ -20,8 +20,9 @@ export async function GET(request: Request) {
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt) || b.priority - a.priority)
     .filter((item) => {
       const urlKey = item.url.replace(/[?&](utm_[^=]+|oc)=[^&]+/g, "");
-      const titleKey = canonicalHeadline(item.title);
-      if (seenUrls.has(urlKey) || (titleKey.length > 20 && seenTitles.has(titleKey))) return false;
+      const headlineKey = canonicalHeadline(item.title);
+      const titleKey = `${canonicalPublisher(item.source)}|${headlineKey}`;
+      if (seenUrls.has(urlKey) || (headlineKey.length > 20 && seenTitles.has(titleKey))) return false;
       seenUrls.add(urlKey);
       if (titleKey) seenTitles.add(titleKey);
       return true;

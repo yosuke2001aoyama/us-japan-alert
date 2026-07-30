@@ -23,6 +23,7 @@ export type IndexedSweep = {
   topics: string;
   source: string;
   days?: number;
+  identityTerms?: string[];
 };
 
 const truthAccounts = ["realDonaldTrump"];
@@ -37,6 +38,7 @@ export const publicFigures: PublicFigure[] = [
   { username: "SecRubio", label: "Secretary Marco Rubio", side: "us", searchTerms: ["Marco Rubio", "Secretary Rubio"], officialDomains: ["state.gov"] },
   { username: "DeptofDefense", label: "U.S. Department of Defense", side: "us", searchTerms: ["Department of Defense", "Department of War", "Pentagon"], officialDomains: ["defense.gov", "war.gov"] },
   { username: "StateDept", label: "U.S. Department of State", side: "us", searchTerms: ["State Department", "Department of State"], officialDomains: ["state.gov"] },
+  { username: "USAmbJapan", label: "U.S. Ambassador to Japan George Glass", side: "us", searchTerms: ["George Glass", "U.S. Ambassador to Japan", "USAmbJapan"], officialDomains: ["jp.usembassy.gov", "state.gov"] },
   { username: "USTradeRep", label: "U.S. Trade Representative", side: "us", searchTerms: ["USTR", "Trade Representative"], officialDomains: ["ustr.gov"] },
   { username: "USTreasury", label: "U.S. Treasury", side: "us", searchTerms: ["U.S. Treasury"], officialDomains: ["home.treasury.gov", "treasury.gov"] },
   { username: "CommerceGov", label: "U.S. Commerce Department", side: "us", searchTerms: ["Commerce Department"], officialDomains: ["commerce.gov"] },
@@ -91,6 +93,7 @@ export const indexedSweeps: IndexedSweep[] = [
     topics: japanTopics,
     source: "日米関係重要議員 · U.S. Senator/Representative",
     days: 14,
+    identityTerms: ["Bill Hagerty", "Tammy Duckworth", "Mazie Hirono", "Dan Sullivan", "Jim Risch", "Jeanne Shaheen", "Ed Markey", "Rick Scott", "Young Kim", "Ami Bera", "John Moolenaar", "Roger Wicker", "Tom Cotton", "Lindsey Graham", "Mitch McConnell", "Mike Crapo", "Chris Coons", "John Cornyn", "Ted Cruz", "Maria Cantwell", "Chuck Grassley", "Ron Wyden", "Brian Mast", "Michael McCaul", "Gregory Meeks", "Raja Krishnamoorthi", "Elissa Slotkin", "Pete Ricketts", "Andy Kim"],
   },
   {
     name: "米議会委員会・コーカス",
@@ -104,11 +107,12 @@ export const indexedSweeps: IndexedSweep[] = [
   {
     name: "駐日米国大使館・実務幹部",
     side: "us",
-    identity: '("George Glass" OR "U.S. Ambassador to Japan" OR Ambassador OR "Deputy Chief of Mission" OR "U.S. Mission Japan" OR "Embassy Tokyo")',
+    identity: '("George Glass" OR "U.S. Ambassador to Japan" OR "U.S. Mission Japan" OR "Embassy Tokyo" OR "@USAmbJapan")',
     domains: ["jp.usembassy.gov", "state.gov", "x.com", "twitter.com"],
     topics: japanTopics,
     source: "駐日米国大使館 · Ambassador/Deputy Chief of Mission",
     days: 21,
+    identityTerms: ["George Glass", "U.S. Ambassador to Japan", "U.S. Mission Japan", "Embassy Tokyo", "USAmbJapan"],
   },
   {
     name: "国務省EAP・日本部",
@@ -174,10 +178,17 @@ const stripHtml = (value = "") => decodeXml(value)
 const xmlField = (xml: string, name: string) =>
   decodeXml(xml.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`, "i"))?.[1] || "").trim();
 
-function socialItem(args: { text: string; url: string; source: string; publishedAt?: string; side: "jp" | "us" }): AlertItem | null {
+function socialItem(args: {
+  text: string;
+  url: string;
+  source: string;
+  publishedAt?: string;
+  side: "jp" | "us";
+  verifiedAuthor?: boolean;
+}): AlertItem | null {
   const text = stripHtml(args.text);
   if (!text) return null;
-  const assessment = assessPrincipalCommunication(`${args.source}: ${text}`, "SNS・公式個人発信", true, args.side);
+  const assessment = assessPrincipalCommunication(text, "", Boolean(args.verifiedAuthor), args.side, Boolean(args.verifiedAuthor));
   if (!assessment.relevant || !assessment.japanRelated) return null;
   return {
     id: Buffer.from(args.url).toString("base64url").slice(-36),
@@ -188,7 +199,8 @@ function socialItem(args: { text: string; url: string; source: string; published
       ? new Date(args.publishedAt).toISOString()
       : new Date().toISOString(),
     summary: text,
-    official: true,
+    official: Boolean(args.verifiedAuthor),
+    ...(args.verifiedAuthor ? { verifiedSource: true, actorCountry: args.side } : {}),
     ...assessment,
   };
 }
@@ -214,6 +226,7 @@ async function readTruthApi(acct: string): Promise<AlertItem[]> {
       source: `Truth Social · @${account.acct || acct} · President Donald Trump`,
       publishedAt: status.created_at,
       side: "us",
+      verifiedAuthor: true,
     });
     return item ? [item] : [];
   });
@@ -253,6 +266,7 @@ async function readTruthArchive(acct: string): Promise<AlertItem[]> {
       source: "Truth Social · @realDonaldTrump · President Donald Trump",
       publishedAt: xmlField(entry, "pubDate") || xmlField(entry, "published") || xmlField(entry, "updated"),
       side: "us",
+      verifiedAuthor: true,
     });
     return item ? [item] : [];
   });
@@ -292,6 +306,7 @@ async function readXAccount(figure: PublicFigure, bearer: string): Promise<Alert
       source: `X · @${figure.username} · ${figure.label}`,
       publishedAt: post.created_at,
       side: figure.side,
+      verifiedAuthor: true,
     });
     return item ? [item] : [];
   });
@@ -299,18 +314,60 @@ async function readXAccount(figure: PublicFigure, bearer: string): Promise<Alert
 
 async function readIndexedFigurePosts(figure: PublicFigure): Promise<AlertItem[]> {
   const identity = figure.searchTerms.map((term) => `"${term}"`).join(" OR ");
-  const siteClauses = ["site:x.com", "site:twitter.com", ...(figure.officialDomains || []).map((domain) => `site:${domain}`)];
+  const siteClauses = [
+    ...(figure.username ? [`site:x.com/${figure.username}`, `site:twitter.com/${figure.username}`] : []),
+    ...(figure.officialDomains || []).map((domain) => `site:${domain}`),
+  ];
   const query = `(${siteClauses.join(" OR ")}) (${identity}) ${japanTopics} when:14d`;
-  return readGoogleNews(query, `公開検索 · ${figure.label}`, figure.side, 20);
+  return readGoogleNews(query, `公開検索 · ${figure.label}`, figure.side, 20, {
+    allowedDomains: ["x.com", "twitter.com", ...(figure.officialDomains || [])],
+    identityTerms: [figure.username || "", ...figure.searchTerms].filter(Boolean),
+    maxAgeDays: 14,
+  });
 }
 
 async function readIndexedSweep(sweep: IndexedSweep): Promise<AlertItem[]> {
   const sites = sweep.domains.map((domain) => `site:${domain}`).join(" OR ");
   const query = `(${sites}) ${sweep.identity} ${sweep.topics} when:${sweep.days || 14}d`;
-  return readGoogleNews(query, sweep.source, sweep.side, 50);
+  return readGoogleNews(query, sweep.source, sweep.side, 50, {
+    allowedDomains: sweep.domains,
+    identityTerms: sweep.identityTerms,
+    maxAgeDays: sweep.days || 14,
+  });
 }
 
-async function readGoogleNews(query: string, source: string, side: "jp" | "us", limit: number): Promise<AlertItem[]> {
+export type IndexedOptions = {
+  allowedDomains: string[];
+  identityTerms?: string[];
+  maxAgeDays: number;
+};
+
+export function isExpectedIndexedSource(
+  text: string,
+  publisherUrl: string,
+  options: IndexedOptions,
+) {
+  const host = safeHost(publisherUrl);
+  const allowed = options.allowedDomains.some((domain) => host === domain || host.endsWith(`.${domain}`));
+  if (!allowed) return false;
+  if (!isSocialHost(host)) return true;
+  return Boolean(options.identityTerms?.some((term) => term && phrasePattern(term).test(text)));
+}
+
+export function isWithinDays(value: string, days: number, now = Date.now()) {
+  const published = new Date(value).getTime();
+  return Number.isFinite(published)
+    && published <= now + 5 * 60 * 1_000
+    && published >= now - days * 24 * 60 * 60 * 1_000;
+}
+
+async function readGoogleNews(
+  query: string,
+  source: string,
+  side: "jp" | "us",
+  limit: number,
+  options: IndexedOptions,
+): Promise<AlertItem[]> {
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
   const response = await fetch(url, { headers: browserHeaders, signal: AbortSignal.timeout(12_000), cache: "no-store" });
   if (!response.ok) throw new Error(`indexed ${response.status}`);
@@ -320,13 +377,20 @@ async function readGoogleNews(query: string, source: string, side: "jp" | "us", 
     const title = stripHtml(xmlField(entry, "title"));
     const link = xmlField(entry, "link");
     const description = stripHtml(xmlField(entry, "description"));
+    const publisherUrl = xmlAttribute(entry, "source", "url");
+    const publishedAt = xmlField(entry, "pubDate");
+    const combined = `${title}. ${description}`;
     if (!title || !link) return [];
+    if (!isWithinDays(publishedAt, options.maxAgeDays)) return [];
+    if (!isExpectedIndexedSource(combined, publisherUrl, options)) return [];
+    const verifiedAuthor = !isSocialHost(safeHost(publisherUrl));
     const item = socialItem({
-      text: `${title}. ${description}`,
+      text: combined,
       url: link,
-      source,
-      publishedAt: xmlField(entry, "pubDate"),
+      source: verifiedAuthor ? source : "公開検索 · X",
+      publishedAt,
       side,
+      verifiedAuthor,
     });
     return item ? [item] : [];
   });
@@ -334,7 +398,29 @@ async function readGoogleNews(query: string, source: string, side: "jp" | "us", 
 
 async function readJapanRemembranceSignals(): Promise<AlertItem[]> {
   const query = '(site:senate.gov OR site:house.gov OR site:whitehouse.gov OR site:state.gov OR site:defense.gov OR site:war.gov OR site:jp.usembassy.gov OR site:x.com OR site:twitter.com) (Hiroshima OR Nagasaki OR hibakusha OR "A-bomb" OR "atomic bomb" OR "atomic bombing" OR "atomic weapon" OR "nuclear weapon" OR "nuclear abolition" OR "Enola Gay" OR "Pearl Harbor" OR "Pacific War" OR "World War II" OR "V-J Day" OR "end of war" OR "unconditional surrender" OR "Japan surrender" OR 終戦 OR 原爆 OR 被爆 OR 被爆者 OR 核兵器 OR 真珠湾) (statement OR remarks OR said OR speech OR commemorates OR remembers OR anniversary OR post) when:30d';
-  return readGoogleNews(query, "米政府・議会 · 日本戦争記憶関連発信 · U.S. official representative", "us", 50);
+  return readGoogleNews(query, "米政府・議会 · 日本戦争記憶関連発信 · U.S. official representative", "us", 50, {
+    allowedDomains: ["senate.gov", "house.gov", "whitehouse.gov", "state.gov", "defense.gov", "war.gov", "jp.usembassy.gov", "x.com", "twitter.com"],
+    identityTerms: ["U.S. Senator", "U.S. Representative", "Congressman", "Congresswoman", "Member of Congress", "White House", "President Trump", "State Department", "Department of Defense", "USAmbJapan"],
+    maxAgeDays: 30,
+  });
+}
+
+function xmlAttribute(xml: string, name: string, attribute: string) {
+  return decodeXml(xml.match(new RegExp(`<${name}[^>]*\\s${attribute}=["']([^"']+)`, "i"))?.[1] || "").trim();
+}
+
+function safeHost(value: string) {
+  try { return new URL(value).hostname.toLowerCase().replace(/^www\./, ""); }
+  catch { return ""; }
+}
+
+function isSocialHost(host: string) {
+  return host === "x.com" || host.endsWith(".x.com") || host === "twitter.com" || host.endsWith(".twitter.com");
+}
+
+function phrasePattern(value: string) {
+  const escaped = value.replace(/^@/, "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`(?:@?${escaped})(?![\\p{L}\\p{N}_])`, "iu");
 }
 
 export async function collectDirectSocial(): Promise<SocialResult> {
