@@ -15,6 +15,18 @@ test("keeps direct Japan-US policy developments", () => {
   assert.ok(result.priority >= 80);
 });
 
+test("keeps a prime minister visit leaked directly to reporters", () => {
+  const result = assessPolicyItem(
+    "高市総理、8月の訪米を記者団に明らかに　トランプ大統領との会談を調整",
+    "総理は取材に対し、ワシントン訪問を検討していると述べた。",
+    false,
+  );
+  assert.equal(result.relevant, true);
+  assert.equal(result.japanRelated, true);
+  assert.equal(result.category, "首脳・閣僚");
+  assert.ok(result.priority >= 80);
+});
+
 test("keeps major US foreign-policy action without mislabeling it as Japan-related", () => {
   const result = assessPolicyItem("イスラエル情報機関トップが訪米、イラン巡り協議＝報道");
   assert.equal(result.relevant, true);
@@ -152,6 +164,18 @@ test("keeps public communications from monitored Japanese principals", () => {
   );
   assert.equal(result.relevant, true);
   assert.equal(result.japanRelated, true);
+});
+
+test("treats an obscure lawmaker atomic-bomb remark as a critical Japan signal", () => {
+  const result = assessPrincipalCommunication(
+    "U.S. Senator issues remarks questioning the atomic bombing of Hiroshima",
+    "The senator posted a statement about the A-bomb and Japan's surrender.",
+    true,
+    "us",
+  );
+  assert.equal(result.relevant, true);
+  assert.equal(result.japanRelated, true);
+  assert.ok(result.priority >= 90);
 });
 
 test("drops stories about fake posts, paid access, or trading on posts", () => {

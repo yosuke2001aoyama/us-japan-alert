@@ -1,42 +1,754 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 
-type Item = { id:string; title:string; url:string; source:string; publishedAt:string; summary:string; category:string; priority:number; japanRelated:boolean; official:boolean; english?:boolean; image?:string; socialPost?:boolean; verificationLabel?:string };
-type Feed = { generatedAt:string; mode:"live"|"snapshot"; items:Item[]; sources:{ ok:number; failed:number; total:number; failedNames?:string[]; coverage?:Array<{id:string;label:string;ok:number;total:number}> } };
-type SourceFilter = { id:string; label:string; terms:string[] };
+type Verification = "official" | "reported-observation" | "media-report";
+type Item = {
+  id: string;
+  title: string;
+  url: string;
+  source: string;
+  publishedAt: string;
+  summary: string;
+  category: string;
+  priority: number;
+  japanRelated: boolean;
+  official: boolean;
+  english?: boolean;
+  image?: string;
+  socialPost?: boolean;
+  verification?: Verification;
+  verificationLabel?: string;
+  verificationNote?: string;
+};
+type Coverage = { id: string; label: string; ok: number; total: number };
+type Feed = {
+  generatedAt: string;
+  mode: "live" | "snapshot";
+  items: Item[];
+  sources: {
+    ok: number;
+    failed: number;
+    total: number;
+    failedNames?: string[];
+    coverage?: Coverage[];
+    capabilities?: { truthSocial?: boolean; xDirect?: boolean };
+  };
+};
+type SourceFilter = { id: string; label: string; terms: string[] };
+type DeskMode = "attention" | "early" | "unreviewed" | "all";
+type SignalTier = "critical" | "review" | "monitor";
 
-const EMPTY_DATE=new Date(0).toISOString();
-const fallback:Feed={generatedAt:EMPTY_DATE,mode:"snapshot",sources:{ok:0,failed:0,total:0},items:[]};
-const categories=["すべて","日米関係","首脳・閣僚","外交・安保","通商・経済","議会・政治","公式発表"];
-const windows=[{label:"24時間",value:1},{label:"3日",value:3},{label:"7日",value:7},{label:"30日",value:30},{label:"すべて",value:0}];
-const sourceFilters:SourceFilter[]=[
-{id:"trump",label:"Trump / Truth",terms:["trump","truth social","realdonaldtrump"]},{id:"whitehouse",label:"White House",terms:["white house","whitehouse.gov","potus"]},{id:"state",label:"State",terms:["state department","department of state","state.gov","secrubio"]},{id:"defense",label:"Defense",terms:["defense","pentagon","war.gov","pacom","7th fleet","mod.go.jp","防衛省"]},{id:"treasury",label:"Treasury",terms:["treasury","mof.go.jp","財務省"]},{id:"ustr",label:"USTR / Commerce",terms:["ustr","trade representative","commerce","meti.go.jp","経済産業省"]},{id:"kantei",label:"官邸",terms:["首相官邸","kantei","内閣官房"]},{id:"mofa",label:"外務省",terms:["mofa","外務省","ministry of foreign affairs"]},{id:"media",label:"主要報道",terms:["reuters","ロイター","ap","bloomberg","nhk","共同","時事","new york times","washington post","wsj","politico"]}
+const EMPTY_DATE = new Date(0).toISOString();
+const REVIEWED_STORAGE_KEY = "jpus-osint-reviewed-v1";
+const fallback: Feed = {
+  generatedAt: EMPTY_DATE,
+  mode: "snapshot",
+  sources: { ok: 0, failed: 0, total: 0 },
+  items: [],
+};
+
+const categories = ["すべて", "日米関係", "首脳・閣僚", "外交・安保", "通商・経済", "議会・政治", "公式発表"];
+const windows = [
+  { label: "24時間", value: 1 },
+  { label: "3日", value: 3 },
+  { label: "7日", value: 7 },
+  { label: "30日", value: 30 },
+  { label: "すべて", value: 0 },
 ];
-const tagRules:Array<[string,RegExp]>=[["Japan",/japan|japanese|日米|日本|在日米軍/i],["Trade",/trade|tariff|関税|通商|輸出|import|export/i],["Security",/security|defen[cs]e|military|安全保障|防衛|軍事|同盟/i],["China",/china|chinese|中国|習近平/i],["Taiwan",/taiwan|台湾/i],["Sanctions",/sanction|制裁|ofac/i],["Technology",/technology|tech|半導体|semiconductor|ai\b|cyber/i],["Diplomacy",/summit|meeting|visit|会談|訪問|外交|首脳/i],["Congress",/congress|senate|house|国会|議会/i],["Indo-Pacific",/indo-pacific|インド太平洋|quad/i],["Ukraine",/ukraine|ウクライナ/i],["Middle East",/iran|israel|gaza|lebanon|イラン|イスラエル|ガザ/i],["Social",/truth social|x ·|social media|sns|投稿/i]];
-function tagsFor(item:Item){const text=`${item.title} ${item.summary} ${item.source}`;const tags=tagRules.filter(([,r])=>r.test(text)).map(([t])=>t);if(item.official)tags.unshift("Official");return [...new Set(tags)].slice(0,5)}
-function relativeTime(v:string){const m=Math.max(0,Math.round((Date.now()-new Date(v).getTime())/60000));if(m<2)return"たった今";if(m<60)return`${m}分前`;if(m<1440)return`${Math.floor(m/60)}時間前`;return`${Math.floor(m/1440)}日前`}
-function shortTime(v:string){return new Date(v).toLocaleTimeString("ja-JP",{hour:"2-digit",minute:"2-digit"})}
-function dateLabel(v:string){return new Date(v).toLocaleDateString("ja-JP",{month:"numeric",day:"numeric",weekday:"short"})}
-function sourceMatches(item:Item,f:SourceFilter){const text=`${item.source} ${item.title}`.toLowerCase();return f.terms.some(t=>text.includes(t.toLowerCase()))}
+const deskModes: Array<{ id: DeskMode; label: string; description: string }> = [
+  { id: "attention", label: "要確認", description: "重要度と一次性から、先に見るべき情報" },
+  { id: "early", label: "報道前候補", description: "公式発信・一次情報・発表前の観測" },
+  { id: "unreviewed", label: "未確認", description: "この端末でまだ確認済みにしていない情報" },
+  { id: "all", label: "すべて", description: "条件に合う全件" },
+];
+const sourceFilters: SourceFilter[] = [
+  { id: "social", label: "公式SNS", terms: ["truth social", "x ·", "公開検索 ·"] },
+  { id: "congress", label: "米議員・議会", terms: ["senator", "representative", "congress", "senate", "house", "米連邦議員", "米議会"] },
+  { id: "whitehouse", label: "White House", terms: ["white house", "whitehouse.gov", "potus"] },
+  { id: "state", label: "State / Embassy", terms: ["state department", "department of state", "state.gov", "embassy", "大使館"] },
+  { id: "defense", label: "Defense / USFJ", terms: ["defense", "pentagon", "war.gov", "pacom", "7th fleet", "usfj", "mod.go.jp", "防衛省"] },
+  { id: "economic", label: "通商・財務・商務", terms: ["treasury", "ustr", "trade representative", "commerce", "bis", "mof.go.jp", "meti.go.jp", "財務省", "経済産業省"] },
+  { id: "japan", label: "日本政府", terms: ["首相官邸", "kantei", "内閣官房", "外務省", "mofa", "防衛省", "日本政府"] },
+  { id: "media", label: "主要報道", terms: ["reuters", "ロイター", "ap", "bloomberg", "nhk", "共同", "時事", "new york times", "washington post", "wsj", "politico"] },
+];
 
-export default function Dashboard(){
-const[feed,setFeed]=useState<Feed>(fallback),[loading,setLoading]=useState(true),[query,setQuery]=useState(""),[category,setCategory]=useState("すべて"),[days,setDays]=useState(7),[sort,setSort]=useState<"time"|"priority">("time"),[japanOnly,setJapanOnly]=useState(false),[officialOnly,setOfficialOnly]=useState(false),[selectedSources,setSelectedSources]=useState<string[]>([]),[selectedTag,setSelectedTag]=useState(""),[lastRefresh,setLastRefresh]=useState<Date|null>(null),[now,setNow]=useState(0);
-const[translations,setTranslations]=useState<Record<string,string>>({}),[translating,setTranslating]=useState<Record<string,boolean>>({});
-const searchRef=useRef<HTMLInputElement>(null),hasLiveItems=useRef(false);
-const refresh=useCallback(async(quiet=false)=>{if(!quiet)setLoading(true);try{const r=await fetch(`/api/feed?t=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw new Error();const next=await r.json() as Feed;if(!next.items.length&&next.sources.ok===0)throw new Error();setFeed(next);hasLiveItems.current=next.items.length>0;setLastRefresh(new Date());setNow(Date.now())}catch{if(!hasLiveItems.current)try{const s=await fetch("/data/feed.json",{cache:"no-store"}).then(r=>r.json()) as Feed;setFeed(s);hasLiveItems.current=s.items.length>0}catch{}}finally{if(!quiet)setLoading(false)}},[]);
-useEffect(()=>{const initial=window.setTimeout(()=>refresh(),0),timer=window.setInterval(()=>refresh(true),110000),clock=window.setInterval(()=>setNow(Date.now()),30000);const key=(e:KeyboardEvent)=>{if(e.key==="/"&&document.activeElement?.tagName!=="INPUT"){e.preventDefault();searchRef.current?.focus()}if(e.key==="Escape"){setQuery("");searchRef.current?.blur()}};window.addEventListener("keydown",key);return()=>{clearTimeout(initial);clearInterval(timer);clearInterval(clock);window.removeEventListener("keydown",key)}},[refresh]);
-const translate=useCallback(async(item:Item)=>{if(translations[item.id]){setTranslations(c=>{const n={...c};delete n[item.id];return n});return}setTranslating(c=>({...c,[item.id]:true}));try{const r=await fetch("/api/translate",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({text:[item.title,item.summary].filter(Boolean).join("\n\n")})});const d=await r.json() as {translation?:string};if(!r.ok||!d.translation)throw new Error();setTranslations(c=>({...c,[item.id]:d.translation!}))}catch{setTranslations(c=>({...c,[item.id]:"仮訳を取得できませんでした。原文をご確認ください。"}))}finally{setTranslating(c=>({...c,[item.id]:false}))}},[translations]);
-const filtered=useMemo(()=>{const cutoff=days&&now?now-days*86400000:0,q=query.toLowerCase().trim();return feed.items.filter(item=>{const tags=tagsFor(item);return(!q||`${item.title} ${item.summary} ${item.source} ${tags.join(" ")}`.toLowerCase().includes(q))&&(category==="すべて"||item.category===category)&&(!japanOnly||item.japanRelated)&&(!officialOnly||item.official)&&(!selectedTag||tags.includes(selectedTag))&&(!selectedSources.length||sourceFilters.some(f=>selectedSources.includes(f.id)&&sourceMatches(item,f)))&&(!cutoff||new Date(item.publishedAt).getTime()>=cutoff)}).sort((a,b)=>sort==="priority"?b.priority-a.priority||+new Date(b.publishedAt)-+new Date(a.publishedAt):+new Date(b.publishedAt)-+new Date(a.publishedAt)||b.priority-a.priority)},[feed.items,query,category,japanOnly,officialOnly,selectedSources,selectedTag,days,sort,now]);
-const popularTags=useMemo(()=>{const c=new Map<string,number>();feed.items.forEach(i=>tagsFor(i).forEach(t=>c.set(t,(c.get(t)||0)+1)));return[...c.entries()].sort((a,b)=>b[1]-a[1]).slice(0,10)},[feed.items]);
-const important=filtered.filter(i=>i.priority>=80).length,healthPercent=feed.sources.total?Math.round(feed.sources.ok/feed.sources.total*100):0;
-const toggleSource=(id:string)=>setSelectedSources(c=>c.includes(id)?c.filter(x=>x!==id):[...c,id]);const resetFilters=()=>{setSelectedSources([]);setSelectedTag("");setCategory("すべて");setJapanOnly(false);setOfficialOnly(false);setQuery("")};
-return <main className="shell"><header className="topbar"><div className="topbar-inner"><div className="brand"><span className="mark">日米</span><div><strong>日米公開情報bot</strong><small>JP / US PUBLIC INFORMATION</small></div></div><div className="system-status"><span className={`pulse ${loading?"loading":""}`}/>{loading?"更新中":"LIVE"}<span className="divider"/>{feed.sources.ok}/{feed.sources.total||"—"}経路<span className="divider"/>{lastRefresh?`${relativeTime(lastRefresh.toISOString())}更新`:"起動中"}</div></div></header>
-<section className="command-bar compact-command"><div className="command-title"><p>PUBLIC INFORMATION MONITOR</p><h1>日米政策インテリジェンス・タイムライン</h1><span>一次情報・主要報道・公式SNSを、実務で使える順序に整理</span></div><div className="command-metrics"><div><b>{important}</b><span>重要案件</span></div><div><b>{filtered.length}</b><span>表示件数</span></div><div><b>{feed.items.filter(x=>x.official).length}</b><span>一次情報</span></div><div><b>{healthPercent}%</b><span>取得稼働率</span></div></div></section>
-<section className="toolbar sticky-tools"><div className="toolbar-main"><label className="search"><span>⌕</span><input ref={searchRef} value={query} onChange={e=>setQuery(e.target.value)} placeholder="人物・政策・機関・タグを全文検索"/>{query&&<button className="clear-search" onClick={()=>setQuery("")}>×</button>}</label><div className="segmented"><button className={sort==="time"?"active":""} onClick={()=>setSort("time")}>時系列</button><button className={sort==="priority"?"active":""} onClick={()=>setSort("priority")}>重要度</button></div><label className="period">期間<select value={days} onChange={e=>setDays(Number(e.target.value))}>{windows.map(w=><option key={w.value} value={w.value}>{w.label}</option>)}</select></label><button className="refresh" onClick={()=>refresh()} disabled={loading}>↻ 更新</button></div><div className="toolbar-secondary"><div className="chips">{categories.map(x=><button key={x} className={category===x?"active":""} onClick={()=>setCategory(x)}>{x}</button>)}</div><div className="toggles"><label><input type="checkbox" checked={japanOnly} onChange={e=>setJapanOnly(e.target.checked)}/>日本関連</label><label><input type="checkbox" checked={officialOnly} onChange={e=>setOfficialOnly(e.target.checked)}/>一次情報</label></div></div></section>
-<section className="workspace"><aside className="filter-sidebar panel"><PanelHeading label="発信元フィルタ" count={selectedSources.length||undefined}/><div className="filter-section"><button className={`source-option ${!selectedSources.length?"active":""}`} onClick={()=>setSelectedSources([])}><span>ALL SOURCES</span><b>{feed.items.length}</b></button>{sourceFilters.map(f=><button key={f.id} className={`source-option ${selectedSources.includes(f.id)?"active":""}`} onClick={()=>toggleSource(f.id)}><span>{f.label}</span><b>{feed.items.filter(i=>sourceMatches(i,f)).length}</b></button>)}</div><PanelHeading label="スマートタグ" count={popularTags.length}/><div className="tag-cloud">{popularTags.map(([t,c])=><button key={t} className={selectedTag===t?"active":""} onClick={()=>setSelectedTag(selectedTag===t?"":t)}>{t}<span>{c}</span></button>)}</div><button className="reset-filters" onClick={resetFilters}>フィルタをすべて解除</button></aside>
-<section className="timeline-panel panel"><PanelHeading label="ライブ・タイムライン" count={filtered.length} live/>{loading&&!feed.items.length&&<div className="empty">政策情報を収集中…</div>}{!loading&&!filtered.length&&<div className="empty">該当情報がありません。</div>}<div className="timeline-list">{filtered.map((item,index)=>{const previous=filtered[index-1],showDate=!previous||dateLabel(previous.publishedAt)!==dateLabel(item.publishedAt);return <div key={item.id}>{showDate&&<div className="timeline-date"><span>{dateLabel(item.publishedAt)}</span></div>}<TimelineItem item={item} onTag={setSelectedTag} translation={translations[item.id]} translating={!!translating[item.id]} onTranslate={()=>translate(item)}/></div>})}</div></section>
-<aside className="status-sidebar"><section className="panel"><PanelHeading label="システム稼働"/><div className="health-body"><div className="health-score"><strong>{feed.sources.ok}</strong><span>/ {feed.sources.total||"—"} 経路</span></div><div className="health-track"><i style={{width:`${healthPercent}%`}}/></div><div className="health-row"><span>正常</span><b>{feed.sources.ok}</b></div><div className="health-row"><span>失敗</span><b className={feed.sources.failed?"warn":""}>{feed.sources.failed}</b></div><div className="health-row"><span>最終取得</span><b>{feed.generatedAt===EMPTY_DATE?"—":shortTime(feed.generatedAt)}</b></div>{feed.sources.failedNames?.length?<details><summary>失敗経路</summary><p>{feed.sources.failedNames.join("、")}</p></details>:null}</div></section><section className="panel monitor-note"><b>表示ルール</b><p>重要度と分類は補助情報です。起案時は必ず原文を確認してください。</p></section></aside></section>
-<footer><span>日米公開情報bot</span><span>取得 {feed.generatedAt===EMPTY_DATE?"—":shortTime(feed.generatedAt)} · {feed.sources.ok}/{feed.sources.total||"—"}経路</span><span>us-japan-alert.vercel.app</span></footer></main>}
-function PanelHeading({label,count,live=false}:{label:string;count?:number;live?:boolean}){return <div className="panel-heading"><div>{live&&<span className="live-dot"/>}{label}</div>{typeof count==="number"&&<span>{count}</span>}</div>}
-function TimelineItem({item,onTag,translation,translating,onTranslate}:{item:Item;onTag:(tag:string)=>void;translation?:string;translating:boolean;onTranslate:()=>void}){const tags=tagsFor(item),urgent=item.priority>=80;return <article className={`timeline-item ${urgent?"urgent":""}`}><div className="timeline-time"><time>{shortTime(item.publishedAt)}</time><small>{relativeTime(item.publishedAt)}</small><i/></div><div className="timeline-card"><div className="timeline-meta"><b className={urgent?"hot":""}>{item.priority}</b>{item.official&&<span className="official-label">一次情報</span>}{item.japanRelated&&<span className="jp-label">日本関連</span>}<span>{item.category}</span></div><h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>{item.summary&&<p>{item.summary}</p>}{translation&&<div className="translation-box"><b>仮訳</b><p>{translation}</p></div>}<div className="timeline-bottom"><div className="source-actions"><a href={item.url} target="_blank" rel="noreferrer" className="timeline-source">{item.source}<span>原文 ↗</span></a>{item.english&&<button className="translate-button" onClick={onTranslate} disabled={translating}>{translating?"翻訳中…":translation?"仮訳を閉じる":"仮訳を表示"}</button>}</div><div className="item-tags">{tags.map(t=><button key={t} onClick={()=>onTag(t)}>{t}</button>)}</div></div></div></article>}
+const warMemoryPattern =
+  /hiroshima|nagasaki|hibakusha|atomic bomb(?:ing)?|nuclear abolition|v-?j day|pacific war|world war ii|japan(?:ese)? surrender|end of war|広島|長崎|被爆者|原爆|核廃絶|太平洋戦争|第二次世界大戦|終戦|日本降伏/i;
+const lawmakerPattern =
+  /\b(?:u\.?s\.? senator|senator|u\.?s\.? representative|representative|congress(?:man|woman)|member of congress|senate|house of representatives)\b|米上院議員|米下院議員|米国議員|米議員|米議会|上院|下院/i;
+const securityPattern =
+  /alliance|indo-pacific|security|defen[cs]e|military|base|okinawa|taiwan|china|missile|nuclear|同盟|インド太平洋|安全保障|防衛|軍事|基地|沖縄|台湾|中国|ミサイル|核/i;
+const economyPattern =
+  /trade|tariff|sanction|export control|semiconductor|investment|currency|supply chain|通商|貿易|関税|制裁|輸出管理|半導体|投資|為替|サプライチェーン/i;
+const personnelPattern =
+  /resign|dismiss|nomination|confirm|appoint|辞任|解任|更迭|指名|承認|人事/i;
+
+const watchlists = [
+  {
+    id: "war-memory",
+    label: "原爆・戦争認識",
+    description: "広島・長崎、被爆、終戦、日本降伏など",
+    test: (item: Item) => warMemoryPattern.test(itemText(item)),
+  },
+  {
+    id: "lawmakers",
+    label: "米議員発言",
+    description: "全米議員サイト・議会委員会・議員SNS",
+    test: (item: Item) => lawmakerPattern.test(itemText(item)),
+  },
+  {
+    id: "official-social",
+    label: "公式SNS",
+    description: "Truth Social・X・公開検索で拾った公式発信",
+    test: (item: Item) => Boolean(item.socialPost) || /truth social|^x ·|公開検索 ·/i.test(item.source),
+  },
+  {
+    id: "security",
+    label: "同盟・安保",
+    description: "基地、抑止、台湾、中国、ミサイルを含む",
+    test: (item: Item) => securityPattern.test(itemText(item)),
+  },
+  {
+    id: "economy",
+    label: "通商・制裁",
+    description: "関税、制裁、輸出管理、投資審査など",
+    test: (item: Item) => economyPattern.test(itemText(item)),
+  },
+  {
+    id: "personnel",
+    label: "人事・辞任",
+    description: "政策転換につながる指名・辞任・解任",
+    test: (item: Item) => personnelPattern.test(itemText(item)),
+  },
+];
+
+const tagRules: Array<[string, RegExp]> = [
+  ["原爆・戦争認識", warMemoryPattern],
+  ["米議会", lawmakerPattern],
+  ["日米", /japan|japanese|日米|日本|在日米軍/i],
+  ["通商", /trade|tariff|関税|通商|輸出|import|export/i],
+  ["安保", /security|defen[cs]e|military|安全保障|防衛|軍事|同盟/i],
+  ["中国", /china|chinese|中国|習近平/i],
+  ["台湾", /taiwan|台湾/i],
+  ["制裁", /sanction|制裁|ofac/i],
+  ["技術", /technology|tech|半導体|semiconductor|ai\b|cyber/i],
+  ["外交", /summit|meeting|visit|会談|訪問|外交|首脳/i],
+  ["公式SNS", /truth social|^x ·|social media|sns|投稿/i],
+];
+
+function itemText(item: Item) {
+  return `${item.title} ${item.summary} ${item.source}`;
+}
+
+function tagsFor(item: Item) {
+  const text = itemText(item);
+  const tags = tagRules.filter(([, rule]) => rule.test(text)).map(([tag]) => tag);
+  if (item.official) tags.unshift("一次情報");
+  return [...new Set(tags)].slice(0, 5);
+}
+
+function relativeTime(value: string, now: number) {
+  if (!now) return "時刻を計算中";
+  const minutes = Math.max(0, Math.round((now - new Date(value).getTime()) / 60_000));
+  if (minutes < 2) return "たった今";
+  if (minutes < 60) return `${minutes}分前`;
+  if (minutes < 1_440) return `${Math.floor(minutes / 60)}時間前`;
+  return `${Math.floor(minutes / 1_440)}日前`;
+}
+
+function shortTime(value: string) {
+  return new Date(value).toLocaleTimeString("ja-JP", {
+    timeZone: "Asia/Tokyo",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function exactTime(value: string) {
+  return new Date(value).toLocaleString("ja-JP", {
+    timeZone: "Asia/Tokyo",
+    month: "numeric",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function dateLabel(value: string) {
+  return new Date(value).toLocaleDateString("ja-JP", {
+    timeZone: "Asia/Tokyo",
+    month: "numeric",
+    day: "numeric",
+    weekday: "short",
+  });
+}
+
+function sourceMatches(item: Item, filter: SourceFilter) {
+  const text = itemText(item).toLowerCase();
+  return filter.terms.some((term) => text.includes(term.toLowerCase()));
+}
+
+function isEarlySignal(item: Item) {
+  return Boolean(item.socialPost) || item.official || item.verification === "reported-observation";
+}
+
+function signalTier(item: Item): SignalTier {
+  const text = itemText(item);
+  const highConsequence = warMemoryPattern.test(text)
+    || personnelPattern.test(text)
+    || /attack|strike|missile|nuclear|tariff|sanction|emergency|攻撃|ミサイル|核|関税|制裁|緊急/i.test(text);
+  if (item.priority >= 90 || (item.priority >= 84 && isEarlySignal(item) && highConsequence)) return "critical";
+  if (item.priority >= 80 || (isEarlySignal(item) && item.japanRelated)) return "review";
+  return "monitor";
+}
+
+function reasonFor(item: Item) {
+  const text = itemText(item);
+  if (warMemoryPattern.test(text) && lawmakerPattern.test(text)) return "米議員による原爆・戦争認識の発信を検知";
+  if (warMemoryPattern.test(text)) return "原爆・戦争認識に関する発信を検知";
+  if (item.socialPost) return "本人・政府機関の公式SNSを直接検知";
+  if (item.official && lawmakerPattern.test(text)) return "議員・議会委員会の一次発信";
+  if (item.verification === "reported-observation") return "公式発表前の観測・関係者情報を含む";
+  if (item.official) return "政府・公的機関の一次情報";
+  if (item.japanRelated && item.priority >= 80) return "日本への政策波及が大きい重要報道";
+  return "日米政策への関連性を検知";
+}
+
+function tierLabel(tier: SignalTier) {
+  if (tier === "critical") return "今すぐ確認";
+  if (tier === "review") return "要確認";
+  return "監視";
+}
+
+function verificationLabel(item: Item) {
+  if (item.verificationLabel) return item.verificationLabel;
+  if (item.socialPost) return "公式SNS";
+  if (item.official) return "一次情報";
+  if (item.verification === "reported-observation") return "報道・観測";
+  return "報道";
+}
+
+export default function Dashboard() {
+  const [feed, setFeed] = useState<Feed>(fallback);
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState("");
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("すべて");
+  const [days, setDays] = useState(3);
+  const [sort, setSort] = useState<"priority" | "time">("priority");
+  const [deskMode, setDeskMode] = useState<DeskMode>("attention");
+  const [selectedWatch, setSelectedWatch] = useState("");
+  const [selectedSources, setSelectedSources] = useState<string[]>([]);
+  const [reviewed, setReviewed] = useState<Set<string>>(new Set());
+  const [lastRefresh, setLastRefresh] = useState<Date | null>(null);
+  const [now, setNow] = useState(0);
+  const [copiedId, setCopiedId] = useState("");
+  const [translations, setTranslations] = useState<Record<string, string>>({});
+  const [translating, setTranslating] = useState<Record<string, boolean>>({});
+  const searchRef = useRef<HTMLInputElement>(null);
+  const hasItems = useRef(false);
+  const deferredQuery = useDeferredValue(query);
+
+  const refresh = useCallback(async (quiet = false) => {
+    if (!quiet) setLoading(true);
+    setLoadError("");
+    try {
+      const response = await fetch(`/api/feed?t=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error("live feed unavailable");
+      const next = await response.json() as Feed;
+      if (!next.items.length && next.sources.ok === 0) throw new Error("live feed empty");
+      setFeed(next);
+      hasItems.current = next.items.length > 0;
+      setLastRefresh(new Date());
+      setNow(Date.now());
+    } catch {
+      if (!hasItems.current) {
+        try {
+          const snapshot = await fetch("/data/feed.json", { cache: "no-store" }).then((response) => {
+            if (!response.ok) throw new Error("snapshot unavailable");
+            return response.json();
+          }) as Feed;
+          setFeed({ ...snapshot, mode: "snapshot" });
+          hasItems.current = snapshot.items.length > 0;
+          setLastRefresh(new Date());
+          setNow(Date.now());
+          setLoadError("ライブ取得に接続できないため、直近の保存データを表示しています。");
+        } catch {
+          setLoadError("情報を取得できません。時間をおいて更新してください。");
+        }
+      } else {
+        setLoadError("最新情報の取得に失敗しました。表示中の情報は保持しています。");
+      }
+    } finally {
+      if (!quiet) setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    let storedReviewed: string[] = [];
+    try {
+      const stored = JSON.parse(window.localStorage.getItem(REVIEWED_STORAGE_KEY) || "[]");
+      if (Array.isArray(stored)) storedReviewed = stored.filter((value) => typeof value === "string");
+    } catch {
+      // A blocked or malformed local preference must not block the monitoring desk.
+    }
+    const restoreReviewed = window.setTimeout(() => setReviewed(new Set(storedReviewed)), 0);
+    const initial = window.setTimeout(() => refresh(), 0);
+    const timer = window.setInterval(() => refresh(true), 110_000);
+    const clock = window.setInterval(() => setNow(Date.now()), 30_000);
+    const key = (event: KeyboardEvent) => {
+      if (event.key === "/" && document.activeElement?.tagName !== "INPUT") {
+        event.preventDefault();
+        searchRef.current?.focus();
+      }
+      if (event.key === "Escape") {
+        setQuery("");
+        searchRef.current?.blur();
+      }
+    };
+    window.addEventListener("keydown", key);
+    return () => {
+      clearTimeout(restoreReviewed);
+      clearTimeout(initial);
+      clearInterval(timer);
+      clearInterval(clock);
+      window.removeEventListener("keydown", key);
+    };
+  }, [refresh]);
+
+  const translate = useCallback(async (item: Item) => {
+    if (translations[item.id]) {
+      setTranslations((current) => {
+        const next = { ...current };
+        delete next[item.id];
+        return next;
+      });
+      return;
+    }
+    setTranslating((current) => ({ ...current, [item.id]: true }));
+    try {
+      const response = await fetch("/api/translate", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ text: [item.title, item.summary].filter(Boolean).join("\n\n") }),
+      });
+      const data = await response.json() as { translation?: string };
+      if (!response.ok || !data.translation) throw new Error();
+      setTranslations((current) => ({ ...current, [item.id]: data.translation! }));
+    } catch {
+      setTranslations((current) => ({
+        ...current,
+        [item.id]: "仮訳を取得できませんでした。原文をご確認ください。",
+      }));
+    } finally {
+      setTranslating((current) => ({ ...current, [item.id]: false }));
+    }
+  }, [translations]);
+
+  const toggleReviewed = useCallback((id: string) => {
+    setReviewed((current) => {
+      const next = new Set(current);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      try {
+        window.localStorage.setItem(REVIEWED_STORAGE_KEY, JSON.stringify([...next].slice(-1_500)));
+      } catch {
+        // Review state remains usable in memory when storage is unavailable.
+      }
+      return next;
+    });
+  }, []);
+
+  const copyLink = useCallback(async (item: Item) => {
+    try {
+      await navigator.clipboard.writeText(item.url);
+      setCopiedId(item.id);
+      window.setTimeout(() => setCopiedId((current) => current === item.id ? "" : current), 1_600);
+    } catch {
+      setCopiedId("");
+    }
+  }, []);
+
+  const scoped = useMemo(() => {
+    const cutoff = days && now ? now - days * 86_400_000 : 0;
+    const normalizedQuery = deferredQuery.toLowerCase().trim();
+    const watch = watchlists.find((item) => item.id === selectedWatch);
+    return feed.items.filter((item) => {
+      const text = `${itemText(item)} ${tagsFor(item).join(" ")}`.toLowerCase();
+      return (!normalizedQuery || text.includes(normalizedQuery))
+        && (category === "すべて" || item.category === category)
+        && (!watch || watch.test(item))
+        && (!selectedSources.length || sourceFilters.some((filter) => selectedSources.includes(filter.id) && sourceMatches(item, filter)))
+        && (!cutoff || new Date(item.publishedAt).getTime() >= cutoff);
+    });
+  }, [feed.items, deferredQuery, category, selectedWatch, selectedSources, days, now]);
+
+  const filtered = useMemo(() => {
+    return scoped
+      .filter((item) => {
+        if (deskMode === "attention") return signalTier(item) !== "monitor" && !reviewed.has(item.id);
+        if (deskMode === "early") return isEarlySignal(item) && !reviewed.has(item.id);
+        if (deskMode === "unreviewed") return !reviewed.has(item.id);
+        return true;
+      })
+      .sort((left, right) => sort === "priority"
+        ? right.priority - left.priority || +new Date(right.publishedAt) - +new Date(left.publishedAt)
+        : +new Date(right.publishedAt) - +new Date(left.publishedAt) || right.priority - left.priority);
+  }, [scoped, deskMode, reviewed, sort]);
+
+  const counts = useMemo(() => ({
+    attention: scoped.filter((item) => signalTier(item) !== "monitor" && !reviewed.has(item.id)).length,
+    early: scoped.filter((item) => isEarlySignal(item) && !reviewed.has(item.id)).length,
+    unreviewed: scoped.filter((item) => !reviewed.has(item.id)).length,
+    all: scoped.length,
+    critical: scoped.filter((item) => signalTier(item) === "critical" && !reviewed.has(item.id)).length,
+  }), [scoped, reviewed]);
+
+  const healthPercent = feed.sources.total ? Math.round(feed.sources.ok / feed.sources.total * 100) : 0;
+  const activeFilterCount = selectedSources.length + Number(Boolean(selectedWatch)) + Number(category !== "すべて") + Number(Boolean(query));
+  const toggleSource = (id: string) => setSelectedSources((current) =>
+    current.includes(id) ? current.filter((value) => value !== id) : [...current, id]);
+  const resetFilters = () => {
+    setSelectedSources([]);
+    setSelectedWatch("");
+    setCategory("すべて");
+    setQuery("");
+  };
+
+  return (
+    <main className="shell">
+      <header className="topbar">
+        <div className="topbar-inner">
+          <div className="brand">
+            <span className="brand-mark" aria-hidden="true">JP</span>
+            <div>
+              <strong>JPUS SIGNAL DESK</strong>
+              <small>報道前の政策シグナルを拾う監視卓</small>
+            </div>
+          </div>
+          <div className="system-status" aria-live="polite">
+            <span className={`pulse ${loading ? "loading" : ""}`} />
+            <b>{loading ? "更新中" : feed.mode === "snapshot" ? "保存データ" : "LIVE"}</b>
+            <span>{feed.sources.ok}/{feed.sources.total || "—"}経路</span>
+            <span>{lastRefresh ? `${relativeTime(lastRefresh.toISOString(), now)}更新` : "起動中"}</span>
+          </div>
+        </div>
+      </header>
+
+      <section className="hero">
+        <div className="hero-copy">
+          <p className="eyebrow">EARLY SIGNAL MONITORING / JAPAN × UNITED STATES</p>
+          <h1>重要発言を、ニュースになる前に。</h1>
+          <p className="hero-description">
+            全米議員の公式サイト・公式SNS・政府一次情報・主要報道を横断し、
+            官僚と報道実務者が先に確認すべき情報を上に集約します。
+          </p>
+          <div className="scope-line">
+            <span>原爆・戦争認識</span>
+            <span>議員発言</span>
+            <span>日米安保</span>
+            <span>通商・制裁</span>
+            <span>重要人事</span>
+          </div>
+        </div>
+        <div className="hero-metrics" aria-label="現在の確認状況">
+          <button type="button" className="metric critical" onClick={() => setDeskMode("attention")}>
+            <strong>{counts.critical}</strong>
+            <span>今すぐ確認</span>
+          </button>
+          <button type="button" className="metric" onClick={() => setDeskMode("early")}>
+            <strong>{counts.early}</strong>
+            <span>報道前候補</span>
+          </button>
+          <button type="button" className="metric" onClick={() => setDeskMode("unreviewed")}>
+            <strong>{counts.unreviewed}</strong>
+            <span>未確認</span>
+          </button>
+          <div className="metric freshness">
+            <strong>{feed.generatedAt === EMPTY_DATE ? "—" : shortTime(feed.generatedAt)}</strong>
+            <span>データ取得 JST</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="toolbar" aria-label="タイムライン操作">
+        <div className="toolbar-main">
+          <label className="search">
+            <span aria-hidden="true">⌕</span>
+            <input
+              ref={searchRef}
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="人物・発言・政策・機関を検索　/ でフォーカス"
+              aria-label="人物・発言・政策・機関を全文検索"
+            />
+            {query && <button type="button" className="clear-search" onClick={() => setQuery("")} aria-label="検索を消去">×</button>}
+          </label>
+          <div className="segmented" aria-label="並び順">
+            <button type="button" className={sort === "priority" ? "active" : ""} onClick={() => setSort("priority")}>判断優先</button>
+            <button type="button" className={sort === "time" ? "active" : ""} onClick={() => setSort("time")}>新着順</button>
+          </div>
+          <label className="period">
+            期間
+            <select value={days} onChange={(event) => setDays(Number(event.target.value))}>
+              {windows.map((window) => <option key={window.value} value={window.value}>{window.label}</option>)}
+            </select>
+          </label>
+          <button type="button" className="refresh" onClick={() => refresh()} disabled={loading}>↻ 更新</button>
+          <a className="export-link" href="/api/feed?format=csv" download>CSV</a>
+        </div>
+        <div className="category-row">
+          {categories.map((item) => (
+            <button
+              type="button"
+              key={item}
+              className={category === item ? "active" : ""}
+              onClick={() => setCategory(item)}
+            >
+              {item}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      {loadError && <div className="service-notice" role="status">{loadError}</div>}
+
+      <section className="workspace">
+        <aside className="filter-sidebar">
+          <section className="panel queue-panel">
+            <PanelHeading label="確認キュー" count={counts[deskMode]} />
+            <div className="desk-modes">
+              {deskModes.map((mode) => (
+                <button
+                  type="button"
+                  key={mode.id}
+                  className={deskMode === mode.id ? "active" : ""}
+                  onClick={() => setDeskMode(mode.id)}
+                  title={mode.description}
+                >
+                  <span>{mode.label}</span>
+                  <b>{counts[mode.id]}</b>
+                </button>
+              ))}
+            </div>
+          </section>
+
+          <section className="panel">
+            <PanelHeading label="重点ウォッチ" count={selectedWatch ? 1 : undefined} />
+            <div className="watchlist">
+              {watchlists.map((watch) => (
+                <button
+                  type="button"
+                  key={watch.id}
+                  className={selectedWatch === watch.id ? "active" : ""}
+                  onClick={() => setSelectedWatch((current) => current === watch.id ? "" : watch.id)}
+                >
+                  <span>{watch.label}</span>
+                  <small>{watch.description}</small>
+                </button>
+              ))}
+            </div>
+          </section>
+
+          <section className="panel source-panel">
+            <PanelHeading label="発信元" count={selectedSources.length || undefined} />
+            <div className="source-list">
+              <button type="button" className={!selectedSources.length ? "active" : ""} onClick={() => setSelectedSources([])}>
+                <span>すべて</span><b>{feed.items.length}</b>
+              </button>
+              {sourceFilters.map((filter) => (
+                <button
+                  type="button"
+                  key={filter.id}
+                  className={selectedSources.includes(filter.id) ? "active" : ""}
+                  onClick={() => toggleSource(filter.id)}
+                >
+                  <span>{filter.label}</span>
+                  <b>{feed.items.filter((item) => sourceMatches(item, filter)).length}</b>
+                </button>
+              ))}
+            </div>
+            {activeFilterCount > 0 && (
+              <button type="button" className="reset-filters" onClick={resetFilters}>
+                条件をすべて解除
+              </button>
+            )}
+          </section>
+
+          <section className="coverage-card">
+            <div>
+              <span>監視経路</span>
+              <strong>{healthPercent}%</strong>
+            </div>
+            <p>
+              Truth Socialは直接監視。
+              Xは{feed.sources.capabilities?.xDirect ? "APIで直接監視中" : "公開検索経由で補完中"}。
+            </p>
+            {feed.sources.failed > 0 && (
+              <details>
+                <summary>{feed.sources.failed}経路で取得失敗</summary>
+                <p>{feed.sources.failedNames?.join("、")}</p>
+              </details>
+            )}
+          </section>
+        </aside>
+
+        <section className="timeline-panel panel">
+          <div className="timeline-heading">
+            <div>
+              <span className="live-dot" />
+              <div>
+                <strong>{deskModes.find((mode) => mode.id === deskMode)?.label}</strong>
+                <small>{deskModes.find((mode) => mode.id === deskMode)?.description}</small>
+              </div>
+            </div>
+            <span>{filtered.length}件</span>
+          </div>
+          <div className="candidate-note">
+            「報道前候補」は一次性を示すラベルで、未報道を保証するものではありません。判断前に原文と時刻を確認してください。
+          </div>
+          {loading && !feed.items.length && <TimelineSkeleton />}
+          {!loading && !filtered.length && (
+            <div className="empty">
+              <strong>確認待ちの情報はありません</strong>
+              <p>期間・重点ウォッチ・発信元を広げるか、「すべて」を選んでください。</p>
+            </div>
+          )}
+          <div className="timeline-list">
+            {filtered.map((item, index) => {
+              const previous = filtered[index - 1];
+              const showDate = !previous || dateLabel(previous.publishedAt) !== dateLabel(item.publishedAt);
+              return (
+                <div key={item.id}>
+                  {showDate && <div className="timeline-date"><span>{dateLabel(item.publishedAt)} · JST</span></div>}
+                  <SignalCard
+                    item={item}
+                    now={now}
+                    reviewed={reviewed.has(item.id)}
+                    copied={copiedId === item.id}
+                    translation={translations[item.id]}
+                    translating={Boolean(translating[item.id])}
+                    onTranslate={() => translate(item)}
+                    onReviewed={() => toggleReviewed(item.id)}
+                    onCopy={() => copyLink(item)}
+                    onTag={(tag) => {
+                      const matchingWatch = watchlists.find((watch) => watch.label === tag);
+                      if (matchingWatch) setSelectedWatch(matchingWatch.id);
+                      setDeskMode("all");
+                    }}
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      </section>
+
+      <footer>
+        <span>JPUS SIGNAL DESK</span>
+        <span>取得 {feed.generatedAt === EMPTY_DATE ? "—" : exactTime(feed.generatedAt)} JST · {feed.sources.ok}/{feed.sources.total || "—"}経路</span>
+        <span>重要度と分類は補助情報です。政策判断・報道前に必ず原文をご確認ください。</span>
+      </footer>
+    </main>
+  );
+}
+
+function PanelHeading({ label, count }: { label: string; count?: number }) {
+  return (
+    <div className="panel-heading">
+      <strong>{label}</strong>
+      {typeof count === "number" && <span>{count}</span>}
+    </div>
+  );
+}
+
+function SignalCard({
+  item,
+  now,
+  reviewed,
+  copied,
+  translation,
+  translating,
+  onTranslate,
+  onReviewed,
+  onCopy,
+  onTag,
+}: {
+  item: Item;
+  now: number;
+  reviewed: boolean;
+  copied: boolean;
+  translation?: string;
+  translating: boolean;
+  onTranslate: () => void;
+  onReviewed: () => void;
+  onCopy: () => void;
+  onTag: (tag: string) => void;
+}) {
+  const tier = signalTier(item);
+  const tags = tagsFor(item);
+  const early = isEarlySignal(item);
+  return (
+    <article className={`signal-card tier-${tier} ${reviewed ? "reviewed" : ""}`}>
+      <div className="signal-time">
+        <time dateTime={item.publishedAt}>{shortTime(item.publishedAt)}</time>
+        <span>{relativeTime(item.publishedAt, now)}</span>
+        <small>JST</small>
+      </div>
+      <div className="signal-content">
+        <div className="signal-badges">
+          <span className={`tier-badge ${tier}`}>{tierLabel(tier)}</span>
+          {early && <span className="early-badge">報道前候補</span>}
+          <span className="verification-badge" title={item.verificationNote}>{verificationLabel(item)}</span>
+          {item.japanRelated && <span className="japan-badge">日本関連</span>}
+          <span className="category-label">{item.category}</span>
+          <span className="priority-score">判断スコア {item.priority}</span>
+        </div>
+        <p className="signal-reason"><span aria-hidden="true">↳</span>{reasonFor(item)}</p>
+        <h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>
+        {item.summary && <p className="signal-summary">{item.summary}</p>}
+        {translation && (
+          <div className="translation-box">
+            <b>機械仮訳</b>
+            <p>{translation}</p>
+          </div>
+        )}
+        <div className="signal-footer">
+          <div className="source-block">
+            <span className="source-name">{item.source}</span>
+            <span className="exact-time">公表 {exactTime(item.publishedAt)} JST</span>
+          </div>
+          <div className="card-actions">
+            <a className="primary-action" href={item.url} target="_blank" rel="noreferrer">原文を開く ↗</a>
+            {item.english && (
+              <button type="button" onClick={onTranslate} disabled={translating}>
+                {translating ? "翻訳中…" : translation ? "仮訳を閉じる" : "仮訳"}
+              </button>
+            )}
+            <button type="button" onClick={onCopy}>{copied ? "コピー済み" : "URLコピー"}</button>
+            <button type="button" className={reviewed ? "reviewed-action" : ""} onClick={onReviewed}>
+              {reviewed ? "未確認に戻す" : "確認済みにする"}
+            </button>
+          </div>
+        </div>
+        <div className="item-tags">
+          {tags.map((tag) => <button type="button" key={tag} onClick={() => onTag(tag)}>{tag}</button>)}
+        </div>
+      </div>
+    </article>
+  );
+}
+
+function TimelineSkeleton() {
+  return (
+    <div className="timeline-skeleton" aria-label="政策情報を収集中">
+      {[0, 1, 2].map((item) => (
+        <div key={item}>
+          <span />
+          <div><i /><i /><i /></div>
+        </div>
+      ))}
+    </div>
+  );
+}

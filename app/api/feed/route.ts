@@ -7,7 +7,7 @@ import { passesFinalRelevanceGuard } from "../../../lib/relevance-guard";
 
 export const dynamic = "force-dynamic";
 
-const observationPattern = /調整|検討|見通し|予定|方向|政府筋|関係者|複数の関係者|sources?|officials?|expected|planning|considering|likely|may visit|visit planned|in talks/i;
+const observationPattern = /調整|検討|見通し|予定|方向|政府筋|関係者|複数の関係者|記者団|取材|インタビュー|明らかにした|述べた|語った|sources?|officials?|told reporters?|speaking to reporters?|interview|revealed|disclosed|expected|planning|considering|likely|may visit|visit planned|in talks/i;
 
 export async function GET(request: Request) {
   const [base, direct, social, tariffMedia] = await Promise.all([

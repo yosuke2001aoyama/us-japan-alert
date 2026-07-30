@@ -9,6 +9,11 @@ const MAX_ALERT_AGE_MS = 24 * 60 * 60 * 1000;
 const HISTORY_RETENTION_MS = 14 * 24 * 60 * 60 * 1000;
 const DUPLICATE_WINDOW_MS = 72 * 60 * 60 * 1000;
 const MIN_PRIORITY = Number(process.env.ALERT_MIN_PRIORITY || 90);
+const EARLY_SIGNAL_PRIORITY = Number(process.env.ALERT_EARLY_SIGNAL_PRIORITY || 82);
+const warMemoryTrigger = /hiroshima|nagasaki|hibakusha|a-?bomb|atomic bomb(?:ing)?|atomic weapons?|nuclear weapons?|enola gay|pearl harbor|v-?j day|japan(?:ese)? surrender|広島|長崎|被爆|被爆者|原爆|核兵器|真珠湾|終戦|日本降伏/i;
+const officialSpeechTrigger = /senator|representative|member of congress|statement|remarks?|speech|post(?:ed)?|米上院議員|米下院議員|米議員|声明|発言|演説|投稿/i;
+const reportedObservationTrigger = /sources?|officials?|told reporters?|speaking to reporters?|interview|revealed|disclosed|expected|planning|considering|likely|関係者|政府筋|記者団|取材|インタビュー|明らかにした|述べた|語った|調整|検討|見通し|予定/i;
+const highValueMoveTrigger = /summit|official visit|visit to (?:washington|tokyo|japan)|tariff|sanction|export control|resign|dismiss|首脳会談|訪米|訪日|会談|協議|関税|制裁|輸出管理|辞任|解任/i;
 
 if (!endpoint.startsWith("http")) throw new Error("Set FEED_ENDPOINT or PUBLIC_DASHBOARD_URL");
 
@@ -79,7 +84,18 @@ console.log(JSON.stringify({
 if (failures.length) throw new Error(`Alert delivery failed for ${failures.length} event(s)`);
 
 function isFreshBreakingItem(item) {
-  if (!item || Number(item.priority) < MIN_PRIORITY) return false;
+  if (!item) return false;
+  const priority = Number(item.priority);
+  const text = `${item.title || ""} ${item.summary || ""} ${item.source || ""}`;
+  const earlyWarMemorySignal = priority >= EARLY_SIGNAL_PRIORITY
+    && warMemoryTrigger.test(text)
+    && officialSpeechTrigger.test(text)
+    && (item.official || item.socialPost);
+  const earlyReportedObservation = priority >= EARLY_SIGNAL_PRIORITY
+    && !item.official
+    && reportedObservationTrigger.test(text)
+    && highValueMoveTrigger.test(text);
+  if (priority < MIN_PRIORITY && !earlyWarMemorySignal && !earlyReportedObservation) return false;
   const published = Date.parse(item.publishedAt || "");
   if (!Number.isFinite(published)) return false;
   const age = now - published;

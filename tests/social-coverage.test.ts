@@ -45,3 +45,13 @@ test("accepts ambassador and military commander statements about Japan", () => {
   assert.equal(commander.relevant, true);
   assert.equal(commander.japanRelated, true);
 });
+
+test("the all-member sweep explicitly covers atomic-bomb and surrender language", () => {
+  const memberSweeps = indexedSweeps
+    .filter((sweep) => sweep.name === "全米上院議員公式サイト" || sweep.name === "全米下院議員公式サイト")
+    .map((sweep) => sweep.topics)
+    .join(" ");
+  for (const term of ["A-bomb", "atomic weapon", "unconditional surrender", "原爆", "被爆"]) {
+    assert.match(memberSweeps, new RegExp(term, "i"));
+  }
+});

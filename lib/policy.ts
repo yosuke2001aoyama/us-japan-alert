@@ -19,7 +19,7 @@ const bilateralPattern =
 const japanPattern =
   /\bjapan(?:ese)?\b|\btokyo\b|\bokinawa\b|\bhokkaido\b|\btohoku\b|\bkyushu\b|\bkumamoto\b|\bnoto\b|日本|東京|沖縄|北海道|東北|九州|熊本|能登|高市|石破|岸田|総理|日本の首相|外務省|防衛省|経産省/i;
 const japanRemembrancePattern =
-  /\b(?:kumamoto|hiroshima|nagasaki|hibakusha|atomic bomb(?:ing)?|pacific war|v-?j day|victory over japan|japan(?:ese)? surrender|surrender of japan)\b|熊本|広島|長崎|被爆者|原爆|核廃絶|太平洋戦争|第二次世界大戦|終戦|日本降伏/i;
+  /\b(?:kumamoto|hiroshima|nagasaki|hibakusha|a-?bomb|atomic bomb(?:ing)?s?|atomic weapons?|nuclear weapons?|nuclear abolition|enola gay|little boy|fat man|mushroom cloud|pearl harbor|pacific war|world war ii|v-?j day|victory over japan|unconditional surrender|japan(?:ese)? surrender|surrender of japan|end of (?:the )?war)\b|熊本|広島|長崎|被爆者|被爆|原爆|核兵器|核廃絶|真珠湾|太平洋戦争|第二次世界大戦|終戦|無条件降伏|日本降伏/i;
 const japanDisasterPattern =
   /\b(?:(?:kumamoto(?: prefecture| region)?|hokkaido|tohoku|kyushu|noto|southern japan|northern japan|southwestern japan|japan(?:ese)?).{0,100}(?:earthquake|tsunami|aftershock|tremor|seismic|typhoon|flood|landslide|disaster)|(?:earthquake|tsunami|aftershock|tremor|seismic|typhoon|flood|landslide|disaster).{0,100}(?:kumamoto(?: prefecture| region)?|hokkaido|tohoku|kyushu|noto|southern japan|northern japan|southwestern japan|japan(?:ese)?))\b|(?:熊本|北海道|東北|九州|能登|日本).{0,50}(?:地震|津波|余震|強い揺れ|台風|豪雨|洪水|土砂災害|災害)|(?:地震|津波|余震|強い揺れ|台風|豪雨|洪水|土砂災害|災害).{0,50}(?:熊本|北海道|東北|九州|能登|日本)/i;
 const usPattern =
@@ -33,7 +33,7 @@ const strategicPattern =
 const externalPolicyPattern =
   /\b(?:alliance|indo-pacific|foreign policy|diplomat|bilateral|multilateral|nato|g7|g20|china|taiwan|north korea|russia|ukraine|iran|israel|middle east|european union|asean|military|nuclear|missile|base|deterrence|arms|ceasefire|trade|tariff|sanction|export control|semiconductor|critical mineral|investment screening|economic security|supply chain|technology transfer|import|export)\b|同盟|インド太平洋|外交|二国間|多国間|NATO|G7|G20|中国|台湾|北朝鮮|ロシア|ウクライナ|イラン|イスラエル|中東|欧州連合|ASEAN|米中|米露|米韓|軍事|核|ミサイル|基地|抑止|武器|停戦|通商|貿易|関税|制裁|輸出管理|輸出規制|半導体|重要鉱物|投資審査|経済安全保障|サプライチェーン|技術移転|輸入|輸出/i;
 const actionPattern =
-  /\b(?:announc|approv|authoriz|ban(?:ned)?|block|cancel|confirm|consider|decid|deploy|designat|dismiss|fir(?:e|ed)|impos|launch|lift|meet|negotiat|nominat|order|plan|prepar|propos|reach(?:ed)? (?:an? )?(?:deal|agreement)|resign|restrict|sign|strike|suspend|threaten|visit|vote|warn|joint statement|readout|agreement|talks?|summit|executive order|legislation|direct(?:s|ed)?|respond(?:s|ed|ing)?)\b|発表|表明|合意|決定|検討|調整|見通し|指名|承認|発動|会談|協議|訪問|訪米|辞任|解任|派遣|攻撃|署名|声明|方針|要請|警告|法案|可決|否決|訓練|共同声明|指示|対応|救命|救助/i;
+  /\b(?:announc|approv|authoriz|ban(?:ned)?|block|cancel|confirm|consider|decid|deploy|designat|disclos|dismiss|fir(?:e|ed)|impos|launch|lift|meet|negotiat|nominat|order|plan|prepar|propos|reach(?:ed)? (?:an? )?(?:deal|agreement)|resign|restrict|reveal|sign|strike|suspend|threaten|told reporters?|visit|vote|warn|joint statement|readout|agreement|talks?|summit|executive order|legislation|direct(?:s|ed)?|respond(?:s|ed|ing)?)\b|発表|表明|合意|決定|検討|調整|見通し|明らかにした|述べた|語った|記者団|取材|インタビュー|指名|承認|発動|会談|協議|訪問|訪米|辞任|解任|派遣|攻撃|署名|声明|方針|要請|警告|法案|可決|否決|訓練|共同声明|指示|対応|救命|救助/i;
 const defensePattern =
   /\b(?:alliance|indo-pacific|security|defen[cs]e|military|pentagon|navy|army|air force|nuclear|missile|base|deterrence|arms|ceasefire|attack|strike)\b|同盟|インド太平洋|安全保障|防衛|軍事|米軍|核|ミサイル|基地|抑止|武器|停戦|攻撃|共同訓練/i;
 const economyPattern =

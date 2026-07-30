@@ -28,7 +28,7 @@ export type IndexedSweep = {
 const truthAccounts = ["realDonaldTrump"];
 
 const japanTopics =
-  '(Japan OR Japanese OR Tokyo OR Okinawa OR Hokkaido OR Tohoku OR Kyushu OR Kumamoto OR Noto OR earthquake OR tsunami OR typhoon OR disaster OR Hiroshima OR Nagasaki OR hibakusha OR "atomic bombing" OR "nuclear abolition" OR "World War II" OR "Pacific War" OR "V-J Day" OR "end of war" OR "Japan surrender" OR alliance OR Indo-Pacific OR trade OR tariff OR sanctions OR semiconductor OR supply chain OR 終戦 OR 原爆 OR 被爆者 OR 日米 OR 日本)';
+  '(Japan OR Japanese OR Tokyo OR Okinawa OR Hokkaido OR Tohoku OR Kyushu OR Kumamoto OR Noto OR earthquake OR tsunami OR typhoon OR disaster OR Hiroshima OR Nagasaki OR hibakusha OR "A-bomb" OR "atomic bomb" OR "atomic bombing" OR "atomic weapon" OR "nuclear weapon" OR "nuclear abolition" OR "Enola Gay" OR "Pearl Harbor" OR "World War II" OR "Pacific War" OR "V-J Day" OR "end of war" OR "unconditional surrender" OR "Japan surrender" OR alliance OR Indo-Pacific OR trade OR tariff OR sanctions OR semiconductor OR supply chain OR 終戦 OR 原爆 OR 被爆 OR 被爆者 OR 核兵器 OR 真珠湾 OR 日米 OR 日本)';
 
 export const publicFigures: PublicFigure[] = [
   { username: "WhiteHouse", label: "White House", side: "us", searchTerms: ["White House"], officialDomains: ["whitehouse.gov"] },
@@ -333,7 +333,7 @@ async function readGoogleNews(query: string, source: string, side: "jp" | "us", 
 }
 
 async function readJapanRemembranceSignals(): Promise<AlertItem[]> {
-  const query = '(site:senate.gov OR site:house.gov OR site:whitehouse.gov OR site:state.gov OR site:defense.gov OR site:war.gov OR site:jp.usembassy.gov OR site:x.com) (Hiroshima OR Nagasaki OR "atomic bombing" OR hibakusha OR "nuclear abolition" OR "Pacific War" OR "World War II" OR "V-J Day" OR "end of war" OR "Japan surrender" OR 終戦 OR 原爆 OR 被爆者) (statement OR remarks OR commemorates OR remembers OR anniversary OR post) when:30d';
+  const query = '(site:senate.gov OR site:house.gov OR site:whitehouse.gov OR site:state.gov OR site:defense.gov OR site:war.gov OR site:jp.usembassy.gov OR site:x.com OR site:twitter.com) (Hiroshima OR Nagasaki OR hibakusha OR "A-bomb" OR "atomic bomb" OR "atomic bombing" OR "atomic weapon" OR "nuclear weapon" OR "nuclear abolition" OR "Enola Gay" OR "Pearl Harbor" OR "Pacific War" OR "World War II" OR "V-J Day" OR "end of war" OR "unconditional surrender" OR "Japan surrender" OR 終戦 OR 原爆 OR 被爆 OR 被爆者 OR 核兵器 OR 真珠湾) (statement OR remarks OR said OR speech OR commemorates OR remembers OR anniversary OR post) when:30d';
   return readGoogleNews(query, "米政府・議会 · 日本戦争記憶関連発信 · U.S. official representative", "us", 50);
 }
 

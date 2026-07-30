@@ -6,8 +6,8 @@ if (!repo || !token) throw new Error("GITHUB_REPOSITORY and GITHUB_TOKEN are req
 
 const now = Date.now();
 const maxAgeMs = 20 * 60 * 1000;
-const hardTrigger = /tariff|関税|sanction|制裁|export control|輸出規制|military strike|missile|nuclear|核|ミサイル|攻撃|首脳会談|summit|emergency|緊急|辞任|解任|resign|dismiss|truth social|公式sns/i;
-const anomalyTrigger = /reports?|sources?|関係者|政府筋|観測|調整|検討|見通し|unexpected|surprise|abrupt|突然|異例|おかしな|unconfirmed/i;
+const hardTrigger = /tariff|関税|sanction|制裁|export control|輸出規制|military strike|missile|nuclear|atomic bomb|a-bomb|hiroshima|nagasaki|hibakusha|pearl harbor|核|原爆|被爆|広島|長崎|真珠湾|ミサイル|攻撃|首脳会談|summit|official visit|visit to (?:washington|tokyo|japan)|訪米|訪日|会談|協議|emergency|緊急|辞任|解任|resign|dismiss|truth social|公式sns/i;
+const anomalyTrigger = /reports?|sources?|officials?|remarks?|said|told reporters?|speaking to reporters?|interview|revealed|disclosed|post(?:ed)?|関係者|政府筋|記者団|取材|インタビュー|明らかにした|述べた|語った|発言|投稿|観測|調整|検討|見通し|unexpected|surprise|abrupt|突然|異例|おかしな|unconfirmed/i;
 
 const headers = {
   authorization: `Bearer ${token}`,
@@ -26,7 +26,7 @@ const candidates = (feed.items || []).filter((item) => {
   const text = `${item.title} ${item.summary || ""}`;
   const critical = item.priority >= 90;
   const policyShock = item.priority >= 82 && hardTrigger.test(text);
-  const anomalousReport = !item.official && item.priority >= 84 && anomalyTrigger.test(text) && hardTrigger.test(text);
+    const anomalousReport = !item.official && item.priority >= 82 && anomalyTrigger.test(text) && hardTrigger.test(text);
   return critical || policyShock || anomalousReport;
 });
 
