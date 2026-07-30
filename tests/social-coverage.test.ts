@@ -1,6 +1,12 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { indexedSweeps, isExpectedIndexedSource, isWithinDays, publicFigures } from "../lib/social-direct.ts";
+import {
+  indexedSweeps,
+  isExpectedIndexedSource,
+  isExpectedXAccountUrl,
+  isWithinDays,
+  publicFigures,
+} from "../lib/social-direct.ts";
 import { assessPrincipalCommunication } from "../lib/policy.ts";
 
 test("covers every U.S. lawmaker through official Senate and House domains", () => {
@@ -25,6 +31,40 @@ test("covers Hagerty and core bilateral operators", () => {
   ]) {
     assert.match(corpus, new RegExp(expected.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   }
+});
+
+test("covers key cabinet and Japanese principals on X", () => {
+  const usernames = new Set(publicFigures.map((figure) => figure.username));
+  for (const username of [
+    "POTUS",
+    "SecRubio",
+    "SecWar",
+    "SecScottBessent",
+    "howardlutnick",
+    "jamiesongreer",
+    "USAmbJapan",
+    "takaichi_sanae",
+    "shinjirokoiz",
+    "satsukikatayama",
+    "onoda_kimi",
+  ]) {
+    assert.equal(usernames.has(username), true, `missing @${username}`);
+  }
+});
+
+test("accepts only resolved posts from the expected X account", () => {
+  assert.equal(
+    isExpectedXAccountUrl("https://x.com/SecRubio/status/2079872455154315648", "SecRubio"),
+    true,
+  );
+  assert.equal(
+    isExpectedXAccountUrl("https://x.com/KSAembassyNG/status/2079872455154315648", "USAmbJapan"),
+    false,
+  );
+  assert.equal(
+    isExpectedXAccountUrl("https://x.com/SecRubio", "SecRubio"),
+    false,
+  );
 });
 
 test("indexed social results must prove the expected author", () => {
