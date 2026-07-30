@@ -34,6 +34,25 @@ test("keeps direct Japan-US policy developments", () => {
   assert.ok(result.priority >= 80);
 });
 
+test("keeps Japan-related statements, tariff coverage, and policy analysis", () => {
+  assert.equal(
+    assessPolicyItem(
+      "Statement by the U.S. Ambassador to Japan on tariff negotiations",
+      "The ambassador discussed the U.S.-Japan trade relationship.",
+      true,
+    ).relevant,
+    true,
+  );
+  assert.equal(
+    assessPolicyItem("米関税変更で日本企業への影響広がる　関連業界が対応を検討").relevant,
+    true,
+  );
+  assert.equal(
+    assessPolicyItem("日米同盟の今後を検証する政策分析").relevant,
+    true,
+  );
+});
+
 test("keeps a prime minister visit leaked directly to reporters", () => {
   const result = assessPolicyItem(
     "高市総理、8月の訪米を記者団に明らかに　トランプ大統領との会談を調整",
@@ -74,9 +93,9 @@ test("drops foreign stories with no US policy actor", () => {
   assert.equal(result.relevant, false);
 });
 
-test("drops generic ministry pages and non-US press-conference listings", () => {
+test("drops generic ministry pages but keeps substantive minister statements", () => {
   assert.equal(assessPolicyItem("防衛省・自衛隊ホームページ", "", true).relevant, false);
-  assert.equal(assessPolicyItem("茂木外務大臣臨時会見記録｜外務省", "", true).relevant, false);
+  assert.equal(assessPolicyItem("茂木外務大臣臨時会見記録｜外務省", "", true).relevant, true);
 });
 
 test("drops unrelated White House domestic releases", () => {
@@ -142,12 +161,16 @@ test("drops ceremonial and exchange-program notices", () => {
     false,
   );
   assert.equal(
-    assessPolicyItem("毎小ニュース：国際 アメリカ新関税 日本に12.5％").relevant,
+    assessPolicyItem("駐日エジプト大使による外務大臣政務官への表敬｜外務省", "", true).relevant,
     false,
   );
   assert.equal(
+    assessPolicyItem("毎小ニュース：国際 アメリカ新関税 日本に12.5％").relevant,
+    true,
+  );
+  assert.equal(
     assessPolicyItem("トランプ新関税、日本や企業はどう対処すべきか 有識者2人に聞く").relevant,
-    false,
+    true,
   );
 });
 
@@ -254,16 +277,16 @@ test("drops ceremonial bilateral embassy items from the executive briefing", () 
   );
 });
 
-test("keeps consequential research findings but drops routine policy commentary", () => {
+test("keeps Japan-related policy analysis, including reports and commentary", () => {
   assert.equal(
     passesFinalRelevanceGuard(item({
       title: "Beyond Deterrence: Evolving China-Russia Military Coordination and the U.S.-Japan Alliance",
       source: "CSIS",
       coverage: "policy-analysis",
       japanRelated: true,
-      priority: 82,
+      priority: 48,
     })),
-    false,
+    true,
   );
   assert.equal(
     passesFinalRelevanceGuard(item({
@@ -279,6 +302,17 @@ test("keeps consequential research findings but drops routine policy commentary"
 });
 
 test("keeps high-value reports and direct disclosures that officials may be asked about", () => {
+  assert.equal(
+    passesFinalRelevanceGuard(item({
+      title: "Statement by the U.S. Ambassador to Japan on tariff negotiations",
+      summary: "The ambassador discussed the U.S.-Japan trade relationship.",
+      source: "U.S. Embassy Japan",
+      official: true,
+      japanRelated: true,
+      priority: 55,
+    })),
+    true,
+  );
   assert.equal(
     passesFinalRelevanceGuard(item({
       title: "高市総理、8月の訪米を記者団に明らかに　トランプ大統領との会談を調整",

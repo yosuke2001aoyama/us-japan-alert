@@ -12,8 +12,6 @@ const japaneseOfficialResponse = /\b(?:prime minister(?: of japan)?|chief cabine
 
 const genericBreakingPrefix = /^(?:【?(?:速報|続報|独自|緊急)】?[\s　]*)+/i;
 const indexedPrincipalLane = /^(?:公開検索 ·|米連邦議員公式発信 ·|日米関係重要議員 ·|米議会委員会・日米議連 ·|駐日米国大使館 ·|米国務省EAP・日本部 ·|ホワイトハウスNSC ·|米太平洋軍・在日米軍 ·|米通商・財務・商務 ·|日本政府・主要閣僚 ·|米政府・議会 · 日本戦争記憶関連発信 ·)/;
-const consequentialAnalysis = /\b(?:new report|study finds?|survey finds?|war game|simulation finds?|concludes?|warns?|recommends?|testif(?:y|ies|ied)|launches?|releases?)\b|報告書|調査結果|研究結果|試算|シミュレーション|提言|勧告|警告|公表|発表/i;
-const MIN_EXECUTIVE_PRIORITY = 72;
 
 export function passesFinalRelevanceGuard(item: AlertItem): boolean {
   const title = item.title.replace(genericBreakingPrefix, "").trim();
@@ -34,11 +32,6 @@ export function passesFinalRelevanceGuard(item: AlertItem): boolean {
   // Extremely short generic breaking-news headlines must contain real policy substance.
   if (genericBreakingPrefix.test(item.title) && !policySubstance.test(text) && !officialJapanEmergency) return false;
 
-  // Routine commentary and evergreen explainers are reference material, not an
-  // executive alert. Keep analyses only when they contain a new finding, warning,
-  // recommendation, testimony, or report that could itself prompt questions.
-  if (item.coverage === "policy-analysis" && !consequentialAnalysis.test(text)) return false;
-
   // Indexed search results must identify the expected principal in their own
   // content unless the publisher/account was independently verified.
   if (
@@ -49,6 +42,5 @@ export function passesFinalRelevanceGuard(item: AlertItem): boolean {
 
   // A source lane or search query is not evidence of relevance. Reassess only the
   // actual headline/summary, adding a country context solely for verified authors.
-  if (!executiveAssessment.relevant && !officialJapanEmergency) return false;
-  return officialJapanEmergency || executiveAssessment.priority >= MIN_EXECUTIVE_PRIORITY;
+  return executiveAssessment.relevant || officialJapanEmergency;
 }
