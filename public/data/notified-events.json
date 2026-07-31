@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-07-31T07:38:49.039Z",
+  "updatedAt": "2026-07-31T10:13:46.792Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -1050,6 +1050,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZeDREYllndmhRa3ZwckplSmxQU0pEWlptekxTOEZJcTNpOEoyMzMta0hEY1NwVHhsMlJEMDl3TDNfWW9yUUJ5cFJNMUNvTDhsY2I3WU5IUWVrak5IZkJoTDZNXzlLSWhfcjZpRw",
       "articleTitleKey": "nyダウ1153ドル安 関税ショック以来の下落 30年金利19年ぶり高さ",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "3096b6cc6f7cb0b8e547840d",
+      "title": "日米韓等「北朝鮮IT労働者に関する各国・企業等に対する注意喚起」の公表（令和8年7月31日）",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObWdSNlpESFZhdlZUaVdSUXQwWUY4Y05Rams0ZUZOUlFic2FNeVgzYkZsQWdOSjBxMUVUcUJWN1dLMmxOMFdKMUFfSHlGaTdyODY0Um5GSkRoUlRyWWNSdVMzOWVld2wzV0c3RXNTbjRoejZSYjZOLWtWTEI4QlBhZ0lFTGJUUmd2cWVCY1czQVNPeGpsWlU0eXpzbVZEMGc?oc=5",
+      "source": "mof.go.jp",
+      "category": "日米関係",
+      "priority": 91,
+      "publishedAt": "2026-07-31T08:59:32.000Z",
+      "notifiedAt": "2026-07-31T10:13:46.792Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObWdSNlpESFZhdlZUaVdSUXQwWUY4Y05Rams0ZUZOUlFic2FNeVgzYkZsQWdOSjBxMUVUcUJWN1dLMmxOMFdKMUFfSHlGaTdyODY0Um5GSkRoUlRyWWNSdVMzOWVld2wzV0c3RXNTbjRoejZSYjZOLWtWTEI4QlBhZ0lFTGJUUmd2cWVCY1czQVNPeGpsWlU0eXpzbVZEMGc",
+      "articleTitleKey": "日米韓等 北朝鮮it労働者に関する各国 企業等に対する注意喚起 の公表 令和8年7月31日",
+      "articleSourceKey": "mof.go.jp"
     }
   ]
 }
