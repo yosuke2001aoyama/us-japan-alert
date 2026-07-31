@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-07-31T12:18:27.541Z",
+  "updatedAt": "2026-07-31T14:41:20.195Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -1064,6 +1064,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObWdSNlpESFZhdlZUaVdSUXQwWUY4Y05Rams0ZUZOUlFic2FNeVgzYkZsQWdOSjBxMUVUcUJWN1dLMmxOMFdKMUFfSHlGaTdyODY0Um5GSkRoUlRyWWNSdVMzOWVld2wzV0c3RXNTbjRoejZSYjZOLWtWTEI4QlBhZ0lFTGJUUmd2cWVCY1czQVNPeGpsWlU0eXpzbVZEMGc",
       "articleTitleKey": "日米韓等 北朝鮮it労働者に関する各国 企業等に対する注意喚起 の公表 令和8年7月31日",
       "articleSourceKey": "mof.go.jp"
+    },
+    {
+      "id": "fb8d11ad0f4e4834ce950637",
+      "title": "I look forward to seeing my longtime friend, Bank of Japan Governor Kazuo Ueda, at the G20 Finance Ministers Meetings in the beautiful Blue Ridge Mountains city of Asheville, No…",
+      "url": "https://x.com/SecScottBessent/status/2083187156181221529",
+      "source": "X · @SecScottBessent · Treasury Secretary Scott Bessent",
+      "category": "首脳・閣僚",
+      "priority": 90,
+      "publishedAt": "2026-07-31T13:44:56.000Z",
+      "notifiedAt": "2026-07-31T14:41:20.195Z",
+      "baseline": false,
+      "articleUrlKey": "https://x.com/SecScottBessent/status/2083187156181221529",
+      "articleTitleKey": "i look forward to seeing my longtime friend bank of japan governor kazuo ueda at the g20 finance ministers meetings in the beautiful blue ridge mountains city of asheville no",
+      "articleSourceKey": "x · @secscottbessent · treasury secretary scott bessent"
     }
   ]
 }
