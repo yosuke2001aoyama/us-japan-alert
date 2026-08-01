@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T14:38:57.113Z",
+  "generatedAt": "2026-08-01T15:42:20.520Z",
   "mode": "live",
   "sources": {
     "ok": 104,
@@ -101,7 +101,7 @@
       "truthSocial": true,
       "xDirect": true,
       "truthSocialItems": 10,
-      "xDirectItems": 4
+      "xDirectItems": 5
     }
   },
   "items": [
@@ -423,6 +423,25 @@
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "Rak5ZY0hkNFUwUjFWRmQxZDA5clJRP29jPTU",
+      "title": "The U.S. Commander With a Two-Week Plan to Escalate Strikes in Iran",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDVYSUFFSElLME1NRE5TZEV0SkZveHc5Y054RFhxN0t4T0FENjROVVRIVl9tdGZZczRtMnJRR0JnVklLeEQ4SmE5QWlaYzNTeTBHU3VEZ2haTm5keXMweGRpZWN0Mk4xMXFobEVwQTJwVWdJNmoydnpZXzYtX05QQWxxZzlLanlNMHFWNHdQaU0tbVZpMGhNQ0tNRHF2REFpQjNYcHd4U0R1VFd1d09rRQ?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-07-30T03:00:00.000Z",
+      "summary": "",
+      "official": false,
+      "coverage": "major-media",
+      "relevant": true,
+      "japanRelated": false,
+      "category": "議会・政治",
+      "priority": 78,
+      "english": true,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "rVnJXbHBXUjFkZmNrWjBkazR0UXpRP29jPTU",
@@ -1090,9 +1109,9 @@
       "id": "lPTTFGa2JIWmxRVGw1WVVSSVRqVjM_b2M9NQ",
       "title": "トランプ大統領「アメリカはEUのための『貯金箱』ではない」 グーグルに制裁金科したEUに「高い関税」",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YZVM5c2pQUFUtZFVENHFTSi1NSHFZUmhwSDZVenRpc1kyMUNqekZ6VXltMzBqeEx5b3plSTRPLTN4bWRHSTA2V0x3V0NmOW9OM1FkbHZlQTl5YURITjV3?oc=5",
-      "source": "FNNプライムオンライン",
+      "source": "fnn.jp",
       "publishedAt": "2026-07-26T03:43:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YZVM5c2pQUFUtZFVENHFTSi1NSHFZUmhwSDZVenRpc1kyMUNqekZ6VXltMzBqeEx5b3plSTRPLTN4bWRHSTA2V0x3V0NmOW9OM1FkbHZlQTl5YURITjV3?oc=5\" target=\"_blank\"&gt;トランプ大統領「アメリカはEUのための『貯金箱』ではない」 グーグルに制裁金科したEUに「高い関税」&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;FNNプライムオンライン&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YZVM5c2pQUFUtZFVENHFTSi1NSHFZUmhwSDZVenRpc1kyMUNqekZ6VXltMzBqeEx5b3plSTRPLTN4bWRHSTA2V0x3V0NmOW9OM1FkbHZlQTl5YURITjV3?oc=5\" target=\"_blank\"&gt;トランプ大統領「アメリカはEUのための『貯金箱』ではない」 グーグルに制裁金科したEUに「高い関税」&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;fnn.jp&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 78,
       "japanRelated": false,
@@ -1290,7 +1309,7 @@
       "id": "MW5UbEZQVGt4VmVGb3lOVEE0TmxOQj9vYz01",
       "title": "米中の外相が会談 習近平国家主席の訪米に向けて調整",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zdXp3SmpSNVJnQWZrVVd0a3duSTM2N1l3UGs4dHF3di12UnBIaEg5d09OUmU5bVNtTXZsZGpaRUZObFg0S21BWkdfWFItME1nTlFPTkxVeFoyNTA4NlNB?oc=5",
-      "source": "NHKニュース",
+      "source": "news.web.nhk",
       "publishedAt": "2026-07-23T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -1384,6 +1403,26 @@
       "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
     },
     {
+      "id": "9zdGF0dXMvMjA3OTcyMjY2MTAwMTgwMTkwNA",
+      "title": "Joined @ASEAN partners to begin a productive week of advancing a free and open Indo-Pacific. - x.com. Joined @ASEAN partners to begin a productive week of advancing a free and o…",
+      "url": "https://x.com/SecRubio/status/2079722661001801904",
+      "source": "X · @SecRubio · Secretary Marco Rubio",
+      "publishedAt": "2026-07-22T07:00:00.000Z",
+      "summary": "Joined @ASEAN partners to begin a productive week of advancing a free and open Indo-Pacific. - x.com. Joined @ASEAN partners to begin a productive week of advancing a free and open Indo-Pacific. x.com",
+      "official": true,
+      "verifiedSource": true,
+      "actorCountry": "us",
+      "relevant": true,
+      "japanRelated": false,
+      "category": "外交・安保",
+      "priority": 82,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+    },
+    {
       "id": "YUVGWGVYbDFWR0pxVHpZeGNXNTVkdz9vYz01",
       "title": "Beyond Deterrence: Evolving China-Russia Military Coordination and the U.S.-Japan Alliance",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSVo2OElhSEdIeVdXZUJKOGxMRG5PTUN2blpkNWlnWWRERVNXbXViRGZyNWVINGpyRGp6eVdHV2VuMEpDbzZrMzk1Z0MxaWR6TFRfVXhkc1pmYmtBdjUwVVI5bUZDZ2hHdkhBWHdOeTdiVUxab2N0WVoxREw2Qy01cjhUZG9mdldFY05BTkhzYmJQYXFSM2VoTFhSdFRraXM1WHZTaEFXeXl1VGJqTzYxcW55dw?oc=5",
@@ -1465,6 +1504,25 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wRldNOVpod1RMT250YVZVckhEYm9oOWV0bWg0U2FIYzFyZ0dndDJQdU16NnhzdVM3eTUyT3lja0JOUWlkTW9Ca2o3dE16ZWs2R3FHQjBSZ1RVRUtTTEdDZDBndkNRaFRvOFVtclg1bXJaYkowM1ZwVQ?oc=5",
       "source": "cas.go.jp",
       "publishedAt": "2026-07-21T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "coverage": "jp-leadership",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "公式発表",
+      "priority": 61,
+      "english": false,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "JEaGZlazVrVlMxbGNWWTRRbTVaYWc_b2M9NQ",
+      "title": "日本成長戦略概要",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjR3cnNWN3J5UmtLRzllRDlEaVBfRmh0RTZTOUpyLWRqY0FlSkFDM3RqVkVlUDRPbEZ5MTZOelkxajBGVlE5M20yaXlSSDFxYnllT1NsT1JrT2NPelhHZDAwbGplZEJoMFlPZU52QjBMbDhfek5kVS1lcVY4Qm5Zag?oc=5",
+      "source": "cas.go.jp",
+      "publishedAt": "2026-07-21T06:26:56.000Z",
       "summary": "",
       "official": true,
       "coverage": "jp-leadership",
