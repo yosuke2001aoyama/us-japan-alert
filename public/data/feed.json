@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T20:37:11.134Z",
+  "generatedAt": "2026-08-01T21:32:26.087Z",
   "mode": "live",
   "sources": {
     "ok": 104,
@@ -101,7 +101,7 @@
       "truthSocial": true,
       "xDirect": true,
       "truthSocialItems": 0,
-      "xDirectItems": 6
+      "xDirectItems": 5
     }
   },
   "items": [
@@ -762,7 +762,7 @@
       "id": "GTkVTMFJyTmtKd2VHczVORWRMTkVFP29jPTU",
       "title": "イスラエル首相が米国大統領との会談のためワシントンに到着した。",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYmFMZUZMSzFUYnRRcFAtZUZTdVF3ZXZiWXhQZGI2TWpqT1FtMVlWTjdzRExmOENES3A3OFFEU2JKWTBqclNjM1VXNnNCcHZwS0dBWkhibkU4eWFsd2VxOG5xYTloQ2xta2k4R242TXdiMEhDckV1MzlKNFNES0RrNkJweGs5NEdLNEE?oc=5",
-      "source": "Vietnam.vn",
+      "source": "vietnam.vn",
       "publishedAt": "2026-07-27T16:14:37.000Z",
       "summary": "",
       "official": false,
@@ -1227,26 +1227,6 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "vc3RhdHVzLzIwNzk2MTQwNjIyNzk3MDQ2ODU",
-      "title": "Let me now talk about the Global Combat Air Programme (GCAP) which, I believe, many of you here already know. Japan has been driving forward this ambitious project GCAP with the…",
-      "url": "https://x.com/shinjirokoiz/status/2079614062279704685",
-      "source": "X · @shinjirokoiz · Defense Minister Shinjiro Koizumi",
-      "publishedAt": "2026-07-21T07:00:00.000Z",
-      "summary": "Let me now talk about the Global Combat Air Programme (GCAP) which, I believe, many of you here already know. Japan has been driving forward this ambitious project GCAP with the United Kingdom and Italy, which will definitely boost the defense industrial - x.com. Let me now talk about the Global Combat Air Programme (GCAP) which, I believe, many of you here already know. Japan has been driving forward this ambitious project GCAP with the United Kingdom and Italy, which will definitely boost the defense industrial x.com",
-      "official": true,
-      "verifiedSource": true,
-      "actorCountry": "jp",
-      "relevant": true,
-      "japanRelated": true,
-      "category": "外交・安保",
-      "priority": 90,
-      "english": true,
-      "socialPost": true,
-      "verification": "official",
-      "verificationLabel": "公式SNS",
-      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
-    },
-    {
       "id": "yeDBVbkExVUZadVlWQlRRbWxsVUZFP29jPTU",
       "title": "China and CRINK: Implications for Japan and the United States",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQTNBc2UyMnRZaWVXQU1qWktIcG9xdVkwMkowSVVtNmZPdXBoTHJtS2NrSmlJMnFPbTJtTnFidjVMYlo1S1pEdnFPVmMxRHh6Ul9feXVGUHhjTDB6bnN1Rzd2cTY3RVBSRnlwb0pVT1JDNDNMNXpfRTJoT2x0UnA1UFZuYVBTQmllUFE?oc=5",
@@ -1440,7 +1420,7 @@
       "id": "UzNKMU1VeFZNSFJxWW5kbWVHOUROQT9vYz01",
       "title": "イスラエル首相、訪米延期 レバノン攻撃巡りトランプ氏と溝",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13MW5acko1aVNXd29IMWZjQkYzbG9nZG42bDJyYVVTZURvVEIxaDVPV09yaTFxejhZRjdNV0FCMThMRFdkS2NOZ2ZKYWlYWGlKcnUzS3J1MUxVMHRqYndmeG9DNA?oc=5",
-      "source": "時事ドットコム",
+      "source": "jiji.com",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -1475,25 +1455,6 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "MXpObTVsUzNWRVVrbHRiM2xXUVVkbT9vYz01",
-      "title": "Meeks Issues Statement Opposing Tariff Powers in Senate Russia Bill",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX1RmbS1BUVo1UUttNFNEYnJ2XzRFUVdWX0hrWGNQVnRVU2lnRGpwVTJ1QUUyNFprT0ZibTRKMnIwRkw5VlhEZ2lkSlBoaDlMM2NEZjRXVkgzU0pkVHBCZUQydEdqaVZjMXE3YXVXUXpCQ2pFQmdsR3Yyeml5SG5Ld054UzlveFB5S21BUGZ6Yl9rQUtCc0lCQTNJUE9SNGo1OTd5bmoyV21zNm5lS3VEUkltb3lWQUdm?oc=5",
-      "source": "House.gov",
-      "publishedAt": "2026-07-15T01:45:44.000Z",
-      "summary": "",
-      "official": true,
-      "coverage": "legislatures",
-      "relevant": true,
-      "japanRelated": false,
-      "category": "議会・政治",
-      "priority": 71,
-      "english": true,
-      "socialPost": false,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
       "id": "bkZFZG1aVlYwdHRSVGN4VDJkWlYwRT9vYz01",
       "title": "イラン攻撃の法的正当性 —アメリカ大統領はいつでも戦争を始められるのか― | SPFアメリカ現状モニター | 日米関係インサイト",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT0laaVZhbWFsNXlWTC13cVZQY283cVBBYVZ5MnNpM3A3Q1NZU29QQ3ZhbHliRkJFY3MzckkzeHhhbTFqWUttUU5GU1Y0MjRRNDlOQ2IyOUJxaVQxazJEMVdvb1daak43OEIyOWVKLUdoZ2REd01KYU00U3hjXzc2TWhQLXE5SHVyRmhHOUdmdnFEdmZVV0ttRTcxT2dZV0E?oc=5",
@@ -1511,6 +1472,25 @@
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "MXpObTVsUzNWRVVrbHRiM2xXUVVkbT9vYz01",
+      "title": "Meeks Issues Statement Opposing Tariff Powers in Senate Russia Bill",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX1RmbS1BUVo1UUttNFNEYnJ2XzRFUVdWX0hrWGNQVnRVU2lnRGpwVTJ1QUUyNFprT0ZibTRKMnIwRkw5VlhEZ2lkSlBoaDlMM2NEZjRXVkgzU0pkVHBCZUQydEdqaVZjMXE3YXVXUXpCQ2pFQmdsR3Yyeml5SG5Ld054UzlveFB5S21BUGZ6Yl9rQUtCc0lCQTNJUE9SNGo1OTd5bmoyV21zNm5lS3VEUkltb3lWQUdm?oc=5",
+      "source": "House.gov",
+      "publishedAt": "2026-07-14T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "coverage": "legislatures",
+      "relevant": true,
+      "japanRelated": false,
+      "category": "議会・政治",
+      "priority": 71,
+      "english": true,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "UR3BaU21odFFqRlNVMmRaWTJSNmF3P29jPTU",
