@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T18:38:28.238Z",
+  "generatedAt": "2026-08-01T19:51:09.675Z",
   "mode": "live",
   "sources": {
     "ok": 104,
@@ -385,7 +385,7 @@
       "id": "Rak5ZY0hkNFUwUjFWRmQxZDA5clJRP29jPTU",
       "title": "The U.S. Commander With a Two-Week Plan to Escalate Strikes in Iran",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDVYSUFFSElLME1NRE5TZEV0SkZveHc5Y054RFhxN0t4T0FENjROVVRIVl9tdGZZczRtMnJRR0JnVklLeEQ4SmE5QWlaYzNTeTBHU3VEZ2haTm5keXMweGRpZWN0Mk4xMXFobEVwQTJwVWdJNmoydnpZXzYtX05QQWxxZzlLanlNMHFWNHdQaU0tbVZpMGhNQ0tNRHF2REFpQjNYcHd4U0R1VFd1d09rRQ?oc=5",
-      "source": "wsj.com",
+      "source": "WSJ",
       "publishedAt": "2026-07-30T03:00:00.000Z",
       "summary": "",
       "official": false,
@@ -597,7 +597,7 @@
       "id": "amRGZW5oMU9GZENUMDU0UjNseE5FRT9vYz01",
       "title": "Iran Launches Surprise Missile Attack on U.S. Forces in the Middle East",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYm1mNVNLLVJxQ012SmI5ejdTQlRnZzVXRVpzWFdkMnVLMEVPN2Etby1FUmNDZzViOGo0SFhWU21lYkFaZzVRVlFRZ3pqUGN2S1dUZWVDb2V2T2pSTjhNOTF4dHpOZl9MdUlib0tPQmNEeFpoV2hxRjRBSXlZMW1sTk5FbkxaSk5ybUNKdHdtYjdFenh1OFdCT054R3lxNEE?oc=5",
-      "source": "wsj.com",
+      "source": "WSJ",
       "publishedAt": "2026-07-29T01:31:00.000Z",
       "summary": "",
       "official": false,
@@ -1031,23 +1031,6 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "todFdtZzVXR1ZKU0RsWFNIZGxPRlk_b2M9NQ",
-      "title": "米国が新関税、日本や韓国に最大12.5%－強制労働対策で24日発動 フォトギャラリー | TBS CROSS DIG with Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QdXV2V2ZBY0c2ZXROVmVuYzZHcGtjdElPLUZZa2NJZ1ZPcVBMRUVqZlBGbWZkeFdpaW9JX3VnMkwzcjB4dW00Nzc3M0lGUk50ZUlKbkNQaW9BU0lnS2l4SEZkcVRmaEEyWUxFWkhtWmg5WGVJSDlXSHdlOFY?oc=5",
-      "source": "TBS NEWS DIG",
-      "publishedAt": "2026-07-24T19:23:52.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5QdXV2V2ZBY0c2ZXROVmVuYzZHcGtjdElPLUZZa2NJZ1ZPcVBMRUVqZlBGbWZkeFdpaW9JX3VnMkwzcjB4dW00Nzc3M0lGUk50ZUlKbkNQaW9BU0lnS2l4SEZkcVRmaEEyWUxFWkhtWmg5WGVJSDlXSHdlOFY?oc=5\" target=\"_blank\"&gt;米国が新関税、日本や韓国に最大12.5%－強制労働対策で24日発動 フォトギャラリー | TBS CROSS DIG with Bloomberg&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f",
-      "category": "通商・経済",
-      "priority": 92,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
       "id": "YjJoU1ZWTlJRbmxtUWtWWlpGZEtkdz9vYz01",
       "title": "日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催しました",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rOG55eDJ4QjFFOHdVSERhYy1ZaG5VdVlVc2lLWDNiNHlFM2xvUnpQZF82Vi11YkFtRjluaGNYTEwyYkJkZGNuMW1nVlR2ZHR3enlxb2hSVVNRQnlmQkVZZFdKdw?oc=5",
@@ -1395,6 +1378,25 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
+      "id": "JNWWxOUGVYTmxlWEJvYkZkbWNYWjM_b2M9NQ",
+      "title": "Congressman Pat Harrigan Introduces Legislation to Stop China's Acquisition of American Aviation Companies",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUTkyaWNJRjFoVDBhT0FQQUxocnZiWGVWOXpXWXpNaU5GS0UxUlFUcjNwb01OOVJWVERkRGFzNE9ETTYxaFNOQmN5d0U5STQtWGVqRTVpa2V1emtJcW5zS1BpSmNUWE1xNHlaVFBMNmtuTXdWM0VSakJ1VTk0T2VvQ09NYUt1UUhGRkUzaklseGZyNFR1LWN4NFN1UWRLYTBiZ3N1OU5NUXRVNjRMYlNPeXNleXBobFdmcXZ3?oc=5",
+      "source": "Congressman Pat Harrigan (.gov)",
+      "publishedAt": "2026-07-16T15:38:10.000Z",
+      "summary": "",
+      "official": true,
+      "coverage": "legislatures",
+      "relevant": true,
+      "japanRelated": false,
+      "category": "議会・政治",
+      "priority": 91,
+      "english": true,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
       "id": "VzVyVG1waldESndRVXRPVm0xRk4yOD9vYz01",
       "title": "イラン攻撃と「フエンテス」問題に揺れるアメリカ右派知識人 | SPFアメリカ現状モニター | 日米関係インサイト",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTVY1X0k0azhJWEoxSlJJSFo4N2VzUXpSSGg0VHEwQWwyZVo0QnBnR0FOazkteVV1OGttMjMxcFIwMmlibWh0Zmc5ZjZxMkNtRjRLaFpqR1ExTTdPZ3ZNbFJxQllKVmtoRm5lUkpPTlVZZmJkNjZGMjh5WmRHUV9Wa1N0ak9ERlpvaGxLc1h3cW5rTmpjWDJwQUtOVm1FN28?oc=5",
@@ -1545,6 +1547,25 @@
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "UR3BaU21odFFqRlNVMmRaWTJSNmF3P29jPTU",
+      "title": "Iran and Nuclear Weapons Production",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDdzVUcldOMVZpd0pKejJFeHl3VTZtZnltN1hvS2duampRWk1QX0ppUXh5WVVXQ2tZRXJtWnpYUmo5MnpLY0ZPTGpZSmhtQjFSU2dZY2R6aw?oc=5",
+      "source": "Congress.gov",
+      "publishedAt": "2026-07-13T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "coverage": "legislatures",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "外交・安保",
+      "priority": 61,
+      "english": true,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "V2x1VmpVNFNuWlNkV1oxVVZCVmNGRT9vYz01",
