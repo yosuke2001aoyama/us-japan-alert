@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T22:31:07.614Z",
+  "generatedAt": "2026-08-01T23:31:15.587Z",
   "mode": "live",
   "sources": {
     "ok": 104,
@@ -1273,25 +1273,6 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wRldNOVpod1RMT250YVZVckhEYm9oOWV0bWg0U2FIYzFyZ0dndDJQdU16NnhzdVM3eTUyT3lja0JOUWlkTW9Ca2o3dE16ZWs2R3FHQjBSZ1RVRUtTTEdDZDBndkNRaFRvOFVtclg1bXJaYkowM1ZwVQ?oc=5",
       "source": "cas.go.jp",
       "publishedAt": "2026-07-21T07:00:00.000Z",
-      "summary": "",
-      "official": true,
-      "coverage": "jp-leadership",
-      "relevant": true,
-      "japanRelated": true,
-      "category": "公式発表",
-      "priority": 61,
-      "english": false,
-      "socialPost": false,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
-      "id": "JEaGZlazVrVlMxbGNWWTRRbTVaYWc_b2M9NQ",
-      "title": "日本成長戦略概要",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjR3cnNWN3J5UmtLRzllRDlEaVBfRmh0RTZTOUpyLWRqY0FlSkFDM3RqVkVlUDRPbEZ5MTZOelkxajBGVlE5M20yaXlSSDFxYnllT1NsT1JrT2NPelhHZDAwbGplZEJoMFlPZU52QjBMbDhfek5kVS1lcVY4Qm5Zag?oc=5",
-      "source": "cas.go.jp",
-      "publishedAt": "2026-07-21T06:26:56.000Z",
       "summary": "",
       "official": true,
       "coverage": "jp-leadership",
