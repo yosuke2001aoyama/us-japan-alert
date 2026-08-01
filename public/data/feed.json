@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T21:32:26.087Z",
+  "generatedAt": "2026-08-01T22:31:07.614Z",
   "mode": "live",
   "sources": {
     "ok": 104,
@@ -101,7 +101,7 @@
       "truthSocial": true,
       "xDirect": true,
       "truthSocialItems": 0,
-      "xDirectItems": 5
+      "xDirectItems": 6
     }
   },
   "items": [
@@ -762,7 +762,7 @@
       "id": "GTkVTMFJyTmtKd2VHczVORWRMTkVFP29jPTU",
       "title": "イスラエル首相が米国大統領との会談のためワシントンに到着した。",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYmFMZUZMSzFUYnRRcFAtZUZTdVF3ZXZiWXhQZGI2TWpqT1FtMVlWTjdzRExmOENES3A3OFFEU2JKWTBqclNjM1VXNnNCcHZwS0dBWkhibkU4eWFsd2VxOG5xYTloQ2xta2k4R242TXdiMEhDckV1MzlKNFNES0RrNkJweGs5NEdLNEE?oc=5",
-      "source": "vietnam.vn",
+      "source": "Vietnam.vn",
       "publishedAt": "2026-07-27T16:14:37.000Z",
       "summary": "",
       "official": false,
@@ -929,23 +929,6 @@
       "source": "FNNプライムオンライン",
       "publishedAt": "2026-07-26T03:43:00.000Z",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YZVM5c2pQUFUtZFVENHFTSi1NSHFZUmhwSDZVenRpc1kyMUNqekZ6VXltMzBqeEx5b3plSTRPLTN4bWRHSTA2V0x3V0NmOW9OM1FkbHZlQTl5YURITjV3?oc=5\" target=\"_blank\"&gt;トランプ大統領「アメリカはEUのための『貯金箱』ではない」 グーグルに制裁金科したEUに「高い関税」&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;FNNプライムオンライン&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 78,
-      "japanRelated": false,
-      "official": false,
-      "english": false,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
-      "id": "QTFWVWt4VTBkZk1HbHBUV1JhVFVjND9vYz01",
-      "title": "「違法で差別的な慣行だ」トランプ大統領がEUに高い関税を課すと警告 Googleに対する約1650億円の制裁金に報復",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vZDNmdFBqWWVxLU9PYmEweVBOMmtoNVJ0dVZRc0hrLVUzNHpaVEloTEZIUW90V3I0Y09oa184bUE5Q0J1YTNENW41SlA1VUkxU0dfMGlpTWRaTUc4?oc=5",
-      "source": "TBS NEWS DIG",
-      "publishedAt": "2026-07-25T22:04:01.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vZDNmdFBqWWVxLU9PYmEweVBOMmtoNVJ0dVZRc0hrLVUzNHpaVEloTEZIUW90V3I0Y09oa184bUE5Q0J1YTNENW41SlA1VUkxU0dfMGlpTWRaTUc4?oc=5\" target=\"_blank\"&gt;「違法で差別的な慣行だ」トランプ大統領がEUに高い関税を課すと警告 Googleに対する約1650億円の制裁金に報復&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 78,
       "japanRelated": false,
@@ -1227,6 +1210,26 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
+      "id": "vc3RhdHVzLzIwNzk2MTQwNjIyNzk3MDQ2ODU",
+      "title": "Let me now talk about the Global Combat Air Programme (GCAP) which, I believe, many of you here already know. Japan has been driving forward this ambitious project GCAP with the…",
+      "url": "https://x.com/shinjirokoiz/status/2079614062279704685",
+      "source": "X · @shinjirokoiz · Defense Minister Shinjiro Koizumi",
+      "publishedAt": "2026-07-21T07:00:00.000Z",
+      "summary": "Let me now talk about the Global Combat Air Programme (GCAP) which, I believe, many of you here already know. Japan has been driving forward this ambitious project GCAP with the United Kingdom and Italy, which will definitely boost the defense industrial - x.com. Let me now talk about the Global Combat Air Programme (GCAP) which, I believe, many of you here already know. Japan has been driving forward this ambitious project GCAP with the United Kingdom and Italy, which will definitely boost the defense industrial x.com",
+      "official": true,
+      "verifiedSource": true,
+      "actorCountry": "jp",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "外交・安保",
+      "priority": 90,
+      "english": true,
+      "socialPost": true,
+      "verification": "official",
+      "verificationLabel": "公式SNS",
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+    },
+    {
       "id": "yeDBVbkExVUZadVlWQlRRbWxsVUZFP29jPTU",
       "title": "China and CRINK: Implications for Japan and the United States",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQTNBc2UyMnRZaWVXQU1qWktIcG9xdVkwMkowSVVtNmZPdXBoTHJtS2NrSmlJMnFPbTJtTnFidjVMYlo1S1pEdnFPVmMxRHh6Ul9feXVGUHhjTDB6bnN1Rzd2cTY3RVBSRnlwb0pVT1JDNDNMNXpfRTJoT2x0UnA1UFZuYVBTQmllUFE?oc=5",
@@ -1420,7 +1423,7 @@
       "id": "UzNKMU1VeFZNSFJxWW5kbWVHOUROQT9vYz01",
       "title": "イスラエル首相、訪米延期 レバノン攻撃巡りトランプ氏と溝",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13MW5acko1aVNXd29IMWZjQkYzbG9nZG42bDJyYVVTZURvVEIxaDVPV09yaTFxejhZRjdNV0FCMThMRFdkS2NOZ2ZKYWlYWGlKcnUzS3J1MUxVMHRqYndmeG9DNA?oc=5",
-      "source": "jiji.com",
+      "source": "時事ドットコム",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -1496,7 +1499,7 @@
       "id": "UR3BaU21odFFqRlNVMmRaWTJSNmF3P29jPTU",
       "title": "Iran and Nuclear Weapons Production",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDdzVUcldOMVZpd0pKejJFeHl3VTZtZnltN1hvS2duampRWk1QX0ppUXh5WVVXQ2tZRXJtWnpYUmo5MnpLY0ZPTGpZSmhtQjFSU2dZY2R6aw?oc=5",
-      "source": "Congress.gov",
+      "source": "congress.gov",
       "publishedAt": "2026-07-13T07:00:00.000Z",
       "summary": "",
       "official": true,
