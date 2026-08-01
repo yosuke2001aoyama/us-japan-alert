@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-07-31T23:45:03.058Z",
+  "updatedAt": "2026-08-01T01:17:13.872Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -1078,6 +1078,20 @@
       "articleUrlKey": "https://x.com/SecScottBessent/status/2083187156181221529",
       "articleTitleKey": "i look forward to seeing my longtime friend bank of japan governor kazuo ueda at the g20 finance ministers meetings in the beautiful blue ridge mountains city of asheville no",
       "articleSourceKey": "x · @secscottbessent · treasury secretary scott bessent"
+    },
+    {
+      "id": "3194f0e4818f9b7fa4f785f2",
+      "title": "米政府、新たに中国拠点43社に輸入規制 ウイグル強制労働防止法で",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XanphaC1CUy1RSGVrMlFOQ04wRk1OcjUxMFNoTEJiRERRSTQ0OW5idDNBVmJ1dVpILXJWb3FxQmxybWN6R0ZiTVRtdlY0UkRqcEVKbjhvYUtTaVZUNVhUWlJ1NTRUNDVLSU5ONg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-01T00:57:21.000Z",
+      "notifiedAt": "2026-08-01T01:17:13.872Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XanphaC1CUy1RSGVrMlFOQ04wRk1OcjUxMFNoTEJiRERRSTQ0OW5idDNBVmJ1dVpILXJWb3FxQmxybWN6R0ZiTVRtdlY0UkRqcEVKbjhvYUtTaVZUNVhUWlJ1NTRUNDVLSU5ONg",
+      "articleTitleKey": "米政府 新たに中国拠点43社に輸入規制 ウイグル強制労働防止法で",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
