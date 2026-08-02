@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T19:53:55.865Z",
+  "generatedAt": "2026-08-02T20:42:57.870Z",
   "mode": "live",
   "sources": {
     "ok": 104,
@@ -105,6 +105,23 @@
     }
   },
   "items": [
+    {
+      "id": "aGpRVlZCZDJrd2FXMTBRM05zVWtsbD9vYz01",
+      "title": "中国への好感度、米国を上回る 高関税・秩序破壊…トランプ氏への信頼低下 ３６カ国・地域調査",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoTEJWRHhWSExZQ29oT3U2QVJmWUlSUTRJOW5GQi1zV3VlUl9lamFiRmpvSmhaS1I5MWp3Y3RqYThuSXhrNThfNVFtYlhjQVVBd2kwaW10Q3NsUkll?oc=5",
+      "source": "朝日新聞",
+      "publishedAt": "2026-08-02T20:00:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoTEJWRHhWSExZQ29oT3U2QVJmWUlSUTRJOW5GQi1zV3VlUl9lamFiRmpvSmhaS1I5MWp3Y3RqYThuSXhrNThfNVFtYlhjQVVBd2kwaW10Q3NsUkll?oc=5\" target=\"_blank\"&gt;中国への好感度、米国を上回る 高関税・秩序破壊…トランプ氏への信頼低下 ３６カ国・地域調査&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;朝日新聞&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 78,
+      "japanRelated": false,
+      "official": false,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
     {
       "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwNDUz",
       "title": "The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of Military Terror, Strength, and Power not seen since World War II. Despite this…",
@@ -405,7 +422,7 @@
       "id": "Rak5ZY0hkNFUwUjFWRmQxZDA5clJRP29jPTU",
       "title": "The U.S. Commander With a Two-Week Plan to Escalate Strikes in Iran",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDVYSUFFSElLME1NRE5TZEV0SkZveHc5Y054RFhxN0t4T0FENjROVVRIVl9tdGZZczRtMnJRR0JnVklLeEQ4SmE5QWlaYzNTeTBHU3VEZ2haTm5keXMweGRpZWN0Mk4xMXFobEVwQTJwVWdJNmoydnpZXzYtX05QQWxxZzlLanlNMHFWNHdQaU0tbVZpMGhNQ0tNRHF2REFpQjNYcHd4U0R1VFd1d09rRQ?oc=5",
-      "source": "WSJ",
+      "source": "wsj.com",
       "publishedAt": "2026-07-30T03:00:00.000Z",
       "summary": "",
       "official": false,
@@ -617,7 +634,7 @@
       "id": "amRGZW5oMU9GZENUMDU0UjNseE5FRT9vYz01",
       "title": "Iran Launches Surprise Missile Attack on U.S. Forces in the Middle East",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYm1mNVNLLVJxQ012SmI5ejdTQlRnZzVXRVpzWFdkMnVLMEVPN2Etby1FUmNDZzViOGo0SFhWU21lYkFaZzVRVlFRZ3pqUGN2S1dUZWVDb2V2T2pSTjhNOTF4dHpOZl9MdUlib0tPQmNEeFpoV2hxRjRBSXlZMW1sTk5FbkxaSk5ybUNKdHdtYjdFenh1OFdCT054R3lxNEE?oc=5",
-      "source": "WSJ",
+      "source": "wsj.com",
       "publishedAt": "2026-07-29T01:31:00.000Z",
       "summary": "",
       "official": false,
@@ -1065,7 +1082,7 @@
       "id": "kRzQ0TFhOdVdIZFpSbVJqUzJOUmJ3P29jPTU",
       "title": "米中外相会談 9月のワシントンでの首脳会談に向けて「建設的な多くの話し合い」",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGcFNETmY3ZWNnSy1FYmhOWE5XdDd3MEVueUpPdnV1cjR6c3AwcnYyQ3JfMnd2UFoxT25IeTZwRDlXLVloR2tkdG44LXNuWHdZRmRjS2NRbw?oc=5",
-      "source": "newsdig.tbs.co.jp",
+      "source": "TBS NEWS DIG",
       "publishedAt": "2026-07-22T17:17:20.000Z",
       "summary": "",
       "official": false,
@@ -1139,6 +1156,25 @@
       "verification": "official",
       "verificationLabel": "公式SNS",
       "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+    },
+    {
+      "id": "YUVGWGVYbDFWR0pxVHpZeGNXNTVkdz9vYz01",
+      "title": "Beyond Deterrence: Evolving China-Russia Military Coordination and the U.S.-Japan Alliance",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSVo2OElhSEdIeVdXZUJKOGxMRG5PTUN2blpkNWlnWWRERVNXbXViRGZyNWVINGpyRGp6eVdHV2VuMEpDbzZrMzk1Z0MxaWR6TFRfVXhkc1pmYmtBdjUwVVI5bUZDZ2hHdkhBWHdOeTdiVUxab2N0WVoxREw2Qy01cjhUZG9mdldFY05BTkhzYmJQYXFSM2VoTFhSdFRraXM1WHZTaEFXeXl1VGJqTzYxcW55dw?oc=5",
+      "source": "CSIS | Center for Strategic and International Studies",
+      "publishedAt": "2026-07-22T07:00:00.000Z",
+      "summary": "",
+      "official": false,
+      "coverage": "policy-analysis",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "外交・安保",
+      "priority": 78,
+      "english": true,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "tb2YtdGhlLWxpYmVyYXRpb24tb2YtZ3VhbS8",
@@ -1392,7 +1428,7 @@
       "id": "YUdzdE9WbzBOVmRWYUMwMmVraEhVUT9vYz01",
       "title": "トランプ氏と20日に会談か イスラエル首相近く訪米",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lMDVadG5YWTlISUhnMEx0cllibmQ1d3BEemlaSnRqMmNhUTRGUlE5Y3FVYzE5YTAxeDJkczhQVERjRXlwMW5FR1Y2aGstOVo0NVdVaC02ekhHUQ?oc=5",
-      "source": "hokkaido-np.co.jp",
+      "source": "北海道新聞デジタル",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "summary": "",
       "official": false,
