@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T17:42:59.967Z",
+  "generatedAt": "2026-08-02T18:42:17.303Z",
   "mode": "live",
   "sources": {
     "ok": 103,
@@ -107,25 +107,6 @@
   },
   "items": [
     {
-      "id": "aM010YTFaWVVrVmxUelZRY1dKNE13P29jPTU",
-      "title": "US, Japan Navy Chiefs Conduct Call, Discuss Defense Cooperation > U.S. Pacific Command > News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRWZiX3BKQmtfYnp4Y3ZMZVVyeGdnRmQ1WWlURFVRMHB1Rkxmby11VGVjVTNEazJQZEMxc1diUHhIMGxsWUpwcDd1Y24zS3ZScTV3anNWTmNNal9kSE9Ld08zb08yaUppbzlYX0NMUkp6VU8xQ2pHbzZzbDQ3VTFsa0NvYWpMdVJOLTdaT2hXSTlBc2hCUnRVSXFHNmZhdUFPZ3Mta1ZYUkVlTzVQcWJ4Mw?oc=5",
-      "source": "pacom.mil",
-      "publishedAt": "2026-08-02T04:20:48.000Z",
-      "summary": "",
-      "official": true,
-      "coverage": "us-security",
-      "relevant": true,
-      "japanRelated": true,
-      "category": "外交・安保",
-      "priority": 86,
-      "english": true,
-      "socialPost": false,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
       "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQwNDUz",
       "title": "The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of Military Terror, Strength, and Power not seen since World War II. Despite this…",
       "url": "https://www.trumpstruth.org/statuses/40453",
@@ -144,25 +125,6 @@
       "verification": "official",
       "verificationLabel": "公式SNS",
       "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
-    },
-    {
-      "id": "REWTBlVlpoUkdOUlVpMWhhVGxUUXc_b2M9NQ",
-      "title": "VP-47 Conducts Joint Maritime Patrol Operations with Japan Maritime Self-Defense Forces",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUkYzOUNVUjVLZnZ0dTg0WEo1SkNKU2RCODRaYnBTcWJEczNacFlESGRaQndmUUhRcXJPbFA3X2FJcVlseDRwMUdrUTJqUDZPbnFNNm5LSmtfaExUeUp3TDBrenB4YmVIWTdJajNPOWFPQk1ULURGXzBReHFqd1ZyaFE3T042cTF5OFc1T2NJZ2wwWkNRVG9OZHBoRm1ZV1A3UzFIbGQ3RnpOTGd5b0h1SG1xcDRHcXpydDY0eVZhRGNRUi1haTlTQw?oc=5",
-      "source": "pacom.mil",
-      "publishedAt": "2026-08-01T12:41:59.000Z",
-      "summary": "",
-      "official": true,
-      "coverage": "us-security",
-      "relevant": true,
-      "japanRelated": true,
-      "category": "外交・安保",
-      "priority": 61,
-      "english": true,
-      "socialPost": false,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "a3BRZVhOTWJURkJhbGhrVXpKaFVVVT9vYz01",
@@ -782,25 +744,6 @@
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
-      "id": "toTVNtSlNNV3A0V0ZoQ01HbDZNRUU_b2M9NQ",
-      "title": "「平和と繁栄をもたらせるのはドナルドだけ」日米首脳会談は果たして成功だったのか？ 冒頭取材をやめたい…と高市首相に不安、よぎった悪夢のシナリオは回避",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZTUJqcFl5azFCQjBTaVltMUpFOEI5UDdLb1FWcnh3ZHRCSUVKTjZna1hqTlpPdnZwdUNkTVRHZDdXNkhMSmJSMWp4WFhCMGl6MEE?oc=5",
-      "source": "山陽新聞",
-      "publishedAt": "2026-07-28T07:00:00.000Z",
-      "summary": "",
-      "official": false,
-      "coverage": "bilateral-signals",
-      "relevant": true,
-      "japanRelated": true,
-      "category": "首脳・閣僚",
-      "priority": 88,
-      "english": false,
-      "socialPost": false,
-      "verification": "reported-observation",
-      "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
     },
     {
       "id": "VwcVlVbE9VM0ZoUm1rdE1tWk1Wa0U_b2M9NQ",
@@ -1431,7 +1374,7 @@
       "id": "UzNKMU1VeFZNSFJxWW5kbWVHOUROQT9vYz01",
       "title": "イスラエル首相、訪米延期 レバノン攻撃巡りトランプ氏と溝",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13MW5acko1aVNXd29IMWZjQkYzbG9nZG42bDJyYVVTZURvVEIxaDVPV09yaTFxejhZRjdNV0FCMThMRFdkS2NOZ2ZKYWlYWGlKcnUzS3J1MUxVMHRqYndmeG9DNA?oc=5",
-      "source": "時事ドットコム",
+      "source": "jiji.com",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "summary": "",
       "official": false,
