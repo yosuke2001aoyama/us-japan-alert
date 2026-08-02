@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:38:13.101Z",
+  "generatedAt": "2026-08-02T22:35:42.121Z",
   "mode": "live",
   "sources": {
     "ok": 104,
@@ -760,25 +760,6 @@
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
-      "id": "toTVNtSlNNV3A0V0ZoQ01HbDZNRUU_b2M9NQ",
-      "title": "「平和と繁栄をもたらせるのはドナルドだけ」日米首脳会談は果たして成功だったのか？ 冒頭取材をやめたい…と高市首相に不安、よぎった悪夢のシナリオは回避",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZTUJqcFl5azFCQjBTaVltMUpFOEI5UDdLb1FWcnh3ZHRCSUVKTjZna1hqTlpPdnZwdUNkTVRHZDdXNkhMSmJSMWp4WFhCMGl6MEE?oc=5",
-      "source": "山陽新聞",
-      "publishedAt": "2026-07-28T07:00:00.000Z",
-      "summary": "",
-      "official": false,
-      "coverage": "bilateral-signals",
-      "relevant": true,
-      "japanRelated": true,
-      "category": "首脳・閣僚",
-      "priority": 88,
-      "english": false,
-      "socialPost": false,
-      "verification": "reported-observation",
-      "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
     },
     {
       "id": "VwcVlVbE9VM0ZoUm1rdE1tWk1Wa0U_b2M9NQ",
