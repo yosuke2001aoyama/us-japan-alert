@@ -1,4 +1,4 @@
-import { assessPolicyItem, cleanNewsTitle } from "./policy.ts";
+import { assessPolicyItem, assessPrincipalCommunication, cleanNewsTitle } from "./policy.ts";
 import type { AlertItem } from "./feeds.ts";
 
 type DirectResult = { items: AlertItem[]; ok: number; failed: number; failedNames: string[]; total: number };
@@ -11,9 +11,10 @@ type HtmlSource = {
 };
 
 const htmlSources: HtmlSource[] = [
-  { name: "White House · News Direct", url: "https://www.whitehouse.gov/news/", host: "https://www.whitehouse.gov", paths: /^\/(?:presidential-actions|fact-sheets|briefings-statements|remarks|releases)\//i },
+  { name: "White House · News Direct", url: "https://www.whitehouse.gov/news/", host: "https://www.whitehouse.gov", paths: /^\/(?:presidential-actions|fact-sheets|briefings-statements|remarks|releases|videos)\//i },
   { name: "White House · Presidential Actions Direct", url: "https://www.whitehouse.gov/presidential-actions/", host: "https://www.whitehouse.gov", paths: /^\/presidential-actions\//i },
   { name: "White House · Fact Sheets Direct", url: "https://www.whitehouse.gov/fact-sheets/", host: "https://www.whitehouse.gov", paths: /^\/fact-sheets\//i },
+  { name: "White House · Videos Direct", url: "https://www.whitehouse.gov/videos/", host: "https://www.whitehouse.gov", paths: /^\/videos\//i },
   { name: "USTR · July Releases Direct", url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july", host: "https://ustr.gov", paths: /^\/about\/policy-offices\/press-office\/(?:press-releases|fact-sheets)\/2026\//i },
   { name: "USTR · Press Office Direct", url: "https://ustr.gov/about/policy-offices/press-office/press-releases", host: "https://ustr.gov", paths: /^\/about\/policy-offices\/press-office\/(?:press-releases|fact-sheets)\//i },
   { name: "Commerce · Press Releases Direct", url: "https://www.commerce.gov/news/press-releases", host: "https://www.commerce.gov", paths: /\/news\/press-releases\//i },
@@ -81,7 +82,12 @@ async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
     // An undated archive link must never be stamped with the current time: that
     // would make an old item reappear as a brand-new alert on every refresh.
     if (!publishedAt || !isRecent(publishedAt)) continue;
-    const assessment = assessPolicyItem(title, "", true);
+    const principalAssessment = source.name.startsWith("White House")
+      ? assessPrincipalCommunication(title, "", true, "us", true)
+      : null;
+    const assessment = principalAssessment?.relevant
+      ? principalAssessment
+      : assessPolicyItem(title, "", true);
     if (!assessment.relevant) continue;
     seen.add(url.href);
     items.push(boostDirectPriority({
@@ -93,6 +99,7 @@ async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
       summary: "公式ページの更新を検知。",
       official: true,
       ...assessment,
+      ...(principalAssessment?.relevant ? { verifiedSource: true, actorCountry: "us" as const } : {}),
     }));
     if (items.length >= 40) break;
   }
