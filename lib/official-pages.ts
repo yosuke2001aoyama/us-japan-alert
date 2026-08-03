@@ -1,5 +1,6 @@
 import { assessPolicyItem, assessPrincipalCommunication, cleanNewsTitle } from "./policy.ts";
 import type { AlertItem } from "./feeds.ts";
+import { enrichOfficialSpokenItems } from "./spoken-signals.ts";
 
 type DirectResult = { items: AlertItem[]; ok: number; failed: number; failedNames: string[]; total: number };
 
@@ -60,7 +61,9 @@ function boostDirectPriority(item: AlertItem): AlertItem {
 }
 
 async function readHtmlSource(source: HtmlSource): Promise<AlertItem[]> {
-  const response = await fetch(source.url, {
+  const requestUrl = new URL(source.url);
+  requestUrl.searchParams.set("_jpus", String(Math.floor(Date.now() / 300_000)));
+  const response = await fetch(requestUrl, {
     headers: { "user-agent": "JPUS-Alert/3.2 (+direct-official-monitor)" },
     signal: AbortSignal.timeout(12_000),
     cache: "no-store",
@@ -142,8 +145,9 @@ export async function collectDirectOfficial(): Promise<DirectResult> {
   ];
   const results = await Promise.allSettled(tasks.map((task) => task()));
   const failedNames = results.flatMap((result, index) => result.status === "rejected" ? [names[index]] : []);
+  const items = results.flatMap((result) => result.status === "fulfilled" ? result.value : []);
   return {
-    items: results.flatMap((result) => result.status === "fulfilled" ? result.value : []),
+    items: await enrichOfficialSpokenItems(items),
     ok: results.filter((result) => result.status === "fulfilled").length,
     failed: failedNames.length,
     failedNames,
