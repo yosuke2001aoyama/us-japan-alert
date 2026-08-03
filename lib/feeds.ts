@@ -13,6 +13,12 @@ export type AlertItem = {
   verifiedSource?: boolean;
   actorCountry?: "jp" | "us";
   coverage?: CoverageGroup;
+  spokenEvent?: boolean;
+  mediaUrl?: string;
+  transcript?: string;
+  transcriptKind?: "official-captions" | "reported-excerpt";
+  transcriptLanguage?: string;
+  transcriptSource?: string;
 };
 
 export type CoverageGroup =
