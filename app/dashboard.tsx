@@ -20,6 +20,12 @@ type Item = {
   verification?: Verification;
   verificationLabel?: string;
   verificationNote?: string;
+  spokenEvent?: boolean;
+  mediaUrl?: string;
+  transcript?: string;
+  transcriptKind?: "official-captions" | "reported-excerpt";
+  transcriptLanguage?: string;
+  transcriptSource?: string;
 };
 type Coverage = { id: string; label: string; ok: number; total: number };
 type Feed = {
@@ -313,7 +319,7 @@ export default function Dashboard() {
       const response = await fetch("/api/translate", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ text: [item.title, item.summary].filter(Boolean).join("\n\n") }),
+        body: JSON.stringify({ text: [item.title, item.summary, item.transcript].filter(Boolean).join("\n\n") }),
       });
       const data = await response.json() as { translation?: string };
       if (!response.ok || !data.translation) throw new Error();
@@ -638,6 +644,7 @@ function SignalCard({
         <div className="signal-badges">
           <span className={`tier-badge ${tier}`}>{tierLabel(tier)}</span>
           {early && <span className="early-badge">報道前候補</span>}
+          {item.spokenEvent && <span className="spoken-badge">音声・映像</span>}
           <span className="verification-badge">{verificationLabel(item)}</span>
           {item.japanRelated && <span className="japan-badge">日本関連</span>}
           <span className="category-label">{item.category}</span>
@@ -645,6 +652,13 @@ function SignalCard({
         </div>
         <h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>
         {item.summary && <p className="signal-summary">{item.summary}</p>}
+        {item.transcript && (
+          <div className={`transcript-box ${item.transcriptKind === "official-captions" ? "official" : "reported"}`}>
+            <b>{item.transcriptKind === "official-captions" ? "公式動画の文字起こし" : "報道が引用した発言"}</b>
+            <p>{item.transcript}</p>
+            {item.transcriptSource && <small>{item.transcriptSource}</small>}
+          </div>
+        )}
         {translation && (
           <div className="translation-box">
             <b>機械仮訳</b>
@@ -658,6 +672,7 @@ function SignalCard({
           </div>
           <div className="card-actions">
             <a className="primary-action" href={item.url} target="_blank" rel="noreferrer">原文を開く ↗</a>
+            {item.mediaUrl && <a href={item.mediaUrl} target="_blank" rel="noreferrer">動画を開く ↗</a>}
             {item.english && (
               <button type="button" onClick={onTranslate} disabled={translating}>
                 {translating ? "翻訳中…" : translation ? "仮訳を閉じる" : "仮訳"}
