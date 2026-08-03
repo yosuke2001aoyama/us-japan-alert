@@ -13,11 +13,17 @@ const japanNationalEmergency = /\b(?:(?:kumamoto(?: prefecture| region)?|kyushu|
 const japaneseOfficialResponse = /\b(?:prime minister(?: of japan)?|chief cabinet secretary|prime minister'?s office of japan|government of japan)\b|高市|総理|首相|官房長官|首相官邸|日本政府|政府.{0,30}(?:指示|対応)|救命|救助|災害対策本部|自衛隊/i;
 
 const genericBreakingPrefix = /^(?:【?(?:速報|続報|独自|緊急)】?[\s　]*)+/i;
+const mediaDerivativePage = /(?:【?画像(?:まとめ|集)?】?|写真特集|\[写真特集(?:\s*\d+\/\d+)?\])/i;
 const indexedPrincipalLane = /^(?:公開検索 ·|米連邦議員公式発信 ·|日米関係重要議員 ·|米議会委員会・日米議連 ·|駐日米国大使館 ·|米国務省EAP・日本部 ·|ホワイトハウスNSC ·|米太平洋軍・在日米軍 ·|米通商・財務・商務 ·|日本政府・主要閣僚 ·|米政府・議会 · 日本戦争記憶関連発信 ·)/;
 
 export function passesFinalRelevanceGuard(item: AlertItem): boolean {
   const title = item.title.replace(genericBreakingPrefix, "").trim();
   const text = `${title} ${item.summary || ""}`;
+
+  // Photo galleries and image-only derivatives do not add briefing substance,
+  // even when their parent story is a critical policy development.
+  if (mediaDerivativePage.test(title)) return false;
+
   const officialJapanEmergency = item.official && japanNationalEmergency.test(text) && japaneseOfficialResponse.test(text);
   const countryContext = item.verifiedSource
     ? item.actorCountry === "jp" ? "Japan" : item.actorCountry === "us" ? "United States" : ""
