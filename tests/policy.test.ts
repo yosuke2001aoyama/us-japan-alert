@@ -88,6 +88,24 @@ test("keeps Japanese market-access reporting even when the headline omits the U.
   );
 });
 
+test("drops image-only derivatives of otherwise critical coverage", () => {
+  const base = {
+    id: "photo-derivative",
+    url: "https://example.com/photo-gallery",
+    source: "毎日新聞",
+    publishedAt: "2026-07-31T01:04:05.000Z",
+    summary: "政府・日銀が為替介入を実施",
+    category: "通商・経済" as const,
+    priority: 98,
+    japanRelated: true,
+    official: false,
+    coverage: "major-media" as const,
+  };
+
+  assert.equal(passesFinalRelevanceGuard({ ...base, title: "為替介入か 急激な円高に [写真特集3/6]" }), false);
+  assert.equal(passesFinalRelevanceGuard({ ...base, title: "【画像まとめ】トランプ大統領なぜ日本を支援？日米協調介入" }), false);
+});
+
 test("keeps verified White House remarks even before a detailed transcript is indexed", () => {
   assert.equal(
     passesFinalRelevanceGuard(item({
