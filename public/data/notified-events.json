@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-03T18:21:56.431Z",
+  "updatedAt": "2026-08-03T20:05:02.588Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -2716,6 +2716,90 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBbEZMWGhQYkE4Zk9DS3EzaGZ1b0liMlBNY2IzWjQzeWVFbHk3cXBIUVdaUm9qdFUtRTYwS09IUF9ZSFlKbjJEWHJiaWZSaVp4UTc4Z2M2X3gyNEMwZmw1d3J2eUg3alZCZlBwdDk2dWx3WXZrSVE",
       "articleTitleKey": "動画 櫻井よしこ氏の特別インタビュー 4日夕公開 中国共産党 高市政権 安倍元首相",
       "articleSourceKey": "産経ニュース"
+    },
+    {
+      "id": "0b1f2bbc144554a9dcad9cf5",
+      "title": "Japan-U.S. Bilateral Ballistic Missile Defense Exercise > U.S. Pacific Command > News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHNlM2h0R1VMNV8yYzVKdWY3UmVVYktYb2dMZ29fNUZrMGp3bl83RTNMczIzUEs3MzZRUXJGMmxGUU85T1JjNkkybTdmbld5b2s0alJWTDZNRU13U2tIamxlTDc2Q2lRWUNGRld0OXFrWmZ2dV9ORDJsT0d2bXdQZTI2dERSN3pRaXpuTG9mLWxzbzBQeDU1RGxRLVRIV2JERHZJYTdR?oc=5",
+      "source": "pacom.mil",
+      "category": "外交・安保",
+      "priority": 91,
+      "publishedAt": "2026-08-03T01:20:55.000Z",
+      "notifiedAt": "2026-08-03T20:05:02.588Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHNlM2h0R1VMNV8yYzVKdWY3UmVVYktYb2dMZ29fNUZrMGp3bl83RTNMczIzUEs3MzZRUXJGMmxGUU85T1JjNkkybTdmbld5b2s0alJWTDZNRU13U2tIamxlTDc2Q2lRWUNGRld0OXFrWmZ2dV9ORDJsT0d2bXdQZTI2dERSN3pRaXpuTG9mLWxzbzBQeDU1RGxRLVRIV2JERHZJYTdR",
+      "articleTitleKey": "japan u s bilateral ballistic missile defense exercise u s pacific command news",
+      "articleSourceKey": "pacom.mil"
+    },
+    {
+      "id": "be8613f836b9073830bfb089",
+      "title": "協調円買い 市場驚き…円安基調 転換なるか",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LQTNES0JaQUNfRjhYSGtpY0ZYa2xJc2JRUG9YM2swNjN5MmtnZWlPV0ZObUFMUWhEaEhJb1lTUHdfdHN6a0twN3F4a1hpZW90Q0pvb2N6UnN1d3pxb2NlaXladjE?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T20:00:00.000Z",
+      "notifiedAt": "2026-08-03T20:05:02.588Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LQTNES0JaQUNfRjhYSGtpY0ZYa2xJc2JRUG9YM2swNjN5MmtnZWlPV0ZObUFMUWhEaEhJb1lTUHdfdHN6a0twN3F4a1hpZW90Q0pvb2N6UnN1d3pxb2NlaXladjE",
+      "articleTitleKey": "協調円買い 市場驚き 円安基調 転換なるか",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "5cf155630a29efe8ef6d515b",
+      "title": "社説：日米為替介入 利害一致した２８年ぶりの協調",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRGw3NFFlaHZyZWZud2x5aXNGdUl0VUVtZDdpQS05OGlPZ1JQWHpxYzFjUmUxcGsxbUF0NHBpNE45WFBmNDIzODlxNVhOQUw5MGxNNmxpUjd5Rk5FUWlHOWZmb0xhSG8?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T20:00:00.000Z",
+      "notifiedAt": "2026-08-03T20:05:02.588Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRGw3NFFlaHZyZWZud2x5aXNGdUl0VUVtZDdpQS05OGlPZ1JQWHpxYzFjUmUxcGsxbUF0NHBpNE45WFBmNDIzODlxNVhOQUw5MGxNNmxpUjd5Rk5FUWlHOWZmb0xhSG8",
+      "articleTitleKey": "社説 日米為替介入 利害一致した28年ぶりの協調",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "c35d83b9f01cc6422549ad37",
+      "title": "日米協調介入、９か月前から調整…ベッセント財務長官がドル調達の手法提案",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54VG1zZlRNZlhoamxTajM0WUN1MkFFUHdnam44RGpNcHhUNl9mckhzZk5qYmNUMkIxUFk1ZFFHOWFCNGRPYkRxaGpDUWdQZ09sdGtUODVLN1NBXzgwRHhBWUpLWFI?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T20:00:00.000Z",
+      "notifiedAt": "2026-08-03T20:05:02.588Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54VG1zZlRNZlhoamxTajM0WUN1MkFFUHdnam44RGpNcHhUNl9mckhzZk5qYmNUMkIxUFk1ZFFHOWFCNGRPYkRxaGpDUWdQZ09sdGtUODVLN1NBXzgwRHhBWUpLWFI",
+      "articleTitleKey": "日米協調介入 9か月前から調整 ベッセント財務長官がドル調達の手法提案",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "4d780eec280c5ca8b53a20bd",
+      "title": "１５５円台のモニター 日米１５年ぶり協調介入",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92ZjB6aXBnTVd6aXN6NkhNWE1uRktmMmNtOFVOMGszQmdMU1RaaVktYUgwa3BBcUlIOG9TTUxLWVVzOElZX3pwOWxQTGQxUm1NZ1duMWZzX2pJeUVLaEE?oc=5",
+      "source": "KYODO NEWS IMAGELINK",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T02:39:54.000Z",
+      "notifiedAt": "2026-08-03T20:05:02.588Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92ZjB6aXBnTVd6aXN6NkhNWE1uRktmMmNtOFVOMGszQmdMU1RaaVktYUgwa3BBcUlIOG9TTUxLWVVzOElZX3pwOWxQTGQxUm1NZ1duMWZzX2pJeUVLaEE",
+      "articleTitleKey": "155円台のモニター 日米15年ぶり協調介入",
+      "articleSourceKey": "kyodo news imagelink"
+    },
+    {
+      "id": "3bf93e7350e84c50ad1808c8",
+      "title": "【速報】米財務長官は、さらなる協調介入をためらうことはないと表明した",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTMTJOb3h3Qkw4YjJ5ZWh1eTdPeWpwQlllb25ZWUVMdGlrVHFXM2J0TXRZSVAtb0ptbHZVVklnMWtNNWFSUnN0LUdBZjFMMlZzY2JfOThFUXBXVXgyaXpVbkhCRlZhdw?oc=5",
+      "source": "jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-02T23:27:00.000Z",
+      "notifiedAt": "2026-08-03T20:05:02.588Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTMTJOb3h3Qkw4YjJ5ZWh1eTdPeWpwQlllb25ZWUVMdGlrVHFXM2J0TXRZSVAtb0ptbHZVVklnMWtNNWFSUnN0LUdBZjFMMlZzY2JfOThFUXBXVXgyaXpVbkhCRlZhdw",
+      "articleTitleKey": "米財務長官は さらなる協調介入をためらうことはないと表明した",
+      "articleSourceKey": "jiji.com"
     }
   ]
 }
