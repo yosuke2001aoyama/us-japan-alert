@@ -9,6 +9,7 @@ import {
 } from "../lib/policy.ts";
 import { passesFinalRelevanceGuard } from "../lib/relevance-guard.ts";
 import type { AlertItem } from "../lib/feeds.ts";
+import { assessJapaneseCriticalMedia } from "../lib/japanese-tariff-media.ts";
 
 function item(overrides: Partial<AlertItem>): AlertItem {
   return {
@@ -50,6 +51,55 @@ test("keeps Japan-related statements, tariff coverage, and policy analysis", () 
   );
   assert.equal(
     assessPolicyItem("日米同盟の今後を検証する政策分析").relevant,
+    true,
+  );
+});
+
+test("keeps coordinated yen intervention and immediate Trump comments", () => {
+  for (const title of [
+    "Japan and U.S. conducted coordinated yen-buying intervention, government sources say",
+    "U.S. Treasury reports yen-buying intervention on the 31st",
+    "Trump says Japan wanted a little help on its weakening yen after intervention",
+    "日米が協調してドル売り円買いの為替介入、15年ぶり",
+  ]) {
+    const result = assessPolicyItem(title);
+    assert.equal(result.relevant, true, title);
+    assert.equal(result.japanRelated, true, title);
+    assert.equal(result.category, "通商・経済", title);
+  }
+});
+
+test("keeps Japanese market-access reporting even when the headline omits the U.S.", () => {
+  const title = "生のジャガイモ 輸入解禁手続き進む";
+  const assessment = assessJapaneseCriticalMedia(title);
+  assert.equal(assessment.relevant, true);
+  assert.equal(assessment.japanRelated, true);
+  assert.ok(assessment.priority >= 90);
+  assert.equal(
+    passesFinalRelevanceGuard(item({
+      title,
+      source: "NHK",
+      coverage: "major-media",
+      japanRelated: true,
+      priority: assessment.priority,
+      category: "通商・経済",
+    })),
+    true,
+  );
+});
+
+test("keeps verified White House remarks even before a detailed transcript is indexed", () => {
+  assert.equal(
+    passesFinalRelevanceGuard(item({
+      title: "President Trump Delivers Remarks Aboard Air Force One",
+      summary: "公式ページの更新を検知。",
+      source: "White House · Videos",
+      official: true,
+      verifiedSource: true,
+      actorCountry: "us",
+      category: "首脳・閣僚",
+      priority: 72,
+    })),
     true,
   );
 });
