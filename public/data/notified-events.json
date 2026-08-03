@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-03T21:16:25.643Z",
+  "updatedAt": "2026-08-03T22:28:27.438Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -2870,6 +2870,90 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iRGx5TndZR1FBcHcwV1kxeXpPV3FHenZEOEpQczctU1hJVy1ZZ3BrRjBKTkFPdGdNZEJuRFJfOTQ5RmpBdlNLWnlYSzhJUzVzMDdrQ043TlUxV3Qz",
       "articleTitleKey": "円買い介入 日米が発表 一時155円台 今後も躊躇せず",
       "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "f72c72f4d8f629cfc7c8b06d",
+      "title": "協調介入、過去には高い効果 相場反転、持続性にばらつきも",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTeXV1a0gzWGV4RGVaWTFuc0hrbjJISGoyTV9wNktfNjlHOVI5VlUxc3dGSjlyTnFWbXRjVEZNQlF0am45cjFvUGo2eVdCenhiQ202UkhYSEZNZUdGejdzZmZCcw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T22:09:00.000Z",
+      "notifiedAt": "2026-08-03T22:28:27.438Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTeXV1a0gzWGV4RGVaWTFuc0hrbjJISGoyTV9wNktfNjlHOVI5VlUxc3dGSjlyTnFWbXRjVEZNQlF0am45cjFvUGo2eVdCenhiQ202UkhYSEZNZUdGejdzZmZCcw",
+      "articleTitleKey": "協調介入 過去には高い効果 相場反転 持続性にばらつきも",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "caa11af40eec589c6aa72a46",
+      "title": "日米当局、異例の連携 日銀利上げへ圧力も―協調介入",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CeFNlc2kzaXBpSERJbE5ZeFlNR21tTHFzTklKZGI2Y2k2eHFEMnZBMWRBendudzJ5V08zWHRwUGdhQkdHM2pfTWdkVzhtUzVLZTVkR2pDb0x6QWhFYmlWbmNPYw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T22:07:00.000Z",
+      "notifiedAt": "2026-08-03T22:28:27.438Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CeFNlc2kzaXBpSERJbE5ZeFlNR21tTHFzTklKZGI2Y2k2eHFEMnZBMWRBendudzJ5V08zWHRwUGdhQkdHM2pfTWdkVzhtUzVLZTVkR2pDb0x6QWhFYmlWbmNPYw",
+      "articleTitleKey": "日米当局 異例の連携 日銀利上げへ圧力も 協調介入",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "be3ae63ca300c96f3c8694a8",
+      "title": "日米協調介入、避けたかった米国債売却の悪夢 「友情」に透けるリアリズム",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TSUI4QmFkSmRWRkYwcVFWRFJyWUVGODNIVy1DbFZCUDdKbmZ1Yml4NlEwU0Z0X1ctTzlwRDlxcUY2Qm1ERHE3bU5LSGY2VEJuc2gwc0R3OFMxZkJPdEZTY0QwNGRYVVI2WDFtRA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T21:08:08.000Z",
+      "notifiedAt": "2026-08-03T22:28:27.438Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TSUI4QmFkSmRWRkYwcVFWRFJyWUVGODNIVy1DbFZCUDdKbmZ1Yml4NlEwU0Z0X1ctTzlwRDlxcUY2Qm1ERHE3bU5LSGY2VEJuc2gwc0R3OFMxZkJPdEZTY0QwNGRYVVI2WDFtRA",
+      "articleTitleKey": "日米協調介入 避けたかった米国債売却の悪夢 友情 に透けるリアリズム",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "5e95d765de9b668956a00f74",
+      "title": "円買い介入に踏み切った米国の懸念：時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50WEdPQk5uZzU4T3F2Q3lLZ1lhWnJscDVMUUhxcG1XQnB4VWxtUFkzTEF5R0VPaG9La0pNMlRGb3JFZG13ZkI3UmxJSFl5T3ZkR0ZwVmgzbWFfQzZZSEVwRWR3cElIazA?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T15:49:00.000Z",
+      "notifiedAt": "2026-08-03T22:28:27.438Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50WEdPQk5uZzU4T3F2Q3lLZ1lhWnJscDVMUUhxcG1XQnB4VWxtUFkzTEF5R0VPaG9La0pNMlRGb3JFZG13ZkI3UmxJSFl5T3ZkR0ZwVmgzbWFfQzZZSEVwRWR3cElIazA",
+      "articleTitleKey": "円買い介入に踏み切った米国の懸念 時事ドットコム",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "a2d93d88506391f8d2be3f76",
+      "title": "米財務省、歴史的な円買い介入 持続力どこまで",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FT09rVmJoUVRuRnBnQXVxc1F1UmROZmhpejNSWWdCZ3FyNGY1MHc0OERaRTlzV3E5ZExlRlNsems3N1IxeEFXU1hfaWJicnNMcUdIMDB3RWRucWFzamlkeWgwX2ppTG5HbGNZbEgtcHg5Y1dhaWRN?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T15:00:00.000Z",
+      "notifiedAt": "2026-08-03T22:28:27.438Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FT09rVmJoUVRuRnBnQXVxc1F1UmROZmhpejNSWWdCZ3FyNGY1MHc0OERaRTlzV3E5ZExlRlNsems3N1IxeEFXU1hfaWJicnNMcUdIMDB3RWRucWFzamlkeWgwX2ppTG5HbGNZbEgtcHg5Y1dhaWRN",
+      "articleTitleKey": "米財務省 歴史的な円買い介入 持続力どこまで",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "c2421c09c2f7027f17167d97",
+      "title": "日米両政府が円買いの為替介入実施 片山財務大臣「さらなる協調介入も躊躇しない」と発言も 発表後には急速に円が買われる",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtUjRUVXdURFdfRU9MRExYWXhUa2lrcTJkTUJmOV9udENLYzBGTWp0VERXVFNham9NTElteExIaDhLMlFFNU9kSUVWWXVSYmlOX2hMMGJPVQ?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T02:56:29.000Z",
+      "notifiedAt": "2026-08-03T22:28:27.438Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtUjRUVXdURFdfRU9MRExYWXhUa2lrcTJkTUJmOV9udENLYzBGTWp0VERXVFNham9NTElteExIaDhLMlFFNU9kSUVWWXVSYmlOX2hMMGJPVQ",
+      "articleTitleKey": "日米両政府が円買いの為替介入実施 片山財務大臣 さらなる協調介入も躊躇しない と発言も 発表後には急速に円が買われる",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
