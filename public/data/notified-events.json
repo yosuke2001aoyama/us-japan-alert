@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-03T22:28:27.438Z",
+  "updatedAt": "2026-08-03T23:37:11.771Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -2954,6 +2954,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtUjRUVXdURFdfRU9MRExYWXhUa2lrcTJkTUJmOV9udENLYzBGTWp0VERXVFNham9NTElteExIaDhLMlFFNU9kSUVWWXVSYmlOX2hMMGJPVQ",
       "articleTitleKey": "日米両政府が円買いの為替介入実施 片山財務大臣 さらなる協調介入も躊躇しない と発言も 発表後には急速に円が買われる",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "227f7fde84a515d8f3dce430",
+      "title": "NY円相場、続伸 1ドル=157円15〜25銭 日米協調介入、ニューヨーク市場では伸び悩み",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zNjFFRUNLbWt4SXhvYk5xbUMyZUFNOXk3WW1wY2RjSzFQTjFRT1BPTUtDQzJNM0tLX01NYmZrcTQwdVFxa2ZiUHl3c3gzN1A5a1ZNTmt0SlNZTWVuS09nTzkzMG1uZExjVHZtYQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T21:54:31.000Z",
+      "notifiedAt": "2026-08-03T23:37:11.771Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zNjFFRUNLbWt4SXhvYk5xbUMyZUFNOXk3WW1wY2RjSzFQTjFRT1BPTUtDQzJNM0tLX01NYmZrcTQwdVFxa2ZiUHl3c3gzN1A5a1ZNTmt0SlNZTWVuS09nTzkzMG1uZExjVHZtYQ",
+      "articleTitleKey": "ny円相場 続伸 1ドル 157円15 25銭 日米協調介入 ニューヨーク市場では伸び悩み",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
