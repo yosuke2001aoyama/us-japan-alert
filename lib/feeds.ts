@@ -35,6 +35,7 @@ export type Source = {
   official?: boolean;
   aggregate?: boolean;
   principal?: "jp" | "us";
+  contextCountry?: "jp" | "us";
 };
 
 const q = (query: string, lang = "en-US", region = "US", ceid = "US:en") =>
@@ -65,7 +66,7 @@ export const sources: Source[] = [
   { name: "防衛省 · 更新情報", url: "https://www.mod.go.jp/j/press/update.xml", coverage: "jp-security", official: true },
 
   // 日本の通商・財政（2）
-  { name: "経済産業省 · 報道発表", url: q('site:meti.go.jp/press (報道発表 OR 大臣会見 OR 通商 OR 輸出管理)', "ja", "JP", "JP:ja"), coverage: "jp-economy", official: true, aggregate: true },
+  { name: "経済産業省・農林水産省 · 経済通商", url: q('(site:meti.go.jp/press OR site:maff.go.jp) (報道発表 OR 大臣会見 OR 通商 OR 輸出管理 OR 米国 OR 日米 OR 輸入解禁 OR 輸出解禁 OR 市場開放 OR 植物検疫 OR 動物検疫)', "ja", "JP", "JP:ja"), coverage: "jp-economy", official: true, aggregate: true, contextCountry: "jp" },
   { name: "財務省 · 新着情報", url: q('site:mof.go.jp (大臣会見 OR 報道発表 OR 関税 OR 為替 OR 制裁)', "ja", "JP", "JP:ja"), coverage: "jp-economy", official: true, aggregate: true },
 
   // 米大統領府・国務省（5）
@@ -83,7 +84,7 @@ export const sources: Source[] = [
 
   // 米通商・制裁・輸出管理（5）
   { name: "USTR", url: q('site:ustr.gov (press release OR statement OR remarks OR tariff OR trade)', "en-US", "US", "US:en"), coverage: "us-economic-statecraft", official: true, aggregate: true },
-  { name: "U.S. Treasury", url: q('site:home.treasury.gov/news/press-releases (sanctions OR tariff OR investment OR statement)', "en-US", "US", "US:en"), coverage: "us-economic-statecraft", official: true, aggregate: true },
+  { name: "U.S. Treasury", url: q('site:home.treasury.gov/news (sanctions OR tariff OR investment OR statement OR currency OR foreign exchange OR forex OR yen OR Japan OR intervention)', "en-US", "US", "US:en"), coverage: "us-economic-statecraft", official: true, aggregate: true, contextCountry: "us" },
   { name: "OFAC", url: q('site:ofac.treasury.gov (sanctions OR action OR notice)', "en-US", "US", "US:en"), coverage: "us-economic-statecraft", official: true, aggregate: true },
   { name: "Commerce / BIS", url: q('(site:commerce.gov OR site:bis.gov) (export control OR semiconductor OR entity list OR statement)', "en-US", "US", "US:en"), coverage: "us-economic-statecraft", official: true, aggregate: true },
   { name: "Federal Register", url: q('site:federalregister.gov (Japan OR China OR tariff OR export control OR sanctions)', "en-US", "US", "US:en"), coverage: "us-economic-statecraft", official: true, aggregate: true },
@@ -91,7 +92,7 @@ export const sources: Source[] = [
   // 日米主要閣僚の発信（8）
   { name: "Trump / Vance · 公式発信", url: q('site:whitehouse.gov (Trump OR Vance) (remarks OR speech OR statement OR interview OR press conference OR transcript)', "en-US", "US", "US:en"), coverage: "principals", official: true, aggregate: true, principal: "us" },
   { name: "Rubio / Hegsethほか · 公式発信", url: q('(site:state.gov OR site:war.gov) (Rubio OR Hegseth OR secretary) (remarks OR speech OR statement OR interview OR testimony)', "en-US", "US", "US:en"), coverage: "principals", official: true, aggregate: true, principal: "us" },
-  { name: "Bessent / Lutnick / Greerほか · 公式発信", url: q('(site:treasury.gov OR site:commerce.gov OR site:ustr.gov) (Bessent OR Lutnick OR Greer OR secretary) (remarks OR speech OR statement OR interview OR testimony)', "en-US", "US", "US:en"), coverage: "principals", official: true, aggregate: true, principal: "us" },
+  { name: "Bessent / Lutnick / Greerほか · 公式発信", url: q('(site:home.treasury.gov OR site:commerce.gov OR site:ustr.gov) (Bessent OR Lutnick OR Greer OR secretary) (remarks OR speech OR statement OR interview OR testimony OR reporters) (Japan OR yen OR currency OR foreign exchange OR tariff OR trade OR market access)', "en-US", "US", "US:en"), coverage: "principals", official: true, aggregate: true, principal: "us" },
   { name: "高市総理 / 木原官房長官 · 公式発信", url: q('site:kantei.go.jp (高市 OR 木原 OR 総理 OR 官房長官) (会見 OR 発言 OR 談話 OR 挨拶 OR インタビュー)', "ja", "JP", "JP:ja"), coverage: "principals", official: true, aggregate: true, principal: "jp" },
   { name: "茂木外相 / 小泉防衛相ほか · 公式発信", url: q('(site:mofa.go.jp OR site:mod.go.jp) (茂木 OR 小泉 OR 外務大臣 OR 防衛大臣) (会見 OR 発言 OR 談話 OR 挨拶 OR インタビュー)', "ja", "JP", "JP:ja"), coverage: "principals", official: true, aggregate: true, principal: "jp" },
   { name: "片山財務相 / 赤澤経産相 / 小野田経済安保相 · 公式発信", url: q('(site:mof.go.jp OR site:meti.go.jp OR site:cao.go.jp) (片山 OR 赤澤 OR 小野田 OR 大臣) (会見 OR 発言 OR 談話 OR 挨拶 OR インタビュー)', "ja", "JP", "JP:ja"), coverage: "principals", official: true, aggregate: true, principal: "jp" },
@@ -108,13 +109,13 @@ export const sources: Source[] = [
   { name: "訪米・首脳外交", url: q('(総理 OR 首相 OR 外務大臣 OR 防衛大臣 OR 経産大臣) (訪米 OR 日米首脳会談 OR ワシントン) (調整 OR 検討 OR 見通し OR 予定 OR 会談)', "ja", "JP", "JP:ja"), coverage: "bilateral-signals", aggregate: true },
   { name: "US–Japan Official Signals", url: q('(site:whitehouse.gov OR site:state.gov OR site:kantei.go.jp OR site:mofa.go.jp) (Japan OR 日米) (summit OR meeting OR visit OR talks OR 会談 OR 訪問)', "en-US", "US", "US:en"), coverage: "bilateral-signals", official: true, aggregate: true },
   { name: "日米同盟・安全保障", url: q('(日米 OR 在日米軍 OR 拡大抑止 OR 2プラス2 OR U.S.-Japan alliance) (会談 OR 協議 OR 訓練 OR statement)', "ja", "JP", "JP:ja"), coverage: "bilateral-signals", aggregate: true },
-  { name: "日米通商・経済対話", url: q('(日米 OR Japan U.S.) (関税 OR 通商 OR 投資 OR 為替 OR 半導体 OR tariff OR trade OR investment)', "ja", "JP", "JP:ja"), coverage: "bilateral-signals", aggregate: true },
+  { name: "日米通商・経済対話", url: q('(日米 OR Japan U.S. OR 米国産 OR アメリカ産) (関税 OR 通商 OR 投資 OR 為替 OR 通貨 OR 介入 OR 半導体 OR 農産物 OR 輸入解禁 OR 輸出解禁 OR 市場開放 OR 検疫 OR tariff OR trade OR investment OR currency OR forex OR intervention OR market access OR agriculture)', "ja", "JP", "JP:ja"), coverage: "bilateral-signals", aggregate: true },
 
   // 主要報道機関（4）
-  { name: "Reuters / AP / Bloomberg", url: q('(Reuters OR AP OR Bloomberg) (United States OR Trump OR Japan OR Indo-Pacific OR China OR Taiwan OR sanctions OR tariff)', "en-US", "US", "US:en"), coverage: "major-media", aggregate: true },
+  { name: "Reuters / AP / Bloomberg", url: q('(Reuters OR AP OR Bloomberg) (United States OR Trump OR Bessent OR U.S. Treasury OR Japan OR yen OR currency intervention OR foreign exchange OR market access OR agriculture OR potatoes OR Indo-Pacific OR China OR Taiwan OR sanctions OR tariff)', "en-US", "US", "US:en"), coverage: "major-media", aggregate: true },
   { name: "US Television", url: q('(CNN OR Fox News OR NBC OR ABC OR CBS) (White House OR Trump OR Japan OR Indo-Pacific OR China OR tariff)', "en-US", "US", "US:en"), coverage: "major-media", aggregate: true },
-  { name: "US Newspapers / Politico", url: q('(New York Times OR Washington Post OR Wall Street Journal OR Politico) (White House OR Trump OR Japan OR Indo-Pacific OR China OR tariff)', "en-US", "US", "US:en"), coverage: "major-media", aggregate: true },
-  { name: "日本主要メディア", url: q('(NHK OR 朝日新聞 OR 読売新聞 OR 毎日新聞 OR 日経 OR 共同通信 OR 時事通信) (米国 OR アメリカ OR 日米)', "ja", "JP", "JP:ja"), coverage: "major-media", aggregate: true },
+  { name: "US Newspapers / Politico", url: q('(New York Times OR Washington Post OR Wall Street Journal OR Politico OR Financial Times OR Nikkei Asia) (White House OR Trump OR Bessent OR U.S. Treasury OR Japan OR yen OR currency intervention OR foreign exchange OR market access OR agriculture OR potatoes OR Indo-Pacific OR China OR tariff)', "en-US", "US", "US:en"), coverage: "major-media", aggregate: true },
+  { name: "日本主要メディア", url: q('(NHK OR 朝日新聞 OR 読売新聞 OR 毎日新聞 OR 日経 OR 共同通信 OR 時事通信) (米国 OR アメリカ OR 日米 OR 為替介入 OR 協調介入 OR 円買い OR ドル円 OR 輸入解禁 OR 輸出解禁 OR 市場開放 OR 米国産 OR アメリカ産 OR ジャガイモ OR ばれいしょ)', "ja", "JP", "JP:ja"), coverage: "major-media", aggregate: true },
 
   // 政策分析・調査（3）
   { name: "米政策シンクタンク", url: q('(site:csis.org OR site:cfr.org OR site:brookings.edu OR site:rand.org) (Japan OR U.S.-Japan OR Indo-Pacific alliance)', "en-US", "US", "US:en"), coverage: "policy-analysis", aggregate: true },
@@ -192,9 +193,12 @@ async function readSource(source: Source) {
     const itemOfficial = !!source.official && (!source.aggregate || officialPublisher(publisherUrl));
     const publishedAt = field(chunk, "pubDate") || field(chunk, "published") || field(chunk, "updated") || "";
     if (source.aggregate && !isRecentAggregate(publishedAt)) return null;
+    const contextTitle = source.contextCountry
+      ? `${source.contextCountry === "jp" ? "Japan" : "United States"} ${title}`
+      : title;
     const assessment = source.principal
       ? assessPrincipalCommunication(title, summary, itemOfficial, source.principal)
-      : assessPolicyItem(title, summary, itemOfficial);
+      : assessPolicyItem(contextTitle, summary, itemOfficial);
     if (!assessment.relevant) return null;
     const imageUrl = image(chunk);
     return {
