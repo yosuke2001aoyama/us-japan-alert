@@ -122,6 +122,17 @@ test("keeps verified White House remarks even before a detailed transcript is in
   );
 });
 
+test("keeps an official White House press gaggle while captions are still processing", () => {
+  const assessment = assessPrincipalCommunication(
+    "President Trump Gaggles with Press on Air Force One En Route Joint Base Andrews",
+    "",
+    true,
+    "us",
+    true,
+  );
+  assert.equal(assessment.relevant, true);
+});
+
 test("keeps a prime minister visit leaked directly to reporters", () => {
   const result = assessPolicyItem(
     "高市総理、8月の訪米を記者団に明らかに　トランプ大統領との会談を調整",
