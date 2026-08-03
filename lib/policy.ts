@@ -18,12 +18,18 @@ const bilateralPattern =
   /\b(?:u\.?s\.?|united states)[-–—\s]+japan(?:ese)?\b|\bjapan(?:ese)?[-–—\s]+(?:u\.?s\.?|united states)\b|日米|米日|日・米|米・日/i;
 const japanPattern =
   /\bjapan(?:ese)?\b|\btokyo\b|\bokinawa\b|\bhokkaido\b|\btohoku\b|\bkyushu\b|\bkumamoto\b|\bnoto\b|日本|東京|沖縄|北海道|東北|九州|熊本|能登|高市|石破|岸田|総理|日本の首相|外務省|防衛省|経産省/i;
+const japanCurrencyPattern =
+  /\byen\b|yen-buying|yen selling|円相場|ドル円|円買い|円売り|対ドル.{0,12}円|円.{0,12}対ドル/i;
+const currencyPolicyPattern =
+  /\b(?:currency|foreign exchange|forex|exchange rate|yen)[-\s]?(?:market )?(?:policy|intervention)?\b|\b(?:interven(?:e|es|ed|ing|tion)).{0,50}(?:currency|foreign exchange|forex|yen)\b|\b(?:currency|foreign exchange|forex|yen).{0,50}interven(?:e|es|ed|ing|tion)\b|為替介入|協調介入|通貨介入|円買い(?:介入)?|円売り(?:介入)?|ドル売り円買い|ドル買い円売り|為替政策|為替相場|円相場|ドル円/i;
+const marketAccessPattern =
+  /\bmarket access\b|\b(?:lift|remove|end)(?:s|ed|ing)? .{0,40}(?:import|export) ban\b|\b(?:import|export).{0,40}(?:approv|authoriz|reopen|resum)\b|輸入解禁|輸出解禁|市場開放|検疫協議|輸入禁止.{0,30}(?:解除|撤廃)|輸出禁止.{0,30}(?:解除|撤廃)|(?:ジャガイモ|じゃがいも|ばれいしょ|馬鈴薯|農産物).{0,35}(?:輸入|輸出|解禁|検疫|市場)|(?:輸入|輸出|解禁|検疫|市場).{0,35}(?:ジャガイモ|じゃがいも|ばれいしょ|馬鈴薯|農産物)/i;
 const japanRemembrancePattern =
   /\b(?:kumamoto|hiroshima|nagasaki|hibakusha|a-?bomb|atomic bomb(?:ing)?s?|atomic weapons?|nuclear weapons?|nuclear abolition|enola gay|little boy|fat man|mushroom cloud|pearl harbor|pacific war|world war ii|v-?j day|victory over japan|unconditional surrender|japan(?:ese)? surrender|surrender of japan|end of (?:the )?war)\b|熊本|広島|長崎|被爆者|被爆|原爆|核兵器|核廃絶|真珠湾|太平洋戦争|第二次世界大戦|終戦|無条件降伏|日本降伏/i;
 const japanDisasterPattern =
   /\b(?:(?:kumamoto(?: prefecture| region)?|hokkaido|tohoku|kyushu|noto|southern japan|northern japan|southwestern japan|japan(?:ese)?).{0,100}(?:earthquake|tsunami|aftershock|tremor|seismic|typhoon|flood|landslide|disaster)|(?:earthquake|tsunami|aftershock|tremor|seismic|typhoon|flood|landslide|disaster).{0,100}(?:kumamoto(?: prefecture| region)?|hokkaido|tohoku|kyushu|noto|southern japan|northern japan|southwestern japan|japan(?:ese)?))\b|(?:熊本|北海道|東北|九州|能登|日本).{0,50}(?:地震|津波|余震|強い揺れ|台風|豪雨|洪水|土砂災害|災害)|(?:地震|津波|余震|強い揺れ|台風|豪雨|洪水|土砂災害|災害).{0,50}(?:熊本|北海道|東北|九州|能登|日本)/i;
 const usPattern =
-  /\b(?:u\.?s\.?a?|united states|america(?:n)?|washington|white house|pentagon|state department|department of state|department of defense|department of war|congress|senate|trump|rubio|hegseth)\b|米国|アメリカ|米政府|米大統領|米政権|ホワイトハウス|国務省|国防総省|米議会|米上院|米下院|トランプ|ルビオ|ヘグセス|米軍|米中|米露|米韓|訪米|対米/i;
+  /\b(?:u\.?s\.?a?|united states|america(?:n)?|washington|white house|pentagon|state department|department of state|department of defense|department of war|u\.?s\.? treasury|department of the treasury|congress|senate|trump|rubio|hegseth|bessent|lutnick|greer)\b|米国|アメリカ|米政府|米大統領|米政権|米財務省|ホワイトハウス|国務省|国防総省|米議会|米上院|米下院|トランプ|ルビオ|ヘグセス|ベッセント|ラトニック|グリア|米軍|米中|米露|米韓|訪米|対米/i;
 const leadershipPattern =
   /\b(?:president|prime minister|vice president|secretary of state|secretary of defense|secretary of war|foreign minister|defen[cs]e minister|commerce secretary|treasury secretary|cabinet|senator|congress(?:man|woman)|ambassador|deputy chief of mission|assistant secretary|commander|deputy commander|special envoy|director|chief)\b|大統領|副大統領|首相|総理|国務長官|国防長官|外相|外務大臣|防衛大臣|経産大臣|財務大臣|閣僚|上院議員|下院議員|大使|首席公使|司令官|副司令官|次官補|特使|長官|トップ/i;
 const institutionPattern =
@@ -106,13 +112,15 @@ export function assessDirectPrincipalPost(
   country: "jp" | "us" = "us",
 ): PolicyAssessment {
   const text = `${title} ${summary}`.replace(/\s+/g, " ").trim();
-  const japan = japanPattern.test(text) || japanRemembrancePattern.test(text) || japanDisasterPattern.test(text);
+  const japan = japanPattern.test(text) || japanCurrencyPattern.test(text) || japanRemembrancePattern.test(text) || japanDisasterPattern.test(text);
   const bilateral = bilateralPattern.test(text) || (country === "us" && japan);
-  const strategic = strategicPattern.test(text);
-  const external = externalPolicyPattern.test(text);
-  const systemic = systemicPolicyPattern.test(text);
-  const action = actionPattern.test(text);
-  const hardAction = hardActionPattern.test(text);
+  const currencyPolicy = currencyPolicyPattern.test(text);
+  const marketAccess = marketAccessPattern.test(text);
+  const strategic = strategicPattern.test(text) || currencyPolicy || marketAccess;
+  const external = externalPolicyPattern.test(text) || currencyPolicy || marketAccess;
+  const systemic = systemicPolicyPattern.test(text) || currencyPolicy || marketAccess;
+  const action = actionPattern.test(text) || currencyPolicy || marketAccess;
+  const hardAction = hardActionPattern.test(text) || /interven(?:e|es|ed|ing|tion)|為替介入|協調介入|輸入解禁|輸出解禁|市場開放/i.test(text);
   const seniorPersonnel = seniorPersonnelPattern.test(text) && personnelActionPattern.test(text);
   const foreignLeader = foreignLeaderPattern.test(text);
   const excluded = noisePattern.test(text)
@@ -134,7 +142,7 @@ export function assessDirectPrincipalPost(
 
   let category = base.relevant ? base.category : ("首脳・閣僚" as PolicyCategory);
   if (defensePattern.test(text)) category = "外交・安保";
-  if (economyPattern.test(text)) category = "通商・経済";
+  if (economyPattern.test(text) || currencyPolicy || marketAccess) category = "通商・経済";
   if (legislaturePattern.test(text)) category = "議会・政治";
 
   let priority = relevant ? 82 : 0;
@@ -159,15 +167,17 @@ export function assessPolicyItem(
   const text = `${title} ${summary}`.replace(/\s+/g, " ").trim();
   const bilateral = bilateralPattern.test(text);
   const japanEmergency = japanDisasterPattern.test(text);
-  const japan = japanPattern.test(text) || japanRemembrancePattern.test(text) || japanEmergency;
+  const japan = japanPattern.test(text) || japanCurrencyPattern.test(text) || japanRemembrancePattern.test(text) || japanEmergency;
   const us = usPattern.test(text);
   const senior = leadershipPattern.test(text);
   const institution = institutionPattern.test(text);
-  const strategic = strategicPattern.test(text);
-  const external = externalPolicyPattern.test(text);
-  const systemic = systemicPolicyPattern.test(text);
-  const action = actionPattern.test(text);
-  const hardAction = hardActionPattern.test(text);
+  const currencyPolicy = currencyPolicyPattern.test(text);
+  const marketAccess = marketAccessPattern.test(text);
+  const strategic = strategicPattern.test(text) || currencyPolicy || marketAccess;
+  const external = externalPolicyPattern.test(text) || currencyPolicy || marketAccess;
+  const systemic = systemicPolicyPattern.test(text) || currencyPolicy || marketAccess;
+  const action = actionPattern.test(text) || currencyPolicy || marketAccess;
+  const hardAction = hardActionPattern.test(text) || /interven(?:e|es|ed|ing|tion)|為替介入|協調介入|輸入解禁|輸出解禁|市場開放/i.test(text);
   const excluded = noisePattern.test(text) || lowValuePattern.test(text) || genericPagePattern.test(text);
 
   const directJapanUS = (bilateral || (japan && us)) && (strategic || senior || action || institution || japanEmergency);
@@ -190,7 +200,7 @@ export function assessPolicyItem(
   let category: PolicyCategory = official ? "公式発表" : "議会・政治";
   if (bilateral) category = "日米関係";
   if (defensePattern.test(text)) category = "外交・安保";
-  if (economyPattern.test(text)) category = "通商・経済";
+  if (economyPattern.test(text) || currencyPolicy || marketAccess) category = "通商・経済";
   if (legislaturePattern.test(text)) category = "議会・政治";
   if (senior && (/\b(?:summit|visit|meet|talks?)\b|首脳会談|会談|訪米|訪問/i.test(text) || officialJapanEmergency)) category = "首脳・閣僚";
 
