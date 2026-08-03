@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-03T20:05:02.588Z",
+  "updatedAt": "2026-08-03T21:16:25.643Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -2800,6 +2800,76 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTMTJOb3h3Qkw4YjJ5ZWh1eTdPeWpwQlllb25ZWUVMdGlrVHFXM2J0TXRZSVAtb0ptbHZVVklnMWtNNWFSUnN0LUdBZjFMMlZzY2JfOThFUXBXVXgyaXpVbkhCRlZhdw",
       "articleTitleKey": "米財務長官は さらなる協調介入をためらうことはないと表明した",
       "articleSourceKey": "jiji.com"
+    },
+    {
+      "id": "591a71828e3c6b1888cd18e6",
+      "title": "毎小ニュース：経済 日本とアメリカが為替協調介入",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvLTFwbm1zSGFLTVlvU3ZoZEZabGo5eUxnbEhTWkNhdTJfZ2pSREFlbkpHY0xvY0daWEJoZ25KakJfYlkwLXFQMUIyVTZfQlloV0tGbGJKTlMzWndPTzVodXJFbC1JZWhOMkN4cWgyZ3Rfdw?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T21:04:13.000Z",
+      "notifiedAt": "2026-08-03T21:16:25.643Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvLTFwbm1zSGFLTVlvU3ZoZEZabGo5eUxnbEhTWkNhdTJfZ2pSREFlbkpHY0xvY0daWEJoZ25KakJfYlkwLXFQMUIyVTZfQlloV0tGbGJKTlMzWndPTzVodXJFbC1JZWhOMkN4cWgyZ3Rfdw",
+      "articleTitleKey": "毎小ニュース 経済 日本とアメリカが為替協調介入",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "cb307c12906574b3a8ef5712",
+      "title": "（社説）日米協調介入 円安抑制は財政規律で",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3dGpTa0tObjF0akl0Y3kzVkJLWndjYl8tNzZCNTEwN18xM3dyMGZWYm5seW5ZN1J5bHdzQmdfZnNMM0h6a1ltWGhveFZvYldBVGY0eTZIVzlHNks3?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T20:00:00.000Z",
+      "notifiedAt": "2026-08-03T21:16:25.643Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3dGpTa0tObjF0akl0Y3kzVkJLWndjYl8tNzZCNTEwN18xM3dyMGZWYm5seW5ZN1J5bHdzQmdfZnNMM0h6a1ltWGhveFZvYldBVGY0eTZIVzlHNks3",
+      "articleTitleKey": "社説 日米協調介入 円安抑制は財政規律で",
+      "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "f33d550c99ce1b01bc6d5ec4",
+      "title": "（時時刻刻）協調介入、日米透ける思惑 単独介入に限界指摘のなか、実行",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00MVI0a2U2eHVPdGtQY0s3ZTJOTEgtall4WUF2c184Sl80MHhhQkE1T3lXVk1ybmtrSEVNUWNSSUNrRlhfQUJOeWxoeEhaWmJiOUVpeUxxay1FSWZP?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T20:00:00.000Z",
+      "notifiedAt": "2026-08-03T21:16:25.643Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00MVI0a2U2eHVPdGtQY0s3ZTJOTEgtall4WUF2c184Sl80MHhhQkE1T3lXVk1ybmtrSEVNUWNSSUNrRlhfQUJOeWxoeEhaWmJiOUVpeUxxay1FSWZP",
+      "articleTitleKey": "時時刻刻 協調介入 日米透ける思惑 単独介入に限界指摘のなか 実行",
+      "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "021cca8c1ca2f2cb73e6985b",
+      "title": "円買い日米協調介入、識者の見方は 山本雅文氏、丸山凜途氏",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DMDRXenkzU09DTU5DbjM4WjBodnM5eVp1WVJoam1VRkMyZmZnRnFFMjBBNHZtcm5tanhTVHBVWjR6dFB4OHZ4YUt5T21uS1hvM2lwUHNVTGY1aXk1?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T20:00:00.000Z",
+      "notifiedAt": "2026-08-03T21:16:25.643Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DMDRXenkzU09DTU5DbjM4WjBodnM5eVp1WVJoam1VRkMyZmZnRnFFMjBBNHZtcm5tanhTVHBVWjR6dFB4OHZ4YUt5T21uS1hvM2lwUHNVTGY1aXk1",
+      "articleTitleKey": "円買い日米協調介入 識者の見方は 山本雅文氏 丸山凜途氏",
+      "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "33a6fdbaa25b94fe9e5810d9",
+      "title": "円買い介入、日米が発表 一時１５５円台 「今後も躊躇せず」",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iRGx5TndZR1FBcHcwV1kxeXpPV3FHenZEOEpQczctU1hJVy1ZZ3BrRjBKTkFPdGdNZEJuRFJfOTQ5RmpBdlNLWnlYSzhJUzVzMDdrQ043TlUxV3Qz?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T20:00:00.000Z",
+      "notifiedAt": "2026-08-03T21:16:25.643Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iRGx5TndZR1FBcHcwV1kxeXpPV3FHenZEOEpQczctU1hJVy1ZZ3BrRjBKTkFPdGdNZEJuRFJfOTQ5RmpBdlNLWnlYSzhJUzVzMDdrQ043TlUxV3Qz",
+      "articleTitleKey": "円買い介入 日米が発表 一時155円台 今後も躊躇せず",
+      "articleSourceKey": "朝日新聞"
     }
   ]
 }
