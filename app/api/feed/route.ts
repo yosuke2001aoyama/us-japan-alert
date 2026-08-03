@@ -4,25 +4,27 @@ import { collectDirectSocial } from "../../../lib/social-direct";
 import { collectJapaneseCriticalMedia } from "../../../lib/japanese-tariff-media";
 import { canonicalHeadline, canonicalPublisher } from "../../../lib/policy";
 import { passesFinalRelevanceGuard } from "../../../lib/relevance-guard";
+import { collectSpokenSignals } from "../../../lib/spoken-signals";
 
 export const dynamic = "force-dynamic";
 
 const observationPattern = /調整|検討|見通し|予定|方向|政府筋|関係者|複数の関係者|記者団|取材|インタビュー|明らかにした|述べた|語った|sources?|officials?|told reporters?|speaking to reporters?|interview|revealed|disclosed|expected|planning|considering|likely|may visit|visit planned|in talks/i;
 
 export async function GET(request: Request) {
-  const [base, direct, social, criticalMedia] = await Promise.all([
-    collect(), collectDirectOfficial(), collectDirectSocial(), collectJapaneseCriticalMedia(),
+  const [base, direct, social, criticalMedia, spoken] = await Promise.all([
+    collect(), collectDirectOfficial(), collectDirectSocial(), collectJapaneseCriticalMedia(), collectSpokenSignals(),
   ]);
   const seenUrls = new Set<string>();
   const seenTitles = new Set<string>();
-  const items = [...social.items, ...direct.items, ...criticalMedia.items, ...base.items]
+  const items = [...spoken.items, ...social.items, ...direct.items, ...criticalMedia.items, ...base.items]
     .filter(passesFinalRelevanceGuard)
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt) || b.priority - a.priority)
     .filter((item) => {
       const urlKey = item.url.replace(/[?&](utm_[^=]+|oc)=[^&]+/g, "");
       const headlineKey = canonicalHeadline(item.title);
       const titleKey = `${canonicalPublisher(item.source)}|${headlineKey}`;
-      if (seenUrls.has(urlKey) || (headlineKey.length > 20 && seenTitles.has(titleKey))) return false;
+      const distinctOfficialRecording = item.spokenEvent && item.official && Boolean(item.mediaUrl);
+      if (seenUrls.has(urlKey) || (!distinctOfficialRecording && headlineKey.length > 20 && seenTitles.has(titleKey))) return false;
       seenUrls.add(urlKey);
       if (titleKey) seenTitles.add(titleKey);
       return true;
@@ -60,15 +62,16 @@ export async function GET(request: Request) {
     items,
     sources: {
       ...base.sources,
-      ok: base.sources.ok + baseRecovered + direct.ok + social.ok + criticalMedia.ok,
-      failed: baseFailed.length + direct.failed + social.failed + criticalMedia.failed,
-      total: base.sources.total + direct.total + social.total + criticalMedia.total,
-      failedNames: [...baseFailed, ...direct.failedNames, ...social.failedNames, ...criticalMedia.failedNames],
+      ok: base.sources.ok + baseRecovered + direct.ok + social.ok + criticalMedia.ok + spoken.ok,
+      failed: baseFailed.length + direct.failed + social.failed + criticalMedia.failed + spoken.failed,
+      total: base.sources.total + direct.total + social.total + criticalMedia.total + spoken.total,
+      failedNames: [...baseFailed, ...direct.failedNames, ...social.failedNames, ...criticalMedia.failedNames, ...spoken.failedNames],
       coverage: [
         ...(base.sources.coverage || []).map((group) => group.id === "jp-security" && hasModFallback ? { ...group, ok: group.total } : group),
         { id: "direct-official", label: "一次情報・直接巡回", ok: direct.ok, total: direct.total },
         { id: "official-social", label: "公式SNS・直接巡回", ok: social.ok, total: social.total },
         { id: "jp-critical-media", label: "日本主要メディア・重要経済報道", ok: criticalMedia.ok, total: criticalMedia.total },
+        { id: "spoken-signals", label: "機中取材・演説・動画文字起こし", ok: spoken.ok, total: spoken.total },
       ],
       capabilities: {
         truthSocial: true,
@@ -83,8 +86,8 @@ export async function GET(request: Request) {
   if (format === "csv") {
     const esc = (v: unknown) => `"${String(v ?? "").replaceAll('"', '""')}"`;
     const csv = [
-      "published_at,priority,japan_related,official,social_post,verification,category,source,title,url",
-      ...data.items.map((x) => [x.publishedAt, x.priority, x.japanRelated, x.official, x.socialPost, x.verification, x.category, x.source, x.title, x.url].map(esc).join(",")),
+      "published_at,priority,japan_related,official,social_post,spoken_event,transcript_kind,verification,category,source,title,transcript,url",
+      ...data.items.map((x) => [x.publishedAt, x.priority, x.japanRelated, x.official, x.socialPost, x.spokenEvent, x.transcriptKind, x.verification, x.category, x.source, x.title, x.transcript, x.url].map(esc).join(",")),
     ].join("\n");
     return new Response("\ufeff" + csv, { headers: { "content-type": "text/csv; charset=utf-8", "content-disposition": "attachment; filename=jpus-alert.csv" } });
   }
