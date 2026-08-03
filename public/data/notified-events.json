@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-03T08:14:22.265Z",
+  "updatedAt": "2026-08-03T11:45:22.006Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -1120,6 +1120,48 @@
       "articleUrlKey": "https://x.com/SecScottBessent/status/2084051676801933622",
       "articleTitleKey": "the trump administration delivers for america s trusted partners economic security is national security and the u s japan alliance is built on both friday s coordinated fore",
       "articleSourceKey": "x · @secscottbessent · treasury secretary scott bessent"
+    },
+    {
+      "id": "68c6b7dc2dfa19a71676fe07",
+      "title": "Readout: Pacific Fleet Commander's Travel to Japan, April 20-21 - pacom.mil. Readout: Pacific Fleet Commander's Travel to Japan, April 20-21 pacom.mil",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdVBqenVBeWxZa3NXV1c5YmxjeUM0eDZxNjZueFQ2SVl3S1FCNl9kRTFMWlZLNk9ueGVCeFlRMGw5blRFMVZLLTlwVG1lVENBTDA1NUhTcG9Xam00SFQ1TWhkRnRCQnBaTjgxZnpxaE5KdXl6a084Vy0yZjhHdmtPRERBY2JLc0hHOTJZWEdOZjM2M3FvZ1NJVHRnaDBRaEN0WDA4SzJwTEY1VDk3U05R?oc=5",
+      "source": "米太平洋軍・在日米軍 · Commander/Deputy Commander",
+      "category": "公式発表",
+      "priority": 97,
+      "publishedAt": "2026-08-02T15:47:27.000Z",
+      "notifiedAt": "2026-08-03T11:45:22.006Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdVBqenVBeWxZa3NXV1c5YmxjeUM0eDZxNjZueFQ2SVl3S1FCNl9kRTFMWlZLNk9ueGVCeFlRMGw5blRFMVZLLTlwVG1lVENBTDA1NUhTcG9Xam00SFQ1TWhkRnRCQnBaTjgxZnpxaE5KdXl6a084Vy0yZjhHdmtPRERBY2JLc0hHOTJZWEdOZjM2M3FvZ1NJVHRnaDBRaEN0WDA4SzJwTEY1VDk3U05R",
+      "articleTitleKey": "readout pacific fleet commander s travel to japan april 20 21 pacom mil readout pacific fleet commander s travel to japan april 20 21 pacom mil",
+      "articleSourceKey": "米太平洋軍・在日米軍 · commander/deputy commander"
+    },
+    {
+      "id": "7291d0e65b0336c01cd43c24",
+      "title": "A major milestone for Japan's counterstrike capability! The successful, @USNavy-assisted test-firing of a Tomahawk missile from a Japanese destroyer marks a significant moment f…",
+      "url": "https://x.com/USAmbJapan/status/2084207000892924048",
+      "source": "X · @USAmbJapan · U.S. Ambassador to Japan George Glass",
+      "category": "外交・安保",
+      "priority": 90,
+      "publishedAt": "2026-08-03T09:17:26.000Z",
+      "notifiedAt": "2026-08-03T11:45:22.006Z",
+      "baseline": false,
+      "articleUrlKey": "https://x.com/USAmbJapan/status/2084207000892924048",
+      "articleTitleKey": "a major milestone for japan s counterstrike capability the successful usnavy assisted test firing of a tomahawk missile from a japanese destroyer marks a significant moment f",
+      "articleSourceKey": "x · @usambjapan · u.s. ambassador to japan george glass"
+    },
+    {
+      "id": "8e68212cbbd1fd14571b4e45",
+      "title": "決算:三菱自動車の純利益91％増 4〜6月、関税反動などで",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zcGEwV3BnUnl6aElmUWthU0FjR3Z3VjdVTUs0djZrbEJVbXV0aGUtYmhoYlJpSmtRU19LRDMxWktPRFlyeGtyeTdIcUpydVUwcTU0SWR4bTdRUHFpSmJVTG5hb0pIclp4UUc5VA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-03T07:25:31.000Z",
+      "notifiedAt": "2026-08-03T11:45:22.006Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zcGEwV3BnUnl6aElmUWthU0FjR3Z3VjdVTUs0djZrbEJVbXV0aGUtYmhoYlJpSmtRU19LRDMxWktPRFlyeGtyeTdIcUpydVUwcTU0SWR4bTdRUHFpSmJVTG5hb0pIclp4UUc5VA",
+      "articleTitleKey": "決算 三菱自動車の純利益91 増 4 6月 関税反動などで",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
