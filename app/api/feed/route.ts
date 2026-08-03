@@ -1,7 +1,7 @@
 import { collect } from "../../../lib/feeds";
 import { collectDirectOfficial } from "../../../lib/official-pages";
 import { collectDirectSocial } from "../../../lib/social-direct";
-import { collectJapaneseTariffMedia } from "../../../lib/japanese-tariff-media";
+import { collectJapaneseCriticalMedia } from "../../../lib/japanese-tariff-media";
 import { canonicalHeadline, canonicalPublisher } from "../../../lib/policy";
 import { passesFinalRelevanceGuard } from "../../../lib/relevance-guard";
 
@@ -10,12 +10,12 @@ export const dynamic = "force-dynamic";
 const observationPattern = /調整|検討|見通し|予定|方向|政府筋|関係者|複数の関係者|記者団|取材|インタビュー|明らかにした|述べた|語った|sources?|officials?|told reporters?|speaking to reporters?|interview|revealed|disclosed|expected|planning|considering|likely|may visit|visit planned|in talks/i;
 
 export async function GET(request: Request) {
-  const [base, direct, social, tariffMedia] = await Promise.all([
-    collect(), collectDirectOfficial(), collectDirectSocial(), collectJapaneseTariffMedia(),
+  const [base, direct, social, criticalMedia] = await Promise.all([
+    collect(), collectDirectOfficial(), collectDirectSocial(), collectJapaneseCriticalMedia(),
   ]);
   const seenUrls = new Set<string>();
   const seenTitles = new Set<string>();
-  const items = [...social.items, ...direct.items, ...tariffMedia.items, ...base.items]
+  const items = [...social.items, ...direct.items, ...criticalMedia.items, ...base.items]
     .filter(passesFinalRelevanceGuard)
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt) || b.priority - a.priority)
     .filter((item) => {
@@ -60,15 +60,15 @@ export async function GET(request: Request) {
     items,
     sources: {
       ...base.sources,
-      ok: base.sources.ok + baseRecovered + direct.ok + social.ok + tariffMedia.ok,
-      failed: baseFailed.length + direct.failed + social.failed + tariffMedia.failed,
-      total: base.sources.total + direct.total + social.total + tariffMedia.total,
-      failedNames: [...baseFailed, ...direct.failedNames, ...social.failedNames, ...tariffMedia.failedNames],
+      ok: base.sources.ok + baseRecovered + direct.ok + social.ok + criticalMedia.ok,
+      failed: baseFailed.length + direct.failed + social.failed + criticalMedia.failed,
+      total: base.sources.total + direct.total + social.total + criticalMedia.total,
+      failedNames: [...baseFailed, ...direct.failedNames, ...social.failedNames, ...criticalMedia.failedNames],
       coverage: [
         ...(base.sources.coverage || []).map((group) => group.id === "jp-security" && hasModFallback ? { ...group, ok: group.total } : group),
         { id: "direct-official", label: "一次情報・直接巡回", ok: direct.ok, total: direct.total },
         { id: "official-social", label: "公式SNS・直接巡回", ok: social.ok, total: social.total },
-        { id: "jp-tariff-media", label: "日本主要メディア・関税報道", ok: tariffMedia.ok, total: tariffMedia.total },
+        { id: "jp-critical-media", label: "日本主要メディア・重要経済報道", ok: criticalMedia.ok, total: criticalMedia.total },
       ],
       capabilities: {
         truthSocial: true,
