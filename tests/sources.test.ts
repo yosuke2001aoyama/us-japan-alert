@@ -24,6 +24,7 @@ test("includes the previously missing official-policy routes", () => {
     "Trump / Vance",
     "Rubio / Hegseth",
     "高市総理 / 木原官房長官",
+    "農林水産省",
   ]) {
     assert.match(names, new RegExp(expected.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   }
