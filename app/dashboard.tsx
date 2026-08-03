@@ -217,9 +217,9 @@ export default function Dashboard() {
   const [loadError, setLoadError] = useState("");
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("すべて");
-  const [days, setDays] = useState(3);
+  const [days, setDays] = useState(7);
   const [sort, setSort] = useState<"priority" | "time">("priority");
-  const [deskMode, setDeskMode] = useState<DeskMode>("attention");
+  const [deskMode, setDeskMode] = useState<DeskMode>("all");
   const [selectedWatch, setSelectedWatch] = useState("");
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
   const [reviewed, setReviewed] = useState<Set<string>>(new Set());
