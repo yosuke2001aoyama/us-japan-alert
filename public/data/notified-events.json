@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T07:06:12.946Z",
+  "updatedAt": "2026-08-04T09:47:03.669Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3248,6 +3248,76 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5GT1ItckgtZG9HZ1hicmNISmZoZ2VkNGszMUhmODI5NmpjTFdIdnNsVExHRnNaNFBManlXY2RXVmJORWV0aVNyUWdrTTlwcnN0SW5NZ3NaRQ",
       "articleTitleKey": "28年ぶり日米協調 円買い介入 一時1ドル 155円台に トランプ大統領 日本は助けを求めていた 米国にメリットも news23",
       "articleSourceKey": "newsdig.tbs.co.jp"
+    },
+    {
+      "id": "1158b32bef6e97efc6f5fec9",
+      "title": "5兆円規模か 政府日銀の先月31日の円買い介入 前日は7兆円規模と推計 年間の介入総額が過去最高を更新との観測",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1RHJmZ0pLNzN6V01NNnNqN2ZWNUlNR2Zha1FWamxVQXpZX0xmMHFxcmVlZkFjZnJ0M1RqN09ndzFWVlhYWk1JTmQ0UktIQQ?oc=5",
+      "source": "FNNプライムオンライン",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T09:05:00.000Z",
+      "notifiedAt": "2026-08-04T09:47:03.669Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1RHJmZ0pLNzN6V01NNnNqN2ZWNUlNR2Zha1FWamxVQXpZX0xmMHFxcmVlZkFjZnJ0M1RqN09ndzFWVlhYWk1JTmQ0UktIQQ",
+      "articleTitleKey": "5兆円規模か 政府日銀の先月31日の円買い介入 前日は7兆円規模と推計 年間の介入総額が過去最高を更新との観測",
+      "articleSourceKey": "fnnプライムオンライン"
+    },
+    {
+      "id": "8fdda2e74adb1d671a4cc72f",
+      "title": "外為17時 円相場、3日ぶり反落 日米協調介入の反動で持ち高調整",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yeHZIUjkwOTRNRHg2R0tXU1U5QkJ6WXV5aDZUVVRiRFVPdFh6VHU4T05iMnpyaUFmWWFuZFdHME1UV3loMGhRVUJ1VlgyVlhpYnlJaUpxVlkyajM4UUJkaUdTc29JLU5KQ3hMVg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T08:31:13.000Z",
+      "notifiedAt": "2026-08-04T09:47:03.669Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yeHZIUjkwOTRNRHg2R0tXU1U5QkJ6WXV5aDZUVVRiRFVPdFh6VHU4T05iMnpyaUFmWWFuZFdHME1UV3loMGhRVUJ1VlgyVlhpYnlJaUpxVlkyajM4UUJkaUdTc29JLU5KQ3hMVg",
+      "articleTitleKey": "外為17時 円相場 3日ぶり反落 日米協調介入の反動で持ち高調整",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "18ddf8288bbca3f0fe391707",
+      "title": "円相場、１５７円８１～８１銭 ４日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kOTVpUThuTXhoYkdCa2p0TDdrSml3MzQ0dkVXSGJWRzVtc19BN0pTWC0xTG9ZeXZGUlZvSHpmVEprNU52X3JDbXRwYWdTSnBkdHEzQXNFZWdvamFHaWpJYmxBZw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T08:21:00.000Z",
+      "notifiedAt": "2026-08-04T09:47:03.669Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kOTVpUThuTXhoYkdCa2p0TDdrSml3MzQ0dkVXSGJWRzVtc19BN0pTWC0xTG9ZeXZGUlZvSHpmVEprNU52X3JDbXRwYWdTSnBkdHEzQXNFZWdvamFHaWpJYmxBZw",
+      "articleTitleKey": "円相場 157円81 81銭 4日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "da1e993876ec691d8fe7cc93",
+      "title": "政府、連日の為替介入、規模は合計11兆円以上とみられます",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWNzhKaDlaZUdRdlNpeGFtdUVoejZGUEszQmRFT3dpN0E4Ylpjay1HRi1nZzhqS0o3ekt0cnkzNGI2V2Etd04xRDBCSXlBUVg3MUowU2hHZGduYjY0VkpxUUxTMlBJdVE?oc=5",
+      "source": "やさしい朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T07:26:32.000Z",
+      "notifiedAt": "2026-08-04T09:47:03.669Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWNzhKaDlaZUdRdlNpeGFtdUVoejZGUEszQmRFT3dpN0E4Ylpjay1HRi1nZzhqS0o3ekt0cnkzNGI2V2Etd04xRDBCSXlBUVg3MUowU2hHZGduYjY0VkpxUUxTMlBJdVE",
+      "articleTitleKey": "政府 連日の為替介入 規模は合計11兆円以上とみられます",
+      "articleSourceKey": "やさしい朝日新聞"
+    },
+    {
+      "id": "ad9695a0402b39960550ceea",
+      "title": "歴史的介入後の円相場、155円攻防が次の焦点－円高持続性を左右",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoTEowN2pDYkdVX20zcktmOUgtMWZUakNYMlllSmlLWTJqMVNnNEZqMHlWdFFFYk5DdWlrMHdkNHhiWE1PdFZJR01ZT3YyaGlSWkVEUmxNUk9ZNWlPbm1fSjBjR3pxTlU?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T03:09:00.000Z",
+      "notifiedAt": "2026-08-04T09:47:03.669Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoTEowN2pDYkdVX20zcktmOUgtMWZUakNYMlllSmlLWTJqMVNnNEZqMHlWdFFFYk5DdWlrMHdkNHhiWE1PdFZJR01ZT3YyaGlSWkVEUmxNUk9ZNWlPbm1fSjBjR3pxTlU",
+      "articleTitleKey": "歴史的介入後の円相場 155円攻防が次の焦点 円高持続性を左右",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
