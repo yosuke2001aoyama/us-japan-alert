@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T15:55:33.790Z",
+  "updatedAt": "2026-08-04T17:40:36.230Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3472,6 +3472,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51SGs0YTZiaEF5VFJMTUFhYjZGLWI4TUZtSDVnMEdVbzJZLVF4YmVQN081emFMZHJxWVJhdlpHemxjV2xuSkkwaVBmTk94Q1p1bjdESm9PTGJISTVJakhMMzhLalM0QXUwOVZpRFQtQ2RnZGlq",
       "articleTitleKey": "協調介入 効果いつまで続く 専門家 日銀の利上げが市場の思惑通り進捗するかしないか 28年ぶりの日米 最後の切り札",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "581581a2ef3351142bbb0f21",
+      "title": "社説：円安阻止で協調介入 「米国頼み」は通用しない",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiNElzWkRGM3FxTkFjMkM4OEU1OWRWZXZrSU41MmVkeDJmS2ZIOU1oU0hKRlVhTFFXWlBWTGhtcXJobXFRVFpzemtqQUstNmZhR1hieDdxYTZQNF85WUdLTEVyRVphU1lf?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T17:01:31.000Z",
+      "notifiedAt": "2026-08-04T17:40:36.230Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiNElzWkRGM3FxTkFjMkM4OEU1OWRWZXZrSU41MmVkeDJmS2ZIOU1oU0hKRlVhTFFXWlBWTGhtcXJobXFRVFpzemtqQUstNmZhR1hieDdxYTZQNF85WUdLTEVyRVphU1lf",
+      "articleTitleKey": "社説 円安阻止で協調介入 米国頼み は通用しない",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "d9c3be38f04d1fa47550f21c",
+      "title": "外為・株式：3日は為替介入、なしの可能性も 短資会社推計",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10ZUlwa09XcHlyenNsUjIyY3hLbHFqQ2lINkNiZ0lGVnlqTzZmVWgzbzFTZWVHcXZtNVZpVEtkc1NhOENCaHVKWGZMR2JBUUZBcHVqR2x0UGJpaEFsRmd3OGwxcWZmdFRQ?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T17:01:16.000Z",
+      "notifiedAt": "2026-08-04T17:40:36.230Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10ZUlwa09XcHlyenNsUjIyY3hLbHFqQ2lINkNiZ0lGVnlqTzZmVWgzbzFTZWVHcXZtNVZpVEtkc1NhOENCaHVKWGZMR2JBUUZBcHVqR2x0UGJpaEFsRmd3OGwxcWZmdFRQ",
+      "articleTitleKey": "外為 株式 3日は為替介入 なしの可能性も 短資会社推計",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "37f8457790a3cae2145b1327",
+      "title": "日米協調介入、片山財務相「効果についてお答えはできない」",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nNkdIWDJxcC1JN2FoT2pCUi1UaTc4N2hoMGozUXhnOGtiaFFwX1d3dDVidnF0SzZHUVZQd2RUczNNUUhLOWVWMXhHVzFaamEtcGlZam9SQ082M3l6RFR4enFCTWxjdE93elpDSw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T04:20:15.000Z",
+      "notifiedAt": "2026-08-04T17:40:36.230Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nNkdIWDJxcC1JN2FoT2pCUi1UaTc4N2hoMGozUXhnOGtiaFFwX1d3dDVidnF0SzZHUVZQd2RUczNNUUhLOWVWMXhHVzFaamEtcGlZam9SQ082M3l6RFR4enFCTWxjdE93elpDSw",
+      "articleTitleKey": "日米協調介入 片山財務相 効果についてお答えはできない",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
