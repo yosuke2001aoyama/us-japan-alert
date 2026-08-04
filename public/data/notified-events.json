@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T09:47:03.669Z",
+  "updatedAt": "2026-08-04T11:50:44.560Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3318,6 +3318,76 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoTEowN2pDYkdVX20zcktmOUgtMWZUakNYMlllSmlLWTJqMVNnNEZqMHlWdFFFYk5DdWlrMHdkNHhiWE1PdFZJR01ZT3YyaGlSWkVEUmxNUk9ZNWlPbm1fSjBjR3pxTlU",
       "articleTitleKey": "歴史的介入後の円相場 155円攻防が次の焦点 円高持続性を左右",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "ffcd66e7f74207c01329087c",
+      "title": "3日午前の円急騰、「為替介入でない可能性も」 短資会社が推計",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuS1JtdEZFcDJicVZ6UHBIb0sxMnVCSUJHRlk2UlI0WVFoQlRUUkFjTGVicGxKSzB6VEVoWkNaVlU5S0RYSFNHZ1Nyc0NVOWE5bmROcVlnTlAzcGxITVpVcWNvY282NmRy?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T10:54:28.000Z",
+      "notifiedAt": "2026-08-04T11:50:44.560Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuS1JtdEZFcDJicVZ6UHBIb0sxMnVCSUJHRlk2UlI0WVFoQlRUUkFjTGVicGxKSzB6VEVoWkNaVlU5S0RYSFNHZ1Nyc0NVOWE5bmROcVlnTlAzcGxITVpVcWNvY282NmRy",
+      "articleTitleKey": "3日午前の円急騰 為替介入でない可能性も 短資会社が推計",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "df828cc418b8242e6dac0fe7",
+      "title": "３営業日連続の円買い介入か＝１兆円前後、誤差の可能性も―市場推計",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UUWx2MmRZRzdJQTkycXhDY09paFZDbC1wN1ZGZ0E4cDYwNURjWGp6RzlSRHowYmhWajRlSVNPMzZfQzVBMzJmT1BNRWFEUFZGY2thaWl3N2NLNFdic0o2N1ViYXBvMjhKSGpqOUJQaw?oc=5",
+      "source": "portal.ijamp.jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T10:49:49.000Z",
+      "notifiedAt": "2026-08-04T11:50:44.560Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UUWx2MmRZRzdJQTkycXhDY09paFZDbC1wN1ZGZ0E4cDYwNURjWGp6RzlSRHowYmhWajRlSVNPMzZfQzVBMzJmT1BNRWFEUFZGY2thaWl3N2NLNFdic0o2N1ViYXBvMjhKSGpqOUJQaw",
+      "articleTitleKey": "3営業日連続の円買い介入か 1兆円前後 誤差の可能性も 市場推計",
+      "articleSourceKey": "portal.ijamp.jiji.com"
+    },
+    {
+      "id": "5f7ebb1a94a7d414545b737a",
+      "title": "東京円、157円台後半 持ち高調整のため円売り・ドル買い先行",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NckYweGVwVGlMaXZOSWlVMkJRdVBRelZ0SkNfTDhud3Rhc2h0NXZnUENrNDNmektQMVo5S1R5d2tHX2Zac1IyRGR1RjBVRkg1bkRaei1VZGpZYUNaVUYzZzhYYmdqanhK?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T09:44:36.000Z",
+      "notifiedAt": "2026-08-04T11:50:44.560Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NckYweGVwVGlMaXZOSWlVMkJRdVBRelZ0SkNfTDhud3Rhc2h0NXZnUENrNDNmektQMVo5S1R5d2tHX2Zac1IyRGR1RjBVRkg1bkRaei1VZGpZYUNaVUYzZzhYYmdqanhK",
+      "articleTitleKey": "東京円 157円台後半 持ち高調整のため円売り ドル買い先行",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "d7f977f0b63c3d939a889d72",
+      "title": "為替介入3日間で推計12兆円規模 行きすぎた円安構造、変化の兆し",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWTlpOQjRZWjBYcElPX25fanhLR0EzTzhEOFplMEhocXMyS3dpLV8yYnBiTi1Sc0tfNUQ1OEEzejBQUWZQT3FtaU1MUHVWVjc0OUE0SkcxTm5wdTV6Y19oNXJpSnRqbktJZU5aTQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T09:31:03.000Z",
+      "notifiedAt": "2026-08-04T11:50:44.560Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWTlpOQjRZWjBYcElPX25fanhLR0EzTzhEOFplMEhocXMyS3dpLV8yYnBiTi1Sc0tfNUQ1OEEzejBQUWZQT3FtaU1MUHVWVjc0OUE0SkcxTm5wdTV6Y19oNXJpSnRqbktJZU5aTQ",
+      "articleTitleKey": "為替介入3日間で推計12兆円規模 行きすぎた円安構造 変化の兆し",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "3860d7dac6274cfa4e74ba19",
+      "title": "〔東京株式〕続落＝ハイテク買い続かず、為替介入も警戒（４日前場） 2026年08月04日 11時48分",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQaUg5Z01HSWRGcHRyQ2hjOGlCRDI0MGJMeEFRX1N3OWhkZHh1U205U01wVG5LQV9fMFlxeGYtQ0lWdzVRbmhkSC1oNGUwakxzS0RGYkJRVmVBcnd0U0kw?oc=5",
+      "source": "時事エクイティ",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T02:48:00.000Z",
+      "notifiedAt": "2026-08-04T11:50:44.560Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQaUg5Z01HSWRGcHRyQ2hjOGlCRDI0MGJMeEFRX1N3OWhkZHh1U205U01wVG5LQV9fMFlxeGYtQ0lWdzVRbmhkSC1oNGUwakxzS0RGYkJRVmVBcnd0U0kw",
+      "articleTitleKey": "東京株式 続落 ハイテク買い続かず 為替介入も警戒 4日前場 2026年08月04日 11時48分",
+      "articleSourceKey": "時事エクイティ"
     }
   ]
 }
