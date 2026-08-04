@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T04:22:57.451Z",
+  "updatedAt": "2026-08-04T07:06:12.946Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3178,6 +3178,76 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EeTZwWF96cWd5b0hTSGJkSUxxSkpON3RxN3dPaXlnZzA5SExuRU45ZFBCbWFNc3dTVkZWTmRPVXRSUUNNS1VicFU1YWFrR3FwYVZJUlNUS3ZEMlNoN00tVWRoWW8",
       "articleTitleKey": "ニュースq 協調介入とは 市場影響大 有事 に実施",
       "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "dd3bdd8e9b2ef018bd746ef5",
+      "title": "令和８年熊本地震による被災状況視察のための熊本県訪問についての会見 | 総理の演説・記者会見など",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8tb2VOS1lFWl95ckFZaXJIYW5wNmkxdURZMm5QVGJSQUpnYkllSnpudzFVVGYxY2k3QWwybW9PdkZOREVWR1lSbk01WHZndXZzSGgwREFPbl9LYlFoaDVNX0JTa1Rqem16a2xrTGRkSQ?oc=5",
+      "source": "首相官邸",
+      "category": "首脳・閣僚",
+      "priority": 99,
+      "publishedAt": "2026-08-03T14:21:29.000Z",
+      "notifiedAt": "2026-08-04T07:06:12.946Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8tb2VOS1lFWl95ckFZaXJIYW5wNmkxdURZMm5QVGJSQUpnYkllSnpudzFVVGYxY2k3QWwybW9PdkZOREVWR1lSbk01WHZndXZzSGgwREFPbl9LYlFoaDVNX0JTa1Rqem16a2xrTGRkSQ",
+      "articleTitleKey": "令和8年熊本地震による被災状況視察のための熊本県訪問についての会見 総理の演説 記者会見など",
+      "articleSourceKey": "首相官邸"
+    },
+    {
+      "id": "6999439bb519151fea8765a7",
+      "title": "Statement by Ambassador Glass on Hiroshima and Nagasaki Peace Ceremonies - U.S. Embassy & Consulates in Japan (.gov). Statement by Ambassador Glass on Hiroshima and Nagasaki Pea…",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX1Z1dm9MeWptRnA3VlA2YzBDa3dXYjJTWkp0NnVNT01uQW5mQmNieW9GUzBsSFRlSVBBZjRWUzdiUjFVOXF6RGJ0SFctN2p6N01MYlhBdV9LQ19IT2VEbjlZVXkxX2hwTElyUlhzRzlCQU5kNEpsTTdRZXRmRTZrNUo0RXVfSzBK?oc=5",
+      "source": "米政府・議会 · 日本戦争記憶関連発信 · U.S. official representative",
+      "category": "公式発表",
+      "priority": 90,
+      "publishedAt": "2026-08-04T05:47:54.000Z",
+      "notifiedAt": "2026-08-04T07:06:12.946Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX1Z1dm9MeWptRnA3VlA2YzBDa3dXYjJTWkp0NnVNT01uQW5mQmNieW9GUzBsSFRlSVBBZjRWUzdiUjFVOXF6RGJ0SFctN2p6N01MYlhBdV9LQ19IT2VEbjlZVXkxX2hwTElyUlhzRzlCQU5kNEpsTTdRZXRmRTZrNUo0RXVfSzBK",
+      "articleTitleKey": "statement by ambassador glass on hiroshima and nagasaki peace ceremonies u s embassy consulates in japan gov statement by ambassador glass on hiroshima and nagasaki pea",
+      "articleSourceKey": "米政府・議会 · 日本戦争記憶関連発信 · u.s. official representative"
+    },
+    {
+      "id": "68a557170cd1453fcd76f1c8",
+      "title": "＜QAで解説＞日米15年ぶりの為替協調介入 円安阻止で一致",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82cXQ4aUwzT2I1RGpzaHZXM01BOFRKa0Q4M1VtblJjYzVRNDgwaEZ0RjBWaVdxRTJ4X3FHdzdhLVZYRUs5Y0pteU9DT1hjYVEtVTkweVdCTHdjaXBtNEdaaWxqZUdnYmNi?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T04:23:33.000Z",
+      "notifiedAt": "2026-08-04T07:06:12.946Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82cXQ4aUwzT2I1RGpzaHZXM01BOFRKa0Q4M1VtblJjYzVRNDgwaEZ0RjBWaVdxRTJ4X3FHdzdhLVZYRUs5Y0pteU9DT1hjYVEtVTkweVdCTHdjaXBtNEdaaWxqZUdnYmNi",
+      "articleTitleKey": "qaで解説 日米15年ぶりの為替協調介入 円安阻止で一致",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "65eb7eae0fa5b175f9e7e0f3",
+      "title": "円相場、１５７円７１～７２銭＝４日正午現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50Qm9vcjFveENxUTRzRDlkNzN1cWhEM3d1LVNXdXlpSFlRV2xOc0dUMmEzd1BUNUJhdTFrN001YzRTRWZWeGRIbXhNZjlNRmxyVGhBQQ?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T03:07:00.000Z",
+      "notifiedAt": "2026-08-04T07:06:12.946Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50Qm9vcjFveENxUTRzRDlkNzN1cWhEM3d1LVNXdXlpSFlRV2xOc0dUMmEzd1BUNUJhdTFrN001YzRTRWZWeGRIbXhNZjlNRmxyVGhBQQ",
+      "articleTitleKey": "円相場 157円71 72銭 4日正午現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "5ee545db5ceeb9384e63a046",
+      "title": "28年ぶり日米協調「円買い介入」 一時1ドル＝155円台に トランプ大統領「日本は助けを求めていた」米国にメリットも【news23】",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5GT1ItckgtZG9HZ1hicmNISmZoZ2VkNGszMUhmODI5NmpjTFdIdnNsVExHRnNaNFBManlXY2RXVmJORWV0aVNyUWdrTTlwcnN0SW5NZ3NaRQ?oc=5",
+      "source": "newsdig.tbs.co.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T16:25:00.000Z",
+      "notifiedAt": "2026-08-04T07:06:12.946Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5GT1ItckgtZG9HZ1hicmNISmZoZ2VkNGszMUhmODI5NmpjTFdIdnNsVExHRnNaNFBManlXY2RXVmJORWV0aVNyUWdrTTlwcnN0SW5NZ3NaRQ",
+      "articleTitleKey": "28年ぶり日米協調 円買い介入 一時1ドル 155円台に トランプ大統領 日本は助けを求めていた 米国にメリットも news23",
+      "articleSourceKey": "newsdig.tbs.co.jp"
     }
   ]
 }
