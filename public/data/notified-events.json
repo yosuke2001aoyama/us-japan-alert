@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T17:40:36.230Z",
+  "updatedAt": "2026-08-04T19:11:24.811Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3514,6 +3514,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nNkdIWDJxcC1JN2FoT2pCUi1UaTc4N2hoMGozUXhnOGtiaFFwX1d3dDVidnF0SzZHUVZQd2RUczNNUUhLOWVWMXhHVzFaamEtcGlZam9SQ082M3l6RFR4enFCTWxjdE93elpDSw",
       "articleTitleKey": "日米協調介入 片山財務相 効果についてお答えはできない",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "8579d1369bbeb83988b3b48f",
+      "title": "米財務長官 日銀に利上げ要求示唆 米紙「米国債売却回避も協調介入の背景」",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xMWpPRVh3SGlVUEhyVk93djUzMTc4RFBoRWZJOFk5NkVzRXprM1c1YmF2NFBWelZaeEJ1dTJSNXRPcktsOVdBdTV3bWNMRHVjdGFQY1AyZlZBcjBRZ0FsUUxFOTlxYkdXVm8xVmVDYXdQd1ZKR1lwc2N3?oc=5",
+      "source": "テレ朝NEWS",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T18:46:21.000Z",
+      "notifiedAt": "2026-08-04T19:11:24.811Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xMWpPRVh3SGlVUEhyVk93djUzMTc4RFBoRWZJOFk5NkVzRXprM1c1YmF2NFBWelZaeEJ1dTJSNXRPcktsOVdBdTV3bWNMRHVjdGFQY1AyZlZBcjBRZ0FsUUxFOTlxYkdXVm8xVmVDYXdQd1ZKR1lwc2N3",
+      "articleTitleKey": "米財務長官 日銀に利上げ要求示唆 米紙 米国債売却回避も協調介入の背景",
+      "articleSourceKey": "テレ朝news"
     }
   ]
 }
