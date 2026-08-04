@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T21:56:10.993Z",
+  "updatedAt": "2026-08-04T23:00:05.613Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3612,6 +3612,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vUFZudVFBZlJabVRiSkc3aUlhMFptZ2ZYTFZCRjZ5LWE1Y0pRdWowV21LeXM5dzRzM1FCM2FIeW1OVmxTVVRMVWotUDdNMHAzR2NwMWVBdkdTNV9ZODJucE5ndldjcjlnb0h6TQ",
       "articleTitleKey": "決算 マツダが最終損益296億円で黒字転換 4 6月 関税影響減と円安後押し",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "4482b41991542adfe5277f5a",
+      "title": "NY円相場、反落 1ドル=157円70〜80銭 持ち高調整の円売り",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SR1BxV21Ic2syRkxfOGxDeXFLNHFsaDU4WlczZktGM2hDMmdKRXRnYlJOa1JuWUxvSVVpaE82amwyVk5ZaE5MeXJkSnlmWUJTcWNJa1NCUHNkLS1jVTlBbWNUU1ZyS0FxcXlIOA?oc=5",
+      "source": "nikkei.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T21:50:17.000Z",
+      "notifiedAt": "2026-08-04T23:00:05.613Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SR1BxV21Ic2syRkxfOGxDeXFLNHFsaDU4WlczZktGM2hDMmdKRXRnYlJOa1JuWUxvSVVpaE82amwyVk5ZaE5MeXJkSnlmWUJTcWNJa1NCUHNkLS1jVTlBbWNUU1ZyS0FxcXlIOA",
+      "articleTitleKey": "ny円相場 反落 1ドル 157円70 80銭 持ち高調整の円売り",
+      "articleSourceKey": "nikkei.com"
+    },
+    {
+      "id": "86615f71d71d41729d1e3991",
+      "title": "ベッセント氏、協調介入｢アジア通貨へ波及を警戒｣ 単独インタビュー",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HQ3h3dkJFbmNUdTlsMzdDTGkzX01sejkyejVuR29lenlwdllNZTlZY3FBLV9GajJBYTExXzZ4UV9GTXh5eWhRWUtRVUg3YmJMNkdOVF9lSDduZXFsZV84VDItN1BuVlZSQ290eQ?oc=5",
+      "source": "nikkei.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T21:45:39.000Z",
+      "notifiedAt": "2026-08-04T23:00:05.613Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HQ3h3dkJFbmNUdTlsMzdDTGkzX01sejkyejVuR29lenlwdllNZTlZY3FBLV9GajJBYTExXzZ4UV9GTXh5eWhRWUtRVUg3YmJMNkdOVF9lSDduZXFsZV84VDItN1BuVlZSQ290eQ",
+      "articleTitleKey": "ベッセント氏 協調介入 アジア通貨へ波及を警戒 単独インタビュー",
+      "articleSourceKey": "nikkei.com"
+    },
+    {
+      "id": "8a2db3d7b26eee6b3ba259da",
+      "title": "３営業日連続の円買い介入か＝１兆円前後、誤差の可能性も―市場推計",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54LTFjR1VfQzFyRlRYTFFubGdRSlZLMTVTYURpRDNzeHFwZ21FTHZkeUtTMFdMMW40blc3LUZVU1dGcDRKQllmaUlFaVk2ME5SLW0yaw?oc=5",
+      "source": "sp.m.jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T10:46:00.000Z",
+      "notifiedAt": "2026-08-04T23:00:05.613Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54LTFjR1VfQzFyRlRYTFFubGdRSlZLMTVTYURpRDNzeHFwZ21FTHZkeUtTMFdMMW40blc3LUZVU1dGcDRKQllmaUlFaVk2ME5SLW0yaw",
+      "articleTitleKey": "3営業日連続の円買い介入か 1兆円前後 誤差の可能性も 市場推計",
+      "articleSourceKey": "sp.m.jiji.com"
     }
   ]
 }
