@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T20:43:01.843Z",
+  "updatedAt": "2026-08-04T21:56:10.993Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3584,6 +3584,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YQ1YwZUJYSURPTlpLM3VDQXFydkxqWnFnV3NXN1Jjem1CaDl4c1g1R2RhUFJJb0g1WC1qMXc2dkp5d1VjRWpOMUVGcF9QRHZibVlHS2todGNrRDZHRGRWaU9ZTVY",
       "articleTitleKey": "トランプ氏が課した新関税 どのような影響が出るのか 米国民や日本企業に負担も",
       "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "7a71ac70670065710431b9c8",
+      "title": "The framework for the U.S.-Japan alliance begins with the strong relationship between @POTUS @realDonaldTrump and Prime Minister @takaichi_sanae. We've been in close contact wit…",
+      "url": "https://x.com/SecScottBessent/status/2084668586941944283",
+      "source": "X · @SecScottBessent · Treasury Secretary Scott Bessent",
+      "category": "外交・安保",
+      "priority": 90,
+      "publishedAt": "2026-08-04T15:51:37.000Z",
+      "notifiedAt": "2026-08-04T21:56:10.993Z",
+      "baseline": false,
+      "articleUrlKey": "https://x.com/SecScottBessent/status/2084668586941944283",
+      "articleTitleKey": "the framework for the u s japan alliance begins with the strong relationship between potus realdonaldtrump and prime minister takaichi sanae we ve been in close contact wit",
+      "articleSourceKey": "x · @secscottbessent · treasury secretary scott bessent"
+    },
+    {
+      "id": "5794827d6481aedacde7cc3f",
+      "title": "決算:マツダが最終損益296億円で黒字転換 4〜6月、関税影響減と円安後押し",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vUFZudVFBZlJabVRiSkc3aUlhMFptZ2ZYTFZCRjZ5LWE1Y0pRdWowV21LeXM5dzRzM1FCM2FIeW1OVmxTVVRMVWotUDdNMHAzR2NwMWVBdkdTNV9ZODJucE5ndldjcjlnb0h6TQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-04T04:37:05.000Z",
+      "notifiedAt": "2026-08-04T21:56:10.993Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vUFZudVFBZlJabVRiSkc3aUlhMFptZ2ZYTFZCRjZ5LWE1Y0pRdWowV21LeXM5dzRzM1FCM2FIeW1OVmxTVVRMVWotUDdNMHAzR2NwMWVBdkdTNV9ZODJucE5ndldjcjlnb0h6TQ",
+      "articleTitleKey": "決算 マツダが最終損益296億円で黒字転換 4 6月 関税影響減と円安後押し",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
