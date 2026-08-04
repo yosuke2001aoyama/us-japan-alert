@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-03T23:37:11.771Z",
+  "updatedAt": "2026-08-04T01:04:04.672Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -2967,6 +2967,104 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zNjFFRUNLbWt4SXhvYk5xbUMyZUFNOXk3WW1wY2RjSzFQTjFRT1BPTUtDQzJNM0tLX01NYmZrcTQwdVFxa2ZiUHl3c3gzN1A5a1ZNTmt0SlNZTWVuS09nTzkzMG1uZExjVHZtYQ",
       "articleTitleKey": "ny円相場 続伸 1ドル 157円15 25銭 日米協調介入 ニューヨーク市場では伸び悩み",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "20ed545928ae8fb7a3947540",
+      "title": "円相場、１５７円５３～５５銭 ４日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TSUZxcWxwSjloSWwyZFpJTk9IRW9IYjA2NVVwcXZ1OEpBdllqWG9sbWh0LVNDaWtFdlFTazQyVDJaV05pRkZrOUFScDRrTmRjSHlkRXVpckNUMXlIdE5TQTNBNA?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T00:07:00.000Z",
+      "notifiedAt": "2026-08-04T01:04:04.672Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TSUZxcWxwSjloSWwyZFpJTk9IRW9IYjA2NVVwcXZ1OEpBdllqWG9sbWh0LVNDaWtFdlFTazQyVDJaV05pRkZrOUFScDRrTmRjSHlkRXVpckNUMXlIdE5TQTNBNA",
+      "articleTitleKey": "円相場 157円53 55銭 4日午前9時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "2bbbc9573b9cbb4e6e711643",
+      "title": "NY円、157円台前半 日米の協調為替介入で警戒感",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BOEpKV04wT2Y4S3JLN3JiandQYzVRa1hvMVJmaU8wSUxMXzBKVTFPeTFFUnVKUkJRV2RBSFlhbWdHWEx3MnRuT20xUzgydENWWmJhTXJqSFJxUjZKUzVXRGdrUUh5RUlX?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T00:06:37.000Z",
+      "notifiedAt": "2026-08-04T01:04:04.672Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BOEpKV04wT2Y4S3JLN3JiandQYzVRa1hvMVJmaU8wSUxMXzBKVTFPeTFFUnVKUkJRV2RBSFlhbWdHWEx3MnRuT20xUzgydENWWmJhTXJqSFJxUjZKUzVXRGdrUUh5RUlX",
+      "articleTitleKey": "ny円 157円台前半 日米の協調為替介入で警戒感",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "a375cd82994d42052b600651",
+      "title": "円買い介入は米ハイテク株安招くか 24年夏との違いは米雇用の強さ",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fZ1NfRjhsRWVlMmJoTk9DUVZvQVlsMjJwR0xTaTh2cmNVOUc5dnNrTEpHdnlnV01NbzhFeXFOYkMzOU1sWjQ2NXdlTUZ4V0g2Y1MtTlFNcVhrT2F6cndWV2FobHJ4RzdUVkhxZw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T21:09:13.000Z",
+      "notifiedAt": "2026-08-04T01:04:04.672Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fZ1NfRjhsRWVlMmJoTk9DUVZvQVlsMjJwR0xTaTh2cmNVOUc5dnNrTEpHdnlnV01NbzhFeXFOYkMzOU1sWjQ2NXdlTUZ4V0g2Y1MtTlFNcVhrT2F6cndWV2FobHJ4RzdUVkhxZw",
+      "articleTitleKey": "円買い介入は米ハイテク株安招くか 24年夏との違いは米雇用の強さ",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "a7c767553d91abc0ae5acd86",
+      "title": "(社説)日米協調介入 円安抑制は財政規律で",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wejdYTDJKdGZiZHB3MVEwUDRSTm5PaV9JbDN5ZjJieW1BNDZYd05OVmVUM0ZYM2R1NjFYejJsVGJOZUluOUZ6Umowa2FWTDR3NEtFTDAzXzJrTDV4Vy1V?oc=5",
+      "source": "朝日・日刊スポーツ",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T20:00:00.000Z",
+      "notifiedAt": "2026-08-04T01:04:04.672Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wejdYTDJKdGZiZHB3MVEwUDRSTm5PaV9JbDN5ZjJieW1BNDZYd05OVmVUM0ZYM2R1NjFYejJsVGJOZUluOUZ6Umowa2FWTDR3NEtFTDAzXzJrTDV4Vy1V",
+      "articleTitleKey": "社説 日米協調介入 円安抑制は財政規律で",
+      "articleSourceKey": "朝日・日刊スポーツ"
+    },
+    {
+      "id": "3621b390bc94ba0f8e690dbb",
+      "title": "日米当局、異例の連携＝日銀利上げへ圧力も―協調介入",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxTGJWUUFGZE9lRWxKSHRSdzB0QU03MDJyTU9TMHc4QzhnaGh4X214dmFzQkZDVy1FUzA2cG5sUGZqSG9KVTdxcU9faV9PNFFJS0Y4bw?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T10:57:00.000Z",
+      "notifiedAt": "2026-08-04T01:04:04.672Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxTGJWUUFGZE9lRWxKSHRSdzB0QU03MDJyTU9TMHc4QzhnaGh4X214dmFzQkZDVy1FUzA2cG5sUGZqSG9KVTdxcU9faV9PNFFJS0Y4bw",
+      "articleTitleKey": "日米当局 異例の連携 日銀利上げへ圧力も 協調介入",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "06692eca928529f243963f8f",
+      "title": "協調介入、過去には高い効果＝相場反転、持続性にばらつきも",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YRHRRcEhSZElNZUl4aUY1RFROZXNmWHRHb2RsOUlwaWdzQ25BOXZ3dk9BaXpBLWVmMTlZdVprVWdKdXFyQUNmT3l5WnNoaklRSU5sRg?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T09:20:00.000Z",
+      "notifiedAt": "2026-08-04T01:04:04.672Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YRHRRcEhSZElNZUl4aUY1RFROZXNmWHRHb2RsOUlwaWdzQ25BOXZ3dk9BaXpBLWVmMTlZdVprVWdKdXFyQUNmT3l5WnNoaklRSU5sRg",
+      "articleTitleKey": "協調介入 過去には高い効果 相場反転 持続性にばらつきも",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "0405363a427f8a035396afd3",
+      "title": "米鉄鋼2社の利益倍増 関税で海外製品締め出し、鋼材価格3割高",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xVkNFUFl1a09TYTUxdFlucXRjQndrd2t6SUVJWWZyN29aZk43Ty1tS0MwaUdsQzZTbDJXQ1ZkM0tJTG9mVkpIeWJwakxuNkJ0OWNSWUdiRFNIbkh6OWhpU1F6bE5uaEwtS2xVVw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-03T19:26:38.000Z",
+      "notifiedAt": "2026-08-04T01:04:04.672Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xVkNFUFl1a09TYTUxdFlucXRjQndrd2t6SUVJWWZyN29aZk43Ty1tS0MwaUdsQzZTbDJXQ1ZkM0tJTG9mVkpIeWJwakxuNkJ0OWNSWUdiRFNIbkh6OWhpU1F6bE5uaEwtS2xVVw",
+      "articleTitleKey": "米鉄鋼2社の利益倍増 関税で海外製品締め出し 鋼材価格3割高",
       "articleSourceKey": "日本経済新聞"
     }
   ]
