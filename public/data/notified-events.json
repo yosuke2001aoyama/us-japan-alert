@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T11:50:44.560Z",
+  "updatedAt": "2026-08-04T13:27:54.567Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3388,6 +3388,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQaUg5Z01HSWRGcHRyQ2hjOGlCRDI0MGJMeEFRX1N3OWhkZHh1U205U01wVG5LQV9fMFlxeGYtQ0lWdzVRbmhkSC1oNGUwakxzS0RGYkJRVmVBcnd0U0kw",
       "articleTitleKey": "東京株式 続落 ハイテク買い続かず 為替介入も警戒 4日前場 2026年08月04日 11時48分",
       "articleSourceKey": "時事エクイティ"
+    },
+    {
+      "id": "bc1cbcb93062e8d8cd725a1f",
+      "title": "３営業日連続の円買い介入か １兆円前後、誤差の可能性も―市場推計",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1feHNRSm9lN2kwV1JfN1RaRWl4VnJ6MlcwQ3dCeHE1X3I4Rzd0dVpEVGxyX004WlMydzdrUlN6VDJkajVqMmk3RjV1R09CZ011WFhySXhTT1ZDWmNrOWpJTTBsZw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T12:06:00.000Z",
+      "notifiedAt": "2026-08-04T13:27:54.567Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1feHNRSm9lN2kwV1JfN1RaRWl4VnJ6MlcwQ3dCeHE1X3I4Rzd0dVpEVGxyX004WlMydzdrUlN6VDJkajVqMmk3RjV1R09CZ011WFhySXhTT1ZDWmNrOWpJTTBsZw",
+      "articleTitleKey": "3営業日連続の円買い介入か 1兆円前後 誤差の可能性も 市場推計",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "2cb2651f971c491a1cadc6f2",
+      "title": "３営業日連続の円買い介入か＝１兆円前後、誤差の可能性も―市場推計",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SZ0NyNmxwdHBTM0IzenhKd1FJRk5hWmg5RXIzRGNSS2w2TEFkRDJpckxJT191cWliWFdzRzFjUDB1WmJEV0c3d09sVzlnSFNfWWJNa2ctaVppME5uZ2c?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T10:46:00.000Z",
+      "notifiedAt": "2026-08-04T13:27:54.567Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SZ0NyNmxwdHBTM0IzenhKd1FJRk5hWmg5RXIzRGNSS2w2TEFkRDJpckxJT191cWliWFdzRzFjUDB1WmJEV0c3d09sVzlnSFNfWWJNa2ctaVppME5uZ2c",
+      "articleTitleKey": "3営業日連続の円買い介入か 1兆円前後 誤差の可能性も 市場推計",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "d2dd6ec2dfcfacf706e83f85",
+      "title": "円相場、１５７円８１～８１銭＝４日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBxU1FzSW4tR1luVnNpYm1nZmJYVFZXdVFaelRuX3E2SUpPTGkxX0U3aGlSODdWdW9PWDFvQW5Qd1BlbnE4Rld0bG5DM0tOSnZzNlVaTQ?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T08:21:00.000Z",
+      "notifiedAt": "2026-08-04T13:27:54.567Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBxU1FzSW4tR1luVnNpYm1nZmJYVFZXdVFaelRuX3E2SUpPTGkxX0U3aGlSODdWdW9PWDFvQW5Qd1BlbnE4Rld0bG5DM0tOSnZzNlVaTQ",
+      "articleTitleKey": "円相場 157円81 81銭 4日午後5時現在",
+      "articleSourceKey": "時事通信ニュース"
     }
   ]
 }
