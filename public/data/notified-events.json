@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T19:11:24.811Z",
+  "updatedAt": "2026-08-04T20:43:01.843Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3528,6 +3528,62 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xMWpPRVh3SGlVUEhyVk93djUzMTc4RFBoRWZJOFk5NkVzRXprM1c1YmF2NFBWelZaeEJ1dTJSNXRPcktsOVdBdTV3bWNMRHVjdGFQY1AyZlZBcjBRZ0FsUUxFOTlxYkdXVm8xVmVDYXdQd1ZKR1lwc2N3",
       "articleTitleKey": "米財務長官 日銀に利上げ要求示唆 米紙 米国債売却回避も協調介入の背景",
       "articleSourceKey": "テレ朝news"
+    },
+    {
+      "id": "449815210fee445bb027c526",
+      "title": "円の安定「地域全体に重要」 米財務長官、協調介入めぐり",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwWVFMSDQ0TEZIbmFROU1kQmgxVHZJcDJsaERtUXVtaUp2eDNfODg1RlhyRVowYWN2UW83d2FWRG4xRkZ5ZHk5aUZfT3R3eG03Z2pvTlAwZ1phTVlQ?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "notifiedAt": "2026-08-04T20:43:01.843Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwWVFMSDQ0TEZIbmFROU1kQmgxVHZJcDJsaERtUXVtaUp2eDNfODg1RlhyRVowYWN2UW83d2FWRG4xRkZ5ZHk5aUZfT3R3eG03Z2pvTlAwZ1phTVlQ",
+      "articleTitleKey": "円の安定 地域全体に重要 米財務長官 協調介入めぐり",
+      "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "c76d51f95bce0f1f70af2872",
+      "title": "円相場、26年末に1ドル=164円 JPモルガン斉藤郁恵氏",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NT2JaQ0xIX3owa1JBTk83SWtaNnM2eE9FLW9xZC1YSEZreF8waDNDc0tlVXkya0lSMElNR3c3a3B2eTdldDVHYW14RjNKRUtEM1FjM05JTWh1R3NPVVJ0a1NESERxMzRseFJTLQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T19:00:00.000Z",
+      "notifiedAt": "2026-08-04T20:43:01.843Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NT2JaQ0xIX3owa1JBTk83SWtaNnM2eE9FLW9xZC1YSEZreF8waDNDc0tlVXkya0lSMElNR3c3a3B2eTdldDVHYW14RjNKRUtEM1FjM05JTWh1R3NPVVJ0a1NESERxMzRseFJTLQ",
+      "articleTitleKey": "円相場 26年末に1ドル 164円 jpモルガン斉藤郁恵氏",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "5ae74568bb1c866de2c6659e",
+      "title": "＜QAで解説＞日米15年ぶりの為替協調介入 円安阻止で一致",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LaXFBUFBJOW1DRmhsU1R1Sk9RV19maDZ1RmVicnlHb3FuVmJ3ZTZQLVdiYnFYbUZZQUNEQkl1amkzc05PRFR3VXU1UHlLZ0paTlBFYWdzNW1xbERSRjhZeUQ4MDFRU2c?oc=5",
+      "source": "mainichi.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T04:23:33.000Z",
+      "notifiedAt": "2026-08-04T20:43:01.843Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LaXFBUFBJOW1DRmhsU1R1Sk9RV19maDZ1RmVicnlHb3FuVmJ3ZTZQLVdiYnFYbUZZQUNEQkl1amkzc05PRFR3VXU1UHlLZ0paTlBFYWdzNW1xbERSRjhZeUQ4MDFRU2c",
+      "articleTitleKey": "qaで解説 日米15年ぶりの為替協調介入 円安阻止で一致",
+      "articleSourceKey": "mainichi.jp"
+    },
+    {
+      "id": "c62a8d67c87299239fa14fa5",
+      "title": "トランプ氏が課した新関税、どのような影響が出るのか…米国民や日本企業に負担も",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YQ1YwZUJYSURPTlpLM3VDQXFydkxqWnFnV3NXN1Jjem1CaDl4c1g1R2RhUFJJb0g1WC1qMXc2dkp5d1VjRWpOMUVGcF9QRHZibVlHS2todGNrRDZHRGRWaU9ZTVY?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "notifiedAt": "2026-08-04T20:43:01.843Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YQ1YwZUJYSURPTlpLM3VDQXFydkxqWnFnV3NXN1Jjem1CaDl4c1g1R2RhUFJJb0g1WC1qMXc2dkp5d1VjRWpOMUVGcF9QRHZibVlHS2todGNrRDZHRGRWaU9ZTVY",
+      "articleTitleKey": "トランプ氏が課した新関税 どのような影響が出るのか 米国民や日本企業に負担も",
+      "articleSourceKey": "読売新聞"
     }
   ]
 }
