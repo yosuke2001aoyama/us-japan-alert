@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T01:04:04.672Z",
+  "updatedAt": "2026-08-04T04:22:57.451Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3066,6 +3066,118 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xVkNFUFl1a09TYTUxdFlucXRjQndrd2t6SUVJWWZyN29aZk43Ty1tS0MwaUdsQzZTbDJXQ1ZkM0tJTG9mVkpIeWJwakxuNkJ0OWNSWUdiRFNIbkh6OWhpU1F6bE5uaEwtS2xVVw",
       "articleTitleKey": "米鉄鋼2社の利益倍増 関税で海外製品締め出し 鋼材価格3割高",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "17d57946343d1cf3155ddc53",
+      "title": "円相場、１５７円７１～７２銭 ４日正午現在：時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEaE1URy03ODNOZ1VSckFRS0xlRVlWX3pYaHZHaEFCNnRLOVh1a2NqdFR1NTU2MW1JUU9KYkRkaHA3UXdOTjFWVmotWTUzU0hYcnhaZlFMZ0JVbnZ5RnJvSzdnQQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T03:07:00.000Z",
+      "notifiedAt": "2026-08-04T04:22:57.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEaE1URy03ODNOZ1VSckFRS0xlRVlWX3pYaHZHaEFCNnRLOVh1a2NqdFR1NTU2MW1JUU9KYkRkaHA3UXdOTjFWVmotWTUzU0hYcnhaZlFMZ0JVbnZ5RnJvSzdnQQ",
+      "articleTitleKey": "円相場 157円71 72銭 4日正午現在 時事ドットコム",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "13bb79921eb90987e5da0512",
+      "title": "日経平均、午前の終値は４２１円安の６万３３３３円…為替介入への警戒感が相場の重しに",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52X3ZfaEViR2doY0lhQUthbmVaTER5LUxQNFNWQTdjUHFTenIzM1ZhbUk0OElva21oa0VJTUFzckZENFFfck5aRWlENzRPLS1iYUZ1QkNIREJTV1N1RWRCWms1dFY?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T02:43:00.000Z",
+      "notifiedAt": "2026-08-04T04:22:57.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52X3ZfaEViR2doY0lhQUthbmVaTER5LUxQNFNWQTdjUHFTenIzM1ZhbUk0OElva21oa0VJTUFzckZENFFfck5aRWlENzRPLS1iYUZ1QkNIREJTV1N1RWRCWms1dFY",
+      "articleTitleKey": "日経平均 午前の終値は421円安の6万3333円 為替介入への警戒感が相場の重しに",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "cd481170818751e3898b7167",
+      "title": "韓国も為替介入観測、日本に相乗り？ ウォン安是正にSK米上場が追い風",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EaThOVlZRbWRDTnNzOXlJYUtjWTVnWll6OGVMbUJ6VlR5OUpnYnR1S3FrWUE0OXdrZGpCeWJwcE5pNTVrYmpVV3lOU3RiQmR5Mm40b1ZkT1Yzd2Q4eUI4em9vUlRpY0NhZ2JsSg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T02:00:00.000Z",
+      "notifiedAt": "2026-08-04T04:22:57.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EaThOVlZRbWRDTnNzOXlJYUtjWTVnWll6OGVMbUJ6VlR5OUpnYnR1S3FrWUE0OXdrZGpCeWJwcE5pNTVrYmpVV3lOU3RiQmR5Mm40b1ZkT1Yzd2Q4eUI4em9vUlRpY0NhZ2JsSg",
+      "articleTitleKey": "韓国も為替介入観測 日本に相乗り ウォン安是正にsk米上場が追い風",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "51b50e7cd2b00c6a78153b5e",
+      "title": "協調介入「友情の証し」 トランプ大統領が説明 片山大臣「今後もちゅうちょしない」",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CQjBBZ3M1dEVjdm4wRUMybjZEQU1haHdrTE9oc0lETEZkZHJxY3FTbTNGY3dram4zcXRWV1M4MVdJanBJeXRuWjNvUXdpN1RPSVZDR1FkcHVsQkgxTGEwSmRWWF9YS0hxenJwS1Zsa0s0dw?oc=5",
+      "source": "テレ朝NEWS",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T01:41:00.000Z",
+      "notifiedAt": "2026-08-04T04:22:57.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CQjBBZ3M1dEVjdm4wRUMybjZEQU1haHdrTE9oc0lETEZkZHJxY3FTbTNGY3dram4zcXRWV1M4MVdJanBJeXRuWjNvUXdpN1RPSVZDR1FkcHVsQkgxTGEwSmRWWF9YS0hxenJwS1Zsa0s0dw",
+      "articleTitleKey": "協調介入 友情の証し トランプ大統領が説明 片山大臣 今後もちゅうちょしない",
+      "articleSourceKey": "テレ朝news"
+    },
+    {
+      "id": "ac8b5a64e48ddf2cf79055dc",
+      "title": "外為10時 円相場、下げ幅拡大 157円台半ば 実需のドル買い観測",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tYk93eFdwT0pCMjMxNWR6aU1kZXFzanF4Rno2dmlrYnNzVUxFUlZhNWxZakNON3BKVEw3NnI1eDZQcDRFVTBmZmJIcjducm81TmpmNEdmaHBNLWl5TmVxcGhESW15d2xkSUNDXw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T01:24:13.000Z",
+      "notifiedAt": "2026-08-04T04:22:57.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tYk93eFdwT0pCMjMxNWR6aU1kZXFzanF4Rno2dmlrYnNzVUxFUlZhNWxZakNON3BKVEw3NnI1eDZQcDRFVTBmZmJIcjducm81TmpmNEdmaHBNLWl5TmVxcGhESW15d2xkSUNDXw",
+      "articleTitleKey": "外為10時 円相場 下げ幅拡大 157円台半ば 実需のドル買い観測",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "f624d4a98c30a867612533f5",
+      "title": "円相場、１５７円５３～５５銭＝４日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qM3FMNVN6NFA2YWJ2MkdpdVMzY082TTR6eXZwOWZFM0FUODBsUGg0bnZIWWRRT280dFlmaHBFRUgwZkg1d0hFR0g2WWJKRGtPQ05YZg?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T00:07:00.000Z",
+      "notifiedAt": "2026-08-04T04:22:57.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qM3FMNVN6NFA2YWJ2MkdpdVMzY082TTR6eXZwOWZFM0FUODBsUGg0bnZIWWRRT280dFlmaHBFRUgwZkg1d0hFR0g2WWJKRGtPQ05YZg",
+      "articleTitleKey": "円相場 157円53 55銭 4日午前9時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "88bfe2d671cb7138248ebc55",
+      "title": "外為8時30分 円相場、下落し157円台前半 対ユーロでも下落",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HY1JweXN1ZjVwTzIxSDJsY3NOblZaOHczRDk0dW1iejZnY3gxQ2ZZN1gzbTE2SzdQaFF4dERyQXBjaUhfLUJOQUxQenlOWWJreXlySFdBN1N3bTdWMWhhVXZlOFMyS0hOX0w5Qw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T23:53:56.000Z",
+      "notifiedAt": "2026-08-04T04:22:57.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HY1JweXN1ZjVwTzIxSDJsY3NOblZaOHczRDk0dW1iejZnY3gxQ2ZZN1gzbTE2SzdQaFF4dERyQXBjaUhfLUJOQUxQenlOWWJreXlySFdBN1N3bTdWMWhhVXZlOFMyS0hOX0w5Qw",
+      "articleTitleKey": "外為8時30分 円相場 下落し157円台前半 対ユーロでも下落",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "c3e0d0b699326c604cd5f232",
+      "title": "［ニュースＱ＋］協調介入とは？ 市場影響大「有事」に実施",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EeTZwWF96cWd5b0hTSGJkSUxxSkpON3RxN3dPaXlnZzA5SExuRU45ZFBCbWFNc3dTVkZWTmRPVXRSUUNNS1VicFU1YWFrR3FwYVZJUlNUS3ZEMlNoN00tVWRoWW8?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-03T20:00:00.000Z",
+      "notifiedAt": "2026-08-04T04:22:57.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EeTZwWF96cWd5b0hTSGJkSUxxSkpON3RxN3dPaXlnZzA5SExuRU45ZFBCbWFNc3dTVkZWTmRPVXRSUUNNS1VicFU1YWFrR3FwYVZJUlNUS3ZEMlNoN00tVWRoWW8",
+      "articleTitleKey": "ニュースq 協調介入とは 市場影響大 有事 に実施",
+      "articleSourceKey": "読売新聞"
     }
   ]
 }
