@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-04T13:27:54.567Z",
+  "updatedAt": "2026-08-04T15:55:33.790Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3430,6 +3430,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBxU1FzSW4tR1luVnNpYm1nZmJYVFZXdVFaelRuX3E2SUpPTGkxX0U3aGlSODdWdW9PWDFvQW5Qd1BlbnE4Rld0bG5DM0tOSnZzNlVaTQ",
       "articleTitleKey": "円相場 157円81 81銭 4日午後5時現在",
       "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "c8c4623a6b0a20ec705bd63f",
+      "title": "ベッセント氏、日銀総裁の名前挙げ「必要なこと実行すると信じている」…協調介入「単なる介入以上」と強調",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TS25qNHR6c3g2cmdLeHVzZUtkT1RsS2NwVDl2d0Z2UE1ubHFoNkVnaWdwNVgzbld4VDhCX2Y5U1A1dEFlR3NqMzFvUkZ2WF9sRFpQamd3QjlURzFKSlN6V243Q24?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T14:26:00.000Z",
+      "notifiedAt": "2026-08-04T15:55:33.790Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TS25qNHR6c3g2cmdLeHVzZUtkT1RsS2NwVDl2d0Z2UE1ubHFoNkVnaWdwNVgzbld4VDhCX2Y5U1A1dEFlR3NqMzFvUkZ2WF9sRFpQamd3QjlURzFKSlN6V243Q24",
+      "articleTitleKey": "ベッセント氏 日銀総裁の名前挙げ 必要なこと実行すると信じている 協調介入 単なる介入以上 と強調",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "f3cafde348bb4df42dfc0148",
+      "title": "ベッセント米財務長官「円の安定が地域全体に重要」 協調介入めぐり",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ma3hoTFJKU1JPMXQwRE1NaUx4R2dYTnFCc1ZtS29qRFFUNVBqaEZJQld2Qkgtb2pFMkplcFZZQUxfWXZMSnVNYS1RZUd1NHZKWk5WdzV0VnpNTEx2OGlYMko5OHJ5eGs?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T14:21:40.000Z",
+      "notifiedAt": "2026-08-04T15:55:33.790Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ma3hoTFJKU1JPMXQwRE1NaUx4R2dYTnFCc1ZtS29qRFFUNVBqaEZJQld2Qkgtb2pFMkplcFZZQUxfWXZMSnVNYS1RZUd1NHZKWk5WdzV0VnpNTEx2OGlYMko5OHJ5eGs",
+      "articleTitleKey": "ベッセント米財務長官 円の安定が地域全体に重要 協調介入めぐり",
+      "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "0daa162a86ba088f5721705b",
+      "title": "「協調介入」効果いつまで続く？ 専門家「日銀の利上げが市場の思惑通り進捗するかしないか」 28年ぶりの日米“最後の切り札”",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51SGs0YTZiaEF5VFJMTUFhYjZGLWI4TUZtSDVnMEdVbzJZLVF4YmVQN081emFMZHJxWVJhdlpHemxjV2xuSkkwaVBmTk94Q1p1bjdESm9PTGJISTVJakhMMzhLalM0QXUwOVZpRFQtQ2RnZGlq?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T09:40:53.000Z",
+      "notifiedAt": "2026-08-04T15:55:33.790Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51SGs0YTZiaEF5VFJMTUFhYjZGLWI4TUZtSDVnMEdVbzJZLVF4YmVQN081emFMZHJxWVJhdlpHemxjV2xuSkkwaVBmTk94Q1p1bjdESm9PTGJISTVJakhMMzhLalM0QXUwOVZpRFQtQ2RnZGlq",
+      "articleTitleKey": "協調介入 効果いつまで続く 専門家 日銀の利上げが市場の思惑通り進捗するかしないか 28年ぶりの日米 最後の切り札",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
