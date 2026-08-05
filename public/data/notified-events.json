@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T19:59:14.991Z",
+  "updatedAt": "2026-08-05T21:17:06.152Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3906,6 +3906,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnVjBrSEpSWGw3czNuWDc3alBnUzBVSklSeGtyc1hpbktVaHMtMHJ0RXgtMHlyY0JPT3NKNzF6aUJjOTI5WWwtTmlzNUtIT1pGd281dWNWaWlpV1RFT3A5VU5zTjVYTlZNT0R4Sw",
       "articleTitleKey": "米財務長官 通貨安 アジア波及を警戒 円買い協調介入巡り",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "1fb4d6b934a5bd3f806782c0",
+      "title": "東京円、157円台後半 ホルムズ海峡協議の進展で円買い",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zcUF4aWVqSlZUVDhpazFKSkV4OWZua0xTWFBvdHN0My1FeEVPVzFqUEhRM0Z0VDlpQnNWUVh2M29sY2Rrb1pfOFMwektDWkNlMko1R0hFcEJSLVdZeGdENS00aEw4NEYx?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T09:50:51.000Z",
+      "notifiedAt": "2026-08-05T21:17:06.152Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zcUF4aWVqSlZUVDhpazFKSkV4OWZua0xTWFBvdHN0My1FeEVPVzFqUEhRM0Z0VDlpQnNWUVh2M29sY2Rrb1pfOFMwektDWkNlMko1R0hFcEJSLVdZeGdENS00aEw4NEYx",
+      "articleTitleKey": "東京円 157円台後半 ホルムズ海峡協議の進展で円買い",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "b83bd03d0616d9a2f9fb5b26",
+      "title": "東京円、157円台後半 過度なインフレ進行の懸念和らぎ円買い",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtZEdvZUdMeDViN2h3b2F2ZkJrNEZFNXdmSVdEaTZaR1I0M1daVUlGRW9jSGJMYjBrREI1TGNTcWVvMkhaRFRiYVBmckZRWFA3VDJPVmg2RUMxc2xCM3BXbEM1UEpXeFY0?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T01:36:37.000Z",
+      "notifiedAt": "2026-08-05T21:17:06.152Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtZEdvZUdMeDViN2h3b2F2ZkJrNEZFNXdmSVdEaTZaR1I0M1daVUlGRW9jSGJMYjBrREI1TGNTcWVvMkhaRFRiYVBmckZRWFA3VDJPVmg2RUMxc2xCM3BXbEM1UEpXeFY0",
+      "articleTitleKey": "東京円 157円台後半 過度なインフレ進行の懸念和らぎ円買い",
+      "articleSourceKey": "毎日新聞"
     }
   ]
 }
