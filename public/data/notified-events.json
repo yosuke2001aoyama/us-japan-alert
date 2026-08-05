@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T03:30:34.893Z",
+  "updatedAt": "2026-08-05T06:09:00.746Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3738,6 +3738,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwQlFkM3V6YmdlUmdTdEYwTjlHRDVwV3lTNGR2UzhoZWNTYzBrQ3llU3kwM2tNbHUwRjdHY2tRSDhIemJxcDNJRnVpY2ZNejJRdzAtWHNraGVwLW05d25CSXJyQlN1dV9vdlZNYw",
       "articleTitleKey": "協調介入が告げるドル高修正",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "368cc9df5cb2367c40bef5b5",
+      "title": "ベッセント氏の円買い介入、米国は「通貨アクティビズム」時代へ",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jYUQyY3drVjVHamJIeUk2QVRKTkJHM1F5ek1SaEt5d3YwXzJJZWx4aUIwWmpYTllEcTJUXzBoczlOYWwxZkF3WVh3YkpNNUtxaU1CQUwySVhWZW5wbmJNT3BJc3RwTTRqRWJGdjlFZWMydkJrWGJn?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T03:43:06.000Z",
+      "notifiedAt": "2026-08-05T06:09:00.746Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jYUQyY3drVjVHamJIeUk2QVRKTkJHM1F5ek1SaEt5d3YwXzJJZWx4aUIwWmpYTllEcTJUXzBoczlOYWwxZkF3WVh3YkpNNUtxaU1CQUwySVhWZW5wbmJNT3BJc3RwTTRqRWJGdjlFZWMydkJrWGJn",
+      "articleTitleKey": "ベッセント氏の円買い介入 米国は 通貨アクティビズム 時代へ",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "40e61bf24000f4c5a0ee35ab",
+      "title": "米財務長官、協調介入巡り「相場の流れを変えるのは政策だ」…日銀には「必要なことを行うと信じている」",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTUXMtdU1sZzhnLW5FZzNLY0JVYXhmaHhjTmtFdVRiVGZ5dUlfRUQ5OEQ1VG5mYjhmSXBCTGZ0ZUphcnB4TUkxZGltZHc5VjFHTXRGemducjNVRmpsa3djZjBURzI?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T03:36:00.000Z",
+      "notifiedAt": "2026-08-05T06:09:00.746Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTUXMtdU1sZzhnLW5FZzNLY0JVYXhmaHhjTmtFdVRiVGZ5dUlfRUQ5OEQ1VG5mYjhmSXBCTGZ0ZUphcnB4TUkxZGltZHc5VjFHTXRGemducjNVRmpsa3djZjBURzI",
+      "articleTitleKey": "米財務長官 協調介入巡り 相場の流れを変えるのは政策だ 日銀には 必要なことを行うと信じている",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "907a34a1daf455569a045bdd",
+      "title": "円相場、１５７円４５～４６銭＝５日正午現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03U3hmZW4yUEJ6dzZ3MFJfNzBOM0I0MkpadlYtZ2QzYjczY2hUaUJkeFRkbnZGNXhScjkxV3lueXNJZjMxa3FiR29LdHYzWldWa3RkTQ?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T03:10:00.000Z",
+      "notifiedAt": "2026-08-05T06:09:00.746Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03U3hmZW4yUEJ6dzZ3MFJfNzBOM0I0MkpadlYtZ2QzYjczY2hUaUJkeFRkbnZGNXhScjkxV3lueXNJZjMxa3FiR29LdHYzWldWa3RkTQ",
+      "articleTitleKey": "円相場 157円45 46銭 5日正午現在",
+      "articleSourceKey": "時事通信ニュース"
     }
   ]
 }
