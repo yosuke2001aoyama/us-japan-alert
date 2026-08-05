@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T18:19:14.512Z",
+  "updatedAt": "2026-08-05T19:59:14.991Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3878,6 +3878,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOeVJNQmdDM0JqV1JsSzFtLUtsZGhhQ3B3SXZsOG5zb0pEYWY0Qkc5RVFSQ25aOGM5NWdScVZfSnIydHdaSWdZbHpBNjBBd2dra3JvYQ",
       "articleTitleKey": "円相場 157円71 72銭 5日午後5時現在",
       "articleSourceKey": "sp.m.jiji.com"
+    },
+    {
+      "id": "05b7bdd19825563c89bfe5f2",
+      "title": "ドル売り為替介入で得た円、財源になる？ 減税5兆円分確保は難しく",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5COTNjWHp2QWJpV3E4MXoydVV1NFBvYVBzQlFfSVE2MHlhckczdXhLN2hKdU1oaF9JV1FCdmJlNjctNkdWWFNNd29EZkdLcVZIWUVhTWxnbllMdFczWjBuc3Y1SUVxcFBsYnNhZw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T17:00:00.000Z",
+      "notifiedAt": "2026-08-05T19:59:14.991Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5COTNjWHp2QWJpV3E4MXoydVV1NFBvYVBzQlFfSVE2MHlhckczdXhLN2hKdU1oaF9JV1FCdmJlNjctNkdWWFNNd29EZkdLcVZIWUVhTWxnbllMdFczWjBuc3Y1SUVxcFBsYnNhZw",
+      "articleTitleKey": "ドル売り為替介入で得た円 財源になる 減税5兆円分確保は難しく",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "7f0b9ec2e08161898b3921cb",
+      "title": "米財務長官「通貨安、アジア波及を警戒」 円買い協調介入巡り",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnVjBrSEpSWGw3czNuWDc3alBnUzBVSklSeGtyc1hpbktVaHMtMHJ0RXgtMHlyY0JPT3NKNzF6aUJjOTI5WWwtTmlzNUtIT1pGd281dWNWaWlpV1RFT3A5VU5zTjVYTlZNT0R4Sw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T17:00:00.000Z",
+      "notifiedAt": "2026-08-05T19:59:14.991Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnVjBrSEpSWGw3czNuWDc3alBnUzBVSklSeGtyc1hpbktVaHMtMHJ0RXgtMHlyY0JPT3NKNzF6aUJjOTI5WWwtTmlzNUtIT1pGd281dWNWaWlpV1RFT3A5VU5zTjVYTlZNT0R4Sw",
+      "articleTitleKey": "米財務長官 通貨安 アジア波及を警戒 円買い協調介入巡り",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
