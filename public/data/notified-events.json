@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T06:09:00.746Z",
+  "updatedAt": "2026-08-05T08:49:57.761Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3780,6 +3780,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03U3hmZW4yUEJ6dzZ3MFJfNzBOM0I0MkpadlYtZ2QzYjczY2hUaUJkeFRkbnZGNXhScjkxV3lueXNJZjMxa3FiR29LdHYzWldWa3RkTQ",
       "articleTitleKey": "円相場 157円45 46銭 5日正午現在",
       "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "3d306b9e410d465f2712e3c8",
+      "title": "円相場、１５７円７１～７２銭 ５日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fN1FUa3ExUHNWNlU0eGxsWGUyZnJFcGtHNDBYREdJb0JVZE0xNGpoSHMxY21zbVVsVUdTTHRac0UwUE1kUjk2bXhDZGR2Uk15TXFGd1dybzdNQnNYLS1HX2ZyTQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T08:11:00.000Z",
+      "notifiedAt": "2026-08-05T08:49:57.761Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fN1FUa3ExUHNWNlU0eGxsWGUyZnJFcGtHNDBYREdJb0JVZE0xNGpoSHMxY21zbVVsVUdTTHRac0UwUE1kUjk2bXhDZGR2Uk15TXFGd1dybzdNQnNYLS1HX2ZyTQ",
+      "articleTitleKey": "円相場 157円71 72銭 5日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "f847265d02be26e048220a9f",
+      "title": "円相場、200日線でせめぎ合い 介入効果にらむ",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qa2lkc1F4azVQc002dkExWm91UUNJbGI0cW9uU1o5bGt6OEZ2SWY1TjBKQVJFTG92MzhZYmVRUlFVaUJpalRzQlI1LXloZ0xlNzJmN3VBSmtPOU9yY2NsX190OTc1OTNpMGpyMQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T03:50:13.000Z",
+      "notifiedAt": "2026-08-05T08:49:57.761Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qa2lkc1F4azVQc002dkExWm91UUNJbGI0cW9uU1o5bGt6OEZ2SWY1TjBKQVJFTG92MzhZYmVRUlFVaUJpalRzQlI1LXloZ0xlNzJmN3VBSmtPOU9yY2NsX190OTc1OTNpMGpyMQ",
+      "articleTitleKey": "円相場 200日線でせめぎ合い 介入効果にらむ",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "e5eee13718c026bf6fb8e06b",
+      "title": "為替介入12兆円規模か 円安構造、変化の兆し",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56QXRZMEhPdWh3SjFoVjNDeDBNVmhYcnJuWlhDWXljZzN4M3phQVpLc29CeTBmdkFnSkt0QkN1dGRjcy1GTVBtTXlkb29yeThkTDZUc2hLOVMyOWJGR3p4c0JNZXY2NHJzeGw5eg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T17:00:00.000Z",
+      "notifiedAt": "2026-08-05T08:49:57.761Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56QXRZMEhPdWh3SjFoVjNDeDBNVmhYcnJuWlhDWXljZzN4M3phQVpLc29CeTBmdkFnSkt0QkN1dGRjcy1GTVBtTXlkb29yeThkTDZUc2hLOVMyOWJGR3p4c0JNZXY2NHJzeGw5eg",
+      "articleTitleKey": "為替介入12兆円規模か 円安構造 変化の兆し",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
