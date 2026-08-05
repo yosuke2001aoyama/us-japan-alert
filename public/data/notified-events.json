@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T00:10:35.628Z",
+  "updatedAt": "2026-08-05T03:30:34.893Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3654,6 +3654,90 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54LTFjR1VfQzFyRlRYTFFubGdRSlZLMTVTYURpRDNzeHFwZ21FTHZkeUtTMFdMMW40blc3LUZVU1dGcDRKQllmaUlFaVk2ME5SLW0yaw",
       "articleTitleKey": "3営業日連続の円買い介入か 1兆円前後 誤差の可能性も 市場推計",
       "articleSourceKey": "sp.m.jiji.com"
+    },
+    {
+      "id": "9b839172f8bf8498fd50538b",
+      "title": "円相場、１５７円４５～４６銭 ５日正午現在：時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zS1duVk1zdUN3MkFkVkVZbjhsUEZ0UW9kOXhtMFBPNjJEbEgtb3BvU3RfTGVUOTAyVXhHaEllSExRVVNFT3M0UG1TdUJqdTNtUmlCUW41SlBtc3NsN2cyM2hHUQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T03:10:00.000Z",
+      "notifiedAt": "2026-08-05T03:30:34.893Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zS1duVk1zdUN3MkFkVkVZbjhsUEZ0UW9kOXhtMFBPNjJEbEgtb3BvU3RfTGVUOTAyVXhHaEllSExRVVNFT3M0UG1TdUJqdTNtUmlCUW41SlBtc3NsN2cyM2hHUQ",
+      "articleTitleKey": "円相場 157円45 46銭 5日正午現在 時事ドットコム",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "45010bee82587a9b6f15ad0e",
+      "title": "トランプ米政権、日本の消費減税に異論 協調介入でみえた本音",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3clRFS1Vlb1ZMS3hzTnJXdlVocGllakhzckwwaC0wN0RvdE4wb2U4cHBUZVJmQ1lLMXNSUjI2NlNhQUZwM1BIZmp3SWlRbTVpQ2Z4eExQVGQwQ09RS1Fucm9SOUNsYmFfSE14Nw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T02:30:00.000Z",
+      "notifiedAt": "2026-08-05T03:30:34.893Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3clRFS1Vlb1ZMS3hzTnJXdlVocGllakhzckwwaC0wN0RvdE4wb2U4cHBUZVJmQ1lLMXNSUjI2NlNhQUZwM1BIZmp3SWlRbTVpQ2Z4eExQVGQwQ09RS1Fucm9SOUNsYmFfSE14Nw",
+      "articleTitleKey": "トランプ米政権 日本の消費減税に異論 協調介入でみえた本音",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "dde2b06cd218f7ace3091098",
+      "title": "円相場、１５７円６９～７０銭＝５日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsWkRfaFZyMUt0OUx5SU1FcGtoZ3F1X1VYeU4zV1pYUU9wRmJVSUpWRE5mekdjRERqZFlVc01LcmxaOUZjV1JadkdrNE9mSENlWWJucA?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T00:12:00.000Z",
+      "notifiedAt": "2026-08-05T03:30:34.893Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsWkRfaFZyMUt0OUx5SU1FcGtoZ3F1X1VYeU4zV1pYUU9wRmJVSUpWRE5mekdjRERqZFlVc01LcmxaOUZjV1JadkdrNE9mSENlWWJucA",
+      "articleTitleKey": "円相場 157円69 70銭 5日午前9時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "b9891763c95081dce9c88b04",
+      "title": "円相場、１５７円６９～７０銭 ５日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jTjBRMlprblBLaF9sTzYydFNuVG50VmhoU0p3NTVvdFhjaFFxLWlyQzh4X1BKUGVwLXV1QUljTVJoM0M5X2pUOWxCRkNKY1BZYzhfZTBNTU5KaTY2WUE3dGVaWQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T00:12:00.000Z",
+      "notifiedAt": "2026-08-05T03:30:34.893Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jTjBRMlprblBLaF9sTzYydFNuVG50VmhoU0p3NTVvdFhjaFFxLWlyQzh4X1BKUGVwLXV1QUljTVJoM0M5X2pUOWxCRkNKY1BZYzhfZTBNTU5KaTY2WUE3dGVaWQ",
+      "articleTitleKey": "円相場 157円69 70銭 5日午前9時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "54382fb6a8f525b709af47c5",
+      "title": "NY円157円台で膠着 市場で円買い警戒、介入制限ルール巡り心理戦",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NQThjN2dITmthcnFCU2dCZ2dEdFRkbzlsN0owVXJQZ3VZTlQ2Tl9rZy1RWWlDQXBXRTBuSWZpaENnZnpRTGRqeXE3M1k0U0dJaUdrUmFSTldhY0hnZU05aXVmR21iS00yd1pEaQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T21:27:06.000Z",
+      "notifiedAt": "2026-08-05T03:30:34.893Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NQThjN2dITmthcnFCU2dCZ2dEdFRkbzlsN0owVXJQZ3VZTlQ2Tl9rZy1RWWlDQXBXRTBuSWZpaENnZnpRTGRqeXE3M1k0U0dJaUdrUmFSTldhY0hnZU05aXVmR21iS00yd1pEaQ",
+      "articleTitleKey": "ny円157円台で膠着 市場で円買い警戒 介入制限ルール巡り心理戦",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "7d61f2bb0dc6877e84d0e9c0",
+      "title": "協調介入が告げるドル高修正",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwQlFkM3V6YmdlUmdTdEYwTjlHRDVwV3lTNGR2UzhoZWNTYzBrQ3llU3kwM2tNbHUwRjdHY2tRSDhIemJxcDNJRnVpY2ZNejJRdzAtWHNraGVwLW05d25CSXJyQlN1dV9vdlZNYw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-04T17:00:00.000Z",
+      "notifiedAt": "2026-08-05T03:30:34.893Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwQlFkM3V6YmdlUmdTdEYwTjlHRDVwV3lTNGR2UzhoZWNTYzBrQ3llU3kwM2tNbHUwRjdHY2tRSDhIemJxcDNJRnVpY2ZNejJRdzAtWHNraGVwLW05d25CSXJyQlN1dV9vdlZNYw",
+      "articleTitleKey": "協調介入が告げるドル高修正",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
