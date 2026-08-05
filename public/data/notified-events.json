@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T11:08:26.901Z",
+  "updatedAt": "2026-08-05T13:01:01.355Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3836,6 +3836,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lY21iLTRKWHlSNXluLXNSVjc5S05TbFR1U2J0MHZnYXFWU2RqYjZ0dk13X0tvM3o2VDZwZFhuYTQ3Z0RGSzFFQnB1UG9tOW14MTBZSVNQUFJKRmtlckhCbXZwUVBOUmgzSU40dg",
       "articleTitleKey": "協調為替介入 円が対主要通貨で全面高 相場転換予想は少なく",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "994958fceed0a692d6ff4c6f",
+      "title": "経済プラス：財政悪化で為替介入繰り返す恐れ？ 経団連会長「市場の信認を」",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aM05nblgwMHJOcDRZWFQ5R0V5TGxCVTZDMGdLWTR6TXR5NE1LUi1CeWJZMkwzdWJ4M1VLWkx3UG5VVmktYTVhcnhFdmRkTGliZy1CXy1hRGlqSElVSmttaUFkSmNPOC1B?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T11:21:29.000Z",
+      "notifiedAt": "2026-08-05T13:01:01.355Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aM05nblgwMHJOcDRZWFQ5R0V5TGxCVTZDMGdLWTR6TXR5NE1LUi1CeWJZMkwzdWJ4M1VLWkx3UG5VVmktYTVhcnhFdmRkTGliZy1CXy1hRGlqSElVSmttaUFkSmNPOC1B",
+      "articleTitleKey": "経済プラス 財政悪化で為替介入繰り返す恐れ 経団連会長 市場の信認を",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "ab390993c6e235613a9893f7",
+      "title": "◎円相場、１５７円７１～７２銭＝５日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DbjIzU01DZ0ltdEdjU1JFOFJnSGJaVTA4MUxDX3QtT2NKd05QR3lfUnl4eFNfVktIWm55ZXJGaUhTeXJaU0h4dG40MHBUNy1hRS1FSw?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T08:10:00.000Z",
+      "notifiedAt": "2026-08-05T13:01:01.355Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DbjIzU01DZ0ltdEdjU1JFOFJnSGJaVTA4MUxDX3QtT2NKd05QR3lfUnl4eFNfVktIWm55ZXJGaUhTeXJaU0h4dG40MHBUNy1hRS1FSw",
+      "articleTitleKey": "円相場 157円71 72銭 5日午後5時現在",
+      "articleSourceKey": "時事通信ニュース"
     }
   ]
 }
