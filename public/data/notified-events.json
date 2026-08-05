@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T16:56:28.255Z",
+  "updatedAt": "2026-08-05T18:19:14.512Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3864,6 +3864,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DbjIzU01DZ0ltdEdjU1JFOFJnSGJaVTA4MUxDX3QtT2NKd05QR3lfUnl4eFNfVktIWm55ZXJGaUhTeXJaU0h4dG40MHBUNy1hRS1FSw",
       "articleTitleKey": "円相場 157円71 72銭 5日午後5時現在",
       "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "8593bc5427affe0c589a7b84",
+      "title": "円相場、１５７円７１～７２銭＝５日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOeVJNQmdDM0JqV1JsSzFtLUtsZGhhQ3B3SXZsOG5zb0pEYWY0Qkc5RVFSQ25aOGM5NWdScVZfSnIydHdaSWdZbHpBNjBBd2dra3JvYQ?oc=5",
+      "source": "sp.m.jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T08:11:00.000Z",
+      "notifiedAt": "2026-08-05T18:19:14.512Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOeVJNQmdDM0JqV1JsSzFtLUtsZGhhQ3B3SXZsOG5zb0pEYWY0Qkc5RVFSQ25aOGM5NWdScVZfSnIydHdaSWdZbHpBNjBBd2dra3JvYQ",
+      "articleTitleKey": "円相場 157円71 72銭 5日午後5時現在",
+      "articleSourceKey": "sp.m.jiji.com"
     }
   ]
 }
