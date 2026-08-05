@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T08:49:57.761Z",
+  "updatedAt": "2026-08-05T11:08:26.901Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3821,6 +3821,20 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56QXRZMEhPdWh3SjFoVjNDeDBNVmhYcnJuWlhDWXljZzN4M3phQVpLc29CeTBmdkFnSkt0QkN1dGRjcy1GTVBtTXlkb29yeThkTDZUc2hLOVMyOWJGR3p4c0JNZXY2NHJzeGw5eg",
       "articleTitleKey": "為替介入12兆円規模か 円安構造 変化の兆し",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "ace0ef001c4e53b474e007aa",
+      "title": "協調為替介入、円が対主要通貨で全面高 相場転換予想は少なく",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lY21iLTRKWHlSNXluLXNSVjc5S05TbFR1U2J0MHZnYXFWU2RqYjZ0dk13X0tvM3o2VDZwZFhuYTQ3Z0RGSzFFQnB1UG9tOW14MTBZSVNQUFJKRmtlckhCbXZwUVBOUmgzSU40dg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T08:52:24.000Z",
+      "notifiedAt": "2026-08-05T11:08:26.901Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lY21iLTRKWHlSNXluLXNSVjc5S05TbFR1U2J0MHZnYXFWU2RqYjZ0dk13X0tvM3o2VDZwZFhuYTQ3Z0RGSzFFQnB1UG9tOW14MTBZSVNQUFJKRmtlckhCbXZwUVBOUmgzSU40dg",
+      "articleTitleKey": "協調為替介入 円が対主要通貨で全面高 相場転換予想は少なく",
       "articleSourceKey": "日本経済新聞"
     }
   ]
