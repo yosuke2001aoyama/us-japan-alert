@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T21:17:06.152Z",
+  "updatedAt": "2026-08-05T22:29:44.836Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3934,6 +3934,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtZEdvZUdMeDViN2h3b2F2ZkJrNEZFNXdmSVdEaTZaR1I0M1daVUlGRW9jSGJMYjBrREI1TGNTcWVvMkhaRFRiYVBmckZRWFA3VDJPVmg2RUMxc2xCM3BXbEM1UEpXeFY0",
       "articleTitleKey": "東京円 157円台後半 過度なインフレ進行の懸念和らぎ円買い",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "a6901f347a11f7b9b2d900b8",
+      "title": "日米の政府が円を買う為替介入",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IeFVXUEx5eVlHZkVQcUo4YWtjQ0U4WmxyS3E5c0ZNUzhBd0pjbDJlbW5ydlVqeFZqd29BdVpIUGstdU5sR3dJaUFjVnZNZVVZakZVZ294U2hqbk4yWV92US1TblJIVG0y?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T15:00:00.000Z",
+      "notifiedAt": "2026-08-05T22:29:44.836Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IeFVXUEx5eVlHZkVQcUo4YWtjQ0U4WmxyS3E5c0ZNUzhBd0pjbDJlbW5ydlVqeFZqd29BdVpIUGstdU5sR3dJaUFjVnZNZVVZakZVZ294U2hqbk4yWV92US1TblJIVG0y",
+      "articleTitleKey": "日米の政府が円を買う為替介入",
+      "articleSourceKey": "朝日新聞"
     }
   ]
 }
