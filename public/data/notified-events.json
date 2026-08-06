@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-06T09:26:30.146Z",
+  "updatedAt": "2026-08-06T11:39:26.544Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4214,6 +4214,62 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aVWF2LTNIc1ZIREtaenQ2bzRVaEVZRlZ4elpQTnAwSW9YMkFhU2Jfb0JGcHpYWExDeXk4R2xCOS1GN1Jjc0FUNmQ1V2h1cDhJbFdPR3VKYzdDbVpOS3VvQkh5NDNOa3RtdEtsUw",
       "articleTitleKey": "米国産生鮮ジャガイモ輸入へ一歩 病害虫リスト9月めど公表 農水省",
       "articleSourceKey": "nikkei.com"
+    },
+    {
+      "id": "2931822d580297c65523b040",
+      "title": "米国産の生食用ジャガイモ輸入解禁 政府、手続き最終段階へ",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrLUhvM0QwNjY1cktBTEhXRHY1QjZ0a1R4UVM4dHFxU1ZCalRNZDJvejJEMm9rc3JrSTdsOExxN0wzbHNjbnRHUWFtcUwtamJvSHVCR2xHR2NSbXBOZzBZS1VzM3dmb1dfYTV4Qm95eEdCVzE4OVg3T1NMRWM?oc=5",
+      "source": "北海道新聞デジタル",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-06T09:45:40.000Z",
+      "notifiedAt": "2026-08-06T11:39:26.544Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrLUhvM0QwNjY1cktBTEhXRHY1QjZ0a1R4UVM4dHFxU1ZCalRNZDJvejJEMm9rc3JrSTdsOExxN0wzbHNjbnRHUWFtcUwtamJvSHVCR2xHR2NSbXBOZzBZS1VzM3dmb1dfYTV4Qm95eEdCVzE4OVg3T1NMRWM",
+      "articleTitleKey": "米国産の生食用ジャガイモ輸入解禁 政府 手続き最終段階へ",
+      "articleSourceKey": "北海道新聞デジタル"
+    },
+    {
+      "id": "14903242f91aded385932589",
+      "title": "米国産の生食用ジャガイモ 数年後にも輸入解禁 政府、手続き最終段階へ",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE15TkJVOGkwZnBneEE1SDBNWlJEUEpjMDlFOVZselJjNUZaejlXamZJUDBhVUk1N3F2U0ZpaWdNN3ZOLVRveEc1Qk1nNA?oc=5",
+      "source": "47NEWS",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-06T09:45:40.000Z",
+      "notifiedAt": "2026-08-06T11:39:26.544Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE15TkJVOGkwZnBneEE1SDBNWlJEUEpjMDlFOVZselJjNUZaejlXamZJUDBhVUk1N3F2U0ZpaWdNN3ZOLVRveEc1Qk1nNA",
+      "articleTitleKey": "米国産の生食用ジャガイモ 数年後にも輸入解禁 政府 手続き最終段階へ",
+      "articleSourceKey": "47news"
+    },
+    {
+      "id": "fc1d9d8252c2356617bd324c",
+      "title": "北海道のジャガイモ農家危機感 米国産輸入解禁の動き 病害虫や価格懸念",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SVVpPeXhIT2d5UzNuSXdCa0N1bGRyU0RraEJ4ZWs5bkx2RDRBNm1qS0lJZlV4WWpzNGV2SWk2czQ0d082WWVjS1pXQQ?oc=5",
+      "source": "47NEWS",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-06T08:50:47.000Z",
+      "notifiedAt": "2026-08-06T11:39:26.544Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SVVpPeXhIT2d5UzNuSXdCa0N1bGRyU0RraEJ4ZWs5bkx2RDRBNm1qS0lJZlV4WWpzNGV2SWk2czQ0d082WWVjS1pXQQ",
+      "articleTitleKey": "北海道のジャガイモ農家危機感 米国産輸入解禁の動き 病害虫や価格懸念",
+      "articleSourceKey": "47news"
+    },
+    {
+      "id": "f4cc191c046063240fca9b67",
+      "title": "輸入解禁に反対 米国産ばれいしょ ＪＡグループ",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRYVBPOEk5OTdHc083dDZFWVBJVjNWaEktQm1HR0Utbjhzc1RxcmVveVl1MDg0NVVRako4aHY1Z3BkSllGTlVmSlppaHNCQUtPTkhtekZQckRBaGtZamo3NTVVOGM?oc=5",
+      "source": "JAcom 農業協同組合新聞",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-05T22:00:00.000Z",
+      "notifiedAt": "2026-08-06T11:39:26.544Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRYVBPOEk5OTdHc083dDZFWVBJVjNWaEktQm1HR0Utbjhzc1RxcmVveVl1MDg0NVVRako4aHY1Z3BkSllGTlVmSlppaHNCQUtPTkhtekZQckRBaGtZamo3NTVVOGM",
+      "articleTitleKey": "輸入解禁に反対 米国産ばれいしょ jaグループ",
+      "articleSourceKey": "jacom 農業協同組合新聞"
     }
   ]
 }
