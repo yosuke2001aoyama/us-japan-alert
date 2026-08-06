@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-06T06:36:23.747Z",
+  "updatedAt": "2026-08-06T09:26:30.146Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4144,6 +4144,76 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15ODJfLWoxaW0yRWdTWFVrWENWTHh3OW9NRktSZklCZTcyRkQxV0dVYnU5WkNjOHdwSjlkcEd2QTA1OHJ4ckJZWEFXVFVVM1M4QWxXaW1rTVVvdw",
       "articleTitleKey": "米国産生食イモ輸入解禁 9月にも手続き最終段階へ 数年後にも開始",
       "articleSourceKey": "北海道新聞デジタル"
+    },
+    {
+      "id": "43a96369c17f2c00c0b3a73c",
+      "title": "円相場、１５７円８６～８６銭 ６日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5UzhtU2Y0ejZwS0ctUzNhT3hGcmwzam1KOGIyS3NUUHMteTZVdmsxcVNLVzA2dzRyUnpXMXFWZ2hHUUp4Vjc5WlJ2TEp4ZXA5alMxLW1Id01PN29admFCZXpvVQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T08:14:00.000Z",
+      "notifiedAt": "2026-08-06T09:26:30.146Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5UzhtU2Y0ejZwS0ctUzNhT3hGcmwzam1KOGIyS3NUUHMteTZVdmsxcVNLVzA2dzRyUnpXMXFWZ2hHUUp4Vjc5WlJ2TEp4ZXA5alMxLW1Id01PN29admFCZXpvVQ",
+      "articleTitleKey": "円相場 157円86 86銭 6日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "e02b24349ed02672a2948edd",
+      "title": "日米協調の為替介入、FX投資家に2度の傷 裏かかれ取引手控え",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UUjY3a2E4UGFyVlZXcUljRUdiR21lSy1BSXV1b0JGQ3dYR1BoWWFJZmo1MlltY0RNcFlNMGg4bnhvcEJxWDhrYjE0bEQwU21OQzBMLU1MWWZVWVFQMy1wM3BGUmpjM3NjUGZBcQ?oc=5",
+      "source": "nikkei.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T06:00:56.000Z",
+      "notifiedAt": "2026-08-06T09:26:30.146Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UUjY3a2E4UGFyVlZXcUljRUdiR21lSy1BSXV1b0JGQ3dYR1BoWWFJZmo1MlltY0RNcFlNMGg4bnhvcEJxWDhrYjE0bEQwU21OQzBMLU1MWWZVWVFQMy1wM3BGUmpjM3NjUGZBcQ",
+      "articleTitleKey": "日米協調の為替介入 fx投資家に2度の傷 裏かかれ取引手控え",
+      "articleSourceKey": "nikkei.com"
+    },
+    {
+      "id": "7d504de24013456081293ea8",
+      "title": "円相場、１５７円６１～６１銭＝６日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6eWwtYUw1Ym9xcG9nekZ4WTd2OWRyaGo4VjFBZTRGVVotT2E0dFRoSFpZMk02VFNWNXNDZy04R3pPeEN4NU1DX2o5aDVvU3c1dktSWg?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T00:06:00.000Z",
+      "notifiedAt": "2026-08-06T09:26:30.146Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6eWwtYUw1Ym9xcG9nekZ4WTd2OWRyaGo4VjFBZTRGVVotT2E0dFRoSFpZMk02VFNWNXNDZy04R3pPeEN4NU1DX2o5aDVvU3c1dktSWg",
+      "articleTitleKey": "円相場 157円61 61銭 6日午前9時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "fbf9cbd933111f85fc0ef929",
+      "title": "北海道のジャガイモ農家危機感 米国産輸入解禁の動き 病害虫や価格懸念",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkSDAtRjc3OXFNZVcyMElTdHRvMUdOTjlIU1dUUlhhcDVJcVl0dVBZMm9rLVBWS1ZIdG1DQnNDeWd6SE0yQUhLT0hjNFJzYTZRN0hVb1RsNlEyQQ?oc=5",
+      "source": "hokkaido-np.co.jp",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-06T08:50:47.000Z",
+      "notifiedAt": "2026-08-06T09:26:30.146Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkSDAtRjc3OXFNZVcyMElTdHRvMUdOTjlIU1dUUlhhcDVJcVl0dVBZMm9rLVBWS1ZIdG1DQnNDeWd6SE0yQUhLT0hjNFJzYTZRN0hVb1RsNlEyQQ",
+      "articleTitleKey": "北海道のジャガイモ農家危機感 米国産輸入解禁の動き 病害虫や価格懸念",
+      "articleSourceKey": "hokkaido-np.co.jp"
+    },
+    {
+      "id": "6d925911b5900f7792743d28",
+      "title": "米国産生鮮ジャガイモ輸入へ一歩 病害虫リスト9月めど公表、農水省",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aVWF2LTNIc1ZIREtaenQ2bzRVaEVZRlZ4elpQTnAwSW9YMkFhU2Jfb0JGcHpYWExDeXk4R2xCOS1GN1Jjc0FUNmQ1V2h1cDhJbFdPR3VKYzdDbVpOS3VvQkh5NDNOa3RtdEtsUw?oc=5",
+      "source": "nikkei.com",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-06T08:44:59.000Z",
+      "notifiedAt": "2026-08-06T09:26:30.146Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aVWF2LTNIc1ZIREtaenQ2bzRVaEVZRlZ4elpQTnAwSW9YMkFhU2Jfb0JGcHpYWExDeXk4R2xCOS1GN1Jjc0FUNmQ1V2h1cDhJbFdPR3VKYzdDbVpOS3VvQkh5NDNOa3RtdEtsUw",
+      "articleTitleKey": "米国産生鮮ジャガイモ輸入へ一歩 病害虫リスト9月めど公表 農水省",
+      "articleSourceKey": "nikkei.com"
     }
   ]
 }
