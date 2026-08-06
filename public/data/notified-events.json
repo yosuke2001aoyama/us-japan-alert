@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-06T03:59:33.616Z",
+  "updatedAt": "2026-08-06T06:36:23.747Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4088,6 +4088,62 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iMy11NU5VWF9yNWR6RV8tX2Y4emZBaGdYeHdqYkhZcHhBRmszbmpUUGc1ZDFXMERRSVYwQ1dlbFpOZ0lDbzRPVjliSXVuc0QzWm40THlTblY0eFQzZGtRdnY2Q3YyNGxraUhGeQ",
       "articleTitleKey": "外為8時30分 円相場 小幅上昇し157円台後半 対ユーロでは下落",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "62b4e8d88c549453f7d3c0ad",
+      "title": "外為14時 円相場、膠着感強い 157円台後半",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kMU9Ld1pLOHVSZHI1UzBEaXlicmhIRW5zOVhfeE53WUlUTm9oX00zLUhxMTl5ZC03aFF0aU50S01aUUgwem9tdWpNVC0yNmpRams0UnVHQXJUWTZSM0wwRXlkdVh1eW55TU9vcA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T05:19:24.000Z",
+      "notifiedAt": "2026-08-06T06:36:23.747Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kMU9Ld1pLOHVSZHI1UzBEaXlicmhIRW5zOVhfeE53WUlUTm9oX00zLUhxMTl5ZC03aFF0aU50S01aUUgwem9tdWpNVC0yNmpRams0UnVHQXJUWTZSM0wwRXlkdVh1eW55TU9vcA",
+      "articleTitleKey": "外為14時 円相場 膠着感強い 157円台後半",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "634f6842ec02ab6576fa9bda",
+      "title": "円相場、１５７円６７～６７銭＝６日正午現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzNzZrS2JkN1h6ODJ0YVF2bUVKbVRzTXFWUHY4X1piRFRaUjR6QlFCU3Y0Y2EwTU5QVkZwMzVrMTlOTEJXR2k5LWRIUWU2RDNlRXNkMQ?oc=5",
+      "source": "sp.m.jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T03:06:00.000Z",
+      "notifiedAt": "2026-08-06T06:36:23.747Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzNzZrS2JkN1h6ODJ0YVF2bUVKbVRzTXFWUHY4X1piRFRaUjR6QlFCU3Y0Y2EwTU5QVkZwMzVrMTlOTEJXR2k5LWRIUWU2RDNlRXNkMQ",
+      "articleTitleKey": "円相場 157円67 67銭 6日正午現在",
+      "articleSourceKey": "sp.m.jiji.com"
+    },
+    {
+      "id": "893e456e0d9b19896ddd6422",
+      "title": "NY円相場、横ばい 1ドル=157円70〜80銭 低調な米経済指標で円買いも",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKd0hVR05yUzRWNTV2YU0xYUpyVXF4UGl6X1p5SURZNllPY3BsT0NpNkMtUFZJeERDYUZydFo5Rm1xVEdlNmdkdmxuck5lQkNHcV9kVWwtMmRobXpWeU5DbDhOZ3I4ckFFaUhfSQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T21:32:07.000Z",
+      "notifiedAt": "2026-08-06T06:36:23.747Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKd0hVR05yUzRWNTV2YU0xYUpyVXF4UGl6X1p5SURZNllPY3BsT0NpNkMtUFZJeERDYUZydFo5Rm1xVEdlNmdkdmxuck5lQkNHcV9kVWwtMmRobXpWeU5DbDhOZ3I4ckFFaUhfSQ",
+      "articleTitleKey": "ny円相場 横ばい 1ドル 157円70 80銭 低調な米経済指標で円買いも",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "e6f995ce1c55f856b7e430d8",
+      "title": "【独自】米国産生食イモ輸入解禁、9月にも手続き最終段階へ 数年後にも開始",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15ODJfLWoxaW0yRWdTWFVrWENWTHh3OW9NRktSZklCZTcyRkQxV0dVYnU5WkNjOHdwSjlkcEd2QTA1OHJ4ckJZWEFXVFVVM1M4QWxXaW1rTVVvdw?oc=5",
+      "source": "北海道新聞デジタル",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-05T11:22:01.000Z",
+      "notifiedAt": "2026-08-06T06:36:23.747Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15ODJfLWoxaW0yRWdTWFVrWENWTHh3OW9NRktSZklCZTcyRkQxV0dVYnU5WkNjOHdwSjlkcEd2QTA1OHJ4ckJZWEFXVFVVM1M4QWxXaW1rTVVvdw",
+      "articleTitleKey": "米国産生食イモ輸入解禁 9月にも手続き最終段階へ 数年後にも開始",
+      "articleSourceKey": "北海道新聞デジタル"
     }
   ]
 }
