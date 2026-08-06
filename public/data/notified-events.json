@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-06T00:54:40.914Z",
+  "updatedAt": "2026-08-06T03:59:33.616Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4004,6 +4004,90 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kRjFiazlwcm84UEJPUTI0WXdsbjFjTDEzYnl3NDlpVXlPUUdpYTdBeldybTN4eEJ3NDNMaW5OUXEyOGdhOFBkckUzeWZTemRxWW9DMzhSdHdpYWtqLTc1eENLY0lqdUR0SUpRTXNQd3ZuZFJa",
       "articleTitleKey": "構造的な円安は続くのか デジタル赤字は日米協調介入で潰せない 今やるべき金融 財政の引き締め アメリカも恐れる日本円のアジア波及 エコノミスト唐鎌大輔 エコラボ",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "dd5683ae2a2a0a612c179b1b",
+      "title": "円相場、１５７円６７～６７銭 ６日正午現在：時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zOUhXUlVPdTZDRDRsbTI5M29zRThWZjQzb0JoM2p1ZzJRbVlYUmpNUUZqZmw3b3Y1N3pYTU1kSDAzUHZFVzFhb09TSmVwV20tQTBDdjhDQW5YbVZjY2JBODQ5Yw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T03:06:00.000Z",
+      "notifiedAt": "2026-08-06T03:59:33.616Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zOUhXUlVPdTZDRDRsbTI5M29zRThWZjQzb0JoM2p1ZzJRbVlYUmpNUUZqZmw3b3Y1N3pYTU1kSDAzUHZFVzFhb09TSmVwV20tQTBDdjhDQW5YbVZjY2JBODQ5Yw",
+      "articleTitleKey": "円相場 157円67 67銭 6日正午現在 時事ドットコム",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "2340b6c7920338fb3f58d717",
+      "title": "東京円、157円台後半 日米による追加為替介入への警戒感も",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XYmRnWk1yeEtQTjJRQUE2V2s1aUJJSVN3VjFvMG9BU3B6T1BtTFo5WE5lRzZTTnZ1eWRNR0RGVVRjSEotSkVrZ0h2Y3RQZ1c0ZGF3akpuazFRODJYV3NUU3BpTWg5SnQ1?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T02:35:48.000Z",
+      "notifiedAt": "2026-08-06T03:59:33.616Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XYmRnWk1yeEtQTjJRQUE2V2s1aUJJSVN3VjFvMG9BU3B6T1BtTFo5WE5lRzZTTnZ1eWRNR0RGVVRjSEotSkVrZ0h2Y3RQZ1c0ZGF3akpuazFRODJYV3NUU3BpTWg5SnQ1",
+      "articleTitleKey": "東京円 157円台後半 日米による追加為替介入への警戒感も",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "70695bd748f2d305c0d70641",
+      "title": "いま日本経済になにが起きているのか？ 『為替介入とは何か 200兆円規模「外為特会」が生まれた謎』（服部孝洋・著）が8月7日（金）に集英社新書から発売",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBVWhLQjNEWGhEU1Q3OTdWYXhySHFzdmRqeE5BMjhRV25GcnlJMFU5M3diZDJNZFhadUNHRFdPTUoyT0pGVHMyU0JOMlZ0alo1LV9ibGJPaXBPY0ZMQ2Q2VWg0T3hDdmdPWUhr?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T01:46:00.000Z",
+      "notifiedAt": "2026-08-06T03:59:33.616Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBVWhLQjNEWGhEU1Q3OTdWYXhySHFzdmRqeE5BMjhRV25GcnlJMFU5M3diZDJNZFhadUNHRFdPTUoyT0pGVHMyU0JOMlZ0alo1LV9ibGJPaXBPY0ZMQ2Q2VWg0T3hDdmdPWUhr",
+      "articleTitleKey": "いま日本経済になにが起きているのか 為替介入とは何か 200兆円規模 外為特会 が生まれた謎 服部孝洋 著 が8月7日 金 に集英社新書から発売",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "b7c02555f8e1d7fc51db6857",
+      "title": "外為10時 円相場、上値限定 157円台後半 中値「取引量少ない」の声",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RSGJZS0F3STVZNXFkRS1XTEdDYkFuMjF2ZDBRbFBpRU5yaE8yUzhLcnk0bWlXYWlEX2VmazRnekpuSEZaakJYNWhqcnNUeEhYeDNOSGxhWl92RkYyWm54M1RXaDI2Q3BoN3NZaw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T01:29:30.000Z",
+      "notifiedAt": "2026-08-06T03:59:33.616Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RSGJZS0F3STVZNXFkRS1XTEdDYkFuMjF2ZDBRbFBpRU5yaE8yUzhLcnk0bWlXYWlEX2VmazRnekpuSEZaakJYNWhqcnNUeEhYeDNOSGxhWl92RkYyWm54M1RXaDI2Q3BoN3NZaw",
+      "articleTitleKey": "外為10時 円相場 上値限定 157円台後半 中値 取引量少ない の声",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "96b4c5bd35948125efc4ecde",
+      "title": "米財務長官やＦＲＢ議長を務めたイエレン氏、日米協調介入は「効果長続きせず」…「日銀の利上げも選択肢」とも",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43dklDbnZJcHkwQk5EMF9OWG84eWZERFJuVnVES2RBVVdtUlBqYmFudl80bDVMYTFFaXViaC14NGJuaHVzQW1lVGNaUXRIeTd3Y08wc2tmdS1VOHNpTExlaXFnNFU?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T01:21:00.000Z",
+      "notifiedAt": "2026-08-06T03:59:33.616Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43dklDbnZJcHkwQk5EMF9OWG84eWZERFJuVnVES2RBVVdtUlBqYmFudl80bDVMYTFFaXViaC14NGJuaHVzQW1lVGNaUXRIeTd3Y08wc2tmdS1VOHNpTExlaXFnNFU",
+      "articleTitleKey": "米財務長官やfrb議長を務めたイエレン氏 日米協調介入は 効果長続きせず 日銀の利上げも選択肢 とも",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "98395146156f01ef4d58b80f",
+      "title": "外為8時30分 円相場、小幅上昇し157円台後半 対ユーロでは下落",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iMy11NU5VWF9yNWR6RV8tX2Y4emZBaGdYeHdqYkhZcHhBRmszbmpUUGc1ZDFXMERRSVYwQ1dlbFpOZ0lDbzRPVjliSXVuc0QzWm40THlTblY0eFQzZGtRdnY2Q3YyNGxraUhGeQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T23:56:56.000Z",
+      "notifiedAt": "2026-08-06T03:59:33.616Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iMy11NU5VWF9yNWR6RV8tX2Y4emZBaGdYeHdqYkhZcHhBRmszbmpUUGc1ZDFXMERRSVYwQ1dlbFpOZ0lDbzRPVjliSXVuc0QzWm40THlTblY0eFQzZGtRdnY2Q3YyNGxraUhGeQ",
+      "articleTitleKey": "外為8時30分 円相場 小幅上昇し157円台後半 対ユーロでは下落",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
