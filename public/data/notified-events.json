@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-06T11:39:26.544Z",
+  "updatedAt": "2026-08-06T13:17:53.652Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4270,6 +4270,62 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRYVBPOEk5OTdHc083dDZFWVBJVjNWaEktQm1HR0Utbjhzc1RxcmVveVl1MDg0NVVRako4aHY1Z3BkSllGTlVmSlppaHNCQUtPTkhtekZQckRBaGtZamo3NTVVOGM",
       "articleTitleKey": "輸入解禁に反対 米国産ばれいしょ jaグループ",
       "articleSourceKey": "jacom 農業協同組合新聞"
+    },
+    {
+      "id": "8f1f668225801a25963a69d5",
+      "title": "日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催しました",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE80ZGJDWTFKUF9YOXFBd0dMclc0M1Q4cFA4aVVWVEg1WV95RjdhVXk3b1kxZUtnRlVtaFBVcjhCYV8ydWtNSEV2TlhILXg3TEJWT3NiUXBuTFVjRlBnXzJJTEtQZw?oc=5",
+      "source": "meti.go.jp",
+      "category": "通商・経済",
+      "priority": 99,
+      "publishedAt": "2026-08-06T13:12:36.000Z",
+      "notifiedAt": "2026-08-06T13:17:53.652Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE80ZGJDWTFKUF9YOXFBd0dMclc0M1Q4cFA4aVVWVEg1WV95RjdhVXk3b1kxZUtnRlVtaFBVcjhCYV8ydWtNSEV2TlhILXg3TEJWT3NiUXBuTFVjRlBnXzJJTEtQZw",
+      "articleTitleKey": "日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催しました",
+      "articleSourceKey": "meti.go.jp"
+    },
+    {
+      "id": "e1df68c5629f80fad498b3fb",
+      "title": "円相場、１５７円８６～８６銭＝６日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wQzZWUExOLXB6MkRoWVpKNFRpZENXd080WGpJcElmOHd1UUZFR3pHS3ViN0s2cW5TakQ5MnppUjBvM0s4dHBkRkFZRlMzWGMtM1piSw?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T08:14:00.000Z",
+      "notifiedAt": "2026-08-06T13:17:53.652Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wQzZWUExOLXB6MkRoWVpKNFRpZENXd080WGpJcElmOHd1UUZFR3pHS3ViN0s2cW5TakQ5MnppUjBvM0s4dHBkRkFZRlMzWGMtM1piSw",
+      "articleTitleKey": "円相場 157円86 86銭 6日午後5時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "f4776a44d13a3f22fcaec843",
+      "title": "米の圧力やWTO協定で判断 ジャガイモ輸入解禁手続き 専門家「国内の生産力強化を」",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oYnkwZUJtX3JRbjdmbWJ4dFRfNnNlNU5HMHJVanh3bWRVNmZDSVFnQzRKUWlZamVqYmtORG91d2NrMDlBenZOR2lob1dXVGx0Y0dNUFdzOVY5Zw?oc=5",
+      "source": "北海道新聞デジタル",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-06T11:13:48.000Z",
+      "notifiedAt": "2026-08-06T13:17:53.652Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oYnkwZUJtX3JRbjdmbWJ4dFRfNnNlNU5HMHJVanh3bWRVNmZDSVFnQzRKUWlZamVqYmtORG91d2NrMDlBenZOR2lob1dXVGx0Y0dNUFdzOVY5Zw",
+      "articleTitleKey": "米の圧力やwto協定で判断 ジャガイモ輸入解禁手続き 専門家 国内の生産力強化を",
+      "articleSourceKey": "北海道新聞デジタル"
+    },
+    {
+      "id": "4a84aa7341884227fb70f9b2",
+      "title": "米国産の生食用イモ輸入解禁 政府、手続き最終段階へ進める方針表明",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLZndJem5PSG9WaUFOWXNpc2VueVFNM012QzBZMDl0dFV6dzlaWlJTRDJ4OTJrMVIwY0M3dnc2d1loMS1BRWo3RWdaUC1iOTdZVHRNVVM1dlAzdw?oc=5",
+      "source": "北海道新聞デジタル",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-06T09:45:40.000Z",
+      "notifiedAt": "2026-08-06T13:17:53.652Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLZndJem5PSG9WaUFOWXNpc2VueVFNM012QzBZMDl0dFV6dzlaWlJTRDJ4OTJrMVIwY0M3dnc2d1loMS1BRWo3RWdaUC1iOTdZVHRNVVM1dlAzdw",
+      "articleTitleKey": "米国産の生食用イモ輸入解禁 政府 手続き最終段階へ進める方針表明",
+      "articleSourceKey": "北海道新聞デジタル"
     }
   ]
 }
