@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-05T23:30:21.010Z",
+  "updatedAt": "2026-08-06T00:54:40.914Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -3962,6 +3962,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10LXJnTGxqZmJObW1idkhvNkVGaFcybXdFNUhUaEJNemNjaUYzbWxNSTQwRzVNV3BVbVgzSXZDajlzV21mSG91SnduTGwtd281QzZvUlo0U1VUR1BqWFpBRGlJTFFRVGJSR2MybA",
       "articleTitleKey": "トランプ関税の返金処理 3カ月で16兆円 相互関税など違憲判断受け",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "bebba8227738d0e3e584137c",
+      "title": "円相場、１５７円６１～６１銭 ６日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DeXdGWUVKMGtUNjJ3Mnc2VGN0czExT0FFVXJmN09PbXdxMXlfbEtxWkRKS0ZRZUpQZmVsS1VBd2M2V1VBOGkteEdoM05mY0RnVWkzX09fb2daa1NHNklEdmotaw?oc=5",
+      "source": "jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T00:06:00.000Z",
+      "notifiedAt": "2026-08-06T00:54:40.914Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DeXdGWUVKMGtUNjJ3Mnc2VGN0czExT0FFVXJmN09PbXdxMXlfbEtxWkRKS0ZRZUpQZmVsS1VBd2M2V1VBOGkteEdoM05mY0RnVWkzX09fb2daa1NHNklEdmotaw",
+      "articleTitleKey": "円相場 157円61 61銭 6日午前9時現在",
+      "articleSourceKey": "jiji.com"
+    },
+    {
+      "id": "18268a50b4f12e795242cfbe",
+      "title": "粘り強いキャリー取引 日米協調円買い介入にまだ動じず",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nRnJkVUpEdWg0MF9wSS1NdmFmcU04c2pmZzYwQm9iSENCdW5hZG95VkpsRTM0dU1lMEZybVc3V2owRGYtYlN1Z3BwSXp5U21PTFlqX2VsRDFGbnRPZC0yejlyLVdLYnJTd1lTbA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T23:37:02.000Z",
+      "notifiedAt": "2026-08-06T00:54:40.914Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nRnJkVUpEdWg0MF9wSS1NdmFmcU04c2pmZzYwQm9iSENCdW5hZG95VkpsRTM0dU1lMEZybVc3V2owRGYtYlN1Z3BwSXp5U21PTFlqX2VsRDFGbnRPZC0yejlyLVdLYnJTd1lTbA",
+      "articleTitleKey": "粘り強いキャリー取引 日米協調円買い介入にまだ動じず",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "093a11d561487683ef242256",
+      "title": "【構造的な円安は続くのか】デジタル赤字は日米協調介入で潰せない／今やるべき金融・財政の引き締め／アメリカも恐れる日本円のアジア波及／エコノミスト唐鎌大輔【エコラボ】",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kRjFiazlwcm84UEJPUTI0WXdsbjFjTDEzYnl3NDlpVXlPUUdpYTdBeldybTN4eEJ3NDNMaW5OUXEyOGdhOFBkckUzeWZTemRxWW9DMzhSdHdpYWtqLTc1eENLY0lqdUR0SUpRTXNQd3ZuZFJa?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-05T09:45:00.000Z",
+      "notifiedAt": "2026-08-06T00:54:40.914Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kRjFiazlwcm84UEJPUTI0WXdsbjFjTDEzYnl3NDlpVXlPUUdpYTdBeldybTN4eEJ3NDNMaW5OUXEyOGdhOFBkckUzeWZTemRxWW9DMzhSdHdpYWtqLTc1eENLY0lqdUR0SUpRTXNQd3ZuZFJa",
+      "articleTitleKey": "構造的な円安は続くのか デジタル赤字は日米協調介入で潰せない 今やるべき金融 財政の引き締め アメリカも恐れる日本円のアジア波及 エコノミスト唐鎌大輔 エコラボ",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
