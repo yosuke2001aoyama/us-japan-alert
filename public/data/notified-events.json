@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T21:22:39.492Z",
+  "updatedAt": "2026-08-07T22:01:48.888Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5068,6 +5068,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yTmx6V2FHTzZTdWw3QlpuUkczc2tOSjRmeVhpT3RSSGdMc2NkbHA1ZlBmdjBxMHVGWldOY09yY1V6Y2Y4djJFX0oyVVJJYnNpWUdkQU1oQ2xFYmJJWkFBYlBFOUdkQmMxR3VLVQ",
       "articleTitleKey": "米国のユーロ売り 円買い介入 欧州に波紋 不意打ち 報道も",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "49b0af28446908113ae33bc9",
+      "title": "NY円相場、反発 1ドル=157円80〜90銭 予想下回る米雇用統計で",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtN2xpellmQzM2MEdGTDdqZXhWNlo5eEpIODFUUTFpcTBrU1E0clhCb20zRk0tSWxHSEJYLVFjdnNSZnhGbEdleDhUSF9zYVlhUVBsc0hpS2JXLV83andPSUc2ZHdCVWVIZkptWg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T21:32:01.000Z",
+      "notifiedAt": "2026-08-07T22:01:48.888Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtN2xpellmQzM2MEdGTDdqZXhWNlo5eEpIODFUUTFpcTBrU1E0clhCb20zRk0tSWxHSEJYLVFjdnNSZnhGbEdleDhUSF9zYVlhUVBsc0hpS2JXLV83andPSUc2ZHdCVWVIZkptWg",
+      "articleTitleKey": "ny円相場 反発 1ドル 157円80 90銭 予想下回る米雇用統計で",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "2a1c7a6739c76bd28a765c71",
+      "title": "円相場が一時156円台に急上昇、米雇用下振れで－再介入警戒くすぶる",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UbFFPQUxESnh0UHdCQ21EQkJmdFZobG9uQjFuWHBrWW5RSHllQ3A5MUxhbjd3RXh5aGpWUi1PZkxMZzUwRFk0NzZGZXdQeWllSTNlZnVNcGhsY2ZSNXFvRWVYYzZ4eXllQWlRdVNWU000MDBZ?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T15:30:45.000Z",
+      "notifiedAt": "2026-08-07T22:01:48.888Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UbFFPQUxESnh0UHdCQ21EQkJmdFZobG9uQjFuWHBrWW5RSHllQ3A5MUxhbjd3RXh5aGpWUi1PZkxMZzUwRFk0NzZGZXdQeWllSTNlZnVNcGhsY2ZSNXFvRWVYYzZ4eXllQWlRdVNWU000MDBZ",
+      "articleTitleKey": "円相場が一時156円台に急上昇 米雇用下振れで 再介入警戒くすぶる",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
