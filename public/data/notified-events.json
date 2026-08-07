@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T22:01:48.888Z",
+  "updatedAt": "2026-08-07T22:48:33.105Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5096,6 +5096,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UbFFPQUxESnh0UHdCQ21EQkJmdFZobG9uQjFuWHBrWW5RSHllQ3A5MUxhbjd3RXh5aGpWUi1PZkxMZzUwRFk0NzZGZXdQeWllSTNlZnVNcGhsY2ZSNXFvRWVYYzZ4eXllQWlRdVNWU000MDBZ",
       "articleTitleKey": "円相場が一時156円台に急上昇 米雇用下振れで 再介入警戒くすぶる",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "9e5786c0ffad7057712cc019",
+      "title": "米国、「友情」の円買いの裏に アルゼンチンでの「成功」と募る懸念",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QY3ZUYzBaMzFjQnVvajJNeUVEUTNJSEh1U2ZUejU5aHJuWTNDeE9wSkUyOXdTc1U2X1FpYjF2eVZULUlwSXVLTV9LVUFVR0FaQ1M5Ukg2U2lFRTdXNWNiajl0MTUzSWM?oc=5",
+      "source": "asahi.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T02:00:00.000Z",
+      "notifiedAt": "2026-08-07T22:48:33.105Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QY3ZUYzBaMzFjQnVvajJNeUVEUTNJSEh1U2ZUejU5aHJuWTNDeE9wSkUyOXdTc1U2X1FpYjF2eVZULUlwSXVLTV9LVUFVR0FaQ1M5Ukg2U2lFRTdXNWNiajl0MTUzSWM",
+      "articleTitleKey": "米国 友情 の円買いの裏に アルゼンチンでの 成功 と募る懸念",
+      "articleSourceKey": "asahi.com"
     }
   ]
 }
