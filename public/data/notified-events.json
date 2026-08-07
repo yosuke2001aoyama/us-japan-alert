@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T06:35:40.197Z",
+  "updatedAt": "2026-08-07T07:54:42.139Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4802,6 +4802,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2ZaNHhjQzVKSlVaRUV1VlBHZ1JXTlBOMTVEV0FpSER1eERXVmxvVHZ6bDRISHFsM0s2S09jckNyRmtYYzUxaW9wQjNnNUFMbGxrd1NHbUMxelpDSnRWR21nSTAwNGlqc2FWVFVOelYyaDlyRTEtaUJ3ZXVJZWpfajQxWUNjdU0",
       "articleTitleKey": "米国 友情 の円買いの裏に アルゼンチンでの 成功 と募る懸念",
       "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "bf47f8a02eae4c59e415d767",
+      "title": "GWに三たびの為替介入 それでも円安変わらず、日米協調の布石に",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBreWxaYWlKVDJtWmVia2IwemNIb1NCaDNId1BqTWdITGJGcFlNaXUxVTNNTDg1WThWYzI1RV9Hb3pxcUktS0kxUllkMGdDYjlsbzBJLWVNSy04cW5OZHNtX3dBWTVwY0pZbEpaUA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T06:51:10.000Z",
+      "notifiedAt": "2026-08-07T07:54:42.139Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBreWxaYWlKVDJtWmVia2IwemNIb1NCaDNId1BqTWdITGJGcFlNaXUxVTNNTDg1WThWYzI1RV9Hb3pxcUktS0kxUllkMGdDYjlsbzBJLWVNSy04cW5OZHNtX3dBWTVwY0pZbEpaUA",
+      "articleTitleKey": "gwに三たびの為替介入 それでも円安変わらず 日米協調の布石に",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "600aec4677a8f72a48ea0e0c",
+      "title": "「米国産ジャガイモ」輸入解禁は“トランプ対策”？ 恐怖の病害虫で産地壊滅&自給率低下リスク",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qcFJZNW9TdHBqUVR3Y3VMWU9pWV8tWWdGd3AzdmFCS0E0cVF4VDZfTzl1QWg2MXIxWlVJN1dkMzV1YVpUU29xSDRjS3lheFdTVE16S09KbzJJNjZoQ1E?oc=5",
+      "source": "news.livedoor.com",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-07T01:55:00.000Z",
+      "notifiedAt": "2026-08-07T07:54:42.139Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qcFJZNW9TdHBqUVR3Y3VMWU9pWV8tWWdGd3AzdmFCS0E0cVF4VDZfTzl1QWg2MXIxWlVJN1dkMzV1YVpUU29xSDRjS3lheFdTVE16S09KbzJJNjZoQ1E",
+      "articleTitleKey": "米国産ジャガイモ 輸入解禁は トランプ対策 恐怖の病害虫で産地壊滅 自給率低下リスク",
+      "articleSourceKey": "news.livedoor.com"
     }
   ]
 }
