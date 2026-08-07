@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T11:27:44.614Z",
+  "updatedAt": "2026-08-07T12:09:00.371Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4900,6 +4900,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iUkxPT1lEZGl3dGpYSHFmWW1lUlhxMDdNRHFSeEVrVmx3S3N4Nm5tQXZUM2lERjBLaVk5MmNsSlNCZXA4OFFacl9wOFdjWERlakpSSmJSOS1fMmNNdHJtV3Zna3FvMjJIM29WQQ",
       "articleTitleKey": "為替介入劇場 世界のディーラーが大騒ぎ ロンドン 東京で語る ポッドキャスト",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "d5adbefb3fb1799d4d780244",
+      "title": "「米国産ジャガイモ」輸入解禁は“トランプ対策”？ 恐怖の病害虫で産地壊滅&自給率低下リスク｜Infoseekニュース",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTUXhwYlRERzRoUDhkRUpzLXdlRndGem5CZXprbGJrQnhuTENwZV9mdHN1MkVmbnVfZ0pxRm43dUFXZk5qM2FaQll0T1VxX0V4OVA1Z19VMUVoaVpiRzVCN3U3S0g?oc=5",
+      "source": "Infoseek",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-07T01:55:00.000Z",
+      "notifiedAt": "2026-08-07T12:09:00.371Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTUXhwYlRERzRoUDhkRUpzLXdlRndGem5CZXprbGJrQnhuTENwZV9mdHN1MkVmbnVfZ0pxRm43dUFXZk5qM2FaQll0T1VxX0V4OVA1Z19VMUVoaVpiRzVCN3U3S0g",
+      "articleTitleKey": "米国産ジャガイモ 輸入解禁は トランプ対策 恐怖の病害虫で産地壊滅 自給率低下リスク infoseekニュース",
+      "articleSourceKey": "infoseek"
     }
   ]
 }
