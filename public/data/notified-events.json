@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T16:26:30.523Z",
+  "updatedAt": "2026-08-07T17:22:31.626Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4970,6 +4970,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0RWZOelU3S2R4ZFJXYk16c2Q2UEJGLVo0Vmt1aWZub2oyTWNzOUtnNHNyQVMzZjctdTU5aGI0M1BmSjF5M2pYc3pCTXBjUWdfcktaTw",
       "articleTitleKey": "円相場 158円39 42銭 7日午後5時現在",
       "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "a9e90a74512e22616e363389",
+      "title": "外為・株式：4月の為替介入 過去最大6．2兆円",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IaEw1M2M5NTl2RXhpWmpRcGI1VU5IcVdOSDNOTDBPYlZNNHFaMzJmQzZCUHlKWFBNMXV4eGsxYXhMTl9BSml2amV5elZQdTl2SHBRbHNNTFNHLTJDRzFlZ19Rb01mdW5p?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T17:01:30.000Z",
+      "notifiedAt": "2026-08-07T17:22:31.626Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IaEw1M2M5NTl2RXhpWmpRcGI1VU5IcVdOSDNOTDBPYlZNNHFaMzJmQzZCUHlKWFBNMXV4eGsxYXhMTl9BSml2amV5elZQdTl2SHBRbHNNTFNHLTJDRzFlZ19Rb01mdW5p",
+      "articleTitleKey": "外為 株式 4月の為替介入 過去最大6 2兆円",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "7410dc49c028a760b5e6289a",
+      "title": "円相場一時1ドル156円台に急騰 アメリカ雇用情勢悪化で利上げ観測が後退",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93aFB5TDRDZzd6WDlnMWg2bHpEY192Z1BMc1AwSkZkYUNWZml5S3hydEVlLVcxOG5rRTdkRVl6ZC10TXY1aGx3Y0ctendqaDNnek5ZVEZDczY0dVdYa2gw?oc=5",
+      "source": "fnn.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T14:25:00.000Z",
+      "notifiedAt": "2026-08-07T17:22:31.626Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93aFB5TDRDZzd6WDlnMWg2bHpEY192Z1BMc1AwSkZkYUNWZml5S3hydEVlLVcxOG5rRTdkRVl6ZC10TXY1aGx3Y0ctendqaDNnek5ZVEZDczY0dVdYa2gw",
+      "articleTitleKey": "円相場一時1ドル156円台に急騰 アメリカ雇用情勢悪化で利上げ観測が後退",
+      "articleSourceKey": "fnn.jp"
+    },
+    {
+      "id": "d68601ef7c04a8fba0d074b0",
+      "title": "トランプ米大統領：米、15％追加関税 半導体原料 日本は軽減",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlZXQ2azRodTFUZVlOZjh6WlR6R1lBNXl6TjhPR3ZuZk1hSjZILWJueHdDRDRJRFJuOWhINnNGZmtFRE1CbnNWZmd1LWNHajBjTzBWM3hwZEE2SFVaNTVReHQ5UjZJMURj?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-07T17:01:34.000Z",
+      "notifiedAt": "2026-08-07T17:22:31.626Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlZXQ2azRodTFUZVlOZjh6WlR6R1lBNXl6TjhPR3ZuZk1hSjZILWJueHdDRDRJRFJuOWhINnNGZmtFRE1CbnNWZmd1LWNHajBjTzBWM3hwZEE2SFVaNTVReHQ5UjZJMURj",
+      "articleTitleKey": "トランプ米大統領 米 15 追加関税 半導体原料 日本は軽減",
+      "articleSourceKey": "毎日新聞"
     }
   ]
 }
