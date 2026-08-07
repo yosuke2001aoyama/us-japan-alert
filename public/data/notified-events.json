@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T20:44:36.873Z",
+  "updatedAt": "2026-08-07T21:22:39.492Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5040,6 +5040,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCSTQtUDYwNXhxSkstQnByY08wcnFDaU9nRDJOYTJrMDVLSk9Zd3loMUhGWlBfYTFJUmlPdF9RUE1PN1hLV3k4WEx3UFNKcjlTaVBhc2FtYko1dXFQ",
       "articleTitleKey": "米の円買い介入 海外識者の見方は モーリス オブストフェルド氏 シュリヤ サマース氏に聞く",
       "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "a5c61b6892e19f7364bccb14",
+      "title": "15歳のニュース 日米為替介入を実施 円安阻止向け15年ぶり",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBalN6ZUlWaUlsOGo2Qm9udVpmNFhKZkVQc2MwLVBlZUFvYWIwc3NHdHZ6ZDd4Y0pJZmNfdTVYWTB5M09ZY0xNNC1MYzlNUkZhTkc1eWJRM2E5bE9sZzRONWNYR3NfVlRSVi1vVUxYVXI0OEY5?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T21:01:18.000Z",
+      "notifiedAt": "2026-08-07T21:22:39.492Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBalN6ZUlWaUlsOGo2Qm9udVpmNFhKZkVQc2MwLVBlZUFvYWIwc3NHdHZ6ZDd4Y0pJZmNfdTVYWTB5M09ZY0xNNC1MYzlNUkZhTkc1eWJRM2E5bE9sZzRONWNYR3NfVlRSVi1vVUxYVXI0OEY5",
+      "articleTitleKey": "15歳のニュース 日米為替介入を実施 円安阻止向け15年ぶり",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "cb1c74125cc1303814c7d2cd",
+      "title": "米国のユーロ売り・円買い介入、欧州に波紋 「不意打ち」報道も",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yTmx6V2FHTzZTdWw3QlpuUkczc2tOSjRmeVhpT3RSSGdMc2NkbHA1ZlBmdjBxMHVGWldOY09yY1V6Y2Y4djJFX0oyVVJJYnNpWUdkQU1oQ2xFYmJJWkFBYlBFOUdkQmMxR3VLVQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T19:23:16.000Z",
+      "notifiedAt": "2026-08-07T21:22:39.492Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yTmx6V2FHTzZTdWw3QlpuUkczc2tOSjRmeVhpT3RSSGdMc2NkbHA1ZlBmdjBxMHVGWldOY09yY1V6Y2Y4djJFX0oyVVJJYnNpWUdkQU1oQ2xFYmJJWkFBYlBFOUdkQmMxR3VLVQ",
+      "articleTitleKey": "米国のユーロ売り 円買い介入 欧州に波紋 不意打ち 報道も",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
