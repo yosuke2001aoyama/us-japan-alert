@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T07:54:42.139Z",
+  "updatedAt": "2026-08-07T08:49:02.196Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4830,6 +4830,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qcFJZNW9TdHBqUVR3Y3VMWU9pWV8tWWdGd3AzdmFCS0E0cVF4VDZfTzl1QWg2MXIxWlVJN1dkMzV1YVpUU29xSDRjS3lheFdTVE16S09KbzJJNjZoQ1E",
       "articleTitleKey": "米国産ジャガイモ 輸入解禁は トランプ対策 恐怖の病害虫で産地壊滅 自給率低下リスク",
       "articleSourceKey": "news.livedoor.com"
+    },
+    {
+      "id": "fdd2d1b8b767209bf18dc5b7",
+      "title": "円相場、１５８円３９～４２銭 ７日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ncDQzX0dVMlRERVg5V0hWa05iWlhjZk12VmRZa3ZHanVfRWlsTTRzc2N6d3lRelFleDRDd2hIWjV1MzhFR292Sk9PLWM2RzBQaUpkM1pHQzJReG56VFZzUkI0TQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T08:07:00.000Z",
+      "notifiedAt": "2026-08-07T08:49:02.196Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ncDQzX0dVMlRERVg5V0hWa05iWlhjZk12VmRZa3ZHanVfRWlsTTRzc2N6d3lRelFleDRDd2hIWjV1MzhFR292Sk9PLWM2RzBQaUpkM1pHQzJReG56VFZzUkI0TQ",
+      "articleTitleKey": "円相場 158円39 42銭 7日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
     }
   ]
 }
