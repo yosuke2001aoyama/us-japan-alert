@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T14:35:53.092Z",
+  "updatedAt": "2026-08-07T15:30:43.037Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4928,6 +4928,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YTTVsdHEwQUNwTG5iZEJidG9YekxvS29pNVZBd2twbUFNZXdPekZOZjFpc2JuTkVnNi1MZ2RWMS1TbGpYeDN5UVpuOVYzZmIyUlhyN29CejJkRUlGN1dHS1ZR",
       "articleTitleKey": "米トランプ政権 半導体の素材 ポリシリコン に15 の追加関税発動へ 中国による過剰生産念頭か",
       "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "127773cd741f5ad02e2a717a",
+      "title": "アメリカ労働市場に減速感 7月の雇用統計は市場の予想を大幅に下回り円相場は一時、156円台に",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBReFBoNmcwWGgteGhCMnNjQTJmVi02VVRyNk5vanVmZGt1WGZwZUYxbFlEd3pGeklhdDZzN29paHd1Q1I5U0Z5aXBIeGUtUQ?oc=5",
+      "source": "FNNプライムオンライン",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T14:56:00.000Z",
+      "notifiedAt": "2026-08-07T15:30:43.037Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBReFBoNmcwWGgteGhCMnNjQTJmVi02VVRyNk5vanVmZGt1WGZwZUYxbFlEd3pGeklhdDZzN29paHd1Q1I5U0Z5aXBIeGUtUQ",
+      "articleTitleKey": "アメリカ労働市場に減速感 7月の雇用統計は市場の予想を大幅に下回り円相場は一時 156円台に",
+      "articleSourceKey": "fnnプライムオンライン"
+    },
+    {
+      "id": "a5a7517048719e78a0c6b9d9",
+      "title": "円相場一時1ドル156円台に 急騰アメリカ雇用情勢悪化で利上げ観測が後退",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HTUZ1WFJtUW1sYzJyU0ZVZy1yWWpSWWhLZVVoTEFyTjJVdkppdE5Vdk1pdFNaTFIxS3BSR095bVJoallOajhlSEVkZlBrQQ?oc=5",
+      "source": "FNNプライムオンライン",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T14:25:00.000Z",
+      "notifiedAt": "2026-08-07T15:30:43.037Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HTUZ1WFJtUW1sYzJyU0ZVZy1yWWpSWWhLZVVoTEFyTjJVdkppdE5Vdk1pdFNaTFIxS3BSR095bVJoallOajhlSEVkZlBrQQ",
+      "articleTitleKey": "円相場一時1ドル156円台に 急騰アメリカ雇用情勢悪化で利上げ観測が後退",
+      "articleSourceKey": "fnnプライムオンライン"
     }
   ]
 }
