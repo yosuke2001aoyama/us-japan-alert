@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T15:30:43.037Z",
+  "updatedAt": "2026-08-07T16:26:30.523Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4956,6 +4956,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HTUZ1WFJtUW1sYzJyU0ZVZy1yWWpSWWhLZVVoTEFyTjJVdkppdE5Vdk1pdFNaTFIxS3BSR095bVJoallOajhlSEVkZlBrQQ",
       "articleTitleKey": "円相場一時1ドル156円台に 急騰アメリカ雇用情勢悪化で利上げ観測が後退",
       "articleSourceKey": "fnnプライムオンライン"
+    },
+    {
+      "id": "b54089678d2801ca483ec82a",
+      "title": "円相場、１５８円３９～４２銭＝７日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0RWZOelU3S2R4ZFJXYk16c2Q2UEJGLVo0Vmt1aWZub2oyTWNzOUtnNHNyQVMzZjctdTU5aGI0M1BmSjF5M2pYc3pCTXBjUWdfcktaTw?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T08:07:00.000Z",
+      "notifiedAt": "2026-08-07T16:26:30.523Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0RWZOelU3S2R4ZFJXYk16c2Q2UEJGLVo0Vmt1aWZub2oyTWNzOUtnNHNyQVMzZjctdTU5aGI0M1BmSjF5M2pYc3pCTXBjUWdfcktaTw",
+      "articleTitleKey": "円相場 158円39 42銭 7日午後5時現在",
+      "articleSourceKey": "時事通信ニュース"
     }
   ]
 }
