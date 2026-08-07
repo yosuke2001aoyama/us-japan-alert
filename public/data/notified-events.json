@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T08:49:02.196Z",
+  "updatedAt": "2026-08-07T09:44:51.086Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4844,6 +4844,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ncDQzX0dVMlRERVg5V0hWa05iWlhjZk12VmRZa3ZHanVfRWlsTTRzc2N6d3lRelFleDRDd2hIWjV1MzhFR292Sk9PLWM2RzBQaUpkM1pHQzJReG56VFZzUkI0TQ",
       "articleTitleKey": "円相場 158円39 42銭 7日午後5時現在",
       "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "0b9b1e92995f04259fe5dd6d",
+      "title": "北朝鮮に関する日米韓外交当局間電話協議｜外務省",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZVXZZZUt4QkE4RlVDSWtmblVlQTB2WHF5dGcxSGRnanZOYlVQcnBZVHVYVk9nOUFpMmhCMTNoUExIOGc3Y0w2QzF3TFdhRTNOWnlhVElSWlBHRUNvVnoya2Jsb3QxWThURklNa1JNTl9feG91WUd3?oc=5",
+      "source": "mofa.go.jp",
+      "category": "日米関係",
+      "priority": 99,
+      "publishedAt": "2026-08-07T09:11:40.000Z",
+      "notifiedAt": "2026-08-07T09:44:51.086Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZVXZZZUt4QkE4RlVDSWtmblVlQTB2WHF5dGcxSGRnanZOYlVQcnBZVHVYVk9nOUFpMmhCMTNoUExIOGc3Y0w2QzF3TFdhRTNOWnlhVElSWlBHRUNvVnoya2Jsb3QxWThURklNa1JNTl9feG91WUd3",
+      "articleTitleKey": "北朝鮮に関する日米韓外交当局間電話協議 外務省",
+      "articleSourceKey": "mofa.go.jp"
+    },
+    {
+      "id": "06873369a71caea56eb1ee1c",
+      "title": "円安是正へ 28年ぶり協調介入 トランプ大統領「友情の証し」真意は？",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XbDUwNGNaYU9nQ2pteXpCdHFJOXdJYzVGTTNKUTlFcDlUcTRYMkhPZUhkWnI3aFhKNEZlMS1YdjUtU1haUk16X19BZlY2eTlybUFCWjhFZ1p3VHFFN0tiOGF2dWJnZDNNcGdkX0JSd3JSQQ?oc=5",
+      "source": "テレ朝NEWS",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T09:00:00.000Z",
+      "notifiedAt": "2026-08-07T09:44:51.086Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XbDUwNGNaYU9nQ2pteXpCdHFJOXdJYzVGTTNKUTlFcDlUcTRYMkhPZUhkWnI3aFhKNEZlMS1YdjUtU1haUk16X19BZlY2eTlybUFCWjhFZ1p3VHFFN0tiOGF2dWJnZDNNcGdkX0JSd3JSQQ",
+      "articleTitleKey": "円安是正へ 28年ぶり協調介入 トランプ大統領 友情の証し 真意は",
+      "articleSourceKey": "テレ朝news"
+    },
+    {
+      "id": "1f172c8624a1698231fc05bb",
+      "title": "円相場、１５８円４２～４２銭＝７日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZVzd1ZHVRX3dVN1dncXY1U1hXRzJldkhlcVRWQjBpaXZpc0xQeHVxR3BSakdxZTZibURtcHViWk1IckxYUTFDalZWZ3ZEdWdNTkpzbg?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T00:08:00.000Z",
+      "notifiedAt": "2026-08-07T09:44:51.086Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZVzd1ZHVRX3dVN1dncXY1U1hXRzJldkhlcVRWQjBpaXZpc0xQeHVxR3BSakdxZTZibURtcHViWk1IckxYUTFDalZWZ3ZEdWdNTkpzbg",
+      "articleTitleKey": "円相場 158円42 42銭 7日午前9時現在",
+      "articleSourceKey": "時事通信ニュース"
     }
   ]
 }
