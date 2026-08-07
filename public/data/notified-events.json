@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T03:32:02.629Z",
+  "updatedAt": "2026-08-07T05:17:37.892Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4676,6 +4676,104 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GRzE5cjhKX3M5WVN2MEEwTExBbDZXUzhUX0lIb2JOYVV3dXVhYWJEMm1ITzBhMU03ZE4xN0U0cjYyQlJEUGJ5UFBHaDFHX0NUdXJza3VZNk9IMlNGckdYSzVjblB0RlFO",
       "articleTitleKey": "米 半導体原料に15 の追加関税 日本には軽減措置 12月発動",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "a61d818278780246fd179633",
+      "title": "政府・日銀、4月30日に過去最大6.2兆円の円買い介入 3日間で11.7兆円超投入 年間総額は過去最大更新か",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5kNEItZThaYUJtNFdqQTJWNkhMT2c2SEN4UFVNUl9zV3l5UkFydktFTG04cm9VSHJqXzdDRmo2eENySjg0RmJicW5rUlIwdw?oc=5",
+      "source": "FNNプライムオンライン",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T04:53:00.000Z",
+      "notifiedAt": "2026-08-07T05:17:37.892Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5kNEItZThaYUJtNFdqQTJWNkhMT2c2SEN4UFVNUl9zV3l5UkFydktFTG04cm9VSHJqXzdDRmo2eENySjg0RmJicW5rUlIwdw",
+      "articleTitleKey": "政府 日銀 4月30日に過去最大6 2兆円の円買い介入 3日間で11 7兆円超投入 年間総額は過去最大更新か",
+      "articleSourceKey": "fnnプライムオンライン"
+    },
+    {
+      "id": "87958f2c1e597aee349f613d",
+      "title": "ＮＥＷＳＦＬＡＳＨ：4月30日の為替介入6．2兆円",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pVmlsbzExOGM4cm95ZUpKYXZSampsRlkyMVJKS2xGbE5laVBKZFlEVUhiUVRSVEttUjgzZ2Zual9BWWVPQzQzMnpMNU9uS2lBeEw0UWlUTlM3dUU2NkgyUDhBbi1KdVc2?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T04:07:28.000Z",
+      "notifiedAt": "2026-08-07T05:17:37.892Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pVmlsbzExOGM4cm95ZUpKYXZSampsRlkyMVJKS2xGbE5laVBKZFlEVUhiUVRSVEttUjgzZ2Zual9BWWVPQzQzMnpMNU9uS2lBeEw0UWlUTlM3dUU2NkgyUDhBbi1KdVc2",
+      "articleTitleKey": "newsflash 4月30日の為替介入6 2兆円",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "6e907d56ee124b8d82e602d5",
+      "title": "外為12時 円相場、下落 158円台前半 米金利の先高観と原油高で",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyWF9xZmxEMUpINHdJcXgxaHducG1HSzNaWlRYUFpMcnB3SE1JeXdiS1RTcDJsUEp6eHphNG44eVI0WXhlV244cmoyRUlvdXdpVXlGT1dYd25hWjU1Q0FFU0RpUjl4bmtXZF9Qcw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T03:24:20.000Z",
+      "notifiedAt": "2026-08-07T05:17:37.892Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyWF9xZmxEMUpINHdJcXgxaHducG1HSzNaWlRYUFpMcnB3SE1JeXdiS1RTcDJsUEp6eHphNG44eVI0WXhlV244cmoyRUlvdXdpVXlGT1dYd25hWjU1Q0FFU0RpUjl4bmtXZF9Qcw",
+      "articleTitleKey": "外為12時 円相場 下落 158円台前半 米金利の先高観と原油高で",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "4fb43421a700c19f0e5b83be",
+      "title": "円相場、１５８円３７～３７銭＝７日正午現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52bGtVM0dBNmZ2OVAydDlzb1hzc0YwNHFJeG13VlA3cmI5NFk3NFk2NmtueFVuWmFUUF9DSW5PdlB1b05YSU1veUlQQnFLZ1ZlR3EtdA?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T03:06:00.000Z",
+      "notifiedAt": "2026-08-07T05:17:37.892Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52bGtVM0dBNmZ2OVAydDlzb1hzc0YwNHFJeG13VlA3cmI5NFk3NFk2NmtueFVuWmFUUF9DSW5PdlB1b05YSU1veUlQQnFLZ1ZlR3EtdA",
+      "articleTitleKey": "円相場 158円37 37銭 7日正午現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "ff5655e683699018574b562c",
+      "title": "外為17時 円相場、反落 157円台後半 対ユーロは3日続落",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLdnZpY01kQ0ozNWI2YzcwazRPeTFVV3JBRndUbnVhWHhuQlZaUkRGcnJZbVh1U0twTS03Sk5SNjN2TXQ0Y3RKN2pyOVlHVmtWX3lYWFNjcmdadElJNy1zcElRX09welhDMGNfWg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-06T08:18:25.000Z",
+      "notifiedAt": "2026-08-07T05:17:37.892Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLdnZpY01kQ0ozNWI2YzcwazRPeTFVV3JBRndUbnVhWHhuQlZaUkRGcnJZbVh1U0twTS03Sk5SNjN2TXQ0Y3RKN2pyOVlHVmtWX3lYWFNjcmdadElJNy1zcElRX09welhDMGNfWg",
+      "articleTitleKey": "外為17時 円相場 反落 157円台後半 対ユーロは3日続落",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "c9c78389e539124e045cc3a9",
+      "title": "「米国産ジャガイモ」輸入解禁は“トランプ対策”？ 恐怖の病害虫で産地壊滅&自給率低下リスク",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hYTZyeEJZRHNKTGk4UTE3WFpFejFuTXRWdmhnd3FJd0lLelh3ZEdmcDI4ZzFsVXhaamt6NndGVEQ3bXdERnltWlQ2UjB6emNNWnQ5Um1EUnJ3Rkg1NjZNV0h6c2g?oc=5",
+      "source": "千葉テレビ放送",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-07T02:04:21.000Z",
+      "notifiedAt": "2026-08-07T05:17:37.892Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hYTZyeEJZRHNKTGk4UTE3WFpFejFuTXRWdmhnd3FJd0lLelh3ZEdmcDI4ZzFsVXhaamt6NndGVEQ3bXdERnltWlQ2UjB6emNNWnQ5Um1EUnJ3Rkg1NjZNV0h6c2g",
+      "articleTitleKey": "米国産ジャガイモ 輸入解禁は トランプ対策 恐怖の病害虫で産地壊滅 自給率低下リスク",
+      "articleSourceKey": "千葉テレビ放送"
+    },
+    {
+      "id": "937af57f301ccd3b61356087",
+      "title": "トランプ政権、ポリシリコンに15%関税 「最低輸入価格」も新設",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JQk8xTXpDekFmMm5uMUc0TXJtUmstY25rNC1VRGcycVExdjBmUXdicEplSm1SNF82OVl0ZTVHVUNTOGpheHVGTW5lN3laUVliaDJWVmJBQnFLOVRMTFZQUUFzNHJFZlVSVDNvUA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-07T01:12:23.000Z",
+      "notifiedAt": "2026-08-07T05:17:37.892Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JQk8xTXpDekFmMm5uMUc0TXJtUmstY25rNC1VRGcycVExdjBmUXdicEplSm1SNF82OVl0ZTVHVUNTOGpheHVGTW5lN3laUVliaDJWVmJBQnFLOVRMTFZQUUFzNHJFZlVSVDNvUA",
+      "articleTitleKey": "トランプ政権 ポリシリコンに15 関税 最低輸入価格 も新設",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
