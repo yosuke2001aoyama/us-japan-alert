@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T19:58:39.664Z",
+  "updatedAt": "2026-08-07T20:44:36.873Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5012,6 +5012,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlZXQ2azRodTFUZVlOZjh6WlR6R1lBNXl6TjhPR3ZuZk1hSjZILWJueHdDRDRJRFJuOWhINnNGZmtFRE1CbnNWZmd1LWNHajBjTzBWM3hwZEE2SFVaNTVReHQ5UjZJMURj",
       "articleTitleKey": "トランプ米大統領 米 15 追加関税 半導体原料 日本は軽減",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "59682882882a75dbae9a0e42",
+      "title": "為替介入、初６兆円 ４月３０日 先月末は１１兆円規模か",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4bTNkMzdmNFg5WEtpNXRKMUs3eF9JZmxCUXJtbTFtUFVjTE4tZXpQWEVOTmF5VkxTdUZxelV5UkJERDUtaEw1bTlaT1VzOS1ZWWNhR0VsRkpDd2Ju?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T20:00:00.000Z",
+      "notifiedAt": "2026-08-07T20:44:36.873Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4bTNkMzdmNFg5WEtpNXRKMUs3eF9JZmxCUXJtbTFtUFVjTE4tZXpQWEVOTmF5VkxTdUZxelV5UkJERDUtaEw1bTlaT1VzOS1ZWWNhR0VsRkpDd2Ju",
+      "articleTitleKey": "為替介入 初6兆円 4月30日 先月末は11兆円規模か",
+      "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "6311e18d380ee6b7eda1a7a0",
+      "title": "米の円買い介入、海外識者の見方は モーリス・オブストフェルド氏、シュリヤ・サマース氏に聞く",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCSTQtUDYwNXhxSkstQnByY08wcnFDaU9nRDJOYTJrMDVLSk9Zd3loMUhGWlBfYTFJUmlPdF9RUE1PN1hLV3k4WEx3UFNKcjlTaVBhc2FtYko1dXFQ?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T20:00:00.000Z",
+      "notifiedAt": "2026-08-07T20:44:36.873Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCSTQtUDYwNXhxSkstQnByY08wcnFDaU9nRDJOYTJrMDVLSk9Zd3loMUhGWlBfYTFJUmlPdF9RUE1PN1hLV3k4WEx3UFNKcjlTaVBhc2FtYko1dXFQ",
+      "articleTitleKey": "米の円買い介入 海外識者の見方は モーリス オブストフェルド氏 シュリヤ サマース氏に聞く",
+      "articleSourceKey": "朝日新聞"
     }
   ]
 }
