@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T05:17:37.892Z",
+  "updatedAt": "2026-08-07T06:35:40.197Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4774,6 +4774,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JQk8xTXpDekFmMm5uMUc0TXJtUmstY25rNC1VRGcycVExdjBmUXdicEplSm1SNF82OVl0ZTVHVUNTOGpheHVGTW5lN3laUVliaDJWVmJBQnFLOVRMTFZQUUFzNHJFZlVSVDNvUA",
       "articleTitleKey": "トランプ政権 ポリシリコンに15 関税 最低輸入価格 も新設",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "e78995d03ee7dbf158ff8ce8",
+      "title": "外為14時 円相場、安値圏で小動き 158円台前半",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1dW94eTJFTHFBX1VrNmJNMFVWYi16aEVKUlZKVHZ0dllKT3dqSHBFLWlBQmhURUVfMnJYNFR3SUprVkh3OUNrR1NKQmY5XzJEZTJFc0w0dkM3a0hQWkpDc0dITUJCVllTT1F3aA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T05:12:35.000Z",
+      "notifiedAt": "2026-08-07T06:35:40.197Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1dW94eTJFTHFBX1VrNmJNMFVWYi16aEVKUlZKVHZ0dllKT3dqSHBFLWlBQmhURUVfMnJYNFR3SUprVkh3OUNrR1NKQmY5XzJEZTJFc0w0dkM3a0hQWkpDc0dITUJCVllTT1F3aA",
+      "articleTitleKey": "外為14時 円相場 安値圏で小動き 158円台前半",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "6574d29a6c3440036a8d1f7e",
+      "title": "米国、「友情」の円買いの裏に アルゼンチンでの「成功」と募る懸念",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2ZaNHhjQzVKSlVaRUV1VlBHZ1JXTlBOMTVEV0FpSER1eERXVmxvVHZ6bDRISHFsM0s2S09jckNyRmtYYzUxaW9wQjNnNUFMbGxrd1NHbUMxelpDSnRWR21nSTAwNGlqc2FWVFVOelYyaDlyRTEtaUJ3ZXVJZWpfajQxWUNjdU0?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T02:00:00.000Z",
+      "notifiedAt": "2026-08-07T06:35:40.197Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2ZaNHhjQzVKSlVaRUV1VlBHZ1JXTlBOMTVEV0FpSER1eERXVmxvVHZ6bDRISHFsM0s2S09jckNyRmtYYzUxaW9wQjNnNUFMbGxrd1NHbUMxelpDSnRWR21nSTAwNGlqc2FWVFVOelYyaDlyRTEtaUJ3ZXVJZWpfajQxWUNjdU0",
+      "articleTitleKey": "米国 友情 の円買いの裏に アルゼンチンでの 成功 と募る懸念",
+      "articleSourceKey": "朝日新聞"
     }
   ]
 }
