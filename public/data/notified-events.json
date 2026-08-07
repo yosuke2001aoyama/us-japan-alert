@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T09:44:51.086Z",
+  "updatedAt": "2026-08-07T10:36:17.319Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -4886,6 +4886,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZVzd1ZHVRX3dVN1dncXY1U1hXRzJldkhlcVRWQjBpaXZpc0xQeHVxR3BSakdxZTZibURtcHViWk1IckxYUTFDalZWZ3ZEdWdNTkpzbg",
       "articleTitleKey": "円相場 158円42 42銭 7日午前9時現在",
       "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "9df4397e4fa3faef234c8b9a",
+      "title": "為替介入劇場、世界のディーラーが大騒ぎ ロンドン×東京で語る【ポッドキャスト】",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iUkxPT1lEZGl3dGpYSHFmWW1lUlhxMDdNRHFSeEVrVmx3S3N4Nm5tQXZUM2lERjBLaVk5MmNsSlNCZXA4OFFacl9wOFdjWERlakpSSmJSOS1fMmNNdHJtV3Zna3FvMjJIM29WQQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T10:04:06.000Z",
+      "notifiedAt": "2026-08-07T10:36:17.319Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iUkxPT1lEZGl3dGpYSHFmWW1lUlhxMDdNRHFSeEVrVmx3S3N4Nm5tQXZUM2lERjBLaVk5MmNsSlNCZXA4OFFacl9wOFdjWERlakpSSmJSOS1fMmNNdHJtV3Zna3FvMjJIM29WQQ",
+      "articleTitleKey": "為替介入劇場 世界のディーラーが大騒ぎ ロンドン 東京で語る ポッドキャスト",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
