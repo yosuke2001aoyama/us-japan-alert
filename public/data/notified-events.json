@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T23:20:05.963Z",
+  "updatedAt": "2026-08-07T23:52:05.957Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5110,6 +5110,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QY3ZUYzBaMzFjQnVvajJNeUVEUTNJSEh1U2ZUejU5aHJuWTNDeE9wSkUyOXdTc1U2X1FpYjF2eVZULUlwSXVLTV9LVUFVR0FaQ1M5Ukg2U2lFRTdXNWNiajl0MTUzSWM",
       "articleTitleKey": "米国 友情 の円買いの裏に アルゼンチンでの 成功 と募る懸念",
       "articleSourceKey": "asahi.com"
+    },
+    {
+      "id": "c23cbdf72a692e3e36242176",
+      "title": "投機勢の円売り幅、為替介入後に7割減 円高マグマ弱まる",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PSmZONWlRd3dKTnBsSktVclpKTHd2M3BsZnZCRmN3NFRwUGZ6STM4eUM1RTJvZHhweGthV0xBWEc0dkdkQi03TTU3NXIyTkg0WTVuRTBMMWFYMDdNMnBwVnBkMGNuZU5QUnhJTg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T22:31:45.000Z",
+      "notifiedAt": "2026-08-07T23:52:05.957Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PSmZONWlRd3dKTnBsSktVclpKTHd2M3BsZnZCRmN3NFRwUGZ6STM4eUM1RTJvZHhweGthV0xBWEc0dkdkQi03TTU3NXIyTkg0WTVuRTBMMWFYMDdNMnBwVnBkMGNuZU5QUnhJTg",
+      "articleTitleKey": "投機勢の円売り幅 為替介入後に7割減 円高マグマ弱まる",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
