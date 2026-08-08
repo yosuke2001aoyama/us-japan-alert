@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-08T23:37:43.369Z",
+  "updatedAt": "2026-08-08T23:59:52.349Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5222,6 +5222,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jZWRkTTVMOFdjRVBuYkxYcno2NjNGaHZIVjI2enQ4OFE4QXFXbjBLc05ta3duY0t4NkRUWFlxUmJnQS01R0c2ajViWVhnenJzS1hHc25wQ2FpVVdjeVhVaWc0NHBhNHFpcnFVXw",
       "articleTitleKey": "投機筋円売り幅7割減 協調介入後 円高進行は限定的",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "dde437478a485e60496ce51b",
+      "title": "債券市場が動かした日米協調介入",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96QjkxNnRPelRZWHFyVVlXVXhYWW9INGFSV0dTSzNiemNnUExmem5GRGhjLWRzcFZXbFB1OW9tRm9UbERtZWM4ZW5LUDlSdw?oc=5",
+      "source": "barrons.jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-08T23:37:44.000Z",
+      "notifiedAt": "2026-08-08T23:59:52.349Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96QjkxNnRPelRZWHFyVVlXVXhYWW9INGFSV0dTSzNiemNnUExmem5GRGhjLWRzcFZXbFB1OW9tRm9UbERtZWM4ZW5LUDlSdw",
+      "articleTitleKey": "債券市場が動かした日米協調介入",
+      "articleSourceKey": "barrons.jiji.com"
     }
   ]
 }
