@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T16:54:10.088Z",
+  "generatedAt": "2026-08-08T17:21:23.844Z",
   "mode": "live",
   "sources": {
     "ok": 109,
@@ -257,6 +257,25 @@
       "verification": "official",
       "verificationLabel": "公式SNS",
       "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+    },
+    {
+      "id": "YM1IxYUhaRFEyTktMWEZTWVY5NFVRP29jPTU",
+      "title": "Padilla Statement on Russia Sanctions Bill Giving Trump Broader Tariff Authorities",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMFNEbGdhZ2Fvc2FOMEFGaWtVZjU1R2pPeE9MM3lHblN5X3BhZ21EVmNRV3k5NXdHUG0tR2RqNi1zdmQ0eFNseXRIX1prck9EckpxazZyWDk4SWpaUkR6X2RnUURWSmx5NTY2LUs1RXZ3bkRBNDRXVnZfX1BLUVpVTjZOZ2t2R3I1TndSb1B6WDFlRC1OczhxWElVQ29JM3g0OWJjSUc1TkNJQjJoNnd1QVZ5RnltcFdfaGl3Yi00U1ExUy00X3R1aHZDQ2NKLXFSYV94UQ?oc=5",
+      "source": "Senator Alex Padilla (.gov)",
+      "publishedAt": "2026-08-07T23:46:08.000Z",
+      "summary": "",
+      "official": true,
+      "coverage": "legislatures",
+      "relevant": true,
+      "japanRelated": false,
+      "category": "議会・政治",
+      "priority": 71,
+      "english": true,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "VMHBPVDBwdlEyaGpSM041VERZNWN3P29jPTU",
@@ -1344,12 +1363,12 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "16VTNNMFUxTFVsZmVHNXZTbWRLU1E_b2M9NQ",
-      "title": "米政権、ポリシリコン製品に１５％関税 半導体原材料、国内生産促す",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14bVQ4NDJXRk1hX0xkOEpFdjgtMXI4VlY1Q1JORFdhMXY1RzgxWFd4emxJemxLaVB1aWpSYUtwZmlJZ19yY0FyRmQwZjUwRG1YSFFJMzU3M0U1LUlfeG5vSmdKSQ?oc=5",
-      "source": "時事ドットコム",
+      "id": "SVTlyYTNoZk4wUk9kbTFIYlhGR1VBP29jPTU",
+      "title": "米政権、ポリシリコン製品に１５％関税＝半導体原材料、国内生産促す",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kMGphNGdRV25IWXltcjYxcGRFWjUxUXlGVE1jdENnaEhRR0QwaGFnUkVOSE1BRjZHZkJId3FkbjhCbk1tRU9ra3hfN0ROdm1HbXFGUA?oc=5",
+      "source": "時事通信ニュース",
       "publishedAt": "2026-08-06T23:46:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE14bVQ4NDJXRk1hX0xkOEpFdjgtMXI4VlY1Q1JORFdhMXY1RzgxWFd4emxJemxLaVB1aWpSYUtwZmlJZ19yY0FyRmQwZjUwRG1YSFFJMzU3M0U1LUlfeG5vSmdKSQ?oc=5\" target=\"_blank\"&gt;米政権、ポリシリコン製品に１５％関税 半導体原材料、国内生産促す&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事ドットコム&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kMGphNGdRV25IWXltcjYxcGRFWjUxUXlGVE1jdENnaEhRR0QwaGFnUkVOSE1BRjZHZkJId3FkbjhCbk1tRU9ra3hfN0ROdm1HbXFGUA?oc=5\" target=\"_blank\"&gt;米政権、ポリシリコン製品に１５％関税＝半導体原材料、国内生産促す&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事通信ニュース&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 78,
       "japanRelated": false,
@@ -1362,12 +1381,12 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "kMnhmYURoWVMyeGlVbFpYYTNSa09RP29jPTU",
-      "title": "◎米政権、ポリシリコン製品に１５％関税＝半導体原材料、国内生産促す",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYalRTdjh4S3NqVGgzUmlXTEpwYndmOVBmbXVzQUUzSnd0RkF0cmVzVVFuYVpkRVZTdFJNMjVTYVZWQjhDd2xfaDhYS2xiUlZXa3RkOQ?oc=5",
-      "source": "時事通信ニュース",
-      "publishedAt": "2026-08-06T23:45:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYalRTdjh4S3NqVGgzUmlXTEpwYndmOVBmbXVzQUUzSnd0RkF0cmVzVVFuYVpkRVZTdFJNMjVTYVZWQjhDd2xfaDhYS2xiUlZXa3RkOQ?oc=5\" target=\"_blank\"&gt;◎米政権、ポリシリコン製品に１５％関税＝半導体原材料、国内生産促す&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事通信ニュース&lt;/font&gt;",
+      "id": "16VTNNMFUxTFVsZmVHNXZTbWRLU1E_b2M9NQ",
+      "title": "米政権、ポリシリコン製品に１５％関税 半導体原材料、国内生産促す",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14bVQ4NDJXRk1hX0xkOEpFdjgtMXI4VlY1Q1JORFdhMXY1RzgxWFd4emxJemxLaVB1aWpSYUtwZmlJZ19yY0FyRmQwZjUwRG1YSFFJMzU3M0U1LUlfeG5vSmdKSQ?oc=5",
+      "source": "時事ドットコム",
+      "publishedAt": "2026-08-06T23:46:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE14bVQ4NDJXRk1hX0xkOEpFdjgtMXI4VlY1Q1JORFdhMXY1RzgxWFd4emxJemxLaVB1aWpSYUtwZmlJZ19yY0FyRmQwZjUwRG1YSFFJMzU3M0U1LUlfeG5vSmdKSQ?oc=5\" target=\"_blank\"&gt;米政権、ポリシリコン製品に１５％関税 半導体原材料、国内生産促す&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事ドットコム&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 78,
       "japanRelated": false,
@@ -3958,7 +3977,7 @@
       "id": "GQmlOekpFVW1KSVlUSTJhRFl3VUZvP29jPTU",
       "title": "U.S. Treasury intervenes to support yen after Japan steps in, FT reports",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaGZCUXRYYzhqTmNhWEVuX0RpNG1seWRnUENINzdScW9TOFhiSS1SdTNTWVNEeUpxQVlRZW5PQndtRmZpcF9sUDRsNDg3NDdfemtWX3N6WXp1Wk9CYUVGUFZ5TzlHbDRuZUt5VWV2R0EwRTEyb01kT2ZMY043R3lCSFFEOEJHbFNnbFRkSlhfeEQ3c3Z1R1hTOUZnQWtwNEXSAaQBQVVfeXFMTjJkZEJyLUllajlMT2s4d1dVNkQ1S3NGMnhuSFVhWEZRVXhHTVBaZ0NRUkVCaHgtc2RFMC1Mamlidl84cTA5ZGV4dUVmaTNMODRaaU1aOTIwbGVNZWVPdXNELVNwd0JGRGdLeC1Bbl9TN2xGc3lfVTJLSExyNGxZOFF3WjV3ZlE4bmRMaUJ3LUluUnQ0WFBiNzJEUmJIYTI2aDYwUFo?oc=5",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "publishedAt": "2026-08-01T15:44:08.000Z",
       "summary": "",
       "official": false,
