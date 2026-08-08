@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-08T05:28:09.009Z",
+  "updatedAt": "2026-08-08T06:07:00.338Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5166,6 +5166,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1OWc3ZEFqUC11RWVMNG9hVFRzektDczE1YUJjVzF0NzA2OFNKVDZlSGdONVFEOHVvS25ZQVhSSEp3OHk1MDVabDNIQ3lOdw",
       "articleTitleKey": "米上院が対ロシア制裁法案を可決 ロシア産原油 天然ガス輸入上位国に最大100 関税 日本は適用除外の可能性",
       "articleSourceKey": "fnnプライムオンライン"
+    },
+    {
+      "id": "e823183bc544075bfbb87e1e",
+      "title": "【速報】円相場が急速に円高に 一時1ドル156円台",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9BLW9TRV9ZZUJOUE5iaWw5dWJhMVE2NXpLQWIwWHo1LXNHY1hnWG1FRzV2NFlBelhyN2RHelFNMVVlclBiM2o1UkN0bU9RMEZFUEFpbDVlaw?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T12:50:43.000Z",
+      "notifiedAt": "2026-08-08T06:07:00.338Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9BLW9TRV9ZZUJOUE5iaWw5dWJhMVE2NXpLQWIwWHo1LXNHY1hnWG1FRzV2NFlBelhyN2RHelFNMVVlclBiM2o1UkN0bU9RMEZFUEFpbDVlaw",
+      "articleTitleKey": "円相場が急速に円高に 一時1ドル156円台",
+      "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "7898998faecfe2f29c1ef67c",
+      "title": "米上院、露制裁法案可決…エネ主要輸入国に関税",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wQmI0SFQyVHphSjlLU25PT0hKNHpyNGxsNDUwVjNfaTVXM2hrZDhkLXFlYVJ5ZWxpYVNEdFJ0cVpUYUsyS0VWNm84TjVNeDNsdVNrTEQzbVFQa2RDeWtwSkV3?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-08T06:00:00.000Z",
+      "notifiedAt": "2026-08-08T06:07:00.338Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wQmI0SFQyVHphSjlLU25PT0hKNHpyNGxsNDUwVjNfaTVXM2hrZDhkLXFlYVJ5ZWxpYVNEdFJ0cVpUYUsyS0VWNm84TjVNeDNsdVNrTEQzbVFQa2RDeWtwSkV3",
+      "articleTitleKey": "米上院 露制裁法案可決 エネ主要輸入国に関税",
+      "articleSourceKey": "読売新聞"
     }
   ]
 }
