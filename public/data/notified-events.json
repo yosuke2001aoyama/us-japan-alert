@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-08T00:35:45.935Z",
+  "updatedAt": "2026-08-08T02:32:18.032Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5138,6 +5138,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4Y2pMb1c2VmhrVlU1OEdLcHJ5Y3V2N2twLUdHMHhzX3JETHEwTGhCbV8tOWJfaVIxVHpkQUVJNlFXTmF4R1o1aFpqTzNndGhkYk1teDFNOWhyY2lvYlQ5OHpVSFZFM00",
       "articleTitleKey": "ヘッジファンドの円売り越し幅が約半減 日米当局の協調介入後に",
       "articleSourceKey": "newsdig.tbs.co.jp"
+    },
+    {
+      "id": "4947a3a9d620dad63ea76cd0",
+      "title": "日米協調の介入 さらなる為替介入は？ 4月30日は約6.3兆円で過去最大",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1TzR5b2QxZ3RLbTUzcXR4bXN6V0F0OFVhTXA2OTJ1cmpnV2xBbVhKNE1oZ3ViSkZCT1pDbWdXOFNDUDFVRmF6V2M3U2FvX3E4LXVwSmJYSGVsdVpLVU1EcGhiakNreHp4aHNaSGlfZjhYZw?oc=5",
+      "source": "テレ朝NEWS",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-08T01:46:23.000Z",
+      "notifiedAt": "2026-08-08T02:32:18.032Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1TzR5b2QxZ3RLbTUzcXR4bXN6V0F0OFVhTXA2OTJ1cmpnV2xBbVhKNE1oZ3ViSkZCT1pDbWdXOFNDUDFVRmF6V2M3U2FvX3E4LXVwSmJYSGVsdVpLVU1EcGhiakNreHp4aHNaSGlfZjhYZw",
+      "articleTitleKey": "日米協調の介入 さらなる為替介入は 4月30日は約6 3兆円で過去最大",
+      "articleSourceKey": "テレ朝news"
+    },
+    {
+      "id": "1ef667083b88d3886c99ee72",
+      "title": "米上院が対ロシア制裁法案を可決 ロシア産原油・天然ガス輸入上位国に最大100％関税 日本は適用除外の可能性",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1OWc3ZEFqUC11RWVMNG9hVFRzektDczE1YUJjVzF0NzA2OFNKVDZlSGdONVFEOHVvS25ZQVhSSEp3OHk1MDVabDNIQ3lOdw?oc=5",
+      "source": "FNNプライムオンライン",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-08T02:15:00.000Z",
+      "notifiedAt": "2026-08-08T02:32:18.032Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1OWc3ZEFqUC11RWVMNG9hVFRzektDczE1YUJjVzF0NzA2OFNKVDZlSGdONVFEOHVvS25ZQVhSSEp3OHk1MDVabDNIQ3lOdw",
+      "articleTitleKey": "米上院が対ロシア制裁法案を可決 ロシア産原油 天然ガス輸入上位国に最大100 関税 日本は適用除外の可能性",
+      "articleSourceKey": "fnnプライムオンライン"
     }
   ]
 }
