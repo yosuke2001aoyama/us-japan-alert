@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-08T06:07:00.338Z",
+  "updatedAt": "2026-08-08T07:10:20.470Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5194,6 +5194,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wQmI0SFQyVHphSjlLU25PT0hKNHpyNGxsNDUwVjNfaTVXM2hrZDhkLXFlYVJ5ZWxpYVNEdFJ0cVpUYUsyS0VWNm84TjVNeDNsdVNrTEQzbVFQa2RDeWtwSkV3",
       "articleTitleKey": "米上院 露制裁法案可決 エネ主要輸入国に関税",
       "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "e35bedbdefe0b20352fe3848",
+      "title": "対露制裁法案が米上院で可決 原油購入上位国に関税、日本除外か",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZSi15LV9SOUVRMlVLYkt6d1Fabzh6aEJGeURIT1Q4ay1hVlVfMlQwUVQ5NDVHQVNFODYtRV80TllubG15d290ejIyM09MbnJwamlsNU44TkhSYWtJS3ZXVkMyVGxJdkpp?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-08T01:50:11.000Z",
+      "notifiedAt": "2026-08-08T07:10:20.470Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZSi15LV9SOUVRMlVLYkt6d1Fabzh6aEJGeURIT1Q4ay1hVlVfMlQwUVQ5NDVHQVNFODYtRV80TllubG15d290ejIyM09MbnJwamlsNU44TkhSYWtJS3ZXVkMyVGxJdkpp",
+      "articleTitleKey": "対露制裁法案が米上院で可決 原油購入上位国に関税 日本除外か",
+      "articleSourceKey": "毎日新聞"
     }
   ]
 }
