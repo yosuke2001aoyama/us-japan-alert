@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:48:29.596Z",
+  "generatedAt": "2026-08-08T14:19:08.842Z",
   "mode": "live",
   "sources": {
     "ok": 109,
@@ -2109,6 +2109,25 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
+      "id": "YW1sa1ltMWhlRkZGTkVoVFZFRjRVUT9vYz01",
+      "title": "US yen intervention signals perfect storm rising in FX and bond markets",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOVhFamJnNjNYd1piUGFvMUR6WV9tSWVOdkdaa1lsYmd2UEp3blppbXVKYnZma2E5YjBHQWV1MlJoQjNSZFlQMW04RWRMSEQ3Ykl6Um9DNzJOTFBvSkxuMTVNSC1xWlpzbmtJZFpRMm5NWkxSUFZZRGlpcmpXYjBrNmJHR19UendSQUJzRElnZEtBal94dUUtVlhjN1pacWZNZE10Vlp3Qjk3ZTZzd3ZlZG5FWDROSkUybHNUZE1LamlkYm1heFFFNEhTVEF4UQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-04T23:30:25.000Z",
+      "summary": "",
+      "official": false,
+      "coverage": "major-media",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "通商・経済",
+      "priority": 81,
+      "english": true,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
       "id": "pWODRWREl0TjFCdVZsWlNRMjkwZVE_b2M9NQ",
       "title": "ベッセント氏、協調介入｢アジア通貨売りに波及警戒｣ 単独インタビュー",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HQ3h3dkJFbmNUdTlsMzdDTGkzX01sejkyejVuR29lenlwdllNZTlZY3FBLV9GajJBYTExXzZ4UV9GTXh5eWhRWUtRVUg3YmJMNkdOVF9lSDduZXFsZV84VDItN1BuVlZSQ290eQ?oc=5",
@@ -2514,7 +2533,7 @@
       "id": "Vm10dVMzRjNSWGRETTFKTVUyOURjQT9vYz01",
       "title": "US dollar weakens sharply against the Japanese yen after market interventions",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWkpfVU0zTnBZSEZnbmNLUUxSMzVoSzVTMk1xZVRyS1FaU1hHbXBlVlpIWHJsQ1owSndGU3hKS3Znc3RVUjFiS3VnUl9vWU54Y05JT1dWb19GeG50NkttOVZld1hNUndETHJOdzhBSnhsY3FtQml3dXRRWmZxbTVSOE0teE1wMldFVmtuS3F3RXdDM1JMU29DcA?oc=5",
-      "source": "apnews.com",
+      "source": "AP News",
       "publishedAt": "2026-08-04T03:06:00.000Z",
       "summary": "",
       "official": false,
@@ -3973,24 +3992,6 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "EyeFdXRmhzVGpKR1pWWmZhaTFZTkE_b2M9NQ",
-      "title": "日米、円買い協調介入か ２８年ぶり、円安阻止へ異例の連携",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBc2htUXV2VzhjZlg5dHQ4MzhQWUphRW0yUFF1VXduVFVfU2s4VnZrVmdRWEI2eWJ2RklWWFhWVnl6RHN0Z1ZoVHZxVTBzZ3BCdkZka2xWWFhsTjJGZVZfai1YNA?oc=5",
-      "source": "時事ドットコム",
-      "publishedAt": "2026-08-01T14:08:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBc2htUXV2VzhjZlg5dHQ4MzhQWUphRW0yUFF1VXduVFVfU2s4VnZrVmdRWEI2eWJ2RklWWFhWVnl6RHN0Z1ZoVHZxVTBzZ3BCdkZka2xWWFhsTjJGZVZfai1YNA?oc=5\" target=\"_blank\"&gt;日米、円買い協調介入か ２８年ぶり、円安阻止へ異例の連携&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事ドットコム&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 98,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "coverage": "major-media",
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
       "id": "RFY1RJM1FucGpjM1JwTFd4UU9WVkI_b2M9NQ",
       "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0lVZ3FOWEp0MkVGaWc4UkprSmVwZlZMSzBQRlBuQ3UzOEVuN09za080MDFQTHFfOVFGU1hsOUF3THBnbGc0Tk4zdi1sR0xBdHhJV3FiOTNmaEZkbWNWQ0VMRjROZXJUQ1VwX1BrS3NvdWRDYThPSWVhdnhZUmxHWHNsVEFRYTZFXy1CeTJVdW13SVpqcl9wdTBoRjdINnV6R0tEcTI3Qnpjc3RpLWxQOVVB?oc=5",
@@ -4278,7 +4279,7 @@
       "id": "M04zWm10clNYbElZM1IwWjBSUmJuYz9vYz01",
       "title": "Japan PBSS、第2回ウェビナー「Market Accessとは？」を開催",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTYWJNejZNUFJrVXpBWG9PZDNLYjVMVWtrOFVHd1dlLTkwMXgzcHBTTm40YlBfVzdHcTNUcEo4cEo0RzJ0aElfR0J4Z1dxT18ycU5hRUlpV09Gd3N3ZmtrSXlIY3R0Z0RRbnc?oc=5",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "publishedAt": "2026-07-28T01:30:01.000Z",
       "summary": "",
       "official": false,
@@ -4483,25 +4484,6 @@
       "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
     },
     {
-      "id": "kRzQ0TFhOdVdIZFpSbVJqUzJOUmJ3P29jPTU",
-      "title": "米中外相会談 9月のワシントンでの首脳会談に向けて「建設的な多くの話し合い」",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGcFNETmY3ZWNnSy1FYmhOWE5XdDd3MEVueUpPdnV1cjR6c3AwcnYyQ3JfMnd2UFoxT25IeTZwRDlXLVloR2tkdG44LXNuWHdZRmRjS2NRbw?oc=5",
-      "source": "TBS NEWS DIG",
-      "publishedAt": "2026-07-23T07:00:00.000Z",
-      "summary": "",
-      "official": false,
-      "coverage": "bilateral-signals",
-      "relevant": true,
-      "japanRelated": false,
-      "category": "首脳・閣僚",
-      "priority": 78,
-      "english": false,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
       "id": "NVazVOWFpuWDFKMU4zSldaV1o0UVE_b2M9NQ",
       "title": "Ambassador Greer Issues Statement on the European Union Creating Uncertainty in our Transatlantic Trade Relationship",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNdWoxV2JPU0VwT2FYanBPN2gxclhiVE5DQlc3TnF6NnRReEZsWVFXaFd0SVJDVnAzZFFMa3pITklIYlhZZlpQLXRvVjVYRlpkYlJ3UHdzaVVzSFRtcXFneWR2WkpBSkMwYjBONUV3bFk2UWhYR1pIVUNVQlJOYVUtbDdWTGQybjJ6RE9DNnNHYkJLU0FiVWtIVjJfM1JqR1R4SXl4c2lkd3dmTDNmRC1aRE5IT3lRSDdTa1JxX245YXpJcnpjTXNUX2VNaG9SSmQzaDVSc084S0FKeUcyMWtvME4wT04yN2MwQ3ZQMTBxSUk5NXZnX1J1N3JWZWZ4QQ?oc=5",
@@ -4519,6 +4501,25 @@
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "kRzQ0TFhOdVdIZFpSbVJqUzJOUmJ3P29jPTU",
+      "title": "米中外相会談 9月のワシントンでの首脳会談に向けて「建設的な多くの話し合い」",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGcFNETmY3ZWNnSy1FYmhOWE5XdDd3MEVueUpPdnV1cjR6c3AwcnYyQ3JfMnd2UFoxT25IeTZwRDlXLVloR2tkdG44LXNuWHdZRmRjS2NRbw?oc=5",
+      "source": "TBS NEWS DIG",
+      "publishedAt": "2026-07-22T17:17:20.000Z",
+      "summary": "",
+      "official": false,
+      "coverage": "bilateral-signals",
+      "relevant": true,
+      "japanRelated": false,
+      "category": "首脳・閣僚",
+      "priority": 78,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "tb2YtdGhlLWxpYmVyYXRpb24tb2YtZ3VhbS8",
