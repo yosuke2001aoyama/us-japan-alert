@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-07T23:52:05.957Z",
+  "updatedAt": "2026-08-08T00:35:45.935Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5124,6 +5124,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PSmZONWlRd3dKTnBsSktVclpKTHd2M3BsZnZCRmN3NFRwUGZ6STM4eUM1RTJvZHhweGthV0xBWEc0dkdkQi03TTU3NXIyTkg0WTVuRTBMMWFYMDdNMnBwVnBkMGNuZU5QUnhJTg",
       "articleTitleKey": "投機勢の円売り幅 為替介入後に7割減 円高マグマ弱まる",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "eb8a8d9cfd0b5e8f4cbaab77",
+      "title": "ヘッジファンドの円売り越し幅が約半減、日米当局の協調介入後に",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4Y2pMb1c2VmhrVlU1OEdLcHJ5Y3V2N2twLUdHMHhzX3JETHEwTGhCbV8tOWJfaVIxVHpkQUVJNlFXTmF4R1o1aFpqTzNndGhkYk1teDFNOWhyY2lvYlQ5OHpVSFZFM00?oc=5",
+      "source": "newsdig.tbs.co.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-07T20:38:16.000Z",
+      "notifiedAt": "2026-08-08T00:35:45.935Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4Y2pMb1c2VmhrVlU1OEdLcHJ5Y3V2N2twLUdHMHhzX3JETHEwTGhCbV8tOWJfaVIxVHpkQUVJNlFXTmF4R1o1aFpqTzNndGhkYk1teDFNOWhyY2lvYlQ5OHpVSFZFM00",
+      "articleTitleKey": "ヘッジファンドの円売り越し幅が約半減 日米当局の協調介入後に",
+      "articleSourceKey": "newsdig.tbs.co.jp"
     }
   ]
 }
