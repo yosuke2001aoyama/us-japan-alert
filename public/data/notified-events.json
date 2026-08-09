@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-09T22:11:10.161Z",
+  "updatedAt": "2026-08-09T22:49:08.046Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5278,6 +5278,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16VVVyNjhlQi1HZEJpSXlDUkp5S2Y1aC1VNktHc0FpUThjYlNkSzFUQVk2Ynd0WmtGT1VlN0hrTWYzQUd3WmExZHNXODZJZktEY2ExeGw2OWR1dlo1RnN6cFdxaDRHVDRNdS1Uc1F1NnNxcDctbjJr",
       "articleTitleKey": "米の円買い介入に隠された準備通貨ドルへの危機感",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "a6758ce2c535f9c2c6c90c0b",
+      "title": "日米が協調して為替介入 覚えておきたい為替の歴史",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UTmpIcVVpTHgxNHROSE1VdEFQUGNMRDhjMFVaYnNJMEVXb1VIM3JEcWZDcG5HN29jWUtGNHVzaUNCOE14R25FbDNTQWtXQ2pQdXZYRnpn?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-09T22:34:48.000Z",
+      "notifiedAt": "2026-08-09T22:49:08.046Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UTmpIcVVpTHgxNHROSE1VdEFQUGNMRDhjMFVaYnNJMEVXb1VIM3JEcWZDcG5HN29jWUtGNHVzaUNCOE14R25FbDNTQWtXQ2pQdXZYRnpn",
+      "articleTitleKey": "日米が協調して為替介入 覚えておきたい為替の歴史",
+      "articleSourceKey": "朝日新聞"
     }
   ]
 }
