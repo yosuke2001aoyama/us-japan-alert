@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-09T04:53:57.407Z",
+  "updatedAt": "2026-08-09T05:40:57.541Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5236,6 +5236,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96QjkxNnRPelRZWHFyVVlXVXhYWW9INGFSV0dTSzNiemNnUExmem5GRGhjLWRzcFZXbFB1OW9tRm9UbERtZWM4ZW5LUDlSdw",
       "articleTitleKey": "債券市場が動かした日米協調介入",
       "articleSourceKey": "barrons.jiji.com"
+    },
+    {
+      "id": "720ad92a152a9d1582b253af",
+      "title": "「日本は円安で助けを求めていた」トランプ大統領“28年ぶり日米協調介入” 一方 食料品消費税“2年間1%”へ「財源なき減税は無責任」との批判も 円安の流れは変えられるか…【サンデーモーニング】",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QcVB1WC1UWEdVX1p1aUg2X3hyT2xVUmhyNkVCSUxOSDJiV1BMTHdYWUFXa21HMWIzd2g2MVRNQUZaN2t3QXQwdnFzS19Xank3NVI5NV9kdHNydFRtd0tTREF4Q3U?oc=5",
+      "source": "newsdig.tbs.co.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-09T05:00:00.000Z",
+      "notifiedAt": "2026-08-09T05:40:57.541Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QcVB1WC1UWEdVX1p1aUg2X3hyT2xVUmhyNkVCSUxOSDJiV1BMTHdYWUFXa21HMWIzd2g2MVRNQUZaN2t3QXQwdnFzS19Xank3NVI5NV9kdHNydFRtd0tTREF4Q3U",
+      "articleTitleKey": "日本は円安で助けを求めていた トランプ大統領 28年ぶり日米協調介入 一方 食料品消費税 2年間1 へ 財源なき減税は無責任 との批判も 円安の流れは変えられるか サンデーモーニング",
+      "articleSourceKey": "newsdig.tbs.co.jp"
+    },
+    {
+      "id": "7ede01fcbb91e37d9596208d",
+      "title": "28年ぶり「円買い」日米協調介入 アメリカの思惑は？ 円安是正へ日本に“圧力”か？【サンデーモーニング】",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RdXFVTUtXSUJ4V3Y4YllsdFFMWVNheHo5V0ZndGpaRmljTU80ODRzcl9FaVQxdUs3b01rT2dUZXJqMHZTNm5uNnFQNmZfeDQ0MjV1VFI5ZFAyck9PSUxmMkNaalQ?oc=5",
+      "source": "newsdig.tbs.co.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-09T04:50:00.000Z",
+      "notifiedAt": "2026-08-09T05:40:57.541Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RdXFVTUtXSUJ4V3Y4YllsdFFMWVNheHo5V0ZndGpaRmljTU80ODRzcl9FaVQxdUs3b01rT2dUZXJqMHZTNm5uNnFQNmZfeDQ0MjV1VFI5ZFAyck9PSUxmMkNaalQ",
+      "articleTitleKey": "28年ぶり 円買い 日米協調介入 アメリカの思惑は 円安是正へ日本に 圧力 か サンデーモーニング",
+      "articleSourceKey": "newsdig.tbs.co.jp"
     }
   ]
 }
