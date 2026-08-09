@@ -1,14 +1,13 @@
 {
-  "generatedAt": "2026-08-09T22:49:08.005Z",
+  "generatedAt": "2026-08-09T23:14:49.152Z",
   "mode": "live",
   "sources": {
-    "ok": 108,
-    "failed": 5,
+    "ok": 109,
+    "failed": 4,
     "total": 113,
     "failedNames": [
       "防衛省 · 報道資料",
       "防衛省 · 更新情報",
-      "USTR · July Releases Direct",
       "USTR · Press Office Direct",
       "Commerce · Press Releases Direct"
     ],
@@ -82,7 +81,7 @@
       {
         "id": "direct-official",
         "label": "一次情報・直接巡回",
-        "ok": 5,
+        "ok": 6,
         "total": 8
       },
       {
@@ -245,9 +244,9 @@
       "id": "Um05VWJFUnRaV000Wlc1TFVEbFNkdz9vYz01",
       "title": "債券市場が動かした日米協調介入",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96QjkxNnRPelRZWHFyVVlXVXhYWW9INGFSV0dTSzNiemNnUExmem5GRGhjLWRzcFZXbFB1OW9tRm9UbERtZWM4ZW5LUDlSdw?oc=5",
-      "source": "barrons.jiji.com",
+      "source": "バロンズ・ダイジェスト",
       "publishedAt": "2026-08-08T23:37:44.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE96QjkxNnRPelRZWHFyVVlXVXhYWW9INGFSV0dTSzNiemNnUExmem5GRGhjLWRzcFZXbFB1OW9tRm9UbERtZWM4ZW5LUDlSdw?oc=5\" target=\"_blank\"&gt;債券市場が動かした日米協調介入&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;barrons.jiji.com&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE96QjkxNnRPelRZWHFyVVlXVXhYWW9INGFSV0dTSzNiemNnUExmem5GRGhjLWRzcFZXbFB1OW9tRm9UbERtZWM4ZW5LUDlSdw?oc=5\" target=\"_blank\"&gt;債券市場が動かした日米協調介入&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;バロンズ・ダイジェスト&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 98,
       "japanRelated": true,
@@ -3672,25 +3671,6 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "NYYzVabVZVWVhrMllUaFhlVXhoWVE_b2M9NQ",
-      "title": "Japanese Delegation Visits Redstone Arsenal Officials > U.S. Pacific Command > News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSWxtRENYcEJGNVNOZnE5ZU5mWUQ2WVc1aGRGdldCR3VOdDIxYkJ0b0hVQ19Ob08yb0M1ejlITXlQeWQxR3B5VDJucGh1RHNpX0ZYQ0hYT1pOX082ejVhQ1pYN05XczQxNDZWNFMtNnRvdzF0WnJqYWotS1E3aU83Uld0Z05qVzEtYjNjUlc1ZmNZMU1FSXc5ZmVUYXk2YThXeUxhYQ?oc=5",
-      "source": "pacom.mil",
-      "publishedAt": "2026-08-02T10:47:12.000Z",
-      "summary": "",
-      "official": true,
-      "coverage": "us-security",
-      "relevant": true,
-      "japanRelated": true,
-      "category": "公式発表",
-      "priority": 76,
-      "english": true,
-      "socialPost": false,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
       "id": "WW5SdVZuZDJkVVpRVWxoc05rSlZUdz9vYz01",
       "title": "円安阻止へ日米が28年ぶりに協調介入 3日 片山さつき財務相が表明へ",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOF9LcjNMVEJEZFJ4SklhVVdLbTVVVWREVkwwekF1SnUyS3RrLTlrWjY2WlFWOUFLYkJXY0N5dWtqZ0pxaUhjRGpHcHp2YlFUR0RUVkoyeGdpMUViRU9vMGdGYnR1REltZmtCRl9PbV9tVDNPcGYtS21EOTYwYnRuVnd2dUZQUlhsNkJVTw?oc=5",
@@ -4281,6 +4261,25 @@
       "id": "9GVnRjbGcxYlhKYVlrb3dNMVp3VlE_b2M9NQ",
       "title": "日本成長戦略",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wRldNOVpod1RMT250YVZVckhEYm9oOWV0bWg0U2FIYzFyZ0dndDJQdU16NnhzdVM3eTUyT3lja0JOUWlkTW9Ca2o3dE16ZWs2R3FHQjBSZ1RVRUtTTEdDZDBndkNRaFRvOFVtclg1bXJaYkowM1ZwVQ?oc=5",
+      "source": "cas.go.jp",
+      "publishedAt": "2026-07-21T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "coverage": "jp-leadership",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "公式発表",
+      "priority": 61,
+      "english": false,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "I5TFR6TkpjVzh3U1ROeFYwWlNaRUU_b2M9NQ",
+      "title": "日本成長戦略本部（第２回）",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdEVtNFExTk1RbjFyZUZQNTY4TGxHN1pRaTNzZUZlUjhQQnFBTDlrNmJ0Qm4yZHc2TW5JS2ZmTjNxVjVrV1lSbzRQaWV2U01sME5RdEJ0LUlSTlR2dDJMOHBmcUNIcmFJVVpOSlZJNDRoUnlNRkgyY29LTzNJcW8wSTNxV0ZSZEE?oc=5",
       "source": "cas.go.jp",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "summary": "",
