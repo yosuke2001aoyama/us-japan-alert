@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T19:59:24.602Z",
+  "generatedAt": "2026-08-09T20:39:13.502Z",
   "mode": "live",
   "sources": {
     "ok": 109,
@@ -2142,6 +2142,25 @@
       "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
     },
     {
+      "id": "VXRjRWR6TmxsYVpIRXpOVE5VZUMxej9vYz01",
+      "title": "米 ベッセント財務長官 “協調介入は象徴的な意味合い”",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1NEpwTHdfVkNuRS1rRjNhT3Q2cXBjSUx2ay00eDVvNlpydm44U3pzU0YzZDRqSVVhWW15bVByUm0tMko3bUF3LWZEUDBIdTUtcEdzNllaZHEzNTNUeC1z?oc=5",
+      "source": "NHKニュース",
+      "publishedAt": "2026-08-04T14:40:30.000Z",
+      "summary": "",
+      "official": false,
+      "coverage": "major-media",
+      "relevant": true,
+      "japanRelated": false,
+      "category": "通商・経済",
+      "priority": 78,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
       "id": "tZDNRamxVUnpGS1NsTjZWMjQzUTI0P29jPTU",
       "title": "ベッセント氏、日銀総裁の名前挙げ「必要なこと実行すると信じている」…協調介入「単なる介入以上」と強調",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TS25qNHR6c3g2cmdLeHVzZUtkT1RsS2NwVDl2d0Z2UE1ubHFoNkVnaWdwNVgzbld4VDhCX2Y5U1A1dEFlR3NqMzFvUkZ2WF9sRFpQamd3QjlURzFKSlN6V243Q24?oc=5",
@@ -2346,7 +2365,7 @@
       "id": "Vm10dVMzRjNSWGRETTFKTVUyOURjQT9vYz01",
       "title": "US dollar weakens sharply against the Japanese yen after market interventions",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWkpfVU0zTnBZSEZnbmNLUUxSMzVoSzVTMk1xZVRyS1FaU1hHbXBlVlpIWHJsQ1owSndGU3hKS3Znc3RVUjFiS3VnUl9vWU54Y05JT1dWb19GeG50NkttOVZld1hNUndETHJOdzhBSnhsY3FtQml3dXRRWmZxbTVSOE0teE1wMldFVmtuS3F3RXdDM1JMU29DcA?oc=5",
-      "source": "apnews.com",
+      "source": "AP News",
       "publishedAt": "2026-08-04T03:06:00.000Z",
       "summary": "",
       "official": false,
@@ -3002,6 +3021,24 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
+      "id": "syUWs4elVrOVpUSFYyWVVRdGNEWjY_b2M9NQ",
+      "title": "日米、15年ぶり協調介入 財務相表明 円急騰一時155円台",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jQWVqQWRKTHYyRGhnYTc5S2htR2VSR3dVeXVIM280Q0lFMEhoTy1YaEI1SFJuS3Vqc2Rfa2RuQ2V3RTdiaVFlYnNRWFJZYlRXVTdlZ0FnYTk2Qk8zUk9ZTHV2YUQtcDZ6?oc=5",
+      "source": "毎日新聞",
+      "publishedAt": "2026-08-03T04:08:26.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jQWVqQWRKTHYyRGhnYTc5S2htR2VSR3dVeXVIM280Q0lFMEhoTy1YaEI1SFJuS3Vqc2Rfa2RuQ2V3RTdiaVFlYnNRWFJZYlRXVTdlZ0FnYTk2Qk8zUk9ZTHV2YUQtcDZ6?oc=5\" target=\"_blank\"&gt;日米、15年ぶり協調介入 財務相表明 円急騰一時155円台&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;毎日新聞&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 98,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
       "id": "5XbEJaR1pTWVdaRGVpMU9TRFJ4TlE_b2M9NQ",
       "title": "日銀の早期利上げ観測高まる 日米協調介入が後押し",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRVnh2cTFIWWVCcjFMVWhzcE1TV291dlJZai1vX2dKZTZhQnRRX1RLLWk2UGRja2QtVEhjUXRDSVRsNDJFYlVYckRfMjdIRUtIOVEzeEJ1cjZxQUNYNWlBZGZSYWZDei1OSDRxNQ?oc=5",
@@ -3273,12 +3310,12 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "wV1VHRldjalU0WlVaUlZuQlhSMHRzP29jPTU",
+      "id": "VmtWSlkyZFhaRVkxYXpKWVNGRnVWUT9vYz01",
       "title": "円相場が一時1ドル＝155円台に 日米の協調介入めぐる片山大臣の発言後に急速に円が買われる",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQlZKdG8xR1NISHlEV2dXamNFMVJPZHpMUVR3TmRGaDJIalR6RDNVX2l5N1d1c21TVk1Ibllrb0U2OVJINXlTWUk2RklPUTMwQ3gxZ012TGZkaUpCUkJWb0FlaUpWUGFWcjU4ZUZRVnBXR0ts?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZZmcwc1R5UzgzQS1xa1RaSWpwUUpjV2JLZDlEa3NteDZrdUFsREJXUFVXaEFSRUJlMjYzMFhPUzBNdkduWjZTVkVJY2dXZEY1azJYSFFuVQ?oc=5",
       "source": "TBS NEWS DIG",
       "publishedAt": "2026-08-03T01:12:41.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQlZKdG8xR1NISHlEV2dXamNFMVJPZHpMUVR3TmRGaDJIalR6RDNVX2l5N1d1c21TVk1Ibllrb0U2OVJINXlTWUk2RklPUTMwQ3gxZ012TGZkaUpCUkJWb0FlaUpWUGFWcjU4ZUZRVnBXR0ts?oc=5\" target=\"_blank\"&gt;円相場が一時1ドル＝155円台に 日米の協調介入めぐる片山大臣の発言後に急速に円が買われる&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZZmcwc1R5UzgzQS1xa1RaSWpwUUpjV2JLZDlEa3NteDZrdUFsREJXUFVXaEFSRUJlMjYzMFhPUzBNdkduWjZTVkVJY2dXZEY1azJYSFFuVQ?oc=5\" target=\"_blank\"&gt;円相場が一時1ドル＝155円台に 日米の協調介入めぐる片山大臣の発言後に急速に円が買われる&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 98,
       "japanRelated": true,
@@ -3455,12 +3492,12 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "oNVdIWlhPV2R3VVd0WVdHaENNa2RFP29jPTU",
+      "id": "WkRKSlNqQnNWM053TUdVNE9WVTNPQT9vYz01",
       "title": "【速報】28年ぶりの円買い日米協調介入 共同声明を発表「円の過度な変動や無秩序な動きに対処」片山さつき財務大臣",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpVkt2SFVWRjhMQzUxWjQ3SUIwOC0tTmF0cjVrWjNlQlFhUTJTYjRqbTlCdWU5SzZYYnhyWmFyYnBiU2pzTW5GS1Q4eUkwbHROMmpiMWlodWk3RzNNWWs2UHdBZ0h5WHZXOWdwUWtYWGhCMkdE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TQWVlZFhodVFNdGk5ZE16TDlqdUFNVUVydVlpeDFJUEozRlMwQkJ6QWViVW12N0gyc3BVWWNVUWNMRFlNcDJUZDJJSjBsV3NwMGU4OVU3OA?oc=5",
       "source": "TBS NEWS DIG",
       "publishedAt": "2026-08-02T23:49:20.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBpVkt2SFVWRjhMQzUxWjQ3SUIwOC0tTmF0cjVrWjNlQlFhUTJTYjRqbTlCdWU5SzZYYnhyWmFyYnBiU2pzTW5GS1Q4eUkwbHROMmpiMWlodWk3RzNNWWs2UHdBZ0h5WHZXOWdwUWtYWGhCMkdE?oc=5\" target=\"_blank\"&gt;【速報】28年ぶりの円買い日米協調介入 共同声明を発表「円の過度な変動や無秩序な動きに対処」片山さつき財務大臣&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/fon",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TQWVlZFhodVFNdGk5ZE16TDlqdUFNVUVydVlpeDFJUEozRlMwQkJ6QWViVW12N0gyc3BVWWNVUWNMRFlNcDJUZDJJSjBsV3NwMGU4OVU3OA?oc=5\" target=\"_blank\"&gt;【速報】28年ぶりの円買い日米協調介入 共同声明を発表「円の過度な変動や無秩序な動きに対処」片山さつき財務大臣&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 98,
       "japanRelated": true,
@@ -3509,12 +3546,12 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "xYWNsaFNRMlpzVm5sd1JtSmpVRVo2P29jPTU",
+      "id": "U1VWWlRXeENjVzR3YTNaR2NHMTBhdz9vYz01",
       "title": "ベッセント米財務長官「さらなる協調介入を躊躇することはない」 28年ぶりの円買い日米協調介入",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0WHIxY2xiWF91WEdtWlJrQVp4NV9kcnZTdWFIbVdfVGFndllqQVJJNkxVenQtUV9ibVYySjZPUFQ3Q0pteGNyRFh6VlhBVDRUOFhTdXFucjBUSVNmZHgtakJNZ01aclhSQ2ZsVnlwRmJjUEZ6?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tRHYwcG5tN0RhcnVjZTVkdEtzYksxRmY2RW1JVFcwOFpVR1BQTE1ZRExpZzNmeHBacFdXbDBrekdiSjF6Z1NESUVZTWxCcW4wa3ZGcG10aw?oc=5",
       "source": "TBS NEWS DIG",
       "publishedAt": "2026-08-02T23:44:29.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFB0WHIxY2xiWF91WEdtWlJrQVp4NV9kcnZTdWFIbVdfVGFndllqQVJJNkxVenQtUV9ibVYySjZPUFQ3Q0pteGNyRFh6VlhBVDRUOFhTdXFucjBUSVNmZHgtakJNZ01aclhSQ2ZsVnlwRmJjUEZ6?oc=5\" target=\"_blank\"&gt;ベッセント米財務長官「さらなる協調介入を躊躇することはない」 28年ぶりの円買い日米協調介入&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tRHYwcG5tN0RhcnVjZTVkdEtzYksxRmY2RW1JVFcwOFpVR1BQTE1ZRExpZzNmeHBacFdXbDBrekdiSjF6Z1NESUVZTWxCcW4wa3ZGcG10aw?oc=5\" target=\"_blank\"&gt;ベッセント米財務長官「さらなる協調介入を躊躇することはない」 28年ぶりの円買い日米協調介入&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 98,
       "japanRelated": true,
@@ -3726,6 +3763,25 @@
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "OXVYM2hIVUdORU9IVlJTV3M1TjNGej9vYz01",
+      "title": "日米で協調介入 片山財務相 “さらなる実施もちゅうちょせず” | NHKニュース | 株価・為替、財務省、日本銀行（日銀）",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82REtfSVQyVWpOY0VDQ0lVbDRHZHgyYmlJVWZhTUVzVmdRV1EtSU12cVVfQWs5VkpIb0l2QlRoc1NERFFSTlIweGljY3F3aG9uX3hHUGNEOHVRSWs5N3Fz?oc=5",
+      "source": "NHKニュース",
+      "publishedAt": "2026-08-02T20:01:10.000Z",
+      "summary": "",
+      "official": false,
+      "coverage": "major-media",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "通商・経済",
+      "priority": 86,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "dweFdFbHhjekJGT0dSWFR6Qk5la0U_b2M9NQ",
@@ -4240,6 +4296,25 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
+      "id": "OUViSE5MV25kUlVFUlNiVUoyWWsxTj9vYz01",
+      "title": "トランプ政権 新追加関税を発動 日本は既存税率あわせ12.5％",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kUERtTmlVUUY4VDl4VldZc2tHcG04TmZheEpEUmVFUFQxMnNyM08yNVhrbDhEWk5kYmdQWkhzQkhGOU1kSUxReTRTdHdjdk9EbHNLWndRUERSbUJ2Yk1N?oc=5",
+      "source": "NHKニュース",
+      "publishedAt": "2026-07-24T07:00:00.000Z",
+      "summary": "",
+      "official": false,
+      "coverage": "major-media",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "通商・経済",
+      "priority": 81,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
       "id": "UTRVbVJIT1ZseVpraFdObEJwUmtOQj9vYz01",
       "title": "U.S. Navy, Japan Maritime Self-Defense Force complete Mine Warfare Exercise 2JA",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQ3U5QTBZeGJoSEdZekpDS29HRERYYzg5Q2ptNXh0YVVaTHNNYUdLUjFodjdsUjc2YU4zbnFVT253M3cweGhqLVFQNDhRNWNjOWppbWVtd2gwbU5xay1scHR5cFdNbVM3SHZiQTFQdlZScU1RSjlHdTJCWTQxVll0M001Mk9WUWhhUEpXeDFZODJ2aDI3bnFXV2l2aFdpYlBibXBfY292ME1lZzU0VExDOG45WHJta0trRXdDZ1FKQkZscmQ4UmRHOVlyZkhWNlBpRkNB?oc=5",
@@ -4257,6 +4332,25 @@
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "aHpaWFppTm5CVU5VcGZWa0pLVDJsbj9vYz01",
+      "title": "関税措置めぐる日米合意から1年 なお不透明な状況続く",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OdGxPYWZCVDZKMlY1eG5TVkR2ZGZOWDNKNFJpSEhKclJNNGF3TGFZRFo1el9xMkNobWZsbUZjMU1VSWRyWFdEdlRGeWduUWhzZXZiNnBUNUpfVkJKT2ln?oc=5",
+      "source": "NHKニュース",
+      "publishedAt": "2026-07-23T07:00:00.000Z",
+      "summary": "",
+      "official": false,
+      "coverage": "major-media",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "通商・経済",
+      "priority": 86,
+      "english": false,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "MW5UbEZQVGt4VmVGb3lOVEE0TmxOQj9vYz01",
@@ -4295,6 +4389,25 @@
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "YzJTMmhDZW5FM1ZXWkJhVEJyY2pKMz9vYz01",
+      "title": "米ルビオ国務長官 「イランが覚書を無効に」 NHK単独取材に",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YeDM0ajJhTEQwUXBnT21vVVcwZHJLWDMwbXQ0MGs5cEtlR18zOFdpcWEwaHhUaFEtM3plS2tJQnhNS2stRXFBXzdYdUZ2c1c2S2hCenE3VWZBaTBrcjJ3?oc=5",
+      "source": "NHKニュース",
+      "publishedAt": "2026-07-23T07:00:00.000Z",
+      "summary": "",
+      "official": false,
+      "coverage": "major-media",
+      "relevant": true,
+      "japanRelated": false,
+      "category": "議会・政治",
+      "priority": 78,
+      "english": false,
+      "socialPost": false,
+      "verification": "reported-observation",
+      "verificationLabel": "報道・観測",
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
     },
     {
       "id": "NVazVOWFpuWDFKMU4zSldaV1o0UVE_b2M9NQ",
