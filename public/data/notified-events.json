@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-09T14:55:23.427Z",
+  "updatedAt": "2026-08-09T15:25:16.718Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5264,6 +5264,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RdXFVTUtXSUJ4V3Y4YllsdFFMWVNheHo5V0ZndGpaRmljTU80ODRzcl9FaVQxdUs3b01rT2dUZXJqMHZTNm5uNnFQNmZfeDQ0MjV1VFI5ZFAyck9PSUxmMkNaalQ",
       "articleTitleKey": "28年ぶり 円買い 日米協調介入 アメリカの思惑は 円安是正へ日本に 圧力 か サンデーモーニング",
       "articleSourceKey": "newsdig.tbs.co.jp"
+    },
+    {
+      "id": "1e6e07b257324651d41d596b",
+      "title": "米の円買い介入に隠された準備通貨ドルへの危機感",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16VVVyNjhlQi1HZEJpSXlDUkp5S2Y1aC1VNktHc0FpUThjYlNkSzFUQVk2Ynd0WmtGT1VlN0hrTWYzQUd3WmExZHNXODZJZktEY2ExeGw2OWR1dlo1RnN6cFdxaDRHVDRNdS1Uc1F1NnNxcDctbjJr?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-09T15:00:00.000Z",
+      "notifiedAt": "2026-08-09T15:25:16.718Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16VVVyNjhlQi1HZEJpSXlDUkp5S2Y1aC1VNktHc0FpUThjYlNkSzFUQVk2Ynd0WmtGT1VlN0hrTWYzQUd3WmExZHNXODZJZktEY2ExeGw2OWR1dlo1RnN6cFdxaDRHVDRNdS1Uc1F1NnNxcDctbjJr",
+      "articleTitleKey": "米の円買い介入に隠された準備通貨ドルへの危機感",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
