@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T18:56:10.416Z",
+  "generatedAt": "2026-08-09T19:29:49.001Z",
   "mode": "live",
   "sources": {
     "ok": 109,
@@ -149,24 +149,6 @@
       "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
-      "id": "BrNVJXSjRXV3hqVTFkSE9HbGhhM2M_b2M9NQ",
-      "title": "【社説】異例の日米協調介入 円安対策の正攻法は財政規律の回復",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMaERBb3dEeVJoTW5Ga3k5WHdpNW1xYkk2MDBQTTNoX0ZId3ROb3hQZFhKVUlONFkzV1RfSTJ2RFJmZ2MyT0FBeU1La3J5Z0o1ZjJTRTZKOGpCM0k5RWJ4WWxjU1dHOGlha3c?oc=5",
-      "source": "朝日新聞",
-      "publishedAt": "2026-08-09T12:06:27.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBMaERBb3dEeVJoTW5Ga3k5WHdpNW1xYkk2MDBQTTNoX0ZId3ROb3hQZFhKVUlONFkzV1RfSTJ2RFJmZ2MyT0FBeU1La3J5Z0o1ZjJTRTZKOGpCM0k5RWJ4WWxjU1dHOGlha3c?oc=5\" target=\"_blank\"&gt;【社説】異例の日米協調介入 円安対策の正攻法は財政規律の回復&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;朝日新聞&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 98,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "coverage": "major-media",
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
       "id": "NscFdlbXhIVlc5bVF6Z3pTRzFwVFE_b2M9NQ",
       "title": "長崎原爆犠牲者慰霊平和祈念式典参列等についての会見",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00V2JvdUxEOTVHaS1KUUJhamgydGpIYVdwemlYaXpPMWR5bU5JZjF1dS1DZWdEUEFOc2s0V2lJNkhKZm9xdlIxeERnMllWM0tHS2lBWFVhdE9uQ2pkNEpoclpWemxHVW9mQzgzSG1pTQ?oc=5",
@@ -226,9 +208,9 @@
       "id": "Um05VWJFUnRaV000Wlc1TFVEbFNkdz9vYz01",
       "title": "債券市場が動かした日米協調介入",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96QjkxNnRPelRZWHFyVVlXVXhYWW9INGFSV0dTSzNiemNnUExmem5GRGhjLWRzcFZXbFB1OW9tRm9UbERtZWM4ZW5LUDlSdw?oc=5",
-      "source": "バロンズ・ダイジェスト",
+      "source": "barrons.jiji.com",
       "publishedAt": "2026-08-08T23:37:44.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE96QjkxNnRPelRZWHFyVVlXVXhYWW9INGFSV0dTSzNiemNnUExmem5GRGhjLWRzcFZXbFB1OW9tRm9UbERtZWM4ZW5LUDlSdw?oc=5\" target=\"_blank\"&gt;債券市場が動かした日米協調介入&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;バロンズ・ダイジェスト&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE96QjkxNnRPelRZWHFyVVlXVXhYWW9INGFSV0dTSzNiemNnUExmem5GRGhjLWRzcFZXbFB1OW9tRm9UbERtZWM4ZW5LUDlSdw?oc=5\" target=\"_blank\"&gt;債券市場が動かした日米協調介入&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;barrons.jiji.com&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 98,
       "japanRelated": true,
@@ -3439,7 +3421,7 @@
       "id": "FFMXFZVTg0VERGQk5XaFFTVWw0UVE_b2M9NQ",
       "title": "East Asia and Pacific Chair Young Kim Leads Delegation to South Korea, Japan, and Taiwan to Reaffirm America’s Indo-Pacific Alliances",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSDdzVzc4eTc5ZGkteFN1N25SQUhyWXEtbGtoU2VUYzl2VGNXUkZFSDd5Nm0wMEszYzM4bDRtOUVvd3pIUjFxTEFmLW9HaDZpV3lia0swUzl2c3NnOHVRdVR6QWpkVG5YMXVNSV80MVdlODZ4Z1hIaTRraEo5MFJKT29Ic2lOSWgwUVpfYi0zQ2NTWlFzdzNFdWU5Tkh5TGtrdjlCRGNkRFg0X0ZsNERoV2cwaVJ3QmsyNDRhQktUTE9RRkVhY3piNmtrdkpJa1N4anFERHBhVjF1LWk2ZXE4Qm1VZlhXamx5a3llaFQ0aE1qYU84TDFBNWhQSUl4QQ?oc=5",
-      "source": "youngkim.house.gov",
+      "source": "Congresswoman Young Kim (.gov)",
       "publishedAt": "2026-08-02T23:54:40.000Z",
       "summary": "",
       "official": true,
