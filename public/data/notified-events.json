@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-09T23:14:49.318Z",
+  "updatedAt": "2026-08-09T23:48:39.566Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5292,6 +5292,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UTmpIcVVpTHgxNHROSE1VdEFQUGNMRDhjMFVaYnNJMEVXb1VIM3JEcWZDcG5HN29jWUtGNHVzaUNCOE14R25FbDNTQWtXQ2pQdXZYRnpn",
       "articleTitleKey": "日米が協調して為替介入 覚えておきたい為替の歴史",
       "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "693100b0398c8f661482b93d",
+      "title": "【社説】異例の日米協調介入 円安対策の正攻法は財政規律の回復",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMaERBb3dEeVJoTW5Ga3k5WHdpNW1xYkk2MDBQTTNoX0ZId3ROb3hQZFhKVUlONFkzV1RfSTJ2RFJmZ2MyT0FBeU1La3J5Z0o1ZjJTRTZKOGpCM0k5RWJ4WWxjU1dHOGlha3c?oc=5",
+      "source": "asahi.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-09T12:06:27.000Z",
+      "notifiedAt": "2026-08-09T23:48:39.566Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMaERBb3dEeVJoTW5Ga3k5WHdpNW1xYkk2MDBQTTNoX0ZId3ROb3hQZFhKVUlONFkzV1RfSTJ2RFJmZ2MyT0FBeU1La3J5Z0o1ZjJTRTZKOGpCM0k5RWJ4WWxjU1dHOGlha3c",
+      "articleTitleKey": "社説 異例の日米協調介入 円安対策の正攻法は財政規律の回復",
+      "articleSourceKey": "asahi.com"
     }
   ]
 }
