@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T15:44:28.742Z",
+  "updatedAt": "2026-08-10T16:34:31.862Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5558,6 +5558,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Scmt1dWxJcUdFMThUOUdpaHdQUWhPdFR6NkZ3dmx0ek8yRDhfbmJBNTg5SmxUT2dINU1mSlJqUmJXRXZ1bWxRZGF0ZVVlQWNmQnVPNFliOHY3YXE2cWVQYklWWU9uMnhuVDMxMA",
       "articleTitleKey": "円下落で一時159円台 協調介入後の半値戻す 中東緊張でドル買い",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "6a52864aa422c6c5cef1f5dc",
+      "title": "円安進行、対ドル一時１５９円台に…日米協調介入以降の上げ幅を半分打ち消す",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkSXhxR1N2bXJZRFhFRTNWQUN6djZPbnNxdTMyeEJjbkVCQzU0MGo5TzVfcWhGblk3Yldwemh5Q1ZMWVV0OW5sX20tZGJsOGZDWXpfTHpjcDFiNUd6by1XSjZCTm8?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T16:04:00.000Z",
+      "notifiedAt": "2026-08-10T16:34:31.862Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkSXhxR1N2bXJZRFhFRTNWQUN6djZPbnNxdTMyeEJjbkVCQzU0MGo5TzVfcWhGblk3Yldwemh5Q1ZMWVV0OW5sX20tZGJsOGZDWXpfTHpjcDFiNUd6by1XSjZCTm8",
+      "articleTitleKey": "円安進行 対ドル一時159円台に 日米協調介入以降の上げ幅を半分打ち消す",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "aa622a5d24630e775b5eafb5",
+      "title": "ロンドン外為10日 ユーロ、対ドルで横ばい圏 円相場は一時159円台へ下落",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JQlJLM3QzTTI1b1U5bk5DcGRLODJWcGRKTTU5N0ZpbU1fVzBDd3VhQ2dlS0NMVnVLemR3ZEM5bkp1ckFvQ1FQZFd4dUxRVFhFM1BhTVN0elVsbmZ5eWFrYVF2ZzRTSHhYNjYzUA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T15:59:38.000Z",
+      "notifiedAt": "2026-08-10T16:34:31.862Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JQlJLM3QzTTI1b1U5bk5DcGRLODJWcGRKTTU5N0ZpbU1fVzBDd3VhQ2dlS0NMVnVLemR3ZEM5bkp1ckFvQ1FQZFd4dUxRVFhFM1BhTVN0elVsbmZ5eWFrYVF2ZzRTSHhYNjYzUA",
+      "articleTitleKey": "ロンドン外為10日 ユーロ 対ドルで横ばい圏 円相場は一時159円台へ下落",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "de720d3d5b68b442971df8fa",
+      "title": "◎〔東京外為〕ドル円、横ばい＝米雇用統計後の買い戻し継続（１０日午後５時）",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QMmRBV2N3d1dtRUhDcW9Xa1pnemdrdU5DSEtaek1WV2Z4MmI3Y09YM0xOZGRTaWtyUmY5c2NFenNsaTl5TnI1cWRYNjNYbVNob3JQZw?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T04:26:10.000Z",
+      "notifiedAt": "2026-08-10T16:34:31.862Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QMmRBV2N3d1dtRUhDcW9Xa1pnemdrdU5DSEtaek1WV2Z4MmI3Y09YM0xOZGRTaWtyUmY5c2NFenNsaTl5TnI1cWRYNjNYbVNob3JQZw",
+      "articleTitleKey": "東京外為 ドル円 横ばい 米雇用統計後の買い戻し継続 10日午後5時",
+      "articleSourceKey": "時事通信ニュース"
     }
   ]
 }
