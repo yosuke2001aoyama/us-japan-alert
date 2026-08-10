@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T21:49:34.987Z",
+  "updatedAt": "2026-08-10T22:21:49.241Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5656,6 +5656,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mUnUtVVJNLVlLelBvYXVQTW10TEtudWdDZUE5T3dQbUdvMDJGRDROSDNqOEpPR3c0T2J0aDM2bWNmSUVRcDF2Vkd2aHpyYzI4dGU3NTJuZWJYM0FWOEw2Z2d2T25zSWZma3RMaTJmQUxJejdFcXc",
       "articleTitleKey": "協調介入 に関する記事一覧",
       "articleSourceKey": "aera digital"
+    },
+    {
+      "id": "d263e4f240d96ca9d4bee4ec",
+      "title": "NY円相場、大幅反落 1ドル=159円25〜35銭 原油高や米金利上昇受け",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWRHJnc2xLLVZGWTJ0M1kxVTFPM25HR3hJVC0yWkk2LU4td0JxTlZVQ2hwMV84NXBxTWgxU1pIRkZ0Wmw0NkRNWUtTc2pONHhZSXlDYmc5MHNwazAzUFB2ZTlrY0JpZ0sxVXVvdg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T21:56:23.000Z",
+      "notifiedAt": "2026-08-10T22:21:49.241Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWRHJnc2xLLVZGWTJ0M1kxVTFPM25HR3hJVC0yWkk2LU4td0JxTlZVQ2hwMV84NXBxTWgxU1pIRkZ0Wmw0NkRNWUtTc2pONHhZSXlDYmc5MHNwazAzUFB2ZTlrY0JpZ0sxVXVvdg",
+      "articleTitleKey": "ny円相場 大幅反落 1ドル 159円25 35銭 原油高や米金利上昇受け",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "56891f05ca09b6fc1843476f",
+      "title": "中国ＥＶ、活路求め日本へ＝自国市場鈍化、欧米関税障壁で",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzQVpKcnJsVjJ2RUFvNDFjM1ZEVFFNWEVWbTVSOGFOR200Qkt6TU1NUDRXMTA4TVRaYW9BRHBMT0ZmQmJmbV80cFlDMG9PTkduRW9XNw?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-10T07:45:00.000Z",
+      "notifiedAt": "2026-08-10T22:21:49.241Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzQVpKcnJsVjJ2RUFvNDFjM1ZEVFFNWEVWbTVSOGFOR200Qkt6TU1NUDRXMTA4TVRaYW9BRHBMT0ZmQmJmbV80cFlDMG9PTkduRW9XNw",
+      "articleTitleKey": "中国ev 活路求め日本へ 自国市場鈍化 欧米関税障壁で",
+      "articleSourceKey": "時事通信ニュース"
     }
   ]
 }
