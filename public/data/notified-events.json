@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T16:34:31.862Z",
+  "updatedAt": "2026-08-10T17:31:07.467Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5600,6 +5600,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QMmRBV2N3d1dtRUhDcW9Xa1pnemdrdU5DSEtaek1WV2Z4MmI3Y09YM0xOZGRTaWtyUmY5c2NFenNsaTl5TnI1cWRYNjNYbVNob3JQZw",
       "articleTitleKey": "東京外為 ドル円 横ばい 米雇用統計後の買い戻し継続 10日午後5時",
       "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "db03ee4d5e10d1efac05f8de",
+      "title": "I see that Representatives of the Islamic Republic of Iran are asking for compensation for the damage done to them during the last five month Military Conflict (started because,…",
+      "url": "https://www.trumpstruth.org/statuses/40702",
+      "source": "Truth Social · @realDonaldTrump · President Donald Trump",
+      "category": "外交・安保",
+      "priority": 95,
+      "publishedAt": "2026-08-10T16:31:58.000Z",
+      "notifiedAt": "2026-08-10T17:31:07.467Z",
+      "baseline": false,
+      "articleUrlKey": "https://www.trumpstruth.org/statuses/40702",
+      "articleTitleKey": "i see that representatives of the islamic republic of iran are asking for compensation for the damage done to them during the last five month military conflict started because",
+      "articleSourceKey": "truth social · @realdonaldtrump · president donald trump"
     }
   ]
 }
