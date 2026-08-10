@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T13:53:38.483Z",
+  "updatedAt": "2026-08-10T14:49:47.737Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5530,6 +5530,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16dDJlbmF3MXd2dUxYMmtRbHNjNlp4ZXk4NVB2NE1NRHZkUzh3NDc0VnFaS1pPUDlVSlVlQnZEd3RqWFdWSWJWeHVXTkJXRmZINmo5MENaWFBxOW1FMXowUVBaamx1clJX",
       "articleTitleKey": "米政府 植田総裁発言受け協調介入決定 9月会合で利上げ見通し",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "6d5ee07c521b0bafacca54f2",
+      "title": "【速報】円安進み1ドル＝159円台に 先日の「日米協調介入」以降で初",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rZmxnOXFNT2lMOTBxQThKRk91ZTJrNkF6Y3VxR3Z0MXdiTzVXNFcxMDZFVFlfQ2ZSbHpRUzJVSnpYRnNKSW1JWHRoQVotc2taQ043SjByaXRnalJsNXBCSk1vTk1DcGFhRTVEZkJTWFN6Zw?oc=5",
+      "source": "テレ朝NEWS",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T14:01:21.000Z",
+      "notifiedAt": "2026-08-10T14:49:47.737Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rZmxnOXFNT2lMOTBxQThKRk91ZTJrNkF6Y3VxR3Z0MXdiTzVXNFcxMDZFVFlfQ2ZSbHpRUzJVSnpYRnNKSW1JWHRoQVotc2taQ043SjByaXRnalJsNXBCSk1vTk1DcGFhRTVEZkJTWFN6Zw",
+      "articleTitleKey": "円安進み1ドル 159円台に 先日の 日米協調介入 以降で初",
+      "articleSourceKey": "テレ朝news"
+    },
+    {
+      "id": "9e487cf765ea72da9f797a23",
+      "title": "円下落で一時159円台 協調介入後の半値戻す、中東緊張でドル買い",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Scmt1dWxJcUdFMThUOUdpaHdQUWhPdFR6NkZ3dmx0ek8yRDhfbmJBNTg5SmxUT2dINU1mSlJqUmJXRXZ1bWxRZGF0ZVVlQWNmQnVPNFliOHY3YXE2cWVQYklWWU9uMnhuVDMxMA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T13:53:41.000Z",
+      "notifiedAt": "2026-08-10T14:49:47.737Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Scmt1dWxJcUdFMThUOUdpaHdQUWhPdFR6NkZ3dmx0ek8yRDhfbmJBNTg5SmxUT2dINU1mSlJqUmJXRXZ1bWxRZGF0ZVVlQWNmQnVPNFliOHY3YXE2cWVQYklWWU9uMnhuVDMxMA",
+      "articleTitleKey": "円下落で一時159円台 協調介入後の半値戻す 中東緊張でドル買い",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
