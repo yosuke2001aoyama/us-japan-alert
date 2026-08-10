@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T20:09:40.759Z",
+  "updatedAt": "2026-08-10T20:59:54.241Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5614,6 +5614,20 @@
       "articleUrlKey": "https://www.trumpstruth.org/statuses/40702",
       "articleTitleKey": "i see that representatives of the islamic republic of iran are asking for compensation for the damage done to them during the last five month military conflict started because",
       "articleSourceKey": "truth social · @realdonaldtrump · president donald trump"
+    },
+    {
+      "id": "3c7aabaa5f0465bc2ac41c1a",
+      "title": "はや薄れる日米協調介入の神通力 円159円台、半値戻す",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCZGJnYlZzT01zQ3hMUUJDeUx0cDd1eDlYT19JWXVrNFdMSGdKQ1Y4ZENuSXl5dkxYR2g1RU4zNTRpcFBzZUVnb3VvZlh1ZjhVZlQxR0ZqU19Ec2lqMnRqbnVJd09DR3ZrN3lyWQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T20:55:44.000Z",
+      "notifiedAt": "2026-08-10T20:59:54.241Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCZGJnYlZzT01zQ3hMUUJDeUx0cDd1eDlYT19JWXVrNFdMSGdKQ1Y4ZENuSXl5dkxYR2g1RU4zNTRpcFBzZUVnb3VvZlh1ZjhVZlQxR0ZqU19Ec2lqMnRqbnVJd09DR3ZrN3lyWQ",
+      "articleTitleKey": "はや薄れる日米協調介入の神通力 円159円台 半値戻す",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
