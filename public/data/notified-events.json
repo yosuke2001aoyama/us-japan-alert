@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T02:57:12.451Z",
+  "updatedAt": "2026-08-10T04:37:18.924Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5376,6 +5376,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NZ1JmeklQS3NVMWJENTN5QTBFLW5NWnB0X0MyOThrUTZSakI2R3hjUXdGOTNwQ0VVUWVReW9IYTJ0Z09uanpYb3o5U2dPNFdNU2xITlhSSU1lLVBVdTg3MGZMTVFtSUtiTmt2eg",
       "articleTitleKey": "外為10時 円相場 上げ幅縮小 一時158円台前半 中値 ドル買い の声",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "8320cf3fb3c018c57924b2ee",
+      "title": "外為12時 円相場、上昇し158円台前半 米雇用統計が下振れ 実需の売りで上値限定",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yZUQzRWVsc2k2anJTUmk3YWlmb0FsZ3p4dGc1djF1MGIzV2prblZqanc1bmlFWmdXNVJtLUlBbXJ4c0lkOG5wQnlLLV9lM2EzMnMtWG1OeUtNaTdTRXY2Zy10ckNsOVlUUkVndg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T03:18:51.000Z",
+      "notifiedAt": "2026-08-10T04:37:18.924Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yZUQzRWVsc2k2anJTUmk3YWlmb0FsZ3p4dGc1djF1MGIzV2prblZqanc1bmlFWmdXNVJtLUlBbXJ4c0lkOG5wQnlLLV9lM2EzMnMtWG1OeUtNaTdTRXY2Zy10ckNsOVlUUkVndg",
+      "articleTitleKey": "外為12時 円相場 上昇し158円台前半 米雇用統計が下振れ 実需の売りで上値限定",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "b0095a21e118f8f481eed69d",
+      "title": "円相場、１５８円２２～２３銭＝１０日正午現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WNTc0Unl5ZjJzSGhuTlpqQ20yZVgzZFNWVXBfWlBQeTBiaFN4bkFrVmtjQW4yZjdhektYRHpQdDYzcXpoSW5kOWpMTXc1YnVSTkV2Ug?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T03:07:00.000Z",
+      "notifiedAt": "2026-08-10T04:37:18.924Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WNTc0Unl5ZjJzSGhuTlpqQ20yZVgzZFNWVXBfWlBQeTBiaFN4bkFrVmtjQW4yZjdhektYRHpQdDYzcXpoSW5kOWpMTXc1YnVSTkV2Ug",
+      "articleTitleKey": "円相場 158円22 23銭 10日正午現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "82c91c373d1ae279e1f91f72",
+      "title": "円相場、１５８円２２～２３銭 １０日正午現在：時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5cnkyNFcwTGdwTGE2NjgxNkJueGR4ZFRQSmhLVTFPNkxnSVpZbVVxWFJsSFcxVTcydXdkTkRiMWIweWVVTjRRREFpVE02M25ZSU9qNS1adkRQVF9YSlN3Wmwwbw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T03:07:00.000Z",
+      "notifiedAt": "2026-08-10T04:37:18.924Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5cnkyNFcwTGdwTGE2NjgxNkJueGR4ZFRQSmhLVTFPNkxnSVpZbVVxWFJsSFcxVTcydXdkTkRiMWIweWVVTjRRREFpVE02M25ZSU9qNS1adkRQVF9YSlN3Wmwwbw",
+      "articleTitleKey": "円相場 158円22 23銭 10日正午現在 時事ドットコム",
+      "articleSourceKey": "時事ドットコム"
     }
   ]
 }
