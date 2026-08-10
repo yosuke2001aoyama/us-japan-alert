@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T00:38:37.087Z",
+  "updatedAt": "2026-08-10T02:57:12.451Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5347,6 +5347,34 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NQy03cnZKWDFCd0ZrS2RxY0JFUUFhX3U3STd2WFVIVC1WZ00tb2dnaHhUeUZRZ2NtN0s5RGVzaGE1azI1WjlCS0pCelBPTXRJNWl4SjlKVTdEY3c0VEVyUTd4Sm1NcmZ1R2FQNQ",
       "articleTitleKey": "外為8時30分 円相場 上昇し157円台後半 対ユーロでも小幅高",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "fd8874eaaaf7940abc36ac9c",
+      "title": "日米の金利差「当面は広がらない」との見方から円買い優勢に…週明けの円相場、１ドル＝１５８円台前半",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xbVF0TUIyYnMyMnA1YW1aNlFZLWwzTVd1Ym1Vd3NrWWFZbEFZdk1UQlVQLXVUWlI5SHVGY1l5VFY5NlBuN0s5UXVmMmxkWnQ0VXJUNm8taGZUVWk5ZmtIR0EzTWU?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T02:30:00.000Z",
+      "notifiedAt": "2026-08-10T02:57:12.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xbVF0TUIyYnMyMnA1YW1aNlFZLWwzTVd1Ym1Vd3NrWWFZbEFZdk1UQlVQLXVUWlI5SHVGY1l5VFY5NlBuN0s5UXVmMmxkWnQ0VXJUNm8taGZUVWk5ZmtIR0EzTWU",
+      "articleTitleKey": "日米の金利差 当面は広がらない との見方から円買い優勢に 週明けの円相場 1ドル 158円台前半",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "ad5391da5a6873672665242a",
+      "title": "外為10時 円相場、上げ幅縮小 一時158円台前半 中値「ドル買い」の声",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NZ1JmeklQS3NVMWJENTN5QTBFLW5NWnB0X0MyOThrUTZSakI2R3hjUXdGOTNwQ0VVUWVReW9IYTJ0Z09uanpYb3o5U2dPNFdNU2xITlhSSU1lLVBVdTg3MGZMTVFtSUtiTmt2eg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T01:26:32.000Z",
+      "notifiedAt": "2026-08-10T02:57:12.451Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NZ1JmeklQS3NVMWJENTN5QTBFLW5NWnB0X0MyOThrUTZSakI2R3hjUXdGOTNwQ0VVUWVReW9IYTJ0Z09uanpYb3o5U2dPNFdNU2xITlhSSU1lLVBVdTg3MGZMTVFtSUtiTmt2eg",
+      "articleTitleKey": "外為10時 円相場 上げ幅縮小 一時158円台前半 中値 ドル買い の声",
       "articleSourceKey": "日本経済新聞"
     }
   ]
