@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T07:56:45.885Z",
+  "updatedAt": "2026-08-10T09:18:07.856Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5446,6 +5446,62 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMRm9NVlpwWWRIYkJZRVJhb0ZmQ2pjaDRnbUJxTHhWaWhzcV9MbXZiOGhDRjJBYm54QTl6SGs4eHJ4bVEtT2F0YWpmSjJ1LUxMYm9SREhoNkk1MG44RklKV1RyY2RmTV9yYndJRFYyRnRqdw",
       "articleTitleKey": "28年ぶりの日米協調介入 アメリカ側のメリット は何 さらなる為替介入はある 記者が解説",
       "articleSourceKey": "テレ朝news"
+    },
+    {
+      "id": "559f1416c32159e1da8ba539",
+      "title": "円相場、対ドル１５８円４８～５０銭",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Ubk5jNDRFeFhTX2s5VmwwSDV5NUZqcnN5aFRDeFNiX0RFMEVJTHJDdlhsOVJXckNJT2cwcWo5a3FpY3VpWkVWcGdkQ3BhMUxmcE4zRUNPcHNqenY2YjRldV9wMW4?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T08:55:00.000Z",
+      "notifiedAt": "2026-08-10T09:18:07.856Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Ubk5jNDRFeFhTX2s5VmwwSDV5NUZqcnN5aFRDeFNiX0RFMEVJTHJDdlhsOVJXckNJT2cwcWo5a3FpY3VpWkVWcGdkQ3BhMUxmcE4zRUNPcHNqenY2YjRldV9wMW4",
+      "articleTitleKey": "円相場 対ドル158円48 50銭",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "9eb3f4e2ec59bdd6a6212218",
+      "title": "外為17時 円相場、3日続落 対ユーロは5日続落",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nRXgxanRMQ3kwZWYyS3F0Y0NTZFQycC1wSXIxaHZmNkQ0SWt1VURmREV0UE83THJlNEVTY0xtbjFrWEU3MmZRMUt5XzVTMl9LY1VkaFJHTEJndkM4TFBNTlVWaXQ4am92ejlPcw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T08:40:17.000Z",
+      "notifiedAt": "2026-08-10T09:18:07.856Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nRXgxanRMQ3kwZWYyS3F0Y0NTZFQycC1wSXIxaHZmNkQ0SWt1VURmREV0UE83THJlNEVTY0xtbjFrWEU3MmZRMUt5XzVTMl9LY1VkaFJHTEJndkM4TFBNTlVWaXQ4am92ejlPcw",
+      "articleTitleKey": "外為17時 円相場 3日続落 対ユーロは5日続落",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "e5673141ca25a55eff99a806",
+      "title": "円相場、１５８円４８～５０銭＝１０日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1id3AwTlJsQTN5TWJfWE4za2xWZzJGZlVGNV9UV0lrdFgxRUt2TjRPaDFZMDFTZ1ZRSVJraV9WMEVFYXNFNmlVWmNnTlpCRHVNSVNQQg?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T08:09:00.000Z",
+      "notifiedAt": "2026-08-10T09:18:07.856Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1id3AwTlJsQTN5TWJfWE4za2xWZzJGZlVGNV9UV0lrdFgxRUt2TjRPaDFZMDFTZ1ZRSVJraV9WMEVFYXNFNmlVWmNnTlpCRHVNSVNQQg",
+      "articleTitleKey": "円相場 158円48 50銭 10日午後5時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "b14036a2d6adc38b2c5dceda",
+      "title": "円相場、１５８円４８～５０銭 １０日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VZEQzdVRzcUhUb2lxSVBYSlBQYWNXSFBtZmJTc2FIdmxoZGJxdlRtdC0wQktYQ2YxVktZLUV3ZFZUeUpKTktOU1BTdXpJY3NaOUV0ckVGNnQwZVRORTRGQm5tZw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T08:06:00.000Z",
+      "notifiedAt": "2026-08-10T09:18:07.856Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VZEQzdVRzcUhUb2lxSVBYSlBQYWNXSFBtZmJTc2FIdmxoZGJxdlRtdC0wQktYQ2YxVktZLUV3ZFZUeUpKTktOU1BTdXpJY3NaOUV0ckVGNnQwZVRORTRGQm5tZw",
+      "articleTitleKey": "円相場 158円48 50銭 10日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
     }
   ]
 }
