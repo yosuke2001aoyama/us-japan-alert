@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T22:21:49.241Z",
+  "updatedAt": "2026-08-10T23:01:25.347Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5684,6 +5684,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzQVpKcnJsVjJ2RUFvNDFjM1ZEVFFNWEVWbTVSOGFOR200Qkt6TU1NUDRXMTA4TVRaYW9BRHBMT0ZmQmJmbV80cFlDMG9PTkduRW9XNw",
       "articleTitleKey": "中国ev 活路求め日本へ 自国市場鈍化 欧米関税障壁で",
       "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "33a9f32dfbf04e9e43658e29",
+      "title": "円が対ドル159円台に下落、日米協調介入による上昇の半分消える",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBXdlYtRC1HUmk3RzR5bm9lOWpUQTg0VVdFT1lLeFUzNzMwT0Jnd3Z2N21YM25OT3NxOXB5ZEszQlVjWWdyaEg1dnQ1d2JzUnA1ZEN1OGdybU1aeGpLNW5wcXRJeVAtV20zbG9PbnhzSXNXbkFQ?oc=5",
+      "source": "newsdig.tbs.co.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T22:19:00.000Z",
+      "notifiedAt": "2026-08-10T23:01:25.347Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBXdlYtRC1HUmk3RzR5bm9lOWpUQTg0VVdFT1lLeFUzNzMwT0Jnd3Z2N21YM25OT3NxOXB5ZEszQlVjWWdyaEg1dnQ1d2JzUnA1ZEN1OGdybU1aeGpLNW5wcXRJeVAtV20zbG9PbnhzSXNXbkFQ",
+      "articleTitleKey": "円が対ドル159円台に下落 日米協調介入による上昇の半分消える",
+      "articleSourceKey": "newsdig.tbs.co.jp"
     }
   ]
 }
