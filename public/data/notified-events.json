@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T04:37:18.924Z",
+  "updatedAt": "2026-08-10T06:00:16.098Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5418,6 +5418,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5cnkyNFcwTGdwTGE2NjgxNkJueGR4ZFRQSmhLVTFPNkxnSVpZbVVxWFJsSFcxVTcydXdkTkRiMWIweWVVTjRRREFpVE02M25ZSU9qNS1adkRQVF9YSlN3Wmwwbw",
       "articleTitleKey": "円相場 158円22 23銭 10日正午現在 時事ドットコム",
       "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "3a4788f987a24e058c68ee04",
+      "title": "外為14時 円相場、伸び悩み 158円台前半",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QYTRrRTVLazJlaUg3Y1BLSnZmSFlBZ25XRTNVWTJ3RHUxVTRYSXJRVjc4VVF0dllySFZSbFl3N0YzUl9nU3Q2czkzazZPVEt3amJsZHI4UlU2cXBxMjhjVW1Yb1JlZFdzU0h3TA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T05:19:47.000Z",
+      "notifiedAt": "2026-08-10T06:00:16.098Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QYTRrRTVLazJlaUg3Y1BLSnZmSFlBZ25XRTNVWTJ3RHUxVTRYSXJRVjc4VVF0dllySFZSbFl3N0YzUl9nU3Q2czkzazZPVEt3amJsZHI4UlU2cXBxMjhjVW1Yb1JlZFdzU0h3TA",
+      "articleTitleKey": "外為14時 円相場 伸び悩み 158円台前半",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "45e2ac07f6f7c240ed06898d",
+      "title": "28年ぶりの日米協調介入、“アメリカ側のメリット”は何？ さらなる為替介入はある？ 記者が解説",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMRm9NVlpwWWRIYkJZRVJhb0ZmQ2pjaDRnbUJxTHhWaWhzcV9MbXZiOGhDRjJBYm54QTl6SGs4eHJ4bVEtT2F0YWpmSjJ1LUxMYm9SREhoNkk1MG44RklKV1RyY2RmTV9yYndJRFYyRnRqdw?oc=5",
+      "source": "テレ朝NEWS",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T05:00:00.000Z",
+      "notifiedAt": "2026-08-10T06:00:16.098Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMRm9NVlpwWWRIYkJZRVJhb0ZmQ2pjaDRnbUJxTHhWaWhzcV9MbXZiOGhDRjJBYm54QTl6SGs4eHJ4bVEtT2F0YWpmSjJ1LUxMYm9SREhoNkk1MG44RklKV1RyY2RmTV9yYndJRFYyRnRqdw",
+      "articleTitleKey": "28年ぶりの日米協調介入 アメリカ側のメリット は何 さらなる為替介入はある 記者が解説",
+      "articleSourceKey": "テレ朝news"
     }
   ]
 }
