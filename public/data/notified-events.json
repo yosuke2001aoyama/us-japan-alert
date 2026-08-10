@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T12:25:46.521Z",
+  "updatedAt": "2026-08-10T13:53:38.483Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5516,6 +5516,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAweHhXYnFEUmtQQUpuY1JSRVJESW5oYnpNS1hVcFpObi1PVC1CWENwbUpYdnlkTWVhQUNTSXhLSUZyWVNIMjg3cERpeXpOS3hPcEdpbDZBblZUakdzX3VR",
       "articleTitleKey": "日本特殊陶業 米自動車部品事業から撤退 コロナ 関税で不採算",
       "articleSourceKey": "時事エクイティ"
+    },
+    {
+      "id": "30627f0719f4e42f9799d96c",
+      "title": "米政府、植田総裁発言受け協調介入決定 9月会合で利上げ見通し",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16dDJlbmF3MXd2dUxYMmtRbHNjNlp4ZXk4NVB2NE1NRHZkUzh3NDc0VnFaS1pPUDlVSlVlQnZEd3RqWFdWSWJWeHVXTkJXRmZINmo5MENaWFBxOW1FMXowUVBaamx1clJX?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T13:00:00.000Z",
+      "notifiedAt": "2026-08-10T13:53:38.483Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16dDJlbmF3MXd2dUxYMmtRbHNjNlp4ZXk4NVB2NE1NRHZkUzh3NDc0VnFaS1pPUDlVSlVlQnZEd3RqWFdWSWJWeHVXTkJXRmZINmo5MENaWFBxOW1FMXowUVBaamx1clJX",
+      "articleTitleKey": "米政府 植田総裁発言受け協調介入決定 9月会合で利上げ見通し",
+      "articleSourceKey": "毎日新聞"
     }
   ]
 }
