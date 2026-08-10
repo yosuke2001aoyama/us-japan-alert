@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-09T23:48:39.566Z",
+  "updatedAt": "2026-08-10T00:38:37.087Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5306,6 +5306,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMaERBb3dEeVJoTW5Ga3k5WHdpNW1xYkk2MDBQTTNoX0ZId3ROb3hQZFhKVUlONFkzV1RfSTJ2RFJmZ2MyT0FBeU1La3J5Z0o1ZjJTRTZKOGpCM0k5RWJ4WWxjU1dHOGlha3c",
       "articleTitleKey": "社説 異例の日米協調介入 円安対策の正攻法は財政規律の回復",
       "articleSourceKey": "asahi.com"
+    },
+    {
+      "id": "038536973f680037f5032641",
+      "title": "円相場、１５７円９０～９０銭＝１０日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnWWZhLUlzaVFXOHluaHVSUWs2X1Y3dWNkdHI0NkpoNTNDNGlFSlVxUUd2UTYxMXA3Q19xc2dmTXlwV2NYVzBVems2OXo2V0FHcDZXUw?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T00:05:00.000Z",
+      "notifiedAt": "2026-08-10T00:38:37.087Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnWWZhLUlzaVFXOHluaHVSUWs2X1Y3dWNkdHI0NkpoNTNDNGlFSlVxUUd2UTYxMXA3Q19xc2dmTXlwV2NYVzBVems2OXo2V0FHcDZXUw",
+      "articleTitleKey": "円相場 157円90 90銭 10日午前9時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "c354c1c93d2aca66a256711f",
+      "title": "円相場、１５７円９０～９０銭 １０日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xUV93LTNOUklScDI3T3ZRWnlFdVIzVjYzOG1PSjlQMW5sY3lDN1ZWOGlaelV5N3owbVBTZHU2Y0d0UkllZURfeFg0UktwU3NFTHlIRmFVR2hNbFc1emk2YTRsbw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T00:05:00.000Z",
+      "notifiedAt": "2026-08-10T00:38:37.087Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xUV93LTNOUklScDI3T3ZRWnlFdVIzVjYzOG1PSjlQMW5sY3lDN1ZWOGlaelV5N3owbVBTZHU2Y0d0UkllZURfeFg0UktwU3NFTHlIRmFVR2hNbFc1emk2YTRsbw",
+      "articleTitleKey": "円相場 157円90 90銭 10日午前9時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "0ea02caf109ae3d27d928e8c",
+      "title": "外為8時30分 円相場、上昇し157円台後半 対ユーロでも小幅高",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NQy03cnZKWDFCd0ZrS2RxY0JFUUFhX3U3STd2WFVIVC1WZ00tb2dnaHhUeUZRZ2NtN0s5RGVzaGE1azI1WjlCS0pCelBPTXRJNWl4SjlKVTdEY3c0VEVyUTd4Sm1NcmZ1R2FQNQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-09T23:50:06.000Z",
+      "notifiedAt": "2026-08-10T00:38:37.087Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NQy03cnZKWDFCd0ZrS2RxY0JFUUFhX3U3STd2WFVIVC1WZ00tb2dnaHhUeUZRZ2NtN0s5RGVzaGE1azI1WjlCS0pCelBPTXRJNWl4SjlKVTdEY3c0VEVyUTd4Sm1NcmZ1R2FQNQ",
+      "articleTitleKey": "外為8時30分 円相場 上昇し157円台後半 対ユーロでも小幅高",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
