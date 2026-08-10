@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T11:32:47.729Z",
+  "updatedAt": "2026-08-10T12:25:46.521Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5502,6 +5502,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VZEQzdVRzcUhUb2lxSVBYSlBQYWNXSFBtZmJTc2FIdmxoZGJxdlRtdC0wQktYQ2YxVktZLUV3ZFZUeUpKTktOU1BTdXpJY3NaOUV0ckVGNnQwZVRORTRGQm5tZw",
       "articleTitleKey": "円相場 158円48 50銭 10日午後5時現在",
       "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "977f7911d996901ec6f3d690",
+      "title": "日本特殊陶業、米自動車部品事業から撤退＝コロナ、関税で不採算",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAweHhXYnFEUmtQQUpuY1JSRVJESW5oYnpNS1hVcFpObi1PVC1CWENwbUpYdnlkTWVhQUNTSXhLSUZyWVNIMjg3cERpeXpOS3hPcEdpbDZBblZUakdzX3VR?oc=5",
+      "source": "時事エクイティ",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-10T03:29:00.000Z",
+      "notifiedAt": "2026-08-10T12:25:46.521Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAweHhXYnFEUmtQQUpuY1JSRVJESW5oYnpNS1hVcFpObi1PVC1CWENwbUpYdnlkTWVhQUNTSXhLSUZyWVNIMjg3cERpeXpOS3hPcEdpbDZBblZUakdzX3VR",
+      "articleTitleKey": "日本特殊陶業 米自動車部品事業から撤退 コロナ 関税で不採算",
+      "articleSourceKey": "時事エクイティ"
     }
   ]
 }
