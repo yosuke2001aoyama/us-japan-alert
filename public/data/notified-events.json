@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-10T20:59:54.241Z",
+  "updatedAt": "2026-08-10T21:49:34.987Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5628,6 +5628,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCZGJnYlZzT01zQ3hMUUJDeUx0cDd1eDlYT19JWXVrNFdMSGdKQ1Y4ZENuSXl5dkxYR2g1RU4zNTRpcFBzZUVnb3VvZlh1ZjhVZlQxR0ZqU19Ec2lqMnRqbnVJd09DR3ZrN3lyWQ",
       "articleTitleKey": "はや薄れる日米協調介入の神通力 円159円台 半値戻す",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "9ec5592ee19ad1bbc4977bb2",
+      "title": "一時1ドル＝159円台 円買いの日米協調介入の効果、半分失う",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LY1hzT28zaEMxTmdkb1hNZkUweWt4WmVQQVJPTERoWkYwNGtPNm5EZUVENjN6clU2ckNPTUQ0SndLMUpBekJZY0g4NmpVc0tPajRZWjI1VQ?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T21:35:29.000Z",
+      "notifiedAt": "2026-08-10T21:49:34.987Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LY1hzT28zaEMxTmdkb1hNZkUweWt4WmVQQVJPTERoWkYwNGtPNm5EZUVENjN6clU2ckNPTUQ0SndLMUpBekJZY0g4NmpVc0tPajRZWjI1VQ",
+      "articleTitleKey": "一時1ドル 159円台 円買いの日米協調介入の効果 半分失う",
+      "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "eb5b808149134f349c60383f",
+      "title": "「協調介入」に関する記事一覧",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mUnUtVVJNLVlLelBvYXVQTW10TEtudWdDZUE5T3dQbUdvMDJGRDROSDNqOEpPR3c0T2J0aDM2bWNmSUVRcDF2Vkd2aHpyYzI4dGU3NTJuZWJYM0FWOEw2Z2d2T25zSWZma3RMaTJmQUxJejdFcXc?oc=5",
+      "source": "AERA DIGITAL",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-10T21:03:33.000Z",
+      "notifiedAt": "2026-08-10T21:49:34.987Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mUnUtVVJNLVlLelBvYXVQTW10TEtudWdDZUE5T3dQbUdvMDJGRDROSDNqOEpPR3c0T2J0aDM2bWNmSUVRcDF2Vkd2aHpyYzI4dGU3NTJuZWJYM0FWOEw2Z2d2T25zSWZma3RMaTJmQUxJejdFcXc",
+      "articleTitleKey": "協調介入 に関する記事一覧",
+      "articleSourceKey": "aera digital"
     }
   ]
 }
