@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T15:32:17.244Z",
+  "updatedAt": "2026-08-11T16:27:44.793Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5823,6 +5823,34 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8weGZZc3c5YldnckhSSlBNRGZsRmZIZ1lzQnVzbElkbEhicXFzek9xUTdaTTA1b3BPR1ljNHlWWkpHZHZoSF9vX3VETWRHSlpEZXYwNWQ0azBkUFVnVkIzd1FqQkJOVUQzaHIzVFdwdjZyTjVFUE5z",
       "articleTitleKey": "米国のユーロ売り 円買い介入 欧州中銀には 不意打ち",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "fb05a8ac818974f7f008a2e0",
+      "title": "ロンドン外為11日 ユーロ、対ドルで底堅い 円相場は159円台前半",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtN3BUdVlhTnZsM1dycVptMHdRZ3g0S1pFSHM5UWxETjlUanVyb1YxVnpmUmxOOWRZckREaHZ2eFR1U3Z4Z3lsLWpGUXVDRXFYOHo5TFlKUlFleURzTTkxalZhUkdTNXJ0OTNSag?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T15:52:42.000Z",
+      "notifiedAt": "2026-08-11T16:27:44.793Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtN3BUdVlhTnZsM1dycVptMHdRZ3g0S1pFSHM5UWxETjlUanVyb1YxVnpmUmxOOWRZckREaHZ2eFR1U3Z4Z3lsLWpGUXVDRXFYOHo5TFlKUlFleURzTTkxalZhUkdTNXJ0OTNSag",
+      "articleTitleKey": "ロンドン外為11日 ユーロ 対ドルで底堅い 円相場は159円台前半",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "880ad0702d9fc979c82900e7",
+      "title": "大統領専用機「おとり」に極秘脱出か トランプ氏、イラン暗殺懸念で",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jbGZXZzJqdzI1UWIxWXVPd0FDQXVYQ2sxSDVRQ214aHhpYkhQR2dYNk84WnAtVE9oMFl0Tld2MDZqTzJLVXRtSXdrcnBreVdkTmkxclNQeDBmYW0xb0ZwNlJvdFQwbmhpTHJzNw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-11T16:16:31.000Z",
+      "notifiedAt": "2026-08-11T16:27:44.793Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jbGZXZzJqdzI1UWIxWXVPd0FDQXVYQ2sxSDVRQ214aHhpYkhQR2dYNk84WnAtVE9oMFl0Tld2MDZqTzJLVXRtSXdrcnBreVdkTmkxclNQeDBmYW0xb0ZwNlJvdFQwbmhpTHJzNw",
+      "articleTitleKey": "大統領専用機 おとり に極秘脱出か トランプ氏 イラン暗殺懸念で",
       "articleSourceKey": "日本経済新聞"
     }
   ]
