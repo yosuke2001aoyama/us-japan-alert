@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T20:20:00.796Z",
+  "updatedAt": "2026-08-11T21:08:51.793Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5880,6 +5880,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rWDVPQVNqUjRJY0Y2NERxNW1HX0dQR0ZZS2ctY2Zwb0xMUUlJQ0VHNE5TcFgyYmtsRnB3S1Z2R0UxT1FKVDNUMndBZmlsTlJGNmUzeU5NdzByV2dJNndpdTJ1SXlQZ0QxU3ptekJwV0R2OXQx",
       "articleTitleKey": "日米協調介入は 転換点 いずれ1ドル 125円に向かう ユーリゾン",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "cdf940786c33a4e870c2858a",
+      "title": "日米協調介入は「転換点」、いずれ1ドル＝125円に向かう－ユーリゾン",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42a3JrdHVDc0JrNWxwc01PajlmaW1fNUJ2LTZFTFFpZGdpbzFWVnIyRmpYSm5wUTBocW1QbVBnV2VEMzZtM1UyU3dMVk0xUkF2TlFEdDRlb0x6dkRBb1h5aHNvRzd3aDA?oc=5",
+      "source": "newsdig.tbs.co.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T19:14:08.000Z",
+      "notifiedAt": "2026-08-11T21:08:51.793Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42a3JrdHVDc0JrNWxwc01PajlmaW1fNUJ2LTZFTFFpZGdpbzFWVnIyRmpYSm5wUTBocW1QbVBnV2VEMzZtM1UyU3dMVk0xUkF2TlFEdDRlb0x6dkRBb1h5aHNvRzd3aDA",
+      "articleTitleKey": "日米協調介入は 転換点 いずれ1ドル 125円に向かう ユーリゾン",
+      "articleSourceKey": "newsdig.tbs.co.jp"
     }
   ]
 }
