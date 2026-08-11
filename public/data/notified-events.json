@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T12:02:55.155Z",
+  "updatedAt": "2026-08-11T13:25:26.404Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5782,6 +5782,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zQ281WVEyUlV1TUItUWxRSVJOaE12ZXVlWlNObEQ3dXh3aGJxaVVJZEhvV1MyTnQxZVFkUjJhYk9lSTJtWG1fdjRKaFF5UGVlWlJmcV94WXJqeHRtTDFJOVJiT1kzVGxZ",
       "articleTitleKey": "ny円 159円台前半 日米政府の介入効果半減 円売り優勢に",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "ebf828929c055537c4e1dfab",
+      "title": "一時1ドル＝159円台に再び円安進行 日米協調介入の円高効果“半分打ち消す”",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41OWRiX1BpbG9XbFVycnJwNWVXYV9ZZ2hFc0V2YlhmTVRoS1JHQXdJOFlnRXNaU0NzTkF1Vmx3dDloZ3dQZ1dtVWNycklKU2Z5cXZuaU4wOA?oc=5",
+      "source": "newsdig.tbs.co.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T03:51:24.000Z",
+      "notifiedAt": "2026-08-11T13:25:26.404Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41OWRiX1BpbG9XbFVycnJwNWVXYV9ZZ2hFc0V2YlhmTVRoS1JHQXdJOFlnRXNaU0NzTkF1Vmx3dDloZ3dQZ1dtVWNycklKU2Z5cXZuaU4wOA",
+      "articleTitleKey": "一時1ドル 159円台に再び円安進行 日米協調介入の円高効果 半分打ち消す",
+      "articleSourceKey": "newsdig.tbs.co.jp"
     }
   ]
 }
