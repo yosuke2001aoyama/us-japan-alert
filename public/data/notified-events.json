@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T02:37:25.401Z",
+  "updatedAt": "2026-08-11T04:04:47.640Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5740,6 +5740,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQS1g2aFpRSzRBM3RsRDNxcUR4ZUlzaGpuaENFejAzT1JZSFIyanV5UkVJNjhyekdJWTZIbE9TLTM0N2RVUkdsVWY2TjVUa3VFdmRib2dYZEFDV1paZlZCd2dFbkY3R2l3ekhtaEpfUnlETk9LR0h6RDlwTlNEampaQmdR",
       "articleTitleKey": "中国ev 活路求め日本へ 自国市場鈍化 欧米関税障壁で",
       "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "c5565aa1d3851159690a417d",
+      "title": "一時1ドル＝159円台に再び円安進行 日米協調介入の円高効果“半分打ち消す”",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41ZVZGSk9tVzlidTlBVHkwaVFta3VMMXAyN2lHdjhQMG9sMW00WFIxVUZqZHBRV3hJczllVHlsYUI5bUxDRGEwcnlsRWFHclBHUTdfekRzYjBHZkdoWlRsYTNyV0ZoQjdLVy1kb3VQaFphZUdZ?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T03:51:24.000Z",
+      "notifiedAt": "2026-08-11T04:04:47.640Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41ZVZGSk9tVzlidTlBVHkwaVFta3VMMXAyN2lHdjhQMG9sMW00WFIxVUZqZHBRV3hJczllVHlsYUI5bUxDRGEwcnlsRWFHclBHUTdfekRzYjBHZkdoWlRsYTNyV0ZoQjdLVy1kb3VQaFphZUdZ",
+      "articleTitleKey": "一時1ドル 159円台に再び円安進行 日米協調介入の円高効果 半分打ち消す",
+      "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "1910dee995468684f8b8a976",
+      "title": "WSJ日本版：［社説］円買い介入、近くまた必要か",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ETmd4aEl3d1NNeG5nUmFqRVdvWEdQaGNOeGYtUjNpMjV4b2ZjU2JwczFKcTlzWnNaV3RhT3J6SVBhYW52RHZqSlZBdUJ6NXBpSW1DWTAyY1h4QkVxYWkzQzFvSTI2Q0RO?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T01:44:00.000Z",
+      "notifiedAt": "2026-08-11T04:04:47.640Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ETmd4aEl3d1NNeG5nUmFqRVdvWEdQaGNOeGYtUjNpMjV4b2ZjU2JwczFKcTlzWnNaV3RhT3J6SVBhYW52RHZqSlZBdUJ6NXBpSW1DWTAyY1h4QkVxYWkzQzFvSTI2Q0RO",
+      "articleTitleKey": "wsj日本版 社説 円買い介入 近くまた必要か",
+      "articleSourceKey": "毎日新聞"
     }
   ]
 }
