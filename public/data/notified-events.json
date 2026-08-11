@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T19:33:23.904Z",
+  "updatedAt": "2026-08-11T20:20:00.796Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5852,6 +5852,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jbGZXZzJqdzI1UWIxWXVPd0FDQXVYQ2sxSDVRQ214aHhpYkhQR2dYNk84WnAtVE9oMFl0Tld2MDZqTzJLVXRtSXdrcnBreVdkTmkxclNQeDBmYW0xb0ZwNlJvdFQwbmhpTHJzNw",
       "articleTitleKey": "大統領専用機 おとり に極秘脱出か トランプ氏 イラン暗殺懸念で",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "881ecacf90ecf956d0b260dd",
+      "title": "Department of War Launches the 'Golden Dome for America Hub' To Accelerate Industry Engagement, Revolutionize Homeland Missile Defense Partnerships",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4568639/department-of-war-launches-the-golden-dome-for-america-hub-to-accelerate-indust/",
+      "source": "U.S. Department of War / Defense · Releases",
+      "category": "外交・安保",
+      "priority": 91,
+      "publishedAt": "2026-08-11T19:00:06.000Z",
+      "notifiedAt": "2026-08-11T20:20:00.796Z",
+      "baseline": false,
+      "articleUrlKey": "https://www.war.gov/News/Releases/Release/Article/4568639/department-of-war-launches-the-golden-dome-for-america-hub-to-accelerate-indust",
+      "articleTitleKey": "department of war launches the golden dome for america hub to accelerate industry engagement revolutionize homeland missile defense partnerships",
+      "articleSourceKey": "u.s. department of war / defense · releases"
+    },
+    {
+      "id": "cdaa47e389894e46e020d7c9",
+      "title": "日米協調介入は「転換点」、いずれ1ドル＝125円に向かう－ユーリゾン",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rWDVPQVNqUjRJY0Y2NERxNW1HX0dQR0ZZS2ctY2Zwb0xMUUlJQ0VHNE5TcFgyYmtsRnB3S1Z2R0UxT1FKVDNUMndBZmlsTlJGNmUzeU5NdzByV2dJNndpdTJ1SXlQZ0QxU3ptekJwV0R2OXQx?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T19:14:08.000Z",
+      "notifiedAt": "2026-08-11T20:20:00.796Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rWDVPQVNqUjRJY0Y2NERxNW1HX0dQR0ZZS2ctY2Zwb0xMUUlJQ0VHNE5TcFgyYmtsRnB3S1Z2R0UxT1FKVDNUMndBZmlsTlJGNmUzeU5NdzByV2dJNndpdTJ1SXlQZ0QxU3ptekJwV0R2OXQx",
+      "articleTitleKey": "日米協調介入は 転換点 いずれ1ドル 125円に向かう ユーリゾン",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
