@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T13:25:26.404Z",
+  "updatedAt": "2026-08-11T14:35:02.831Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5796,6 +5796,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41OWRiX1BpbG9XbFVycnJwNWVXYV9ZZ2hFc0V2YlhmTVRoS1JHQXdJOFlnRXNaU0NzTkF1Vmx3dDloZ3dQZ1dtVWNycklKU2Z5cXZuaU4wOA",
       "articleTitleKey": "一時1ドル 159円台に再び円安進行 日米協調介入の円高効果 半分打ち消す",
       "articleSourceKey": "newsdig.tbs.co.jp"
+    },
+    {
+      "id": "d35858cca5b40b0a92d169cd",
+      "title": "中国ＥＶ、活路求め日本へ 自国市場鈍化、欧米関税障壁で",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00bm02UXExZEZIOUtFSmhKWVFLNjQxWkgyUnFtWTNhcDVLbnpXaFFKbzhCbVlsc1NIQmRGU1VLQV9EazlxVkhWb1hwckNzX2E0REZIQVJoRGFxZWx4cmZEaU85Yw?oc=5",
+      "source": "jiji.com",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-10T22:07:00.000Z",
+      "notifiedAt": "2026-08-11T14:35:02.831Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00bm02UXExZEZIOUtFSmhKWVFLNjQxWkgyUnFtWTNhcDVLbnpXaFFKbzhCbVlsc1NIQmRGU1VLQV9EazlxVkhWb1hwckNzX2E0REZIQVJoRGFxZWx4cmZEaU85Yw",
+      "articleTitleKey": "中国ev 活路求め日本へ 自国市場鈍化 欧米関税障壁で",
+      "articleSourceKey": "jiji.com"
     }
   ]
 }
