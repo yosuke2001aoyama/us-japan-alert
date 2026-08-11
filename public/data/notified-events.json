@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T14:35:02.831Z",
+  "updatedAt": "2026-08-11T15:32:17.244Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5810,6 +5810,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00bm02UXExZEZIOUtFSmhKWVFLNjQxWkgyUnFtWTNhcDVLbnpXaFFKbzhCbVlsc1NIQmRGU1VLQV9EazlxVkhWb1hwckNzX2E0REZIQVJoRGFxZWx4cmZEaU85Yw",
       "articleTitleKey": "中国ev 活路求め日本へ 自国市場鈍化 欧米関税障壁で",
       "articleSourceKey": "jiji.com"
+    },
+    {
+      "id": "c1b4fbac53e5540e10796852",
+      "title": "米国のユーロ売り・円買い介入、欧州中銀には「不意打ち」",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8weGZZc3c5YldnckhSSlBNRGZsRmZIZ1lzQnVzbElkbEhicXFzek9xUTdaTTA1b3BPR1ljNHlWWkpHZHZoSF9vX3VETWRHSlpEZXYwNWQ0azBkUFVnVkIzd1FqQkJOVUQzaHIzVFdwdjZyTjVFUE5z?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T15:00:00.000Z",
+      "notifiedAt": "2026-08-11T15:32:17.244Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8weGZZc3c5YldnckhSSlBNRGZsRmZIZ1lzQnVzbElkbEhicXFzek9xUTdaTTA1b3BPR1ljNHlWWkpHZHZoSF9vX3VETWRHSlpEZXYwNWQ0azBkUFVnVkIzd1FqQkJOVUQzaHIzVFdwdjZyTjVFUE5z",
+      "articleTitleKey": "米国のユーロ売り 円買い介入 欧州中銀には 不意打ち",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
