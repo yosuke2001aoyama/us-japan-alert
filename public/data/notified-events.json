@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T00:34:40.309Z",
+  "updatedAt": "2026-08-11T02:37:25.401Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5698,6 +5698,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBXdlYtRC1HUmk3RzR5bm9lOWpUQTg0VVdFT1lLeFUzNzMwT0Jnd3Z2N21YM25OT3NxOXB5ZEszQlVjWWdyaEg1dnQ1d2JzUnA1ZEN1OGdybU1aeGpLNW5wcXRJeVAtV20zbG9PbnhzSXNXbkFQ",
       "articleTitleKey": "円が対ドル159円台に下落 日米協調介入による上昇の半分消える",
       "articleSourceKey": "newsdig.tbs.co.jp"
+    },
+    {
+      "id": "10df8650f13915660f584481",
+      "title": "Chandler Hall, representing, on Television, the foolish Center for American Lack of Progress, stated that adding the National Guard to Cities, including our now Great Again, Was…",
+      "url": "https://www.trumpstruth.org/statuses/40727",
+      "source": "Truth Social · @realDonaldTrump · President Donald Trump",
+      "category": "議会・政治",
+      "priority": 90,
+      "publishedAt": "2026-08-11T02:31:44.000Z",
+      "notifiedAt": "2026-08-11T02:37:25.401Z",
+      "baseline": false,
+      "articleUrlKey": "https://www.trumpstruth.org/statuses/40727",
+      "articleTitleKey": "chandler hall representing on television the foolish center for american lack of progress stated that adding the national guard to cities including our now great again was",
+      "articleSourceKey": "truth social · @realdonaldtrump · president donald trump"
+    },
+    {
+      "id": "7721d781d66149836f5b9d7b",
+      "title": "【社説】円買い介入、近くまた必要か：時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rai1oOFFpa0tGaXpMUjFLTnJEUW5fbUVQTG9scXRKNFlfYUNvVE1GbWxIdXJJRUM4eE13Z1MzYXlPV3hwOFZYdVZfMVhqdjlrejdwbnJic19mTWVpb1pVejFOWXBPQlU?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T01:44:00.000Z",
+      "notifiedAt": "2026-08-11T02:37:25.401Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rai1oOFFpa0tGaXpMUjFLTnJEUW5fbUVQTG9scXRKNFlfYUNvVE1GbWxIdXJJRUM4eE13Z1MzYXlPV3hwOFZYdVZfMVhqdjlrejdwbnJic19mTWVpb1pVejFOWXBPQlU",
+      "articleTitleKey": "社説 円買い介入 近くまた必要か 時事ドットコム",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "01f1fb97625b18acc59b37df",
+      "title": "中国ＥＶ、活路求め日本へ 自国市場鈍化、欧米関税障壁で",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQS1g2aFpRSzRBM3RsRDNxcUR4ZUlzaGpuaENFejAzT1JZSFIyanV5UkVJNjhyekdJWTZIbE9TLTM0N2RVUkdsVWY2TjVUa3VFdmRib2dYZEFDV1paZlZCd2dFbkY3R2l3ekhtaEpfUnlETk9LR0h6RDlwTlNEampaQmdR?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-10T23:19:00.000Z",
+      "notifiedAt": "2026-08-11T02:37:25.401Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQS1g2aFpRSzRBM3RsRDNxcUR4ZUlzaGpuaENFejAzT1JZSFIyanV5UkVJNjhyekdJWTZIbE9TLTM0N2RVUkdsVWY2TjVUa3VFdmRib2dYZEFDV1paZlZCd2dFbkY3R2l3ekhtaEpfUnlETk9LR0h6RDlwTlNEampaQmdR",
+      "articleTitleKey": "中国ev 活路求め日本へ 自国市場鈍化 欧米関税障壁で",
+      "articleSourceKey": "時事ドットコム"
     }
   ]
 }
