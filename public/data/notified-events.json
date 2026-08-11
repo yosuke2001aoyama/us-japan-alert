@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T22:01:34.843Z",
+  "updatedAt": "2026-08-11T22:54:24.282Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5894,6 +5894,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42a3JrdHVDc0JrNWxwc01PajlmaW1fNUJ2LTZFTFFpZGdpbzFWVnIyRmpYSm5wUTBocW1QbVBnV2VEMzZtM1UyU3dMVk0xUkF2TlFEdDRlb0x6dkRBb1h5aHNvRzd3aDA",
       "articleTitleKey": "日米協調介入は 転換点 いずれ1ドル 125円に向かう ユーリゾン",
       "articleSourceKey": "newsdig.tbs.co.jp"
+    },
+    {
+      "id": "50424ea9c22a86cf7966444a",
+      "title": "円相場が160円再接近 逃げ遅れた追加介入期待の円買い",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvU3RoYi1EeDJuMGdfeTIwNkxBaFRWSW52YTJPaWNFd09lTVB4aDNaeUwxbHd2czVMX0JRTF92Z1ZXejZRcFVTZ1Y2NTdRY0R2WU1FaGZUWHUzVHpta1hEYUplazNmS2I5Q1dqRQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T22:44:08.000Z",
+      "notifiedAt": "2026-08-11T22:54:24.282Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvU3RoYi1EeDJuMGdfeTIwNkxBaFRWSW52YTJPaWNFd09lTVB4aDNaeUwxbHd2czVMX0JRTF92Z1ZXejZRcFVTZ1Y2NTdRY0R2WU1FaGZUWHUzVHpta1hEYUplazNmS2I5Q1dqRQ",
+      "articleTitleKey": "円相場が160円再接近 逃げ遅れた追加介入期待の円買い",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "718c018a9797166dd06bc579",
+      "title": "NY円相場、横ばい 1ドル=159円25〜35銭 米CPI前に膠着",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83LUp4N0k0WHI4czVMWDZ2Y1NJOW5mTUVnaS1EM2pOTEZTWnBKNXRzYzZvRWlJaFQ4TWIyVXdWTk5hSlVtTGFZcW02NEtxZVNxQUVYaEZJS2dIZzUtVHJfczFXMk5QTFprSVNNRQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T21:31:18.000Z",
+      "notifiedAt": "2026-08-11T22:54:24.282Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83LUp4N0k0WHI4czVMWDZ2Y1NJOW5mTUVnaS1EM2pOTEZTWnBKNXRzYzZvRWlJaFQ4TWIyVXdWTk5hSlVtTGFZcW02NEtxZVNxQUVYaEZJS2dIZzUtVHJfczFXMk5QTFprSVNNRQ",
+      "articleTitleKey": "ny円相場 横ばい 1ドル 159円25 35銭 米cpi前に膠着",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
