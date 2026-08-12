@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-12T14:54:11.172Z",
+  "updatedAt": "2026-08-12T15:51:19.102Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -6146,6 +6146,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEc09GR2V1cFVhWUVCNHEtXzFxc296MTVtZjZBMlY5d3VTcDBJdkhFMWs1RE9tZ21WWDVzWHUwa1hGRUFRbzlLSGFpM2ZrWk52ZkY3QWVMSkw2enRZOGZ2YzVycw",
       "articleTitleKey": "円相場 再び160円に迫る 介入警戒漂うも 円安継続の見方 東京市場",
       "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "cb47d4b7b45661aaca1c4226",
+      "title": "トランプ新関税、企業の楽観論が後退 一部業種は負担増の試算も",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KLWlteUdGR0NMempteWQ1MlZHSUNWVGVZS2tmRTkzWkRUOW5QQ3ltM1hEZEUyTVNxSW9DMUlCUXp0OGVKRHF3RER4aERaTURsRlBNeGZpdlo3QUM0SGh6RVhiR0M1MW1sekkyTQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-12T15:15:26.000Z",
+      "notifiedAt": "2026-08-12T15:51:19.102Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KLWlteUdGR0NMempteWQ1MlZHSUNWVGVZS2tmRTkzWkRUOW5QQ3ltM1hEZEUyTVNxSW9DMUlCUXp0OGVKRHF3RER4aERaTURsRlBNeGZpdlo3QUM0SGh6RVhiR0M1MW1sekkyTQ",
+      "articleTitleKey": "トランプ新関税 企業の楽観論が後退 一部業種は負担増の試算も",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "7df2b9c61d9d6f9e0cef60c7",
+      "title": "【倒産】中古車販売会社が破産開始決定 負債総額は2億1000万円 中古車の相場やトランプ関税などによる輸出環境の変化で販売不振【東京商工リサーチ】",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80SGpnYXo1eDJvb2JyLXJFRTRPNjJWTi1GRE9waVMweThfUGRyS1dKc19ZZER4N3hoMlNxdWFtbUd5QmF5SFZvVmxYSmhLVW9Na3RLV1J0Ylhoemd5MERZXw?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-12T10:58:00.000Z",
+      "notifiedAt": "2026-08-12T15:51:19.102Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80SGpnYXo1eDJvb2JyLXJFRTRPNjJWTi1GRE9waVMweThfUGRyS1dKc19ZZER4N3hoMlNxdWFtbUd5QmF5SFZvVmxYSmhLVW9Na3RLV1J0Ylhoemd5MERZXw",
+      "articleTitleKey": "倒産 中古車販売会社が破産開始決定 負債総額は2億1000万円 中古車の相場やトランプ関税などによる輸出環境の変化で販売不振 東京商工リサーチ",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
