@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-12T00:09:24.508Z",
+  "updatedAt": "2026-08-12T02:41:18.764Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5936,6 +5936,62 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QMzdGQ1VzU21FWlBsX2dKamFnQjNmYmR5Sm5oWXBIeHFsZ2p6LWVrWDBqVmp2RzBES2hPUXUyUWtraVZJSmFOdzhmY0lvLUp4a1Y5SllJdTNEMWx5ekJacXFOX1ZhVFNycFNHNA",
       "articleTitleKey": "外為8時30分 円相場 下落し159円台前半 対ユーロでも下落",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "26dad4326cae35e8f9df570e",
+      "title": "外為10時 円相場、下げ幅拡大 159円台前半 中値「ドル買い優勢」の声",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94dUFMMkJuczV5ZFhCUHBLbjM5SEZBUk5hMlFCdU1DOUx3WndIbkRGZ3MtcnR3TUlVUDVyNmdlTm5uMkwzbER0NzZCSlVoS2pUdllYOVZPRW9zR3hobnViQW5FRzliY015NTliMw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T01:23:19.000Z",
+      "notifiedAt": "2026-08-12T02:41:18.764Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94dUFMMkJuczV5ZFhCUHBLbjM5SEZBUk5hMlFCdU1DOUx3WndIbkRGZ3MtcnR3TUlVUDVyNmdlTm5uMkwzbER0NzZCSlVoS2pUdllYOVZPRW9zR3hobnViQW5FRzliY015NTliMw",
+      "articleTitleKey": "外為10時 円相場 下げ幅拡大 159円台前半 中値 ドル買い優勢 の声",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "da8f31f438181607f34198ac",
+      "title": "日米協調介入は「通貨敗戦」だ 円の防衛へマクロ政策の転換を",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fNldFb1dCVzlzZGNCMHpZQUtWaWpvMnlEMXVkcjZmNDFHTkVzTmNxZ1g5UXhOTG1iTlBWUnJ4N1RHdGx3Zm1nWGRIQk1xQ2lYN3huNThkZ3JnNG5HRDFlWlRhZnRKWk54WFpwRg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T01:00:00.000Z",
+      "notifiedAt": "2026-08-12T02:41:18.764Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fNldFb1dCVzlzZGNCMHpZQUtWaWpvMnlEMXVkcjZmNDFHTkVzTmNxZ1g5UXhOTG1iTlBWUnJ4N1RHdGx3Zm1nWGRIQk1xQ2lYN3huNThkZ3JnNG5HRDFlWlRhZnRKWk54WFpwRg",
+      "articleTitleKey": "日米協調介入は 通貨敗戦 だ 円の防衛へマクロ政策の転換を",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "340401e6f2ba019ae286b420",
+      "title": "円相場、１５９円２７～２７銭＝１２日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTTlIUkg4cFN6LTZDVWU3eEVkREhabldZaTd2dHJUd2pnQXk1QTlremlLYnQydVVITTV0NzY4M0xqVnowbW5OWm1mWGtpRXdibDktMA?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T00:11:00.000Z",
+      "notifiedAt": "2026-08-12T02:41:18.764Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTTlIUkg4cFN6LTZDVWU3eEVkREhabldZaTd2dHJUd2pnQXk1QTlremlLYnQydVVITTV0NzY4M0xqVnowbW5OWm1mWGtpRXdibDktMA",
+      "articleTitleKey": "円相場 159円27 27銭 12日午前9時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "a4015193c371b8cb48afa311",
+      "title": "円相場、１５９円２７～２７銭 １２日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJcWN4S241RHJpWW1KQnBnSEdrRmR0TlN0dFdvVS0xVnZPbDM0R2ZJNm1tTzZzdWxzOGphN2llcXFYakR0eVJzcFNJaUJrbjB3azVxSjZsdGRHTm82a0tFd2pMcw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T00:11:00.000Z",
+      "notifiedAt": "2026-08-12T02:41:18.764Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJcWN4S241RHJpWW1KQnBnSEdrRmR0TlN0dFdvVS0xVnZPbDM0R2ZJNm1tTzZzdWxzOGphN2llcXFYakR0eVJzcFNJaUJrbjB3azVxSjZsdGRHTm82a0tFd2pMcw",
+      "articleTitleKey": "円相場 159円27 27銭 12日午前9時現在",
+      "articleSourceKey": "時事ドットコム"
     }
   ]
 }
