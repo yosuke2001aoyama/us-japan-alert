@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-12T17:42:01.512Z",
+  "updatedAt": "2026-08-12T18:36:12.750Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -6174,6 +6174,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80SGpnYXo1eDJvb2JyLXJFRTRPNjJWTi1GRE9waVMweThfUGRyS1dKc19ZZER4N3hoMlNxdWFtbUd5QmF5SFZvVmxYSmhLVW9Na3RLV1J0Ylhoemd5MERZXw",
       "articleTitleKey": "倒産 中古車販売会社が破産開始決定 負債総額は2億1000万円 中古車の相場やトランプ関税などによる輸出環境の変化で販売不振 東京商工リサーチ",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "787734c721d093e1f317be3d",
+      "title": "Japan-Oman Summit Telephone Call (Summary) - x.com. Japan-Oman Summit Telephone Call (Summary) x.com",
+      "url": "https://x.com/JPN_PMO/status/2087443433124491332",
+      "source": "X · @JPN_PMO · Prime Minister's Office of Japan",
+      "category": "首脳・閣僚",
+      "priority": 90,
+      "publishedAt": "2026-08-12T07:37:51.000Z",
+      "notifiedAt": "2026-08-12T18:36:12.750Z",
+      "baseline": false,
+      "articleUrlKey": "https://x.com/JPN_PMO/status/2087443433124491332",
+      "articleTitleKey": "japan oman summit telephone call summary x com japan oman summit telephone call summary x com",
+      "articleSourceKey": "x · @jpn_pmo · prime minister's office of japan"
     }
   ]
 }
