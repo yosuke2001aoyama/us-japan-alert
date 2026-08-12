@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-12T04:27:07.760Z",
+  "updatedAt": "2026-08-12T05:54:54.831Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -6034,6 +6034,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NTDY5UUhnOURtZ0pZT3pDM09YeFRrLUlLSUczTFZpaGRwbE4wRGVNdWFQTF93NHUtMVEwS2tmZ184bjdaRDJiRkRlTFBiWThHWlJDeXc2a0Zrd0dvTDRFdHBIWQ",
       "articleTitleKey": "円相場 159円39 40銭 12日正午現在 時事ドットコム",
       "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "a49db9c716588caaa1075c7c",
+      "title": "外為14時 円相場、159円台半ばで小動き 米CPI控え",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fRkNGNENQX083Q3p0MGswSG9rdnJfa29JU1J5Sl85OEpmcWFjWkFXcXhLbzR0VTlqTkp6VGNNa0NjNFgyd3VOSXc3OWI2eG1oOTdUTEd3U3gtZGlIN29zZGFybzhYbEpIbVFjaQ?oc=5",
+      "source": "nikkei.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T05:13:42.000Z",
+      "notifiedAt": "2026-08-12T05:54:54.831Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fRkNGNENQX083Q3p0MGswSG9rdnJfa29JU1J5Sl85OEpmcWFjWkFXcXhLbzR0VTlqTkp6VGNNa0NjNFgyd3VOSXc3OWI2eG1oOTdUTEd3U3gtZGlIN29zZGFybzhYbEpIbVFjaQ",
+      "articleTitleKey": "外為14時 円相場 159円台半ばで小動き 米cpi控え",
+      "articleSourceKey": "nikkei.com"
+    },
+    {
+      "id": "0deb261958cda1ef7e33ac5e",
+      "title": "日銀9月利上げ予想8割迫る 日米協調介入で「外堀埋まる」",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53VzBtM011X2NidFlZenQ5bFF5RDRtZkNOV3Z5TFRIWGdEMUJOWVJReTNWR0NTaVhWNGFOcThKczZVWjF4VzVsakxkSUFCYVQ4Q0NxaURMdXBsUnRtMUdPMUllM0doLTlfX01iQQ?oc=5",
+      "source": "nikkei.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T04:32:33.000Z",
+      "notifiedAt": "2026-08-12T05:54:54.831Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53VzBtM011X2NidFlZenQ5bFF5RDRtZkNOV3Z5TFRIWGdEMUJOWVJReTNWR0NTaVhWNGFOcThKczZVWjF4VzVsakxkSUFCYVQ4Q0NxaURMdXBsUnRtMUdPMUllM0doLTlfX01iQQ",
+      "articleTitleKey": "日銀9月利上げ予想8割迫る 日米協調介入で 外堀埋まる",
+      "articleSourceKey": "nikkei.com"
     }
   ]
 }
