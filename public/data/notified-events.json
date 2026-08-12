@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-12T02:41:18.764Z",
+  "updatedAt": "2026-08-12T04:27:07.760Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5991,6 +5991,48 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJcWN4S241RHJpWW1KQnBnSEdrRmR0TlN0dFdvVS0xVnZPbDM0R2ZJNm1tTzZzdWxzOGphN2llcXFYakR0eVJzcFNJaUJrbjB3azVxSjZsdGRHTm82a0tFd2pMcw",
       "articleTitleKey": "円相場 159円27 27銭 12日午前9時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "40e3a0cc7dda7a01e54cac6a",
+      "title": "外為12時 円相場、下落 159円台半ば 原油高が重荷",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlWVVGckpteG1SXzFCOWNkTmZ4eXdCMkdnTUpnM05Kb0RyR0hxNmV5UG9OWUhDb2tBXzdOYUhkbVJESEZFMm5rdm41OVIzOE9tTVFINDZoQklNbElrZUpOQTFxS0tPdVVXRGZRbQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T03:16:44.000Z",
+      "notifiedAt": "2026-08-12T04:27:07.760Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlWVVGckpteG1SXzFCOWNkTmZ4eXdCMkdnTUpnM05Kb0RyR0hxNmV5UG9OWUhDb2tBXzdOYUhkbVJESEZFMm5rdm41OVIzOE9tTVFINDZoQklNbElrZUpOQTFxS0tPdVVXRGZRbQ",
+      "articleTitleKey": "外為12時 円相場 下落 159円台半ば 原油高が重荷",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "61a90af320c7569e172b379e",
+      "title": "円相場、１５９円３９～４０銭＝１２日正午現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHMEVFMUMwVldWZzJadUJkZ0h3aVBLOFBCUWZPMG83akpwMngzYk9POE5lXzF6NGZ3RzFNQ1FkTjRERjJVUi1STzE3c3lUNkszN2VPMg?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T03:12:00.000Z",
+      "notifiedAt": "2026-08-12T04:27:07.760Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHMEVFMUMwVldWZzJadUJkZ0h3aVBLOFBCUWZPMG83akpwMngzYk9POE5lXzF6NGZ3RzFNQ1FkTjRERjJVUi1STzE3c3lUNkszN2VPMg",
+      "articleTitleKey": "円相場 159円39 40銭 12日正午現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "f7a0c1faf029b0df209dda9a",
+      "title": "円相場、１５９円３９～４０銭 １２日正午現在：時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NTDY5UUhnOURtZ0pZT3pDM09YeFRrLUlLSUczTFZpaGRwbE4wRGVNdWFQTF93NHUtMVEwS2tmZ184bjdaRDJiRkRlTFBiWThHWlJDeXc2a0Zrd0dvTDRFdHBIWQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T03:12:00.000Z",
+      "notifiedAt": "2026-08-12T04:27:07.760Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NTDY5UUhnOURtZ0pZT3pDM09YeFRrLUlLSUczTFZpaGRwbE4wRGVNdWFQTF93NHUtMVEwS2tmZ184bjdaRDJiRkRlTFBiWThHWlJDeXc2a0Zrd0dvTDRFdHBIWQ",
+      "articleTitleKey": "円相場 159円39 40銭 12日正午現在 時事ドットコム",
       "articleSourceKey": "時事ドットコム"
     }
   ]
