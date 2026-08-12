@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-11T23:31:51.633Z",
+  "updatedAt": "2026-08-12T00:09:24.508Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -5921,6 +5921,20 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83LUp4N0k0WHI4czVMWDZ2Y1NJOW5mTUVnaS1EM2pOTEZTWnBKNXRzYzZvRWlJaFQ4TWIyVXdWTk5hSlVtTGFZcW02NEtxZVNxQUVYaEZJS2dIZzUtVHJfczFXMk5QTFprSVNNRQ",
       "articleTitleKey": "ny円相場 横ばい 1ドル 159円25 35銭 米cpi前に膠着",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "49d910925ef79cc04a7a8edb",
+      "title": "外為8時30分 円相場、下落し159円台前半 対ユーロでも下落",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QMzdGQ1VzU21FWlBsX2dKamFnQjNmYmR5Sm5oWXBIeHFsZ2p6LWVrWDBqVmp2RzBES2hPUXUyUWtraVZJSmFOdzhmY0lvLUp4a1Y5SllJdTNEMWx5ekJacXFOX1ZhVFNycFNHNA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-11T23:47:13.000Z",
+      "notifiedAt": "2026-08-12T00:09:24.508Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QMzdGQ1VzU21FWlBsX2dKamFnQjNmYmR5Sm5oWXBIeHFsZ2p6LWVrWDBqVmp2RzBES2hPUXUyUWtraVZJSmFOdzhmY0lvLUp4a1Y5SllJdTNEMWx5ekJacXFOX1ZhVFNycFNHNA",
+      "articleTitleKey": "外為8時30分 円相場 下落し159円台前半 対ユーロでも下落",
       "articleSourceKey": "日本経済新聞"
     }
   ]
