@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-12T07:14:23.219Z",
+  "updatedAt": "2026-08-12T08:40:24.793Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -6062,6 +6062,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53VzBtM011X2NidFlZenQ5bFF5RDRtZkNOV3Z5TFRIWGdEMUJOWVJReTNWR0NTaVhWNGFOcThKczZVWjF4VzVsakxkSUFCYVQ4Q0NxaURMdXBsUnRtMUdPMUllM0doLTlfX01iQQ",
       "articleTitleKey": "日銀9月利上げ予想8割迫る 日米協調介入で 外堀埋まる",
       "articleSourceKey": "nikkei.com"
+    },
+    {
+      "id": "356dd3532f67a41d2a97e81b",
+      "title": "外為17時 円相場、4日続落 159円台前半 中東不安くすぶる",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OZjBOaGx2OHF4TzBuLWpMZHZHZEVpaXN1WnVCLUU3bW9MOHE2eDRfU2RUVWtrWG5mSVltYjhfdVF0elI4RGdtNTdUcTRlcktTcnhnc1pneGpJanBxeEg1SGVpTkhCWTVKSml3RQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T08:16:08.000Z",
+      "notifiedAt": "2026-08-12T08:40:24.793Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OZjBOaGx2OHF4TzBuLWpMZHZHZEVpaXN1WnVCLUU3bW9MOHE2eDRfU2RUVWtrWG5mSVltYjhfdVF0elI4RGdtNTdUcTRlcktTcnhnc1pneGpJanBxeEg1SGVpTkhCWTVKSml3RQ",
+      "articleTitleKey": "外為17時 円相場 4日続落 159円台前半 中東不安くすぶる",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "6468de5db18928837aef77ef",
+      "title": "円相場、１５９円３６～３７銭＝１２日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GRWxYQzc2d2JxTjg1ZFJCQURodjFINVJYMl9TTmJneWdna09aN1VVVWNETGEtMDFPRlRzQTdTZms0Qy1odmxwR0ppN3QtNGoyQWg0TA?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T08:10:00.000Z",
+      "notifiedAt": "2026-08-12T08:40:24.793Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GRWxYQzc2d2JxTjg1ZFJCQURodjFINVJYMl9TTmJneWdna09aN1VVVWNETGEtMDFPRlRzQTdTZms0Qy1odmxwR0ppN3QtNGoyQWg0TA",
+      "articleTitleKey": "円相場 159円36 37銭 12日午後5時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "6b0dcce95659f04c6a3e0039",
+      "title": "円相場、１５９円３６～３７銭 １２日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lSmo4bDdaUXFHMFduNmFZRjNtaXpZMERJaU51THdkSk9GcGdLd2w5X29WZUlwMmF2SGZMbGN0c2xmMnNvdkQyZHZkd3prS1liUjlfdV9QazJ5NDJhTEY1OWZxMA?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T08:10:00.000Z",
+      "notifiedAt": "2026-08-12T08:40:24.793Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lSmo4bDdaUXFHMFduNmFZRjNtaXpZMERJaU51THdkSk9GcGdLd2w5X29WZUlwMmF2SGZMbGN0c2xmMnNvdkQyZHZkd3prS1liUjlfdV9QazJ5NDJhTEY1OWZxMA",
+      "articleTitleKey": "円相場 159円36 37銭 12日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
     }
   ]
 }
