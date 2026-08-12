@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-12T08:40:24.793Z",
+  "updatedAt": "2026-08-12T09:45:37.951Z",
   "events": [
     {
       "id": "3426ffe0c31a595b5df8e919",
@@ -6103,6 +6103,48 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lSmo4bDdaUXFHMFduNmFZRjNtaXpZMERJaU51THdkSk9GcGdLd2w5X29WZUlwMmF2SGZMbGN0c2xmMnNvdkQyZHZkd3prS1liUjlfdV9QazJ5NDJhTEY1OWZxMA",
       "articleTitleKey": "円相場 159円36 37銭 12日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "d57b7ba56b047cc0b3e30b2b",
+      "title": "国内金が大暴れ 協調介入の円高で大幅安、その後急騰",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yU05NMXZkMEF3Wkc3X1VFd1hLWlBHNWR6ZW9ta0pkdEpyR05jdUtKZjBFTTNpdWtyR19Cdk01ZTByR1d4SGhoU1QxU0p4NUE4MnEySlFIM1hWQlh4RGRkQi1XajRITWEwVEtaaQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T09:23:05.000Z",
+      "notifiedAt": "2026-08-12T09:45:37.951Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yU05NMXZkMEF3Wkc3X1VFd1hLWlBHNWR6ZW9ta0pkdEpyR05jdUtKZjBFTTNpdWtyR19Cdk01ZTByR1d4SGhoU1QxU0p4NUE4MnEySlFIM1hWQlh4RGRkQi1XajRITWEwVEtaaQ",
+      "articleTitleKey": "国内金が大暴れ 協調介入の円高で大幅安 その後急騰",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "0843edd236fd2db1bbfc592d",
+      "title": "円相場、再び１６０円に迫る＝介入警戒漂うも、円安継続の見方―東京市場",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CdDVyRDEteXFPTGF2eGlyam5VcmR6dnpFZlBhM2trUTZiem50UnNlWFlXM2tNbjd3UHRSb2hHekU0a2k3SVM4TklKSDZySGJ5aE0zOA?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T08:41:00.000Z",
+      "notifiedAt": "2026-08-12T09:45:37.951Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CdDVyRDEteXFPTGF2eGlyam5VcmR6dnpFZlBhM2trUTZiem50UnNlWFlXM2tNbjd3UHRSb2hHekU0a2k3SVM4TklKSDZySGJ5aE0zOA",
+      "articleTitleKey": "円相場 再び160円に迫る 介入警戒漂うも 円安継続の見方 東京市場",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "6ab088818d11e38196a10686",
+      "title": "円相場、再び１６０円に迫る 介入警戒漂うも、円安継続の見方―東京市場",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEc09GR2V1cFVhWUVCNHEtXzFxc296MTVtZjZBMlY5d3VTcDBJdkhFMWs1RE9tZ21WWDVzWHUwa1hGRUFRbzlLSGFpM2ZrWk52ZkY3QWVMSkw2enRZOGZ2YzVycw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T08:41:00.000Z",
+      "notifiedAt": "2026-08-12T09:45:37.951Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEc09GR2V1cFVhWUVCNHEtXzFxc296MTVtZjZBMlY5d3VTcDBJdkhFMWs1RE9tZ21WWDVzWHUwa1hGRUFRbzlLSGFpM2ZrWk52ZkY3QWVMSkw2enRZOGZ2YzVycw",
+      "articleTitleKey": "円相場 再び160円に迫る 介入警戒漂うも 円安継続の見方 東京市場",
       "articleSourceKey": "時事ドットコム"
     }
   ]
