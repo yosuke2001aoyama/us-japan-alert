@@ -1,36 +1,8 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-12T23:26:01.212Z",
+  "updatedAt": "2026-08-13T00:05:37.951Z",
   "events": [
-    {
-      "id": "12e3ca90962ab8e6c1a03ada",
-      "title": "I’ll be live on r/massachusetts at 12pm answering your questions and talking about the fights of our time. Ask me anything! - x.com. I’ll be live on r/massachusetts at 12pm answ…",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUTTNLOVhVOENISVJzYlQ4ZFJPOTFWWmJBd0RVQkZfYzFILVdpNUthb0RQdDRGZEZjYjg3a2JsTkt2WGtrVVZoS21MQzVxUmNPUDRxWlFBQXo0Q1BxVWc?oc=5",
-      "category": "議会・政治",
-      "priority": 90,
-      "publishedAt": "2026-07-29T14:11:48.000Z",
-      "notifiedAt": "2026-07-29T23:31:07.330Z",
-      "baseline": false,
-      "stage": "",
-      "canonical": "i ll be on r massachusetts at 12pm answering your questions and talking about the fights of our time ask me anything x com i ll be on r massachusetts at 12pm answ i ll be on r massachusetts at 12pm answering your questions and talking about the fights of our time ask me anything x com i ll be on r massachusetts at 12pm answering your questions and talking about the fights of our time ask me anything x com",
-      "tokens": [
-        "massachusetts",
-        "12pm",
-        "answering",
-        "your",
-        "questions",
-        "talking",
-        "about",
-        "fights",
-        "our",
-        "time",
-        "ask",
-        "anything",
-        "com",
-        "answ"
-      ]
-    },
     {
       "id": "08a8e7fd4f77f601a7b80a62",
       "title": "マキタ、純利益19%増 4～6月 関税還付で原価率改善",
@@ -5810,6 +5782,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SdGN5bXFlRWVwUFk5QXJfcUxqYlVWeUZCZVhZVXRBaDRxbWdsZzVBd3JCUFpjcUtzb1Y2V3hKZFFBVXE1RTFuYzEwX2ppTy1ZMURTd2Jnd1VXUWljZWw1WHVKLThqbkJ0bmFaMg",
       "articleTitleKey": "ny円相場 下落 1ドル 159円40 50銭 米cpi受けた円買い続かず",
       "articleSourceKey": "nikkei.com"
+    },
+    {
+      "id": "ddeb2acbe2cdd761d5599e6a",
+      "title": "外為8時30分 円相場、小幅上昇し159円台前半 対ユーロも上昇",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YeXR6QWF4c3R1Zm02SjRXQW0xYUJPa1BGM2NsR213NkZTb3lyemlLcGc2R3hCdVVia3FkbjBBZG84UmRHMFFzcDd0eFNBTG5QOGVpdF9tUGxrYnZBM1FCQU82T1lRQjd0SmNNVQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T23:47:09.000Z",
+      "notifiedAt": "2026-08-13T00:05:37.951Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YeXR6QWF4c3R1Zm02SjRXQW0xYUJPa1BGM2NsR213NkZTb3lyemlLcGc2R3hCdVVia3FkbjBBZG84UmRHMFFzcDd0eFNBTG5QOGVpdF9tUGxrYnZBM1FCQU82T1lRQjd0SmNNVQ",
+      "articleTitleKey": "外為8時30分 円相場 小幅上昇し159円台前半 対ユーロも上昇",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "af8156701e76dea49b0e8a17",
+      "title": "NY円、159円台半ば 為替介入後に円高進行、円売りやや優勢",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NT1BNOGRIZnlYWUFERWxHWUxNdmw2YU5odk1KMEpORzRFckV3cFh3U0RWX0J3NlNzQjRjbVRSUnF5ckFHbXI5UnRvVWs3aGRaTjZCMzR2Nkc1eXFtY3o2Rk1ic1NVRG9p?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-12T23:42:09.000Z",
+      "notifiedAt": "2026-08-13T00:05:37.951Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NT1BNOGRIZnlYWUFERWxHWUxNdmw2YU5odk1KMEpORzRFckV3cFh3U0RWX0J3NlNzQjRjbVRSUnF5ckFHbXI5UnRvVWs3aGRaTjZCMzR2Nkc1eXFtY3o2Rk1ic1NVRG9p",
+      "articleTitleKey": "ny円 159円台半ば 為替介入後に円高進行 円売りやや優勢",
+      "articleSourceKey": "毎日新聞"
     }
   ]
 }
