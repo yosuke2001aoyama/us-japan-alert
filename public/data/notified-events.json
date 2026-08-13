@@ -1,22 +1,8 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T19:16:44.309Z",
+  "updatedAt": "2026-08-13T20:00:55.587Z",
   "events": [
-    {
-      "id": "482a370ca23f5def8ac5a9b0",
-      "title": "NYダウ1153ドル安、関税ショック以来の下落 30年金利19年ぶり高さ",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZeDREYllndmhRa3ZwckplSmxQU0pEWlptekxTOEZJcTNpOEoyMzMta0hEY1NwVHhsMlJEMDl3TDNfWW9yUUJ5cFJNMUNvTDhsY2I3WU5IUWVrak5IZkJoTDZNXzlLSWhfcjZpRw?oc=5",
-      "source": "日本経済新聞",
-      "category": "通商・経済",
-      "priority": 92,
-      "publishedAt": "2026-07-29T20:47:34.000Z",
-      "notifiedAt": "2026-07-30T19:46:15.927Z",
-      "baseline": false,
-      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZeDREYllndmhRa3ZwckplSmxQU0pEWlptekxTOEZJcTNpOEoyMzMta0hEY1NwVHhsMlJEMDl3TDNfWW9yUUJ5cFJNMUNvTDhsY2I3WU5IUWVrak5IZkJoTDZNXzlLSWhfcjZpRw",
-      "articleTitleKey": "nyダウ1153ドル安 関税ショック以来の下落 30年金利19年ぶり高さ",
-      "articleSourceKey": "日本経済新聞"
-    },
     {
       "id": "3096b6cc6f7cb0b8e547840d",
       "title": "日米韓等「北朝鮮IT労働者に関する各国・企業等に対する注意喚起」の公表（令和8年7月31日）",
@@ -5770,6 +5756,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uOWMyUEkyVk53Ym9Lc0JxMmkxUHltc1IwY2lvREVsdzFEOEJ5aFVrX3cwcjVRcnk4RFZUalB2bHpYQ2FJajRtWmVNLTNKRTVSYkNqdG9WaGJLWkZxYVd4VGNvNjNRbTlDYTA5QQ",
       "articleTitleKey": "トランプ新関税発動 還付 負担減期待に冷や水 企業 事業計画見直し必要に",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "b395538da31ef43ab2150fe2",
+      "title": "米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念｜全国のニュース｜Web東奥",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90Z21PalNyODVLN19BMnZiUmdqTk1tSDNGckxnNlNrV0ZsZk5GTDFxc2ZaZVRXdTVYeTU5Ymhpc1otczhhaEpXNzJlMHJIY1p6bFFkUkxHYU8?oc=5",
+      "source": "東奥日報社",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T06:25:38.000Z",
+      "notifiedAt": "2026-08-13T20:00:55.587Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90Z21PalNyODVLN19BMnZiUmdqTk1tSDNGckxnNlNrV0ZsZk5GTDFxc2ZaZVRXdTVYeTU5Ymhpc1otczhhaEpXNzJlMHJIY1p6bFFkUkxHYU8",
+      "articleTitleKey": "米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念 全国のニュース web東奥",
+      "articleSourceKey": "東奥日報社"
+    },
+    {
+      "id": "cbb593822712e427f2809b3d",
+      "title": "米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON0hRdTM5UDNBc2thQ3pZclJKenVwU0g2U3R1ay1VZHlDVHVuOUgzbWROVkRWUzdLeXl4cGVQVWxTaXVEWjFxdm5sNXk2RUJVNGFSNV9URExWLTAyX1BsVXZkT1hTR2IzdWdvOUkxdW92NVpoUjUtVzRHM0NrSUV2VERYVFU2TlFqSlVBNFpaQ05TbHhvbHNZR3dxX1dmMGxhZW1SM2RCbUgycFE?oc=5",
+      "source": "山形新聞",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T06:25:00.000Z",
+      "notifiedAt": "2026-08-13T20:00:55.587Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON0hRdTM5UDNBc2thQ3pZclJKenVwU0g2U3R1ay1VZHlDVHVuOUgzbWROVkRWUzdLeXl4cGVQVWxTaXVEWjFxdm5sNXk2RUJVNGFSNV9URExWLTAyX1BsVXZkT1hTR2IzdWdvOUkxdW92NVpoUjUtVzRHM0NrSUV2VERYVFU2TlFqSlVBNFpaQ05TbHhvbHNZR3dxX1dmMGxhZW1SM2RCbUgycFE",
+      "articleTitleKey": "米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念",
+      "articleSourceKey": "山形新聞"
     }
   ]
 }
