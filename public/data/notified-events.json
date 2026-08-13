@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T17:11:36.257Z",
+  "updatedAt": "2026-08-13T18:06:57.615Z",
   "events": [
     {
       "id": "482a370ca23f5def8ac5a9b0",
@@ -5672,6 +5672,90 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EcnFyb2h1emdWODVpMkwtYnUwTnBkUjZuamc0QUZiZGhhd0hSSzFtNmtWalM0anpLTEFwOUlCVEE4V3A3eWVVQ3kwUVhrVDlUY0QwaWd4T2VoQkh1V19IX3JjUQ",
       "articleTitleKey": "米政権 中国製品流入を非難 関税回避 日本など経由",
       "articleSourceKey": "jiji.com"
+    },
+    {
+      "id": "c4a5dc3daa961ebf3ae93890",
+      "title": "米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53bFZZbUZZZkl4SlR6enhyWGxkQl9vMUNLRnNBaG5Iell2UHFEQ0htb3ZodHJoOGdmdnE5emozOWZOQ1FGSDJwTzlQX0JEUlRTWWRNalowRkVJcGM0NUNPN3NHblpFaW43QTRTMjBidw?oc=5",
+      "source": "山陽新聞",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T06:53:00.000Z",
+      "notifiedAt": "2026-08-13T18:06:57.615Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53bFZZbUZZZkl4SlR6enhyWGxkQl9vMUNLRnNBaG5Iell2UHFEQ0htb3ZodHJoOGdmdnE5emozOWZOQ1FGSDJwTzlQX0JEUlRTWWRNalowRkVJcGM0NUNPN3NHblpFaW43QTRTMjBidw",
+      "articleTitleKey": "米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念",
+      "articleSourceKey": "山陽新聞"
+    },
+    {
+      "id": "780c408c01108fc723b43208",
+      "title": "米国産ジャガイモの輸入解禁前進 9月にも最終工程、病害虫懸念 (共同通信)",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMGRQaVJPOVlXYTUwV2EtNTJKVUxMQXBvdmNiNU1Xbl95Q3dJWFdMT01pT29XU0R0NFE0aHBNUFVnZ1lLTWsxZnQ3WFJRc2xmVlJyaGc5TTFUSVQxSjV5TlBDSThTZUZWWGUwTF9qVWdUQmdrUVFLWWM5V2xZMnBqYldrWWs1RHhUa0dnUldn?oc=5",
+      "source": "Yahoo!ニュース",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T06:25:37.000Z",
+      "notifiedAt": "2026-08-13T18:06:57.615Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMGRQaVJPOVlXYTUwV2EtNTJKVUxMQXBvdmNiNU1Xbl95Q3dJWFdMT01pT29XU0R0NFE0aHBNUFVnZ1lLTWsxZnQ3WFJRc2xmVlJyaGc5TTFUSVQxSjV5TlBDSThTZUZWWGUwTF9qVWdUQmdrUVFLWWM5V2xZMnBqYldrWWs1RHhUa0dnUldn",
+      "articleTitleKey": "米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念 共同通信",
+      "articleSourceKey": "yahoo!ニュース"
+    },
+    {
+      "id": "3fb733152ee9dd27147de16d",
+      "title": "米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pVmJsdDcyaGtwcGJ3RlJqbE12Z1V4SWFpTURNeDhUT3FVSjRIbUNDNnZlTlhiLVBYQ0s2bVdidE0tS2pFakxmcnFVUXotU1ZTRHpMZUplR2ZoOUhYTUtRT2F3?oc=5",
+      "source": "秋田魁新報電子版",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T06:25:37.000Z",
+      "notifiedAt": "2026-08-13T18:06:57.615Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pVmJsdDcyaGtwcGJ3RlJqbE12Z1V4SWFpTURNeDhUT3FVSjRIbUNDNnZlTlhiLVBYQ0s2bVdidE0tS2pFakxmcnFVUXotU1ZTRHpMZUplR2ZoOUhYTUtRT2F3",
+      "articleTitleKey": "米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念",
+      "articleSourceKey": "秋田魁新報電子版"
+    },
+    {
+      "id": "f2f2c390649a2efc63f22d91",
+      "title": "トランプ関税：米で日本企業を提訴 相互関税還付分 返金求める",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JemZ4dFZGM1ZBNjdVcy1GQkk4RkU1MHczaE1hRFVPXy1zSE84YXZ6Y1NqWmotUk5IclNheDdpY2ppdXM0ODNfS0Q4ZHRsSERfWU9mclY2cGRYYXQ4LTlVV1hzdDlDMWxM?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-13T17:02:48.000Z",
+      "notifiedAt": "2026-08-13T18:06:57.615Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JemZ4dFZGM1ZBNjdVcy1GQkk4RkU1MHczaE1hRFVPXy1zSE84YXZ6Y1NqWmotUk5IclNheDdpY2ppdXM0ODNfS0Q4ZHRsSERfWU9mclY2cGRYYXQ4LTlVV1hzdDlDMWxM",
+      "articleTitleKey": "トランプ関税 米で日本企業を提訴 相互関税還付分 返金求める",
+      "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "45dea6da91883edd809efe17",
+      "title": "中国企業が“トランプ関税回避”の迂回輸出 米政府発表 経由地でラベル貼り替えや簡易な組み立てなどを実施か",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CR2RQNkdjSUFxNFBpdEZHa1BIQUNIMjlpZVJCM292WFpSZ2dzSXZlMmxQbmczMW1XZDNKU0VQcGlza0RqMWxqRV9malJJdTJsRVF0bHVuTFpsczF0eGZ4Mk9fNGVRenREYlk3MFlrWi0yeGxU?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-13T16:24:26.000Z",
+      "notifiedAt": "2026-08-13T18:06:57.615Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CR2RQNkdjSUFxNFBpdEZHa1BIQUNIMjlpZVJCM292WFpSZ2dzSXZlMmxQbmczMW1XZDNKU0VQcGlza0RqMWxqRV9malJJdTJsRVF0bHVuTFpsczF0eGZ4Mk9fNGVRenREYlk3MFlrWi0yeGxU",
+      "articleTitleKey": "中国企業が トランプ関税回避 の迂回輸出 米政府発表 経由地でラベル貼り替えや簡易な組み立てなどを実施か",
+      "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "a1c0135abf2a8cacd0696a6f",
+      "title": "米フォード「リンカーン」生産を中国から国内に一部移管 関税など背景",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nQVpkV3hETmgtQTRVak82SmRBQm1nTm1tcVB4Sk85WG56eVU3Z2lMRWlxUXpXelpUSURPNVlXcDFENGMzVjFCZ1ZHcmw1aDhhYVNaTU0zandUSFc4NHpwM0VZNXlFVDFLNVRhVQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-13T01:05:24.000Z",
+      "notifiedAt": "2026-08-13T18:06:57.615Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nQVpkV3hETmgtQTRVak82SmRBQm1nTm1tcVB4Sk85WG56eVU3Z2lMRWlxUXpXelpUSURPNVlXcDFENGMzVjFCZ1ZHcmw1aDhhYVNaTU0zandUSFc4NHpwM0VZNXlFVDFLNVRhVQ",
+      "articleTitleKey": "米フォード リンカーン 生産を中国から国内に一部移管 関税など背景",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
