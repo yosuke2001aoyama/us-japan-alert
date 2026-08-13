@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T04:29:31.120Z",
+  "updatedAt": "2026-08-13T05:59:29.271Z",
   "events": [
     {
       "id": "374f4d5aa684d9319983eac1",
@@ -5830,6 +5830,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14QjZTZXlnVnhfWHdualZGLTU4a3pEdTQ0YTYxLUtsT1RnUnJqc2JiWkZiYnp1VU9FeVlfdmNja1VZcWdGSjZNRk9MTUtWYXJSZ0dQZTFjQ3ZVNGl3RlUyMTU0VmU5bGNM",
       "articleTitleKey": "米関税の返金求め日本企業提訴 還付金巡り新たな混乱",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "e896a370754e7918951def41",
+      "title": "外為14時 円相場、上昇し159円台前半 政府が日銀の早期利上げ支持との報道",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FRlQyNWNJQmdORm1kZzQwNERYTS1uaVV3QzZTdjZtOWpFSmRVNjA2Q01UZi1OS0pSc1llMldGZG1QdXQxZ01MTTFuendVdzlKaWJobVdTdFhQT25FY1B4Q2RxRnY2QTBUOFJwRQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T05:18:30.000Z",
+      "notifiedAt": "2026-08-13T05:59:29.271Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FRlQyNWNJQmdORm1kZzQwNERYTS1uaVV3QzZTdjZtOWpFSmRVNjA2Q01UZi1OS0pSc1llMldGZG1QdXQxZ01MTTFuendVdzlKaWJobVdTdFhQT25FY1B4Q2RxRnY2QTBUOFJwRQ",
+      "articleTitleKey": "外為14時 円相場 上昇し159円台前半 政府が日銀の早期利上げ支持との報道",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
