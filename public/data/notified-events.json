@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T09:58:08.419Z",
+  "updatedAt": "2026-08-13T11:01:32.968Z",
   "events": [
     {
       "id": "0a4f7c825dff6eeeafdf8832",
@@ -5992,6 +5992,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Qy1ZelR5VWdMWjZRZ0VnNmZMWU0wNHRydk9wSVVtaG9hU3Z3dWtiLXVfbUsyNkJaN2RfLS1Ia0VMNXdzSlBocWtwUHdvTmZDY0tSUU5xUlVEbjFmS29RNlcyS0U3NHlq",
       "articleTitleKey": "写真 米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念",
       "articleSourceKey": "南日本新聞"
+    },
+    {
+      "id": "c3e7ffba4177776ada35b150",
+      "title": "▼Japan-Iran Summit Telephone Call (Summary) - x.com. ▼Japan-Iran Summit Telephone Call (Summary) x.com",
+      "url": "https://x.com/JPN_PMO/status/2087704406284530148",
+      "source": "X · @JPN_PMO · Prime Minister's Office of Japan",
+      "category": "公式発表",
+      "priority": 90,
+      "publishedAt": "2026-08-13T00:54:52.000Z",
+      "notifiedAt": "2026-08-13T11:01:32.968Z",
+      "baseline": false,
+      "articleUrlKey": "https://x.com/JPN_PMO/status/2087704406284530148",
+      "articleTitleKey": "japan iran summit telephone call summary x com japan iran summit telephone call summary x com",
+      "articleSourceKey": "x · @jpn_pmo · prime minister's office of japan"
+    },
+    {
+      "id": "89eeeaf8a14ac3891227f1ca",
+      "title": "【夕刊】米国産ジャガイモの輸入解禁前進",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MTWg0Z2JDQWI0VFUyZ1RKTUZjYjlKTTVBNXE1bnU4R001eHYwTzZ1UTZpR0JBTjhUXy1MMXpPODhaT2JWUDZSNENJUml0R0hZYjAxMk83OXA3N1U?oc=5",
+      "source": "下野新聞社",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T10:32:17.000Z",
+      "notifiedAt": "2026-08-13T11:01:32.968Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MTWg0Z2JDQWI0VFUyZ1RKTUZjYjlKTTVBNXE1bnU4R001eHYwTzZ1UTZpR0JBTjhUXy1MMXpPODhaT2JWUDZSNENJUml0R0hZYjAxMk83OXA3N1U",
+      "articleTitleKey": "夕刊 米国産ジャガイモの輸入解禁前進",
+      "articleSourceKey": "下野新聞社"
     }
   ]
 }
