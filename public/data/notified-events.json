@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T20:00:55.587Z",
+  "updatedAt": "2026-08-13T20:54:00.367Z",
   "events": [
     {
       "id": "3096b6cc6f7cb0b8e547840d",
@@ -5784,6 +5784,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON0hRdTM5UDNBc2thQ3pZclJKenVwU0g2U3R1ay1VZHlDVHVuOUgzbWROVkRWUzdLeXl4cGVQVWxTaXVEWjFxdm5sNXk2RUJVNGFSNV9URExWLTAyX1BsVXZkT1hTR2IzdWdvOUkxdW92NVpoUjUtVzRHM0NrSUV2VERYVFU2TlFqSlVBNFpaQ05TbHhvbHNZR3dxX1dmMGxhZW1SM2RCbUgycFE",
       "articleTitleKey": "米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念",
       "articleSourceKey": "山形新聞"
+    },
+    {
+      "id": "50006cdb96e39ab54bc74e5c",
+      "title": "米産ジャガイモ輸入解禁へ前進 農水省、９月にも最終工程",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42Z0NkUktJdHdpdF83bHVZZU1MNEVIN2RxaHBQWG5XMjNCWENHQVZhWVQybHF6c2pJOE9fTjdxVkJNN0VpT0I3SXB4OVBGUXZoMHhkcDVZaHNPa3U1Wk4zaVFwcU5IVzhwbnFzRi1YckpQaG8?oc=5",
+      "source": "中部経済新聞",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T20:46:01.000Z",
+      "notifiedAt": "2026-08-13T20:54:00.367Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42Z0NkUktJdHdpdF83bHVZZU1MNEVIN2RxaHBQWG5XMjNCWENHQVZhWVQybHF6c2pJOE9fTjdxVkJNN0VpT0I3SXB4OVBGUXZoMHhkcDVZaHNPa3U1Wk4zaVFwcU5IVzhwbnFzRi1YckpQaG8",
+      "articleTitleKey": "米産ジャガイモ輸入解禁へ前進 農水省 9月にも最終工程",
+      "articleSourceKey": "中部経済新聞"
+    },
+    {
+      "id": "3470abf15275f4cdbe1dd8cb",
+      "title": "（戦後８１年 ただよう空気：上）武器輸出解禁、知らなかった 戦争知らぬ世代、変わる視線",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sOGZGV0l3d0FFS1J1S0V3dGJGSXZCS2RYX3h3SGE5eDZJUTF5SU1rTkFxRVZVSTVPaERBSDhPeEotMFJIYnZ2WFpNT2t3QW1LOUtRWC1DeGtoMEwy?oc=5",
+      "source": "朝日新聞",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T20:00:00.000Z",
+      "notifiedAt": "2026-08-13T20:54:00.367Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sOGZGV0l3d0FFS1J1S0V3dGJGSXZCS2RYX3h3SGE5eDZJUTF5SU1rTkFxRVZVSTVPaERBSDhPeEotMFJIYnZ2WFpNT2t3QW1LOUtRWC1DeGtoMEwy",
+      "articleTitleKey": "戦後81年 ただよう空気 上 武器輸出解禁 知らなかった 戦争知らぬ世代 変わる視線",
+      "articleSourceKey": "朝日新聞"
     }
   ]
 }
