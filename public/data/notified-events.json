@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T21:35:19.924Z",
+  "updatedAt": "2026-08-13T22:22:17.139Z",
   "events": [
     {
       "id": "3096b6cc6f7cb0b8e547840d",
@@ -5840,6 +5840,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42TU9rQWNDcG1Kd0p1QTFZY0hzdjdfMXdsR1YteTVMenhQdzNYWWpCRm02QzRaUkYyYVVDRFJWcGtjWmU2dUwyczVMb2dSMDRBUnYzSjFn",
       "articleTitleKey": "米産ジャガイモの輸入解禁検討 最終工程へ 農水省 実際の輸入開始は数年後か",
       "articleSourceKey": "西日本新聞me"
+    },
+    {
+      "id": "eddd82e7ded9fe02942ed31c",
+      "title": "NY円相場、小幅続落 1ドル=159円50〜60銭 中東の不透明感が重荷 一時2週ぶり安値",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xTjlSYWRsX1NuYklKTTRVemZmWjdtLXctWnQzVkhMVTB5V1NwbVk4OVlnUjBsRXcySTRyeXEwNkdTVXB3XzZwM3FXb0lJS05WNkROR0Y4WmowSU5YOFUteTE3VGdQWnpteTZreg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T21:49:42.000Z",
+      "notifiedAt": "2026-08-13T22:22:17.139Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xTjlSYWRsX1NuYklKTTRVemZmWjdtLXctWnQzVkhMVTB5V1NwbVk4OVlnUjBsRXcySTRyeXEwNkdTVXB3XzZwM3FXb0lJS05WNkROR0Y4WmowSU5YOFUteTE3VGdQWnpteTZreg",
+      "articleTitleKey": "ny円相場 小幅続落 1ドル 159円50 60銭 中東の不透明感が重荷 一時2週ぶり安値",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
