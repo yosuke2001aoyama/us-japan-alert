@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T11:54:41.747Z",
+  "updatedAt": "2026-08-13T12:52:06.092Z",
   "events": [
     {
       "id": "f3c42bf9a55b7dd3699cdd15",
@@ -5941,6 +5941,62 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MTWg0Z2JDQWI0VFUyZ1RKTUZjYjlKTTVBNXE1bnU4R001eHYwTzZ1UTZpR0JBTjhUXy1MMXpPODhaT2JWUDZSNENJUml0R0hZYjAxMk83OXA3N1U",
       "articleTitleKey": "夕刊 米国産ジャガイモの輸入解禁前進",
       "articleSourceKey": "下野新聞社"
+    },
+    {
+      "id": "a2eb7d20ff333d552d9994b0",
+      "title": "◎円相場、１５９円３６～３６銭＝１３日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1oMUkweDVpRTl0R04yNG9wSGEta0VrajFYRGxxUTBVeHA4QU1ENFZsRzVEOWxLcXc4ZEQzWEVvemJZZzFWamxPMEhQOUVoT2xzN3Z6Wg?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T08:08:00.000Z",
+      "notifiedAt": "2026-08-13T12:52:06.092Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1oMUkweDVpRTl0R04yNG9wSGEta0VrajFYRGxxUTBVeHA4QU1ENFZsRzVEOWxLcXc4ZEQzWEVvemJZZzFWamxPMEhQOUVoT2xzN3Z6Wg",
+      "articleTitleKey": "円相場 159円36 36銭 13日午後5時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "e90e88d82327f82f41944478",
+      "title": "米国産ジャガイモの輸入解禁前進",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZUkxUWVZ6RkZ0VS1lalJrU1BVcVRWSmVWUnpzaGI3cXNuMVUtcEdjb3h3X29OMW5KbFBjbE9wM2FOSl9fTkJhTHJINDBNUTRqLTR5RmVweHFlVzRMOWc?oc=5",
+      "source": "smart.shimotsuke.co.jp",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T06:32:13.000Z",
+      "notifiedAt": "2026-08-13T12:52:06.092Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZUkxUWVZ6RkZ0VS1lalJrU1BVcVRWSmVWUnpzaGI3cXNuMVUtcEdjb3h3X29OMW5KbFBjbE9wM2FOSl9fTkJhTHJINDBNUTRqLTR5RmVweHFlVzRMOWc",
+      "articleTitleKey": "米国産ジャガイモの輸入解禁前進",
+      "articleSourceKey": "smart.shimotsuke.co.jp"
+    },
+    {
+      "id": "60640c947134025cc77d790f",
+      "title": "米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OWG5uTlgzTEZBZnhoLVJXWVdmVmcwSTJGY1hhMEVyQUFvbnROTXNkMDFFRHVveTFOMFZNcVVIRXUzaFh6bjlidmZvWUhjcENMNXRfUlNleFZxdHJWaGc?oc=5",
+      "source": "niigata-nippo.co.jp",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T06:25:38.000Z",
+      "notifiedAt": "2026-08-13T12:52:06.092Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OWG5uTlgzTEZBZnhoLVJXWVdmVmcwSTJGY1hhMEVyQUFvbnROTXNkMDFFRHVveTFOMFZNcVVIRXUzaFh6bjlidmZvWUhjcENMNXRfUlNleFZxdHJWaGc",
+      "articleTitleKey": "米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念",
+      "articleSourceKey": "niigata-nippo.co.jp"
+    },
+    {
+      "id": "c3943f2bb8b52a8135de00f8",
+      "title": "米政権、中国製品流入を非難＝「関税回避」日本など経由",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmZGlmTVZMVlVRS0Z1LUxNS0RPVHFiMTI0MTk0QkFPZ2xLSWFYbVhlcnZvNTVHYk5JXzR3MWd3cVZWY2dJQ0E3ZGlWOG0zTzJWYmZ5RQ?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-13T12:11:00.000Z",
+      "notifiedAt": "2026-08-13T12:52:06.092Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmZGlmTVZMVlVRS0Z1LUxNS0RPVHFiMTI0MTk0QkFPZ2xLSWFYbVhlcnZvNTVHYk5JXzR3MWd3cVZWY2dJQ0E3ZGlWOG0zTzJWYmZ5RQ",
+      "articleTitleKey": "米政権 中国製品流入を非難 関税回避 日本など経由",
+      "articleSourceKey": "時事通信ニュース"
     }
   ]
 }
