@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T23:08:12.432Z",
+  "updatedAt": "2026-08-13T23:55:20.483Z",
   "events": [
     {
       "id": "3096b6cc6f7cb0b8e547840d",
@@ -5853,6 +5853,34 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xTjlSYWRsX1NuYklKTTRVemZmWjdtLXctWnQzVkhMVTB5V1NwbVk4OVlnUjBsRXcySTRyeXEwNkdTVXB3XzZwM3FXb0lJS05WNkROR0Y4WmowSU5YOFUteTE3VGdQWnpteTZreg",
       "articleTitleKey": "ny円相場 小幅続落 1ドル 159円50 60銭 中東の不透明感が重荷 一時2週ぶり安値",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "64dcdefb95f50e7382bd172e",
+      "title": "外為8時30分 円相場、下落し159円台半ば 対ユーロでも安い",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04VF9ERnNGZ3FlbUJvdHVmNGJMd3ZsR3JBbU1iOElMU3FRRzdjd1lzMXQtQ3RYMktsUWs2eGU0MkpaRmJacHhmN0VuYlNnOXVqTjNVLTl0cl9xelhyOTJ6THNnZ0YtdnFfcUhzbQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T23:47:50.000Z",
+      "notifiedAt": "2026-08-13T23:55:20.483Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04VF9ERnNGZ3FlbUJvdHVmNGJMd3ZsR3JBbU1iOElMU3FRRzdjd1lzMXQtQ3RYMktsUWs2eGU0MkpaRmJacHhmN0VuYlNnOXVqTjNVLTl0cl9xelhyOTJ6THNnZ0YtdnFfcUhzbQ",
+      "articleTitleKey": "外為8時30分 円相場 下落し159円台半ば 対ユーロでも安い",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "fb677e9c4c398a4ef49c4178",
+      "title": "トランプ政権、「ドローン関税」を9月に発動 日本製には軽減措置",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zYlZEU3lzT1NZY24zdU5Vckh6eXVSbVZsSXVhSXR2c0VXRldGRXZBT0stNlh3bVlteFFVUG1tc1Y0OGZxQ09UcUg5Q3k2dE5qMnI4dUtieGlmZmNZbk5kVmtkbDZfQ25WWEVjRw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-13T23:49:41.000Z",
+      "notifiedAt": "2026-08-13T23:55:20.483Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zYlZEU3lzT1NZY24zdU5Vckh6eXVSbVZsSXVhSXR2c0VXRldGRXZBT0stNlh3bVlteFFVUG1tc1Y0OGZxQ09UcUg5Q3k2dE5qMnI4dUtieGlmZmNZbk5kVmtkbDZfQ25WWEVjRw",
+      "articleTitleKey": "トランプ政権 ドローン関税 を9月に発動 日本製には軽減措置",
       "articleSourceKey": "日本経済新聞"
     }
   ]
