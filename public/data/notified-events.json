@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T07:42:38.661Z",
+  "updatedAt": "2026-08-13T08:55:19.555Z",
   "events": [
     {
       "id": "41ab29d9308708610501b74e",
@@ -5950,6 +5950,90 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tVWZFMUhqbnJUV1ZMQzZ6ZEJRN1d2UVhkR0F6NVBHc0NBclc1ZExvejJwbkw1OUhvMGM2OE8xTm50azJVVnJfUzd4MDFtRHBtbW5BUzRB",
       "articleTitleKey": "米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念 全国のニュース",
       "articleSourceKey": "saga-s.co.jp"
+    },
+    {
+      "id": "74a31e406bc624bea3e07763",
+      "title": "為替介入後の円・国債 海外大手運用3社「なお下落余地」",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VQWFuVms2bm1EUkVYOGtoVi12emF4aXhhaVVHNV91LTFZdmZCWWxJU0FXd2UtNWloek1WSlMxOGIyNUdZTzl2V0xkVTkyVDNNTUFTMmRsekFOYk9WWGxOMnRJRDJNZTQ0ejR1ZQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T08:40:00.000Z",
+      "notifiedAt": "2026-08-13T08:55:19.555Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VQWFuVms2bm1EUkVYOGtoVi12emF4aXhhaVVHNV91LTFZdmZCWWxJU0FXd2UtNWloek1WSlMxOGIyNUdZTzl2V0xkVTkyVDNNTUFTMmRsekFOYk9WWGxOMnRJRDJNZTQ0ejR1ZQ",
+      "articleTitleKey": "為替介入後の円 国債 海外大手運用3社 なお下落余地",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "c0e9185ab23e08131d5f9662",
+      "title": "外為17時 円相場、横ばい圏 159円台前半 日銀利上げに思惑",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjR21uZmowNGgyS25YdXpCMjR5eEp2QnhOMGtCbEVwVTdiYVNYMHQ1UWpuMktha3FmUFlLMzNNekVtN19jSmx3OUJNYVNuU1RJNkNXVGQ3cXhuSHg2Uk53YVpNWWt4eWZHQkVfdg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T08:32:51.000Z",
+      "notifiedAt": "2026-08-13T08:55:19.555Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjR21uZmowNGgyS25YdXpCMjR5eEp2QnhOMGtCbEVwVTdiYVNYMHQ1UWpuMktha3FmUFlLMzNNekVtN19jSmx3OUJNYVNuU1RJNkNXVGQ3cXhuSHg2Uk53YVpNWWt4eWZHQkVfdg",
+      "articleTitleKey": "外為17時 円相場 横ばい圏 159円台前半 日銀利上げに思惑",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "c06c2fc9f32f17067ab3bbea",
+      "title": "円相場、１５９円３６～３６銭＝１３日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tTzlTSk5fX0VvYW1NNlo0MFJhTEZnMjJCdTZYUFlGVzlXZVBpUnI0X3ZOQk53clIwaklLRnBsNU9iTWtFd2FtallLZEJhbHZ3bjliMg?oc=5",
+      "source": "sp.m.jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T08:09:00.000Z",
+      "notifiedAt": "2026-08-13T08:55:19.555Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tTzlTSk5fX0VvYW1NNlo0MFJhTEZnMjJCdTZYUFlGVzlXZVBpUnI0X3ZOQk53clIwaklLRnBsNU9iTWtFd2FtallLZEJhbHZ3bjliMg",
+      "articleTitleKey": "円相場 159円36 36銭 13日午後5時現在",
+      "articleSourceKey": "sp.m.jiji.com"
+    },
+    {
+      "id": "3077b6e734721aac35a277a9",
+      "title": "円相場、１５９円３６～３６銭 １３日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTMXB6blFNX2Z2eXNxb3diZjdrclpzeHFLNUcyWHliZlNZT2VjaDlvclJ0OGh1bEJUZ2VFZTMzOVJoYkZtQkhpYnhlc0ZqQXFmaXlfdkdES2tNVmVHOVNPX3FSUQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T08:09:00.000Z",
+      "notifiedAt": "2026-08-13T08:55:19.555Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTMXB6blFNX2Z2eXNxb3diZjdrclpzeHFLNUcyWHliZlNZT2VjaDlvclJ0OGh1bEJUZ2VFZTMzOVJoYkZtQkhpYnhlc0ZqQXFmaXlfdkdES2tNVmVHOVNPX3FSUQ",
+      "articleTitleKey": "円相場 159円36 36銭 13日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "6938c61c9c491230a97879cc",
+      "title": "◎円相場、１５９円４３～４３銭＝１３日正午現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wazFYUTdrTGdsN1VqVDQ3SmVyS21Uc1lBRFJVWHBVa3RZYmI1R0xvUjZjQll0VTBUYllUdjRYYk50TlVvbzFQT2dPMEQxUFpGSUFETA?oc=5",
+      "source": "sp.m.jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T03:06:00.000Z",
+      "notifiedAt": "2026-08-13T08:55:19.555Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wazFYUTdrTGdsN1VqVDQ3SmVyS21Uc1lBRFJVWHBVa3RZYmI1R0xvUjZjQll0VTBUYllUdjRYYk50TlVvbzFQT2dPMEQxUFpGSUFETA",
+      "articleTitleKey": "円相場 159円43 43銭 13日正午現在",
+      "articleSourceKey": "sp.m.jiji.com"
+    },
+    {
+      "id": "d953a85e6130da931329c848",
+      "title": "【写真】米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Qy1ZelR5VWdMWjZRZ0VnNmZMWU0wNHRydk9wSVVtaG9hU3Z3dWtiLXVfbUsyNkJaN2RfLS1Ia0VMNXdzSlBocWtwUHdvTmZDY0tSUU5xUlVEbjFmS29RNlcyS0U3NHlq?oc=5",
+      "source": "南日本新聞",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T06:25:37.000Z",
+      "notifiedAt": "2026-08-13T08:55:19.555Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Qy1ZelR5VWdMWjZRZ0VnNmZMWU0wNHRydk9wSVVtaG9hU3Z3dWtiLXVfbUsyNkJaN2RfLS1Ia0VMNXdzSlBocWtwUHdvTmZDY0tSUU5xUlVEbjFmS29RNlcyS0U3NHlq",
+      "articleTitleKey": "写真 米国産ジャガイモの輸入解禁前進 9月にも最終工程 病害虫懸念",
+      "articleSourceKey": "南日本新聞"
     }
   ]
 }
