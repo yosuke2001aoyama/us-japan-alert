@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T18:06:57.615Z",
+  "updatedAt": "2026-08-13T19:16:44.309Z",
   "events": [
     {
       "id": "482a370ca23f5def8ac5a9b0",
@@ -5755,6 +5755,20 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nQVpkV3hETmgtQTRVak82SmRBQm1nTm1tcVB4Sk85WG56eVU3Z2lMRWlxUXpXelpUSURPNVlXcDFENGMzVjFCZ1ZHcmw1aDhhYVNaTU0zandUSFc4NHpwM0VZNXlFVDFLNVRhVQ",
       "articleTitleKey": "米フォード リンカーン 生産を中国から国内に一部移管 関税など背景",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "b6302c17174e8c65c9447be6",
+      "title": "トランプ新関税発動 還付・負担減期待に冷や水 企業、事業計画見直し必要に",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uOWMyUEkyVk53Ym9Lc0JxMmkxUHltc1IwY2lvREVsdzFEOEJ5aFVrX3cwcjVRcnk4RFZUalB2bHpYQ2FJajRtWmVNLTNKRTVSYkNqdG9WaGJLWkZxYVd4VGNvNjNRbTlDYTA5QQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-13T17:00:00.000Z",
+      "notifiedAt": "2026-08-13T19:16:44.309Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uOWMyUEkyVk53Ym9Lc0JxMmkxUHltc1IwY2lvREVsdzFEOEJ5aFVrX3cwcjVRcnk4RFZUalB2bHpYQ2FJajRtWmVNLTNKRTVSYkNqdG9WaGJLWkZxYVd4VGNvNjNRbTlDYTA5QQ",
+      "articleTitleKey": "トランプ新関税発動 還付 負担減期待に冷や水 企業 事業計画見直し必要に",
       "articleSourceKey": "日本経済新聞"
     }
   ]
