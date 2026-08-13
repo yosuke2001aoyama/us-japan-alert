@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T20:54:00.367Z",
+  "updatedAt": "2026-08-13T21:35:19.924Z",
   "events": [
     {
       "id": "3096b6cc6f7cb0b8e547840d",
@@ -5812,6 +5812,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sOGZGV0l3d0FFS1J1S0V3dGJGSXZCS2RYX3h3SGE5eDZJUTF5SU1rTkFxRVZVSTVPaERBSDhPeEotMFJIYnZ2WFpNT2t3QW1LOUtRWC1DeGtoMEwy",
       "articleTitleKey": "戦後81年 ただよう空気 上 武器輸出解禁 知らなかった 戦争知らぬ世代 変わる視線",
       "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "901f99ebe6e0cb6348bdfbce",
+      "title": "“単独介入の限界”ーー28年ぶり「日米協調介入」電撃作戦の舞台裏 アメリカを動かしたワケ…背景にあった“思惑”とは",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCMG1EQkRoT1V5YmNPcHNJZEZlb1VianR4VUVNQXpkYkZsZXAtYTRpaDBHVXBnZmw2OXMtRmIzajA5ZDdjbVhZMXhXMjRVYk1LUFlMSzE1VQ?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-13T21:00:00.000Z",
+      "notifiedAt": "2026-08-13T21:35:19.924Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCMG1EQkRoT1V5YmNPcHNJZEZlb1VianR4VUVNQXpkYkZsZXAtYTRpaDBHVXBnZmw2OXMtRmIzajA5ZDdjbVhZMXhXMjRVYk1LUFlMSzE1VQ",
+      "articleTitleKey": "単独介入の限界 ーー28年ぶり 日米協調介入 電撃作戦の舞台裏 アメリカを動かしたワケ 背景にあった 思惑 とは",
+      "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "c08b2646d91fbd37384955e1",
+      "title": "米産ジャガイモの輸入解禁検討、最終工程へ 農水省、実際の輸入開始は数年後か",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42TU9rQWNDcG1Kd0p1QTFZY0hzdjdfMXdsR1YteTVMenhQdzNYWWpCRm02QzRaUkYyYVVDRFJWcGtjWmU2dUwyczVMb2dSMDRBUnYzSjFn?oc=5",
+      "source": "西日本新聞me",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T21:00:00.000Z",
+      "notifiedAt": "2026-08-13T21:35:19.924Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42TU9rQWNDcG1Kd0p1QTFZY0hzdjdfMXdsR1YteTVMenhQdzNYWWpCRm02QzRaUkYyYVVDRFJWcGtjWmU2dUwyczVMb2dSMDRBUnYzSjFn",
+      "articleTitleKey": "米産ジャガイモの輸入解禁検討 最終工程へ 農水省 実際の輸入開始は数年後か",
+      "articleSourceKey": "西日本新聞me"
     }
   ]
 }
