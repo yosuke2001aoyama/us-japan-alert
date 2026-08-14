@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T06:47:21.236Z",
+  "updatedAt": "2026-08-14T08:03:53.622Z",
   "events": [
     {
       "id": "3096b6cc6f7cb0b8e547840d",
@@ -6176,6 +6176,76 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vNUFwVGRqX0llbmMwR2p0QlRHbEJRQnhQMFdmbkZiWUUyTXFrS0FoVHRxb28yOFFpc1NvdHdLa25iS0lPdHM2V05MNm1BUjNuTExyQU9weUx2c1FkNHA4UUN3RlM2NEItT0lB",
       "articleTitleKey": "米国産ジャガイモ輸入解禁 農家 死活問題 訴え 高齢化 作付面積減少",
       "articleSourceKey": "信濃毎日新聞デジタル"
+    },
+    {
+      "id": "4139fda970502ce1a635698e",
+      "title": "円買い協調介入で日銀「9月追加利上げ」の観測拡大 物価上振れリスクも影響",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeDZvUU93dHZfZm05Tl9tTXVqYkdsQW5QU0VKdjRhczFfaG53ckFtQUR0VDMwN1JjY3JDbWRyV0VlTlI2S29jR2xEY3lhZ0RLOGxsYVo0cVFMUFdhaGFTb2ZzLVd6UGZaWVZTZTIyR0pUZ0xRQ3R1RnVzcnNxY0VlMkhDOUg2QQ?oc=5",
+      "source": "日経ビジネス電子版",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T08:00:00.000Z",
+      "notifiedAt": "2026-08-14T08:03:53.622Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeDZvUU93dHZfZm05Tl9tTXVqYkdsQW5QU0VKdjRhczFfaG53ckFtQUR0VDMwN1JjY3JDbWRyV0VlTlI2S29jR2xEY3lhZ0RLOGxsYVo0cVFMUFdhaGFTb2ZzLVd6UGZaWVZTZTIyR0pUZ0xRQ3R1RnVzcnNxY0VlMkhDOUg2QQ",
+      "articleTitleKey": "円買い協調介入で日銀 9月追加利上げ の観測拡大 物価上振れリスクも影響",
+      "articleSourceKey": "日経ビジネス電子版"
+    },
+    {
+      "id": "8e891a72de7fea41ee7377ac",
+      "title": "【動画】さらなる日米協調介入は？",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Cc2dQVklESVhCSkhjVWpIVmVWUlk2em5YVXVSUUJ3NWtFdUN4Q29wMUtKRzJaMlJ2US01VkZSNW9uYWlTUHJiUUVlRmNpa2c?oc=5",
+      "source": "news.tv-asahi.co.jp",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T03:25:39.000Z",
+      "notifiedAt": "2026-08-14T08:03:53.622Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Cc2dQVklESVhCSkhjVWpIVmVWUlk2em5YVXVSUUJ3NWtFdUN4Q29wMUtKRzJaMlJ2US01VkZSNW9uYWlTUHJiUUVlRmNpa2c",
+      "articleTitleKey": "動画 さらなる日米協調介入は",
+      "articleSourceKey": "news.tv-asahi.co.jp"
+    },
+    {
+      "id": "068306afc09079a4c4341a22",
+      "title": "【米国産ジャガイモ輸入解禁】農家「死活問題」訴え 高齢化、作付面積減少",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBib2RDcFh3RF9qbmRuVHkweFR5aHdybURZbTJmeUw1MjR4Um12SXY3YXBYR2VFRkhzR2s3MHNHb2hVTWI2ajNyMl9ROFBQWC05?oc=5",
+      "source": "nnn.co.jp",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-14T01:42:01.000Z",
+      "notifiedAt": "2026-08-14T08:03:53.622Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBib2RDcFh3RF9qbmRuVHkweFR5aHdybURZbTJmeUw1MjR4Um12SXY3YXBYR2VFRkhzR2s3MHNHb2hVTWI2ajNyMl9ROFBQWC05",
+      "articleTitleKey": "米国産ジャガイモ輸入解禁 農家 死活問題 訴え 高齢化 作付面積減少",
+      "articleSourceKey": "nnn.co.jp"
+    },
+    {
+      "id": "0647e207353792a1331d1e86",
+      "title": "「中国が関税回避を狙い迂回輸出増加」、米報告書で名指し批判…日本など「迂回先の懸念国」として列挙",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xZXdQWWhZLVYzOUo1UTh2WWJnbHpVa0RwU0VtU1FXX2paYXNIbWJOdUt4LXk5QWpsQjN4Vkw1REpFR2VCRE5fbTVmdXZRdzhhdjJzMEd3UjJ0SllNZTBQY19yVU4?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-14T07:12:00.000Z",
+      "notifiedAt": "2026-08-14T08:03:53.622Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xZXdQWWhZLVYzOUo1UTh2WWJnbHpVa0RwU0VtU1FXX2paYXNIbWJOdUt4LXk5QWpsQjN4Vkw1REpFR2VCRE5fbTVmdXZRdzhhdjJzMEd3UjJ0SllNZTBQY19yVU4",
+      "articleTitleKey": "中国が関税回避を狙い迂回輸出増加 米報告書で名指し批判 日本など 迂回先の懸念国 として列挙",
+      "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "631256c11521c8f3e3135adf",
+      "title": "トランプ政権、一部のドローン・部品に100%関税－中国勢に打撃も",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wTUN5dktveHRVeEpndUNnTEZuMlZZLVhpOEFEV25iclhENGlaQV8yQlFBTlNtaTI1MGJkbzluUml4Z1AwaVNoUjE0MW5tdVNuOTZ2WjFQLTVGX1ZBNHdNRlY4Ni14Mnc?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-13T21:34:00.000Z",
+      "notifiedAt": "2026-08-14T08:03:53.622Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wTUN5dktveHRVeEpndUNnTEZuMlZZLVhpOEFEV25iclhENGlaQV8yQlFBTlNtaTI1MGJkbzluUml4Z1AwaVNoUjE0MW5tdVNuOTZ2WjFQLTVGX1ZBNHdNRlY4Ni14Mnc",
+      "articleTitleKey": "トランプ政権 一部のドローン 部品に100 関税 中国勢に打撃も",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
