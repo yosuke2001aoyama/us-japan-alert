@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T15:09:56.289Z",
+  "updatedAt": "2026-08-14T16:04:18.480Z",
   "events": [
     {
       "id": "3194f0e4818f9b7fa4f785f2",
@@ -6344,6 +6344,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zOFY0Y1Buay00cmhNVFR2OTdhd2RIWmhJQUt1Zk1XbDNIQjFMcTROSVZTb3VuZk10UWlYYS04VGRRVDZQRG1MN2RDdVlQdnl3MFdCeXdhNVpaUQ",
       "articleTitleKey": "農家 死活問題 訴え 米国産ジャガイモの輸入解禁が前進 経済 全国のニュース 富山新聞",
       "articleSourceKey": "北國新聞"
+    },
+    {
+      "id": "a721f923f7cacd8aa38332e3",
+      "title": "写真：【米国産ジャガイモ輸入解禁】農家「死活問題」訴え 高齢化、作付面積減少",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRN2VWNWcza2l6cWdONm1wd2s5dDBrYzVMN01jd2ZsOHZ3V0RXVGZSRkY0R1FMSml6T21Za0wyRUZDUVREbFYzbXkzUXM1dTl4VnAyR1ZVU1U2LXB6eFpGakdzSjNvQQ?oc=5",
+      "source": "沖縄タイムス社",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-14T01:42:01.000Z",
+      "notifiedAt": "2026-08-14T16:04:18.480Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRN2VWNWcza2l6cWdONm1wd2s5dDBrYzVMN01jd2ZsOHZ3V0RXVGZSRkY0R1FMSml6T21Za0wyRUZDUVREbFYzbXkzUXM1dTl4VnAyR1ZVU1U2LXB6eFpGakdzSjNvQQ",
+      "articleTitleKey": "写真 米国産ジャガイモ輸入解禁 農家 死活問題 訴え 高齢化 作付面積減少",
+      "articleSourceKey": "沖縄タイムス社"
     }
   ]
 }
