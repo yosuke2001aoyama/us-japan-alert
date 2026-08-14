@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-13T23:55:20.483Z",
+  "updatedAt": "2026-08-14T01:24:08.867Z",
   "events": [
     {
       "id": "3096b6cc6f7cb0b8e547840d",
@@ -5882,6 +5882,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zYlZEU3lzT1NZY24zdU5Vckh6eXVSbVZsSXVhSXR2c0VXRldGRXZBT0stNlh3bVlteFFVUG1tc1Y0OGZxQ09UcUg5Q3k2dE5qMnI4dUtieGlmZmNZbk5kVmtkbDZfQ25WWEVjRw",
       "articleTitleKey": "トランプ政権 ドローン関税 を9月に発動 日本製には軽減措置",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "9095dc90097082a334c8ce1e",
+      "title": "円相場、１５９円４３～４３銭＝１４日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wMVJHMlBrcDNhOHdoOFpIN3U4blpGbUpwaXhTVlpsc0lpODVMWmo2YWhCYk5qa1JaT1p0QWxEeEhqR0RuNjRnMmtfMS1VR28yXzF3ZA?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T00:05:00.000Z",
+      "notifiedAt": "2026-08-14T01:24:08.867Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wMVJHMlBrcDNhOHdoOFpIN3U4blpGbUpwaXhTVlpsc0lpODVMWmo2YWhCYk5qa1JaT1p0QWxEeEhqR0RuNjRnMmtfMS1VR28yXzF3ZA",
+      "articleTitleKey": "円相場 159円43 43銭 14日午前9時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "4d3ed05773cc5291d15f09e2",
+      "title": "円相場、１５９円４３～４３銭 １４日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBac1Fnd1FvdzFXYTVhTi1IRnBrbnN0VS1OMUtwTzExMXI5bWc1X0NYVTgyMU1oS0pIdVJ3V1RtM2ZnNzBkTHc0T2pnV3FoZ0JHTlJtcFdKYi15SjJkcnkwQ1BEdw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T00:05:00.000Z",
+      "notifiedAt": "2026-08-14T01:24:08.867Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBac1Fnd1FvdzFXYTVhTi1IRnBrbnN0VS1OMUtwTzExMXI5bWc1X0NYVTgyMU1oS0pIdVJ3V1RtM2ZnNzBkTHc0T2pnV3FoZ0JHTlJtcFdKYi15SjJkcnkwQ1BEdw",
+      "articleTitleKey": "円相場 159円43 43銭 14日午前9時現在",
+      "articleSourceKey": "時事ドットコム"
     }
   ]
 }
