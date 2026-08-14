@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T08:03:53.622Z",
+  "updatedAt": "2026-08-14T09:15:55.059Z",
   "events": [
     {
       "id": "3096b6cc6f7cb0b8e547840d",
@@ -6245,6 +6245,62 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wTUN5dktveHRVeEpndUNnTEZuMlZZLVhpOEFEV25iclhENGlaQV8yQlFBTlNtaTI1MGJkbzluUml4Z1AwaVNoUjE0MW5tdVNuOTZ2WjFQLTVGX1ZBNHdNRlY4Ni14Mnc",
       "articleTitleKey": "トランプ政権 一部のドローン 部品に100 関税 中国勢に打撃も",
+      "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "a6e2600e3992675aa531f913",
+      "title": "外為17時 円相場、続伸 159円台前半 日銀の早期利上げ観測で",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1odnJtTzVhY2JXa3VPOVgyYVlhQVhFYmowTnMzYld5TW1nNjEydmhxd1R3Q0tMQWF4bXZzQm5TWVcyaGFzRlB4czFRTER5Y3N6dmVKVEdFWEs4NUhfbVJRYjRmNjQ1N3c2MmRUeQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T08:23:18.000Z",
+      "notifiedAt": "2026-08-14T09:15:55.059Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1odnJtTzVhY2JXa3VPOVgyYVlhQVhFYmowTnMzYld5TW1nNjEydmhxd1R3Q0tMQWF4bXZzQm5TWVcyaGFzRlB4czFRTER5Y3N6dmVKVEdFWEs4NUhfbVJRYjRmNjQ1N3c2MmRUeQ",
+      "articleTitleKey": "外為17時 円相場 続伸 159円台前半 日銀の早期利上げ観測で",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "6e423f4b3f03acf35680a87f",
+      "title": "円相場、１５９円２０～２１銭＝１４日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NSzB4aE9HaHZjaDlZZkVHUlJobFRFWDRMYnhIRlZVRWZKVnBCWG5ISWF0TW93cERGLTg4ekt4cDF4TEJWN0E2TzhkU3ROYjg5NnZ4QQ?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T08:09:00.000Z",
+      "notifiedAt": "2026-08-14T09:15:55.059Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NSzB4aE9HaHZjaDlZZkVHUlJobFRFWDRMYnhIRlZVRWZKVnBCWG5ISWF0TW93cERGLTg4ekt4cDF4TEJWN0E2TzhkU3ROYjg5NnZ4QQ",
+      "articleTitleKey": "円相場 159円20 21銭 14日午後5時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "96ebc62f0450e52e5425e14d",
+      "title": "円相場、１５９円２０～２１銭 １４日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBENlh4bXVQRDR4WjJteGNYNTdxMlpqQ1lpaWdDU2RzSHYwckxPSHNySnRlaEl5cHpHNDRsR1BqZUhHZ0lKZmhEVFB1NjdaZHNyX0pSY3BRVHJkNE1nZ2JpQlN6cw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T08:09:00.000Z",
+      "notifiedAt": "2026-08-14T09:15:55.059Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBENlh4bXVQRDR4WjJteGNYNTdxMlpqQ1lpaWdDU2RzSHYwckxPSHNySnRlaEl5cHpHNDRsR1BqZUhHZ0lKZmhEVFB1NjdaZHNyX0pSY3BRVHJkNE1nZ2JpQlN6cw",
+      "articleTitleKey": "円相場 159円20 21銭 14日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "6af4a29ffaba6a8e11ca7024",
+      "title": "【来週の円相場】160円巡る攻防継続へ、円売り圧力と介入警戒が交錯",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80d2NPaEYybG5CdnlabVk0VExQOUhxaG9tV0tVbXBwMWZBTVdOY3p3Z0xYUEVwUXA0czBjLXpFdEd3ZXZLWU05bnUxVnZkaEdxUVNIMmExamtfNmhLSWg2dTlwWU81REU?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T02:52:00.000Z",
+      "notifiedAt": "2026-08-14T09:15:55.059Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80d2NPaEYybG5CdnlabVk0VExQOUhxaG9tV0tVbXBwMWZBTVdOY3p3Z0xYUEVwUXA0czBjLXpFdEd3ZXZLWU05bnUxVnZkaEdxUVNIMmExamtfNmhLSWg2dTlwWU81REU",
+      "articleTitleKey": "来週の円相場 160円巡る攻防継続へ 円売り圧力と介入警戒が交錯",
       "articleSourceKey": "tbs news dig"
     }
   ]
