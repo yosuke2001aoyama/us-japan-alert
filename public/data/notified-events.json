@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T05:17:50.284Z",
+  "updatedAt": "2026-08-14T06:47:21.236Z",
   "events": [
     {
       "id": "3096b6cc6f7cb0b8e547840d",
@@ -6148,6 +6148,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EaHpySWlURHZ5azRObGtkNEM3REhjUktCTjZMd0E1OS1uUTFpVnM4OTNmQzl2VEIxSUxYcjdOT0p5ZTFrSTVOZEUwc3hNZlY2MEFSV0laY25nS0xlYTF2aDM5SzVjTEFa",
       "articleTitleKey": "wsj日本版 トランプ氏 ドローン関税発表 国家安全保障を強化へ",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "fed2125ae2f30596f50989cb",
+      "title": "外為14時 円相場、小幅高 159円台前半 根強い介入の警戒感が支え",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QQ01wcjBtbzEyRjNhNW1tVEFvYUxwUVRPVlV0UDRpS3JpQXFRZkpzQ2I4WU13QUoxZDV5Q0FSS1I5aGM3Mml0N2k1dFliVkg5U2c1ek82dGNENVBDcXVCSWI5WnZaYkoyd0ZfRg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T05:13:01.000Z",
+      "notifiedAt": "2026-08-14T06:47:21.236Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QQ01wcjBtbzEyRjNhNW1tVEFvYUxwUVRPVlV0UDRpS3JpQXFRZkpzQ2I4WU13QUoxZDV5Q0FSS1I5aGM3Mml0N2k1dFliVkg5U2c1ek82dGNENVBDcXVCSWI5WnZaYkoyd0ZfRg",
+      "articleTitleKey": "外為14時 円相場 小幅高 159円台前半 根強い介入の警戒感が支え",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "78b62124ba3881943927d50e",
+      "title": "【米国産ジャガイモ輸入解禁】農家「死活問題」訴え 高齢化、作付面積減少",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vNUFwVGRqX0llbmMwR2p0QlRHbEJRQnhQMFdmbkZiWUUyTXFrS0FoVHRxb28yOFFpc1NvdHdLa25iS0lPdHM2V05MNm1BUjNuTExyQU9weUx2c1FkNHA4UUN3RlM2NEItT0lB?oc=5",
+      "source": "信濃毎日新聞デジタル",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-14T01:42:01.000Z",
+      "notifiedAt": "2026-08-14T06:47:21.236Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vNUFwVGRqX0llbmMwR2p0QlRHbEJRQnhQMFdmbkZiWUUyTXFrS0FoVHRxb28yOFFpc1NvdHdLa25iS0lPdHM2V05MNm1BUjNuTExyQU9weUx2c1FkNHA4UUN3RlM2NEItT0lB",
+      "articleTitleKey": "米国産ジャガイモ輸入解禁 農家 死活問題 訴え 高齢化 作付面積減少",
+      "articleSourceKey": "信濃毎日新聞デジタル"
     }
   ]
 }
