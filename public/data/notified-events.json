@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T21:40:16.610Z",
+  "updatedAt": "2026-08-14T21:58:03.554Z",
   "events": [
     {
       "id": "3194f0e4818f9b7fa4f785f2",
@@ -6400,6 +6400,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FTTRVVmV5aU9JMFNXbjc0S3BmVklDOXBTeWZzWGE1MHNPNGlPSGVHQVBoWnJsMHlqTEVHVjc4N1p3TmszbzNsRVg4MTJKWFUyTGFraTZySlJKOTJCdVhEWGNFY3k",
       "articleTitleKey": "ドローン関税 米が最大100 来月から 日本は15",
       "articleSourceKey": "読売新聞"
+    },
+    {
+      "id": "a248af233f9def25e532f2d1",
+      "title": "日銀の次の一手を待つ為替市場、円相場は一時158円60銭まで上昇",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40WXJmbGIwRlRmWXllRkQtamhGZ2RMX29RdW1na0llNWVQWTBGNUJPMFJjbGh1dkF0R0JpckQ1SmpzT0tDMFpDSWRTeVVONjdPNW9ZMEhLWHo1RXlRcWxoU2NmRENCUWc?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T07:14:00.000Z",
+      "notifiedAt": "2026-08-14T21:58:03.554Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40WXJmbGIwRlRmWXllRkQtamhGZ2RMX29RdW1na0llNWVQWTBGNUJPMFJjbGh1dkF0R0JpckQ1SmpzT0tDMFpDSWRTeVVONjdPNW9ZMEhLWHo1RXlRcWxoU2NmRENCUWc",
+      "articleTitleKey": "日銀の次の一手を待つ為替市場 円相場は一時158円60銭まで上昇",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
