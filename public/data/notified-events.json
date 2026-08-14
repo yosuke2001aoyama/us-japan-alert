@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T19:03:49.960Z",
+  "updatedAt": "2026-08-14T19:52:06.591Z",
   "events": [
     {
       "id": "3194f0e4818f9b7fa4f785f2",
@@ -6372,6 +6372,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uem1taUZzVG9xMFp4a29mRXVyengtQ0NQZHpyZmoyczFnSFF6TWZiNDZMRW5QbEhQVkFpZTR5anM0bERmSV9VUmNYbzUxaHFVUGI4Y05pM1lMX2ljc3ZQSWx1dkRJVjFi",
       "articleTitleKey": "トランプ米大統領 米 ドローン100 関税 安保関連品 中国に対抗",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "a08ba7859a2e72fcf8cceb15",
+      "title": "日経平均、7万円回復をうかがう 円相場は160円が心理的節目",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kTUdyNVc1QWFPc2RaS05kaWtUMXllTzh4VUd5VzJ6b255dzBSc0twTEQtVDVDMVNSY0Z6M3dpenpDNTNpa0RXTGZYaU9ZdXBpV1ZjTlRNbUhhd1BaNlJySWNkVjQ1S0JJclB0SA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T19:00:00.000Z",
+      "notifiedAt": "2026-08-14T19:52:06.591Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kTUdyNVc1QWFPc2RaS05kaWtUMXllTzh4VUd5VzJ6b255dzBSc0twTEQtVDVDMVNSY0Z6M3dpenpDNTNpa0RXTGZYaU9ZdXBpV1ZjTlRNbUhhd1BaNlJySWNkVjQ1S0JJclB0SA",
+      "articleTitleKey": "日経平均 7万円回復をうかがう 円相場は160円が心理的節目",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
