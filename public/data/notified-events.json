@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T11:56:34.872Z",
+  "updatedAt": "2026-08-14T13:00:20.115Z",
   "events": [
     {
       "id": "fb8d11ad0f4e4834ce950637",
@@ -6330,6 +6330,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHZWc0UGtERlhrOE0wekZ1NzloUk1aZzJydHZsTUE2MW9QM3dUSk9tMWJMOFFFaGRhRDF0OS1PWm9qNkVVM1ZsVEljdldJOGNFdGdrcWVmeW5NTnBGQnc",
       "articleTitleKey": "米国産ジャガイモ輸入解禁 農家 死活問題 訴え 高齢化 作付面積減少",
       "articleSourceKey": "沖縄タイムス社"
+    },
+    {
+      "id": "13d4602aee2700956e73e0db",
+      "title": "Our beautiful World War II Memorial was just hit by Spray Painting Vandals. THERE CAN BE NO GREATER INSULT TO THOSE AMERICAN HEROES WHO DIED IN WORLD WAR II. First the Reflectin…",
+      "url": "https://www.trumpstruth.org/statuses/40818",
+      "source": "Truth Social · @realDonaldTrump · President Donald Trump",
+      "category": "公式発表",
+      "priority": 95,
+      "publishedAt": "2026-08-14T12:52:18.000Z",
+      "notifiedAt": "2026-08-14T13:00:20.115Z",
+      "baseline": false,
+      "articleUrlKey": "https://www.trumpstruth.org/statuses/40818",
+      "articleTitleKey": "our beautiful world war ii memorial was just hit by spray painting vandals there can be no greater insult to those american heroes who died in world war ii first the reflectin",
+      "articleSourceKey": "truth social · @realdonaldtrump · president donald trump"
     }
   ]
 }
