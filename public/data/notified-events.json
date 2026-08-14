@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T13:00:20.115Z",
+  "updatedAt": "2026-08-14T14:17:50.425Z",
   "events": [
     {
       "id": "fb8d11ad0f4e4834ce950637",
@@ -6344,6 +6344,20 @@
       "articleUrlKey": "https://www.trumpstruth.org/statuses/40818",
       "articleTitleKey": "our beautiful world war ii memorial was just hit by spray painting vandals there can be no greater insult to those american heroes who died in world war ii first the reflectin",
       "articleSourceKey": "truth social · @realdonaldtrump · president donald trump"
+    },
+    {
+      "id": "cd82fbcf70d3facc71fa100d",
+      "title": "農家「死活問題」訴え 米国産ジャガイモの輸入解禁が前進｜経済｜全国のニュース｜富山新聞",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zOFY0Y1Buay00cmhNVFR2OTdhd2RIWmhJQUt1Zk1XbDNIQjFMcTROSVZTb3VuZk10UWlYYS04VGRRVDZQRG1MN2RDdVlQdnl3MFdCeXdhNVpaUQ?oc=5",
+      "source": "北國新聞",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-13T20:00:00.000Z",
+      "notifiedAt": "2026-08-14T14:17:50.425Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zOFY0Y1Buay00cmhNVFR2OTdhd2RIWmhJQUt1Zk1XbDNIQjFMcTROSVZTb3VuZk10UWlYYS04VGRRVDZQRG1MN2RDdVlQdnl3MFdCeXdhNVpaUQ",
+      "articleTitleKey": "農家 死活問題 訴え 米国産ジャガイモの輸入解禁が前進 経済 全国のニュース 富山新聞",
+      "articleSourceKey": "北國新聞"
     }
   ]
 }
