@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T19:52:06.591Z",
+  "updatedAt": "2026-08-14T20:18:01.927Z",
   "events": [
     {
       "id": "3194f0e4818f9b7fa4f785f2",
@@ -6386,6 +6386,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kTUdyNVc1QWFPc2RaS05kaWtUMXllTzh4VUd5VzJ6b255dzBSc0twTEQtVDVDMVNSY0Z6M3dpenpDNTNpa0RXTGZYaU9ZdXBpV1ZjTlRNbUhhd1BaNlJySWNkVjQ1S0JJclB0SA",
       "articleTitleKey": "日経平均 7万円回復をうかがう 円相場は160円が心理的節目",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "5cf1e4e170240f85cee96e01",
+      "title": "ドローン関税 米が最大１００％…来月から 日本は１５％",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FTTRVVmV5aU9JMFNXbjc0S3BmVklDOXBTeWZzWGE1MHNPNGlPSGVHQVBoWnJsMHlqTEVHVjc4N1p3TmszbzNsRVg4MTJKWFUyTGFraTZySlJKOTJCdVhEWGNFY3k?oc=5",
+      "source": "読売新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-14T20:00:00.000Z",
+      "notifiedAt": "2026-08-14T20:18:01.927Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FTTRVVmV5aU9JMFNXbjc0S3BmVklDOXBTeWZzWGE1MHNPNGlPSGVHQVBoWnJsMHlqTEVHVjc4N1p3TmszbzNsRVg4MTJKWFUyTGFraTZySlJKOTJCdVhEWGNFY3k",
+      "articleTitleKey": "ドローン関税 米が最大100 来月から 日本は15",
+      "articleSourceKey": "読売新聞"
     }
   ]
 }
