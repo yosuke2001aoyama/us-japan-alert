@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T17:04:25.379Z",
+  "updatedAt": "2026-08-14T18:00:07.471Z",
   "events": [
     {
       "id": "3194f0e4818f9b7fa4f785f2",
@@ -6358,6 +6358,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRN2VWNWcza2l6cWdONm1wd2s5dDBrYzVMN01jd2ZsOHZ3V0RXVGZSRkY0R1FMSml6T21Za0wyRUZDUVREbFYzbXkzUXM1dTl4VnAyR1ZVU1U2LXB6eFpGakdzSjNvQQ",
       "articleTitleKey": "写真 米国産ジャガイモ輸入解禁 農家 死活問題 訴え 高齢化 作付面積減少",
       "articleSourceKey": "沖縄タイムス社"
+    },
+    {
+      "id": "cee8aa363fc96afc5a2bb40b",
+      "title": "トランプ米大統領：米、ドローン100％関税 安保関連品 中国に対抗",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uem1taUZzVG9xMFp4a29mRXVyengtQ0NQZHpyZmoyczFnSFF6TWZiNDZMRW5QbEhQVkFpZTR5anM0bERmSV9VUmNYbzUxaHFVUGI4Y05pM1lMX2ljc3ZQSWx1dkRJVjFi?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-14T17:01:56.000Z",
+      "notifiedAt": "2026-08-14T18:00:07.471Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uem1taUZzVG9xMFp4a29mRXVyengtQ0NQZHpyZmoyczFnSFF6TWZiNDZMRW5QbEhQVkFpZTR5anM0bERmSV9VUmNYbzUxaHFVUGI4Y05pM1lMX2ljc3ZQSWx1dkRJVjFi",
+      "articleTitleKey": "トランプ米大統領 米 ドローン100 関税 安保関連品 中国に対抗",
+      "articleSourceKey": "毎日新聞"
     }
   ]
 }
