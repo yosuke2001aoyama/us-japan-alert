@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T11:11:32.683Z",
+  "updatedAt": "2026-08-14T11:56:34.872Z",
   "events": [
     {
       "id": "fb8d11ad0f4e4834ce950637",
@@ -6302,6 +6302,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MUE5LbXVyYTdmZU41a0FtbUZyTUVOVkgwb3VxT2xPS2FSVmdhUnp2VzhqY25PaThpSnl2TlpuSjNPNV81SFc5aG80WW1uNlljQmJESEFMMG1rT1M5X0FlVFFvNVpQem5ENDdmUw",
       "articleTitleKey": "中国 迂回輸出で関税逃れ 日本など40カ国超 米報告書 年12兆円 雇用打撃",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "1276ef013eba475fa369fde1",
+      "title": "日銀の次の一手を待つ為替市場、円相場は午後に対ドルでやや上昇基調",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qbGgwUGg5QWljdk5ScjgxNmlwbkNpMnExdlV1cXRyeUFtSkJCS0FrbUoxcUwtdXZ0WEd0MWhVcWwtUnBILUo4bXRacEpVTEViT3pTTWRFSzZtcWxqMGttdHJscWxFdjBXSlRfX2VVT0Rtamxj?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T11:37:00.000Z",
+      "notifiedAt": "2026-08-14T11:56:34.872Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qbGgwUGg5QWljdk5ScjgxNmlwbkNpMnExdlV1cXRyeUFtSkJCS0FrbUoxcUwtdXZ0WEd0MWhVcWwtUnBILUo4bXRacEpVTEViT3pTTWRFSzZtcWxqMGttdHJscWxFdjBXSlRfX2VVT0Rtamxj",
+      "articleTitleKey": "日銀の次の一手を待つ為替市場 円相場は午後に対ドルでやや上昇基調",
+      "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "1a88ee5054ff79bd13b44ad9",
+      "title": "【米国産ジャガイモ輸入解禁】農家「死活問題」訴え 高齢化、作付面積減少",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHZWc0UGtERlhrOE0wekZ1NzloUk1aZzJydHZsTUE2MW9QM3dUSk9tMWJMOFFFaGRhRDF0OS1PWm9qNkVVM1ZsVEljdldJOGNFdGdrcWVmeW5NTnBGQnc?oc=5",
+      "source": "沖縄タイムス社",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-14T01:42:01.000Z",
+      "notifiedAt": "2026-08-14T11:56:34.872Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHZWc0UGtERlhrOE0wekZ1NzloUk1aZzJydHZsTUE2MW9QM3dUSk9tMWJMOFFFaGRhRDF0OS1PWm9qNkVVM1ZsVEljdldJOGNFdGdrcWVmeW5NTnBGQnc",
+      "articleTitleKey": "米国産ジャガイモ輸入解禁 農家 死活問題 訴え 高齢化 作付面積減少",
+      "articleSourceKey": "沖縄タイムス社"
     }
   ]
 }
