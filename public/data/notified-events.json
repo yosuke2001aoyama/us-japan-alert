@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T21:58:03.554Z",
+  "updatedAt": "2026-08-14T22:24:13.153Z",
   "events": [
     {
       "id": "3194f0e4818f9b7fa4f785f2",
@@ -6414,6 +6414,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40WXJmbGIwRlRmWXllRkQtamhGZ2RMX29RdW1na0llNWVQWTBGNUJPMFJjbGh1dkF0R0JpckQ1SmpzT0tDMFpDSWRTeVVONjdPNW9ZMEhLWHo1RXlRcWxoU2NmRENCUWc",
       "articleTitleKey": "日銀の次の一手を待つ為替市場 円相場は一時158円60銭まで上昇",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "9246549735088170e6e8c903",
+      "title": "NY円相場、反発 1ドル=159円30〜40銭 米指標悪化や日銀利上げ観測で円買い",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WZE94LU4ydFRBcmZlWnNHbkdaS25na3pXV3FZTjNXb2hjSzFlSklUSEZQOFZtdmhWTmM0Rnl5a3N3WjRjekpmR0x3SzhDNVFVWENWb2xCR1RUdk1jVW9VTmdFWnVfZ1hSTFJJTQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T21:51:40.000Z",
+      "notifiedAt": "2026-08-14T22:24:13.153Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WZE94LU4ydFRBcmZlWnNHbkdaS25na3pXV3FZTjNXb2hjSzFlSklUSEZQOFZtdmhWTmM0Rnl5a3N3WjRjekpmR0x3SzhDNVFVWENWb2xCR1RUdk1jVW9VTmdFWnVfZ1hSTFJJTQ",
+      "articleTitleKey": "ny円相場 反発 1ドル 159円30 40銭 米指標悪化や日銀利上げ観測で円買い",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
