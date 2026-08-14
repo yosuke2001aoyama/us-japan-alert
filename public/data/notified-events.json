@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-14T10:19:17.421Z",
+  "updatedAt": "2026-08-14T11:11:32.683Z",
   "events": [
     {
       "id": "fb8d11ad0f4e4834ce950637",
@@ -6288,6 +6288,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80d2NPaEYybG5CdnlabVk0VExQOUhxaG9tV0tVbXBwMWZBTVdOY3p3Z0xYUEVwUXA0czBjLXpFdEd3ZXZLWU05bnUxVnZkaEdxUVNIMmExamtfNmhLSWg2dTlwWU81REU",
       "articleTitleKey": "来週の円相場 160円巡る攻防継続へ 円売り圧力と介入警戒が交錯",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "72794a774579c3cfe11d466e",
+      "title": "中国、迂回輸出で関税逃れ 日本など40カ国超 米報告書 年12兆円、雇用打撃",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MUE5LbXVyYTdmZU41a0FtbUZyTUVOVkgwb3VxT2xPS2FSVmdhUnp2VzhqY25PaThpSnl2TlpuSjNPNV81SFc5aG80WW1uNlljQmJESEFMMG1rT1M5X0FlVFFvNVpQem5ENDdmUw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-14T05:30:00.000Z",
+      "notifiedAt": "2026-08-14T11:11:32.683Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MUE5LbXVyYTdmZU41a0FtbUZyTUVOVkgwb3VxT2xPS2FSVmdhUnp2VzhqY25PaThpSnl2TlpuSjNPNV81SFc5aG80WW1uNlljQmJESEFMMG1rT1M5X0FlVFFvNVpQem5ENDdmUw",
+      "articleTitleKey": "中国 迂回輸出で関税逃れ 日本など40カ国超 米報告書 年12兆円 雇用打撃",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
