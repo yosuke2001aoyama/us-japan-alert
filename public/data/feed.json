@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T22:30:03.041Z",
+  "generatedAt": "2026-08-15T22:50:51.559Z",
   "mode": "live",
   "sources": {
     "ok": 109,
@@ -797,9 +797,9 @@
       "id": "ZKaFNqTnNiMVp6YWpkRU5tTlNVREk_b2M9NQ",
       "title": "【米国産ジャガイモ輸入解禁】農家「死活問題」訴え 高齢化、作付面積減少",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ycUNNNDJlazlTWkFseWwzRmk0aHBadEhxTFFYN044Sk9Xc0h1QmtLalUxTzNMeUF3RmtQcWczX05CWUc0RDlFS1RLT0ZybkNvWGx1NF9iMlg2NGdUTTlfYXQ4bVRDVU1wbUl2aFJhSjNsb1ZzajdENmNSUDI?oc=5",
-      "source": "神戸新聞NEXT",
+      "source": "神戸新聞",
       "publishedAt": "2026-08-14T01:42:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5ycUNNNDJlazlTWkFseWwzRmk0aHBadEhxTFFYN044Sk9Xc0h1QmtLalUxTzNMeUF3RmtQcWczX05CWUc0RDlFS1RLT0ZybkNvWGx1NF9iMlg2NGdUTTlfYXQ4bVRDVU1wbUl2aFJhSjNsb1ZzajdENmNSUDI?oc=5\" target=\"_blank\"&gt;【米国産ジャガイモ輸入解禁】農家「死活問題」訴え 高齢化、作付面積減少&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;神戸新聞NEXT&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5ycUNNNDJlazlTWkFseWwzRmk0aHBadEhxTFFYN044Sk9Xc0h1QmtLalUxTzNMeUF3RmtQcWczX05CWUc0RDlFS1RLT0ZybkNvWGx1NF9iMlg2NGdUTTlfYXQ4bVRDVU1wbUl2aFJhSjNsb1ZzajdENmNSUDI?oc=5\" target=\"_blank\"&gt;【米国産ジャガイモ輸入解禁】農家「死活問題」訴え 高齢化、作付面積減少&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;神戸新聞&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 94,
       "japanRelated": true,
@@ -2777,7 +2777,7 @@
       "id": "U0ZReFkwWjBiRTF3ZFhoWVJGbDFVUT9vYz01",
       "title": "Why the U.S. Intervened to Prop Up Japan’s Yen",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtd0lTZUZPYnB4bXNZdm1iNHdTUmt2ZEZYTlppYXhKQTZaU3FzRlptMDBRTTkwUldxX25hSERwR21haTU1bjBydklWQVRMMnBBMzBxeF9BTWhiUTVsbFZOSFlHQmhrLUpYTTBwTThySFQxY0Z0bE1wdXhYRFl1UQ?oc=5",
-      "source": "cfr.org",
+      "source": "Council on Foreign Relations",
       "publishedAt": "2026-08-04T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -3187,6 +3187,25 @@
       "verification": "media-report",
       "verificationLabel": "報道",
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+    },
+    {
+      "id": "WDFwVlVsWnBla0V4TUc1WmIwcEhUQT9vYz01",
+      "title": "高市内閣総理大臣記者会見",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DTHdrSjJPUDhlX2tlNDdiMEhNdFF1SXllT3VIZTg0M25TYXpUcG5NSWNmY0lJMjYwMmRxbXNaTkFON2haSnozZmFzRE1iZi1lVTZTc24yODhoaEc2X1pVUlZpekExMG5Zb0pHTA?oc=5",
+      "source": "首相官邸",
+      "publishedAt": "2026-07-27T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "coverage": "principals",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "公式発表",
+      "priority": 72,
+      "english": false,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。"
     },
     {
       "id": "9XbHVWRE54VG5sbVJFcHRZWHBCT0E_b2M9NQ",
