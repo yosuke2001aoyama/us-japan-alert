@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-15T14:01:51.278Z",
+  "updatedAt": "2026-08-15T14:31:57.827Z",
   "events": [
     {
       "id": "41ef8d77fd8b9ee005595bdc",
@@ -6428,6 +6428,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sVjd3cGtjMnowelBNaUZ1bGN0Uml6TlFkV3NaQjVsakhkTUpyVmdhS3poc3Q2ci1zaDdVVWx3X3B5QlJPc1dFUzNyWllLREtVTktTMXVDeWExOHo3ZWVwSVBwekRuQXYzTEIyMDBjSkRzWjA1",
       "articleTitleKey": "ヘッジファンド 円ショートを半分余り縮小 日米の協調介入以降",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "8d1bded340db3981dde42e8d",
+      "title": "豪首相、米に関税免除求める",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQUERjckhWT1E0VkxwY2ZWMzZzeTFrWGJ0RFZjNS1oMWV6ejNadGNvU1I0b1pZVnZjV0xVTTdiRWl4ZXBQVWV4X1JhUTExNXE1b3dyZWRuaWtYY2VWQmhEbHljalhiVDQ3bGd1MA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-14T17:00:00.000Z",
+      "notifiedAt": "2026-08-15T14:31:57.827Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQUERjckhWT1E0VkxwY2ZWMzZzeTFrWGJ0RFZjNS1oMWV6ejNadGNvU1I0b1pZVnZjV0xVTTdiRWl4ZXBQVWV4X1JhUTExNXE1b3dyZWRuaWtYY2VWQmhEbHljalhiVDQ3bGd1MA",
+      "articleTitleKey": "豪首相 米に関税免除求める",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
