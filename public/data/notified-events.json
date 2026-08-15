@@ -1,22 +1,8 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-15T00:24:45.089Z",
+  "updatedAt": "2026-08-15T01:55:03.869Z",
   "events": [
-    {
-      "id": "3194f0e4818f9b7fa4f785f2",
-      "title": "米政府、新たに中国拠点43社に輸入規制 ウイグル強制労働防止法で",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XanphaC1CUy1RSGVrMlFOQ04wRk1OcjUxMFNoTEJiRERRSTQ0OW5idDNBVmJ1dVpILXJWb3FxQmxybWN6R0ZiTVRtdlY0UkRqcEVKbjhvYUtTaVZUNVhUWlJ1NTRUNDVLSU5ONg?oc=5",
-      "source": "日本経済新聞",
-      "category": "通商・経済",
-      "priority": 92,
-      "publishedAt": "2026-08-01T00:57:21.000Z",
-      "notifiedAt": "2026-08-01T01:17:13.872Z",
-      "baseline": false,
-      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XanphaC1CUy1RSGVrMlFOQ04wRk1OcjUxMFNoTEJiRERRSTQ0OW5idDNBVmJ1dVpILXJWb3FxQmxybWN6R0ZiTVRtdlY0UkRqcEVKbjhvYUtTaVZUNVhUWlJ1NTRUNDVLSU5ONg",
-      "articleTitleKey": "米政府 新たに中国拠点43社に輸入規制 ウイグル強制労働防止法で",
-      "articleSourceKey": "日本経済新聞"
-    },
     {
       "id": "41ef8d77fd8b9ee005595bdc",
       "title": "The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of Military Terror, Strength, and Power not seen since World War II. Despite this…",
@@ -6428,6 +6414,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WZE94LU4ydFRBcmZlWnNHbkdaS25na3pXV3FZTjNXb2hjSzFlSklUSEZQOFZtdmhWTmM0Rnl5a3N3WjRjekpmR0x3SzhDNVFVWENWb2xCR1RUdk1jVW9VTmdFWnVfZ1hSTFJJTQ",
       "articleTitleKey": "ny円相場 反発 1ドル 159円30 40銭 米指標悪化や日銀利上げ観測で円買い",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "7d01c00f08e13c8149e40020",
+      "title": "ヘッジファンド、円ショートを半分余り縮小－日米の協調介入以降",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sVjd3cGtjMnowelBNaUZ1bGN0Uml6TlFkV3NaQjVsakhkTUpyVmdhS3poc3Q2ci1zaDdVVWx3X3B5QlJPc1dFUzNyWllLREtVTktTMXVDeWExOHo3ZWVwSVBwekRuQXYzTEIyMDBjSkRzWjA1?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-15T01:00:00.000Z",
+      "notifiedAt": "2026-08-15T01:55:03.869Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sVjd3cGtjMnowelBNaUZ1bGN0Uml6TlFkV3NaQjVsakhkTUpyVmdhS3poc3Q2ci1zaDdVVWx3X3B5QlJPc1dFUzNyWllLREtVTktTMXVDeWExOHo3ZWVwSVBwekRuQXYzTEIyMDBjSkRzWjA1",
+      "articleTitleKey": "ヘッジファンド 円ショートを半分余り縮小 日米の協調介入以降",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
