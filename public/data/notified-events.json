@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-15T19:49:19.493Z",
+  "updatedAt": "2026-08-15T20:00:23.732Z",
   "events": [
     {
       "id": "41ef8d77fd8b9ee005595bdc",
@@ -6442,6 +6442,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQUERjckhWT1E0VkxwY2ZWMzZzeTFrWGJ0RFZjNS1oMWV6ejNadGNvU1I0b1pZVnZjV0xVTTdiRWl4ZXBQVWV4X1JhUTExNXE1b3dyZWRuaWtYY2VWQmhEbHljalhiVDQ3bGd1MA",
       "articleTitleKey": "豪首相 米に関税免除求める",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "d80ffe5c4ecff37137bb21db",
+      "title": "NY円、159円台前半 日銀利上げ検討報道で円買い、やや優勢",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnVm9lQ0tlblpwOTR5UzdsYTZyTGdTSWw5VkV5RXNXenE0Ylg4OFdZcHpCeFRGc1VpYUw0eUx5UWs0eF9ZWVA0TmxfdmhoeXg5RGRzZWxwYlF4U3B3X2Nxd2FQUkVnNkYx?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-14T23:23:59.000Z",
+      "notifiedAt": "2026-08-15T20:00:23.732Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnVm9lQ0tlblpwOTR5UzdsYTZyTGdTSWw5VkV5RXNXenE0Ylg4OFdZcHpCeFRGc1VpYUw0eUx5UWs0eF9ZWVA0TmxfdmhoeXg5RGRzZWxwYlF4U3B3X2Nxd2FQUkVnNkYx",
+      "articleTitleKey": "ny円 159円台前半 日銀利上げ検討報道で円買い やや優勢",
+      "articleSourceKey": "毎日新聞"
     }
   ]
 }
