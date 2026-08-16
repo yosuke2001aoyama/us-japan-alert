@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T11:38:35.629Z",
+  "generatedAt": "2026-08-16T11:54:34.145Z",
   "mode": "live",
   "sources": {
     "ok": 109,
@@ -2586,24 +2586,6 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "XQzFzYm5GRmExcHBOakJhY25adVRnP29jPTU",
-      "title": "U.S. Ambassador to Japan George Glass will not attend this year's peace ceremonies in Hiroshima and Nagasaki to honor the victims of the 1945 atomic bombings of the cities, the …",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xRFRBV3o2WGFVa2NNLXByUWU4a1VQanA5WGVLTUw3WU1wRFRKVjlRMDUyRVJOdDU4eFZFQkdIbUlDX3dyZEhWZms0QUZMS2V6WC1sbnFFa1ppNjBacnZuTg?oc=5",
-      "source": "公開検索 · X",
-      "publishedAt": "2026-08-05T07:00:00.000Z",
-      "summary": "U.S. Ambassador to Japan George Glass will not attend this year's peace ceremonies in Hiroshima and Nagasaki to honor the victims of the 1945 atomic bombings of the cities, the U.S. Embassy in Tokyo has said. - x.com. U.S. Ambassador to Japan George Glass will not attend this year's peace ceremonies in Hiroshima and Nagasaki to honor the victims of the 1945 atomic bombings of the cities, the U.S. Embassy in Tokyo has said. x.com",
-      "official": false,
-      "relevant": true,
-      "japanRelated": true,
-      "category": "議会・政治",
-      "priority": 80,
-      "english": true,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
       "id": "VXRjRWR6TmxsYVpIRXpOVE5VZUMxej9vYz01",
       "title": "米 ベッセント財務長官 “協調介入は象徴的な意味合い”",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1NEpwTHdfVkNuRS1rRjNhT3Q2cXBjSUx2ay00eDVvNlpydm44U3pzU0YzZDRqSVVhWW15bVByUm0tMko3bUF3LWZEUDBIdTUtcEdzNllaZHEzNTNUeC1z?oc=5",
@@ -2640,6 +2622,24 @@
       "verification": "official",
       "verificationLabel": "一次情報",
       "verificationNote": "政府・公的機関の一次情報です。"
+    },
+    {
+      "id": "XQzFzYm5GRmExcHBOakJhY25adVRnP29jPTU",
+      "title": "U.S. Ambassador to Japan George Glass will not attend this year's peace ceremonies in Hiroshima and Nagasaki to honor the victims of the 1945 atomic bombings of the cities, the …",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xRFRBV3o2WGFVa2NNLXByUWU4a1VQanA5WGVLTUw3WU1wRFRKVjlRMDUyRVJOdDU4eFZFQkdIbUlDX3dyZEhWZms0QUZMS2V6WC1sbnFFa1ppNjBacnZuTg?oc=5",
+      "source": "公開検索 · X",
+      "publishedAt": "2026-08-05T06:04:09.000Z",
+      "summary": "U.S. Ambassador to Japan George Glass will not attend this year's peace ceremonies in Hiroshima and Nagasaki to honor the victims of the 1945 atomic bombings of the cities, the U.S. Embassy in Tokyo has said. - x.com. U.S. Ambassador to Japan George Glass will not attend this year's peace ceremonies in Hiroshima and Nagasaki to honor the victims of the 1945 atomic bombings of the cities, the U.S. Embassy in Tokyo has said. x.com",
+      "official": false,
+      "relevant": true,
+      "japanRelated": true,
+      "category": "議会・政治",
+      "priority": 80,
+      "english": true,
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
       "id": "kUlpYUm1SVFpyTlVvMFJYVmZTekJLP29jPTU",
@@ -2721,7 +2721,7 @@
       "id": "VnhjbEJZVEhsS1VWVkNTME5mUlVkTj9vYz01",
       "title": "Why Japan Is Propping Up the Yen With US Help",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc184YldTU2ZqVkdXcEprMHV5NGMteS1NWXVKSFlQN0JjOHdPVG5vcGV6TmlLcW95dUVJQUtaMkVyc1Z1cGpNX1B2bGNOZmUtUUY4c3BmMTNlbHI5S1RNbDEwV1Brb0JYUG9FQUd1cWc2VGl5YVVHdFp5TUJiOWdsX19mZjM2VngwcG5sam1xRWlwTDdiQk0ycl9yRkZCQ0VxclBYTHlKUVVCS0NfRUdN?oc=5",
-      "source": "Bloomberg.com",
+      "source": "bloomberg.com",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -2740,7 +2740,7 @@
       "id": "Vm10dVMzRjNSWGRETTFKTVUyOURjQT9vYz01",
       "title": "US dollar weakens sharply against the Japanese yen after market interventions",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWkpfVU0zTnBZSEZnbmNLUUxSMzVoSzVTMk1xZVRyS1FaU1hHbXBlVlpIWHJsQ1owSndGU3hKS3Znc3RVUjFiS3VnUl9vWU54Y05JT1dWb19GeG50NkttOVZld1hNUndETHJOdzhBSnhsY3FtQml3dXRRWmZxbTVSOE0teE1wMldFVmtuS3F3RXdDM1JMU29DcA?oc=5",
-      "source": "apnews.com",
+      "source": "AP News",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -2778,7 +2778,7 @@
       "id": "dweFdFbHhjekJGT0dSWFR6Qk5la0U_b2M9NQ",
       "title": "Israel, CentCom caught off guard as Trump announced Iran strike cancellation on Truth Social: Report",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTHJUUjVLNUZSWnRYRHVFNkVzU3ZORkVmVXVvc2ZfLXBfSGk3Mmhtd3FpSWNYVXlCa2xxVVZ1aVNGTnV5S1MxMUZqbl9KM3BHZGVjVG5USmJRaWIyNVRkNXlpUEFLaU9EUllfOXFmaVhiOFlGQ09TbnItWjVmVGV2SXl0NFdtSFN0cG94eFQ2VFVSM0lDN1Z3dHN5MjBmVElzNWxGRWIzZGtSU2RpY0UtTlEtem52NU5CeWtWblh2Q2tGeG5XRVVsNWhGOF9TWkNXeEFDc3l2Vy1UVFpO0gHiAUFVX3lxTE5TMmpITHhtWEswVmNEYzRBWlB0X3ZBX0dKQjB0c3MwUDk3SWs0US1fU0xZdFJSazYyUzlSdktrRFFCbEVpQW1UYjNzYkNHcmhuc2xqaTdTa19OaTV1dmxiZHMxZzB3Vm1fUWhpME44Y1lOTTdDZkUxenVUVFhSVnhWWUVieEhTa2wtODJuQkVXYkdRRGZlWVg3NjJYcGtRVVhxYi1sNzZIZ29mTVNWSmhpRTlLWHZVLXZNaG13Z1hQNF9neDlUQktySkFlWE1ReWxjeGpxWElxczBFOGRXTzBNekE?oc=5",
-      "source": "firstpost.com",
+      "source": "Firstpost",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -2926,9 +2926,9 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "XNXJNMmRoU1dGbUxYRmhUa1pWYTAwP29jPTU",
-      "title": "Japan intervenes to prop up yen ahead of BOJ policy decision, source says",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM1pPRGZpMUxUNFdkYzRvYU9ZcmpDSHNPeURWLXJkNmlJQ2h5OVFlRi1HVlNfSkR5QlFUUFFHTXZ5TVVXY0lBVWVIWTVYNVRSdUMtdU43c2NPeFE4RUo5MHJzSFh0Z3ZLUGtnLVRRcnh2Y1BQNm95SUd3a1FuajhLb28yNndLeDJCd1MyWUdRZEs0ZUFnVkY3cTRyTjhTaS1GQ3pDN2Q2eW5rM2dhSWFmLXFhTkZVa00?oc=5",
+      "id": "VWnpaa28yYWtwWFRWRlBkamM0WDJnP29jPTU",
+      "title": "Yen surges, analysts suspect official Japanese intervention",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdFdleFNLSmsxbzh3eGdEM0NaSG5ITENZVnBzYTFNcG1KdUlJU1haaGY2dzZIcFVnY0dmeUo2Zi0xZmdvWmxCTE1yeXBDUVVrMG53SjZtSXNVM2VZUWhjUG1ReXl0Z3NNU190b1VmNXJydjNsdGNzNW12bmNhNENQRkJoQ184RWJzcXhPcUZzZko2akpXTVFPdjc4X2g?oc=5",
       "source": "Reuters",
       "publishedAt": "2026-07-30T07:00:00.000Z",
       "summary": "",
