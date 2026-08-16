@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-16T23:38:35.580Z",
+  "updatedAt": "2026-08-16T23:54:27.397Z",
   "events": [
     {
       "id": "cffaeda73e78f5881ce3e032",
@@ -6470,6 +6470,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wZDBXYlhlMzJzVjhNWVltcldOWnBCQUtOQ3ZfbVE5NjE0eW0zbXlzZHA5MWhLbklZOURRM2xOaTZPam9Xb2lMeS1BRVR6VHZRTGttQ1pNQ2VUamFwUGxHSmtsUVhYNjhVRy10OA",
       "articleTitleKey": "円を押し下げる 協調介入のジレンマ 再び見える160円",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "9500f188b9753d9e1b86f17e",
+      "title": "外為8時30分 円相場、横ばい圏で159円台前半 対ユーロでは下落",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYZ0NJM0JJR19DRXRPUFVDeFhScHFLd3p6MmptZ2ZUd0JaVHNoaGFsR21Jd3dxNjNzUjlXVlA2M21yeG13Z2JvZkxWVnVBNEpfUnF0RkkwZXlodWVpQ2NRMFlpamMxYTN4eE1LRA?oc=5",
+      "source": "nikkei.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-16T23:51:08.000Z",
+      "notifiedAt": "2026-08-16T23:54:27.397Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYZ0NJM0JJR19DRXRPUFVDeFhScHFLd3p6MmptZ2ZUd0JaVHNoaGFsR21Jd3dxNjNzUjlXVlA2M21yeG13Z2JvZkxWVnVBNEpfUnF0RkkwZXlodWVpQ2NRMFlpamMxYTN4eE1LRA",
+      "articleTitleKey": "外為8時30分 円相場 横ばい圏で159円台前半 対ユーロでは下落",
+      "articleSourceKey": "nikkei.com"
     }
   ]
 }
