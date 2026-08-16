@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-16T08:58:14.787Z",
+  "updatedAt": "2026-08-16T09:28:38.829Z",
   "events": [
     {
       "id": "cffaeda73e78f5881ce3e032",
@@ -6442,6 +6442,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnVm9lQ0tlblpwOTR5UzdsYTZyTGdTSWw5VkV5RXNXenE0Ylg4OFdZcHpCeFRGc1VpYUw0eUx5UWs0eF9ZWVA0TmxfdmhoeXg5RGRzZWxwYlF4U3B3X2Nxd2FQUkVnNkYx",
       "articleTitleKey": "ny円 159円台前半 日銀利上げ検討報道で円買い やや優勢",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "da1bce9d130db857df5c4ffb",
+      "title": "日経平均7万円回復うかがう、円相場は160円が節目 今週の市場・予定",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wRmFDdUpYZU9vVUZaZC1hQWxONmZxcnFSOG5OcTFzY256X1c4dmY4MWx2bllHMkV4YWx3RWl3cEo5aUFKTENBLWVqZGZqbTVyenNBbl9jRW0wWFF1cXdzZk5pbk9PVDRZcC0yNg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-16T09:00:00.000Z",
+      "notifiedAt": "2026-08-16T09:28:38.829Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wRmFDdUpYZU9vVUZaZC1hQWxONmZxcnFSOG5OcTFzY256X1c4dmY4MWx2bllHMkV4YWx3RWl3cEo5aUFKTENBLWVqZGZqbTVyenNBbl9jRW0wWFF1cXdzZk5pbk9PVDRZcC0yNg",
+      "articleTitleKey": "日経平均7万円回復うかがう 円相場は160円が節目 今週の市場 予定",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
