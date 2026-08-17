@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T02:09:42.025Z",
+  "updatedAt": "2026-08-17T03:11:37.793Z",
   "events": [
     {
       "id": "68c6b7dc2dfa19a71676fe07",
@@ -6540,6 +6540,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50a01hNWxKbkJtWTVvcHAzMG5ONkxNcklWcGZod2VKeDhJTXNCUTZqcXZ1a0EyNEp4Uk1QclZoSkt0cng0ZHhwZEJkN3JYNVctUHdSaW41Z0hScWx5TThoWjlaa2wwV0NTaXpCUg",
       "articleTitleKey": "トランプ関税 で潤うブラジル 資源輸出は急増 国民の実感は遠く",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "695278112e033afad43b02c9",
+      "title": "続く円安 為替介入の仕組みと効果とは 米との「協調介入」も",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41bGVrU2JjVXhzVkoxWjRNOW5tcFJnSGlCMXZVRzRXeWpNbWxiR3hQTW9OYURET2NQUVhCelU4TGNkYTVGVkl3ZS1IZGFqcFpJSjB6Rk9zc1R1Y004bVhWNDU2WEEza0pn?oc=5",
+      "source": "毎日新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T02:30:00.000Z",
+      "notifiedAt": "2026-08-17T03:11:37.793Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41bGVrU2JjVXhzVkoxWjRNOW5tcFJnSGlCMXZVRzRXeWpNbWxiR3hQTW9OYURET2NQUVhCelU4TGNkYTVGVkl3ZS1IZGFqcFpJSjB6Rk9zc1R1Y004bVhWNDU2WEEza0pn",
+      "articleTitleKey": "続く円安 為替介入の仕組みと効果とは 米との 協調介入 も",
+      "articleSourceKey": "毎日新聞"
     }
   ]
 }
