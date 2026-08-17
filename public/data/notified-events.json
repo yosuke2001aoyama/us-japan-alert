@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T15:10:40.099Z",
+  "updatedAt": "2026-08-17T15:37:58.529Z",
   "events": [
     {
       "id": "3b86dca0600b1deb56b24518",
@@ -5392,6 +5392,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNaE5RU1pqaVhIU3NIZ1Z3VDJOWFhzZmJoWlQ0TWlSaWVocURDX0dhWG9HNDExbkJzbExPaHFkdVBSb0I2RmVYdzhkY1Z4MVowLUJ1YzVOZVZJdlo0dUlac1NEQWJZTUZoRExmU21qXzF3NXNX",
       "articleTitleKey": "長期金利3 が目前に エコノミスト末廣徹 インフレ懸念ではない 米金利上昇 実はカギ握る ai投資 の行方 秋の利上げ迫られる日銀 協調介入は バーター説 を検証 the priority",
       "articleSourceKey": "tbs news dig"
+    },
+    {
+      "id": "f115294981f8023ee1ffdfd0",
+      "title": "ロシア外相、日本大使に出頭要請 プーチン氏北方領土訪問への抗議受け",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pZHBtQkFUVVJKNEhnalUxN2ZZbS1GSGFqa1ZvN19OS1RJaVlDel9qZ0tJbHY2M2lHaTRFLVNLN0x4SDJNeTRIcTZEWlJiWEpYSUxIaWdIcWhLTmw5blhfY3pUaw?oc=5",
+      "source": "時事ドットコム",
+      "category": "首脳・閣僚",
+      "priority": 94,
+      "publishedAt": "2026-08-17T13:37:00.000Z",
+      "notifiedAt": "2026-08-17T15:37:58.529Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pZHBtQkFUVVJKNEhnalUxN2ZZbS1GSGFqa1ZvN19OS1RJaVlDel9qZ0tJbHY2M2lHaTRFLVNLN0x4SDJNeTRIcTZEWlJiWEpYSUxIaWdIcWhLTmw5blhfY3pUaw",
+      "articleTitleKey": "ロシア外相 日本大使に出頭要請 プーチン氏北方領土訪問への抗議受け",
+      "articleSourceKey": "時事ドットコム"
     }
   ]
 }
