@@ -1,22 +1,8 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T23:30:25.742Z",
+  "updatedAt": "2026-08-17T23:50:06.463Z",
   "events": [
-    {
-      "id": "227f7fde84a515d8f3dce430",
-      "title": "NY円相場、続伸 1ドル=157円15〜25銭 日米協調介入、ニューヨーク市場では伸び悩み",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zNjFFRUNLbWt4SXhvYk5xbUMyZUFNOXk3WW1wY2RjSzFQTjFRT1BPTUtDQzJNM0tLX01NYmZrcTQwdVFxa2ZiUHl3c3gzN1A5a1ZNTmt0SlNZTWVuS09nTzkzMG1uZExjVHZtYQ?oc=5",
-      "source": "日本経済新聞",
-      "category": "通商・経済",
-      "priority": 98,
-      "publishedAt": "2026-08-03T21:54:31.000Z",
-      "notifiedAt": "2026-08-03T23:37:11.771Z",
-      "baseline": false,
-      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zNjFFRUNLbWt4SXhvYk5xbUMyZUFNOXk3WW1wY2RjSzFQTjFRT1BPTUtDQzJNM0tLX01NYmZrcTQwdVFxa2ZiUHl3c3gzN1A5a1ZNTmt0SlNZTWVuS09nTzkzMG1uZExjVHZtYQ",
-      "articleTitleKey": "ny円相場 続伸 1ドル 157円15 25銭 日米協調介入 ニューヨーク市場では伸び悩み",
-      "articleSourceKey": "日本経済新聞"
-    },
     {
       "id": "20ed545928ae8fb7a3947540",
       "title": "円相場、１５７円５３～５５銭 ４日午前９時現在",
