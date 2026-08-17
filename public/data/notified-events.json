@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T09:21:57.263Z",
+  "updatedAt": "2026-08-17T10:01:50.301Z",
   "events": [
     {
       "id": "68c6b7dc2dfa19a71676fe07",
@@ -6680,6 +6680,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfQ3lTc2FvYWRmYTNqV3JjQjA3VnFZSFd4ckFfSHhqVDhSbTdybXp5N0FyNWlHU0RtUWNCY3dRZnA1VjlwM3RuTWFreVRuZ2FnWEJlSzhVM1pjYUtEWWEtbDBhT3JOMHdNeHdYRg",
       "articleTitleKey": "米国銅先物 投機筋の買い越し幅が最大 関税発動の思惑で",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "0ba7477c03bb8e4e0c75ddca",
+      "title": "円相場、１５８円９５～９５銭 １７日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44WXI5a0NXa3dDVllnNmotSHRjaWlUTFI5YkV4aVhsRGFpZjJzbkpxRlNBeWM0NWt4R1VNckFJSmdoaXdqanJXblFfdDY4VzRNSkl1RGJzM01JTDhpSjBHMnE4RQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T08:11:00.000Z",
+      "notifiedAt": "2026-08-17T10:01:50.301Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44WXI5a0NXa3dDVllnNmotSHRjaWlUTFI5YkV4aVhsRGFpZjJzbkpxRlNBeWM0NWt4R1VNckFJSmdoaXdqanJXblFfdDY4VzRNSkl1RGJzM01JTDhpSjBHMnE4RQ",
+      "articleTitleKey": "円相場 158円95 95銭 17日午後5時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "408fa9116520a2b66c08de6e",
+      "title": "米国産ジャガイモ 進む輸入解禁手続きに道内の生産者は",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSdlctRkEyOVlLN1BENXUtcFhsSVRrR2JsMDNhamNodkR6OXpyR1hrQlJYSXRFQThIcVowOFByNTh6eW9DbHJYTVFvTFAyYXJJczBoYVhSWXo?oc=5",
+      "source": "NHKニュース",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-17T09:36:00.000Z",
+      "notifiedAt": "2026-08-17T10:01:50.301Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSdlctRkEyOVlLN1BENXUtcFhsSVRrR2JsMDNhamNodkR6OXpyR1hrQlJYSXRFQThIcVowOFByNTh6eW9DbHJYTVFvTFAyYXJJczBoYVhSWXo",
+      "articleTitleKey": "米国産ジャガイモ 進む輸入解禁手続きに道内の生産者は",
+      "articleSourceKey": "nhkニュース"
     }
   ]
 }
