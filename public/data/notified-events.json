@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T04:52:35.891Z",
+  "updatedAt": "2026-08-17T05:24:12.965Z",
   "events": [
     {
       "id": "68c6b7dc2dfa19a71676fe07",
@@ -6596,6 +6596,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBYVptWU5JM1lYX2x1bjh6LXFDLWsyc0pBUVZDaUQ1dmtyVFN3aUQ0Y3F1U1BxZVBra1R6Z2w0cDJJQllGZnBMQngxUF9ZQWY0OE51UFJna3p4NnV1ZnowVm1jaw",
       "articleTitleKey": "円相場 159円03 04銭 17日正午現在 時事ドットコム",
       "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "bc2def92fd9bbee84ee19511",
+      "title": "外為14時 円相場、伸び悩み 159円台前半",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3X2NlX0ZJU3JjT2pEWUVoelA0bmZQOGI2Zm9LSm5GUTlsYWF6V29nNEtxazQ4WjN5MnNmVHRGYTVnRFFnVHBUNVFLSXozMVVzZjQzRWtGYnFRLXVyX3FVbkZXRjZ5R1hkTTQ5YQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T05:11:33.000Z",
+      "notifiedAt": "2026-08-17T05:24:12.965Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3X2NlX0ZJU3JjT2pEWUVoelA0bmZQOGI2Zm9LSm5GUTlsYWF6V29nNEtxazQ4WjN5MnNmVHRGYTVnRFFnVHBUNVFLSXozMVVzZjQzRWtGYnFRLXVyX3FVbkZXRjZ5R1hkTTQ5YQ",
+      "articleTitleKey": "外為14時 円相場 伸び悩み 159円台前半",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
