@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T11:33:41.166Z",
+  "generatedAt": "2026-08-17T11:53:53.599Z",
   "mode": "live",
   "sources": {
     "ok": 109,
@@ -2971,25 +2971,6 @@
       "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
     },
     {
-      "id": "RFY1RJM1FucGpjM1JwTFd4UU9WVkI_b2M9NQ",
-      "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0lVZ3FOWEp0MkVGaWc4UkprSmVwZlZMSzBQRlBuQ3UzOEVuN09za080MDFQTHFfOVFGU1hsOUF3THBnbGc0Tk4zdi1sR0xBdHhJV3FiOTNmaEZkbWNWQ0VMRjROZXJUQ1VwX1BrS3NvdWRDYThPSWVhdnhZUmxHWHNsVEFRYTZFXy1CeTJVdW13SVpqcl9wdTBoRjdINnV6R0tEcTI3Qnpjc3RpLWxQOVVB?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-08-01T07:00:00.000Z",
-      "summary": "",
-      "official": false,
-      "coverage": "major-media",
-      "relevant": true,
-      "japanRelated": true,
-      "category": "通商・経済",
-      "priority": 81,
-      "english": true,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
       "id": "U1WDAwM1lWSjVZMmRzVUVWSlpHRjM_b2M9NQ",
       "title": "Bessent joins Japan to help reverse months of yen losses",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQXzlac3ItaWZNYUNTaXZYVEtCY0FQRGFlLUdPdzBLaUJPMUgtZ1VGLThSNmZJeHpTVkJuUEt2Mk5nT0hKRWt0TXd4UlRXampnYVhQcDM4RVJiSzJXS2xEQ18tNk5WdnJ0VU9TN0ZDaGU2a1Zkb0lkVno5SzUwNXU5X003YVJ5Y2dsUEVJZGF3?oc=5",
@@ -3312,7 +3293,7 @@
       "id": "c1NVltbzNSamxsVDJab1FsRmFMV2M_b2M9NQ",
       "title": "米中外相がマニラで会談、習氏訪米の調整で進展か 王毅氏は「米国の消極的言動」にくぎ",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrVmFpX3VmaEM1aXBBaFdoejJJYmJpNGVEdENCOHdKbUUtTmIyOWtXbWJKajV1LUtndjdpZjU2WnRuaU9PbGdxaEVVRXRiTm0zRUJpUGZWTEU0RTJLSVlhWE5WWkhmNW55Ymo3RjllT2ZoQlFaLWc?oc=5",
-      "source": "sankei.com",
+      "source": "産経ニュース",
       "publishedAt": "2026-07-23T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -3331,7 +3312,7 @@
       "id": "NVazVOWFpuWDFKMU4zSldaV1o0UVE_b2M9NQ",
       "title": "Ambassador Greer Issues Statement on the European Union Creating Uncertainty in our Transatlantic Trade Relationship",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNdWoxV2JPU0VwT2FYanBPN2gxclhiVE5DQlc3TnF6NnRReEZsWVFXaFd0SVJDVnAzZFFMa3pITklIYlhZZlpQLXRvVjVYRlpkYlJ3UHdzaVVzSFRtcXFneWR2WkpBSkMwYjBONUV3bFk2UWhYR1pIVUNVQlJOYVUtbDdWTGQybjJ6RE9DNnNHYkJLU0FiVWtIVjJfM1JqR1R4SXl4c2lkd3dmTDNmRC1aRE5IT3lRSDdTa1JxX245YXpJcnpjTXNUX2VNaG9SSmQzaDVSc084S0FKeUcyMWtvME4wT04yN2MwQ3ZQMTBxSUk5NXZnX1J1N3JWZWZ4QQ?oc=5",
-      "source": "United States Trade Representative (.gov)",
+      "source": "ustr.gov",
       "publishedAt": "2026-07-23T07:00:00.000Z",
       "summary": "",
       "official": true,
