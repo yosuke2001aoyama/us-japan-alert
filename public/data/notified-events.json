@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T11:53:53.763Z",
+  "updatedAt": "2026-08-17T12:23:10.956Z",
   "events": [
     {
       "id": "cc600bcba9552740400d70e9",
@@ -6694,6 +6694,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByS1hVY3gtY2RBekg2SHY3LTVqekFRa1BHdUQxa2NQMzV1NVpXeDVIbEh0S1lTM25Qb3h0U2VJX21Valk0NzlsR3hOR1VVT1JkTmlCMHB6SDFFX3o1NUZ2am0zeE1kY0k",
       "articleTitleKey": "ほっとニュース北海道 米国産ジャガイモ 輸入全面解禁へ手続き進む 道内の生産者は nhk one 配信中 8 24まで",
       "articleSourceKey": "nhk.or.jp"
+    },
+    {
+      "id": "af9271a1337a3bc845ea9567",
+      "title": "【長期金利3％が目前に】エコノミスト末廣徹／“インフレ懸念ではない”米金利上昇／実はカギ握る「AI投資」の行方／秋の利上げ迫られる日銀／協調介入は「バーター説」を検証【The Priority】",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNaE5RU1pqaVhIU3NIZ1Z3VDJOWFhzZmJoWlQ0TWlSaWVocURDX0dhWG9HNDExbkJzbExPaHFkdVBSb0I2RmVYdzhkY1Z4MVowLUJ1YzVOZVZJdlo0dUlac1NEQWJZTUZoRExmU21qXzF3NXNX?oc=5",
+      "source": "TBS NEWS DIG",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T12:00:00.000Z",
+      "notifiedAt": "2026-08-17T12:23:10.956Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNaE5RU1pqaVhIU3NIZ1Z3VDJOWFhzZmJoWlQ0TWlSaWVocURDX0dhWG9HNDExbkJzbExPaHFkdVBSb0I2RmVYdzhkY1Z4MVowLUJ1YzVOZVZJdlo0dUlac1NEQWJZTUZoRExmU21qXzF3NXNX",
+      "articleTitleKey": "長期金利3 が目前に エコノミスト末廣徹 インフレ懸念ではない 米金利上昇 実はカギ握る ai投資 の行方 秋の利上げ迫られる日銀 協調介入は バーター説 を検証 the priority",
+      "articleSourceKey": "tbs news dig"
     }
   ]
 }
