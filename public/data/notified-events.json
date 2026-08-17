@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T08:36:59.959Z",
+  "updatedAt": "2026-08-17T09:21:57.263Z",
   "events": [
     {
       "id": "68c6b7dc2dfa19a71676fe07",
@@ -6624,6 +6624,62 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xYlpPUlZWclYyU1BYdDBaUGRaamF0T2Z5Zjh2czRleW5rdnJVeFp1MmpjcnBhQkU0VHo5M1pBeTY3aHJPcDROS3U2X3BwMlJENVFpRQ",
       "articleTitleKey": "円相場 158円95 95銭 17日午後5時現在",
       "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "bd7384089cd7e87a6c9a212e",
+      "title": "外為17時 円相場、3日続伸 158円台後半 対ユーロでは続落",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaVV9lOWJSazEzQUZmTWdleDRBbWwyYXpmQ3N4TFczN2FQZk5OeWM3NHM5QUotZ001NG9wT3VrcUtwRlJOQVBHWnBWRHRtQXJ1TklCMk1kd0lmTldLOTd2VmctdVlHVVVIVEZLOA?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T08:37:20.000Z",
+      "notifiedAt": "2026-08-17T09:21:57.263Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaVV9lOWJSazEzQUZmTWdleDRBbWwyYXpmQ3N4TFczN2FQZk5OeWM3NHM5QUotZ001NG9wT3VrcUtwRlJOQVBHWnBWRHRtQXJ1TklCMk1kd0lmTldLOTd2VmctdVlHVVVIVEZLOA",
+      "articleTitleKey": "外為17時 円相場 3日続伸 158円台後半 対ユーロでは続落",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "fce97e70f4f8f6559d41cff9",
+      "title": "8月の外為専門家予想 日米協調介入で｢円安歯止めも円高に転じず｣",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xMkV4OVVibXViTzJLaDlvbVhzOVgxa0FhZExQZWZXek41dXB4ZjY5ZlRSbmJhQVVuUm9GeGthZzdEOXNmRFNwTkNYRWxyUVZjUWRJWHQtQW8taTMteUdHQTRlLU9oNVRmb3pEVXQ5VTZDUW1YR3dnOXhvUXFZQQ?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T08:27:14.000Z",
+      "notifiedAt": "2026-08-17T09:21:57.263Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xMkV4OVVibXViTzJLaDlvbVhzOVgxa0FhZExQZWZXek41dXB4ZjY5ZlRSbmJhQVVuUm9GeGthZzdEOXNmRFNwTkNYRWxyUVZjUWRJWHQtQW8taTMteUdHQTRlLU9oNVRmb3pEVXQ5VTZDUW1YR3dnOXhvUXFZQQ",
+      "articleTitleKey": "8月の外為専門家予想 日米協調介入で 円安歯止めも円高に転じず",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "7a071ea6d25425550d4ad8a8",
+      "title": "米産ジャガイモ輸入解禁の動き 産地の厚沢部町から不安の声",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tZE9ybUx1VGZuTmtqRjlFY18tLThJZklPNVJvbm8wV3pwc0tQLXBqRFh5elV0OGFVNWp5U05QdURWMENxby1lTVN3NjVGTk5sZUlYYWNQbUQ?oc=5",
+      "source": "NHKニュース",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-17T08:23:00.000Z",
+      "notifiedAt": "2026-08-17T09:21:57.263Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tZE9ybUx1VGZuTmtqRjlFY18tLThJZklPNVJvbm8wV3pwc0tQLXBqRFh5elV0OGFVNWp5U05QdURWMENxby1lTVN3NjVGTk5sZUlYYWNQbUQ",
+      "articleTitleKey": "米産ジャガイモ輸入解禁の動き 産地の厚沢部町から不安の声",
+      "articleSourceKey": "nhkニュース"
+    },
+    {
+      "id": "fb0658477ac1bc13690957d5",
+      "title": "米国銅先物、投機筋の買い越し幅が最大 関税発動の思惑で",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfQ3lTc2FvYWRmYTNqV3JjQjA3VnFZSFd4ckFfSHhqVDhSbTdybXp5N0FyNWlHU0RtUWNCY3dRZnA1VjlwM3RuTWFreVRuZ2FnWEJlSzhVM1pjYUtEWWEtbDBhT3JOMHdNeHdYRg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-17T08:34:10.000Z",
+      "notifiedAt": "2026-08-17T09:21:57.263Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfQ3lTc2FvYWRmYTNqV3JjQjA3VnFZSFd4ckFfSHhqVDhSbTdybXp5N0FyNWlHU0RtUWNCY3dRZnA1VjlwM3RuTWFreVRuZ2FnWEJlSzhVM1pjYUtEWWEtbDBhT3JOMHdNeHdYRg",
+      "articleTitleKey": "米国銅先物 投機筋の買い越し幅が最大 関税発動の思惑で",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
