@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-16T23:54:27.397Z",
+  "updatedAt": "2026-08-17T00:46:48.398Z",
   "events": [
     {
       "id": "cffaeda73e78f5881ce3e032",
@@ -6484,6 +6484,34 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYZ0NJM0JJR19DRXRPUFVDeFhScHFLd3p6MmptZ2ZUd0JaVHNoaGFsR21Jd3dxNjNzUjlXVlA2M21yeG13Z2JvZkxWVnVBNEpfUnF0RkkwZXlodWVpQ2NRMFlpamMxYTN4eE1LRA",
       "articleTitleKey": "外為8時30分 円相場 横ばい圏で159円台前半 対ユーロでは下落",
       "articleSourceKey": "nikkei.com"
+    },
+    {
+      "id": "54a7883b2daf6b14bad3562c",
+      "title": "円相場、１５９円２１～２２銭＝１７日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fWnZBMGV3bzB0aUQ5NEU1aHhxRXVpbjBVQVh5NXBEV1NCM1lEejNwZnlqLVNWWk9nYi0tcVoxYzdIN3VUdDZvbXJDek1EalpIRDJrdw?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T00:07:00.000Z",
+      "notifiedAt": "2026-08-17T00:46:48.398Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fWnZBMGV3bzB0aUQ5NEU1aHhxRXVpbjBVQVh5NXBEV1NCM1lEejNwZnlqLVNWWk9nYi0tcVoxYzdIN3VUdDZvbXJDek1EalpIRDJrdw",
+      "articleTitleKey": "円相場 159円21 22銭 17日午前9時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "9c12ffb0903246c998dafe72",
+      "title": "円相場、１５９円２１～２２銭 １７日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FMHk2WGQ4TExBM0lEYkJubnZua0JpWnBBVURSdGR4OFk2bWtIMW8wOHFBUENkQzNwaE1KaXRxZ1JYaXgxV2JfaHlWNkMzazdLUk0tWmZnQkJyWVNqa1E2bkJZRQ?oc=5",
+      "source": "jiji.com",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T00:07:00.000Z",
+      "notifiedAt": "2026-08-17T00:46:48.398Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FMHk2WGQ4TExBM0lEYkJubnZua0JpWnBBVURSdGR4OFk2bWtIMW8wOHFBUENkQzNwaE1KaXRxZ1JYaXgxV2JfaHlWNkMzazdLUk0tWmZnQkJyWVNqa1E2bkJZRQ",
+      "articleTitleKey": "円相場 159円21 22銭 17日午前9時現在",
+      "articleSourceKey": "jiji.com"
     }
   ]
 }
