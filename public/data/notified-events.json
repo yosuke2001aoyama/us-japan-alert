@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T11:01:35.814Z",
+  "updatedAt": "2026-08-17T11:33:41.224Z",
   "events": [
     {
       "id": "68c6b7dc2dfa19a71676fe07",
@@ -6722,6 +6722,20 @@
       "articleUrlKey": "https://www.trumpstruth.org/statuses/40914",
       "articleTitleKey": "the number one goal is and always will be that iran cannot have in any way shape or form a nuclear weapon thank you for your attention to this matter president donald j",
       "articleSourceKey": "truth social · @realdonaldtrump · president donald trump"
+    },
+    {
+      "id": "9e404fa652de5f01cbb31820",
+      "title": "ほっとニュース北海道 米国産ジャガイモ 輸入全面解禁へ手続き進む 道内の生産者は NHK ONE 配信中 8/24まで",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByS1hVY3gtY2RBekg2SHY3LTVqekFRa1BHdUQxa2NQMzV1NVpXeDVIbEh0S1lTM25Qb3h0U2VJX21Valk0NzlsR3hOR1VVT1JkTmlCMHB6SDFFX3o1NUZ2am0zeE1kY0k?oc=5",
+      "source": "nhk.or.jp",
+      "category": "通商・経済",
+      "priority": 94,
+      "publishedAt": "2026-08-17T10:31:49.000Z",
+      "notifiedAt": "2026-08-17T11:33:41.224Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByS1hVY3gtY2RBekg2SHY3LTVqekFRa1BHdUQxa2NQMzV1NVpXeDVIbEh0S1lTM25Qb3h0U2VJX21Valk0NzlsR3hOR1VVT1JkTmlCMHB6SDFFX3o1NUZ2am0zeE1kY0k",
+      "articleTitleKey": "ほっとニュース北海道 米国産ジャガイモ 輸入全面解禁へ手続き進む 道内の生産者は nhk one 配信中 8 24まで",
+      "articleSourceKey": "nhk.or.jp"
     }
   ]
 }
