@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T21:34:58.514Z",
+  "updatedAt": "2026-08-17T21:55:01.932Z",
   "events": [
     {
       "id": "f72c72f4d8f629cfc7c8b06d",
@@ -5028,6 +5028,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DU3V2RVdpODJiU3FZTXJ2U0VRTEtEMjNaUjh1Vjl5dEdXRE9xMUtCb0Fpd200cUZ5RzdRcEtmU3I4T1BGRnhVWU9kUkVNWmZ3VlpGTFREZDV0TGxXWkRFQ254aG1YS1k",
       "articleTitleKey": "ロシア外相 日本は一線を越えた 択捉訪問のプーチン氏への批判に",
       "articleSourceKey": "朝日新聞"
+    },
+    {
+      "id": "fce5876f6329e6bd987f32c2",
+      "title": "NY円相場、反落 1ドル=159円45〜55銭 原油高で日本の貿易収支悪化を意識",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43b0o0eXFnWmNLQjFfUjJFcHpCWk50RkNKak44TENPM3FpRUVOOUpMZnY5TWxod0t5ME15YTBuZjhFZ0drNS1YaFlua3RMRjZQMElyNjFxMjBybjhkQWRkbmFCaHdvX0FEU05kSw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T21:46:42.000Z",
+      "notifiedAt": "2026-08-17T21:55:01.932Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43b0o0eXFnWmNLQjFfUjJFcHpCWk50RkNKak44TENPM3FpRUVOOUpMZnY5TWxod0t5ME15YTBuZjhFZ0drNS1YaFlua3RMRjZQMElyNjFxMjBybjhkQWRkbmFCaHdvX0FEU05kSw",
+      "articleTitleKey": "ny円相場 反落 1ドル 159円45 55銭 原油高で日本の貿易収支悪化を意識",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
