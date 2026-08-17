@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T03:11:37.793Z",
+  "updatedAt": "2026-08-17T04:01:44.656Z",
   "events": [
     {
       "id": "68c6b7dc2dfa19a71676fe07",
@@ -6554,6 +6554,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41bGVrU2JjVXhzVkoxWjRNOW5tcFJnSGlCMXZVRzRXeWpNbWxiR3hQTW9OYURET2NQUVhCelU4TGNkYTVGVkl3ZS1IZGFqcFpJSjB6Rk9zc1R1Y004bVhWNDU2WEEza0pn",
       "articleTitleKey": "続く円安 為替介入の仕組みと効果とは 米との 協調介入 も",
       "articleSourceKey": "毎日新聞"
+    },
+    {
+      "id": "d06c1e34b742cb465876ce17",
+      "title": "外為12時 円相場、一時158円台後半 輸出企業など実需の買いで",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHaFBPVGtraXlMdS1uRjd3VGFoWUV0a2hRMXdmLWJRaEk2WVlQNXhjV0ZCRWsydWd3Ui1zcm5BMVJRNEc0LUJ6UXdZQ0szUVNzWlk2ZElWSGxwZVlRRnhlRWx3dTF1SEsyZjg4ag?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T03:22:16.000Z",
+      "notifiedAt": "2026-08-17T04:01:44.656Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHaFBPVGtraXlMdS1uRjd3VGFoWUV0a2hRMXdmLWJRaEk2WVlQNXhjV0ZCRWsydWd3Ui1zcm5BMVJRNEc0LUJ6UXdZQ0szUVNzWlk2ZElWSGxwZVlRRnhlRWx3dTF1SEsyZjg4ag",
+      "articleTitleKey": "外為12時 円相場 一時158円台後半 輸出企業など実需の買いで",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "7953ab8913365282192233bf",
+      "title": "円相場、１５９円０３～０４銭＝１７日正午現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PMHZrcm5vV21hZDd4OHlJdkJvaDNWQ0dNRkIzaFcyeTBZWVF2WVdfT2czM0NqS00xeGNTZUMtaUljSXdiaGNDNS0wWkpmYzFGdG9uWQ?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T03:07:00.000Z",
+      "notifiedAt": "2026-08-17T04:01:44.656Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PMHZrcm5vV21hZDd4OHlJdkJvaDNWQ0dNRkIzaFcyeTBZWVF2WVdfT2czM0NqS00xeGNTZUMtaUljSXdiaGNDNS0wWkpmYzFGdG9uWQ",
+      "articleTitleKey": "円相場 159円03 04銭 17日正午現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "39072b9a858ac4d55de58fe7",
+      "title": "円相場、１５９円０３～０４銭 １７日正午現在：時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBYVptWU5JM1lYX2x1bjh6LXFDLWsyc0pBUVZDaUQ1dmtyVFN3aUQ0Y3F1U1BxZVBra1R6Z2w0cDJJQllGZnBMQngxUF9ZQWY0OE51UFJna3p4NnV1ZnowVm1jaw?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T03:07:00.000Z",
+      "notifiedAt": "2026-08-17T04:01:44.656Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBYVptWU5JM1lYX2x1bjh6LXFDLWsyc0pBUVZDaUQ1dmtyVFN3aUQ0Y3F1U1BxZVBra1R6Z2w0cDJJQllGZnBMQngxUF9ZQWY0OE51UFJna3p4NnV1ZnowVm1jaw",
+      "articleTitleKey": "円相場 159円03 04銭 17日正午現在 時事ドットコム",
+      "articleSourceKey": "時事ドットコム"
     }
   ]
 }
