@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T23:01:13.662Z",
+  "updatedAt": "2026-08-17T23:30:25.742Z",
   "events": [
     {
       "id": "227f7fde84a515d8f3dce430",
@@ -4971,6 +4971,20 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rbkltZ2JSSjJmamE3aGptREZPX21fSjBzNTZ5ME1xeVVsMTNsSTRlU0dvME02TTdmcU5vQllmTE0tNHFPNERNbmdLdEtOVUttU0NXZmNmSEhObVA0NmdoLXNJb1FKc3ZfSXZaSw",
       "articleTitleKey": "円の変動率が協調介入前に低下 見えぬ綱引きの終わり 活気づくhft",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "a982e655d8c355eb9e966be5",
+      "title": "米カナダ首脳が関税協議へ 19日の50%発動前に",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TYjBqQkZoUWs0cExQWTR3MldLNWoxMXBWZlFJMTNfa1BzTlAwaDB6bi0yWmZteG9RaTdwUUZnMEUzbUVpYWJidEpHMFlDVUpKLUtsQTRlblZSU0pTSzZvbG9vVDlwSm5KMFdTYg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-17T23:14:50.000Z",
+      "notifiedAt": "2026-08-17T23:30:25.742Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TYjBqQkZoUWs0cExQWTR3MldLNWoxMXBWZlFJMTNfa1BzTlAwaDB6bi0yWmZteG9RaTdwUUZnMEUzbUVpYWJidEpHMFlDVUpKLUtsQTRlblZSU0pTSzZvbG9vVDlwSm5KMFdTYg",
+      "articleTitleKey": "米カナダ首脳が関税協議へ 19日の50 発動前に",
       "articleSourceKey": "日本経済新聞"
     }
   ]
