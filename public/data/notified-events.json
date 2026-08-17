@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T07:55:36.227Z",
+  "updatedAt": "2026-08-17T08:36:59.959Z",
   "events": [
     {
       "id": "68c6b7dc2dfa19a71676fe07",
@@ -6610,6 +6610,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3X2NlX0ZJU3JjT2pEWUVoelA0bmZQOGI2Zm9LSm5GUTlsYWF6V29nNEtxazQ4WjN5MnNmVHRGYTVnRFFnVHBUNVFLSXozMVVzZjQzRWtGYnFRLXVyX3FVbkZXRjZ5R1hkTTQ5YQ",
       "articleTitleKey": "外為14時 円相場 伸び悩み 159円台前半",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "e6eaeee2e972733219bce887",
+      "title": "円相場、１５８円９５～９５銭＝１７日午後５時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xYlpPUlZWclYyU1BYdDBaUGRaamF0T2Z5Zjh2czRleW5rdnJVeFp1MmpjcnBhQkU0VHo5M1pBeTY3aHJPcDROS3U2X3BwMlJENVFpRQ?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T08:11:00.000Z",
+      "notifiedAt": "2026-08-17T08:36:59.959Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xYlpPUlZWclYyU1BYdDBaUGRaamF0T2Z5Zjh2czRleW5rdnJVeFp1MmpjcnBhQkU0VHo5M1pBeTY3aHJPcDROS3U2X3BwMlJENVFpRQ",
+      "articleTitleKey": "円相場 158円95 95銭 17日午後5時現在",
+      "articleSourceKey": "時事通信ニュース"
     }
   ]
 }
