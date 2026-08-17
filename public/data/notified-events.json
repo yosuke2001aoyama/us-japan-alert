@@ -1,22 +1,8 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T00:46:48.398Z",
+  "updatedAt": "2026-08-17T02:09:42.025Z",
   "events": [
-    {
-      "id": "cffaeda73e78f5881ce3e032",
-      "title": "The Trump Administration delivers for America's trusted partners. Economic security is national security. And the U.S.-Japan alliance is built on both. Friday's coordinated fore…",
-      "url": "https://x.com/SecScottBessent/status/2084051676801933622",
-      "source": "X · @SecScottBessent · Treasury Secretary Scott Bessent",
-      "category": "外交・安保",
-      "priority": 90,
-      "publishedAt": "2026-08-02T23:00:14.000Z",
-      "notifiedAt": "2026-08-03T01:11:27.703Z",
-      "baseline": false,
-      "articleUrlKey": "https://x.com/SecScottBessent/status/2084051676801933622",
-      "articleTitleKey": "the trump administration delivers for america s trusted partners economic security is national security and the u s japan alliance is built on both friday s coordinated fore",
-      "articleSourceKey": "x · @secscottbessent · treasury secretary scott bessent"
-    },
     {
       "id": "68c6b7dc2dfa19a71676fe07",
       "title": "Readout: Pacific Fleet Commander's Travel to Japan, April 20-21 - pacom.mil. Readout: Pacific Fleet Commander's Travel to Japan, April 20-21 pacom.mil",
@@ -6512,6 +6498,48 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FMHk2WGQ4TExBM0lEYkJubnZua0JpWnBBVURSdGR4OFk2bWtIMW8wOHFBUENkQzNwaE1KaXRxZ1JYaXgxV2JfaHlWNkMzazdLUk0tWmZnQkJyWVNqa1E2bkJZRQ",
       "articleTitleKey": "円相場 159円21 22銭 17日午前9時現在",
       "articleSourceKey": "jiji.com"
+    },
+    {
+      "id": "0387dea35257c616566f8497",
+      "title": "Look what VANDALS did to the grass connecting the vandalized World War II Monument and the vandalized Reflecting Pool, which will be opened again, and better than ever, shortly.…",
+      "url": "https://www.trumpstruth.org/statuses/40908",
+      "source": "Truth Social · @realDonaldTrump · President Donald Trump",
+      "category": "公式発表",
+      "priority": 95,
+      "publishedAt": "2026-08-17T00:58:15.000Z",
+      "notifiedAt": "2026-08-17T02:09:42.025Z",
+      "baseline": false,
+      "articleUrlKey": "https://www.trumpstruth.org/statuses/40908",
+      "articleTitleKey": "look what vandals did to the grass connecting the vandalized world war ii monument and the vandalized reflecting pool which will be opened again and better than ever shortly",
+      "articleSourceKey": "truth social · @realdonaldtrump · president donald trump"
+    },
+    {
+      "id": "bfe7393a757a3ee5f7f5bb5f",
+      "title": "外為10時 円相場、堅調 159円台前半 中値「ドル余剰」の声",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1weXRScEd2Wk93Y0stQUgxbWk4RC05ZkZCTHo3cHA4WkhtVmY5Q2xtREt5R05rQ3ZIa3NFelZSSjV1MW0yYnBBMkJ5UUp6NmhOLWR1bkhPRFROX2ZDR3h1c0Ntb05TeXBCNnBWRw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T01:38:10.000Z",
+      "notifiedAt": "2026-08-17T02:09:42.025Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1weXRScEd2Wk93Y0stQUgxbWk4RC05ZkZCTHo3cHA4WkhtVmY5Q2xtREt5R05rQ3ZIa3NFelZSSjV1MW0yYnBBMkJ5UUp6NmhOLWR1bkhPRFROX2ZDR3h1c0Ntb05TeXBCNnBWRw",
+      "articleTitleKey": "外為10時 円相場 堅調 159円台前半 中値 ドル余剰 の声",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "885434f6f1cda197dc211710",
+      "title": "「トランプ関税」で潤うブラジル 資源輸出は急増、国民の実感は遠く",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50a01hNWxKbkJtWTVvcHAzMG5ONkxNcklWcGZod2VKeDhJTXNCUTZqcXZ1a0EyNEp4Uk1QclZoSkt0cng0ZHhwZEJkN3JYNVctUHdSaW41Z0hScWx5TThoWjlaa2wwV0NTaXpCUg?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-17T02:00:00.000Z",
+      "notifiedAt": "2026-08-17T02:09:42.025Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50a01hNWxKbkJtWTVvcHAzMG5ONkxNcklWcGZod2VKeDhJTXNCUTZqcXZ1a0EyNEp4Uk1QclZoSkt0cng0ZHhwZEJkN3JYNVctUHdSaW41Z0hScWx5TThoWjlaa2wwV0NTaXpCUg",
+      "articleTitleKey": "トランプ関税 で潤うブラジル 資源輸出は急増 国民の実感は遠く",
+      "articleSourceKey": "日本経済新聞"
     }
   ]
 }
