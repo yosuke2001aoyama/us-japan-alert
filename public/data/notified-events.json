@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-17T23:50:06.463Z",
+  "updatedAt": "2026-08-18T00:23:16.200Z",
   "events": [
     {
       "id": "20ed545928ae8fb7a3947540",
@@ -4971,6 +4971,48 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TYjBqQkZoUWs0cExQWTR3MldLNWoxMXBWZlFJMTNfa1BzTlAwaDB6bi0yWmZteG9RaTdwUUZnMEUzbUVpYWJidEpHMFlDVUpKLUtsQTRlblZSU0pTSzZvbG9vVDlwSm5KMFdTYg",
       "articleTitleKey": "米カナダ首脳が関税協議へ 19日の50 発動前に",
+      "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "428a058da371c0e27210b2a7",
+      "title": "円相場、１５９円３２～３４銭＝１８日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5DTExsTGU1WWxNTWdWcU5Gb1ZvQXVOQ3plS3FYbERFc1g3RFJoQUJIOGJtemoyQWVRNkIxQm5BM1luUEFlcl9XcnBPOFdmMlBvTnJsRQ?oc=5",
+      "source": "時事通信ニュース",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-18T00:05:00.000Z",
+      "notifiedAt": "2026-08-18T00:23:16.200Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5DTExsTGU1WWxNTWdWcU5Gb1ZvQXVOQ3plS3FYbERFc1g3RFJoQUJIOGJtemoyQWVRNkIxQm5BM1luUEFlcl9XcnBPOFdmMlBvTnJsRQ",
+      "articleTitleKey": "円相場 159円32 34銭 18日午前9時現在",
+      "articleSourceKey": "時事通信ニュース"
+    },
+    {
+      "id": "37fbe2a0f6689f2937181209",
+      "title": "円相場、１５９円３２～３４銭 １８日午前９時現在",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ydmhTYVY4OGgyM0VfdEE3SnhrSWowcnpaMnFiVks2dVpkbFZQZjI3Qm9qdTR4c1FVV1kxR2hjbDJvUVJHOHRzN0xnX0hqWEp1c3FlWmNiLXM4WEJKQnFMdlo0UQ?oc=5",
+      "source": "時事ドットコム",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-18T00:05:00.000Z",
+      "notifiedAt": "2026-08-18T00:23:16.200Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ydmhTYVY4OGgyM0VfdEE3SnhrSWowcnpaMnFiVks2dVpkbFZQZjI3Qm9qdTR4c1FVV1kxR2hjbDJvUVJHOHRzN0xnX0hqWEp1c3FlWmNiLXM4WEJKQnFMdlo0UQ",
+      "articleTitleKey": "円相場 159円32 34銭 18日午前9時現在",
+      "articleSourceKey": "時事ドットコム"
+    },
+    {
+      "id": "48102f20c50221c7a41144c4",
+      "title": "外為8時30分 円相場、下落し159円台前半 対ユーロでは小幅下落",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzbklNNG9paEVKTnpzN2ZaRFNJRkxXSVI5MEdJYms2Y0NsTlByLUZqMlJNZWhYYWZXcWJpRnozZlp5YjE4QzJIVWFwQnFGMHVGNjF0YmlxbGZtN0J2SmhyRVhJdVhlS0p4OVlrTw?oc=5",
+      "source": "日本経済新聞",
+      "category": "通商・経済",
+      "priority": 98,
+      "publishedAt": "2026-08-17T23:47:29.000Z",
+      "notifiedAt": "2026-08-18T00:23:16.200Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzbklNNG9paEVKTnpzN2ZaRFNJRkxXSVI5MEdJYms2Y0NsTlByLUZqMlJNZWhYYWZXcWJpRnozZlp5YjE4QzJIVWFwQnFGMHVGNjF0YmlxbGZtN0J2SmhyRVhJdVhlS0p4OVlrTw",
+      "articleTitleKey": "外為8時30分 円相場 下落し159円台前半 対ユーロでは小幅下落",
       "articleSourceKey": "日本経済新聞"
     }
   ]
