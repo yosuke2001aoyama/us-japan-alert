@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-18T03:32:18.207Z",
+  "updatedAt": "2026-08-18T04:10:30.890Z",
   "events": [
     {
       "id": "17d57946343d1cf3155ddc53",
@@ -4985,6 +4985,20 @@
       "baseline": false,
       "articleUrlKey": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JM1BnNlZhU1ZsZVZseHdCRXhGSlJhLWZEa0lrTGNXNmNRMlpOTmpYWXhibENGX1VkdEJhZFFVSlJRb1lyV3ppU0ZYVGZpSGhCeTJnV2NELXBQTmRVQXlyZjd6QQ",
       "articleTitleKey": "円相場 159円45 46銭 18日正午現在 時事ドットコム",
+      "articleSourceKey": "jiji.com"
+    },
+    {
+      "id": "f951a942df44cdbecda605be",
+      "title": "【現・経済産業大臣 赤澤亮正 著】世界を揺るがした「トランプ関税」措置。日米交渉の舞台裏を、現役閣僚が自ら執筆！ 新刊『トランプ関税 交渉の記録』8月21日発売",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16anVWcG12bXVQWllrTWRjc2Fmc0VxSkhHQ1IwYnNSOGFMZldJVDBYRnZFczU3TnZvOEpRVWw4dkFyai1BMXMydktqczV6VGRwQTNVOVVwVjBjZFo1NEF0Qm1zckFsdWI0b0tj?oc=5",
+      "source": "jiji.com",
+      "category": "通商・経済",
+      "priority": 92,
+      "publishedAt": "2026-08-18T03:46:00.000Z",
+      "notifiedAt": "2026-08-18T04:10:30.890Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16anVWcG12bXVQWllrTWRjc2Fmc0VxSkhHQ1IwYnNSOGFMZldJVDBYRnZFczU3TnZvOEpRVWw4dkFyai1BMXMydktqczV6VGRwQTNVOVVwVjBjZFo1NEF0Qm1zckFsdWI0b0tj",
+      "articleTitleKey": "現 経済産業大臣 赤澤亮正 著 世界を揺るがした トランプ関税 措置 日米交渉の舞台裏を 現役閣僚が自ら執筆 新刊 トランプ関税 交渉の記録 8月21日発売",
       "articleSourceKey": "jiji.com"
     }
   ]
