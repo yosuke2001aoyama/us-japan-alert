@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updatedAt": "2026-08-18T01:55:46.544Z",
+  "updatedAt": "2026-08-18T02:51:21.904Z",
   "events": [
     {
       "id": "17d57946343d1cf3155ddc53",
@@ -4930,6 +4930,20 @@
       "articleUrlKey": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02Yk9MY0JVeldxb3BxeDlQYnU1MWg2eGFnLTJFVjlfaEFleUxxYVBmRXFwMTdEMl9wdlk2ckI4VDVMSFJQNFVUTjQtZ2VpM2RncEhDc21qZEc0cXZhOVFNelF5b1hMMzRIM1hscg",
       "articleTitleKey": "外為10時 円相場 159円台半ば 中値 偏りなし の声",
       "articleSourceKey": "日本経済新聞"
+    },
+    {
+      "id": "5515ccad49f101444bbcf138",
+      "title": "ロシア外相「儀礼の一線越えた」 プーチン氏の北方領土訪問巡る日本の抗議を批判",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xdzNGeWdFaG9nWDJScVU1NldiVU5pY2swNU04SWJrSnJQWl80cFVCYXlHblJqdDA5WTI2a1hwZ285d1NEa1RDUTA5Vm5QMnEtQUdzSUVWdThDMHlJVnRfMnRrZ1hFSXB4dFNGWURteVViU2M2d3c?oc=5",
+      "source": "産経ニュース",
+      "category": "首脳・閣僚",
+      "priority": 94,
+      "publishedAt": "2026-08-17T13:11:36.000Z",
+      "notifiedAt": "2026-08-18T02:51:21.904Z",
+      "baseline": false,
+      "articleUrlKey": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xdzNGeWdFaG9nWDJScVU1NldiVU5pY2swNU04SWJrSnJQWl80cFVCYXlHblJqdDA5WTI2a1hwZ285d1NEa1RDUTA5Vm5QMnEtQUdzSUVWdThDMHlJVnRfMnRrZ1hFSXB4dFNGWURteVViU2M2d3c",
+      "articleTitleKey": "ロシア外相 儀礼の一線越えた プーチン氏の北方領土訪問巡る日本の抗議を批判",
+      "articleSourceKey": "産経ニュース"
     }
   ]
 }
