@@ -67,9 +67,8 @@ export const sources: Source[] = [
   { name: "外務省", url: q('site:mofa.go.jp (外務大臣 OR 報道発表 OR 会見 OR 会談 OR 声明)', "ja", "JP", "JP:ja"), coverage: "jp-leadership", official: true, aggregate: true },
   { name: "内閣官房", url: q('site:cas.go.jp (国家安全保障 OR 官房長官 OR 経済安全保障 OR 発表)', "ja", "JP", "JP:ja"), coverage: "jp-leadership", official: true, aggregate: true },
 
-  // 日本の防衛・安保（2）
-  { name: "防衛省 · 報道資料", url: "https://www.mod.go.jp/j/press/news.xml", coverage: "jp-security", official: true },
-  { name: "防衛省 · 更新情報", url: "https://www.mod.go.jp/j/press/update.xml", coverage: "jp-security", official: true },
+  // 日本の防衛・安保。廃止済みRSSではなく公式ページを継続検索する。
+  { name: "防衛省 · 公式ページ検索", url: q('site:mod.go.jp/j (報道発表 OR 大臣会見 OR 日米 OR 米軍 OR 安全保障 OR 防衛協力)', "ja", "JP", "JP:ja"), coverage: "jp-security", official: true, aggregate: true, contextCountry: "jp" },
 
   // 日本の通商・財政（2）
   { name: "経済産業省・農林水産省 · 経済通商", url: q('(site:meti.go.jp/press OR site:maff.go.jp) (報道発表 OR 大臣会見 OR 通商 OR 輸出管理 OR 米国 OR 日米 OR 輸入解禁 OR 輸出解禁 OR 市場開放 OR 植物検疫 OR 動物検疫)', "ja", "JP", "JP:ja"), coverage: "jp-economy", official: true, aggregate: true, contextCountry: "jp" },

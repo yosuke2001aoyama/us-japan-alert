@@ -30,7 +30,7 @@ test("includes the previously missing official-policy routes", () => {
   }
 });
 
-test("uses 44 routes and stays below the conservative Worker subrequest ceiling", () => {
-  assert.equal(sources.length, 44);
+test("uses 43 routes and stays below the conservative Worker subrequest ceiling", () => {
+  assert.equal(sources.length, 43);
   assert.ok(sources.length < 45);
 });

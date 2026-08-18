@@ -16,9 +16,7 @@ const htmlSources: HtmlSource[] = [
   { name: "White House · Presidential Actions Direct", url: "https://www.whitehouse.gov/presidential-actions/", host: "https://www.whitehouse.gov", paths: /^\/presidential-actions\//i },
   { name: "White House · Fact Sheets Direct", url: "https://www.whitehouse.gov/fact-sheets/", host: "https://www.whitehouse.gov", paths: /^\/fact-sheets\//i },
   { name: "White House · Videos Direct", url: "https://www.whitehouse.gov/videos/", host: "https://www.whitehouse.gov", paths: /^\/videos\//i },
-  { name: "USTR · July Releases Direct", url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july", host: "https://ustr.gov", paths: /^\/about\/policy-offices\/press-office\/(?:press-releases|fact-sheets)\/2026\//i },
-  { name: "USTR · Press Office Direct", url: "https://ustr.gov/about/policy-offices/press-office/press-releases", host: "https://ustr.gov", paths: /^\/about\/policy-offices\/press-office\/(?:press-releases|fact-sheets)\//i },
-  { name: "Commerce · Press Releases Direct", url: "https://www.commerce.gov/news/press-releases", host: "https://www.commerce.gov", paths: /\/news\/press-releases\//i },
+  { name: "USTR · Press Office Direct", url: "https://www.ustr.gov/about-us/policy-offices/press-office/press-releases", host: "https://www.ustr.gov", paths: /^\/(?:about-us|about)\/policy-offices\/press-office\/(?:press-releases|fact-sheets)\//i },
 ];
 
 const strip = (value: string) => value
@@ -137,10 +135,54 @@ async function readFederalRegister(): Promise<AlertItem[]> {
   }).slice(0, 50);
 }
 
+type CommerceNews = {
+  label?: string;
+  href?: string;
+  self?: string;
+  created?: number;
+  body?: string;
+  teaser?: string;
+};
+
+async function readCommerceApi(): Promise<AlertItem[]> {
+  const url = new URL("https://api.commerce.gov/api/news");
+  url.searchParams.set("sort", "-created");
+  url.searchParams.set("page[limit]", "50");
+  // The Commerce API documents DEMO_KEY for low-volume public access. An
+  // operator-supplied key can replace it without ever reaching the browser.
+  url.searchParams.set("api_key", process.env.COMMERCE_API_KEY || "DEMO_KEY");
+  const response = await fetch(url, {
+    headers: { "user-agent": "JPUS-Alert/3.3 (+official-api-monitor)" },
+    signal: AbortSignal.timeout(12_000),
+    cache: "no-store",
+  });
+  if (!response.ok) throw new Error(`Commerce · News API: ${response.status}`);
+  const data = await response.json() as { data?: CommerceNews[] };
+  return (data.data || []).flatMap((entry) => {
+    const href = entry.href || entry.self;
+    const publishedAt = entry.created ? new Date(entry.created * 1_000).toISOString() : undefined;
+    if (!entry.label || !href || !publishedAt || !isRecent(publishedAt, 35)) return [];
+    const summary = strip(entry.teaser || entry.body || "U.S. Department of Commerce公式発表").slice(0, 360);
+    const assessment = assessPolicyItem(entry.label, summary, true);
+    if (!assessment.relevant) return [];
+    return [boostDirectPriority({
+      id: Buffer.from(href).toString("base64url").slice(-36),
+      title: cleanNewsTitle(entry.label),
+      url: href,
+      source: "U.S. Commerce · Direct API",
+      publishedAt,
+      summary,
+      official: true,
+      ...assessment,
+    } satisfies AlertItem)];
+  });
+}
+
 export async function collectDirectOfficial(): Promise<DirectResult> {
-  const names = [...htmlSources.map((source) => source.name), "Federal Register · Direct API"];
+  const names = [...htmlSources.map((source) => source.name), "Commerce · News API", "Federal Register · Direct API"];
   const tasks: Array<() => Promise<AlertItem[]>> = [
     ...htmlSources.map((source) => () => readHtmlSource(source)),
+    readCommerceApi,
     readFederalRegister,
   ];
   const results = await Promise.allSettled(tasks.map((task) => task()));

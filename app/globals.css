@@ -173,6 +173,10 @@ footer {
 .hero-copy {
   position: relative;
   padding: 22px 28px 23px 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
 }
 
 .hero-copy::before {
@@ -196,6 +200,104 @@ footer {
   font-size: clamp(24px, 2.2vw, 30px);
   line-height: 1.18;
   letter-spacing: -0.05em;
+}
+
+.alert-subscribe {
+  min-width: min(100%, 470px);
+  display: grid;
+  grid-template-columns: auto minmax(180px, 1fr) auto;
+  align-items: center;
+  gap: 7px;
+}
+
+.alert-subscribe label {
+  color: var(--ink-2);
+  font-size: 10px;
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+.alert-subscribe input[type="email"] {
+  height: 35px;
+  min-width: 0;
+  padding: 0 10px;
+  border: 1px solid #d6dee6;
+  border-radius: 6px;
+  color: var(--ink);
+  background: #f8fafb;
+  font-size: 10px;
+}
+
+.alert-subscribe button,
+.token-action button {
+  height: 35px;
+  padding: 0 14px;
+  border: 1px solid var(--navy);
+  border-radius: 6px;
+  background: var(--navy);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.alert-subscribe button:disabled,
+.token-action button:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.alert-subscribe > span {
+  min-height: 13px;
+  grid-column: 2 / -1;
+  color: var(--muted);
+  font-size: 9px;
+}
+
+.form-trap {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+}
+
+.token-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.token-page > section {
+  width: min(100%, 460px);
+  padding: 32px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.token-page h1 {
+  margin: 10px 0 24px;
+  font-size: 24px;
+}
+
+.token-page > section > span,
+.token-page a {
+  color: var(--teal);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.token-page a {
+  display: inline-block;
+  margin-top: 24px;
+}
+
+.token-action p {
+  color: var(--ink-2);
+  font-size: 12px;
 }
 
 .toolbar {
@@ -1041,6 +1143,17 @@ footer span:first-child {
     top: auto;
   }
 
+  .hero-copy {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .alert-subscribe {
+    width: 100%;
+    min-width: 0;
+  }
+
   .signal-footer {
     align-items: flex-start;
     flex-direction: column;
@@ -1081,6 +1194,18 @@ footer span:first-child {
 
   .hero h1 {
     font-size: 22px;
+  }
+
+  .alert-subscribe {
+    grid-template-columns: 1fr auto;
+  }
+
+  .alert-subscribe label {
+    grid-column: 1 / -1;
+  }
+
+  .alert-subscribe > span {
+    grid-column: 1 / -1;
   }
 
   .toolbar {

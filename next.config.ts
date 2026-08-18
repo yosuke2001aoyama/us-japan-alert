@@ -6,6 +6,21 @@ const nextConfig: NextConfig = {
       ? "./tsconfig.vercel.json"
       : "./tsconfig.json",
   },
+  async headers() {
+    const scripts = process.env.NODE_ENV === "development"
+      ? "script-src 'self' 'unsafe-inline' 'unsafe-eval'"
+      : "script-src 'self' 'unsafe-inline'";
+    const securityHeaders = [
+      { key: "Content-Security-Policy", value: `default-src 'self'; ${scripts}; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests` },
+      { key: "Referrer-Policy", value: "no-referrer" },
+      { key: "X-Content-Type-Options", value: "nosniff" },
+      { key: "X-Frame-Options", value: "DENY" },
+      { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()" },
+      { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
+      { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
+    ];
+    return [{ source: "/(.*)", headers: securityHeaders }];
+  },
 };
 
 export default nextConfig;

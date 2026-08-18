@@ -1,0 +1,35 @@
+name: Refresh fallback snapshot
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jpus-snapshot
+  cancel-in-progress: true
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh fallback feed
+        env:
+          PUBLIC_DASHBOARD_URL: ${{ vars.PUBLIC_DASHBOARD_URL || 'https://us-japan-alert.vercel.app' }}
+        run: node scripts/snapshot-feed.mjs
+      - name: Save snapshot
+        run: |
+          git add public/data/feed.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "jpus-alert[bot]"
+          git config user.email "jpus-alert[bot]@users.noreply.github.com"
+          git commit -m "data: refresh fallback feed"
+          git push

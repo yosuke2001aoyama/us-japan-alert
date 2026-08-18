@@ -11,7 +11,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "node --experimental-strip-types --test tests/policy.test.ts tests/sources.test.ts tests/social-coverage.test.ts tests/spoken-signals.test.ts tests/notifications.test.mjs && npm run build",
+    "test": "node --experimental-strip-types --test tests/policy.test.ts tests/sources.test.ts tests/social-coverage.test.ts tests/spoken-signals.test.ts tests/notifications.test.mjs tests/alert-security.test.ts && npm run build",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
   },

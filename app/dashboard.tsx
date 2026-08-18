@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
+import AlertSubscribe from "./components/alert-subscribe";
 
 type Verification = "official" | "reported-observation" | "media-report";
 type Item = {
@@ -423,8 +424,11 @@ export default function Dashboard() {
 
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">JPUS OSINT / POLICY TIMELINE</p>
-          <h1>日米政策OSINTタイムライン</h1>
+          <div>
+            <p className="eyebrow">JPUS OSINT / POLICY TIMELINE</p>
+            <h1>日米政策OSINTタイムライン</h1>
+          </div>
+          <AlertSubscribe />
         </div>
       </section>
 
