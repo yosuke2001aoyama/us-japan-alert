@@ -264,9 +264,9 @@ function buildAlertEmail(item, recipient) {
 }
 
 function sealUnsubscribeToken(email, item) {
-  const secret = process.env.ALERT_SIGNING_SECRET || "";
+  const secret = process.env.ALERT_SIGNING_SECRET || process.env.RESEND_API_KEY || "";
   if (secret.length < 32) throw new Error("ALERT_SIGNING_SECRET is required for public subscribers");
-  const key = createHash("sha256").update(secret).digest();
+  const key = createHmac("sha256", secret).update("jpus-alert-token-v1").digest();
   const event = articleId(item);
   const exp = Math.floor(Date.parse(item.publishedAt) / 1_000) + 400 * 24 * 60 * 60;
   const iv = createHmac("sha256", key).update(`unsubscribe|${email}|${event}|${exp}`).digest().subarray(0, 12);

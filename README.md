@@ -36,7 +36,7 @@ GitHub Actions secrets に次を登録します。
 - `RESEND_API_KEY`
 - `ALERT_TO_EMAIL`
 - `ALERT_FROM_EMAIL`（Resendで認証済みドメインの送信元）
-- `ALERT_SIGNING_SECRET`（32文字以上のランダム値。Vercelと同一値）
+- `ALERT_SIGNING_SECRET`（任意。設定する場合は32文字以上でVercelと同一値）
 
 Actions variable `PUBLIC_DASHBOARD_URL` に公開URLを登録します。メール用の秘密情報が未登録でも、収集・公開画面・GitHub通知は動きます。
 原爆・被爆・日本降伏などに関する議員・政府関係者の一次発信は、通常の通知しきい値より低い重要度82から早期通知できます。必要に応じて Actions variable `ALERT_EARLY_SIGNAL_PRIORITY` で変更してください。
@@ -45,10 +45,10 @@ Actions variable `PUBLIC_DASHBOARD_URL` に公開URLを登録します。メー�
 
 - `RESEND_API_KEY`
 - `ALERT_FROM_EMAIL`
-- `ALERT_SIGNING_SECRET`
+- `ALERT_SIGNING_SECRET`（任意。GitHubと同一値）
 - `PUBLIC_DASHBOARD_URL=https://us-japan-alert.vercel.app`
 
-登録前に30分期限の確認メールを送り、メールボックスの所有確認後に専用セグメントへ追加します。確認・解除URLにはメールアドレスを含めず、AES-256-GCMで暗号化した期限付きトークンだけを使用します。APIは同一オリジン検査、サイズ制限、ハニーポット、レート制限、汎用応答を使用し、購読者一覧を公開しません。
+登録前に30分期限の確認メールを送り、メールボックスの所有確認後に専用セグメントへ追加します。確認・解除URLにはメールアドレスを含めず、AES-256-GCMで暗号化した期限付きトークンだけを使用します。専用鍵がない場合は同一のResend APIキーから用途分離した鍵を導出します。APIは同一オリジン検査、サイズ制限、ハニーポット、レート制限、汎用応答を使用し、購読者一覧を公開しません。
 
 ## 運用上の注意
 

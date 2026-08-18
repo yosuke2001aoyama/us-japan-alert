@@ -61,11 +61,11 @@ export async function ensureAlertSegment() {
 }
 
 export function emailServiceReady() {
+  const tokenSecret = process.env.ALERT_SIGNING_SECRET || process.env.RESEND_API_KEY || "";
   return Boolean(
     process.env.RESEND_API_KEY
     && process.env.ALERT_FROM_EMAIL
-    && process.env.ALERT_SIGNING_SECRET
-    && process.env.ALERT_SIGNING_SECRET.length >= 32,
+    && tokenSecret.length >= 32,
   );
 }
 

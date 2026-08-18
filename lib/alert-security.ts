@@ -1,4 +1,4 @@
-import { createCipheriv, createDecipheriv, createHash, randomBytes } from "node:crypto";
+import { createCipheriv, createDecipheriv, createHash, createHmac, randomBytes } from "node:crypto";
 
 export type AlertTokenPurpose = "confirm" | "unsubscribe";
 type AlertTokenPayload = { email: string; purpose: AlertTokenPurpose; exp: number };
@@ -13,9 +13,9 @@ export function normalizeAlertEmail(value: unknown) {
 }
 
 function signingSecret(explicit?: string) {
-  const secret = explicit || process.env.ALERT_SIGNING_SECRET || "";
+  const secret = explicit || process.env.ALERT_SIGNING_SECRET || process.env.RESEND_API_KEY || "";
   if (secret.length < 32) throw new Error("ALERT_SIGNING_SECRET must contain at least 32 characters");
-  return createHash("sha256").update(secret).digest();
+  return createHmac("sha256", secret).update("jpus-alert-token-v1").digest();
 }
 
 export function sealAlertToken(
