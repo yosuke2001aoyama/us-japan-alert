@@ -6,25 +6,26 @@ import {
   canonicalArticleUrl,
   isSameArticle,
 } from "./article-identity.mjs";
+import {
+  classifyImmediateAlert,
+  DEFAULT_MAX_ALERT_AGE_MS,
+  STARTUP_RECOVERY_AGE_MS,
+} from "./alert-eligibility.mjs";
 
 const DASHBOARD_URL = process.env.PUBLIC_DASHBOARD_URL || "https://us-japan-alert.vercel.app";
 const endpoint = process.env.FEED_ENDPOINT || `${DASHBOARD_URL}/api/feed`;
 const STATE_PATH = "public/data/notified-events.json";
 const FEED_PATH = "public/data/feed.json";
-const MAX_ALERT_AGE_MS = 24 * 60 * 60 * 1000;
 const HISTORY_RETENTION_MS = 14 * 24 * 60 * 60 * 1000;
-const MIN_PRIORITY = Number(process.env.ALERT_MIN_PRIORITY || 90);
-const EARLY_SIGNAL_PRIORITY = Number(process.env.ALERT_EARLY_SIGNAL_PRIORITY || 82);
+const MAX_ALERTS_PER_SCAN = Math.max(1, Number(process.env.ALERT_MAX_PER_SCAN || 2));
 const WATCH_MINUTES = Math.max(0, Number(process.env.ALERT_WATCH_MINUTES || 0));
 const POLL_SECONDS = Math.max(30, Number(process.env.ALERT_POLL_SECONDS || 60));
 const RESEND_API = "https://api.resend.com";
 const RESEND_SEGMENT_NAME = "JPUS速報";
-const warMemoryTrigger = /hiroshima|nagasaki|hibakusha|a-?bomb|atomic bomb(?:ing)?|atomic weapons?|nuclear weapons?|enola gay|pearl harbor|v-?j day|japan(?:ese)? surrender|広島|長崎|被爆|被爆者|原爆|核兵器|真珠湾|終戦|日本降伏/i;
-const officialSpeechTrigger = /senator|representative|member of congress|statement|remarks?|speech|post(?:ed)?|米上院議員|米下院議員|米議員|声明|発言|演説|投稿/i;
-const reportedObservationTrigger = /sources?|officials?|told reporters?|speaking to reporters?|interview|revealed|disclosed|expected|planning|considering|likely|関係者|政府筋|記者団|取材|インタビュー|明らかにした|述べた|語った|調整|検討|見通し|予定/i;
-const highValueMoveTrigger = /summit|official visit|visit to (?:washington|tokyo|japan)|tariff|sanction|export control|resign|dismiss|currency intervention|foreign exchange|market access|summit|首脳会談|訪米|訪日|会談|協議|関税|制裁|輸出管理|為替介入|市場開放|輸入解禁|輸出解禁|辞任|解任/i;
 let scanNow = Date.now();
 let segmentIdCache;
+let completedScans = 0;
+const observedThisRun = [];
 
 if (!endpoint.startsWith("http")) throw new Error("Set FEED_ENDPOINT or PUBLIC_DASHBOARD_URL");
 
@@ -53,74 +54,66 @@ async function runScan() {
   await writeFile(FEED_PATH, JSON.stringify(feed, null, 2) + "\n");
 
   const state = await readState();
-  const eligible = feed.items.filter(isFreshBreakingItem).sort(compareRepresentative);
-  const clusters = clusterItems(eligible);
-
-  if (!state.initialized) {
-    state.initialized = true;
-    state.events = clusters.map((cluster) => toHistoryRecord(selectRepresentative(cluster), true));
-    state.updatedAt = new Date(scanNow).toISOString();
-    await writeState(state);
-    console.log(JSON.stringify({ collected: feed.items.length, eligible: eligible.length, alerts: 0, bootstrap: true }));
-    return;
-  }
-
   state.events = state.events.filter((event) => {
     const timestamp = Date.parse(event.notifiedAt || event.publishedAt || "");
     return Number.isFinite(timestamp) && scanNow - timestamp <= HISTORY_RETENTION_MS;
   });
-  const pending = clusters
+  const maximumAge = completedScans === 0 ? STARTUP_RECOVERY_AGE_MS : DEFAULT_MAX_ALERT_AGE_MS;
+  const novel = clusterItems(feed.items)
     .map(selectRepresentative)
+    .filter((item) => !observedThisRun.some((seen) => isSameArticle(item, seen)))
     .filter((item) => !state.events.some((event) => isSameArticle(item, event)));
+  const assessed = novel.map((item) => ({
+    item,
+    assessment: classifyImmediateAlert(item, { now: scanNow, maxAgeMs: maximumAge }),
+  }));
+  const actionable = assessed
+    .filter(({ assessment }) => assessment.notify)
+    .sort((a, b) => compareRepresentative(a.item, b.item));
+  const pending = actionable.slice(0, MAX_ALERTS_PER_SCAN);
+  const deferred = actionable.slice(MAX_ALERTS_PER_SCAN);
+  const rejectionCounts = countBy(assessed.filter(({ assessment }) => !assessment.notify), ({ assessment }) => assessment.code);
+
+  for (const { item, assessment } of assessed) {
+    if (!assessment.notify) observedThisRun.push(item);
+  }
   const recipients = resendReady() ? await listAlertRecipients() : [];
   const delivery = recipients.length ? "resend" : githubReady() ? "github" : "none";
   const delivered = [];
   let failed = 0;
 
-  for (const item of pending) {
+  for (const { item, assessment } of pending) {
     try {
-      if (delivery === "resend") await sendResendAlert(item, recipients);
-      else if (delivery === "github") await createGitHubIssue(item);
+      if (delivery === "resend") await sendResendAlert(item, assessment, recipients);
+      else if (delivery === "github") await createGitHubIssue(item, assessment);
       else throw new Error("No alert delivery channel configured");
       delivered.push(item);
-      state.events.push(toHistoryRecord(item, false));
+      observedThisRun.push(item);
+      state.events.push(toHistoryRecord(item, assessment));
     } catch (error) {
       failed += 1;
       console.error(JSON.stringify({ delivery: "failed", article: articleId(item), error: safeError(error) }));
     }
   }
 
+  state.initialized = true;
   state.updatedAt = new Date(scanNow).toISOString();
   await writeState(state);
+  completedScans += 1;
+  if (observedThisRun.length > 1_400) observedThisRun.splice(0, observedThisRun.length - 1_000);
   console.log(JSON.stringify({
     collected: feed.items.length,
-    eligible: eligible.length,
-    events: clusters.length,
+    novel: novel.length,
+    urgent: actionable.length,
     pending: pending.length,
+    deferred: deferred.length,
     alerts: delivered.length,
     recipients: recipients.length,
     delivery,
     failures: failed,
+    startupRecovery: completedScans === 1,
+    rejected: rejectionCounts,
   }));
-}
-
-function isFreshBreakingItem(item) {
-  if (!item) return false;
-  const priority = Number(item.priority);
-  const text = `${item.title || ""} ${item.summary || ""} ${item.source || ""}`;
-  const earlyWarMemorySignal = priority >= EARLY_SIGNAL_PRIORITY
-    && warMemoryTrigger.test(text)
-    && officialSpeechTrigger.test(text)
-    && (item.official || item.socialPost);
-  const earlyReportedObservation = priority >= EARLY_SIGNAL_PRIORITY
-    && !item.official
-    && reportedObservationTrigger.test(text)
-    && highValueMoveTrigger.test(text);
-  if (priority < MIN_PRIORITY && !earlyWarMemorySignal && !earlyReportedObservation) return false;
-  const published = Date.parse(item.publishedAt || "");
-  if (!Number.isFinite(published)) return false;
-  const age = scanNow - published;
-  return age >= -10 * 60 * 1_000 && age <= MAX_ALERT_AGE_MS;
 }
 
 function clusterItems(items) {
@@ -144,7 +137,7 @@ function articleId(item) {
   return createHash("sha256").update(canonicalArticleUrl(item.url) || `${articleSourceKey(item)}|${canonicalArticleTitle(item.title)}`).digest("hex").slice(0, 24);
 }
 
-function toHistoryRecord(item, baseline) {
+function toHistoryRecord(item, assessment) {
   const articleUrlKey = canonicalArticleUrl(item.url);
   const articleTitleKey = canonicalArticleTitle(item.title);
   const sourceKey = articleSourceKey(item);
@@ -157,7 +150,9 @@ function toHistoryRecord(item, baseline) {
     priority: Number(item.priority || 0),
     publishedAt: item.publishedAt,
     notifiedAt: new Date(scanNow).toISOString(),
-    baseline,
+    baseline: false,
+    alertCode: assessment.code,
+    alertLabel: assessment.label,
     articleUrlKey,
     articleTitleKey,
     articleSourceKey: sourceKey,
@@ -236,23 +231,23 @@ async function listAlertRecipients() {
   return [...unique.values()];
 }
 
-async function sendResendAlert(item, recipients) {
+async function sendResendAlert(item, assessment, recipients) {
   for (const [index, recipient] of recipients.entries()) {
     const recipientKey = createHash("sha256").update(recipient.email).digest("hex").slice(0, 20);
     await resend("/emails", {
       method: "POST",
       headers: { "Idempotency-Key": `alert-${articleId(item)}-${recipientKey}` },
-      body: JSON.stringify(buildAlertEmail(item, recipient)),
+      body: JSON.stringify(buildAlertEmail(item, assessment, recipient)),
     });
     if (index < recipients.length - 1) await new Promise((resolve) => setTimeout(resolve, 225));
   }
 }
 
-function buildAlertEmail(item, recipient) {
+function buildAlertEmail(item, assessment, recipient) {
   const unsubscribeToken = recipient.publicSubscriber ? sealUnsubscribeToken(recipient.email, item) : "";
   const unsubscribeUrl = unsubscribeToken ? `${DASHBOARD_URL}/alerts/unsubscribe?token=${encodeURIComponent(unsubscribeToken)}` : "";
-  const html = `<h2>${escapeHtml(item.title)}</h2><p><b>重要度:</b> ${Number(item.priority || 0)}<br><b>発信元:</b> ${escapeHtml(item.source || "不明")}<br><b>公表時刻:</b> ${escapeHtml(item.publishedAt || "不明")}</p>${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ""}<p><a href="${escapeHtml(item.url)}">原文を開く</a> · <a href="${escapeHtml(DASHBOARD_URL)}">タイムライン</a></p>${unsubscribeUrl ? `<p><a href="${escapeHtml(unsubscribeUrl)}">速報メールを解除</a></p>` : ""}`;
-  const text = `${item.title}\n\n重要度: ${Number(item.priority || 0)}\n発信元: ${item.source || "不明"}\n公表時刻: ${item.publishedAt || "不明"}\n\n${item.summary || ""}\n\n原文: ${item.url}\nタイムライン: ${DASHBOARD_URL}${unsubscribeUrl ? `\n解除: ${unsubscribeUrl}` : ""}`;
+  const html = `<h2>${escapeHtml(item.title)}</h2><p><b>速報理由:</b> ${escapeHtml(assessment.label)}<br><b>発信元:</b> ${escapeHtml(item.source || "不明")}<br><b>公表時刻:</b> ${escapeHtml(item.publishedAt || "不明")}</p>${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ""}<p><a href="${escapeHtml(item.url)}">原文を開く</a> · <a href="${escapeHtml(DASHBOARD_URL)}">タイムライン</a></p>${unsubscribeUrl ? `<p><a href="${escapeHtml(unsubscribeUrl)}">速報メールを解除</a></p>` : ""}`;
+  const text = `${item.title}\n\n速報理由: ${assessment.label}\n発信元: ${item.source || "不明"}\n公表時刻: ${item.publishedAt || "不明"}\n\n${item.summary || ""}\n\n原文: ${item.url}\nタイムライン: ${DASHBOARD_URL}${unsubscribeUrl ? `\n解除: ${unsubscribeUrl}` : ""}`;
   return {
     from: process.env.ALERT_FROM_EMAIL,
     to: [recipient.email],
@@ -276,12 +271,13 @@ function sealUnsubscribeToken(email, item) {
   return Buffer.concat([iv, cipher.getAuthTag(), ciphertext]).toString("base64url");
 }
 
-async function createGitHubIssue(item) {
+async function createGitHubIssue(item, assessment) {
   const [owner] = process.env.GITHUB_REPOSITORY.split("/");
+  if (await githubIssueExists(item)) return;
   const body = [
     `## ${escapeMarkdown(item.title)}`,
     "",
-    `- **重要度:** ${Number(item.priority || 0)}`,
+    `- **速報理由:** ${escapeMarkdown(assessment.label)}`,
     `- **発信元:** ${escapeMarkdown(item.source || "不明")}`,
     `- **公表時刻:** ${escapeMarkdown(item.publishedAt || "不明")}`,
     `- **区分:** ${item.japanRelated ? "日本関連" : "重要速報"}`,
@@ -289,6 +285,8 @@ async function createGitHubIssue(item) {
     item.summary ? escapeMarkdown(item.summary) : "",
     "",
     `[原文を開く](${item.url}) · [タイムラインを開く](${DASHBOARD_URL})`,
+    "",
+    `<!-- jpus-article-id:${articleId(item)} -->`,
   ].filter(Boolean).join("\n");
   const created = await fetch(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/issues`, {
     method: "POST",
@@ -296,6 +294,32 @@ async function createGitHubIssue(item) {
     body: JSON.stringify({ title: `【JPUS速報】${truncate(item.title, 180)}`, body, assignees: [owner] }),
   });
   if (!created.ok) throw new Error(`GitHub issue failed (${created.status})`);
+}
+
+async function githubIssueExists(item) {
+  const query = new URLSearchParams({
+    q: `repo:${process.env.GITHUB_REPOSITORY} ${articleId(item)} in:body is:issue`,
+    per_page: "1",
+  });
+  const response = await fetch(`https://api.github.com/search/issues?${query}`, {
+    headers: {
+      authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+      accept: "application/vnd.github+json",
+      "x-github-api-version": "2022-11-28",
+    },
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!response.ok) throw new Error(`GitHub issue lookup failed (${response.status})`);
+  return Number((await response.json())?.total_count || 0) > 0;
+}
+
+function countBy(items, keyFor) {
+  const counts = {};
+  for (const item of items) {
+    const key = keyFor(item);
+    counts[key] = (counts[key] || 0) + 1;
+  }
+  return counts;
 }
 
 function safeError(error) { return error instanceof Error ? error.message.slice(0, 180) : "Unknown error"; }
