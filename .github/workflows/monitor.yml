@@ -3,19 +3,38 @@ name: JPUS live email alerts
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "7 */2 * * *"
   workflow_dispatch:
 
 permissions:
   contents: read
+  issues: write
 
 concurrency:
   group: jpus-live-alerts
   cancel-in-progress: true
 
 jobs:
-  pause:
+  monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 120
     steps:
-      - name: Alert delivery paused
-        run: echo "Alert delivery is paused while notification precision is repaired."
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Watch continuously and send only immediate alerts
+        env:
+          PUBLIC_DASHBOARD_URL: ${{ vars.PUBLIC_DASHBOARD_URL || 'https://us-japan-alert.vercel.app' }}
+          ALERT_MAX_PER_SCAN: '2'
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_TO_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
+          ALERT_FROM_EMAIL: ${{ secrets.ALERT_FROM_EMAIL }}
+          ALERT_SIGNING_SECRET: ${{ secrets.ALERT_SIGNING_SECRET }}
+          RESEND_ALERT_SEGMENT_ID: ${{ secrets.RESEND_ALERT_SEGMENT_ID }}
+          ALERT_WATCH_MINUTES: '116'
+          ALERT_POLL_SECONDS: '60'
+        run: node scripts/monitor.mjs
