@@ -297,11 +297,8 @@ async function createGitHubIssue(item, assessment) {
 }
 
 async function githubIssueExists(item) {
-  const query = new URLSearchParams({
-    q: `repo:${process.env.GITHUB_REPOSITORY} ${articleId(item)} in:body is:issue`,
-    per_page: "1",
-  });
-  const response = await fetch(`https://api.github.com/search/issues?${query}`, {
+  const query = new URLSearchParams({ state: "all", sort: "created", direction: "desc", per_page: "100" });
+  const response = await fetch(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/issues?${query}`, {
     headers: {
       authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
       accept: "application/vnd.github+json",
@@ -310,7 +307,8 @@ async function githubIssueExists(item) {
     signal: AbortSignal.timeout(20_000),
   });
   if (!response.ok) throw new Error(`GitHub issue lookup failed (${response.status})`);
-  return Number((await response.json())?.total_count || 0) > 0;
+  const marker = `<!-- jpus-article-id:${articleId(item)} -->`;
+  return (await response.json()).some((issue) => String(issue?.body || "").includes(marker));
 }
 
 function countBy(items, keyFor) {
