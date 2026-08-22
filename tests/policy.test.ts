@@ -99,6 +99,7 @@ test("drops image-only derivatives of otherwise critical coverage", () => {
     priority: 98,
     japanRelated: true,
     official: false,
+    english: false,
     coverage: "major-media" as const,
   };
 

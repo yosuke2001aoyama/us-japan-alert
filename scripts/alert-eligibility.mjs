@@ -83,6 +83,39 @@ export function classifyImmediateAlert(item, options = {}) {
   return rejected("important-but-not-breaking");
 }
 
+export function classifyTimelineImportance(item, options = {}) {
+  const immediate = classifyImmediateAlert(item, options);
+  if (immediate.notify) return { tier: "breaking", label: "速報", code: immediate.code };
+  if (!item) return { tier: "monitor", label: "監視", code: "missing-item" };
+
+  const title = cleanText(item.title || "");
+  const rawSummary = String(item.summary || "");
+  const summary = /(?:news\.google\.com\/rss\/articles|&lt;a\s+href=|<a\s+href=)/i.test(rawSummary)
+    ? ""
+    : cleanText(rawSummary);
+  const text = `${title} ${summary} ${cleanText(item.transcript || "")}`;
+  if (routineMarketPattern.test(title)) return { tier: "monitor", label: "監視", code: "routine-market-update" };
+  if (routineDiplomacyPattern.test(text)) return { tier: "monitor", label: "監視", code: "routine-diplomacy" };
+  if (/(?:新刊|発売|著書|配信中|写真|画像|セミナー|説明会)/i.test(title)) {
+    return { tier: "monitor", label: "監視", code: "promotional-or-derivative" };
+  }
+
+  const highImpact = currencyInterventionPattern.test(text)
+    || japanTradePattern.test(text)
+    || bilateralVisitPattern.test(text)
+    || japanSecurityPattern.test(text)
+    || (warMemoryPattern.test(text) && principalPattern.test(text))
+    || emergencyPattern.test(text)
+    || keyPersonnelPattern.test(text);
+  const directPrincipal = Boolean(item.official || item.socialPost || item.spokenEvent || item.verifiedSource)
+    && principalPattern.test(text);
+  const relevantAnalysis = item.coverage === "policy-analysis" && Boolean(item.japanRelated);
+  if (highImpact || directPrincipal || relevantAnalysis) {
+    return { tier: "important", label: "重要", code: "important-non-breaking" };
+  }
+  return { tier: "monitor", label: "監視", code: immediate.code };
+}
+
 function accepted(label, code) {
   return { notify: true, label, code };
 }

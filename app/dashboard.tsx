@@ -27,6 +27,8 @@ type Item = {
   transcriptKind?: "official-captions" | "reported-excerpt";
   transcriptLanguage?: string;
   transcriptSource?: string;
+  alertTier?: "breaking" | "important" | "monitor";
+  alertReason?: string;
 };
 type Coverage = { id: string; label: string; ok: number; total: number };
 type Feed = {
@@ -195,6 +197,9 @@ function isEarlySignal(item: Item) {
 }
 
 function signalTier(item: Item): SignalTier {
+  if (item.alertTier === "breaking") return "critical";
+  if (item.alertTier === "important") return "review";
+  if (item.alertTier === "monitor") return "monitor";
   const text = itemText(item);
   const highConsequence = warMemoryPattern.test(text)
     || personnelPattern.test(text)
@@ -205,8 +210,8 @@ function signalTier(item: Item): SignalTier {
 }
 
 function tierLabel(tier: SignalTier) {
-  if (tier === "critical") return "今すぐ確認";
-  if (tier === "review") return "要確認";
+  if (tier === "critical") return "速報";
+  if (tier === "review") return "重要";
   return "監視";
 }
 

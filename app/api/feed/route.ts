@@ -5,12 +5,14 @@ import { collectJapaneseCriticalMedia } from "../../../lib/japanese-tariff-media
 import { canonicalHeadline, canonicalPublisher } from "../../../lib/policy";
 import { passesFinalRelevanceGuard } from "../../../lib/relevance-guard";
 import { collectSpokenSignals } from "../../../lib/spoken-signals";
+import { classifyTimelineImportance } from "../../../scripts/alert-eligibility.mjs";
 
 export const dynamic = "force-dynamic";
 
 const observationPattern = /調整|検討|見通し|予定|方向|政府筋|関係者|複数の関係者|記者団|取材|インタビュー|明らかにした|述べた|語った|sources?|officials?|told reporters?|speaking to reporters?|interview|revealed|disclosed|expected|planning|considering|likely|may visit|visit planned|in talks/i;
 
 export async function GET(request: Request) {
+  const generatedAt = Date.now();
   const [base, direct, social, criticalMedia, spoken] = await Promise.all([
     collect(), collectDirectOfficial(), collectDirectSocial(), collectJapaneseCriticalMedia(), collectSpokenSignals(),
   ]);
@@ -33,7 +35,7 @@ export async function GET(request: Request) {
       const text = `${item.title} ${item.summary}`;
       const socialPost = /^(Truth Social|X) · @/i.test(item.source);
       const observation = !item.official && observationPattern.test(text);
-      return {
+      const enriched = {
         ...item,
         socialPost,
         verification: item.official ? "official" : observation ? "reported-observation" : "media-report",
@@ -46,6 +48,8 @@ export async function GET(request: Request) {
               ? "公式発表前の観測・関係者情報を含む可能性があります。"
               : "報道機関による記事です。一次情報の有無を継続確認します。",
       };
+      const importance = classifyTimelineImportance(enriched, { now: generatedAt });
+      return { ...enriched, alertTier: importance.tier, alertReason: importance.label };
     })
     .slice(0, 700);
 
@@ -58,7 +62,7 @@ export async function GET(request: Request) {
 
   const data = {
     ...base,
-    generatedAt: new Date().toISOString(),
+    generatedAt: new Date(generatedAt).toISOString(),
     items,
     sources: {
       ...base.sources,
@@ -86,8 +90,8 @@ export async function GET(request: Request) {
   if (format === "csv") {
     const esc = (v: unknown) => `"${String(v ?? "").replaceAll('"', '""')}"`;
     const csv = [
-      "published_at,priority,japan_related,official,social_post,spoken_event,transcript_kind,verification,category,source,title,transcript,url",
-      ...data.items.map((x) => [x.publishedAt, x.priority, x.japanRelated, x.official, x.socialPost, x.spokenEvent, x.transcriptKind, x.verification, x.category, x.source, x.title, x.transcript, x.url].map(esc).join(",")),
+      "published_at,alert_tier,priority,japan_related,official,social_post,spoken_event,transcript_kind,verification,category,source,title,transcript,url",
+      ...data.items.map((x) => [x.publishedAt, x.alertTier, x.priority, x.japanRelated, x.official, x.socialPost, x.spokenEvent, x.transcriptKind, x.verification, x.category, x.source, x.title, x.transcript, x.url].map(esc).join(",")),
     ].join("\n");
     return new Response("\ufeff" + csv, { headers: { "content-type": "text/csv; charset=utf-8", "content-disposition": "attachment; filename=jpus-alert.csv" } });
   }

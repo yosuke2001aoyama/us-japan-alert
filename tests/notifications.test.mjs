@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   classifyImmediateAlert,
+  classifyTimelineImportance,
   STARTUP_RECOVERY_AGE_MS,
 } from "../scripts/alert-eligibility.mjs";
 import { isSameArticle } from "../scripts/article-identity.mjs";
@@ -162,4 +163,23 @@ test("startup recovery never turns an old important article into a batch alert",
   }), { now: NOW, maxAgeMs: STARTUP_RECOVERY_AGE_MS });
   assert.equal(result.notify, false);
   assert.equal(result.code, "outside-breaking-window");
+});
+
+test("the timeline distinguishes breaking, important non-breaking, and monitoring items", () => {
+  assert.equal(classifyTimelineImportance(recent({
+    title: "日米政府が円買いの協調介入を実施",
+    summary: "財務省が実施を発表した。",
+    priority: 98,
+  }), { now: NOW }).tier, "breaking");
+
+  assert.equal(classifyTimelineImportance(recent({
+    title: "日米の協調介入の背景に何があった？ 日本経済への影響を分析",
+    publishedAt: "2026-08-20T07:01:00.000Z",
+    priority: 98,
+  }), { now: NOW }).tier, "important");
+
+  assert.equal(classifyTimelineImportance(recent({
+    title: "外為14時 円相場、安値圏 159円台",
+    priority: 99,
+  }), { now: NOW }).tier, "monitor");
 });
