@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T18:47:36.447Z",
+  "generatedAt": "2026-08-23T01:58:23.728Z",
   "mode": "live",
   "sources": {
     "ok": 111,
@@ -107,6 +107,126 @@
   },
   "items": [
     {
+      "id": "TVdoZmFrTmFjemxrWTBoUVZIWklkdz9vYz01",
+      "title": "カナダがアメリカに報復関税発動へ 9月8日から鉄鋼や乳製品など対象",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvd1dyUHE2VFhUMDNtRG0xTV8xQ0VJVkVfQjNzLTJmLWZPS1E1N2N2aU40ZjVwUElKVm5hc2pCMWhfakNaczlkY0hQVHZIdw?oc=5",
+      "source": "FNNプライムオンライン",
+      "publishedAt": "2026-08-22T23:34:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvd1dyUHE2VFhUMDNtRG0xTV8xQ0VJVkVfQjNzLTJmLWZPS1E1N2N2aU40ZjVwUElKVm5hc2pCMWhfakNaczlkY0hQVHZIdw?oc=5\" target=\"_blank\"&gt;カナダがアメリカに報復関税発動へ 9月8日から鉄鋼や乳製品など対象&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;FNNプライムオンライン&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 92,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
+    },
+    {
+      "id": "pXUWxSVVVFaFlVelZrTUZVM1ptUXk_b2M9NQ",
+      "title": "WSJ日本版：カナダ、米国への報復関税を発表 9月8日発動へ",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LSXA1U0Y5R2Y2bUhBUTVUV08wZi1IM0ZCMFgtSW9QYUNVZWFuNnhZbTlTUkFNb3Z0X0V5dW04VXkxUlM2RjROeV84TEhBdHNBbU5DV21Ld2JWQlRUUEhYUzVkMFU3ZmQy?oc=5",
+      "source": "毎日新聞",
+      "publishedAt": "2026-08-22T23:12:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LSXA1U0Y5R2Y2bUhBUTVUV08wZi1IM0ZCMFgtSW9QYUNVZWFuNnhZbTlTUkFNb3Z0X0V5dW04VXkxUlM2RjROeV84TEhBdHNBbU5DV21Ld2JWQlRUUEhYUzVkMFU3ZmQy?oc=5\" target=\"_blank\"&gt;WSJ日本版：カナダ、米国への報復関税を発表 9月8日発動へ&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;毎日新聞&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 92,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
+    },
+    {
+      "id": "KZlVHMXJPSEJrYkhOSFZsOWhWWGhCP29jPTU",
+      "title": "為替協調介入に、米国債買い戻し。『ベッセント・サプライズ』はどこまで続く？【播摩卓士の経済コラム】",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05LUtZZDF2Q0xWU3hFMmRmUG1UX2ZrUW1uQ05UTHhhb1RiQTRoQmJNRE56dXdIR20zUWJ5Rk50TV9MWEJhX3VjOHpVcjM1ZzVFYlFyUHluRGVNTlpiT0JmNk9jZjJfUG1rOHBkbHNHVl9hVXhB?oc=5",
+      "source": "TBS NEWS DIG",
+      "publishedAt": "2026-08-22T22:00:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE05LUtZZDF2Q0xWU3hFMmRmUG1UX2ZrUW1uQ05UTHhhb1RiQTRoQmJNRE56dXdIR20zUWJ5Rk50TV9MWEJhX3VjOHpVcjM1ZzVFYlFyUHluRGVNTlpiT0JmNk9jZjJfUG1rOHBkbHNHVl9hVXhB?oc=5\" target=\"_blank\"&gt;為替協調介入に、米国債買い戻し。『ベッセント・サプライズ』はどこまで続く？【播摩卓士の経済コラム】&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 98,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
+    },
+    {
+      "id": "xZTW1aRk1sUmZSVEV4TFdSQmRVUm4_b2M9NQ",
+      "title": "カナダ アメリカに報復関税発動へ 来月8日から鉄鋼や乳製品が対象",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Za1cxMVoxcjBNdXNSX3RxbWNCUWRNck5od0h6RWlNVDE0ZHhyZjdZOHRFOTdiVDZRMjc1eUJxV0pFQm1BZTNSbGM3VXdka2d6MTB1UjBOOVlYME00emNTNEpVUFRVdFl1WGlYMmZFMlRfRTExLWRBdURn?oc=5",
+      "source": "テレ朝NEWS",
+      "publishedAt": "2026-08-22T21:02:11.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1Za1cxMVoxcjBNdXNSX3RxbWNCUWRNck5od0h6RWlNVDE0ZHhyZjdZOHRFOTdiVDZRMjc1eUJxV0pFQm1BZTNSbGM3VXdka2d6MTB1UjBOOVlYME00emNTNEpVUFRVdFl1WGlYMmZFMlRfRTExLWRBdURn?oc=5\" target=\"_blank\"&gt;カナダ アメリカに報復関税発動へ 来月8日から鉄鋼や乳製品が対象&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;テレ朝NEWS&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 92,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
+    },
+    {
+      "id": "xTkdSV3R6V1VaUlkycDNjRk5tTlcwP29jPTU",
+      "title": "カナダ追加関税 北米 揺らぐ供給網 日本企業へ影響懸念",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EVWN0SDFZNUtZQ0Qzejl3X1gyMWlwZ2g4bXJsYzZDMld1VFhma1JucUF0dFU4a01BWGVOMkM1M2RLWjFIOXAyMEdMeEFZbmh3eWF5N1NGRWtzWUZRY2p3cFNmNW0?oc=5",
+      "source": "読売新聞",
+      "publishedAt": "2026-08-22T20:00:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EVWN0SDFZNUtZQ0Qzejl3X1gyMWlwZ2g4bXJsYzZDMld1VFhma1JucUF0dFU4a01BWGVOMkM1M2RLWjFIOXAyMEdMeEFZbmh3eWF5N1NGRWtzWUZRY2p3cFNmNW0?oc=5\" target=\"_blank\"&gt;カナダ追加関税 北米 揺らぐ供給網 日本企業へ影響懸念&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;読売新聞&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 92,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
+    },
+    {
+      "id": "pVUlVkRU01VkhoMUxWUXdSWFZQZUE_b2M9NQ",
+      "title": "カナダ､米国に3.2兆円規模の報復関税を発動へ ｢米が不合理な条件｣",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tSllyd3preHZYX28wc3lZVTlvUWdLZE53Ulp3aEhkWjVfd0dZUGdLRW1tT3FXM0hOU3BVMDVoYXhKdENyb0VWNFBKUkY3ZmNUOE9ZaXVlR0M0VWhxZURUdEM5VHh1LVQwRXVPeA?oc=5",
+      "source": "日本経済新聞",
+      "publishedAt": "2026-08-22T19:33:06.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1tSllyd3preHZYX28wc3lZVTlvUWdLZE53Ulp3aEhkWjVfd0dZUGdLRW1tT3FXM0hOU3BVMDVoYXhKdENyb0VWNFBKUkY3ZmNUOE9ZaXVlR0M0VWhxZURUdEM5VHh1LVQwRXVPeA?oc=5\" target=\"_blank\"&gt;カナダ､米国に3.2兆円規模の報復関税を発動へ ｢米が不合理な条件｣&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;日本経済新聞&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 92,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
+    },
+    {
       "id": "NMVZISTRURTlFTkd0dmFtTTNWVVpZP29jPTU",
       "title": "カナダ首相「来月8日に対米報復関税を発動」 鉄鋼や乳製品など対象へ",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZYnBsR3Q3TjN1S0hNeVRObEtFVUNId056NVhFQXdVZFpYbC1raDRPbzBkcFdGM3Qxb214d3A0TFJRM2JHRmVyM0tWZWlERy00TG15aXVOM1lwLUJNcUExQ1lIdkM1VHI4TE9ENGtvamM3VUZY?oc=5",
@@ -122,15 +242,37 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
+    },
+    {
+      "id": "kzZzJRMlZvT1hkbVh6bE1lRmd4VXc_b2M9NQ",
+      "title": "米、カナダに50%関税発動 カーニー首相、来月8日に報復措置",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aRFB0VEMwTnBrVUMxdUxpVERmWkRLQ3MtbVFUMktIeGIxckZlLWN1ZndvTEtYTTFjcmktSWx6cnozUkpuMlJhbGdpNzhjSVhOdEQyeU9CZXNScFl1Y3g2Q2VoOXdmXzlMeFgxUw?oc=5",
+      "source": "日本経済新聞",
+      "publishedAt": "2026-08-22T17:00:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5aRFB0VEMwTnBrVUMxdUxpVERmWkRLQ3MtbVFUMktIeGIxckZlLWN1ZndvTEtYTTFjcmktSWx6cnozUkpuMlJhbGdpNzhjSVhOdEQyeU9CZXNScFl1Y3g2Q2VoOXdmXzlMeFgxUw?oc=5\" target=\"_blank\"&gt;米、カナダに50%関税発動 カーニー首相、来月8日に報復措置&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;日本経済新聞&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 92,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "VGhSTjNWMWQzVkJkV3BDWms1SGNFMD9vYz01",
-      "title": "カナダ、200億ドル規模の対米報復関税を発表－鉄鋼や電子機器など",
+      "title": "カナダ、200億ドル規模の対米報復関税を発表-鉄鋼や電子機器など",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yU1RwZWlpaXBsRnE4UVNCUng1Y3hoZTFRWWxheE5xZFlpVUxZNUJfYzZXcjByeXAwa1lZSmRSSERJR3REZUtZRHhFWnpRLUNEMTFVUWs2YThRN3V1d3VBdWpCZk5HcE0?oc=5",
       "source": "TBS NEWS DIG",
-      "publishedAt": "2026-08-22T17:30:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yU1RwZWlpaXBsRnE4UVNCUng1Y3hoZTFRWWxheE5xZFlpVUxZNUJfYzZXcjByeXAwa1lZSmRSSERJR3REZUtZRHhFWnpRLUNEMTFVUWs2YThRN3V1d3VBdWpCZk5HcE0?oc=5\" target=\"_blank\"&gt;カナダ、200億ドル規模の対米報復関税を発表－鉄鋼や電子機器など&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
+      "publishedAt": "2026-08-22T15:52:53.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yU1RwZWlpaXBsRnE4UVNCUng1Y3hoZTFRWWxheE5xZFlpVUxZNUJfYzZXcjByeXAwa1lZSmRSSERJR3REZUtZRHhFWnpRLUNEMTFVUWs2YThRN3V1d3VBdWpCZk5HcE0?oc=5\" target=\"_blank\"&gt;カナダ、200億ドル規模の対米報復関税を発表-鉄鋼や電子機器など&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;TBS NEWS DIG&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 78,
       "japanRelated": false,
@@ -140,7 +282,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "lucFdPRTlZVmpGMWNraGtaVFYwUXc_b2M9NQ",
@@ -158,7 +302,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "RVVTBZbGRLWWpCT1luRkpNM2x4V0E_b2M9NQ",
@@ -176,7 +322,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "MxODJRa2xSWlhkME1qY3hUbVZaY2c_b2M9NQ",
@@ -194,7 +342,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQxMDkx",
@@ -214,7 +364,9 @@
       "socialPost": true,
       "verification": "official",
       "verificationLabel": "公式SNS",
-      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "bXBzdHJ1dGgub3JnL3N0YXR1c2VzLzQxMDk3",
@@ -234,7 +386,9 @@
       "socialPost": true,
       "verification": "official",
       "verificationLabel": "公式SNS",
-      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "NUWm1iR05oTjFKTFFYUmpUa2RRZEE_b2M9NQ",
@@ -252,7 +406,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "14ck56ZG5Ua3RyVUdWTmRUZG9SSGM_b2M9NQ",
@@ -271,7 +427,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "L3N0YXR1cy8yMDkwNzI2MDcwMTY5NTM4NzIz",
@@ -291,7 +449,9 @@
       "socialPost": true,
       "verification": "official",
       "verificationLabel": "公式SNS",
-      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "ptcFhZVVJQU1dkTFNrcEdkV2hDVVE_b2M9NQ",
@@ -309,7 +469,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "ja052UWpGck5WVTNkSFkzU1RkQlRRP29jPTU",
@@ -327,7 +489,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "5HdHdaSG94UldKSWNrcG1aMjkwVVE_b2M9NQ",
@@ -345,7 +509,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "ObGhsUm5jemVFUm1kbmMyUTFkWWVnP29jPTU",
@@ -364,7 +530,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "VSelgwZDFOSFl5VkhoV1NqRlljVEE_b2M9NQ",
@@ -383,7 +551,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "VVI1UkhZMlpWRmhkelp0UVZoNFFtYz9vYz01",
@@ -401,7 +571,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "OZmNXRjNZeTE1YW5WRlRYQjBNRXRqP29jPTU",
@@ -420,7 +592,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "FFOHRTMFJhY1VKV09DMTZlamh1WWc_b2M9NQ",
@@ -438,7 +612,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "SG95ZDFOclJ5MTVSVXhNVDNKa1NUZz9vYz01",
@@ -456,7 +632,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "JWODBRMnBYU0hWdlpUSlZNelZST1E_b2M9NQ",
@@ -474,15 +652,17 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
-      "id": "kRlJYY2tWV2NVVkJVVzFyUlVaT2VBP29jPTU",
+      "id": "WEZqYm1Wb1JsRjZiMUpmVFVwaGFHYz9vYz01",
       "title": "円相場、１５８円９７～９７銭＝２１日正午現在",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IZ0xFQ213Z3RmanYzRi1ZYkxYRWZlcThHdzNWbGFpNHJOejRlaUpwdEZDaGxaU1lOYWFxSTl5VkxTTUVqdFRXckVWcUVBUW1rRUZOeA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pOURiOVlSdy14QmtvODdNaXZoQ0dlV0dxWUFGeUVKR21TVnJEbktlUHhfVy13eWJJbU9oUmdhcWRScjRZYmRROE1KSUU4ZXFjbmVoRlF6b1JfTUphaGc?oc=5",
       "source": "時事通信ニュース",
       "publishedAt": "2026-08-21T03:06:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IZ0xFQ213Z3RmanYzRi1ZYkxYRWZlcThHdzNWbGFpNHJOejRlaUpwdEZDaGxaU1lOYWFxSTl5VkxTTUVqdFRXckVWcUVBUW1rRUZOeA?oc=5\" target=\"_blank\"&gt;円相場、１５８円９７～９７銭＝２１日正午現在&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事通信ニュース&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pOURiOVlSdy14QmtvODdNaXZoQ0dlV0dxWUFGeUVKR21TVnJEbktlUHhfVy13eWJJbU9oUmdhcWRScjRZYmRROE1KSUU4ZXFjbmVoRlF6b1JfTUphaGc?oc=5\" target=\"_blank\"&gt;円相場、１５８円９７～９７銭＝２１日正午現在&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事通信ニュース&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 98,
       "japanRelated": true,
@@ -492,7 +672,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "RVVlpTVU0zYkV0aWFrMUNPWEIwU1E_b2M9NQ",
@@ -510,7 +692,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "MU5TY20wdFJVRndZVkJHTlRkWVZVRT9vYz01",
@@ -530,7 +714,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "KUGFsZHpVV0ZEU1hGRlJUVlVaMnRaP29jPTU",
@@ -549,25 +735,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
-      "id": "1TMWZiMmRZV0daa1RWcEtWek50ZGc_b2M9NQ",
-      "title": "外為10時 円相場、159円台前半 中値「ドル買い優勢」",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ibWtBM3lORWR3bHNmeWxOOHFWbVFJZEIwSnJFRldpQjljRmFoMFpJQk95YlZrcDU5NHJQRUZKSXNuUkIyLVo4R2trRVpDZU43SnpoUXhMRVEtME0yMS1fb2dYWGZkTVpKVzNtdg?oc=5",
-      "source": "日本経済新聞",
-      "publishedAt": "2026-08-21T01:30:29.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5ibWtBM3lORWR3bHNmeWxOOHFWbVFJZEIwSnJFRldpQjljRmFoMFpJQk95YlZrcDU5NHJQRUZKSXNuUkIyLVo4R2trRVpDZU43SnpoUXhMRVEtME0yMS1fb2dYWGZkTVpKVzNtdg?oc=5\" target=\"_blank\"&gt;外為10時 円相場、159円台前半 中値「ドル買い優勢」&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;日本経済新聞&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 98,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "coverage": "major-media",
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "1WSndTVTh5Tm1GTVIwWmlhV2xuVlE_b2M9NQ",
@@ -587,7 +757,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "NrdFVFZHJjMW80ZFVoamJsRlBSR2M_b2M9NQ",
@@ -606,7 +778,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "MGs0TnpnNWFsVnJTM1E0Tm5kemVFRT9vYz01",
@@ -624,7 +798,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "pVOXpiR1Z6VG5RM2FXcEhSekJQUVE_b2M9NQ",
@@ -642,7 +818,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "QtYmFzZS1hbmRyZXdzLWF1Zy0yMS0yMDI2Lw",
@@ -664,7 +842,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "zLXJlbWFya3MtaW4tbWlkZGxldG93bi1vaC8",
@@ -686,7 +866,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "EaG1WVlEwTlVwWFgyMW5Za3R0Wm5jP29jPTU",
@@ -704,7 +886,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "JXVk1ZMjl1UmxSc1ozWmhNM2hOVEE_b2M9NQ",
@@ -722,7 +906,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "bFplbGxOVW5GNk1HMXVjbEZrYW5kbj9vYz01",
@@ -740,7 +926,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "4xSkNkbGhpZW1ZeVFYVlNlbE5vVEE_b2M9NQ",
@@ -758,7 +946,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "vc3RhdHVzLzIwOTA1NTAzNDk1MzA4MjkxMjA",
@@ -778,7 +968,9 @@
       "socialPost": true,
       "verification": "official",
       "verificationLabel": "公式SNS",
-      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。"
+      "verificationNote": "本人・政府機関の公式SNSアカウントによる一次投稿です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "a2RPUjBsUGVqTjBhamRRUVVOc00zYz9vYz01",
@@ -796,7 +988,9 @@
       "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "ekF3ZW5nd1F6UkhTMXAyZVc5VlpEUT9vYz01",
@@ -815,7 +1009,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "V1dWV1NXcHhXbWRrVG01R2RscFhkdz9vYz01",
@@ -833,7 +1029,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "ja2xUV0hsbVRXVXpabWRoWTJJMU9BP29jPTU",
@@ -852,7 +1050,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "eTEwTFdoYWQxa3Riemh5YmtaVlIxVT9vYz01",
@@ -871,7 +1071,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "c3pMWGQxTVRGaFRVVk9aMmxwYjA5MD9vYz01",
@@ -889,7 +1091,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "4ZldWVk1TbE00UnpCTmIwZDNlRjlSP29jPTU",
@@ -907,7 +1111,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "XZEJUakJZYkd3d1p6TndNMlpmTFdnP29jPTU",
@@ -925,7 +1131,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "YUdOSVMybEVSM0p2VERac1ZHTjNkdz9vYz01",
@@ -943,7 +1151,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "TR0ZaZURSVWQwNUdNRmxCY1RsaFZRP29jPTU",
@@ -961,25 +1171,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
-      "id": "5YWnZTVTFXYVdaQlQxRm9aR0pHWnc_b2M9NQ",
-      "title": "米国債バイバックで高まる為替介入警戒 市場の円じり安予想に冷や水",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tZGpFaWtmZEh2dzFpdmp6U2QzMWxWZTN6TndBSW54ZkwyNXpkdFBIcWtQTm40QUdRd2o2RTdJQmVBSndRbGNnOWt4UkRIWUtBdERUV2lTQmp6VjN0NXZvSU1WaWZBT1FoZGJGZw?oc=5",
-      "source": "日本経済新聞",
-      "publishedAt": "2026-08-20T09:13:18.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5tZGpFaWtmZEh2dzFpdmp6U2QzMWxWZTN6TndBSW54ZkwyNXpkdFBIcWtQTm40QUdRd2o2RTdJQmVBSndRbGNnOWt4UkRIWUtBdERUV2lTQmp6VjN0NXZvSU1WaWZBT1FoZGJGZw?oc=5\" target=\"_blank\"&gt;米国債バイバックで高まる為替介入警戒 市場の円じり安予想に冷や水&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;日本経済新聞&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 98,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "coverage": "major-media",
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "TUVvNVZWbFZXRVV5VG14eGNtOXZhUT9vYz01",
@@ -998,25 +1192,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
-      "id": "RWFF4TFVjM1RUUkZOV1E1TVcxQ2JnP29jPTU",
-      "title": "◎円相場、１５８円４３～４３銭＝２０日午後５時現在",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TdmlIQ2pOLW1oM0QzU0xOODBESExxVmhRNGRBaGJtUThwWmo5dnNhajhydXlYREpYMlZSUTNndVpMQlVZQXQxLUc3TTRFNWQ5MW1Cbg?oc=5",
-      "source": "時事通信ニュース",
-      "publishedAt": "2026-08-20T08:07:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TdmlIQ2pOLW1oM0QzU0xOODBESExxVmhRNGRBaGJtUThwWmo5dnNhajhydXlYREpYMlZSUTNndVpMQlVZQXQxLUc3TTRFNWQ5MW1Cbg?oc=5\" target=\"_blank\"&gt;◎円相場、１５８円４３～４３銭＝２０日午後５時現在&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;時事通信ニュース&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 98,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "coverage": "major-media",
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "RUVlBlVWhPZVVsTVlXMXdiSFZIWnc_b2M9NQ",
@@ -1034,14 +1212,16 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "dG1ORUo0YzJneVMyc3dkbXhxYjBaMj9vYz01",
       "title": "米国産生ジャガイモ輸入解禁で何が起きる？米国の市場開放要求、病害虫リスク、国内ジャガイモ生産への影響",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTVhnVlMyeElUOWozNU85Z3dfMTM0R2p2V1JyMHpXcE43SzVMREhZaUtlVnI0OWd4TWhJaGxVa0hxVW9Na3NYTXJHQjdDamVJY013U2hDb0tIZG5ZYmpEUVZpeGtQLU9ZSDhjNkZlSEw3WXR4dmYyX2tmNEJ4c2gyS2swdmxqb0Z2?oc=5",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-08-20T06:55:45.000Z",
+      "publishedAt": "2026-08-20T06:49:04.000Z",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTVhnVlMyeElUOWozNU85Z3dfMTM0R2p2V1JyMHpXcE43SzVMREhZaUtlVnI0OWd4TWhJaGxVa0hxVW9Na3NYTXJHQjdDamVJY013U2hDb0tIZG5ZYmpEUVZpeGtQLU9ZSDhjNkZlSEw3WXR4dmYyX2tmNEJ4c2gyS2swdmxqb0Z2?oc=5\" target=\"_blank\"&gt;米国産生ジャガイモ輸入解禁で何が起きる？米国の市場開放要求、病害虫リスク、国内ジャガイモ生産への影響&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&",
       "category": "通商・経済",
       "priority": 94,
@@ -1052,7 +1232,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "CQloxQXdkM0p6T1RSdGMwaHZZVjlqP29jPTU",
@@ -1071,7 +1253,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "5S1RIVmZiMU5oWjFsRU1IQmtiMWxSP29jPTU",
@@ -1089,7 +1273,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "uVndhMkowUlZwQ2NWVnhUWEZEUVdjP29jPTU",
@@ -1107,7 +1293,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "tSm9kalJCTW5Ga1JWWlNNMFJoVVZZP29jPTU",
@@ -1125,7 +1313,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "GVlpMVU53TVhOQ1RERlhVMWR3UVUwP29jPTU",
@@ -1149,7 +1339,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "tzLXdpdGgtdGVjaG5vbG9neS1sZWFkZXJzLw",
@@ -1171,7 +1363,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "pwY0RjdFJXNU9TM1E1YjFsd1JWZHQ_b2M9NQ",
@@ -1189,7 +1383,9 @@
       "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "aQmFIZHdjRmxNTVdKeFdVTnZUakZKP29jPTU",
@@ -1208,7 +1404,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "RXB0WVhvM0xXdFpORVJ6VFVvNU5Gaz9vYz01",
@@ -1227,7 +1425,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "5FTnVRVFl4ZFRaRVNYRTJSV1E0VFE_b2M9NQ",
@@ -1246,7 +1446,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "ZOaGFrWjFkazE0ZFVSUVUxZzRkM0E_b2M9NQ",
@@ -1264,7 +1466,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "CemJVOUxiVE5PUlVWUVluRk1jelozP29jPTU",
@@ -1282,7 +1486,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "akpPWDFVMmJIQkdWR2xyWjNCR1NHYz9vYz01",
@@ -1300,7 +1506,29 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
+    },
+    {
+      "id": "MTJhMjFCTWtNek1HWlRSMmgyVldwbj9vYz01",
+      "title": "「今年は豊作なのに…」“米国産ジャガイモ輸入解禁”に向けた動きに生産者ら憤り 農家が懸念“病害虫のリスク”",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUkVSLU9STnRMcldicHNGdzhkN2dUWExwSEZ2Z2RhSVRZbXFFNFhuUDVwWDllR2lHbEZmX1JlT25XOWRoS1pFVVlYU3hHWG04amgzTE9DNGtjcmpzWHgwVFlxYUJtaVplVG5qbDFxNTNZMVlWS0VpZl9RYjF1bWVrOTJEcWJwRWlKaG12a21BMkMzMGZTR2h2VWpn?oc=5",
+      "source": "ｄメニューニュース",
+      "publishedAt": "2026-08-19T12:57:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNUkVSLU9STnRMcldicHNGdzhkN2dUWExwSEZ2Z2RhSVRZbXFFNFhuUDVwWDllR2lHbEZmX1JlT25XOWRoS1pFVVlYU3hHWG04amgzTE9DNGtjcmpzWHgwVFlxYUJtaVplVG5qbDFxNTNZMVlWS0VpZl9RYjF1bWVrOTJEcWJwRWlKaG12a21BMkMzMGZTR2h2VWpn?oc=5\" target=\"_blank\"&gt;「今年は豊作なのに…」“米国産ジャガイモ輸入解禁”に向けた動きに生産者ら憤り 農家が懸念“病害虫のリスク”&lt;/a&gt;&nbsp;&nbs",
+      "category": "通商・経済",
+      "priority": 94,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "IyUkpjVVEwTm01V1prOXJhbXBIVVE_b2M9NQ",
@@ -1318,7 +1546,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "OWE5hVjI5cVZrcEVSWGx0TlVORlJRP29jPTU",
@@ -1337,7 +1567,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "V3RHZDNkbFVXRlNVRFpHWTAxUVYwRT9vYz01",
@@ -1356,7 +1588,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "toTVNtSlNNV3A0V0ZoQ01HbDZNRUU_b2M9NQ",
@@ -1375,7 +1609,9 @@
       "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "YURoWk1FMXFiek56VnpreE16aGxRUT9vYz01",
@@ -1393,7 +1629,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "wcFJabXhJTWswMFZUQnZNbmd0UlRNP29jPTU",
@@ -1411,7 +1649,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "h4Ykd0TmVFd3dTM1pEVTNGRGRXUjM_b2M9NQ",
@@ -1429,7 +1669,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "RkkxVkdVd0xUVXllV2R4VGpGQ1NtTT9vYz01",
@@ -1447,7 +1689,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "5TWRVUTJiR2R2ZVV4TldFMUZZbEpuP29jPTU",
@@ -1465,7 +1709,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "NBNGNFOU9VbTVzVXpNMFQwYzVTbTQ_b2M9NQ",
@@ -1483,7 +1729,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "xpdmVycy1yZW1hcmtzLWF1Zy0xOS0yMDI2Lw",
@@ -1505,7 +1753,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "FuWnZVRVV4Ulc1MVpETkxXbWg0VVE_b2M9NQ",
@@ -1523,7 +1773,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "UklNbXh3VlZCeFpEWlJiSHBmT0ZwcT9vYz01",
@@ -1541,7 +1793,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "dGZDZkMFZJZGpOM2FsQlpkbVp3TkE_b2M9NQ",
@@ -1559,7 +1813,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "tbFlkVGt3T1VWT1YwMWtlamxRVm04P29jPTU",
@@ -1583,7 +1839,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "RXlTbkZhTjBSYVQwaDJVRWxpU2s1Rj9vYz01",
@@ -1602,7 +1860,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "lKV2xrMU1rbDVibGhFYjNwQ1NXWmY_b2M9NQ",
@@ -1620,7 +1880,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "AxTGNFVlRORVJmV2xsaFptWlNZa2s_b2M9NQ",
@@ -1639,7 +1901,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "VFZuVFdKVmFVdGxOMW93TkY4NGMxVT9vYz01",
@@ -1657,7 +1921,29 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
+    },
+    {
+      "id": "UTm5UVnBWUWxWdVpEZFJZbHBLYlhjP29jPTU",
+      "title": "「豊作の年に輸入の話を…」 米国産ジャガイモに農家懸念 “解禁”をめぐる動きに関係者は 北海道（STVニュース北海道）",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pN1l0bmhQTDZFVzhoNVJtMHRjN01IT1F0MkpMWUs1bzY5ODA5dERHYjdOYnBDY2dmNm4zNC1YSTNrWTc0NFhmRTJPYUdaNWFDUC1QeTBpZUFXRzRoMHNsdGVJOUZHWFk5ck43ajdvUTNnTVpVQlVuZDdRYlpKbXc?oc=5",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-08-18T09:52:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1pN1l0bmhQTDZFVzhoNVJtMHRjN01IT1F0MkpMWUs1bzY5ODA5dERHYjdOYnBDY2dmNm4zNC1YSTNrWTc0NFhmRTJPYUdaNWFDUC1QeTBpZUFXRzRoMHNsdGVJOUZHWFk5ck43ajdvUTNnTVpVQlVuZDdRYlpKbXc?oc=5\" target=\"_blank\"&gt;「豊作の年に輸入の話を…」 米国産ジャガイモに農家懸念 “解禁”をめぐる動きに関係者は 北海道（STVニュース北海道）&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Y",
+      "category": "通商・経済",
+      "priority": 94,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "reported-observation",
+      "verificationLabel": "報道・観測",
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "ZETVhJdFkwTnZOVFUzUXpGb1ZrUjM_b2M9NQ",
@@ -1675,7 +1961,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "JRdFJEWlNkVXBGVkRWU2MzVmxTSGs_b2M9NQ",
@@ -1693,7 +1981,29 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
+    },
+    {
+      "id": "hSGMxUlhsTE5EbE5ORVJLY1hsUlp3P29jPTU",
+      "title": "米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念 | 全国のニュース",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oQll4eTRYN1lJYWN6Sm01YTNuajk5RjhQQkFFS0ZnWmFjSUVJcE1OMFJYSGljVlFlWFdKelpTbmdBVmFMbXdBN1huZzV2LXdOQXdUODBMaHc1RXlLNDlNNERKcXlRZw?oc=5",
+      "source": "福井新聞社",
+      "publishedAt": "2026-08-18T07:14:02.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oQll4eTRYN1lJYWN6Sm01YTNuajk5RjhQQkFFS0ZnWmFjSUVJcE1OMFJYSGljVlFlWFdKelpTbmdBVmFMbXdBN1huZzV2LXdOQXdUODBMaHc1RXlLNDlNNERKcXlRZw?oc=5\" target=\"_blank\"&gt;米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念 | 全国のニュース&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;福井新聞社&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 94,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "media-report",
+      "verificationLabel": "報道",
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "NSE5PUTIxa2NYWmlMVk5pZFhwUlRRP29jPTU",
@@ -1712,7 +2022,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "cxa2EyZFNkRGx1YUhCeGRTMTNXbkE_b2M9NQ",
@@ -1730,7 +2042,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "XbFFhWFl0Y1hSblUyRkxNbmR6VjFvP29jPTU",
@@ -1748,7 +2062,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "bnMtcHJvZHVjdGlvbi10aHJvdWdoLW5hdnkv",
@@ -1767,7 +2083,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "REZGWDNvMU5VWjJhbTB6ZUUxa1kwaz9vYz01",
@@ -1785,7 +2103,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "ZGdlRGQXlZWEpKY3pCb1lWaFNXWG8_b2M9NQ",
@@ -1803,7 +2123,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "ZOM05qVkdUazVzWlVsWVlXTlFiVVE_b2M9NQ",
@@ -1821,7 +2143,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "NXSnZWRWRpWkVOYVYxVjJTRGhaV1E_b2M9NQ",
@@ -1840,7 +2164,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "IxWTAwNGJWaFdORFUyV0VFemEwcG4_b2M9NQ",
@@ -1858,7 +2184,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "BvbGljZS1pbi1uYXNzYXUtY291bnR5LW55Lw",
@@ -1880,7 +2208,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "VHeEhTbXRzVVZoWU5qaFZSeTEwT0E_b2M9NQ",
@@ -1898,7 +2228,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "NYZHpaazVwYms5UFZEUlpjQzB5Tmc_b2M9NQ",
@@ -1916,7 +2248,9 @@
       "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "xTllTVEp4VlVsSExWbDVNemxJU0dzP29jPTU",
@@ -1934,7 +2268,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "BLY0ZOeVYxZFhWbGhTU2pWbk9YWlo_b2M9NQ",
@@ -1954,7 +2290,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "c3RyZW5ndGhlbi1wcm9kdWN0aW9uLW9mLWMv",
@@ -1973,7 +2311,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "U1SVZ6aHdibkZ6UmkxWWNrcFFhRzg_b2M9NQ",
@@ -1991,7 +2331,29 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
+    },
+    {
+      "id": "d5Y3pWTWIyZFNNRFJCVW5ZelNqRm4_b2M9NQ",
+      "title": "米産ジャガイモの輸入解禁検討、最終工程へ 農水省、実際の輸入開始は数年後か",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42TU9rQWNDcG1Kd0p1QTFZY0hzdjdfMXdsR1YteTVMenhQdzNYWWpCRm02QzRaUkYyYVVDRFJWcGtjWmU2dUwyczVMb2dSMDRBUnYzSjFn?oc=5",
+      "source": "西日本新聞me",
+      "publishedAt": "2026-08-14T07:00:00.000Z",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE42TU9rQWNDcG1Kd0p1QTFZY0hzdjdfMXdsR1YteTVMenhQdzNYWWpCRm02QzRaUkYyYVVDRFJWcGtjWmU2dUwyczVMb2dSMDRBUnYzSjFn?oc=5\" target=\"_blank\"&gt;米産ジャガイモの輸入解禁検討、最終工程へ 農水省、実際の輸入開始は数年後か&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;西日本新聞me&lt;/font&gt;",
+      "category": "通商・経済",
+      "priority": 94,
+      "japanRelated": true,
+      "official": false,
+      "english": false,
+      "coverage": "major-media",
+      "socialPost": false,
+      "verification": "reported-observation",
+      "verificationLabel": "報道・観測",
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "VMVUyTFhCNmVGcEdha2R6U2pOdlFRP29jPTU",
@@ -2009,7 +2371,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "RWRPVW1OQk1uZG9jMVpFYm14eFNtYz9vYz01",
@@ -2027,7 +2391,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "xZE5kMkk1VW1WcldEaERPRFE0TURRP29jPTU",
@@ -2045,25 +2411,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
-      "id": "UazJjRU0yUlZOTlIwNURPRTVuYzNNP29jPTU",
-      "title": "【米国産ジャガイモ輸入解禁】農家「死活問題」訴え",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lSjIyQTBaV3lpcHkwQ1ZWSzgyLV9BMURSTlNMbWd3Z3cxMXFJMTBTSllPU25kSW8wdmtuYVRqUTVzUmdKVlpQTVJpVTk2cEM2RVNNR05DOE5nc3M?oc=5",
-      "source": "山陰中央新報デジタル",
-      "publishedAt": "2026-08-14T01:42:01.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lSjIyQTBaV3lpcHkwQ1ZWSzgyLV9BMURSTlNMbWd3Z3cxMXFJMTBTSllPU25kSW8wdmtuYVRqUTVzUmdKVlpQTVJpVTk2cEM2RVNNR05DOE5nc3M?oc=5\" target=\"_blank\"&gt;【米国産ジャガイモ輸入解禁】農家「死活問題」訴え&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;山陰中央新報デジタル&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 94,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "coverage": "major-media",
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "oVlRXSTJhak55TWw5Uk9GQlFXQzA1P29jPTU",
@@ -2081,25 +2431,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
-      "id": "R05GZEdkcmNXVm1lVzVOVG5CR1FuYz9vYz01",
-      "title": "【米国産ジャガイモ輸入解禁】農家「死活問題」訴え 高齢化、作付面積減少",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHZWc0UGtERlhrOE0wekZ1NzloUk1aZzJydHZsTUE2MW9QM3dUSk9tMWJMOFFFaGRhRDF0OS1PWm9qNkVVM1ZsVEljdldJOGNFdGdrcWVmeW5NTnBGQnc?oc=5",
-      "source": "沖縄タイムス社",
-      "publishedAt": "2026-08-14T01:42:01.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHZWc0UGtERlhrOE0wekZ1NzloUk1aZzJydHZsTUE2MW9QM3dUSk9tMWJMOFFFaGRhRDF0OS1PWm9qNkVVM1ZsVEljdldJOGNFdGdrcWVmeW5NTnBGQnc?oc=5\" target=\"_blank\"&gt;【米国産ジャガイモ輸入解禁】農家「死活問題」訴え 高齢化、作付面積減少&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;沖縄タイムス社&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 94,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "coverage": "major-media",
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "pGZWpOVlVHMU1hV1V4UjFRNE5HRjM_b2M9NQ",
@@ -2117,7 +2451,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "hOclNYSjBkRVI1WVZoZkxYZFROelE_b2M9NQ",
@@ -2135,25 +2471,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
-    },
-    {
-      "id": "d5Y3pWTWIyZFNNRFJCVW5ZelNqRm4_b2M9NQ",
-      "title": "米産ジャガイモの輸入解禁検討、最終工程へ 農水省、実際の輸入開始は数年後か",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42TU9rQWNDcG1Kd0p1QTFZY0hzdjdfMXdsR1YteTVMenhQdzNYWWpCRm02QzRaUkYyYVVDRFJWcGtjWmU2dUwyczVMb2dSMDRBUnYzSjFn?oc=5",
-      "source": "西日本新聞me",
-      "publishedAt": "2026-08-13T21:00:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE42TU9rQWNDcG1Kd0p1QTFZY0hzdjdfMXdsR1YteTVMenhQdzNYWWpCRm02QzRaUkYyYVVDRFJWcGtjWmU2dUwyczVMb2dSMDRBUnYzSjFn?oc=5\" target=\"_blank\"&gt;米産ジャガイモの輸入解禁検討、最終工程へ 農水省、実際の輸入開始は数年後か&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;西日本新聞me&lt;/font&gt;",
-      "category": "通商・経済",
-      "priority": 94,
-      "japanRelated": true,
-      "official": false,
-      "english": false,
-      "coverage": "major-media",
-      "socialPost": false,
-      "verification": "reported-observation",
-      "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "tbDBSMGhaWWpBeE1rODNPWEEzTjFVP29jPTU",
@@ -2171,7 +2491,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "VUYTJZNWRtZHJOWEZJT0U1Q2RIWm4_b2M9NQ",
@@ -2189,7 +2511,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "Gek9EVkVUbkp1TUhsdWVYTTJlRjlWP29jPTU",
@@ -2207,15 +2531,17 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
-      "id": "UTk1jbWMwU0VwbFMyeGZaa0ZEUVhjP29jPTU",
+      "id": "9WaHVibnBDU2pjeWVHeHdPRXR6ZHc_b2M9NQ",
       "title": "米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lSVFWQUNjRlN0X1pTTzRkdU9SREIwaXBwT3dMOXBFOEg1VW5RajZuUHZxVlRMRkM5TTJRZmhHZG9DYTNMcmc0SEplS2xfZkFDQXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wa2tOSjB0OEJHZl9QQmxrdGFjZS01U05PR2Vub2FHSUh6bnVkbUxSR1J3TTFpVDlVMmRvTkcwRlhFY2NtRVJTcEhNOVhubnpCSjcyeGxwOEtzdw?oc=5",
       "source": "山陽新聞",
       "publishedAt": "2026-08-13T06:53:00.000Z",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lSVFWQUNjRlN0X1pTTzRkdU9SREIwaXBwT3dMOXBFOEg1VW5RajZuUHZxVlRMRkM5TTJRZmhHZG9DYTNMcmc0SEplS2xfZkFDQXc?oc=5\" target=\"_blank\"&gt;米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;山陽新聞&lt;/font&gt;",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wa2tOSjB0OEJHZl9QQmxrdGFjZS01U05PR2Vub2FHSUh6bnVkbUxSR1J3TTFpVDlVMmRvTkcwRlhFY2NtRVJTcEhNOVhubnpCSjcyeGxwOEtzdw?oc=5\" target=\"_blank\"&gt;米国産ジャガイモの輸入解禁前進 ９月にも最終工程、病害虫懸念&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;山陽新聞&lt;/font&gt;",
       "category": "通商・経済",
       "priority": 94,
       "japanRelated": true,
@@ -2225,7 +2551,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "RU5NTlhSZlVsTmxlRlp4ZEhKV2FHYz9vYz01",
@@ -2243,7 +2571,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "pKbE1ISklZMXA2YkZGa1VreEhZVTg_b2M9NQ",
@@ -2261,7 +2591,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "CcVlsZHJXV3MxUkhoVWEwZG5VbGRuP29jPTU",
@@ -2279,14 +2611,16 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "5FeDBUekE0VFhWTFZtRXdTelJwVVE_b2M9NQ",
       "title": "U.S. Ambassador to Japan George Glass said the U.S. military began its relief efforts in the areas affected by the Kumamoto earthquake without hesitation. japannews.yomiuri.co.j…",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBEN0xsVFEwYkNpbEhCSVdxM2RmLVp2YWVaNF95N3ZYeC1oZjhwekxzMzhBSlZzZlhUaVNpakpudTJ4NzNHUXR2Uy1ISXVyaW1QUVJZeDQxNEx0TzA4TXVLVmEwSzRpUQ?oc=5",
       "source": "公開検索 · X",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
+      "publishedAt": "2026-08-12T03:41:27.000Z",
       "summary": "U.S. Ambassador to Japan George Glass said the U.S. military began its relief efforts in the areas affected by the Kumamoto earthquake without hesitation. japannews.yomiuri.co.jp/society/genera… - x.com. U.S. Ambassador to Japan George Glass said the U.S. military began its relief efforts in the areas affected by the Kumamoto earthquake without hesitation. japannews.yomiuri.co.jp/society/genera… x.com",
       "official": false,
       "relevant": true,
@@ -2297,7 +2631,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "YS1odWItdG8tYWNjZWxlcmF0ZS1pbmR1c3Qv",
@@ -2316,7 +2652,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "YbEdjRVUzU1ZSWU9YWk9ZVGRaTURRP29jPTU",
@@ -2336,7 +2674,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "cy10by1wb3dlci1hbWVyaWNhbi1taW5pbmcv",
@@ -2356,7 +2696,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "UVmxqY0dReFVGcG1OMHRPT1VsV1VRP29jPTU",
@@ -2375,7 +2717,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "NscFdlbXhIVlc5bVF6Z3pTRzFwVFE_b2M9NQ",
@@ -2394,7 +2738,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "kblZESkxYME53TlVGWk0xOXpjQzA0P29jPTU",
@@ -2413,26 +2759,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
-    },
-    {
-      "id": "YM1IxYUhaRFEyTktMWEZTWVY5NFVRP29jPTU",
-      "title": "Padilla Statement on Russia Sanctions Bill Giving Trump Broader Tariff Authorities",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMFNEbGdhZ2Fvc2FOMEFGaWtVZjU1R2pPeE9MM3lHblN5X3BhZ21EVmNRV3k5NXdHUG0tR2RqNi1zdmQ0eFNseXRIX1prck9EckpxazZyWDk4SWpaUkR6X2RnUURWSmx5NTY2LUs1RXZ3bkRBNDRXVnZfX1BLUVpVTjZOZ2t2R3I1TndSb1B6WDFlRC1OczhxWElVQ29JM3g0OWJjSUc1TkNJQjJoNnd1QVZ5RnltcFdfaGl3Yi00U1ExUy00X3R1aHZDQ2NKLXFSYV94UQ?oc=5",
-      "source": "Senator Alex Padilla (.gov)",
-      "publishedAt": "2026-08-07T23:46:08.000Z",
-      "summary": "",
-      "official": true,
-      "coverage": "legislatures",
-      "relevant": true,
-      "japanRelated": false,
-      "category": "議会・政治",
-      "priority": 71,
-      "english": true,
-      "socialPost": false,
-      "verification": "official",
-      "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "d2l0aC1zdHJhdGVnaWMtYmF1eGl0ZS11c2Ev",
@@ -2451,7 +2780,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "Vmx4TlVGWGJYbHdWbEJNVTBoR2FVRT9vYz01",
@@ -2470,7 +2801,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "R3BCWmpFNE4wMDRRbEYxZDFGVk9XOD9vYz01",
@@ -2489,7 +2822,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "5YSXpaVkpFY1ROMmFXNXFZbEJGT0E_b2M9NQ",
@@ -2508,7 +2843,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "dmVzLWludG8tdGhlLXVuaXRlZC1zdGF0ZXMv",
@@ -2527,7 +2864,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "aFFWbTk0WVVrM2VtdEhVRkpTTjNsTj9vYz01",
@@ -2545,7 +2884,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "VVhCdVRGVmpSbEJuWHpKSlRFdFFadz9vYz01",
@@ -2564,7 +2905,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "VDMWlPVGRaVkhSTlZWTTFkbEF6ZHc_b2M9NQ",
@@ -2582,7 +2925,9 @@
       "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "hV2ROTjNaT0xWUnZlRWMxUWsxbk5BP29jPTU",
@@ -2600,7 +2945,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "TV2syY3pRMGQwODJXV1ZqUzFwWFFRP29jPTU",
@@ -2618,7 +2965,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "OWpjbmR0VFc0MlRYRk1TbkpvU0MxWT9vYz01",
@@ -2637,7 +2986,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "TkZseVZIaFVkbnBwUVRsMllXMUxVUT9vYz01",
@@ -2656,7 +3007,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "ZGVlZNMU00UVd4WGFXMXJUVlZ2ZHc_b2M9NQ",
@@ -2674,7 +3027,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "VXRjRWR6TmxsYVpIRXpOVE5VZUMxej9vYz01",
@@ -2693,7 +3048,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "RtczFNVXgyTW5wbVZGOHRkR1UxU1E_b2M9NQ",
@@ -2712,7 +3069,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "kUlpYUm1SVFpyTlVvMFJYVmZTekJLP29jPTU",
@@ -2732,7 +3091,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "GQmlOekpFVW1KSVlUSTJhRFl3VUZvP29jPTU",
@@ -2751,7 +3112,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "U0ZReFkwWjBiRTF3ZFhoWVJGbDFVUT9vYz01",
@@ -2770,13 +3133,15 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "VnhjbEJZVEhsS1VWVkNTME5mUlVkTj9vYz01",
       "title": "Why Japan Is Propping Up the Yen With US Help",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc184YldTU2ZqVkdXcEprMHV5NGMteS1NWXVKSFlQN0JjOHdPVG5vcGV6TmlLcW95dUVJQUtaMkVyc1Z1cGpNX1B2bGNOZmUtUUY4c3BmMTNlbHI5S1RNbDEwV1Brb0JYUG9FQUd1cWc2VGl5YVVHdFp5TUJiOWdsX19mZjM2VngwcG5sam1xRWlwTDdiQk0ycl9yRkZCQ0VxclBYTHlKUVVCS0NfRUdN?oc=5",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "summary": "",
       "official": false,
@@ -2789,7 +3154,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "Vm10dVMzRjNSWGRETTFKTVUyOURjQT9vYz01",
@@ -2808,7 +3175,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "xb3lOV013V2pkaWNtZEZVa3N4WDNRP29jPTU",
@@ -2827,7 +3196,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "gwSlRhMVJxZW0xNmEyeHJUR1JrU1E_b2M9NQ",
@@ -2846,7 +3217,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "dweFdFbHhjekJGT0dSWFR6Qk5la0U_b2M9NQ",
@@ -2865,7 +3238,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "WDNWeVVrbzFiSEZpUTFNMlNFeHZWdz9vYz01",
@@ -2884,7 +3259,9 @@
       "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "uVmxObGx5VkdkMmVXNTZNVzlHVTFFP29jPTU",
@@ -2903,26 +3280,9 @@
       "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
-    },
-    {
-      "id": "dEZObEExV1cxbk5XVmxZMlZmYTJGMz9vYz01",
-      "title": "Trump cancels planned attack on Iran, saying he reached an agreement over the 'perimeters of a deal'",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNlJNSEJDbTFqdDBHa182OVo1X3hId1pwMG5kSE1DU2liRDRLMzhIVkkxbURMVFE3NDdyeDNKM3lCNURfQ1pvZGZmaU1jWGNCUkxvdUhIbXdnVEN4OHpoc25GMUpLNDdYWVBzeTJnc2YwWEIyMGhUcDdKXzNhbmI5U2FrQWpRY1N4dHNnUGV6dU9VaVdtdE5jdjNUQ2c4eEVDR1hjR0ZRNWHSAa4BQVVfeXFMT2hGWndFZkV5eE9RRTVkX1RnTDZRc3R5MnRQWmhwUFNSNFNMX1RIcHRwaXdQWFlMMjhydWNNSGtUa3g0YW9PNS1YLXM1OW9RYkxWUjA0THB2V0pUTFl2b29nYXdxLVRLNVBLU3JLUWlOeUZ1dWFjMy02WWVON2pTQWtsdTNSN01mSzZLT2RNRUkzSER1SXlCUlRIV2lYaEtFNlA1WW1nNWVlY2Vfa2F3?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-08-02T07:00:00.000Z",
-      "summary": "",
-      "official": false,
-      "coverage": "principals",
-      "relevant": true,
-      "japanRelated": false,
-      "category": "外交・安保",
-      "priority": 69,
-      "english": true,
-      "socialPost": false,
-      "verification": "media-report",
-      "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "ZYUVY5NVpUaGhWVGQwUjNRelQyaDE_b2M9NQ",
@@ -2941,7 +3301,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "56YkVaWFRuZGFabVJSZEdoQk1GcFI_b2M9NQ",
@@ -2960,7 +3322,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "U1WDAwM1lWSjVZMmRzVUVWSlpHRjM_b2M9NQ",
@@ -2979,7 +3343,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "ozTWs1VGMwSmtXbnB4VVhRd1F6WnI_b2M9NQ",
@@ -2998,7 +3364,9 @@
       "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "cGlTRFZqY2pGQ1pVeHZYMHMyVkVKdj9vYz01",
@@ -3017,7 +3385,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "XNXJNMmRoU1dGbUxYRmhUa1pWYTAwP29jPTU",
@@ -3036,7 +3406,9 @@
       "socialPost": false,
       "verification": "reported-observation",
       "verificationLabel": "報道・観測",
-      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。"
+      "verificationNote": "公式発表前の観測・関係者情報を含む可能性があります。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "uYzFWMWR5Wkd4M1ZYRjFhR0Z4U21zP29jPTU",
@@ -3054,7 +3426,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "VEQlFMV1JzYUdacFFqWm1hV2hQTUE_b2M9NQ",
@@ -3073,7 +3447,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "VwcVlVbE9VM0ZoUm1rdE1tWk1Wa0U_b2M9NQ",
@@ -3092,7 +3468,30 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
+    },
+    {
+      "id": "UldaNFNHVklXbmx0Tmkxdk9XaDBOZz9vYz01",
+      "title": "熊本県熊本地方を震源とする地震についての会見 | 総理の一日",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51alJhWUMtNDNLV3Z4bTN6SGRyRUM1ZjlWbUF4NTBpdWxRamkybDF5ZXc3SmxoNGZlNlJWZlZYZmpHOGVuaEZGN01zUkdkYkhyMHpDa0NHM2JBN2l3RWZ4SGVIWnltNi1vOWh0Ng?oc=5",
+      "source": "首相官邸",
+      "publishedAt": "2026-07-28T07:00:00.000Z",
+      "summary": "",
+      "official": true,
+      "coverage": "principals",
+      "relevant": true,
+      "japanRelated": true,
+      "category": "首脳・閣僚",
+      "priority": 72,
+      "english": false,
+      "socialPost": false,
+      "verification": "official",
+      "verificationLabel": "一次情報",
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "M04zWm10clNYbElZM1IwWjBSUmJuYz9vYz01",
@@ -3111,7 +3510,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "dG8tZXhwYW5kLXByb3B1bHNpb24tcHJvZHUv",
@@ -3130,7 +3531,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "hZTkZwdk5FbEZXSEpKYlZKaFdIaFo_b2M9NQ",
@@ -3148,7 +3551,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "9XbHVWRE54VG5sbVJFcHRZWHBCT0E_b2M9NQ",
@@ -3167,7 +3572,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "GTkVTMFJyTmtKd2VHczVORWRMTkVFP29jPTU",
@@ -3186,7 +3593,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "monitor",
+      "alertReason": "監視"
     },
     {
       "id": "JGbzFia2ROZFRGelIxYzFlRWxyZUE_b2M9NQ",
@@ -3204,7 +3613,9 @@
       "socialPost": false,
       "verification": "media-report",
       "verificationLabel": "報道",
-      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。"
+      "verificationNote": "報道機関による記事です。一次情報の有無を継続確認します。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "ZExVRmh0VGtVMFh6QlhZMFJKUjJwQj9vYz01",
@@ -3223,7 +3634,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "tb2YtdGhlLWxpYmVyYXRpb24tb2YtZ3VhbS8",
@@ -3242,7 +3655,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     },
     {
       "id": "51bS1pbnRvLXRoZS11bml0ZWQtc3RhdGVzLw",
@@ -3261,7 +3676,9 @@
       "socialPost": false,
       "verification": "official",
       "verificationLabel": "一次情報",
-      "verificationNote": "政府・公的機関の一次情報です。"
+      "verificationNote": "政府・公的機関の一次情報です。",
+      "alertTier": "important",
+      "alertReason": "重要"
     }
   ]
 }
