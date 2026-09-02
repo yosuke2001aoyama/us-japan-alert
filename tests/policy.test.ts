@@ -146,6 +146,25 @@ test("keeps a prime minister visit leaked directly to reporters", () => {
   assert.ok(result.priority >= 80);
 });
 
+test("keeps a Japan-US principal contact planned around a third-country summit", () => {
+  const title = "高市首相、米中会談前後にトランプ氏と接触へ　米朝やICCも懸案";
+  const summary = "高市早苗首相は年内の国際会議の機会にトランプ米大統領との接触を探り、日米の認識を擦り合わせる。";
+  const result = assessPolicyItem(title, summary);
+  assert.equal(result.relevant, true);
+  assert.equal(result.japanRelated, true);
+  assert.equal(result.category, "首脳・閣僚");
+  assert.ok(result.priority >= 80);
+  assert.equal(passesFinalRelevanceGuard(item({
+    title,
+    summary,
+    source: "日本経済新聞",
+    coverage: "major-media",
+    japanRelated: true,
+    priority: result.priority,
+    category: result.category,
+  })), true);
+});
+
 test("keeps major US foreign-policy action without mislabeling it as Japan-related", () => {
   const result = assessPolicyItem("イスラエル情報機関トップが訪米、イラン巡り協議＝報道");
   assert.equal(result.relevant, true);

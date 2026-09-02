@@ -41,7 +41,7 @@ const externalPolicyPattern =
 const systemicPolicyPattern =
   /\b(?:china|taiwan|north korea|russia|ukraine|iran|israel|middle east|european union|e\.?u\.?|nato|g7|g20|indo-pacific|nuclear|missile|ceasefire|sanction|export control|semiconductor|critical mineral|economic security|supply chain|motor vehicle|automotive|steel|aluminum)\b|中国|台湾|北朝鮮|ロシア|ウクライナ|イラン|イスラエル|中東|欧州連合|米中|米露|米韓|インド太平洋|核|ミサイル|停戦|制裁|輸出管理|輸出規制|半導体|重要鉱物|経済安全保障|サプライチェーン|自動車|鉄鋼|アルミ/i;
 const actionPattern =
-  /\b(?:announc|approv|authoriz|ban(?:ned)?|block|cancel|confirm|consider|decid|deploy|designat|disclos|dismiss|fir(?:e|ed)|impos|launch|lift|meet|negotiat|nominat|order|plan|prepar|propos|reach(?:ed)? (?:an? )?(?:deal|agreement)|resign|restrict|reveal|sign|strike|suspend|threaten|told reporters?|visit|vote|warn|joint statement|readout|agreement|talks?|summit|executive order|legislation|direct(?:s|ed)?|respond(?:s|ed|ing)?)\b|発表|表明|合意|決定|検討|調整|見通し|明らかにした|述べた|語った|記者団|取材|インタビュー|指名|承認|発動|会談|協議|訪問|訪米|辞任|解任|派遣|攻撃|署名|声明|方針|要請|警告|法案|可決|否決|訓練|共同声明|指示|対応|救命|救助/i;
+  /\b(?:announc|approv|authoriz|ban(?:ned)?|block|cancel|confirm|consider|contact|decid|deploy|designat|disclos|dismiss|fir(?:e|ed)|impos|launch|lift|meet|negotiat|nominat|order|plan|prepar|propos|reach(?:ed)? (?:an? )?(?:deal|agreement)|resign|restrict|reveal|sign|speak|strike|suspend|threaten|told reporters?|visit|vote|warn|joint statement|readout|agreement|talks?|summit|sidelines?|executive order|legislation|direct(?:s|ed)?|respond(?:s|ed|ing)?)\b|発表|表明|合意|決定|検討|調整|見通し|接触|意思疎通|面会|対話|立ち話|擦り合わせ|探る|明らかにした|述べた|語った|記者団|取材|インタビュー|指名|承認|発動|会談|協議|訪問|訪米|辞任|解任|派遣|攻撃|署名|声明|方針|要請|警告|法案|可決|否決|訓練|共同声明|指示|対応|救命|救助/i;
 const hardActionPattern =
   /\b(?:attack|strike|deploy|impos(?:e|es|ed|ing)|ban(?:s|ned|ning)?|block|restrict|suspend|lift(?:s|ed|ing)?|sanction|export control|ceasefire|tariffs?|executive order|sign(?:s|ed|ing)? (?:an? )?(?:agreement|order|bill)|secur(?:e|es|ed|ing))\b|攻撃|派遣|発動|制裁|輸出管理|輸出規制|関税|大統領令|署名|禁止|停止|解除|封鎖/i;
 const defensePattern =
@@ -202,7 +202,7 @@ export function assessPolicyItem(
   if (defensePattern.test(text)) category = "外交・安保";
   if (economyPattern.test(text) || currencyPolicy || marketAccess) category = "通商・経済";
   if (legislaturePattern.test(text)) category = "議会・政治";
-  if (senior && (/\b(?:summit|visit|meet|talks?)\b|首脳会談|会談|訪米|訪問/i.test(text) || officialJapanEmergency)) category = "首脳・閣僚";
+  if (senior && (/\b(?:summit|visit|meet|talks?|contact|speak|sidelines?)\b|首脳会談|会談|接触|意思疎通|面会|対話|立ち話|訪米|訪問/i.test(text) || officialJapanEmergency)) category = "首脳・閣僚";
 
   let priority = official ? 48 : 38;
   if (officialJapanEmergency) priority += 38;

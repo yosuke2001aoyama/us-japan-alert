@@ -112,6 +112,7 @@ export const sources: Source[] = [
 
   // 訪問・会談の観測（4）
   { name: "訪米・首脳外交", url: q('(総理 OR 首相 OR 外務大臣 OR 防衛大臣 OR 経産大臣) (訪米 OR 日米首脳会談 OR ワシントン) (調整 OR 検討 OR 見通し OR 予定 OR 会談)', "ja", "JP", "JP:ja"), coverage: "bilateral-signals", aggregate: true },
+  { name: "日本主要メディア · 日米要人接触（第三国含む）", url: q('(site:nhk.or.jp OR site:asahi.com OR site:yomiuri.co.jp OR site:mainichi.jp OR site:nikkei.com OR site:kyodonews.jp OR site:jiji.com OR site:newsdig.tbs.co.jp OR site:fnn.jp) (総理 OR 首相 OR 官房長官 OR 外相 OR 外務大臣 OR 防衛相 OR 防衛大臣 OR 財務相 OR 財務大臣 OR 経産相 OR 経済産業大臣) (トランプ OR 米大統領 OR 米副大統領 OR 国務長官 OR 国防長官 OR 財務長官 OR 商務長官 OR 通商代表) (接触 OR 会談 OR 協議 OR 意思疎通 OR 面会 OR 対話 OR 立ち話 OR 擦り合わせ OR 調整 OR 検討 OR 探る OR 予定 OR 見通し)', "ja", "JP", "JP:ja"), coverage: "bilateral-signals", aggregate: true },
   { name: "US–Japan Official Signals", url: q('(site:whitehouse.gov OR site:state.gov OR site:kantei.go.jp OR site:mofa.go.jp) (Japan OR 日米) (summit OR meeting OR visit OR talks OR 会談 OR 訪問)', "en-US", "US", "US:en"), coverage: "bilateral-signals", official: true, aggregate: true },
   { name: "日米同盟・安全保障", url: q('(日米 OR 在日米軍 OR 拡大抑止 OR 2プラス2 OR U.S.-Japan alliance) (会談 OR 協議 OR 訓練 OR statement)', "ja", "JP", "JP:ja"), coverage: "bilateral-signals", aggregate: true },
   { name: "日米通商・経済対話", url: q('(日米 OR Japan U.S. OR 米国産 OR アメリカ産) (関税 OR 通商 OR 投資 OR 為替 OR 通貨 OR 介入 OR 半導体 OR 農産物 OR 輸入解禁 OR 輸出解禁 OR 市場開放 OR 検疫 OR tariff OR trade OR investment OR currency OR forex OR intervention OR market access OR agriculture)', "ja", "JP", "JP:ja"), coverage: "bilateral-signals", aggregate: true },

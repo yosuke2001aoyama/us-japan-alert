@@ -4,7 +4,7 @@ const routineDiplomacyPattern = /(?:thank you very much|warm and cordial|courtes
 
 const currencyInterventionPattern = /(?:日米.{0,16}(?:協調)?介入|協調介入|為替介入|通貨介入|円買い介入|ドル売り円買い|currency intervention|foreign exchange intervention|yen intervention|interven(?:e|es|ed|ing).{0,40}(?:yen|currency|foreign exchange)|(?:yen|currency|foreign exchange).{0,40}interven)/i;
 const japanTradePattern = /(?:(?:日米|日本|対日|日本製|日本企業|米国産|アメリカ産|ジャガイモ|じゃがいも|ばれいしょ|馬鈴薯).{0,80}(?:関税|通商|貿易|輸入|輸出|市場開放|検疫|制裁|輸出管理|輸出規制|投資)|(?:関税|通商|貿易|輸入|輸出|市場開放|検疫|制裁|輸出管理|輸出規制|投資).{0,80}(?:日米|日本|対日|日本製|日本企業|米国産|アメリカ産|ジャガイモ|じゃがいも|ばれいしょ|馬鈴薯)|(?:u\.?s\.?|united states|american).{0,80}(?:japan|japanese).{0,80}(?:tariff|trade|import|export|market access|sanction|export control|investment)|(?:tariff|trade|import|export|market access|sanction|export control|investment).{0,80}(?:japan|japanese))/i;
-const bilateralVisitPattern = /(?:(?:日本の)?(?:総理|首相|外相|外務大臣|防衛大臣|財務大臣|経産大臣).{0,45}(?:訪米|ワシントン訪問|トランプ.{0,18}会談)|(?:大統領|副大統領|国務長官|国防長官|財務長官|商務長官|通商代表).{0,45}(?:訪日|日本訪問)|日米首脳会談|日米.{0,24}(?:2\+2|閣僚会談)|(?:prime minister of japan|japan(?:ese)? prime minister).{0,50}(?:visit(?:s|ed|ing)? (?:the )?u\.?s\.?|washington|meet.{0,25}(?:president|trump))|(?:president|vice president|secretary of state|secretary of defense|treasury secretary|commerce secretary).{0,50}(?:visit(?:s|ed|ing)? japan|u\.?s\.?[-–— ]japan summit))/i;
+const bilateralLeadershipContactPattern = /(?:(?:日本の)?(?:高市|総理|首相|官房長官|外相|外務大臣|防衛相|防衛大臣|財務相|財務大臣|経産相|経済産業大臣).{0,90}(?:トランプ|米大統領|米副大統領|国務長官|国防長官|財務長官|商務長官|通商代表).{0,45}(?:接触|会談|協議|意思疎通|面会|対話|立ち話|擦り合わせ|調整|検討|探る|予定|見通し)|(?:トランプ|米大統領|米副大統領|国務長官|国防長官|財務長官|商務長官|通商代表).{0,90}(?:高市|総理|首相|官房長官|外相|外務大臣|防衛相|防衛大臣|財務相|財務大臣|経産相|経済産業大臣).{0,45}(?:接触|会談|協議|意思疎通|面会|対話|立ち話|擦り合わせ|調整|検討|探る|予定|見通し)|(?:日本の)?(?:総理|首相|外相|外務大臣|防衛大臣|財務大臣|経産大臣).{0,45}(?:訪米|ワシントン訪問|トランプ.{0,18}会談)|(?:大統領|副大統領|国務長官|国防長官|財務長官|商務長官|通商代表).{0,45}(?:訪日|日本訪問)|日米首脳会談|日米.{0,24}(?:2\+2|閣僚会談)|(?:prime minister of japan|japan(?:ese)? prime minister).{0,90}(?:president|trump|vice president|secretary of state|secretary of defense|treasury secretary|commerce secretary).{0,45}(?:meet|meeting|talks?|contact|speak|speaking|sidelines?|visit|summit)|(?:president|trump|vice president|secretary of state|secretary of defense|treasury secretary|commerce secretary).{0,90}(?:prime minister of japan|japan(?:ese)? prime minister|japan(?:ese)? foreign minister).{0,45}(?:meet|meeting|talks?|contact|speak|speaking|sidelines?|visit|summit))/i;
 const japanSecurityPattern = /(?:(?:日米|日本|在日米軍|沖縄|尖閣|台湾|北朝鮮).{0,90}(?:同盟|安全保障|防衛|基地|軍事|ミサイル|核|抑止|共同訓練|部隊|配備)|(?:同盟|安全保障|防衛|基地|軍事|ミサイル|核|抑止|共同訓練|部隊|配備).{0,90}(?:日米|日本|在日米軍|沖縄|尖閣|台湾|北朝鮮)|(?:japan|u\.?s\.?[-–— ]japan|usfj|okinawa|senkaku|taiwan|north korea).{0,90}(?:alliance|security|defen[cs]e|base|military|missile|nuclear|deterrence|deployment))/i;
 const warMemoryPattern = /(?:hiroshima|nagasaki|hibakusha|a-?bomb|atomic bomb(?:ing)?|japan(?:ese)? surrender|pearl harbor|広島|長崎|被爆|被爆者|原爆|日本降伏|真珠湾)/i;
 const emergencyPattern = /(?:(?:北朝鮮|中国|ロシア|north korea|china|russia).{0,60}(?:弾道ミサイル|ミサイル|発射|攻撃|領空|領海|スクランブル|ballistic missile|missile launch|attack|airspace|territorial waters)|(?:弾道ミサイル|ミサイル|発射|攻撃|領空|領海|スクランブル|ballistic missile|missile launch|attack|airspace|territorial waters).{0,60}(?:日本|北朝鮮|中国|ロシア|japan|north korea|china|russia))/i;
@@ -12,7 +12,7 @@ const keyPersonnelPattern = /(?:(?:総理|首相|官房長官|外相|防衛相|�
 const globalPrincipalPattern = /(?:核兵器|核武装|戦争|攻撃|停戦|イラン|台湾|北朝鮮|中国|ロシア|nuclear weapon|war|attack|strike|ceasefire|iran|taiwan|north korea|china|russia)/i;
 
 const completedActionPattern = /(?:実施|発動|決定|合意|署名|成立|可決|否決|承認|解除|撤廃|禁止|停止|凍結|撤回|発射|攻撃|派遣|配備|辞任|解任|更迭|指名|就任|開始|妥結|最終工程へ|前進|announc(?:e|es|ed)|decid(?:e|es|ed)|agree(?:s|d)|sign(?:s|ed)|impos(?:e|es|ed)|launch(?:es|ed)|order(?:s|ed)|direct(?:s|ed)|confirm(?:s|ed)|approv(?:e|es|ed)|lift(?:s|ed)|ban(?:s|ned)|restrict(?:s|ed)|suspend(?:s|ed)|deploy(?:s|ed)|resign(?:s|ed)|dismiss(?:es|ed)|nominate(?:s|d)|appoint(?:s|ed)|reaches? (?:a )?(?:deal|agreement)|takes? effect)/i;
-const imminentActionPattern = /(?:政府筋|関係者|複数の関係者|独自|調整(?:に入った|中|へ)?|検討(?:に入った|中|へ)?|方針(?:を固め|だ)?|見込み|見通し|予定|へ前進|最終段階|最終工程|秒読み|近く|にも(?:発表|実施|決定|開始)|sources? (?:say|said)|officials? (?:say|said)|expected to|planning to|plans? to|considering|likely to|set to|poised to|in talks|may visit)/i;
+const imminentActionPattern = /(?:政府筋|関係者|複数の関係者|独自|調整(?:に入った|中|へ)?|検討(?:に入った|中|へ)?|方針(?:を固め|だ)?|見込み|見通し|予定|接触(?:を探る|へ|予定|の方向)?|意思疎通|面会|対話|立ち話|擦り合わせ|へ前進|最終段階|最終工程|秒読み|近く|にも(?:発表|実施|決定|開始)|sources? (?:say|said)|officials? (?:say|said)|expected to|planning to|plans? to|considering|likely to|set to|poised to|in talks|may (?:meet|speak|visit)|seek(?:s|ing)? (?:a )?(?:meeting|contact)|on the sidelines)/i;
 const materialStatementPattern = /(?:声明|演説|記者団|インタビュー|明らかにした|表明|警告|批判|否定|要求|要請|指示|容認できない|認めない|許さない|すべきだ|述べた|語った|statement|remarks?|speech|interview|told reporters?|warn(?:s|ed)?|demand(?:s|ed)?|oppose(?:s|d)?|support(?:s|ed)?|cannot|must not|will not|should not)/i;
 const principalPattern = /(?:トランプ|大統領|副大統領|総理|首相|官房長官|国務長官|国防長官|財務長官|商務長官|通商代表|外相|防衛相|財務相|経産相|senator|representative|member of congress|president|vice president|prime minister|secretary of state|secretary of defense|treasury secretary|commerce secretary|trade representative)/i;
 
@@ -48,7 +48,7 @@ export function classifyImmediateAlert(item, options = {}) {
 
   const currency = currencyInterventionPattern.test(text);
   const trade = japanTradePattern.test(text);
-  const visit = bilateralVisitPattern.test(text);
+  const visit = bilateralLeadershipContactPattern.test(text);
   const security = japanSecurityPattern.test(text);
   const warMemory = warMemoryPattern.test(text) && principalPattern.test(text);
   const emergency = emergencyPattern.test(text);
@@ -102,7 +102,7 @@ export function classifyTimelineImportance(item, options = {}) {
 
   const highImpact = currencyInterventionPattern.test(text)
     || japanTradePattern.test(text)
-    || bilateralVisitPattern.test(text)
+    || bilateralLeadershipContactPattern.test(text)
     || japanSecurityPattern.test(text)
     || (warMemoryPattern.test(text) && principalPattern.test(text))
     || emergencyPattern.test(text)

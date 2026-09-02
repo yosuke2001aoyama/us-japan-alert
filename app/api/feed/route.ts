@@ -2,6 +2,7 @@ import { collect } from "../../../lib/feeds";
 import { collectDirectOfficial } from "../../../lib/official-pages";
 import { collectDirectSocial } from "../../../lib/social-direct";
 import { collectJapaneseCriticalMedia } from "../../../lib/japanese-tariff-media";
+import { collectNikkeiBilateralMedia } from "../../../lib/nikkei-bilateral-media";
 import { canonicalHeadline, canonicalPublisher } from "../../../lib/policy";
 import { passesFinalRelevanceGuard } from "../../../lib/relevance-guard";
 import { collectSpokenSignals } from "../../../lib/spoken-signals";
@@ -9,16 +10,16 @@ import { classifyTimelineImportance } from "../../../scripts/alert-eligibility.m
 
 export const dynamic = "force-dynamic";
 
-const observationPattern = /調整|検討|見通し|予定|方向|政府筋|関係者|複数の関係者|記者団|取材|インタビュー|明らかにした|述べた|語った|sources?|officials?|told reporters?|speaking to reporters?|interview|revealed|disclosed|expected|planning|considering|likely|may visit|visit planned|in talks/i;
+const observationPattern = /調整|検討|見通し|予定|方向|政府筋|関係者|複数の関係者|接触(?:へ|を探る|予定|の方向)|意思疎通|面会.{0,12}(?:予定|調整|検討)|立ち話.{0,12}(?:予定|調整|検討)|擦り合わせ|探る|記者団|取材|インタビュー|明らかにした|述べた|語った|sources?|officials?|told reporters?|speaking to reporters?|interview|revealed|disclosed|expected|planning|considering|likely|may (?:meet|speak|visit)|visit planned|in talks|on the sidelines/i;
 
 export async function GET(request: Request) {
   const generatedAt = Date.now();
-  const [base, direct, social, criticalMedia, spoken] = await Promise.all([
-    collect(), collectDirectOfficial(), collectDirectSocial(), collectJapaneseCriticalMedia(), collectSpokenSignals(),
+  const [base, direct, social, criticalMedia, nikkeiMedia, spoken] = await Promise.all([
+    collect(), collectDirectOfficial(), collectDirectSocial(), collectJapaneseCriticalMedia(), collectNikkeiBilateralMedia(), collectSpokenSignals(),
   ]);
   const seenUrls = new Set<string>();
   const seenTitles = new Set<string>();
-  const items = [...spoken.items, ...social.items, ...direct.items, ...criticalMedia.items, ...base.items]
+  const items = [...spoken.items, ...social.items, ...direct.items, ...criticalMedia.items, ...nikkeiMedia.items, ...base.items]
     .filter(passesFinalRelevanceGuard)
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt) || b.priority - a.priority)
     .filter((item) => {
@@ -66,15 +67,16 @@ export async function GET(request: Request) {
     items,
     sources: {
       ...base.sources,
-      ok: base.sources.ok + baseRecovered + direct.ok + social.ok + criticalMedia.ok + spoken.ok,
-      failed: baseFailed.length + direct.failed + social.failed + criticalMedia.failed + spoken.failed,
-      total: base.sources.total + direct.total + social.total + criticalMedia.total + spoken.total,
-      failedNames: [...baseFailed, ...direct.failedNames, ...social.failedNames, ...criticalMedia.failedNames, ...spoken.failedNames],
+      ok: base.sources.ok + baseRecovered + direct.ok + social.ok + criticalMedia.ok + nikkeiMedia.ok + spoken.ok,
+      failed: baseFailed.length + direct.failed + social.failed + criticalMedia.failed + nikkeiMedia.failed + spoken.failed,
+      total: base.sources.total + direct.total + social.total + criticalMedia.total + nikkeiMedia.total + spoken.total,
+      failedNames: [...baseFailed, ...direct.failedNames, ...social.failedNames, ...criticalMedia.failedNames, ...nikkeiMedia.failedNames, ...spoken.failedNames],
       coverage: [
         ...(base.sources.coverage || []).map((group) => group.id === "jp-security" && hasModFallback ? { ...group, ok: group.total } : group),
         { id: "direct-official", label: "一次情報・直接巡回", ok: direct.ok, total: direct.total },
         { id: "official-social", label: "公式SNS・直接巡回", ok: social.ok, total: social.total },
         { id: "jp-critical-media", label: "日本主要メディア・重要経済報道", ok: criticalMedia.ok, total: criticalMedia.total },
+        { id: "nikkei-bilateral-media", label: "日経・日米関係／外交面", ok: nikkeiMedia.ok, total: nikkeiMedia.total },
         { id: "spoken-signals", label: "機中取材・演説・動画文字起こし", ok: spoken.ok, total: spoken.total },
       ],
       capabilities: {

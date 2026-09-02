@@ -119,6 +119,16 @@ test("early bilateral visit and market-access reports are immediate alerts", () 
   assert.equal(potatoes.notify, true);
 });
 
+test("a reported Japan-US principal contact around a third-country summit is immediate", () => {
+  const result = classifyImmediateAlert(recent({
+    title: "高市首相、米中会談前後にトランプ氏と接触へ　米朝やICCも懸案",
+    summary: "高市早苗首相は国際会議の機会にトランプ米大統領との接触を探り、日米の認識を擦り合わせる。",
+    priority: 98,
+  }), { now: NOW });
+  assert.equal(result.notify, true);
+  assert.equal(result.code, "early-reported-signal");
+});
+
 test("currency intervention action and a principal's spoken disclosure are immediate", () => {
   const action = classifyImmediateAlert(recent({
     title: "日米政府が円買いの協調介入を実施",
